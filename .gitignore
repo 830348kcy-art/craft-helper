@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env*.local
+.DS_Store
+*.log
+
+# Google service account key — 절대 커밋 금지
+google-key.json
+*-service-account-*.json
+
+.vercel

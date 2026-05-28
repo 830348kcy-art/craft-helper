@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100;
+    font-feature-settings: "ss01", "tnum";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* 위키 본문 스타일 */
+  .prose-wiki a {
+    @apply text-link dark:text-link-dark underline-offset-2 hover:underline transition-colors;
+  }
+  .prose-wiki h2 {
+    @apply text-2xl font-bold mt-12 mb-4 pb-2 border-b-2 border-zinc-200 dark:border-zinc-800 scroll-mt-24 tracking-tight;
+  }
+  .prose-wiki h3 {
+    @apply text-lg font-semibold mt-8 mb-3 scroll-mt-24 text-zinc-800 dark:text-zinc-200;
+  }
+  .prose-wiki p {
+    @apply leading-[1.75] my-3 text-[15.5px] text-zinc-700 dark:text-zinc-300;
+  }
+  .prose-wiki strong {
+    @apply text-zinc-900 dark:text-zinc-100 font-semibold;
+  }
+  .prose-wiki ul {
+    @apply list-disc pl-6 my-3 space-y-1.5 marker:text-zinc-400;
+  }
+  .prose-wiki ol {
+    @apply list-decimal pl-6 my-3 space-y-1.5 marker:text-zinc-400 marker:font-medium;
+  }
+  .prose-wiki li {
+    @apply text-zinc-700 dark:text-zinc-300 leading-relaxed;
+  }
+  .prose-wiki code {
+    @apply bg-zinc-100 dark:bg-zinc-800 px-1.5 py-0.5 rounded text-[0.875em] font-medium text-brand-700 dark:text-brand-300;
+  }
+  .prose-wiki pre {
+    @apply my-4 p-4 rounded-lg bg-zinc-900 dark:bg-zinc-950 text-zinc-100 text-[13px] leading-relaxed overflow-x-auto border border-zinc-800;
+  }
+  .prose-wiki pre code {
+    @apply bg-transparent text-inherit p-0 rounded-none font-mono;
+  }
+}
+
+/* 스크롤바 미세 다듬기 */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { @apply bg-zinc-300 dark:bg-zinc-700 rounded-full; }
+::-webkit-scrollbar-track { @apply bg-transparent; }
