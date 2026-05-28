@@ -6,8 +6,8 @@ import { Header } from "./components/Header";
 import { ScrollToTop } from "./components/ScrollToTop";
 
 export const metadata: Metadata = {
-  title: "마인크래프트 위키",
-  description: "한국어 마인크래프트 위키 — 블록, 아이템, 몹, 레드스톤 가이드.",
+  title: "Craft Helper",
+  description: "Craft Helper — 한국어 마인크래프트 가이드. 블록, 아이템, 몹, 레드스톤, 자동 농장.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <a href="https://ko.minecraft.wiki" target="_blank" rel="noreferrer noopener" className="hover:underline">공식 ko.minecraft.wiki</a>
               </div>
               <p className="leading-relaxed">
-                © {new Date().getFullYear()} 마인크래프트 위키 (학습용 데모) ·
+                © {new Date().getFullYear()} Craft Helper (학습용 데모) ·
                 본문은 <strong>CC BY-NC-SA 3.0</strong>으로 제공됩니다 ·
                 마인크래프트는 <strong>Mojang Studios</strong>의 상표이며 본 사이트는 Mojang 또는 Microsoft와 무관합니다.
               </p>

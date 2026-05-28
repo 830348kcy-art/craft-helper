@@ -26,18 +26,18 @@ export default async function HomePage() {
         <div className="bg-white dark:bg-zinc-900 border border-wiki-border dark:border-zinc-700 shadow-sm">
           <div className="bg-wiki-panelHead/70 dark:bg-zinc-800 border-b border-wiki-border dark:border-zinc-700 px-6 py-3">
             <h1 className="font-wiki text-[1.8rem] font-normal text-wiki-text dark:text-zinc-100 leading-tight">
-              마인크래프트 위키에 오신 것을 환영합니다
+              Craft Helper에 오신 것을 환영합니다
             </h1>
             <p className="text-[13px] text-wiki-muted dark:text-zinc-400 mt-0.5">
-              누구나 참여할 수 있는 한국어 마인크래프트 백과사전
+              한국어 마인크래프트 가이드 · 블록 · 아이템 · 레시피 · 자동 농장
             </p>
           </div>
 
           <div className="p-6 grid md:grid-cols-[1fr_280px] gap-6">
             <div className="prose-wiki">
               <p>
-                <strong>마인크래프트 위키</strong>는 모장 스튜디오의 샌드박스 게임{" "}
-                <em>마인크래프트</em>에 관한 모든 정보를 다루는 한국어 백과사전입니다.
+                <strong>Craft Helper</strong>는 모장 스튜디오의 샌드박스 게임{" "}
+                <em>마인크래프트</em>를 더 쉽고 재밌게 즐기기 위한 한국어 가이드 사이트입니다.
                 현재 <strong>{stats.blocks}</strong>개의 블록, <strong>{stats.items}</strong>개의 아이템,{" "}
                 <strong>{stats.recipes}</strong>개의 레시피와 4편의 주요 가이드가 등록되어 있습니다.
               </p>

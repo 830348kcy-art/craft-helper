@@ -22,8 +22,8 @@ export function Header() {
             />
           </span>
           <span className="hidden sm:flex flex-col leading-tight">
-            <span className="text-[15px] font-semibold tracking-tight">마인크래프트 위키</span>
-            <span className="text-[10px] text-white/60 font-normal -mt-0.5">한국어 비공식</span>
+            <span className="text-[15px] font-semibold tracking-tight">Craft Helper</span>
+            <span className="text-[10px] text-white/60 font-normal -mt-0.5">한국어 마인크래프트 가이드</span>
           </span>
         </Link>
 
