@@ -26,9 +26,16 @@ const ACCENT: Record<string, string> = {
   recipe: "violet",
 };
 
+// 정적 배포에서 searchParams 사용 허용
+export const dynamic = "force-static";
+
 export async function generateStaticParams() {
   const all = await getAllItems();
-  return all.map((r) => ({ id: r.id }));
+  // 중복 ID 제거 (같은 ID의 item/recipe가 있을 때 하나만 생성)
+  const seen = new Set<string>();
+  return all
+    .filter((r) => { if (seen.has(r.id)) return false; seen.add(r.id); return true; })
+    .map((r) => ({ id: r.id }));
 }
 
 export default async function SearchDetailPage({
@@ -38,10 +45,19 @@ export default async function SearchDetailPage({
   params: { id: string };
   searchParams: { type?: string };
 }) {
-  const type = searchParams.type ?? "item";
   const all = await getAllItems();
-  const entry = all.find((r) => r.id === params.id && r.type === type);
+  // type 파라미터가 없으면 데이터에 존재하는 타입 중 우선순위로 자동 감지
+  const preferredType = searchParams.type;
+  const entry =
+    (preferredType
+      ? all.find((r) => r.id === params.id && r.type === preferredType)
+      : undefined) ??
+    all.find((r) => r.id === params.id && r.type === "recipe") ??
+    all.find((r) => r.id === params.id && r.type === "item") ??
+    all.find((r) => r.id === params.id && r.type === "block") ??
+    all.find((r) => r.id === params.id);
   if (!entry) return notFound();
+  const type = entry.type;
 
   const { blocks, items, recipes } = await loadAllData();
   const raw: any =
