@@ -138,20 +138,6 @@ export default async function HomePage() {
           </ul>
         </WikiSection>
 
-        {/* 도움말 박스 */}
-        <div className="mt-6 border-l-4 border-wiki-accent bg-wiki-panel/50 dark:bg-zinc-900 dark:border-brand-500 p-4 text-[13.5px] text-wiki-text dark:text-zinc-300 leading-relaxed">
-          <strong className="block mb-1">💡 알림</strong>
-          이 위키는 학습용 데모입니다. 공식 정보는{" "}
-          <a
-            href="https://ko.minecraft.wiki"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="text-link dark:text-link-dark hover:underline"
-          >
-            ko.minecraft.wiki
-          </a>
-          를 참고하세요.
-        </div>
       </main>
     </div>
   );
