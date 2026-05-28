@@ -1,164 +1,193 @@
 import Link from "next/link";
-import { categories, featuredGuides } from "@/lib/data";
-import { CategoryCard } from "./components/CategoryCard";
-import { HeroSearch } from "./components/HeroSearch";
+import { categories, featuredGuides, docs } from "@/lib/data";
 import { SmartIcon } from "./components/SmartIcon";
-import { getBlockTexture, getItemTexture } from "@/lib/textures";
+import { getBlockTexture, getItemTexture, getCategoryTexture } from "@/lib/textures";
 import { loadAllData } from "@/lib/sheets";
 
-// 카드별 대표 텍스처 매핑
 const GUIDE_TEXTURE: Record<string, string> = {
-  "getting-started": getItemTexture("oak_planks"),
+  "getting-started": getBlockTexture("crafting_table"),
   "diamond":         getItemTexture("diamond"),
   "nether-portal":   getBlockTexture("obsidian"),
   "auto-farm":       getItemTexture("wheat"),
 };
 
-const GUIDE_GRADIENT: Record<string, string> = {
-  "getting-started": "from-emerald-400 via-green-500 to-teal-600",
-  "diamond":         "from-cyan-400 via-sky-500 to-blue-600",
-  "nether-portal":   "from-rose-500 via-red-600 to-orange-700",
-  "auto-farm":       "from-yellow-400 via-amber-500 to-orange-500",
-};
-
 export default async function HomePage() {
   const { blocks, items, recipes } = await loadAllData();
   const stats = {
-    blocks:  blocks.length,
-    items:   items.length,
+    blocks: blocks.length,
+    items: items.length,
     recipes: recipes.length,
   };
 
   return (
-    <main className="max-w-[1200px] mx-auto px-4 sm:px-6">
-      {/* HERO */}
-      <section className="pt-20 pb-12 text-center relative">
-        {/* 픽셀 그리드 배경 */}
-        <div className="absolute inset-0 -z-10 opacity-[0.03] pointer-events-none"
-             style={{ backgroundImage: "linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)", backgroundSize: "24px 24px" }} />
-
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-100 dark:bg-brand-900/40 text-brand-700 dark:text-brand-200 text-xs font-medium mb-5">
-          <span>⛏</span> 한국어 마인크래프트 위키
-        </div>
-        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.1]">
-          궁금한 점을 <span className="bg-gradient-to-r from-brand-500 to-emerald-500 bg-clip-text text-transparent">검색해보세요!</span>
-        </h1>
-        <p className="mt-5 text-zinc-600 dark:text-zinc-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-          블록부터 레드스톤 회로까지, 마인크래프트의 모든 것.<br className="hidden sm:block" />
-          처음 시작하는 분도 베테랑도 환영합니다.
-        </p>
-
-        <HeroSearch />
-
-        {/* 데이터 통계 */}
-        <div className="mt-10 inline-flex items-center gap-6 sm:gap-10 px-6 py-4 rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 shadow-sm">
-          <Stat number={stats.blocks}  label="블록"   />
-          <Divider />
-          <Stat number={stats.items}   label="아이템" />
-          <Divider />
-          <Stat number={stats.recipes} label="레시피" />
-        </div>
-      </section>
-
-      {/* FEATURED */}
-      <section className="py-10">
-        <div className="flex items-end justify-between mb-5">
-          <div>
-            <h2 className="text-2xl font-bold">📖 주요 가이드</h2>
-            <p className="text-sm text-zinc-500 mt-1">한눈에 보는 핵심 문서</p>
+    <div className="bg-wiki-bg dark:bg-zinc-950 min-h-[80vh]">
+      <main className="max-w-[1200px] mx-auto px-4 sm:px-6 py-6">
+        {/* 대문 헤더 */}
+        <div className="bg-white dark:bg-zinc-900 border border-wiki-border dark:border-zinc-700 shadow-sm">
+          <div className="bg-wiki-panelHead/70 dark:bg-zinc-800 border-b border-wiki-border dark:border-zinc-700 px-6 py-3">
+            <h1 className="font-wiki text-[1.8rem] font-normal text-wiki-text dark:text-zinc-100 leading-tight">
+              마인크래프트 위키에 오신 것을 환영합니다
+            </h1>
+            <p className="text-[13px] text-wiki-muted dark:text-zinc-400 mt-0.5">
+              누구나 참여할 수 있는 한국어 마인크래프트 백과사전
+            </p>
           </div>
-          <Link href="/category/items" className="text-sm text-link dark:text-link-dark hover:underline">
-            전체 보기 →
-          </Link>
-        </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          {featuredGuides.map((g) => {
-            const gradient = GUIDE_GRADIENT[g.slug] ?? "from-brand-400 via-brand-500 to-emerald-600";
-            const texture = GUIDE_TEXTURE[g.slug];
-            return (
-              <Link
-                key={g.slug}
-                href={g.href}
-                className="group rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:shadow-2xl hover:-translate-y-1 transition-all duration-200"
-              >
-                <div className={`relative h-36 bg-gradient-to-br ${gradient} flex items-center justify-center overflow-hidden`}>
-                  {/* 픽셀 패턴 */}
-                  <div className="absolute inset-0 opacity-10"
-                       style={{ backgroundImage: "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)", backgroundSize: "16px 16px" }} />
-                  <div className="relative p-3 rounded-xl bg-white/30 backdrop-blur-sm border border-white/40 shadow-lg group-hover:scale-110 transition-transform duration-200">
-                    <SmartIcon image={texture} emoji={g.emoji} size="xl" alt={g.title} />
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="font-bold text-lg group-hover:text-brand-600 dark:group-hover:text-brand-400 transition">
-                    {g.title}
-                  </h3>
-                  <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed">
-                    {g.description}
-                  </p>
-                  <span className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-brand-600 dark:text-brand-400">
-                    자세히 읽기 <span aria-hidden className="group-hover:translate-x-0.5 transition-transform">→</span>
-                  </span>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
+          <div className="p-6 grid md:grid-cols-[1fr_280px] gap-6">
+            <div className="prose-wiki">
+              <p>
+                <strong>마인크래프트 위키</strong>는 모장 스튜디오의 샌드박스 게임{" "}
+                <em>마인크래프트</em>에 관한 모든 정보를 다루는 한국어 백과사전입니다.
+                현재 <strong>{stats.blocks}</strong>개의 블록, <strong>{stats.items}</strong>개의 아이템,{" "}
+                <strong>{stats.recipes}</strong>개의 레시피와 4편의 주요 가이드가 등록되어 있습니다.
+              </p>
+              <p>
+                처음 마인크래프트를 시작하시는 분은{" "}
+                <Link href="/wiki/getting-started">처음 시작하기</Link>를 먼저 읽어보시고,
+                광물을 찾고 계신다면 <Link href="/wiki/diamond">다이아몬드</Link> 문서를,
+                네더 차원을 탐험하려면 <Link href="/wiki/nether-portal">네더 차원문</Link>을 참고하세요.
+                자동화에 관심 있다면 <Link href="/wiki/auto-farm">자동 농장</Link>{" "}
+                가이드에서 8가지 농장을 만드는 방법을 확인할 수 있습니다.
+              </p>
+            </div>
 
-      {/* CATEGORIES */}
-      <section className="py-10">
-        <div className="mb-5">
-          <h2 className="text-2xl font-bold">🗂 카테고리</h2>
-          <p className="text-sm text-zinc-500 mt-1">관심 있는 분야를 골라보세요</p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {categories.map((c) => (
-            <CategoryCard key={c.slug} category={c} />
-          ))}
-        </div>
-      </section>
-
-      {/* 보조 영역 */}
-      <section className="py-12 grid md:grid-cols-2 gap-5">
-        <div className="relative rounded-2xl border border-zinc-200 dark:border-zinc-800 p-6 bg-gradient-to-br from-zinc-50 to-white dark:from-zinc-900 dark:to-zinc-950 overflow-hidden">
-          <div className="absolute top-4 right-4 opacity-10">
-            <SmartIcon image={getItemTexture("book")} emoji="📚" size="xl" />
+            {/* 우측 통계 박스 */}
+            <aside className="border border-wiki-border dark:border-zinc-700 bg-white dark:bg-zinc-900 text-[13px]">
+              <div className="bg-wiki-panelHead dark:bg-zinc-800 border-b border-wiki-border dark:border-zinc-700 px-3 py-2 text-center font-bold">
+                위키 통계
+              </div>
+              <dl className="divide-y divide-wiki-borderSoft dark:divide-zinc-800">
+                <StatRow label="블록"  value={stats.blocks} />
+                <StatRow label="아이템" value={stats.items} />
+                <StatRow label="레시피" value={stats.recipes} />
+                <StatRow label="가이드" value={Object.keys(docs).length} />
+              </dl>
+            </aside>
           </div>
-          <h3 className="font-bold text-lg mb-2">🆕 최근 업데이트된 문서</h3>
-          <ul className="text-sm space-y-1.5 text-zinc-700 dark:text-zinc-300 relative">
-            <li>• <Link href="/wiki/diamond" className="text-link dark:text-link-dark hover:underline">다이아몬드</Link> — Y레벨 분포 변화 반영</li>
-            <li>• <Link href="/wiki/nether-portal" className="text-link dark:text-link-dark hover:underline">네더 차원문</Link> — 1:8 비율 가이드</li>
-            <li>• <Link href="/wiki/auto-farm" className="text-link dark:text-link-dark hover:underline">자동 농장</Link> — 8가지 농장 단계별 제작법</li>
+        </div>
+
+        {/* 주요 가이드 */}
+        <WikiSection title="주요 가이드" subtitle="자주 찾는 핵심 문서">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {featuredGuides.map((g) => {
+              const texture = GUIDE_TEXTURE[g.slug];
+              return (
+                <li key={g.slug}>
+                  <Link
+                    href={g.href}
+                    className="flex items-start gap-3 p-3 border border-wiki-borderSoft dark:border-zinc-700 bg-white dark:bg-zinc-900 hover:bg-wiki-panel/50 dark:hover:bg-zinc-800 transition"
+                  >
+                    <div className="shrink-0 p-2 border border-wiki-borderSoft dark:border-zinc-700 bg-wiki-panel dark:bg-zinc-800">
+                      <SmartIcon image={texture} emoji={g.emoji} size="lg" alt={g.title} />
+                    </div>
+                    <div className="min-w-0">
+                      <p className="text-[15px] font-bold text-link dark:text-link-dark hover:underline">
+                        {g.title}
+                      </p>
+                      <p className="text-[12.5px] text-wiki-muted dark:text-zinc-400 mt-1 leading-snug">
+                        {g.description}
+                      </p>
+                    </div>
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
-        </div>
-        <div className="relative rounded-2xl border border-zinc-200 dark:border-zinc-800 p-6 bg-gradient-to-br from-brand-50 to-white dark:from-brand-950/30 dark:to-zinc-950 overflow-hidden">
-          <div className="absolute top-4 right-4 opacity-10">
-            <SmartIcon image={getItemTexture("diamond_pickaxe")} emoji="⛏" size="xl" />
-          </div>
-          <h3 className="font-bold text-lg mb-2">💡 처음이신가요?</h3>
-          <p className="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed relative">
-            마인크래프트가 처음이라면 <Link href="/wiki/getting-started" className="text-link dark:text-link-dark hover:underline font-medium">처음 시작하기</Link> 가이드부터 읽어보세요.
-            첫 날 밤을 안전하게 넘기는 방법을 알려드립니다.
-          </p>
-        </div>
-      </section>
-    </main>
-  );
-}
+        </WikiSection>
 
-function Stat({ number, label }: { number: number; label: string }) {
-  return (
-    <div className="text-center">
-      <div className="text-2xl sm:text-3xl font-extrabold text-brand-600 dark:text-brand-400">
-        {number}
-      </div>
-      <div className="text-xs text-zinc-500 mt-0.5">{label}</div>
+        {/* 카테고리 */}
+        <WikiSection title="분류" subtitle="관심 분야로 탐색">
+          <ul className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+            {categories.map((c) => (
+              <li key={c.slug}>
+                <Link
+                  href={`/category/${c.slug}`}
+                  className="flex items-center gap-2 p-2.5 border border-wiki-borderSoft dark:border-zinc-700 bg-white dark:bg-zinc-900 hover:bg-wiki-panel/50 dark:hover:bg-zinc-800 transition"
+                >
+                  <SmartIcon image={getCategoryTexture(c.slug)} emoji={c.emoji} size="sm" alt={c.name} />
+                  <span className="text-[13.5px] text-link dark:text-link-dark hover:underline font-medium">
+                    {c.name}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </WikiSection>
+
+        {/* 알림 박스 */}
+        <WikiSection title="최근 변경" subtitle="이번 주 업데이트">
+          <ul className="space-y-1.5 text-[14px] prose-wiki">
+            <li>
+              <span className="text-wiki-muted dark:text-zinc-500 text-[12px] mr-2">
+                {new Date().toLocaleDateString("ko-KR")}
+              </span>
+              <Link href="/wiki/auto-farm">자동 농장</Link> — 8가지 농장 단계별 제작법 및 영상 추가
+            </li>
+            <li>
+              <span className="text-wiki-muted dark:text-zinc-500 text-[12px] mr-2">
+                {new Date().toLocaleDateString("ko-KR")}
+              </span>
+              <Link href="/wiki/diamond">다이아몬드</Link> — Y레벨 분포 변화 반영
+            </li>
+            <li>
+              <span className="text-wiki-muted dark:text-zinc-500 text-[12px] mr-2">
+                {new Date().toLocaleDateString("ko-KR")}
+              </span>
+              <Link href="/wiki/nether-portal">네더 차원문</Link> — 1:8 비율 가이드
+            </li>
+          </ul>
+        </WikiSection>
+
+        {/* 도움말 박스 */}
+        <div className="mt-6 border-l-4 border-wiki-accent bg-wiki-panel/50 dark:bg-zinc-900 dark:border-brand-500 p-4 text-[13.5px] text-wiki-text dark:text-zinc-300 leading-relaxed">
+          <strong className="block mb-1">💡 알림</strong>
+          이 위키는 학습용 데모입니다. 공식 정보는{" "}
+          <a
+            href="https://ko.minecraft.wiki"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="text-link dark:text-link-dark hover:underline"
+          >
+            ko.minecraft.wiki
+          </a>
+          를 참고하세요.
+        </div>
+      </main>
     </div>
   );
 }
 
-function Divider() {
-  return <div className="w-px h-10 bg-zinc-200 dark:bg-zinc-800" />;
+function WikiSection({
+  title,
+  subtitle,
+  children,
+}: {
+  title: string;
+  subtitle?: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <section className="mt-6 bg-white dark:bg-zinc-900 border border-wiki-border dark:border-zinc-700 shadow-sm">
+      <div className="bg-wiki-panelHead/70 dark:bg-zinc-800 border-b border-wiki-border dark:border-zinc-700 px-5 py-2.5">
+        <h2 className="font-wiki text-[1.25rem] font-normal text-wiki-text dark:text-zinc-100">
+          {title}
+        </h2>
+        {subtitle && (
+          <p className="text-[12px] text-wiki-muted dark:text-zinc-400 mt-0.5">{subtitle}</p>
+        )}
+      </div>
+      <div className="p-5">{children}</div>
+    </section>
+  );
+}
+
+function StatRow({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="grid grid-cols-2 px-3 py-1.5">
+      <dt className="text-wiki-muted dark:text-zinc-400">{label}</dt>
+      <dd className="text-right font-bold text-wiki-text dark:text-zinc-100">
+        {value.toLocaleString()}
+      </dd>
+    </div>
+  );
 }

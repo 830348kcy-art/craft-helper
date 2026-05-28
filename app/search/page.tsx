@@ -33,7 +33,7 @@ export default async function SearchPage({
   ].filter((g) => g.data.length > 0);
 
   return (
-    <main className="max-w-[900px] mx-auto px-4 sm:px-6 py-8">
+    <main className="max-w-[900px] mx-auto px-4 sm:px-6 py-8 bg-wiki-bg dark:bg-zinc-950 min-h-[80vh]">
       <Breadcrumb items={[{ label: "홈", href: "/" }, { label: "검색 결과" }]} />
 
       {/* 검색 헤더 */}

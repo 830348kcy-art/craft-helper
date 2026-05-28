@@ -67,7 +67,7 @@ export default async function SearchDetailPage({
           .slice(0, 6);
 
   return (
-    <main className="max-w-[920px] mx-auto px-4 sm:px-6 py-8">
+    <main className="max-w-[920px] mx-auto px-4 sm:px-6 py-8 bg-wiki-bg dark:bg-zinc-950 min-h-[80vh]">
       <Breadcrumb
         items={[
           { label: "홈", href: "/" },

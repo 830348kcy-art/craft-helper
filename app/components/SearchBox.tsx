@@ -57,10 +57,10 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
   return (
     <div ref={boxRef} className={`relative ${className}`}>
       <form onSubmit={submit}>
-        <div className={`flex items-center h-9 rounded-md border bg-zinc-50 dark:bg-zinc-900 px-3 transition-all ${
-          focused ? "border-brand-500 ring-2 ring-brand-500/30" : "border-zinc-200 dark:border-zinc-700"
+        <div className={`flex items-center h-9 rounded-sm border bg-white px-3 transition-all ${
+          focused ? "border-white ring-2 ring-white/40" : "border-white/30"
         }`}>
-          <span className="text-zinc-400 text-sm shrink-0">
+          <span className="text-zinc-500 text-sm shrink-0">
             {loading ? <span className="animate-spin inline-block">⏳</span> : "🔎"}
           </span>
           <input
@@ -71,7 +71,7 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
             onFocus={() => { setFocused(true); if (results.length) setOpen(true); }}
             onBlur={() => setFocused(false)}
             placeholder={placeholder}
-            className="bg-transparent flex-1 px-2 text-sm outline-none placeholder:text-zinc-400"
+            className="bg-transparent flex-1 px-2 text-sm text-wiki-text outline-none placeholder:text-zinc-400"
           />
           {query && (
             <button type="button" onClick={() => { setQuery(""); setOpen(false); inputRef.current?.focus(); }} className="text-zinc-400 hover:text-zinc-600 text-xs ml-1">✕</button>

@@ -15,7 +15,7 @@ export function ThemeToggle() {
       type="button"
       aria-label="테마 전환"
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className="w-9 h-9 inline-flex items-center justify-center rounded-md border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition"
+      className="w-9 h-9 inline-flex items-center justify-center rounded-sm border border-white/20 text-white hover:bg-white/10 transition"
     >
       <span className="text-base">{isDark ? "🌙" : "☀️"}</span>
     </button>
