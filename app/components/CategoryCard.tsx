@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Category } from "@/lib/data";
+import { getCategoryTexture } from "@/lib/textures";
+import { SmartIcon } from "./SmartIcon";
 
 export function CategoryCard({ category }: { category: Category }) {
+  const texture = getCategoryTexture(category.slug);
   return (
     <Link
       href={`/category/${category.slug}`}
@@ -14,11 +17,11 @@ export function CategoryCard({ category }: { category: Category }) {
 
       <div className="relative p-5">
         <div className={`inline-flex w-fit items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium ${category.color} mb-3`}>
-          <span>{category.emoji}</span>
+          <SmartIcon image={texture} emoji={category.emoji} size="xs" alt={category.name} />
           <span>{category.name}</span>
         </div>
         <div className="flex items-center gap-3 mb-2">
-          <span className="text-3xl">{category.emoji}</span>
+          <SmartIcon image={texture} emoji={category.emoji} size="lg" alt={category.name} framed />
           <h3 className="text-lg font-bold group-hover:text-brand-600 dark:group-hover:text-brand-400 transition">
             {category.name}
           </h3>

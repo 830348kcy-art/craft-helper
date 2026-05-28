@@ -12,11 +12,13 @@ const TYPE_COLOR: Record<string, string> = {
 export function RelatedItems({
   title,
   emoji,
+  image,
   items,
   emptyText,
 }: {
   title: string;
   emoji: string;
+  image?: string;
   items: SearchResultItem[];
   emptyText?: string;
 }) {
@@ -24,7 +26,9 @@ export function RelatedItems({
     if (!emptyText) return null;
     return (
       <section className="mt-8">
-        <h2 className="text-lg font-bold mb-3">{emoji} {title}</h2>
+        <h2 className="text-lg font-bold mb-3 flex items-center gap-2">
+          <SmartIcon image={image} emoji={emoji} size="sm" alt={title} /> {title}
+        </h2>
         <p className="text-sm text-zinc-500">{emptyText}</p>
       </section>
     );
@@ -33,7 +37,9 @@ export function RelatedItems({
   return (
     <section className="mt-8">
       <div className="flex items-center gap-2 mb-3">
-        <h2 className="text-lg font-bold">{emoji} {title}</h2>
+        <h2 className="text-lg font-bold flex items-center gap-2">
+          <SmartIcon image={image} emoji={emoji} size="sm" alt={title} /> {title}
+        </h2>
         <span className="text-xs text-zinc-500">{items.length}개</span>
       </div>
       <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2">

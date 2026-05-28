@@ -297,3 +297,36 @@ export function getTextureUrl(id: string, type: "block" | "item" | "recipe"): st
 }
 
 export { CDN };
+
+/** 카테고리 슬러그 → 대표 텍스처 URL */
+export function getCategoryTexture(slug: string): string {
+  const map: Record<string, string> = {
+    blocks:     getBlockTexture("grass_block"),
+    items:      getItemTexture("diamond"),
+    mobs:       getItemTexture("beef"),
+    biomes:     getBlockTexture("oak_log"),
+    redstone:   getItemTexture("redstone"),
+    enchanting: getItemTexture("book"),
+    nether:     getBlockTexture("netherrack"),
+    end:        getBlockTexture("end_stone"),
+    // 한국어 카테고리도 동일 매핑
+    "자연":     getBlockTexture("grass_block"),
+    "건축":     getBlockTexture("stone_bricks"),
+    "나무":     getBlockTexture("oak_log"),
+    "광물":     getItemTexture("diamond"),
+    "자원":     getItemTexture("iron_ingot"),
+    "음식":     getItemTexture("bread"),
+    "재료":     getItemTexture("stick"),
+    "농작물":   getItemTexture("wheat"),
+    "도구":     getItemTexture("iron_pickaxe"),
+    "무기":     getItemTexture("iron_sword"),
+    "갑옷":     getItemTexture("iron_chestplate"),
+    "장식":     getBlockTexture("stone_bricks"),
+    "특수":     getItemTexture("nether_star"),
+    "연료":     getItemTexture("coal"),
+    "마법":     getItemTexture("enchanted_book"),
+    "양조":     getItemTexture("brewing_stand"),
+    "기타":     getBlockTexture("cobblestone"),
+  };
+  return map[slug] ?? getBlockTexture("cobblestone");
+}

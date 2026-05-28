@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/app/components/Breadcrumb";
 import { TableOfContents } from "@/app/components/TableOfContents";
 import { InfoBox } from "@/app/components/InfoBox";
 import { SmartIcon } from "@/app/components/SmartIcon";
+import { getCategoryTexture } from "@/lib/textures";
 
 export function generateStaticParams() {
   return Object.keys(docs).map((slug) => ({ slug }));
@@ -36,7 +37,7 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
             <header className="mb-6 pb-5 border-b border-zinc-200 dark:border-zinc-800">
               {category && (
                 <div className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium mb-3 ${category.color}`}>
-                  <span>{category.emoji}</span>
+                  <SmartIcon image={getCategoryTexture(category.slug)} emoji={category.emoji} size="xs" alt={category.name} />
                   <span>{category.name}</span>
                 </div>
               )}
@@ -54,7 +55,7 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
             </header>
 
             <div className="prose-wiki">
-              <InfoBox title={doc.title} emoji={category?.emoji} rows={doc.infobox} />
+              <InfoBox title={doc.title} emoji={category?.emoji} image={doc.heroImage} rows={doc.infobox} />
 
               {doc.sections.map((s) => (
                 <section key={s.id}>

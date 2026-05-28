@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllItems } from "@/lib/search";
 import { loadAllData } from "@/lib/sheets";
-import { getItemTexture, getTextureByName } from "@/lib/textures";
+import { getItemTexture, getBlockTexture, getTextureByName, getCategoryTexture } from "@/lib/textures";
 import { Breadcrumb } from "@/app/components/Breadcrumb";
 import { PrerequisiteRecipes } from "@/app/components/PrerequisiteRecipes";
 import { SmartIcon } from "@/app/components/SmartIcon";
@@ -114,7 +114,7 @@ export default async function SearchDetailPage({
 
       {/* 블록 전용 정보 */}
       {type === "block" && raw && (
-        <InfoCard color="amber" emoji="🧱" title="블록 정보" rows={[
+        <InfoCard color="amber" emoji="🧱" image={getBlockTexture("crafting_table")} title="블록 정보" rows={[
           { label: "최적 도구",        value: raw.tool || "—" },
           { label: "경도 (Hardness)",  value: String(raw.hardness ?? "—") },
           { label: "카테고리",          value: raw.category },
@@ -124,7 +124,7 @@ export default async function SearchDetailPage({
 
       {/* 아이템 전용 정보 */}
       {type === "item" && raw && (
-        <InfoCard color="blue" emoji="📦" title="아이템 정보" rows={[
+        <InfoCard color="blue" emoji="📦" image={getBlockTexture("chest")} title="아이템 정보" rows={[
           { label: "카테고리",   value: raw.category },
           { label: "최대 스택", value: `${raw.stackSize}개` },
           { label: "ID",        value: <code className="text-xs">{raw.id}</code> },
@@ -134,7 +134,7 @@ export default async function SearchDetailPage({
       {/* 레시피 전용 정보 */}
       {type === "recipe" && raw && (
         <section className="mb-8">
-          <InfoCard color="violet" emoji="📜" title="레시피 정보" rows={[
+          <InfoCard color="violet" emoji="📜" image={getItemTexture("writable_book")} title="레시피 정보" rows={[
             { label: "제작 결과",   value: `${raw.resultItem} ×${raw.resultCount}` },
             { label: "제작창 종류", value: raw.type },
             { label: "카테고리",   value: raw.category },
@@ -199,6 +199,7 @@ export default async function SearchDetailPage({
         <RelatedItems
           title="이 항목을 사용하는 레시피"
           emoji="🔗"
+          image={getBlockTexture("chain")}
           items={usedInRecipes}
         />
       )}
@@ -206,6 +207,7 @@ export default async function SearchDetailPage({
       <RelatedItems
         title={`같은 카테고리 (${entry.category})`}
         emoji="📚"
+        image={getCategoryTexture(entry.category)}
         items={related}
       />
 
@@ -222,10 +224,11 @@ export default async function SearchDetailPage({
 }
 
 function InfoCard({
-  color, emoji, title, rows,
+  color, emoji, image, title, rows,
 }: {
   color: "amber" | "blue" | "violet";
   emoji: string;
+  image?: string;
   title: string;
   rows: { label: string; value: React.ReactNode }[];
 }) {
@@ -233,7 +236,7 @@ function InfoCard({
   return (
     <section className="mb-6 rounded-xl border border-zinc-200 dark:border-zinc-800 overflow-hidden shadow-sm">
       <div className={`${headerBg} text-white px-5 py-2.5 font-semibold text-sm flex items-center gap-2`}>
-        <span>{emoji}</span> {title}
+        <SmartIcon image={image} emoji={emoji} size="sm" alt={title} /> {title}
       </div>
       <dl className="text-sm divide-y divide-zinc-100 dark:divide-zinc-800 bg-white dark:bg-zinc-900">
         {rows.map((row, i) => (
