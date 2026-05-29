@@ -1,6 +1,6 @@
 # 마인크래프트 위키 (데모)
 
-`ko.minecraft.wiki` 와 `wiki.ddingtycoon.kr` 의 UI/UX 장점을 참고해서 만든 한국어 게임 위키 데모입니다. Next.js 14 (App Router) + TypeScript + Tailwind CSS.
+마인크래프트 위키 데모입니다. Next.js 14 (App Router) + TypeScript + Tailwind CSS.
 
 ## 반영한 UI 요소
 
