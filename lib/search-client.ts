@@ -51,7 +51,8 @@ export function filterSearchIndex(
 
 export async function loadSearchIndex(): Promise<SearchIndexItem[]> {
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  const res = await fetch(`${base}/search-index.json`);
+  const ver = process.env.NEXT_PUBLIC_BUILD_SHA ?? "dev";
+  const res = await fetch(`${base}/search-index.json?v=${ver}`, { cache: "no-store" });
   if (!res.ok) return [];
   return res.json();
 }

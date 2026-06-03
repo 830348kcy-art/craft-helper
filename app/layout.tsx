@@ -29,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
               <p className="leading-relaxed">
                 © {new Date().getFullYear()} Craft Helper (학습용 데모) ·
+                빌드 {process.env.NEXT_PUBLIC_BUILD_SHA?.slice(0, 7) ?? "local"} ·
                 본문은 <strong>CC BY-NC-SA 3.0</strong>으로 제공됩니다 ·
                 마인크래프트는 <strong>Mojang Studios</strong>의 상표이며 본 사이트는 Mojang 또는 Microsoft와 무관합니다.
               </p>

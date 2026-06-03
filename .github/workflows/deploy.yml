@@ -32,6 +32,7 @@ jobs:
       - name: Build
         env:
           NEXT_PUBLIC_BASE_PATH: /craft-helper
+          NEXT_PUBLIC_BUILD_SHA: ${{ github.sha }}
           CI: true
         run: npm run build:ci
 
