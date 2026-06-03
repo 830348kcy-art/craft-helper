@@ -1,7 +1,11 @@
 "use client";
 import { useState, useRef, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import type { SearchResultItem } from "@/lib/search";
+import {
+  filterSearchIndex,
+  loadSearchIndex,
+  type SearchIndexItem,
+} from "@/lib/search-client";
 import { SmartIcon } from "./SmartIcon";
 
 const TYPE_COLOR: Record<string, string> = {
@@ -13,7 +17,8 @@ const TYPE_LABEL: Record<string, string> = { block: "블록", item: "아이템",
 
 export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색…", className = "" }: { placeholder?: string; className?: string }) {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<SearchResultItem[]>([]);
+  const [index, setIndex] = useState<SearchIndexItem[]>([]);
+  const [results, setResults] = useState<SearchIndexItem[]>([]);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [focused, setFocused] = useState(false);
@@ -21,7 +26,10 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
   const boxRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // 외부 클릭 닫기
+  useEffect(() => {
+    loadSearchIndex().then(setIndex).catch(() => setIndex([]));
+  }, []);
+
   useEffect(() => {
     const handler = (e: MouseEvent) => {
       if (boxRef.current && !boxRef.current.contains(e.target as Node)) {
@@ -32,17 +40,15 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
     return () => document.removeEventListener("mousedown", handler);
   }, []);
 
-  const doSearch = useCallback(async (q: string) => {
+  const doSearch = useCallback((q: string) => {
     if (!q.trim()) { setResults([]); setOpen(false); return; }
     setLoading(true);
-    const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`);
-    const data: SearchResultItem[] = await res.json();
+    const data = filterSearchIndex(index, q);
     setResults(data);
     setOpen(true);
     setLoading(false);
-  }, []);
+  }, [index]);
 
-  // 디바운스
   useEffect(() => {
     const t = setTimeout(() => doSearch(query), 200);
     return () => clearTimeout(t);
@@ -53,6 +59,9 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
     if (query.trim()) router.push(`/search?q=${encodeURIComponent(query.trim())}`);
     setOpen(false);
   };
+
+  const resultHref = (r: SearchIndexItem) =>
+    r.href.includes("type=") ? r.href : `${r.href}?type=${r.type}`;
 
   return (
     <div ref={boxRef} className={`relative ${className}`}>
@@ -79,7 +88,6 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
         </div>
       </form>
 
-      {/* 드롭다운 */}
       {open && results.length > 0 && (
         <div className="absolute top-full left-0 right-0 mt-1 z-50 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl shadow-xl overflow-hidden">
           <ul className="max-h-80 overflow-y-auto divide-y divide-zinc-100 dark:divide-zinc-800">
@@ -87,7 +95,7 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
               <li key={`${r.type}-${r.id}`}>
                 <button
                   type="button"
-                  onClick={() => { router.push(r.href); setOpen(false); setQuery(""); }}
+                  onClick={() => { router.push(resultHref(r)); setOpen(false); setQuery(""); }}
                   className="w-full flex items-center gap-3 px-4 py-3 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-left transition"
                 >
                   <SmartIcon image={r.image} emoji={r.emoji} size="md" />
@@ -118,7 +126,7 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
         </div>
       )}
 
-      {open && query && results.length === 0 && !loading && (
+      {open && query && results.length === 0 && !loading && index.length > 0 && (
         <div className="absolute top-full left-0 right-0 mt-1 z-50 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl shadow-xl px-4 py-4 text-sm text-zinc-500 text-center">
           &ldquo;{query}&rdquo; 검색 결과 없음
         </div>

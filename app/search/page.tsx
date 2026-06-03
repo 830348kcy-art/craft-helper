@@ -6,17 +6,7 @@ import Link from "next/link";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { Breadcrumb } from "@/app/components/Breadcrumb";
 
-type SearchItem = {
-  id: string;
-  type: "block" | "item" | "recipe";
-  name: string;
-  description: string;
-  emoji: string;
-  image?: string;
-  category: string;
-  tags: string[];
-  href: string;
-};
+import { filterSearchIndex, loadSearchIndex, type SearchIndexItem } from "@/lib/search-client";
 
 const TYPE_LABEL: Record<string, string> = { block: "블록", item: "아이템", recipe: "레시피" };
 const TYPE_COLOR: Record<string, string> = {
@@ -43,17 +33,13 @@ function highlight(text: string, query: string) {
 function SearchContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const [index, setIndex] = useState<SearchItem[]>([]);
+  const [index, setIndex] = useState<SearchIndexItem[]>([]);
   const [query, setQuery] = useState(searchParams.get("q") ?? "");
   const [inputValue, setInputValue] = useState(searchParams.get("q") ?? "");
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
-    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-    fetch(`${base}/search-index.json`)
-      .then((r) => r.json())
-      .then(setIndex)
-      .catch(() => setIndex([]));
+    loadSearchIndex().then(setIndex).catch(() => setIndex([]));
   }, []);
 
   useEffect(() => {
@@ -73,17 +59,7 @@ function SearchContent() {
     }, 200);
   }, [router]);
 
-  const results = query.trim()
-    ? index.filter((item) => {
-        const q = query.toLowerCase();
-        return (
-          item.name.toLowerCase().includes(q) ||
-          item.description.toLowerCase().includes(q) ||
-          item.tags.some((t) => t.toLowerCase().includes(q)) ||
-          item.category.toLowerCase().includes(q)
-        );
-      })
-    : [];
+  const results = query.trim() ? filterSearchIndex(index, query) : [];
 
   const groups = [
     { key: "block",  label: "블록",   data: results.filter((r) => r.type === "block")  },

@@ -50,6 +50,10 @@ function localBlockExists(id) {
   return existsSync(resolve(root, "public/images/blocks", `${id}.png`));
 }
 
+function localItemExists(id) {
+  return existsSync(resolve(root, "public/images/items", `${id}.png`));
+}
+
 export function getBlockImageUrl(id) {
   const cdnUrl = `${CDN}/${cdnBlockPath(id)}`;
   if (USE_CDN) return cdnUrl;
@@ -59,5 +63,8 @@ export function getBlockImageUrl(id) {
 
 export function getItemImageUrl(id) {
   if (blockIdSet.has(id)) return getBlockImageUrl(id);
-  return `${CDN}/${cdnItemPath(id)}`;
+  const cdnUrl = `${CDN}/${cdnItemPath(id)}`;
+  if (USE_CDN) return cdnUrl;
+  if (localItemExists(id)) return `${BASE_PATH}/images/items/${id}.png`;
+  return cdnUrl;
 }

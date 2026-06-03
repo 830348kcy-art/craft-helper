@@ -256,13 +256,23 @@ export function cdnBlockPath(id) {
 }
 
 export function getSourcePngForBlock(id) {
-  if (textureMap[id]) return findAssetPng(id, textureMap[id]);
   const cdn = cdnBlockPath(id);
   if (cdn.startsWith("block/")) {
     const file = cdn.replace(/^block\//, "");
-    return findAssetPng(id, file);
+    return findAssetPng(id, file, "block");
+  }
+  if (cdn.startsWith("item/")) {
+    const file = cdn.replace(/^item\//, "");
+    return findAssetPng(id, file, "item");
   }
   return null;
+}
+
+export function getSourcePngForItem(id) {
+  const cdn = cdnItemPath(id);
+  if (!cdn.startsWith("item/")) return null;
+  const file = cdn.replace(/^item\//, "");
+  return findAssetPng(id, file, "item");
 }
 
 export { textureMap, ITEM_OVERRIDES, loadAssetIndex };

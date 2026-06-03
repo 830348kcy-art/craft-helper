@@ -4,10 +4,9 @@
  * CDN: jsdelivr (캐시 + 빠른 응답)
  */
 
-import fs from "fs";
-import path from "path";
 import textureMapJson from "../scripts/texture-map.json";
 import blocksCatalog from "../data/blocks.json";
+import itemsCatalog from "../data/items.json";
 
 const CDN =
   "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures";
@@ -17,6 +16,31 @@ const USE_CDN = process.env.CI === "true";
 
 const textureMap = textureMapJson as Record<string, string>;
 const blockIdSet = new Set(blocksCatalog.map((b) => b.id));
+
+type KoNameEntry = { id: string; type: "block" | "item" };
+const KO_NAME_INDEX = new Map<string, KoNameEntry>();
+for (const b of blocksCatalog) {
+  if (b.name) KO_NAME_INDEX.set(b.name, { id: b.id, type: "block" });
+}
+for (const it of itemsCatalog) {
+  if (it.name && !KO_NAME_INDEX.has(it.name)) {
+    KO_NAME_INDEX.set(it.name, { id: it.id, type: "item" });
+  }
+}
+
+/** 레시피 재료 한국어 이름 → 카탈로그 항목 */
+export function resolveByKoName(name: string): KoNameEntry | undefined {
+  const trimmed = name.trim();
+  if (!trimmed) return undefined;
+  return KO_NAME_INDEX.get(trimmed);
+}
+
+/** 레시피 재료 한국어 이름 → 상세 페이지 경로 */
+export function getHrefByKoName(name: string): string | undefined {
+  const entry = resolveByKoName(name);
+  if (!entry) return undefined;
+  return `/search/${entry.id}?type=${entry.type}`;
+}
 
 /** ID가 Mojang의 vanilla 이름과 다를 때 매핑. */
 const ITEM_OVERRIDES: Record<string, string> = {
@@ -294,11 +318,14 @@ export function getBlockTexture(id: string): string {
 }
 
 function localSyncedBlockUrl(id: string): string | null {
+  if (USE_CDN || typeof window !== "undefined") return null;
   try {
+    const fs = require("fs") as typeof import("fs");
+    const path = require("path") as typeof import("path");
     const file = path.join(process.cwd(), "public/images/blocks", `${id}.png`);
     if (fs.existsSync(file)) return `${BASE_PATH}/images/blocks/${id}.png`;
   } catch {
-    /* client bundle */
+    /* client bundle or missing fs */
   }
   return null;
 }
@@ -380,12 +407,20 @@ function blockFileName(id: string): string {
 }
 
 export function getTextureByName(name: string): string | undefined {
-  // 정확한 매칭 우선
-  if (KOREAN_TO_TEXTURE[name]) return `${CDN}/${KOREAN_TO_TEXTURE[name]}`;
-  // 영문 ID 직접 시도 (item 우선, block 폴백은 SmartIcon이 onError로)
-  // 예: "diamond"가 그대로 들어왔을 때
+  if (KOREAN_TO_TEXTURE[name]) {
+    const path = KOREAN_TO_TEXTURE[name];
+    if (!path) return undefined;
+    return `${CDN}/${path}`;
+  }
+  const entry = resolveByKoName(name);
+  if (entry) {
+    return entry.type === "block"
+      ? getBlockTexture(entry.id)
+      : getItemTexture(entry.id);
+  }
   if (/^[a-z_0-9]+$/.test(name)) {
-    return `${CDN}/item/${name}.png`;
+    if (blockIdSet.has(name)) return getBlockTexture(name);
+    return getItemTexture(name);
   }
   return undefined;
 }

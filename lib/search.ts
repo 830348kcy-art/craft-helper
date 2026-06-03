@@ -1,6 +1,5 @@
 import { loadAllData } from "./sheets";
-import { getItemTexture } from "./textures";
-
+import { getItemTexture, getBlockTexture } from "./textures";
 export type SearchResultItem = {
   id: string;
   name: string;
@@ -20,7 +19,7 @@ async function buildIndex(): Promise<SearchResultItem[]> {
       id: b.id,
       name: b.name,
       emoji: b.emoji,
-      image: (b as any).image as string | undefined,
+      image: getBlockTexture(b.id),
       description: b.description,
       category: b.category,
       tags: b.tags,
@@ -31,7 +30,7 @@ async function buildIndex(): Promise<SearchResultItem[]> {
       id: it.id,
       name: it.name,
       emoji: it.emoji,
-      image: (it as any).image as string | undefined,
+      image: getItemTexture(it.id),
       description: it.description,
       category: it.category,
       tags: it.tags,
@@ -69,6 +68,10 @@ export async function searchAll(query: string): Promise<SearchResultItem[]> {
     if (name === q) score += 100;
     else if (name.startsWith(q)) score += 60;
     else if (name.includes(q)) score += 40;
+
+    const id = entry.id.toLowerCase();
+    if (id === q || id.includes(q.replace(/\s/g, "_")) || id.replace(/_/g, " ").includes(q))
+      score += 35;
 
     if (tags.some((t) => t === q)) score += 30;
     else if (tags.some((t) => t.includes(q))) score += 15;

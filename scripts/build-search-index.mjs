@@ -30,7 +30,7 @@ const index = [
     image: getBlockImageUrl(b.id),
     category: b.category,
     tags: b.tags || [],
-    href: `/search/${b.id}`,
+    href: `/search/${b.id}?type=block`,
   })),
   ...items.map((it) => ({
     id: it.id,
@@ -41,7 +41,7 @@ const index = [
     image: getItemImageUrl(it.id),
     category: it.category,
     tags: it.tags || [],
-    href: `/search/${it.id}`,
+    href: `/search/${it.id}?type=item`,
   })),
   ...recipes.map((r) => ({
     id: r.id,

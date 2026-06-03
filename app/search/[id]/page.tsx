@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllItems } from "@/lib/search";
 import { loadAllData } from "@/lib/sheets";
-import { getItemTexture, getBlockTexture, getTextureByName, getCategoryTexture } from "@/lib/textures";
+import { getItemTexture, getBlockTexture, getTextureByName, getHrefByKoName, getCategoryTexture } from "@/lib/textures";
 import { Breadcrumb } from "@/app/components/Breadcrumb";
 import { PrerequisiteRecipes } from "@/app/components/PrerequisiteRecipes";
 import { SmartIcon } from "@/app/components/SmartIcon";
@@ -194,11 +194,21 @@ export default async function SearchDetailPage({
                     const name = parsed ? parsed[1].trim() : ing;
                     const count = parsed ? parsed[2] : "";
                     const tex = getTextureByName(name);
-                    return (
-                      <li key={i} className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-sm">
+                    const href = getHrefByKoName(name);
+                    const inner = (
+                      <>
                         <SmartIcon image={tex} emoji="🟫" size="sm" alt={name} />
                         <span>{name}</span>
                         {count && <span className="text-zinc-500 text-xs">×{count}</span>}
+                      </>
+                    );
+                    return (
+                      <li key={i} className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-sm">
+                        {href ? (
+                          <Link href={href} className="inline-flex items-center gap-2 hover:text-link dark:hover:text-link-dark transition">
+                            {inner}
+                          </Link>
+                        ) : inner}
                       </li>
                     );
                   })}
