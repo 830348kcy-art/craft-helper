@@ -1,0 +1,21 @@
+node_modules
+.next
+out
+.env*.local
+.DS_Store
+*.log
+
+# Google service account key — 절대 커밋 금지
+google-key.json
+*-service-account-*.json
+
+.vercel
+
+# 로컬 배포 스크립트 — 커밋/배포 제외
+deploy.bat
+deploy.ps1
+deploy-local.*
+
+# sync-textures 로 생성되는 로컬 블록 PNG (CI는 CDN 사용)
+public/images/blocks/*.png
+public/images/items/*.png

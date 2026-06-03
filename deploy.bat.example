@@ -1,0 +1,61 @@
+@echo off
+chcp 65001 >nul
+title Craft Helper 배포
+
+cd /d "%~dp0"
+
+REM ============================================================
+REM  1. 이 파일을 deploy.bat 으로 복사해서 사용하세요.
+REM  2. deploy.bat 은 .gitignore 에 등록되어 Git/사이트에 올라가지 않습니다.
+REM  3. 저장소: https://github.com/830348kcy-art/craft-helper
+REM  4. 배포 URL: https://830348kcy-art.github.io/craft-helper/
+REM ============================================================
+
+set "PATH=C:\Program Files\nodejs;%PATH%"
+set "REMOTE=origin"
+set "BRANCH=main"
+
+echo.
+echo [1/4] 로컬 빌드 검증...
+call npm run build
+if errorlevel 1 (
+  echo 빌드 실패. 배포를 중단합니다.
+  pause
+  exit /b 1
+)
+
+echo.
+echo [2/4] 변경 사항 확인...
+git status --short
+git diff --stat
+
+echo.
+set /p MSG=커밋 메시지 (Enter=기본 메시지): 
+if "%MSG%"=="" set "MSG=update: craft-helper wiki"
+
+echo.
+echo [3/4] 커밋...
+git add -A
+git commit -m "%MSG%"
+if errorlevel 1 (
+  echo 커밋할 변경이 없거나 커밋 실패.
+  pause
+  exit /b 1
+)
+
+echo.
+echo [4/4] push %REMOTE% %BRANCH% ...
+git push %REMOTE% %BRANCH%
+if errorlevel 1 (
+  echo push 실패. remote URL 확인: git remote -v
+  pause
+  exit /b 1
+)
+
+echo.
+echo ============================================================
+echo   배포 요청 완료!
+echo   GitHub Actions: https://github.com/830348kcy-art/craft-helper/actions
+echo   사이트: https://830348kcy-art.github.io/craft-helper/
+echo ============================================================
+pause
