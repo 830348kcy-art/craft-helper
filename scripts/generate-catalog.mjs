@@ -135,40 +135,48 @@ function collectItemIds() {
   return [...ids].sort();
 }
 
+function hasKorean(text) {
+  return /[가-힣]/.test(text ?? "");
+}
+
 function makeBlock(id) {
   const existing = blockMap.get(id);
-  if (existing) return existing;
-
   const name = koNames[id] ?? idToKoName(id);
+  if (existing && hasKorean(existing.name)) return existing;
+
+  const base = existing ?? {};
   return {
     id,
     name,
-    emoji: pickEmoji("block", id),
+    emoji: base.emoji ?? pickEmoji("block", id),
     image: `/images/blocks/${id}.png`,
-    category: inferBlockCategory(id),
-    description: blockDescription(id, name),
-    tags: [inferBlockCategory(id)],
-    tool: inferTool(id),
-    hardness: inferHardness(id),
+    category: base.category ?? inferBlockCategory(id),
+    description: base.description ?? blockDescription(id, name),
+    tags: base.tags ?? [inferBlockCategory(id)],
+    tool: base.tool ?? inferTool(id),
+    hardness: base.hardness ?? inferHardness(id),
   };
 }
 
 function makeItem(id) {
   const existing = itemMap.get(id);
-  if (existing) return existing;
-
   const name = koNames[id] ?? idToKoName(id);
+  if (existing && hasKorean(existing.name)) return existing;
+
+  const base = existing ?? {};
   return {
     id,
     name,
-    emoji: pickEmoji("item", id),
-    image: `/images/items/${id}.png`,
-    category: inferItemCategory(id),
-    description: itemDescription(id, name),
-    tags: [inferItemCategory(id)],
-    stackSize: /spawn_egg|music_disc|written_book|enchanted_book|potion|totem|shield|elytra|bucket/.test(id)
-      ? 1
-      : 64,
+    emoji: base.emoji ?? pickEmoji("item", id),
+    image: base.image ?? `/images/items/${id}.png`,
+    category: base.category ?? inferItemCategory(id),
+    description: base.description ?? itemDescription(id, name),
+    tags: base.tags ?? [inferItemCategory(id)],
+    stackSize:
+      base.stackSize ??
+      (/spawn_egg|music_disc|written_book|enchanted_book|potion|totem|shield|elytra|bucket/.test(id)
+        ? 1
+        : 64),
   };
 }
 

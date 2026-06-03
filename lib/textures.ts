@@ -274,16 +274,84 @@ export const KOREAN_TO_TEXTURE: Record<string, string> = {
 };
 
 export function getItemTexture(id: string): string {
+  if (id.endsWith("_spawn_egg")) {
+    return `${CDN}/item/spawn_egg.png`;
+  }
   const path = ITEM_OVERRIDES[id] ?? `item/${id}.png`;
   return `${CDN}/${path}`;
 }
 
 export function getBlockTexture(id: string): string {
-  if (USE_CDN) {
-    const path = BLOCK_OVERRIDES[id] ?? `block/${id}.png`;
+  const path = resolveBlockCdnPath(id);
+  if (USE_CDN) return `${CDN}/${path}`;
+  const local = `${BASE_PATH}/images/blocks/${id}.png`;
+  // 클라이언트에서는 파일 존재 확인 불가 — 아이템형·파생 블록은 CDN 직접 사용
+  if (usesItemLikeTexture(id) || isDerivedBlockId(id)) {
     return `${CDN}/${path}`;
   }
-  return `${BASE_PATH}/images/blocks/${id}.png`;
+  return local;
+}
+
+function usesItemLikeTexture(id: string): boolean {
+  return /_(boat|chest_boat|spawn_egg|bucket|minecart|horse_armor|door|sign|hanging_sign|banner|bed|candle|dye|disc|pottery_sherd|smithing_template|armor_trim|bundle|shelf)$/.test(
+    id
+  );
+}
+
+function isDerivedBlockId(id: string): boolean {
+  return /_(slab|stairs|wall|button|pressure_plate|fence|fence_gate|trapdoor|sign|leaves|sapling|planks|log|wood)$/.test(
+    id
+  );
+}
+
+const WOODS = new Set([
+  "oak", "spruce", "birch", "jungle", "acacia", "dark_oak",
+  "mangrove", "cherry", "bamboo", "crimson", "warped", "pale_oak",
+]);
+
+function blockFileName(id: string): string {
+  if (WOODS.has(id)) return `${id}_planks.png`;
+  return `${id}.png`;
+}
+
+function resolveBlockCdnPath(id: string): string {
+  if (BLOCK_OVERRIDES[id]) return BLOCK_OVERRIDES[id];
+  if (ITEM_OVERRIDES[id]?.startsWith("block/")) return ITEM_OVERRIDES[id];
+  if (usesItemLikeTexture(id)) {
+    return ITEM_OVERRIDES[id] ?? `item/${id}.png`;
+  }
+  const base = stripBlockSuffix(id);
+  if (base !== id) {
+    if (BLOCK_OVERRIDES[base]) return BLOCK_OVERRIDES[base];
+    return `block/${blockFileName(base)}`;
+  }
+  return `block/${blockFileName(id)}`;
+}
+
+function stripBlockSuffix(id: string): string {
+  const suffixes = [
+    "_wall_hanging_sign",
+    "_hanging_sign",
+    "_wall_sign",
+    "_pressure_plate",
+    "_fence_gate",
+    "_trapdoor",
+    "_fence",
+    "_button",
+    "_stairs",
+    "_slab",
+    "_wall",
+    "_sign",
+    "_leaves",
+    "_sapling",
+    "_planks",
+    "_log",
+    "_wood",
+  ];
+  for (const s of suffixes) {
+    if (id.endsWith(s)) return id.slice(0, -s.length);
+  }
+  return id;
 }
 
 export function getTextureByName(name: string): string | undefined {

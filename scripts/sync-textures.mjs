@@ -4,13 +4,20 @@
  */
 import { readFileSync, mkdirSync, copyFileSync, existsSync } from "fs";
 import { resolve } from "path";
-import {
-  ASSETS_SOURCE,
-  root,
-  getSourcePngForBlock,
-  sourceExists,
-  USE_CDN,
-} from "./textures-config.mjs";
+import { ASSETS_SOURCE, root, sourceExists, USE_CDN } from "./textures-config-root.mjs";
+import { getSourcePngForBlock, baseBlockId } from "./resolve-texture.mjs";
+
+function resolveSrcName(id) {
+  const mapped = getSourcePngForBlock(id);
+  if (mapped) return mapped;
+  const base = baseBlockId(id);
+  if (base !== id) {
+    const baseMapped = getSourcePngForBlock(base);
+    if (baseMapped) return baseMapped;
+    return `${base}.png`;
+  }
+  return `${id}.png`;
+}
 
 if (USE_CDN) {
   console.log("[sync-textures] CI 모드 — 텍스처 동기화 생략 (CDN 사용)");
@@ -33,7 +40,7 @@ let copied = 0;
 let skipped = 0;
 
 for (const block of blocks) {
-  const srcName = getSourcePngForBlock(block.id);
+  const srcName = resolveSrcName(block.id);
   const srcPath = resolve(ASSETS_SOURCE, srcName);
   const destPath = resolve(destDir, `${block.id}.png`);
 

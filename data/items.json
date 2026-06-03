@@ -205,7 +205,7 @@
   },
   {
     "id": "activator_rail",
-    "name": "Activator Rail",
+    "name": "활성화 레일",
     "emoji": "📦",
     "image": "/images/items/activator_rail.png",
     "category": "이동",
@@ -217,7 +217,7 @@
   },
   {
     "id": "air",
-    "name": "Air",
+    "name": "공기",
     "emoji": "📦",
     "image": "/images/items/air.png",
     "category": "재료",
@@ -229,7 +229,7 @@
   },
   {
     "id": "allay_spawn_egg",
-    "name": "Allay Spawn Egg",
+    "name": "알레이 생성 알",
     "emoji": "📦",
     "image": "/images/items/allay_spawn_egg.png",
     "category": "음식",
@@ -303,7 +303,7 @@
   },
   {
     "id": "andesite",
-    "name": "Andesite",
+    "name": "안산암",
     "emoji": "📦",
     "image": "/images/items/andesite.png",
     "category": "재료",
@@ -315,7 +315,7 @@
   },
   {
     "id": "andesite_slab",
-    "name": "Andesite Slab",
+    "name": "안산암 반 블록",
     "emoji": "📦",
     "image": "/images/items/andesite_slab.png",
     "category": "재료",
@@ -327,7 +327,7 @@
   },
   {
     "id": "andesite_stairs",
-    "name": "Andesite Stairs",
+    "name": "안산암 계단",
     "emoji": "📦",
     "image": "/images/items/andesite_stairs.png",
     "category": "재료",
@@ -339,7 +339,7 @@
   },
   {
     "id": "andesite_wall",
-    "name": "Andesite Wall",
+    "name": "안산암 담장",
     "emoji": "📦",
     "image": "/images/items/andesite_wall.png",
     "category": "재료",
@@ -351,7 +351,7 @@
   },
   {
     "id": "angler_pottery_sherd",
-    "name": "Angler Pottery Sherd",
+    "name": "angler 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/angler_pottery_sherd.png",
     "category": "특수",
@@ -389,7 +389,7 @@
   },
   {
     "id": "archer_pottery_sherd",
-    "name": "Archer Pottery Sherd",
+    "name": "archer 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/archer_pottery_sherd.png",
     "category": "특수",
@@ -413,7 +413,7 @@
   },
   {
     "id": "armadillo_spawn_egg",
-    "name": "Armadillo Spawn Egg",
+    "name": "아르마딜로 생성 알",
     "emoji": "📦",
     "image": "/images/items/armadillo_spawn_egg.png",
     "category": "음식",
@@ -425,7 +425,7 @@
   },
   {
     "id": "armor_stand",
-    "name": "Armor Stand",
+    "name": "갑옷 거치대",
     "emoji": "📦",
     "image": "/images/items/armor_stand.png",
     "category": "재료",
@@ -437,7 +437,7 @@
   },
   {
     "id": "arms_up_pottery_sherd",
-    "name": "Arms Up Pottery Sherd",
+    "name": "arms up 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/arms_up_pottery_sherd.png",
     "category": "특수",
@@ -477,7 +477,7 @@
   },
   {
     "id": "axolotl_bucket",
-    "name": "Axolotl Bucket",
+    "name": "아홀로틀 양동이",
     "emoji": "📦",
     "image": "/images/items/axolotl_bucket.png",
     "category": "도구",
@@ -489,7 +489,7 @@
   },
   {
     "id": "axolotl_spawn_egg",
-    "name": "Axolotl Spawn Egg",
+    "name": "아홀로틀 생성 알",
     "emoji": "📦",
     "image": "/images/items/axolotl_spawn_egg.png",
     "category": "음식",
@@ -513,7 +513,7 @@
   },
   {
     "id": "azalea_leaves",
-    "name": "Azalea Leaves",
+    "name": "진달래 잎",
     "emoji": "📦",
     "image": "/images/items/azalea_leaves.png",
     "category": "재료",
@@ -537,7 +537,7 @@
   },
   {
     "id": "baked_potato",
-    "name": "Baked Potato",
+    "name": "구운 감자",
     "emoji": "🍖",
     "image": "/images/items/baked_potato.png",
     "category": "음식",
@@ -789,7 +789,7 @@
   },
   {
     "id": "barrier",
-    "name": "Barrier",
+    "name": "배리어",
     "emoji": "📦",
     "image": "/images/items/barrier.png",
     "category": "재료",
@@ -801,7 +801,7 @@
   },
   {
     "id": "basalt",
-    "name": "Basalt",
+    "name": "현무암",
     "emoji": "📦",
     "image": "/images/items/basalt.png",
     "category": "재료",
@@ -813,7 +813,7 @@
   },
   {
     "id": "bat_spawn_egg",
-    "name": "Bat Spawn Egg",
+    "name": "박쥐 생성 알",
     "emoji": "📦",
     "image": "/images/items/bat_spawn_egg.png",
     "category": "음식",
@@ -861,7 +861,7 @@
   },
   {
     "id": "bee_spawn_egg",
-    "name": "Bee Spawn Egg",
+    "name": "벌 생성 알",
     "emoji": "📦",
     "image": "/images/items/bee_spawn_egg.png",
     "category": "음식",
@@ -873,7 +873,7 @@
   },
   {
     "id": "beef",
-    "name": "Beef",
+    "name": "익히지 않은 소고기",
     "emoji": "📦",
     "image": "/images/items/beef.png",
     "category": "재료",
@@ -922,7 +922,7 @@
   },
   {
     "id": "beetroot_soup",
-    "name": "Beetroot Soup",
+    "name": "비트 수프",
     "emoji": "📦",
     "image": "/images/items/beetroot_soup.png",
     "category": "음식",
@@ -1330,7 +1330,7 @@
   },
   {
     "id": "blackstone",
-    "name": "Blackstone",
+    "name": "흑암",
     "emoji": "📦",
     "image": "/images/items/blackstone.png",
     "category": "재료",
@@ -1342,7 +1342,7 @@
   },
   {
     "id": "blackstone_slab",
-    "name": "Blackstone Slab",
+    "name": "흑암 반 블록",
     "emoji": "📦",
     "image": "/images/items/blackstone_slab.png",
     "category": "재료",
@@ -1354,7 +1354,7 @@
   },
   {
     "id": "blackstone_stairs",
-    "name": "Blackstone Stairs",
+    "name": "흑암 계단",
     "emoji": "📦",
     "image": "/images/items/blackstone_stairs.png",
     "category": "재료",
@@ -1366,7 +1366,7 @@
   },
   {
     "id": "blackstone_wall",
-    "name": "Blackstone Wall",
+    "name": "흑암 담장",
     "emoji": "📦",
     "image": "/images/items/blackstone_wall.png",
     "category": "재료",
@@ -1378,7 +1378,7 @@
   },
   {
     "id": "blade_pottery_sherd",
-    "name": "Blade Pottery Sherd",
+    "name": "blade 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/blade_pottery_sherd.png",
     "category": "특수",
@@ -1430,7 +1430,7 @@
   },
   {
     "id": "blaze_spawn_egg",
-    "name": "Blaze Spawn Egg",
+    "name": "블레이즈 생성 알",
     "emoji": "📦",
     "image": "/images/items/blaze_spawn_egg.png",
     "category": "음식",
@@ -1648,7 +1648,7 @@
   },
   {
     "id": "bogged_spawn_egg",
-    "name": "Bogged Spawn Egg",
+    "name": "보그드 생성 알",
     "emoji": "📦",
     "image": "/images/items/bogged_spawn_egg.png",
     "category": "음식",
@@ -1660,7 +1660,7 @@
   },
   {
     "id": "bolt_armor_trim_smithing_template",
-    "name": "Bolt Armor Trim Smithing Template",
+    "name": "bolt 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/bolt_armor_trim_smithing_template.png",
     "category": "재료",
@@ -1738,7 +1738,7 @@
   },
   {
     "id": "bordure_indented_banner_pattern",
-    "name": "Bordure Indented Banner Pattern",
+    "name": "bordure indented 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/bordure_indented_banner_pattern.png",
     "category": "특수",
@@ -1764,7 +1764,7 @@
   },
   {
     "id": "bowl",
-    "name": "Bowl",
+    "name": "그릇",
     "emoji": "⚔️",
     "image": "/images/items/bowl.png",
     "category": "무기",
@@ -1788,7 +1788,7 @@
   },
   {
     "id": "brain_coral_block",
-    "name": "Brain Coral Block",
+    "name": "뇌 산호 블록",
     "emoji": "📦",
     "image": "/images/items/brain_coral_block.png",
     "category": "재료",
@@ -1800,7 +1800,7 @@
   },
   {
     "id": "brain_coral_fan",
-    "name": "Brain Coral Fan",
+    "name": "뇌 부채산호",
     "emoji": "📦",
     "image": "/images/items/brain_coral_fan.png",
     "category": "재료",
@@ -1838,7 +1838,7 @@
   },
   {
     "id": "breeze_spawn_egg",
-    "name": "Breeze Spawn Egg",
+    "name": "브리즈 생성 알",
     "emoji": "📦",
     "image": "/images/items/breeze_spawn_egg.png",
     "category": "음식",
@@ -1850,7 +1850,7 @@
   },
   {
     "id": "brewer_pottery_sherd",
-    "name": "Brewer Pottery Sherd",
+    "name": "brewer 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/brewer_pottery_sherd.png",
     "category": "특수",
@@ -1874,7 +1874,7 @@
   },
   {
     "id": "brick",
-    "name": "Brick",
+    "name": "벽돌",
     "emoji": "📦",
     "image": "/images/items/brick.png",
     "category": "재료",
@@ -1886,7 +1886,7 @@
   },
   {
     "id": "brick_slab",
-    "name": "Brick Slab",
+    "name": "벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/brick_slab.png",
     "category": "재료",
@@ -1898,7 +1898,7 @@
   },
   {
     "id": "brick_stairs",
-    "name": "Brick Stairs",
+    "name": "벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/brick_stairs.png",
     "category": "재료",
@@ -1910,7 +1910,7 @@
   },
   {
     "id": "brick_wall",
-    "name": "Brick Wall",
+    "name": "벽돌 담장",
     "emoji": "📦",
     "image": "/images/items/brick_wall.png",
     "category": "재료",
@@ -1922,7 +1922,7 @@
   },
   {
     "id": "bricks",
-    "name": "Bricks",
+    "name": "벽돌",
     "emoji": "📦",
     "image": "/images/items/bricks.png",
     "category": "재료",
@@ -2150,7 +2150,7 @@
   },
   {
     "id": "bubble_coral_block",
-    "name": "Bubble Coral Block",
+    "name": "거품 산호 블록",
     "emoji": "📦",
     "image": "/images/items/bubble_coral_block.png",
     "category": "재료",
@@ -2162,7 +2162,7 @@
   },
   {
     "id": "bubble_coral_fan",
-    "name": "Bubble Coral Fan",
+    "name": "거품 부채산호",
     "emoji": "📦",
     "image": "/images/items/bubble_coral_fan.png",
     "category": "재료",
@@ -2200,7 +2200,7 @@
   },
   {
     "id": "bundle",
-    "name": "Bundle",
+    "name": "꾸러미",
     "emoji": "📦",
     "image": "/images/items/bundle.png",
     "category": "재료",
@@ -2212,7 +2212,7 @@
   },
   {
     "id": "burn_pottery_sherd",
-    "name": "Burn Pottery Sherd",
+    "name": "burn 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/burn_pottery_sherd.png",
     "category": "특수",
@@ -2273,7 +2273,7 @@
   },
   {
     "id": "camel_spawn_egg",
-    "name": "Camel Spawn Egg",
+    "name": "낙타 생성 알",
     "emoji": "📦",
     "image": "/images/items/camel_spawn_egg.png",
     "category": "음식",
@@ -2323,7 +2323,7 @@
   },
   {
     "id": "carrot_on_a_stick",
-    "name": "Carrot On A Stick",
+    "name": "당근가 달린 막대",
     "emoji": "🍖",
     "image": "/images/items/carrot_on_a_stick.png",
     "category": "음식",
@@ -2359,7 +2359,7 @@
   },
   {
     "id": "cat_spawn_egg",
-    "name": "Cat Spawn Egg",
+    "name": "고양이 생성 알",
     "emoji": "📦",
     "image": "/images/items/cat_spawn_egg.png",
     "category": "음식",
@@ -2383,7 +2383,7 @@
   },
   {
     "id": "cave_spider_spawn_egg",
-    "name": "Cave Spider Spawn Egg",
+    "name": "동굴 거미 생성 알",
     "emoji": "📦",
     "image": "/images/items/cave_spider_spawn_egg.png",
     "category": "음식",
@@ -2407,7 +2407,7 @@
   },
   {
     "id": "chain_command_block",
-    "name": "Chain Command Block",
+    "name": "사슬 command 블록",
     "emoji": "📦",
     "image": "/images/items/chain_command_block.png",
     "category": "재료",
@@ -2419,7 +2419,7 @@
   },
   {
     "id": "chainmail_boots",
-    "name": "Chainmail Boots",
+    "name": "사슬 부츠",
     "emoji": "🦺",
     "image": "/images/items/chainmail_boots.png",
     "category": "방어구",
@@ -2431,7 +2431,7 @@
   },
   {
     "id": "chainmail_chestplate",
-    "name": "Chainmail Chestplate",
+    "name": "사슬 흉갑",
     "emoji": "🦺",
     "image": "/images/items/chainmail_chestplate.png",
     "category": "방어구",
@@ -2443,7 +2443,7 @@
   },
   {
     "id": "chainmail_helmet",
-    "name": "Chainmail Helmet",
+    "name": "사슬 투구",
     "emoji": "🦺",
     "image": "/images/items/chainmail_helmet.png",
     "category": "방어구",
@@ -2455,7 +2455,7 @@
   },
   {
     "id": "chainmail_leggings",
-    "name": "Chainmail Leggings",
+    "name": "사슬 레깅스",
     "emoji": "🦺",
     "image": "/images/items/chainmail_leggings.png",
     "category": "방어구",
@@ -2711,7 +2711,7 @@
   },
   {
     "id": "chicken",
-    "name": "Chicken",
+    "name": "닭",
     "emoji": "📦",
     "image": "/images/items/chicken.png",
     "category": "재료",
@@ -2723,7 +2723,7 @@
   },
   {
     "id": "chicken_spawn_egg",
-    "name": "Chicken Spawn Egg",
+    "name": "닭 생성 알",
     "emoji": "📦",
     "image": "/images/items/chicken_spawn_egg.png",
     "category": "음식",
@@ -2735,7 +2735,7 @@
   },
   {
     "id": "chipped_anvil",
-    "name": "Chipped Anvil",
+    "name": "chipped 모루",
     "emoji": "📦",
     "image": "/images/items/chipped_anvil.png",
     "category": "재료",
@@ -2759,7 +2759,7 @@
   },
   {
     "id": "chiseled_copper",
-    "name": "Chiseled Copper",
+    "name": "조각된 구리",
     "emoji": "📦",
     "image": "/images/items/chiseled_copper.png",
     "category": "재료",
@@ -2771,7 +2771,7 @@
   },
   {
     "id": "chiseled_deepslate",
-    "name": "Chiseled Deepslate",
+    "name": "조각된 심층암",
     "emoji": "📦",
     "image": "/images/items/chiseled_deepslate.png",
     "category": "재료",
@@ -2783,7 +2783,7 @@
   },
   {
     "id": "chiseled_nether_bricks",
-    "name": "Chiseled Nether Bricks",
+    "name": "조각된 네더 벽돌",
     "emoji": "📦",
     "image": "/images/items/chiseled_nether_bricks.png",
     "category": "재료",
@@ -2795,7 +2795,7 @@
   },
   {
     "id": "chiseled_polished_blackstone",
-    "name": "Chiseled Polished Blackstone",
+    "name": "조각된 매끄러운 흑암",
     "emoji": "📦",
     "image": "/images/items/chiseled_polished_blackstone.png",
     "category": "재료",
@@ -2819,7 +2819,7 @@
   },
   {
     "id": "chiseled_red_sandstone",
-    "name": "Chiseled Red Sandstone",
+    "name": "조각된 붉은 사암",
     "emoji": "📦",
     "image": "/images/items/chiseled_red_sandstone.png",
     "category": "재료",
@@ -2831,7 +2831,7 @@
   },
   {
     "id": "chiseled_resin_bricks",
-    "name": "Chiseled Resin Bricks",
+    "name": "조각된 수지 벽돌",
     "emoji": "📦",
     "image": "/images/items/chiseled_resin_bricks.png",
     "category": "재료",
@@ -2843,7 +2843,7 @@
   },
   {
     "id": "chiseled_sandstone",
-    "name": "Chiseled Sandstone",
+    "name": "조각된 사암",
     "emoji": "📦",
     "image": "/images/items/chiseled_sandstone.png",
     "category": "재료",
@@ -2855,7 +2855,7 @@
   },
   {
     "id": "chiseled_stone_bricks",
-    "name": "Chiseled Stone Bricks",
+    "name": "조각된 돌 벽돌",
     "emoji": "📦",
     "image": "/images/items/chiseled_stone_bricks.png",
     "category": "재료",
@@ -2867,7 +2867,7 @@
   },
   {
     "id": "chiseled_tuff",
-    "name": "Chiseled Tuff",
+    "name": "조각된 응회암",
     "emoji": "📦",
     "image": "/images/items/chiseled_tuff.png",
     "category": "재료",
@@ -2879,7 +2879,7 @@
   },
   {
     "id": "chiseled_tuff_bricks",
-    "name": "Chiseled Tuff Bricks",
+    "name": "조각된 응회암 벽돌",
     "emoji": "📦",
     "image": "/images/items/chiseled_tuff_bricks.png",
     "category": "재료",
@@ -2939,7 +2939,7 @@
   },
   {
     "id": "clay_ball",
-    "name": "Clay Ball",
+    "name": "점토 ball",
     "emoji": "📦",
     "image": "/images/items/clay_ball.png",
     "category": "자원",
@@ -2990,7 +2990,7 @@
   },
   {
     "id": "coal_block",
-    "name": "Coal Block",
+    "name": "석탄 블록",
     "emoji": "💎",
     "image": "/images/items/coal_block.png",
     "category": "자원",
@@ -3026,7 +3026,7 @@
   },
   {
     "id": "coast_armor_trim_smithing_template",
-    "name": "Coast Armor Trim Smithing Template",
+    "name": "coast 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/coast_armor_trim_smithing_template.png",
     "category": "재료",
@@ -3050,7 +3050,7 @@
   },
   {
     "id": "cobbled_deepslate_slab",
-    "name": "Cobbled Deepslate Slab",
+    "name": "깨진 심층암 반 블록",
     "emoji": "📦",
     "image": "/images/items/cobbled_deepslate_slab.png",
     "category": "재료",
@@ -3062,7 +3062,7 @@
   },
   {
     "id": "cobbled_deepslate_stairs",
-    "name": "Cobbled Deepslate Stairs",
+    "name": "깨진 심층암 계단",
     "emoji": "📦",
     "image": "/images/items/cobbled_deepslate_stairs.png",
     "category": "재료",
@@ -3074,7 +3074,7 @@
   },
   {
     "id": "cobbled_deepslate_wall",
-    "name": "Cobbled Deepslate Wall",
+    "name": "깨진 심층암 담장",
     "emoji": "📦",
     "image": "/images/items/cobbled_deepslate_wall.png",
     "category": "재료",
@@ -3098,7 +3098,7 @@
   },
   {
     "id": "cobblestone_slab",
-    "name": "Cobblestone Slab",
+    "name": "둥근돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/cobblestone_slab.png",
     "category": "재료",
@@ -3110,7 +3110,7 @@
   },
   {
     "id": "cobblestone_stairs",
-    "name": "Cobblestone Stairs",
+    "name": "둥근돌 계단",
     "emoji": "📦",
     "image": "/images/items/cobblestone_stairs.png",
     "category": "재료",
@@ -3122,7 +3122,7 @@
   },
   {
     "id": "cobblestone_wall",
-    "name": "Cobblestone Wall",
+    "name": "둥근돌 담장",
     "emoji": "📦",
     "image": "/images/items/cobblestone_wall.png",
     "category": "재료",
@@ -3160,7 +3160,7 @@
   },
   {
     "id": "cod",
-    "name": "Cod",
+    "name": "대구",
     "emoji": "📦",
     "image": "/images/items/cod.png",
     "category": "재료",
@@ -3172,7 +3172,7 @@
   },
   {
     "id": "cod_bucket",
-    "name": "Cod Bucket",
+    "name": "대구 양동이",
     "emoji": "📦",
     "image": "/images/items/cod_bucket.png",
     "category": "도구",
@@ -3184,7 +3184,7 @@
   },
   {
     "id": "cod_spawn_egg",
-    "name": "Cod Spawn Egg",
+    "name": "대구 생성 알",
     "emoji": "📦",
     "image": "/images/items/cod_spawn_egg.png",
     "category": "음식",
@@ -3196,7 +3196,7 @@
   },
   {
     "id": "command_block",
-    "name": "Command Block",
+    "name": "command 블록",
     "emoji": "📦",
     "image": "/images/items/command_block.png",
     "category": "재료",
@@ -3208,7 +3208,7 @@
   },
   {
     "id": "command_block_minecart",
-    "name": "Command Block Minecart",
+    "name": "command 블록 광산 수레",
     "emoji": "📦",
     "image": "/images/items/command_block_minecart.png",
     "category": "이동",
@@ -3403,7 +3403,7 @@
   },
   {
     "id": "copper_door",
-    "name": "Copper Door",
+    "name": "구리 문",
     "emoji": "📦",
     "image": "/images/items/copper_door.png",
     "category": "재료",
@@ -3453,7 +3453,7 @@
   },
   {
     "id": "copper_trapdoor",
-    "name": "Copper Trapdoor",
+    "name": "구리 다락문",
     "emoji": "📦",
     "image": "/images/items/copper_trapdoor.png",
     "category": "재료",
@@ -3477,7 +3477,7 @@
   },
   {
     "id": "cow_spawn_egg",
-    "name": "Cow Spawn Egg",
+    "name": "소 생성 알",
     "emoji": "📦",
     "image": "/images/items/cow_spawn_egg.png",
     "category": "음식",
@@ -3489,7 +3489,7 @@
   },
   {
     "id": "cracked_deepslate_bricks",
-    "name": "Cracked Deepslate Bricks",
+    "name": "갈라진 심층암 벽돌",
     "emoji": "📦",
     "image": "/images/items/cracked_deepslate_bricks.png",
     "category": "재료",
@@ -3501,7 +3501,7 @@
   },
   {
     "id": "cracked_deepslate_tiles",
-    "name": "Cracked Deepslate Tiles",
+    "name": "갈라진 심층암 타일",
     "emoji": "📦",
     "image": "/images/items/cracked_deepslate_tiles.png",
     "category": "재료",
@@ -3513,7 +3513,7 @@
   },
   {
     "id": "cracked_nether_bricks",
-    "name": "Cracked Nether Bricks",
+    "name": "갈라진 네더 벽돌",
     "emoji": "📦",
     "image": "/images/items/cracked_nether_bricks.png",
     "category": "재료",
@@ -3525,7 +3525,7 @@
   },
   {
     "id": "cracked_polished_blackstone_bricks",
-    "name": "Cracked Polished Blackstone Bricks",
+    "name": "갈라진 매끄러운 흑암 벽돌",
     "emoji": "📦",
     "image": "/images/items/cracked_polished_blackstone_bricks.png",
     "category": "재료",
@@ -3537,7 +3537,7 @@
   },
   {
     "id": "cracked_stone_bricks",
-    "name": "Cracked Stone Bricks",
+    "name": "갈라진 돌 벽돌",
     "emoji": "📦",
     "image": "/images/items/cracked_stone_bricks.png",
     "category": "재료",
@@ -3585,7 +3585,7 @@
   },
   {
     "id": "creaking_spawn_egg",
-    "name": "Creaking Spawn Egg",
+    "name": "크리킹 생성 알",
     "emoji": "📦",
     "image": "/images/items/creaking_spawn_egg.png",
     "category": "음식",
@@ -3597,7 +3597,7 @@
   },
   {
     "id": "creeper_banner_pattern",
-    "name": "Creeper Banner Pattern",
+    "name": "크리퍼 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/creeper_banner_pattern.png",
     "category": "특수",
@@ -3609,7 +3609,7 @@
   },
   {
     "id": "creeper_head",
-    "name": "Creeper Head",
+    "name": "크리퍼 head",
     "emoji": "📦",
     "image": "/images/items/creeper_head.png",
     "category": "특수",
@@ -3621,7 +3621,7 @@
   },
   {
     "id": "creeper_spawn_egg",
-    "name": "Creeper Spawn Egg",
+    "name": "크리퍼 생성 알",
     "emoji": "📦",
     "image": "/images/items/creeper_spawn_egg.png",
     "category": "음식",
@@ -3851,7 +3851,7 @@
   },
   {
     "id": "cut_copper",
-    "name": "Cut Copper",
+    "name": "깎인 구리",
     "emoji": "📦",
     "image": "/images/items/cut_copper.png",
     "category": "재료",
@@ -3863,7 +3863,7 @@
   },
   {
     "id": "cut_copper_slab",
-    "name": "Cut Copper Slab",
+    "name": "깎인 구리 반 블록",
     "emoji": "📦",
     "image": "/images/items/cut_copper_slab.png",
     "category": "재료",
@@ -3875,7 +3875,7 @@
   },
   {
     "id": "cut_copper_stairs",
-    "name": "Cut Copper Stairs",
+    "name": "깎인 구리 계단",
     "emoji": "📦",
     "image": "/images/items/cut_copper_stairs.png",
     "category": "재료",
@@ -3887,7 +3887,7 @@
   },
   {
     "id": "cut_red_sandstone",
-    "name": "Cut Red Sandstone",
+    "name": "깎인 붉은 사암",
     "emoji": "📦",
     "image": "/images/items/cut_red_sandstone.png",
     "category": "재료",
@@ -3899,7 +3899,7 @@
   },
   {
     "id": "cut_red_sandstone_slab",
-    "name": "Cut Red Sandstone Slab",
+    "name": "깎인 붉은 사암 반 블록",
     "emoji": "📦",
     "image": "/images/items/cut_red_sandstone_slab.png",
     "category": "재료",
@@ -3911,7 +3911,7 @@
   },
   {
     "id": "cut_sandstone",
-    "name": "Cut Sandstone",
+    "name": "깎인 사암",
     "emoji": "📦",
     "image": "/images/items/cut_sandstone.png",
     "category": "재료",
@@ -3923,7 +3923,7 @@
   },
   {
     "id": "cut_sandstone_slab",
-    "name": "Cut Sandstone Slab",
+    "name": "깎인 사암 반 블록",
     "emoji": "📦",
     "image": "/images/items/cut_sandstone_slab.png",
     "category": "재료",
@@ -4103,7 +4103,7 @@
   },
   {
     "id": "damaged_anvil",
-    "name": "Damaged Anvil",
+    "name": "damaged 모루",
     "emoji": "📦",
     "image": "/images/items/damaged_anvil.png",
     "category": "재료",
@@ -4127,7 +4127,7 @@
   },
   {
     "id": "danger_pottery_sherd",
-    "name": "Danger Pottery Sherd",
+    "name": "danger 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/danger_pottery_sherd.png",
     "category": "특수",
@@ -4355,7 +4355,7 @@
   },
   {
     "id": "dark_prismarine_slab",
-    "name": "Dark Prismarine Slab",
+    "name": "어두운 프리즈마린 반 블록",
     "emoji": "📦",
     "image": "/images/items/dark_prismarine_slab.png",
     "category": "재료",
@@ -4367,7 +4367,7 @@
   },
   {
     "id": "dark_prismarine_stairs",
-    "name": "Dark Prismarine Stairs",
+    "name": "어두운 프리즈마린 계단",
     "emoji": "📦",
     "image": "/images/items/dark_prismarine_stairs.png",
     "category": "재료",
@@ -4403,7 +4403,7 @@
   },
   {
     "id": "dead_brain_coral_block",
-    "name": "Dead Brain Coral Block",
+    "name": "죽은 뇌 산호 블록",
     "emoji": "📦",
     "image": "/images/items/dead_brain_coral_block.png",
     "category": "재료",
@@ -4415,7 +4415,7 @@
   },
   {
     "id": "dead_brain_coral_fan",
-    "name": "Dead Brain Coral Fan",
+    "name": "죽은 뇌 부채산호",
     "emoji": "📦",
     "image": "/images/items/dead_brain_coral_fan.png",
     "category": "재료",
@@ -4439,7 +4439,7 @@
   },
   {
     "id": "dead_bubble_coral_block",
-    "name": "Dead Bubble Coral Block",
+    "name": "죽은 거품 산호 블록",
     "emoji": "📦",
     "image": "/images/items/dead_bubble_coral_block.png",
     "category": "재료",
@@ -4451,7 +4451,7 @@
   },
   {
     "id": "dead_bubble_coral_fan",
-    "name": "Dead Bubble Coral Fan",
+    "name": "죽은 거품 부채산호",
     "emoji": "📦",
     "image": "/images/items/dead_bubble_coral_fan.png",
     "category": "재료",
@@ -4487,7 +4487,7 @@
   },
   {
     "id": "dead_fire_coral_block",
-    "name": "Dead Fire Coral Block",
+    "name": "죽은 불 산호 블록",
     "emoji": "📦",
     "image": "/images/items/dead_fire_coral_block.png",
     "category": "재료",
@@ -4499,7 +4499,7 @@
   },
   {
     "id": "dead_fire_coral_fan",
-    "name": "Dead Fire Coral Fan",
+    "name": "죽은 불 부채산호",
     "emoji": "📦",
     "image": "/images/items/dead_fire_coral_fan.png",
     "category": "재료",
@@ -4523,7 +4523,7 @@
   },
   {
     "id": "dead_horn_coral_block",
-    "name": "Dead Horn Coral Block",
+    "name": "죽은 뿔 산호 블록",
     "emoji": "📦",
     "image": "/images/items/dead_horn_coral_block.png",
     "category": "재료",
@@ -4535,7 +4535,7 @@
   },
   {
     "id": "dead_horn_coral_fan",
-    "name": "Dead Horn Coral Fan",
+    "name": "죽은 뿔 부채산호",
     "emoji": "📦",
     "image": "/images/items/dead_horn_coral_fan.png",
     "category": "재료",
@@ -4559,7 +4559,7 @@
   },
   {
     "id": "dead_tube_coral_block",
-    "name": "Dead Tube Coral Block",
+    "name": "죽은 관 산호 블록",
     "emoji": "📦",
     "image": "/images/items/dead_tube_coral_block.png",
     "category": "재료",
@@ -4571,7 +4571,7 @@
   },
   {
     "id": "dead_tube_coral_fan",
-    "name": "Dead Tube Coral Fan",
+    "name": "죽은 관 부채산호",
     "emoji": "📦",
     "image": "/images/items/dead_tube_coral_fan.png",
     "category": "재료",
@@ -4583,7 +4583,7 @@
   },
   {
     "id": "debug_stick",
-    "name": "Debug Stick",
+    "name": "디버그 막대",
     "emoji": "📦",
     "image": "/images/items/debug_stick.png",
     "category": "재료",
@@ -4607,7 +4607,7 @@
   },
   {
     "id": "deepslate",
-    "name": "Deepslate",
+    "name": "심층암",
     "emoji": "📦",
     "image": "/images/items/deepslate.png",
     "category": "재료",
@@ -4811,7 +4811,7 @@
   },
   {
     "id": "detector_rail",
-    "name": "Detector Rail",
+    "name": "감지 레일",
     "emoji": "📦",
     "image": "/images/items/detector_rail.png",
     "category": "이동",
@@ -4838,7 +4838,7 @@
   },
   {
     "id": "diamond_axe",
-    "name": "Diamond Axe",
+    "name": "다이아몬드 도끼",
     "emoji": "⚔️",
     "image": "/images/items/diamond_axe.png",
     "category": "도구",
@@ -4850,7 +4850,7 @@
   },
   {
     "id": "diamond_block",
-    "name": "Diamond Block",
+    "name": "다이아몬드 블록",
     "emoji": "💎",
     "image": "/images/items/diamond_block.png",
     "category": "자원",
@@ -4862,7 +4862,7 @@
   },
   {
     "id": "diamond_boots",
-    "name": "Diamond Boots",
+    "name": "다이아몬드 부츠",
     "emoji": "🦺",
     "image": "/images/items/diamond_boots.png",
     "category": "방어구",
@@ -4874,7 +4874,7 @@
   },
   {
     "id": "diamond_chestplate",
-    "name": "Diamond Chestplate",
+    "name": "다이아몬드 흉갑",
     "emoji": "🦺",
     "image": "/images/items/diamond_chestplate.png",
     "category": "방어구",
@@ -4886,7 +4886,7 @@
   },
   {
     "id": "diamond_helmet",
-    "name": "Diamond Helmet",
+    "name": "다이아몬드 투구",
     "emoji": "🦺",
     "image": "/images/items/diamond_helmet.png",
     "category": "방어구",
@@ -4898,7 +4898,7 @@
   },
   {
     "id": "diamond_hoe",
-    "name": "Diamond Hoe",
+    "name": "다이아몬드 괭이",
     "emoji": "⚔️",
     "image": "/images/items/diamond_hoe.png",
     "category": "도구",
@@ -4924,7 +4924,7 @@
   },
   {
     "id": "diamond_leggings",
-    "name": "Diamond Leggings",
+    "name": "다이아몬드 레깅스",
     "emoji": "🦺",
     "image": "/images/items/diamond_leggings.png",
     "category": "방어구",
@@ -4948,7 +4948,7 @@
   },
   {
     "id": "diamond_pickaxe",
-    "name": "Diamond Pickaxe",
+    "name": "다이아몬드 곡괭이",
     "emoji": "⚔️",
     "image": "/images/items/diamond_pickaxe.png",
     "category": "도구",
@@ -4960,7 +4960,7 @@
   },
   {
     "id": "diamond_shovel",
-    "name": "Diamond Shovel",
+    "name": "다이아몬드 삽",
     "emoji": "⚔️",
     "image": "/images/items/diamond_shovel.png",
     "category": "도구",
@@ -4972,7 +4972,7 @@
   },
   {
     "id": "diamond_sword",
-    "name": "Diamond Sword",
+    "name": "다이아몬드 검",
     "emoji": "⚔️",
     "image": "/images/items/diamond_sword.png",
     "category": "무기",
@@ -4984,7 +4984,7 @@
   },
   {
     "id": "diorite",
-    "name": "Diorite",
+    "name": "섬록암",
     "emoji": "📦",
     "image": "/images/items/diorite.png",
     "category": "재료",
@@ -4996,7 +4996,7 @@
   },
   {
     "id": "diorite_slab",
-    "name": "Diorite Slab",
+    "name": "섬록암 반 블록",
     "emoji": "📦",
     "image": "/images/items/diorite_slab.png",
     "category": "재료",
@@ -5008,7 +5008,7 @@
   },
   {
     "id": "diorite_stairs",
-    "name": "Diorite Stairs",
+    "name": "섬록암 계단",
     "emoji": "📦",
     "image": "/images/items/diorite_stairs.png",
     "category": "재료",
@@ -5020,7 +5020,7 @@
   },
   {
     "id": "diorite_wall",
-    "name": "Diorite Wall",
+    "name": "섬록암 담장",
     "emoji": "📦",
     "image": "/images/items/diorite_wall.png",
     "category": "재료",
@@ -5056,7 +5056,7 @@
   },
   {
     "id": "disc_fragment_5",
-    "name": "Disc Fragment 5",
+    "name": "음반 fragment 5",
     "emoji": "📦",
     "image": "/images/items/disc_fragment_5.png",
     "category": "재료",
@@ -5080,7 +5080,7 @@
   },
   {
     "id": "dolphin_spawn_egg",
-    "name": "Dolphin Spawn Egg",
+    "name": "돌고래 생성 알",
     "emoji": "📦",
     "image": "/images/items/dolphin_spawn_egg.png",
     "category": "음식",
@@ -5092,7 +5092,7 @@
   },
   {
     "id": "donkey_spawn_egg",
-    "name": "Donkey Spawn Egg",
+    "name": "당나귀 생성 알",
     "emoji": "📦",
     "image": "/images/items/donkey_spawn_egg.png",
     "category": "음식",
@@ -5142,7 +5142,7 @@
   },
   {
     "id": "dragon_head",
-    "name": "Dragon Head",
+    "name": "드래곤 머리",
     "emoji": "📦",
     "image": "/images/items/dragon_head.png",
     "category": "특수",
@@ -5154,7 +5154,7 @@
   },
   {
     "id": "dried_kelp",
-    "name": "Dried Kelp",
+    "name": "dried 다시마",
     "emoji": "📦",
     "image": "/images/items/dried_kelp.png",
     "category": "재료",
@@ -5202,7 +5202,7 @@
   },
   {
     "id": "drowned_spawn_egg",
-    "name": "Drowned Spawn Egg",
+    "name": "드rowned 생성 알",
     "emoji": "📦",
     "image": "/images/items/drowned_spawn_egg.png",
     "category": "음식",
@@ -5214,7 +5214,7 @@
   },
   {
     "id": "dune_armor_trim_smithing_template",
-    "name": "Dune Armor Trim Smithing Template",
+    "name": "dune 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/dune_armor_trim_smithing_template.png",
     "category": "재료",
@@ -5254,7 +5254,7 @@
   },
   {
     "id": "elder_guardian_spawn_egg",
-    "name": "Elder Guardian Spawn Egg",
+    "name": "엘더 가디언 생성 알",
     "emoji": "📦",
     "image": "/images/items/elder_guardian_spawn_egg.png",
     "category": "음식",
@@ -5292,7 +5292,7 @@
   },
   {
     "id": "emerald_block",
-    "name": "Emerald Block",
+    "name": "에메랄드 블록",
     "emoji": "💎",
     "image": "/images/items/emerald_block.png",
     "category": "자원",
@@ -5356,7 +5356,7 @@
   },
   {
     "id": "end_crystal",
-    "name": "End Crystal",
+    "name": "엔드 수정",
     "emoji": "📦",
     "image": "/images/items/end_crystal.png",
     "category": "재료",
@@ -5404,7 +5404,7 @@
   },
   {
     "id": "end_stone_brick_slab",
-    "name": "End Stone Brick Slab",
+    "name": "엔드 석 벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/end_stone_brick_slab.png",
     "category": "재료",
@@ -5416,7 +5416,7 @@
   },
   {
     "id": "end_stone_brick_stairs",
-    "name": "End Stone Brick Stairs",
+    "name": "엔드 석 벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/end_stone_brick_stairs.png",
     "category": "재료",
@@ -5428,7 +5428,7 @@
   },
   {
     "id": "end_stone_brick_wall",
-    "name": "End Stone Brick Wall",
+    "name": "엔드 석 벽돌 담장",
     "emoji": "📦",
     "image": "/images/items/end_stone_brick_wall.png",
     "category": "재료",
@@ -5464,7 +5464,7 @@
   },
   {
     "id": "ender_dragon_spawn_egg",
-    "name": "Ender Dragon Spawn Egg",
+    "name": "엔더 드래곤 생성 알",
     "emoji": "📦",
     "image": "/images/items/ender_dragon_spawn_egg.png",
     "category": "음식",
@@ -5502,7 +5502,7 @@
   },
   {
     "id": "enderman_spawn_egg",
-    "name": "Enderman Spawn Egg",
+    "name": "엔더맨 생성 알",
     "emoji": "📦",
     "image": "/images/items/enderman_spawn_egg.png",
     "category": "음식",
@@ -5514,7 +5514,7 @@
   },
   {
     "id": "endermite_spawn_egg",
-    "name": "Endermite Spawn Egg",
+    "name": "엔더mite 생성 알",
     "emoji": "📦",
     "image": "/images/items/endermite_spawn_egg.png",
     "category": "음식",
@@ -5526,7 +5526,7 @@
   },
   {
     "id": "evoker_spawn_egg",
-    "name": "Evoker Spawn Egg",
+    "name": "소환사 생성 알",
     "emoji": "📦",
     "image": "/images/items/evoker_spawn_egg.png",
     "category": "음식",
@@ -5552,7 +5552,7 @@
   },
   {
     "id": "explorer_pottery_sherd",
-    "name": "Explorer Pottery Sherd",
+    "name": "explorer 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/explorer_pottery_sherd.png",
     "category": "특수",
@@ -5564,7 +5564,7 @@
   },
   {
     "id": "exposed_chiseled_copper",
-    "name": "Exposed Chiseled Copper",
+    "name": "약간 녹슨 조각된 구리",
     "emoji": "📦",
     "image": "/images/items/exposed_chiseled_copper.png",
     "category": "재료",
@@ -5576,7 +5576,7 @@
   },
   {
     "id": "exposed_copper",
-    "name": "Exposed Copper",
+    "name": "약간 녹슨 구리",
     "emoji": "📦",
     "image": "/images/items/exposed_copper.png",
     "category": "재료",
@@ -5588,7 +5588,7 @@
   },
   {
     "id": "exposed_copper_bulb",
-    "name": "Exposed Copper Bulb",
+    "name": "약간 녹슨 구리 전구",
     "emoji": "📦",
     "image": "/images/items/exposed_copper_bulb.png",
     "category": "재료",
@@ -5600,7 +5600,7 @@
   },
   {
     "id": "exposed_copper_door",
-    "name": "Exposed Copper Door",
+    "name": "약간 녹슨 구리 문",
     "emoji": "📦",
     "image": "/images/items/exposed_copper_door.png",
     "category": "재료",
@@ -5612,7 +5612,7 @@
   },
   {
     "id": "exposed_copper_grate",
-    "name": "Exposed Copper Grate",
+    "name": "약간 녹슨 구리 격자",
     "emoji": "📦",
     "image": "/images/items/exposed_copper_grate.png",
     "category": "재료",
@@ -5624,7 +5624,7 @@
   },
   {
     "id": "exposed_copper_trapdoor",
-    "name": "Exposed Copper Trapdoor",
+    "name": "약간 녹슨 구리 다락문",
     "emoji": "📦",
     "image": "/images/items/exposed_copper_trapdoor.png",
     "category": "재료",
@@ -5636,7 +5636,7 @@
   },
   {
     "id": "exposed_cut_copper",
-    "name": "Exposed Cut Copper",
+    "name": "약간 녹슨 깎인 구리",
     "emoji": "📦",
     "image": "/images/items/exposed_cut_copper.png",
     "category": "재료",
@@ -5648,7 +5648,7 @@
   },
   {
     "id": "exposed_cut_copper_slab",
-    "name": "Exposed Cut Copper Slab",
+    "name": "약간 녹슨 깎인 구리 반 블록",
     "emoji": "📦",
     "image": "/images/items/exposed_cut_copper_slab.png",
     "category": "재료",
@@ -5660,7 +5660,7 @@
   },
   {
     "id": "exposed_cut_copper_stairs",
-    "name": "Exposed Cut Copper Stairs",
+    "name": "약간 녹슨 깎인 구리 계단",
     "emoji": "📦",
     "image": "/images/items/exposed_cut_copper_stairs.png",
     "category": "재료",
@@ -5672,7 +5672,7 @@
   },
   {
     "id": "eye_armor_trim_smithing_template",
-    "name": "Eye Armor Trim Smithing Template",
+    "name": "eye 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/eye_armor_trim_smithing_template.png",
     "category": "재료",
@@ -5738,7 +5738,7 @@
   },
   {
     "id": "fern",
-    "name": "Fern",
+    "name": "고사리",
     "emoji": "📦",
     "image": "/images/items/fern.png",
     "category": "재료",
@@ -5750,7 +5750,7 @@
   },
   {
     "id": "field_masoned_banner_pattern",
-    "name": "Field Masoned Banner Pattern",
+    "name": "field masoned 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/field_masoned_banner_pattern.png",
     "category": "특수",
@@ -5762,7 +5762,7 @@
   },
   {
     "id": "filled_map",
-    "name": "Filled Map",
+    "name": "지도",
     "emoji": "📦",
     "image": "/images/items/filled_map.png",
     "category": "특수",
@@ -5798,7 +5798,7 @@
   },
   {
     "id": "fire_coral_block",
-    "name": "Fire Coral Block",
+    "name": "불 산호 블록",
     "emoji": "📦",
     "image": "/images/items/fire_coral_block.png",
     "category": "재료",
@@ -5810,7 +5810,7 @@
   },
   {
     "id": "fire_coral_fan",
-    "name": "Fire Coral Fan",
+    "name": "불 부채산호",
     "emoji": "📦",
     "image": "/images/items/fire_coral_fan.png",
     "category": "재료",
@@ -5822,7 +5822,7 @@
   },
   {
     "id": "firework_rocket",
-    "name": "Firework Rocket",
+    "name": "폭죽",
     "emoji": "📦",
     "image": "/images/items/firework_rocket.png",
     "category": "특수",
@@ -5834,7 +5834,7 @@
   },
   {
     "id": "firework_star",
-    "name": "Firework Star",
+    "name": "폭죽 별",
     "emoji": "📦",
     "image": "/images/items/firework_star.png",
     "category": "특수",
@@ -5900,7 +5900,7 @@
   },
   {
     "id": "flow_armor_trim_smithing_template",
-    "name": "Flow Armor Trim Smithing Template",
+    "name": "flow 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/flow_armor_trim_smithing_template.png",
     "category": "재료",
@@ -5912,7 +5912,7 @@
   },
   {
     "id": "flow_banner_pattern",
-    "name": "Flow Banner Pattern",
+    "name": "flow 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/flow_banner_pattern.png",
     "category": "특수",
@@ -5924,7 +5924,7 @@
   },
   {
     "id": "flow_pottery_sherd",
-    "name": "Flow Pottery Sherd",
+    "name": "flow 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/flow_pottery_sherd.png",
     "category": "특수",
@@ -5936,7 +5936,7 @@
   },
   {
     "id": "flower_banner_pattern",
-    "name": "Flower Banner Pattern",
+    "name": "flower 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/flower_banner_pattern.png",
     "category": "특수",
@@ -5960,7 +5960,7 @@
   },
   {
     "id": "flowering_azalea",
-    "name": "Flowering Azalea",
+    "name": "꽃 핀 진달래",
     "emoji": "📦",
     "image": "/images/items/flowering_azalea.png",
     "category": "재료",
@@ -5972,7 +5972,7 @@
   },
   {
     "id": "flowering_azalea_leaves",
-    "name": "Flowering Azalea Leaves",
+    "name": "꽃 핀 진달래 잎",
     "emoji": "📦",
     "image": "/images/items/flowering_azalea_leaves.png",
     "category": "재료",
@@ -5984,7 +5984,7 @@
   },
   {
     "id": "fox_spawn_egg",
-    "name": "Fox Spawn Egg",
+    "name": "여우 생성 알",
     "emoji": "📦",
     "image": "/images/items/fox_spawn_egg.png",
     "category": "음식",
@@ -5996,7 +5996,7 @@
   },
   {
     "id": "friend_pottery_sherd",
-    "name": "Friend Pottery Sherd",
+    "name": "friend 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/friend_pottery_sherd.png",
     "category": "특수",
@@ -6008,7 +6008,7 @@
   },
   {
     "id": "frog_spawn_egg",
-    "name": "Frog Spawn Egg",
+    "name": "개구리 생성 알",
     "emoji": "📦",
     "image": "/images/items/frog_spawn_egg.png",
     "category": "음식",
@@ -6044,7 +6044,7 @@
   },
   {
     "id": "furnace_minecart",
-    "name": "Furnace Minecart",
+    "name": "화로 광산 수레",
     "emoji": "📦",
     "image": "/images/items/furnace_minecart.png",
     "category": "이동",
@@ -6056,7 +6056,7 @@
   },
   {
     "id": "ghast_spawn_egg",
-    "name": "Ghast Spawn Egg",
+    "name": "가스트 생성 알",
     "emoji": "📦",
     "image": "/images/items/ghast_spawn_egg.png",
     "category": "음식",
@@ -6082,7 +6082,7 @@
   },
   {
     "id": "gilded_blackstone",
-    "name": "Gilded Blackstone",
+    "name": "금박 흑암",
     "emoji": "📦",
     "image": "/images/items/gilded_blackstone.png",
     "category": "재료",
@@ -6106,7 +6106,7 @@
   },
   {
     "id": "glass_bottle",
-    "name": "Glass Bottle",
+    "name": "유리 bottle",
     "emoji": "📦",
     "image": "/images/items/glass_bottle.png",
     "category": "재료",
@@ -6144,7 +6144,7 @@
   },
   {
     "id": "globe_banner_pattern",
-    "name": "Globe Banner Pattern",
+    "name": "globe 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/globe_banner_pattern.png",
     "category": "특수",
@@ -6208,7 +6208,7 @@
   },
   {
     "id": "glow_squid_spawn_egg",
-    "name": "Glow Squid Spawn Egg",
+    "name": "발광 오징어 생성 알",
     "emoji": "📦",
     "image": "/images/items/glow_squid_spawn_egg.png",
     "category": "음식",
@@ -6244,7 +6244,7 @@
   },
   {
     "id": "goat_horn",
-    "name": "Goat Horn",
+    "name": "염소 horn",
     "emoji": "📦",
     "image": "/images/items/goat_horn.png",
     "category": "재료",
@@ -6256,7 +6256,7 @@
   },
   {
     "id": "goat_spawn_egg",
-    "name": "Goat Spawn Egg",
+    "name": "염소 생성 알",
     "emoji": "📦",
     "image": "/images/items/goat_spawn_egg.png",
     "category": "음식",
@@ -6268,7 +6268,7 @@
   },
   {
     "id": "gold_block",
-    "name": "Gold Block",
+    "name": "금 블록",
     "emoji": "📦",
     "image": "/images/items/gold_block.png",
     "category": "재료",
@@ -6335,7 +6335,7 @@
   },
   {
     "id": "golden_axe",
-    "name": "Golden Axe",
+    "name": "금 도끼",
     "emoji": "⚔️",
     "image": "/images/items/golden_axe.png",
     "category": "도구",
@@ -6347,7 +6347,7 @@
   },
   {
     "id": "golden_boots",
-    "name": "Golden Boots",
+    "name": "금 부츠",
     "emoji": "🦺",
     "image": "/images/items/golden_boots.png",
     "category": "방어구",
@@ -6373,7 +6373,7 @@
   },
   {
     "id": "golden_chestplate",
-    "name": "Golden Chestplate",
+    "name": "금 흉갑",
     "emoji": "🦺",
     "image": "/images/items/golden_chestplate.png",
     "category": "방어구",
@@ -6385,7 +6385,7 @@
   },
   {
     "id": "golden_helmet",
-    "name": "Golden Helmet",
+    "name": "금 투구",
     "emoji": "🦺",
     "image": "/images/items/golden_helmet.png",
     "category": "방어구",
@@ -6397,7 +6397,7 @@
   },
   {
     "id": "golden_hoe",
-    "name": "Golden Hoe",
+    "name": "금 괭이",
     "emoji": "⚔️",
     "image": "/images/items/golden_hoe.png",
     "category": "도구",
@@ -6409,7 +6409,7 @@
   },
   {
     "id": "golden_horse_armor",
-    "name": "Golden Horse Armor",
+    "name": "golden 말 갑옷",
     "emoji": "📦",
     "image": "/images/items/golden_horse_armor.png",
     "category": "방어구",
@@ -6421,7 +6421,7 @@
   },
   {
     "id": "golden_leggings",
-    "name": "Golden Leggings",
+    "name": "금 레깅스",
     "emoji": "🦺",
     "image": "/images/items/golden_leggings.png",
     "category": "방어구",
@@ -6433,7 +6433,7 @@
   },
   {
     "id": "golden_pickaxe",
-    "name": "Golden Pickaxe",
+    "name": "금 곡괭이",
     "emoji": "⚔️",
     "image": "/images/items/golden_pickaxe.png",
     "category": "도구",
@@ -6445,7 +6445,7 @@
   },
   {
     "id": "golden_shovel",
-    "name": "Golden Shovel",
+    "name": "금 삽",
     "emoji": "⚔️",
     "image": "/images/items/golden_shovel.png",
     "category": "도구",
@@ -6457,7 +6457,7 @@
   },
   {
     "id": "golden_sword",
-    "name": "Golden Sword",
+    "name": "금 검",
     "emoji": "⚔️",
     "image": "/images/items/golden_sword.png",
     "category": "무기",
@@ -6469,7 +6469,7 @@
   },
   {
     "id": "granite",
-    "name": "Granite",
+    "name": "화강암",
     "emoji": "📦",
     "image": "/images/items/granite.png",
     "category": "재료",
@@ -6481,7 +6481,7 @@
   },
   {
     "id": "granite_slab",
-    "name": "Granite Slab",
+    "name": "화강암 반 블록",
     "emoji": "📦",
     "image": "/images/items/granite_slab.png",
     "category": "재료",
@@ -6493,7 +6493,7 @@
   },
   {
     "id": "granite_stairs",
-    "name": "Granite Stairs",
+    "name": "화강암 계단",
     "emoji": "📦",
     "image": "/images/items/granite_stairs.png",
     "category": "재료",
@@ -6505,7 +6505,7 @@
   },
   {
     "id": "granite_wall",
-    "name": "Granite Wall",
+    "name": "화강암 담장",
     "emoji": "📦",
     "image": "/images/items/granite_wall.png",
     "category": "재료",
@@ -6889,7 +6889,7 @@
   },
   {
     "id": "guardian_spawn_egg",
-    "name": "Guardian Spawn Egg",
+    "name": "가디언 생성 알",
     "emoji": "📦",
     "image": "/images/items/guardian_spawn_egg.png",
     "category": "음식",
@@ -6915,7 +6915,7 @@
   },
   {
     "id": "guster_banner_pattern",
-    "name": "Guster Banner Pattern",
+    "name": "guster 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/guster_banner_pattern.png",
     "category": "특수",
@@ -6927,7 +6927,7 @@
   },
   {
     "id": "guster_pottery_sherd",
-    "name": "Guster Pottery Sherd",
+    "name": "guster 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/guster_pottery_sherd.png",
     "category": "특수",
@@ -6939,7 +6939,7 @@
   },
   {
     "id": "hanging_roots",
-    "name": "Hanging Roots",
+    "name": "hanging 뿌리",
     "emoji": "📦",
     "image": "/images/items/hanging_roots.png",
     "category": "재료",
@@ -6977,7 +6977,7 @@
   },
   {
     "id": "heart_pottery_sherd",
-    "name": "Heart Pottery Sherd",
+    "name": "heart 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/heart_pottery_sherd.png",
     "category": "특수",
@@ -6989,7 +6989,7 @@
   },
   {
     "id": "heartbreak_pottery_sherd",
-    "name": "Heartbreak Pottery Sherd",
+    "name": "heartbreak 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/heartbreak_pottery_sherd.png",
     "category": "특수",
@@ -7013,7 +7013,7 @@
   },
   {
     "id": "heavy_weighted_pressure_plate",
-    "name": "Heavy Weighted Pressure Plate",
+    "name": "heavy weighted 압력판",
     "emoji": "📦",
     "image": "/images/items/heavy_weighted_pressure_plate.png",
     "category": "재료",
@@ -7039,7 +7039,7 @@
   },
   {
     "id": "hoglin_spawn_egg",
-    "name": "Hoglin Spawn Egg",
+    "name": "호글린 생성 알",
     "emoji": "📦",
     "image": "/images/items/hoglin_spawn_egg.png",
     "category": "음식",
@@ -7141,7 +7141,7 @@
   },
   {
     "id": "horn_coral_block",
-    "name": "Horn Coral Block",
+    "name": "뿔 산호 블록",
     "emoji": "📦",
     "image": "/images/items/horn_coral_block.png",
     "category": "재료",
@@ -7153,7 +7153,7 @@
   },
   {
     "id": "horn_coral_fan",
-    "name": "Horn Coral Fan",
+    "name": "뿔 부채산호",
     "emoji": "📦",
     "image": "/images/items/horn_coral_fan.png",
     "category": "재료",
@@ -7165,7 +7165,7 @@
   },
   {
     "id": "horse_spawn_egg",
-    "name": "Horse Spawn Egg",
+    "name": "말 생성 알",
     "emoji": "📦",
     "image": "/images/items/horse_spawn_egg.png",
     "category": "음식",
@@ -7177,7 +7177,7 @@
   },
   {
     "id": "host_armor_trim_smithing_template",
-    "name": "Host Armor Trim Smithing Template",
+    "name": "host 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/host_armor_trim_smithing_template.png",
     "category": "재료",
@@ -7189,7 +7189,7 @@
   },
   {
     "id": "howl_pottery_sherd",
-    "name": "Howl Pottery Sherd",
+    "name": "howl 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/howl_pottery_sherd.png",
     "category": "특수",
@@ -7201,7 +7201,7 @@
   },
   {
     "id": "husk_spawn_egg",
-    "name": "Husk Spawn Egg",
+    "name": "허스크 생성 알",
     "emoji": "📦",
     "image": "/images/items/husk_spawn_egg.png",
     "category": "음식",
@@ -7225,7 +7225,7 @@
   },
   {
     "id": "infested_chiseled_stone_bricks",
-    "name": "Infested Chiseled Stone Bricks",
+    "name": "벌레 먹은 조각된 돌 벽돌",
     "emoji": "📦",
     "image": "/images/items/infested_chiseled_stone_bricks.png",
     "category": "재료",
@@ -7249,7 +7249,7 @@
   },
   {
     "id": "infested_cracked_stone_bricks",
-    "name": "Infested Cracked Stone Bricks",
+    "name": "벌레 먹은 갈라진 돌 벽돌",
     "emoji": "📦",
     "image": "/images/items/infested_cracked_stone_bricks.png",
     "category": "재료",
@@ -7273,7 +7273,7 @@
   },
   {
     "id": "infested_mossy_stone_bricks",
-    "name": "Infested Mossy Stone Bricks",
+    "name": "벌레 먹은 이끼 낀 돌 벽돌",
     "emoji": "📦",
     "image": "/images/items/infested_mossy_stone_bricks.png",
     "category": "재료",
@@ -7297,7 +7297,7 @@
   },
   {
     "id": "infested_stone_bricks",
-    "name": "Infested Stone Bricks",
+    "name": "벌레 먹은 돌 벽돌",
     "emoji": "📦",
     "image": "/images/items/infested_stone_bricks.png",
     "category": "재료",
@@ -7323,7 +7323,7 @@
   },
   {
     "id": "iron_axe",
-    "name": "Iron Axe",
+    "name": "철 도끼",
     "emoji": "⚔️",
     "image": "/images/items/iron_axe.png",
     "category": "도구",
@@ -7347,7 +7347,7 @@
   },
   {
     "id": "iron_block",
-    "name": "Iron Block",
+    "name": "철 블록",
     "emoji": "📦",
     "image": "/images/items/iron_block.png",
     "category": "재료",
@@ -7399,7 +7399,7 @@
   },
   {
     "id": "iron_golem_spawn_egg",
-    "name": "Iron Golem Spawn Egg",
+    "name": "철 골lem 생성 알",
     "emoji": "📦",
     "image": "/images/items/iron_golem_spawn_egg.png",
     "category": "음식",
@@ -7425,7 +7425,7 @@
   },
   {
     "id": "iron_hoe",
-    "name": "Iron Hoe",
+    "name": "철 괭이",
     "emoji": "⚔️",
     "image": "/images/items/iron_hoe.png",
     "category": "도구",
@@ -7506,7 +7506,7 @@
   },
   {
     "id": "iron_pickaxe",
-    "name": "Iron Pickaxe",
+    "name": "철 곡괭이",
     "emoji": "⚔️",
     "image": "/images/items/iron_pickaxe.png",
     "category": "도구",
@@ -7518,7 +7518,7 @@
   },
   {
     "id": "iron_shovel",
-    "name": "Iron Shovel",
+    "name": "철 삽",
     "emoji": "⚔️",
     "image": "/images/items/iron_shovel.png",
     "category": "도구",
@@ -7530,7 +7530,7 @@
   },
   {
     "id": "iron_sword",
-    "name": "Iron Sword",
+    "name": "철 검",
     "emoji": "⚔️",
     "image": "/images/items/iron_sword.png",
     "category": "무기",
@@ -7578,7 +7578,7 @@
   },
   {
     "id": "jigsaw",
-    "name": "Jigsaw",
+    "name": "직소 블록",
     "emoji": "📦",
     "image": "/images/items/jigsaw.png",
     "category": "재료",
@@ -7818,7 +7818,7 @@
   },
   {
     "id": "knowledge_book",
-    "name": "Knowledge Book",
+    "name": "지식의 책",
     "emoji": "📖",
     "image": "/images/items/knowledge_book.png",
     "category": "재료",
@@ -7854,7 +7854,7 @@
   },
   {
     "id": "lapis_block",
-    "name": "Lapis Block",
+    "name": "청금석 블록",
     "emoji": "💎",
     "image": "/images/items/lapis_block.png",
     "category": "자원",
@@ -7902,7 +7902,7 @@
   },
   {
     "id": "large_fern",
-    "name": "Large Fern",
+    "name": "키 큰 고사리",
     "emoji": "📦",
     "image": "/images/items/large_fern.png",
     "category": "재료",
@@ -7996,7 +7996,7 @@
   },
   {
     "id": "leather_horse_armor",
-    "name": "Leather Horse Armor",
+    "name": "가죽 말 갑옷",
     "emoji": "📦",
     "image": "/images/items/leather_horse_armor.png",
     "category": "방어구",
@@ -8046,7 +8046,7 @@
   },
   {
     "id": "light",
-    "name": "Light",
+    "name": "빛",
     "emoji": "📦",
     "image": "/images/items/light.png",
     "category": "재료",
@@ -8394,7 +8394,7 @@
   },
   {
     "id": "light_weighted_pressure_plate",
-    "name": "Light Weighted Pressure Plate",
+    "name": "빛 weighted 압력판",
     "emoji": "📦",
     "image": "/images/items/light_weighted_pressure_plate.png",
     "category": "재료",
@@ -8622,7 +8622,7 @@
   },
   {
     "id": "lingering_potion",
-    "name": "Lingering Potion",
+    "name": "잔류형 물약",
     "emoji": "🧪",
     "image": "/images/items/lingering_potion.png",
     "category": "양조",
@@ -8634,7 +8634,7 @@
   },
   {
     "id": "llama_spawn_egg",
-    "name": "Llama Spawn Egg",
+    "name": "라마 생성 알",
     "emoji": "📦",
     "image": "/images/items/llama_spawn_egg.png",
     "category": "음식",
@@ -8850,7 +8850,7 @@
   },
   {
     "id": "magma_block",
-    "name": "Magma Block",
+    "name": "마그마 블록",
     "emoji": "📦",
     "image": "/images/items/magma_block.png",
     "category": "재료",
@@ -8876,7 +8876,7 @@
   },
   {
     "id": "magma_cube_spawn_egg",
-    "name": "Magma Cube Spawn Egg",
+    "name": "마그마 큐브 생성 알",
     "emoji": "📦",
     "image": "/images/items/magma_cube_spawn_egg.png",
     "category": "음식",
@@ -9194,7 +9194,7 @@
   },
   {
     "id": "miner_pottery_sherd",
-    "name": "Miner Pottery Sherd",
+    "name": "miner 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/miner_pottery_sherd.png",
     "category": "특수",
@@ -9206,7 +9206,7 @@
   },
   {
     "id": "mojang_banner_pattern",
-    "name": "Mojang Banner Pattern",
+    "name": "mojang 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/mojang_banner_pattern.png",
     "category": "특수",
@@ -9218,7 +9218,7 @@
   },
   {
     "id": "mooshroom_spawn_egg",
-    "name": "Mooshroom Spawn Egg",
+    "name": "무shroom 생성 알",
     "emoji": "📦",
     "image": "/images/items/mooshroom_spawn_egg.png",
     "category": "음식",
@@ -9242,7 +9242,7 @@
   },
   {
     "id": "moss_carpet",
-    "name": "Moss Carpet",
+    "name": "moss 양탄자",
     "emoji": "📦",
     "image": "/images/items/moss_carpet.png",
     "category": "재료",
@@ -9254,7 +9254,7 @@
   },
   {
     "id": "mossy_cobblestone",
-    "name": "Mossy Cobblestone",
+    "name": "이끼 낀 둥근돌",
     "emoji": "📦",
     "image": "/images/items/mossy_cobblestone.png",
     "category": "재료",
@@ -9266,7 +9266,7 @@
   },
   {
     "id": "mossy_cobblestone_slab",
-    "name": "Mossy Cobblestone Slab",
+    "name": "이끼 낀 둥근돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/mossy_cobblestone_slab.png",
     "category": "재료",
@@ -9278,7 +9278,7 @@
   },
   {
     "id": "mossy_cobblestone_stairs",
-    "name": "Mossy Cobblestone Stairs",
+    "name": "이끼 낀 둥근돌 계단",
     "emoji": "📦",
     "image": "/images/items/mossy_cobblestone_stairs.png",
     "category": "재료",
@@ -9290,7 +9290,7 @@
   },
   {
     "id": "mossy_cobblestone_wall",
-    "name": "Mossy Cobblestone Wall",
+    "name": "이끼 낀 둥근돌 담장",
     "emoji": "📦",
     "image": "/images/items/mossy_cobblestone_wall.png",
     "category": "재료",
@@ -9302,7 +9302,7 @@
   },
   {
     "id": "mossy_stone_brick_slab",
-    "name": "Mossy Stone Brick Slab",
+    "name": "이끼 낀 돌 벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/mossy_stone_brick_slab.png",
     "category": "재료",
@@ -9314,7 +9314,7 @@
   },
   {
     "id": "mossy_stone_brick_stairs",
-    "name": "Mossy Stone Brick Stairs",
+    "name": "이끼 낀 돌 벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/mossy_stone_brick_stairs.png",
     "category": "재료",
@@ -9326,7 +9326,7 @@
   },
   {
     "id": "mossy_stone_brick_wall",
-    "name": "Mossy Stone Brick Wall",
+    "name": "이끼 낀 돌 벽돌 담장",
     "emoji": "📦",
     "image": "/images/items/mossy_stone_brick_wall.png",
     "category": "재료",
@@ -9338,7 +9338,7 @@
   },
   {
     "id": "mossy_stone_bricks",
-    "name": "Mossy Stone Bricks",
+    "name": "이끼 낀 돌 벽돌",
     "emoji": "📦",
     "image": "/images/items/mossy_stone_bricks.png",
     "category": "재료",
@@ -9350,7 +9350,7 @@
   },
   {
     "id": "mourner_pottery_sherd",
-    "name": "Mourner Pottery Sherd",
+    "name": "mourner 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/mourner_pottery_sherd.png",
     "category": "특수",
@@ -9374,7 +9374,7 @@
   },
   {
     "id": "mud_brick_slab",
-    "name": "Mud Brick Slab",
+    "name": "진흙 벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/mud_brick_slab.png",
     "category": "재료",
@@ -9386,7 +9386,7 @@
   },
   {
     "id": "mud_brick_stairs",
-    "name": "Mud Brick Stairs",
+    "name": "진흙 벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/mud_brick_stairs.png",
     "category": "재료",
@@ -9398,7 +9398,7 @@
   },
   {
     "id": "mud_brick_wall",
-    "name": "Mud Brick Wall",
+    "name": "진흙 벽돌 담장",
     "emoji": "📦",
     "image": "/images/items/mud_brick_wall.png",
     "category": "재료",
@@ -9410,7 +9410,7 @@
   },
   {
     "id": "mud_bricks",
-    "name": "Mud Bricks",
+    "name": "진흙 벽돌",
     "emoji": "📦",
     "image": "/images/items/mud_bricks.png",
     "category": "재료",
@@ -9434,7 +9434,7 @@
   },
   {
     "id": "mule_spawn_egg",
-    "name": "Mule Spawn Egg",
+    "name": "노새 생성 알",
     "emoji": "📦",
     "image": "/images/items/mule_spawn_egg.png",
     "category": "음식",
@@ -9458,7 +9458,7 @@
   },
   {
     "id": "mushroom_stew",
-    "name": "Mushroom Stew",
+    "name": "버섯 스튜",
     "emoji": "🍖",
     "image": "/images/items/mushroom_stew.png",
     "category": "음식",
@@ -9470,7 +9470,7 @@
   },
   {
     "id": "music_disc_11",
-    "name": "Music Disc 11",
+    "name": "음반 (11)",
     "emoji": "📦",
     "image": "/images/items/music_disc_11.png",
     "category": "음악",
@@ -9495,7 +9495,7 @@
   },
   {
     "id": "music_disc_5",
-    "name": "Music Disc 5",
+    "name": "음반 (5)",
     "emoji": "📦",
     "image": "/images/items/music_disc_5.png",
     "category": "음악",
@@ -9507,7 +9507,7 @@
   },
   {
     "id": "music_disc_blocks",
-    "name": "Music Disc Blocks",
+    "name": "음반 (blocks)",
     "emoji": "📦",
     "image": "/images/items/music_disc_blocks.png",
     "category": "음악",
@@ -9531,7 +9531,7 @@
   },
   {
     "id": "music_disc_chirp",
-    "name": "Music Disc Chirp",
+    "name": "음반 (chirp)",
     "emoji": "📦",
     "image": "/images/items/music_disc_chirp.png",
     "category": "음악",
@@ -9543,7 +9543,7 @@
   },
   {
     "id": "music_disc_creator",
-    "name": "Music Disc Creator",
+    "name": "음반 (creator)",
     "emoji": "📦",
     "image": "/images/items/music_disc_creator.png",
     "category": "음악",
@@ -9555,7 +9555,7 @@
   },
   {
     "id": "music_disc_creator_music_box",
-    "name": "Music Disc Creator Music Box",
+    "name": "음반 (creator_music_box)",
     "emoji": "📦",
     "image": "/images/items/music_disc_creator_music_box.png",
     "category": "음악",
@@ -9567,7 +9567,7 @@
   },
   {
     "id": "music_disc_far",
-    "name": "Music Disc Far",
+    "name": "음반 (far)",
     "emoji": "📦",
     "image": "/images/items/music_disc_far.png",
     "category": "음악",
@@ -9579,7 +9579,7 @@
   },
   {
     "id": "music_disc_mall",
-    "name": "Music Disc Mall",
+    "name": "음반 (mall)",
     "emoji": "📦",
     "image": "/images/items/music_disc_mall.png",
     "category": "음악",
@@ -9591,7 +9591,7 @@
   },
   {
     "id": "music_disc_mellohi",
-    "name": "Music Disc Mellohi",
+    "name": "음반 (mellohi)",
     "emoji": "📦",
     "image": "/images/items/music_disc_mellohi.png",
     "category": "음악",
@@ -9603,7 +9603,7 @@
   },
   {
     "id": "music_disc_otherside",
-    "name": "Music Disc Otherside",
+    "name": "음반 (otherside)",
     "emoji": "📦",
     "image": "/images/items/music_disc_otherside.png",
     "category": "음악",
@@ -9630,7 +9630,7 @@
   },
   {
     "id": "music_disc_precipice",
-    "name": "Music Disc Precipice",
+    "name": "음반 (precipice)",
     "emoji": "📦",
     "image": "/images/items/music_disc_precipice.png",
     "category": "음악",
@@ -9642,7 +9642,7 @@
   },
   {
     "id": "music_disc_relic",
-    "name": "Music Disc Relic",
+    "name": "음반 (relic)",
     "emoji": "📦",
     "image": "/images/items/music_disc_relic.png",
     "category": "음악",
@@ -9654,7 +9654,7 @@
   },
   {
     "id": "music_disc_stal",
-    "name": "Music Disc Stal",
+    "name": "음반 (stal)",
     "emoji": "📦",
     "image": "/images/items/music_disc_stal.png",
     "category": "음악",
@@ -9666,7 +9666,7 @@
   },
   {
     "id": "music_disc_strad",
-    "name": "Music Disc Strad",
+    "name": "음반 (strad)",
     "emoji": "📦",
     "image": "/images/items/music_disc_strad.png",
     "category": "음악",
@@ -9678,7 +9678,7 @@
   },
   {
     "id": "music_disc_wait",
-    "name": "Music Disc Wait",
+    "name": "음반 (wait)",
     "emoji": "📦",
     "image": "/images/items/music_disc_wait.png",
     "category": "음악",
@@ -9690,7 +9690,7 @@
   },
   {
     "id": "music_disc_ward",
-    "name": "Music Disc Ward",
+    "name": "음반 (ward)",
     "emoji": "📦",
     "image": "/images/items/music_disc_ward.png",
     "category": "음악",
@@ -9702,7 +9702,7 @@
   },
   {
     "id": "mutton",
-    "name": "Mutton",
+    "name": "익히지 않은 양고기",
     "emoji": "📦",
     "image": "/images/items/mutton.png",
     "category": "재료",
@@ -9754,7 +9754,7 @@
   },
   {
     "id": "nether_brick",
-    "name": "Nether Brick",
+    "name": "네더 벽돌",
     "emoji": "📦",
     "image": "/images/items/nether_brick.png",
     "category": "재료",
@@ -9766,7 +9766,7 @@
   },
   {
     "id": "nether_brick_fence",
-    "name": "Nether Brick Fence",
+    "name": "네더 벽돌 울타리",
     "emoji": "📦",
     "image": "/images/items/nether_brick_fence.png",
     "category": "재료",
@@ -9778,7 +9778,7 @@
   },
   {
     "id": "nether_brick_slab",
-    "name": "Nether Brick Slab",
+    "name": "네더 벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/nether_brick_slab.png",
     "category": "재료",
@@ -9790,7 +9790,7 @@
   },
   {
     "id": "nether_brick_stairs",
-    "name": "Nether Brick Stairs",
+    "name": "네더 벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/nether_brick_stairs.png",
     "category": "재료",
@@ -9802,7 +9802,7 @@
   },
   {
     "id": "nether_brick_wall",
-    "name": "Nether Brick Wall",
+    "name": "네더 벽돌 담장",
     "emoji": "📦",
     "image": "/images/items/nether_brick_wall.png",
     "category": "재료",
@@ -9902,7 +9902,7 @@
   },
   {
     "id": "nether_wart_block",
-    "name": "Nether Wart Block",
+    "name": "네더 사마귀 블록",
     "emoji": "📦",
     "image": "/images/items/nether_wart_block.png",
     "category": "재료",
@@ -9914,7 +9914,7 @@
   },
   {
     "id": "netherite_axe",
-    "name": "Netherite Axe",
+    "name": "네더라이트 도끼",
     "emoji": "⚔️",
     "image": "/images/items/netherite_axe.png",
     "category": "도구",
@@ -9938,7 +9938,7 @@
   },
   {
     "id": "netherite_boots",
-    "name": "Netherite Boots",
+    "name": "네더라이트 부츠",
     "emoji": "🦺",
     "image": "/images/items/netherite_boots.png",
     "category": "방어구",
@@ -9950,7 +9950,7 @@
   },
   {
     "id": "netherite_chestplate",
-    "name": "Netherite Chestplate",
+    "name": "네더라이트 흉갑",
     "emoji": "🦺",
     "image": "/images/items/netherite_chestplate.png",
     "category": "방어구",
@@ -9962,7 +9962,7 @@
   },
   {
     "id": "netherite_helmet",
-    "name": "Netherite Helmet",
+    "name": "네더라이트 투구",
     "emoji": "🦺",
     "image": "/images/items/netherite_helmet.png",
     "category": "방어구",
@@ -9974,7 +9974,7 @@
   },
   {
     "id": "netherite_hoe",
-    "name": "Netherite Hoe",
+    "name": "네더라이트 괭이",
     "emoji": "⚔️",
     "image": "/images/items/netherite_hoe.png",
     "category": "도구",
@@ -9986,7 +9986,7 @@
   },
   {
     "id": "netherite_horse_armor",
-    "name": "Netherite Horse Armor",
+    "name": "netherite 말 갑옷",
     "emoji": "📦",
     "image": "/images/items/netherite_horse_armor.png",
     "category": "방어구",
@@ -10012,7 +10012,7 @@
   },
   {
     "id": "netherite_leggings",
-    "name": "Netherite Leggings",
+    "name": "네더라이트 레깅스",
     "emoji": "🦺",
     "image": "/images/items/netherite_leggings.png",
     "category": "방어구",
@@ -10024,7 +10024,7 @@
   },
   {
     "id": "netherite_pickaxe",
-    "name": "Netherite Pickaxe",
+    "name": "네더라이트 곡괭이",
     "emoji": "⚔️",
     "image": "/images/items/netherite_pickaxe.png",
     "category": "도구",
@@ -10050,7 +10050,7 @@
   },
   {
     "id": "netherite_shovel",
-    "name": "Netherite Shovel",
+    "name": "네더라이트 삽",
     "emoji": "⚔️",
     "image": "/images/items/netherite_shovel.png",
     "category": "도구",
@@ -10062,7 +10062,7 @@
   },
   {
     "id": "netherite_sword",
-    "name": "Netherite Sword",
+    "name": "네더라이트 검",
     "emoji": "⚔️",
     "image": "/images/items/netherite_sword.png",
     "category": "무기",
@@ -10074,7 +10074,7 @@
   },
   {
     "id": "netherite_upgrade_smithing_template",
-    "name": "Netherite Upgrade Smithing Template",
+    "name": "netherite upgrade 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/netherite_upgrade_smithing_template.png",
     "category": "재료",
@@ -10338,7 +10338,7 @@
   },
   {
     "id": "ocelot_spawn_egg",
-    "name": "Ocelot Spawn Egg",
+    "name": "오celot 생성 알",
     "emoji": "📦",
     "image": "/images/items/ocelot_spawn_egg.png",
     "category": "음식",
@@ -10350,7 +10350,7 @@
   },
   {
     "id": "ochre_froglight",
-    "name": "Ochre Froglight",
+    "name": "황토색 개구리불",
     "emoji": "📦",
     "image": "/images/items/ochre_froglight.png",
     "category": "재료",
@@ -10590,7 +10590,7 @@
   },
   {
     "id": "oxidized_chiseled_copper",
-    "name": "Oxidized Chiseled Copper",
+    "name": "산화된 조각된 구리",
     "emoji": "📦",
     "image": "/images/items/oxidized_chiseled_copper.png",
     "category": "재료",
@@ -10602,7 +10602,7 @@
   },
   {
     "id": "oxidized_copper",
-    "name": "Oxidized Copper",
+    "name": "산화된 구리",
     "emoji": "📦",
     "image": "/images/items/oxidized_copper.png",
     "category": "재료",
@@ -10614,7 +10614,7 @@
   },
   {
     "id": "oxidized_copper_bulb",
-    "name": "Oxidized Copper Bulb",
+    "name": "산화된 구리 전구",
     "emoji": "📦",
     "image": "/images/items/oxidized_copper_bulb.png",
     "category": "재료",
@@ -10626,7 +10626,7 @@
   },
   {
     "id": "oxidized_copper_door",
-    "name": "Oxidized Copper Door",
+    "name": "산화된 구리 문",
     "emoji": "📦",
     "image": "/images/items/oxidized_copper_door.png",
     "category": "재료",
@@ -10638,7 +10638,7 @@
   },
   {
     "id": "oxidized_copper_grate",
-    "name": "Oxidized Copper Grate",
+    "name": "산화된 구리 격자",
     "emoji": "📦",
     "image": "/images/items/oxidized_copper_grate.png",
     "category": "재료",
@@ -10650,7 +10650,7 @@
   },
   {
     "id": "oxidized_copper_trapdoor",
-    "name": "Oxidized Copper Trapdoor",
+    "name": "산화된 구리 다락문",
     "emoji": "📦",
     "image": "/images/items/oxidized_copper_trapdoor.png",
     "category": "재료",
@@ -10662,7 +10662,7 @@
   },
   {
     "id": "oxidized_cut_copper",
-    "name": "Oxidized Cut Copper",
+    "name": "산화된 깎인 구리",
     "emoji": "📦",
     "image": "/images/items/oxidized_cut_copper.png",
     "category": "재료",
@@ -10674,7 +10674,7 @@
   },
   {
     "id": "oxidized_cut_copper_slab",
-    "name": "Oxidized Cut Copper Slab",
+    "name": "산화된 깎인 구리 반 블록",
     "emoji": "📦",
     "image": "/images/items/oxidized_cut_copper_slab.png",
     "category": "재료",
@@ -10686,7 +10686,7 @@
   },
   {
     "id": "oxidized_cut_copper_stairs",
-    "name": "Oxidized Cut Copper Stairs",
+    "name": "산화된 깎인 구리 계단",
     "emoji": "📦",
     "image": "/images/items/oxidized_cut_copper_stairs.png",
     "category": "재료",
@@ -10722,7 +10722,7 @@
   },
   {
     "id": "painting",
-    "name": "Painting",
+    "name": "그림",
     "emoji": "📦",
     "image": "/images/items/painting.png",
     "category": "재료",
@@ -10974,7 +10974,7 @@
   },
   {
     "id": "panda_spawn_egg",
-    "name": "Panda Spawn Egg",
+    "name": "판다 생성 알",
     "emoji": "📦",
     "image": "/images/items/panda_spawn_egg.png",
     "category": "음식",
@@ -11000,7 +11000,7 @@
   },
   {
     "id": "parrot_spawn_egg",
-    "name": "Parrot Spawn Egg",
+    "name": "앵무새 생성 알",
     "emoji": "📦",
     "image": "/images/items/parrot_spawn_egg.png",
     "category": "음식",
@@ -11012,7 +11012,7 @@
   },
   {
     "id": "pearlescent_froglight",
-    "name": "Pearlescent Froglight",
+    "name": "자줄빛 개구리불",
     "emoji": "📦",
     "image": "/images/items/pearlescent_froglight.png",
     "category": "자원",
@@ -11036,7 +11036,7 @@
   },
   {
     "id": "petrified_oak_slab",
-    "name": "Petrified Oak Slab",
+    "name": "petrified 참나무 반 블록",
     "emoji": "📦",
     "image": "/images/items/petrified_oak_slab.png",
     "category": "재료",
@@ -11060,7 +11060,7 @@
   },
   {
     "id": "phantom_spawn_egg",
-    "name": "Phantom Spawn Egg",
+    "name": "팬텀 생성 알",
     "emoji": "📦",
     "image": "/images/items/phantom_spawn_egg.png",
     "category": "음식",
@@ -11100,7 +11100,7 @@
   },
   {
     "id": "pig_spawn_egg",
-    "name": "Pig Spawn Egg",
+    "name": "돼지 생성 알",
     "emoji": "📦",
     "image": "/images/items/pig_spawn_egg.png",
     "category": "음식",
@@ -11112,7 +11112,7 @@
   },
   {
     "id": "piglin_banner_pattern",
-    "name": "Piglin Banner Pattern",
+    "name": "피글린 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/piglin_banner_pattern.png",
     "category": "특수",
@@ -11124,7 +11124,7 @@
   },
   {
     "id": "piglin_brute_spawn_egg",
-    "name": "Piglin Brute Spawn Egg",
+    "name": "피글린 brute 생성 알",
     "emoji": "📦",
     "image": "/images/items/piglin_brute_spawn_egg.png",
     "category": "음식",
@@ -11136,7 +11136,7 @@
   },
   {
     "id": "piglin_head",
-    "name": "Piglin Head",
+    "name": "피글린 head",
     "emoji": "📦",
     "image": "/images/items/piglin_head.png",
     "category": "특수",
@@ -11148,7 +11148,7 @@
   },
   {
     "id": "piglin_spawn_egg",
-    "name": "Piglin Spawn Egg",
+    "name": "피글린 생성 알",
     "emoji": "📦",
     "image": "/images/items/piglin_spawn_egg.png",
     "category": "음식",
@@ -11160,7 +11160,7 @@
   },
   {
     "id": "pillager_spawn_egg",
-    "name": "Pillager Spawn Egg",
+    "name": "약탈자 생성 알",
     "emoji": "📦",
     "image": "/images/items/pillager_spawn_egg.png",
     "category": "음식",
@@ -11400,7 +11400,7 @@
   },
   {
     "id": "player_head",
-    "name": "Player Head",
+    "name": "플레이어 머리",
     "emoji": "📦",
     "image": "/images/items/player_head.png",
     "category": "특수",
@@ -11412,7 +11412,7 @@
   },
   {
     "id": "plenty_pottery_sherd",
-    "name": "Plenty Pottery Sherd",
+    "name": "plenty 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/plenty_pottery_sherd.png",
     "category": "특수",
@@ -11448,7 +11448,7 @@
   },
   {
     "id": "poisonous_potato",
-    "name": "Poisonous Potato",
+    "name": "독이 있는 감자",
     "emoji": "🍖",
     "image": "/images/items/poisonous_potato.png",
     "category": "음식",
@@ -11460,7 +11460,7 @@
   },
   {
     "id": "polar_bear_spawn_egg",
-    "name": "Polar Bear Spawn Egg",
+    "name": "북극곰 생성 알",
     "emoji": "📦",
     "image": "/images/items/polar_bear_spawn_egg.png",
     "category": "음식",
@@ -11472,7 +11472,7 @@
   },
   {
     "id": "polished_andesite",
-    "name": "Polished Andesite",
+    "name": "매끄러운 안산암",
     "emoji": "📦",
     "image": "/images/items/polished_andesite.png",
     "category": "재료",
@@ -11484,7 +11484,7 @@
   },
   {
     "id": "polished_andesite_slab",
-    "name": "Polished Andesite Slab",
+    "name": "매끄러운 안산암 반 블록",
     "emoji": "📦",
     "image": "/images/items/polished_andesite_slab.png",
     "category": "재료",
@@ -11496,7 +11496,7 @@
   },
   {
     "id": "polished_andesite_stairs",
-    "name": "Polished Andesite Stairs",
+    "name": "매끄러운 안산암 계단",
     "emoji": "📦",
     "image": "/images/items/polished_andesite_stairs.png",
     "category": "재료",
@@ -11508,7 +11508,7 @@
   },
   {
     "id": "polished_basalt",
-    "name": "Polished Basalt",
+    "name": "매끄러운 현무암",
     "emoji": "📦",
     "image": "/images/items/polished_basalt.png",
     "category": "재료",
@@ -11520,7 +11520,7 @@
   },
   {
     "id": "polished_blackstone",
-    "name": "Polished Blackstone",
+    "name": "매끄러운 흑암",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone.png",
     "category": "재료",
@@ -11532,7 +11532,7 @@
   },
   {
     "id": "polished_blackstone_brick_slab",
-    "name": "Polished Blackstone Brick Slab",
+    "name": "매끄러운 흑암 벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone_brick_slab.png",
     "category": "재료",
@@ -11544,7 +11544,7 @@
   },
   {
     "id": "polished_blackstone_brick_stairs",
-    "name": "Polished Blackstone Brick Stairs",
+    "name": "매끄러운 흑암 벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone_brick_stairs.png",
     "category": "재료",
@@ -11556,7 +11556,7 @@
   },
   {
     "id": "polished_blackstone_brick_wall",
-    "name": "Polished Blackstone Brick Wall",
+    "name": "매끄러운 흑암 벽돌 담장",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone_brick_wall.png",
     "category": "재료",
@@ -11568,7 +11568,7 @@
   },
   {
     "id": "polished_blackstone_bricks",
-    "name": "Polished Blackstone Bricks",
+    "name": "매끄러운 흑암 벽돌",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone_bricks.png",
     "category": "재료",
@@ -11580,7 +11580,7 @@
   },
   {
     "id": "polished_blackstone_button",
-    "name": "Polished Blackstone Button",
+    "name": "매끄러운 흑암 버튼",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone_button.png",
     "category": "재료",
@@ -11592,7 +11592,7 @@
   },
   {
     "id": "polished_blackstone_pressure_plate",
-    "name": "Polished Blackstone Pressure Plate",
+    "name": "매끄러운 흑암 압력판",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone_pressure_plate.png",
     "category": "재료",
@@ -11604,7 +11604,7 @@
   },
   {
     "id": "polished_blackstone_slab",
-    "name": "Polished Blackstone Slab",
+    "name": "매끄러운 흑암 반 블록",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone_slab.png",
     "category": "재료",
@@ -11616,7 +11616,7 @@
   },
   {
     "id": "polished_blackstone_stairs",
-    "name": "Polished Blackstone Stairs",
+    "name": "매끄러운 흑암 계단",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone_stairs.png",
     "category": "재료",
@@ -11628,7 +11628,7 @@
   },
   {
     "id": "polished_blackstone_wall",
-    "name": "Polished Blackstone Wall",
+    "name": "매끄러운 흑암 담장",
     "emoji": "📦",
     "image": "/images/items/polished_blackstone_wall.png",
     "category": "재료",
@@ -11640,7 +11640,7 @@
   },
   {
     "id": "polished_deepslate",
-    "name": "Polished Deepslate",
+    "name": "매끄러운 심층암",
     "emoji": "📦",
     "image": "/images/items/polished_deepslate.png",
     "category": "재료",
@@ -11652,7 +11652,7 @@
   },
   {
     "id": "polished_deepslate_slab",
-    "name": "Polished Deepslate Slab",
+    "name": "매끄러운 심층암 반 블록",
     "emoji": "📦",
     "image": "/images/items/polished_deepslate_slab.png",
     "category": "재료",
@@ -11664,7 +11664,7 @@
   },
   {
     "id": "polished_deepslate_stairs",
-    "name": "Polished Deepslate Stairs",
+    "name": "매끄러운 심층암 계단",
     "emoji": "📦",
     "image": "/images/items/polished_deepslate_stairs.png",
     "category": "재료",
@@ -11676,7 +11676,7 @@
   },
   {
     "id": "polished_deepslate_wall",
-    "name": "Polished Deepslate Wall",
+    "name": "매끄러운 심층암 담장",
     "emoji": "📦",
     "image": "/images/items/polished_deepslate_wall.png",
     "category": "재료",
@@ -11688,7 +11688,7 @@
   },
   {
     "id": "polished_diorite",
-    "name": "Polished Diorite",
+    "name": "매끄러운 섬록암",
     "emoji": "📦",
     "image": "/images/items/polished_diorite.png",
     "category": "재료",
@@ -11700,7 +11700,7 @@
   },
   {
     "id": "polished_diorite_slab",
-    "name": "Polished Diorite Slab",
+    "name": "매끄러운 섬록암 반 블록",
     "emoji": "📦",
     "image": "/images/items/polished_diorite_slab.png",
     "category": "재료",
@@ -11712,7 +11712,7 @@
   },
   {
     "id": "polished_diorite_stairs",
-    "name": "Polished Diorite Stairs",
+    "name": "매끄러운 섬록암 계단",
     "emoji": "📦",
     "image": "/images/items/polished_diorite_stairs.png",
     "category": "재료",
@@ -11724,7 +11724,7 @@
   },
   {
     "id": "polished_granite",
-    "name": "Polished Granite",
+    "name": "매끄러운 화강암",
     "emoji": "📦",
     "image": "/images/items/polished_granite.png",
     "category": "재료",
@@ -11736,7 +11736,7 @@
   },
   {
     "id": "polished_granite_slab",
-    "name": "Polished Granite Slab",
+    "name": "매끄러운 화강암 반 블록",
     "emoji": "📦",
     "image": "/images/items/polished_granite_slab.png",
     "category": "재료",
@@ -11748,7 +11748,7 @@
   },
   {
     "id": "polished_granite_stairs",
-    "name": "Polished Granite Stairs",
+    "name": "매끄러운 화강암 계단",
     "emoji": "📦",
     "image": "/images/items/polished_granite_stairs.png",
     "category": "재료",
@@ -11760,7 +11760,7 @@
   },
   {
     "id": "polished_tuff",
-    "name": "Polished Tuff",
+    "name": "매끄러운 응회암",
     "emoji": "📦",
     "image": "/images/items/polished_tuff.png",
     "category": "재료",
@@ -11772,7 +11772,7 @@
   },
   {
     "id": "polished_tuff_slab",
-    "name": "Polished Tuff Slab",
+    "name": "매끄러운 응회암 반 블록",
     "emoji": "📦",
     "image": "/images/items/polished_tuff_slab.png",
     "category": "재료",
@@ -11784,7 +11784,7 @@
   },
   {
     "id": "polished_tuff_stairs",
-    "name": "Polished Tuff Stairs",
+    "name": "매끄러운 응회암 계단",
     "emoji": "📦",
     "image": "/images/items/polished_tuff_stairs.png",
     "category": "재료",
@@ -11796,7 +11796,7 @@
   },
   {
     "id": "polished_tuff_wall",
-    "name": "Polished Tuff Wall",
+    "name": "매끄러운 응회암 담장",
     "emoji": "📦",
     "image": "/images/items/polished_tuff_wall.png",
     "category": "재료",
@@ -11832,7 +11832,7 @@
   },
   {
     "id": "porkchop",
-    "name": "Porkchop",
+    "name": "익히지 않은 돼지고기",
     "emoji": "📦",
     "image": "/images/items/porkchop.png",
     "category": "재료",
@@ -11858,7 +11858,7 @@
   },
   {
     "id": "potion",
-    "name": "Potion",
+    "name": "물약",
     "emoji": "🧪",
     "image": "/images/items/potion.png",
     "category": "양조",
@@ -11870,7 +11870,7 @@
   },
   {
     "id": "powder_snow_bucket",
-    "name": "Powder Snow Bucket",
+    "name": "가루눈 양동이",
     "emoji": "📦",
     "image": "/images/items/powder_snow_bucket.png",
     "category": "도구",
@@ -11908,7 +11908,7 @@
   },
   {
     "id": "prismarine_brick_slab",
-    "name": "Prismarine Brick Slab",
+    "name": "프리즈마린 벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/prismarine_brick_slab.png",
     "category": "재료",
@@ -11920,7 +11920,7 @@
   },
   {
     "id": "prismarine_brick_stairs",
-    "name": "Prismarine Brick Stairs",
+    "name": "프리즈마린 벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/prismarine_brick_stairs.png",
     "category": "재료",
@@ -11944,7 +11944,7 @@
   },
   {
     "id": "prismarine_crystals",
-    "name": "Prismarine Crystals",
+    "name": "프리즈마린 crystals",
     "emoji": "📦",
     "image": "/images/items/prismarine_crystals.png",
     "category": "재료",
@@ -11956,7 +11956,7 @@
   },
   {
     "id": "prismarine_shard",
-    "name": "Prismarine Shard",
+    "name": "프리즈마린 shard",
     "emoji": "📦",
     "image": "/images/items/prismarine_shard.png",
     "category": "자원",
@@ -11968,7 +11968,7 @@
   },
   {
     "id": "prismarine_slab",
-    "name": "Prismarine Slab",
+    "name": "프리즈마린 반 블록",
     "emoji": "📦",
     "image": "/images/items/prismarine_slab.png",
     "category": "재료",
@@ -11980,7 +11980,7 @@
   },
   {
     "id": "prismarine_stairs",
-    "name": "Prismarine Stairs",
+    "name": "프리즈마린 계단",
     "emoji": "📦",
     "image": "/images/items/prismarine_stairs.png",
     "category": "재료",
@@ -11992,7 +11992,7 @@
   },
   {
     "id": "prismarine_wall",
-    "name": "Prismarine Wall",
+    "name": "프리즈마린 담장",
     "emoji": "📦",
     "image": "/images/items/prismarine_wall.png",
     "category": "재료",
@@ -12004,7 +12004,7 @@
   },
   {
     "id": "prize_pottery_sherd",
-    "name": "Prize Pottery Sherd",
+    "name": "prize 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/prize_pottery_sherd.png",
     "category": "특수",
@@ -12030,7 +12030,7 @@
   },
   {
     "id": "pufferfish_bucket",
-    "name": "Pufferfish Bucket",
+    "name": "복어 양동이",
     "emoji": "🍖",
     "image": "/images/items/pufferfish_bucket.png",
     "category": "도구",
@@ -12042,7 +12042,7 @@
   },
   {
     "id": "pufferfish_spawn_egg",
-    "name": "Pufferfish Spawn Egg",
+    "name": "복어 생성 알",
     "emoji": "🍖",
     "image": "/images/items/pufferfish_spawn_egg.png",
     "category": "음식",
@@ -12272,7 +12272,7 @@
   },
   {
     "id": "purpur_pillar",
-    "name": "Purpur Pillar",
+    "name": "퍼퍼 기둥",
     "emoji": "📦",
     "image": "/images/items/purpur_pillar.png",
     "category": "재료",
@@ -12284,7 +12284,7 @@
   },
   {
     "id": "purpur_slab",
-    "name": "Purpur Slab",
+    "name": "퍼퍼 반 블록",
     "emoji": "📦",
     "image": "/images/items/purpur_slab.png",
     "category": "재료",
@@ -12296,7 +12296,7 @@
   },
   {
     "id": "purpur_stairs",
-    "name": "Purpur Stairs",
+    "name": "퍼퍼 계단",
     "emoji": "📦",
     "image": "/images/items/purpur_stairs.png",
     "category": "재료",
@@ -12344,7 +12344,7 @@
   },
   {
     "id": "quartz_pillar",
-    "name": "Quartz Pillar",
+    "name": "석영 기둥",
     "emoji": "💎",
     "image": "/images/items/quartz_pillar.png",
     "category": "자원",
@@ -12356,7 +12356,7 @@
   },
   {
     "id": "quartz_slab",
-    "name": "Quartz Slab",
+    "name": "석영 반 블록",
     "emoji": "💎",
     "image": "/images/items/quartz_slab.png",
     "category": "자원",
@@ -12368,7 +12368,7 @@
   },
   {
     "id": "quartz_stairs",
-    "name": "Quartz Stairs",
+    "name": "석영 계단",
     "emoji": "💎",
     "image": "/images/items/quartz_stairs.png",
     "category": "자원",
@@ -12380,7 +12380,7 @@
   },
   {
     "id": "rabbit",
-    "name": "Rabbit",
+    "name": "토끼",
     "emoji": "📦",
     "image": "/images/items/rabbit.png",
     "category": "재료",
@@ -12392,7 +12392,7 @@
   },
   {
     "id": "rabbit_foot",
-    "name": "Rabbit Foot",
+    "name": "토끼 foot",
     "emoji": "📦",
     "image": "/images/items/rabbit_foot.png",
     "category": "재료",
@@ -12416,7 +12416,7 @@
   },
   {
     "id": "rabbit_spawn_egg",
-    "name": "Rabbit Spawn Egg",
+    "name": "토끼 생성 알",
     "emoji": "📦",
     "image": "/images/items/rabbit_spawn_egg.png",
     "category": "음식",
@@ -12428,7 +12428,7 @@
   },
   {
     "id": "rabbit_stew",
-    "name": "Rabbit Stew",
+    "name": "토끼 stew",
     "emoji": "🍖",
     "image": "/images/items/rabbit_stew.png",
     "category": "음식",
@@ -12453,7 +12453,7 @@
   },
   {
     "id": "raiser_armor_trim_smithing_template",
-    "name": "Raiser Armor Trim Smithing Template",
+    "name": "raiser 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/raiser_armor_trim_smithing_template.png",
     "category": "재료",
@@ -12465,7 +12465,7 @@
   },
   {
     "id": "ravager_spawn_egg",
-    "name": "Ravager Spawn Egg",
+    "name": "파괴수 생성 알",
     "emoji": "📦",
     "image": "/images/items/ravager_spawn_egg.png",
     "category": "음식",
@@ -12489,7 +12489,7 @@
   },
   {
     "id": "raw_copper_block",
-    "name": "Raw Copper Block",
+    "name": "원석 구리 블록",
     "emoji": "📦",
     "image": "/images/items/raw_copper_block.png",
     "category": "자원",
@@ -12513,7 +12513,7 @@
   },
   {
     "id": "raw_gold_block",
-    "name": "Raw Gold Block",
+    "name": "원석 금 블록",
     "emoji": "📦",
     "image": "/images/items/raw_gold_block.png",
     "category": "자원",
@@ -12537,7 +12537,7 @@
   },
   {
     "id": "raw_iron_block",
-    "name": "Raw Iron Block",
+    "name": "원석 철 블록",
     "emoji": "📦",
     "image": "/images/items/raw_iron_block.png",
     "category": "자원",
@@ -12959,7 +12959,7 @@
   },
   {
     "id": "repeating_command_block",
-    "name": "Repeating Command Block",
+    "name": "repeating command 블록",
     "emoji": "📦",
     "image": "/images/items/repeating_command_block.png",
     "category": "재료",
@@ -12995,7 +12995,7 @@
   },
   {
     "id": "resin_brick_slab",
-    "name": "Resin Brick Slab",
+    "name": "수지 벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/resin_brick_slab.png",
     "category": "재료",
@@ -13007,7 +13007,7 @@
   },
   {
     "id": "resin_brick_stairs",
-    "name": "Resin Brick Stairs",
+    "name": "수지 벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/resin_brick_stairs.png",
     "category": "재료",
@@ -13019,7 +13019,7 @@
   },
   {
     "id": "resin_brick_wall",
-    "name": "Resin Brick Wall",
+    "name": "수지 벽돌 담장",
     "emoji": "📦",
     "image": "/images/items/resin_brick_wall.png",
     "category": "재료",
@@ -13067,7 +13067,7 @@
   },
   {
     "id": "rib_armor_trim_smithing_template",
-    "name": "Rib Armor Trim Smithing Template",
+    "name": "rib 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/rib_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13131,7 +13131,7 @@
   },
   {
     "id": "salmon",
-    "name": "Salmon",
+    "name": "연어",
     "emoji": "📦",
     "image": "/images/items/salmon.png",
     "category": "재료",
@@ -13143,7 +13143,7 @@
   },
   {
     "id": "salmon_bucket",
-    "name": "Salmon Bucket",
+    "name": "연어 양동이",
     "emoji": "📦",
     "image": "/images/items/salmon_bucket.png",
     "category": "도구",
@@ -13155,7 +13155,7 @@
   },
   {
     "id": "salmon_spawn_egg",
-    "name": "Salmon Spawn Egg",
+    "name": "연어 생성 알",
     "emoji": "📦",
     "image": "/images/items/salmon_spawn_egg.png",
     "category": "음식",
@@ -13179,7 +13179,7 @@
   },
   {
     "id": "sandstone",
-    "name": "Sandstone",
+    "name": "사암",
     "emoji": "📦",
     "image": "/images/items/sandstone.png",
     "category": "재료",
@@ -13191,7 +13191,7 @@
   },
   {
     "id": "sandstone_slab",
-    "name": "Sandstone Slab",
+    "name": "사암 반 블록",
     "emoji": "📦",
     "image": "/images/items/sandstone_slab.png",
     "category": "재료",
@@ -13203,7 +13203,7 @@
   },
   {
     "id": "sandstone_stairs",
-    "name": "Sandstone Stairs",
+    "name": "사암 계단",
     "emoji": "📦",
     "image": "/images/items/sandstone_stairs.png",
     "category": "재료",
@@ -13215,7 +13215,7 @@
   },
   {
     "id": "sandstone_wall",
-    "name": "Sandstone Wall",
+    "name": "사암 담장",
     "emoji": "📦",
     "image": "/images/items/sandstone_wall.png",
     "category": "재료",
@@ -13239,7 +13239,7 @@
   },
   {
     "id": "scrape_pottery_sherd",
-    "name": "Scrape Pottery Sherd",
+    "name": "scrape 도자기 조각",
     "emoji": "💎",
     "image": "/images/items/scrape_pottery_sherd.png",
     "category": "자원",
@@ -13347,7 +13347,7 @@
   },
   {
     "id": "sentry_armor_trim_smithing_template",
-    "name": "Sentry Armor Trim Smithing Template",
+    "name": "sentry 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/sentry_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13359,7 +13359,7 @@
   },
   {
     "id": "shaper_armor_trim_smithing_template",
-    "name": "Shaper Armor Trim Smithing Template",
+    "name": "shaper 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/shaper_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13371,7 +13371,7 @@
   },
   {
     "id": "sheaf_pottery_sherd",
-    "name": "Sheaf Pottery Sherd",
+    "name": "sheaf 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/sheaf_pottery_sherd.png",
     "category": "특수",
@@ -13397,7 +13397,7 @@
   },
   {
     "id": "sheep_spawn_egg",
-    "name": "Sheep Spawn Egg",
+    "name": "양 생성 알",
     "emoji": "📦",
     "image": "/images/items/sheep_spawn_egg.png",
     "category": "음식",
@@ -13409,7 +13409,7 @@
   },
   {
     "id": "shelter_pottery_sherd",
-    "name": "Shelter Pottery Sherd",
+    "name": "shelter 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/shelter_pottery_sherd.png",
     "category": "특수",
@@ -13501,7 +13501,7 @@
   },
   {
     "id": "shulker_spawn_egg",
-    "name": "Shulker Spawn Egg",
+    "name": "셜커 생성 알",
     "emoji": "📦",
     "image": "/images/items/shulker_spawn_egg.png",
     "category": "음식",
@@ -13513,7 +13513,7 @@
   },
   {
     "id": "silence_armor_trim_smithing_template",
-    "name": "Silence Armor Trim Smithing Template",
+    "name": "silence 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/silence_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13525,7 +13525,7 @@
   },
   {
     "id": "silverfish_spawn_egg",
-    "name": "Silverfish Spawn Egg",
+    "name": "좀be 생성 알",
     "emoji": "🍖",
     "image": "/images/items/silverfish_spawn_egg.png",
     "category": "음식",
@@ -13537,7 +13537,7 @@
   },
   {
     "id": "skeleton_horse_spawn_egg",
-    "name": "Skeleton Horse Spawn Egg",
+    "name": "스켈레톤 말 생성 알",
     "emoji": "📦",
     "image": "/images/items/skeleton_horse_spawn_egg.png",
     "category": "음식",
@@ -13549,7 +13549,7 @@
   },
   {
     "id": "skeleton_skull",
-    "name": "Skeleton Skull",
+    "name": "스켈레톤 skull",
     "emoji": "📦",
     "image": "/images/items/skeleton_skull.png",
     "category": "특수",
@@ -13561,7 +13561,7 @@
   },
   {
     "id": "skeleton_spawn_egg",
-    "name": "Skeleton Spawn Egg",
+    "name": "스켈레톤 생성 알",
     "emoji": "📦",
     "image": "/images/items/skeleton_spawn_egg.png",
     "category": "음식",
@@ -13573,7 +13573,7 @@
   },
   {
     "id": "skull_banner_pattern",
-    "name": "Skull Banner Pattern",
+    "name": "skull 배너 pattern",
     "emoji": "📦",
     "image": "/images/items/skull_banner_pattern.png",
     "category": "특수",
@@ -13585,7 +13585,7 @@
   },
   {
     "id": "skull_pottery_sherd",
-    "name": "Skull Pottery Sherd",
+    "name": "skull 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/skull_pottery_sherd.png",
     "category": "특수",
@@ -13621,7 +13621,7 @@
   },
   {
     "id": "slime_spawn_egg",
-    "name": "Slime Spawn Egg",
+    "name": "슬라임 생성 알",
     "emoji": "📦",
     "image": "/images/items/slime_spawn_egg.png",
     "category": "음식",
@@ -13681,7 +13681,7 @@
   },
   {
     "id": "smooth_basalt",
-    "name": "Smooth Basalt",
+    "name": "매끄러운 현무암",
     "emoji": "📦",
     "image": "/images/items/smooth_basalt.png",
     "category": "재료",
@@ -13705,7 +13705,7 @@
   },
   {
     "id": "smooth_quartz_slab",
-    "name": "Smooth Quartz Slab",
+    "name": "매끄러운 석영 반 블록",
     "emoji": "💎",
     "image": "/images/items/smooth_quartz_slab.png",
     "category": "자원",
@@ -13717,7 +13717,7 @@
   },
   {
     "id": "smooth_quartz_stairs",
-    "name": "Smooth Quartz Stairs",
+    "name": "매끄러운 석영 계단",
     "emoji": "💎",
     "image": "/images/items/smooth_quartz_stairs.png",
     "category": "자원",
@@ -13729,7 +13729,7 @@
   },
   {
     "id": "smooth_red_sandstone",
-    "name": "Smooth Red Sandstone",
+    "name": "매끄러운 붉은 사암",
     "emoji": "📦",
     "image": "/images/items/smooth_red_sandstone.png",
     "category": "재료",
@@ -13741,7 +13741,7 @@
   },
   {
     "id": "smooth_red_sandstone_slab",
-    "name": "Smooth Red Sandstone Slab",
+    "name": "매끄러운 붉은 사암 반 블록",
     "emoji": "📦",
     "image": "/images/items/smooth_red_sandstone_slab.png",
     "category": "재료",
@@ -13753,7 +13753,7 @@
   },
   {
     "id": "smooth_red_sandstone_stairs",
-    "name": "Smooth Red Sandstone Stairs",
+    "name": "매끄러운 붉은 사암 계단",
     "emoji": "📦",
     "image": "/images/items/smooth_red_sandstone_stairs.png",
     "category": "재료",
@@ -13765,7 +13765,7 @@
   },
   {
     "id": "smooth_sandstone",
-    "name": "Smooth Sandstone",
+    "name": "매끄러운 사암",
     "emoji": "📦",
     "image": "/images/items/smooth_sandstone.png",
     "category": "재료",
@@ -13777,7 +13777,7 @@
   },
   {
     "id": "smooth_sandstone_slab",
-    "name": "Smooth Sandstone Slab",
+    "name": "매끄러운 사암 반 블록",
     "emoji": "📦",
     "image": "/images/items/smooth_sandstone_slab.png",
     "category": "재료",
@@ -13789,7 +13789,7 @@
   },
   {
     "id": "smooth_sandstone_stairs",
-    "name": "Smooth Sandstone Stairs",
+    "name": "매끄러운 사암 계단",
     "emoji": "📦",
     "image": "/images/items/smooth_sandstone_stairs.png",
     "category": "재료",
@@ -13801,7 +13801,7 @@
   },
   {
     "id": "smooth_stone",
-    "name": "Smooth Stone",
+    "name": "매끄러운 돌",
     "emoji": "📦",
     "image": "/images/items/smooth_stone.png",
     "category": "재료",
@@ -13813,7 +13813,7 @@
   },
   {
     "id": "smooth_stone_slab",
-    "name": "Smooth Stone Slab",
+    "name": "매끄러운 돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/smooth_stone_slab.png",
     "category": "재료",
@@ -13837,7 +13837,7 @@
   },
   {
     "id": "sniffer_spawn_egg",
-    "name": "Sniffer Spawn Egg",
+    "name": "스니퍼 생성 알",
     "emoji": "📦",
     "image": "/images/items/sniffer_spawn_egg.png",
     "category": "음식",
@@ -13849,7 +13849,7 @@
   },
   {
     "id": "snort_pottery_sherd",
-    "name": "Snort Pottery Sherd",
+    "name": "snort 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/snort_pottery_sherd.png",
     "category": "특수",
@@ -13861,7 +13861,7 @@
   },
   {
     "id": "snout_armor_trim_smithing_template",
-    "name": "Snout Armor Trim Smithing Template",
+    "name": "snout 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/snout_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13885,7 +13885,7 @@
   },
   {
     "id": "snow_block",
-    "name": "Snow Block",
+    "name": "눈 블록",
     "emoji": "📦",
     "image": "/images/items/snow_block.png",
     "category": "재료",
@@ -13897,7 +13897,7 @@
   },
   {
     "id": "snow_golem_spawn_egg",
-    "name": "Snow Golem Spawn Egg",
+    "name": "눈 골lem 생성 알",
     "emoji": "📦",
     "image": "/images/items/snow_golem_spawn_egg.png",
     "category": "음식",
@@ -14037,7 +14037,7 @@
   },
   {
     "id": "spider_spawn_egg",
-    "name": "Spider Spawn Egg",
+    "name": "거미 생성 알",
     "emoji": "📦",
     "image": "/images/items/spider_spawn_egg.png",
     "category": "음식",
@@ -14049,7 +14049,7 @@
   },
   {
     "id": "spire_armor_trim_smithing_template",
-    "name": "Spire Armor Trim Smithing Template",
+    "name": "spire 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/spire_armor_trim_smithing_template.png",
     "category": "재료",
@@ -14061,7 +14061,7 @@
   },
   {
     "id": "splash_potion",
-    "name": "Splash Potion",
+    "name": "투척형 물약",
     "emoji": "🧪",
     "image": "/images/items/splash_potion.png",
     "category": "양조",
@@ -14315,7 +14315,7 @@
   },
   {
     "id": "squid_spawn_egg",
-    "name": "Squid Spawn Egg",
+    "name": "오징어 생성 알",
     "emoji": "📦",
     "image": "/images/items/squid_spawn_egg.png",
     "category": "음식",
@@ -14365,7 +14365,7 @@
   },
   {
     "id": "stone_axe",
-    "name": "Stone Axe",
+    "name": "돌 axe",
     "emoji": "⚔️",
     "image": "/images/items/stone_axe.png",
     "category": "도구",
@@ -14377,7 +14377,7 @@
   },
   {
     "id": "stone_boots",
-    "name": "Stone Boots",
+    "name": "돌 boots",
     "emoji": "🦺",
     "image": "/images/items/stone_boots.png",
     "category": "방어구",
@@ -14389,7 +14389,7 @@
   },
   {
     "id": "stone_brick_slab",
-    "name": "Stone Brick Slab",
+    "name": "돌 벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/stone_brick_slab.png",
     "category": "재료",
@@ -14401,7 +14401,7 @@
   },
   {
     "id": "stone_brick_stairs",
-    "name": "Stone Brick Stairs",
+    "name": "돌 벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/stone_brick_stairs.png",
     "category": "재료",
@@ -14413,7 +14413,7 @@
   },
   {
     "id": "stone_brick_wall",
-    "name": "Stone Brick Wall",
+    "name": "돌 벽돌 담장",
     "emoji": "📦",
     "image": "/images/items/stone_brick_wall.png",
     "category": "재료",
@@ -14425,7 +14425,7 @@
   },
   {
     "id": "stone_bricks",
-    "name": "Stone Bricks",
+    "name": "돌 벽돌",
     "emoji": "📦",
     "image": "/images/items/stone_bricks.png",
     "category": "재료",
@@ -14437,7 +14437,7 @@
   },
   {
     "id": "stone_button",
-    "name": "Stone Button",
+    "name": "돌 버튼",
     "emoji": "📦",
     "image": "/images/items/stone_button.png",
     "category": "재료",
@@ -14449,7 +14449,7 @@
   },
   {
     "id": "stone_chestplate",
-    "name": "Stone Chestplate",
+    "name": "돌 chestplate",
     "emoji": "🦺",
     "image": "/images/items/stone_chestplate.png",
     "category": "방어구",
@@ -14461,7 +14461,7 @@
   },
   {
     "id": "stone_helmet",
-    "name": "Stone Helmet",
+    "name": "돌 helmet",
     "emoji": "🦺",
     "image": "/images/items/stone_helmet.png",
     "category": "방어구",
@@ -14473,7 +14473,7 @@
   },
   {
     "id": "stone_hoe",
-    "name": "Stone Hoe",
+    "name": "돌 hoe",
     "emoji": "⚔️",
     "image": "/images/items/stone_hoe.png",
     "category": "도구",
@@ -14485,7 +14485,7 @@
   },
   {
     "id": "stone_horse_armor",
-    "name": "Stone Horse Armor",
+    "name": "돌 말 갑옷",
     "emoji": "📦",
     "image": "/images/items/stone_horse_armor.png",
     "category": "방어구",
@@ -14497,7 +14497,7 @@
   },
   {
     "id": "stone_leggings",
-    "name": "Stone Leggings",
+    "name": "돌 leggings",
     "emoji": "🦺",
     "image": "/images/items/stone_leggings.png",
     "category": "방어구",
@@ -14509,7 +14509,7 @@
   },
   {
     "id": "stone_pickaxe",
-    "name": "Stone Pickaxe",
+    "name": "돌 pickaxe",
     "emoji": "⚔️",
     "image": "/images/items/stone_pickaxe.png",
     "category": "도구",
@@ -14521,7 +14521,7 @@
   },
   {
     "id": "stone_pressure_plate",
-    "name": "Stone Pressure Plate",
+    "name": "돌 압력판",
     "emoji": "📦",
     "image": "/images/items/stone_pressure_plate.png",
     "category": "재료",
@@ -14533,7 +14533,7 @@
   },
   {
     "id": "stone_shovel",
-    "name": "Stone Shovel",
+    "name": "돌 shovel",
     "emoji": "⚔️",
     "image": "/images/items/stone_shovel.png",
     "category": "도구",
@@ -14545,7 +14545,7 @@
   },
   {
     "id": "stone_slab",
-    "name": "Stone Slab",
+    "name": "돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/stone_slab.png",
     "category": "재료",
@@ -14557,7 +14557,7 @@
   },
   {
     "id": "stone_stairs",
-    "name": "Stone Stairs",
+    "name": "돌 계단",
     "emoji": "📦",
     "image": "/images/items/stone_stairs.png",
     "category": "재료",
@@ -14569,7 +14569,7 @@
   },
   {
     "id": "stone_sword",
-    "name": "Stone Sword",
+    "name": "돌 sword",
     "emoji": "⚔️",
     "image": "/images/items/stone_sword.png",
     "category": "무기",
@@ -14593,7 +14593,7 @@
   },
   {
     "id": "stray_spawn_egg",
-    "name": "Stray Spawn Egg",
+    "name": "스트ray 생성 알",
     "emoji": "📦",
     "image": "/images/items/stray_spawn_egg.png",
     "category": "음식",
@@ -14605,7 +14605,7 @@
   },
   {
     "id": "strider_spawn_egg",
-    "name": "Strider Spawn Egg",
+    "name": "스트라ider 생성 알",
     "emoji": "📦",
     "image": "/images/items/strider_spawn_egg.png",
     "category": "음식",
@@ -14907,7 +14907,7 @@
   },
   {
     "id": "structure_block",
-    "name": "Structure Block",
+    "name": "structure 블록",
     "emoji": "📦",
     "image": "/images/items/structure_block.png",
     "category": "재료",
@@ -14919,7 +14919,7 @@
   },
   {
     "id": "structure_void",
-    "name": "Structure Void",
+    "name": "구조물 공허",
     "emoji": "📦",
     "image": "/images/items/structure_void.png",
     "category": "재료",
@@ -14995,7 +14995,7 @@
   },
   {
     "id": "suspicious_stew",
-    "name": "Suspicious Stew",
+    "name": "수상한 스튜",
     "emoji": "🍖",
     "image": "/images/items/suspicious_stew.png",
     "category": "음식",
@@ -15063,7 +15063,7 @@
   },
   {
     "id": "tadpole_bucket",
-    "name": "Tadpole Bucket",
+    "name": "올챙이 양동이",
     "emoji": "📦",
     "image": "/images/items/tadpole_bucket.png",
     "category": "도구",
@@ -15075,7 +15075,7 @@
   },
   {
     "id": "tadpole_spawn_egg",
-    "name": "Tadpole Spawn Egg",
+    "name": "올챙이 생성 알",
     "emoji": "📦",
     "image": "/images/items/tadpole_spawn_egg.png",
     "category": "음식",
@@ -15111,7 +15111,7 @@
   },
   {
     "id": "terracotta",
-    "name": "Terracotta",
+    "name": "테라코타",
     "emoji": "📦",
     "image": "/images/items/terracotta.png",
     "category": "재료",
@@ -15123,7 +15123,7 @@
   },
   {
     "id": "tide_armor_trim_smithing_template",
-    "name": "Tide Armor Trim Smithing Template",
+    "name": "tide 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/tide_armor_trim_smithing_template.png",
     "category": "재료",
@@ -15147,7 +15147,7 @@
   },
   {
     "id": "tipped_arrow",
-    "name": "Tipped Arrow",
+    "name": "효과가 있는 화살",
     "emoji": "📦",
     "image": "/images/items/tipped_arrow.png",
     "category": "무기",
@@ -15159,7 +15159,7 @@
   },
   {
     "id": "tnt",
-    "name": "TNT",
+    "name": "티엔티",
     "emoji": "📦",
     "image": "/images/items/tnt.png",
     "category": "재료",
@@ -15247,7 +15247,7 @@
   },
   {
     "id": "trader_llama_spawn_egg",
-    "name": "Trader Llama Spawn Egg",
+    "name": "상인 라마 생성 알",
     "emoji": "📦",
     "image": "/images/items/trader_llama_spawn_egg.png",
     "category": "음식",
@@ -15335,7 +15335,7 @@
   },
   {
     "id": "tropical_fish_bucket",
-    "name": "Tropical Fish Bucket",
+    "name": "열대어 양동이",
     "emoji": "🍖",
     "image": "/images/items/tropical_fish_bucket.png",
     "category": "도구",
@@ -15347,7 +15347,7 @@
   },
   {
     "id": "tropical_fish_spawn_egg",
-    "name": "Tropical Fish Spawn Egg",
+    "name": "열대어 생성 알",
     "emoji": "🍖",
     "image": "/images/items/tropical_fish_spawn_egg.png",
     "category": "음식",
@@ -15371,7 +15371,7 @@
   },
   {
     "id": "tube_coral_block",
-    "name": "Tube Coral Block",
+    "name": "관 산호 블록",
     "emoji": "📦",
     "image": "/images/items/tube_coral_block.png",
     "category": "재료",
@@ -15383,7 +15383,7 @@
   },
   {
     "id": "tube_coral_fan",
-    "name": "Tube Coral Fan",
+    "name": "관 부채산호",
     "emoji": "📦",
     "image": "/images/items/tube_coral_fan.png",
     "category": "재료",
@@ -15407,7 +15407,7 @@
   },
   {
     "id": "tuff_brick_slab",
-    "name": "Tuff Brick Slab",
+    "name": "응회암 벽돌 반 블록",
     "emoji": "📦",
     "image": "/images/items/tuff_brick_slab.png",
     "category": "재료",
@@ -15419,7 +15419,7 @@
   },
   {
     "id": "tuff_brick_stairs",
-    "name": "Tuff Brick Stairs",
+    "name": "응회암 벽돌 계단",
     "emoji": "📦",
     "image": "/images/items/tuff_brick_stairs.png",
     "category": "재료",
@@ -15431,7 +15431,7 @@
   },
   {
     "id": "tuff_brick_wall",
-    "name": "Tuff Brick Wall",
+    "name": "응회암 벽돌 담장",
     "emoji": "📦",
     "image": "/images/items/tuff_brick_wall.png",
     "category": "재료",
@@ -15443,7 +15443,7 @@
   },
   {
     "id": "tuff_bricks",
-    "name": "Tuff Bricks",
+    "name": "응회암 벽돌",
     "emoji": "📦",
     "image": "/images/items/tuff_bricks.png",
     "category": "재료",
@@ -15455,7 +15455,7 @@
   },
   {
     "id": "tuff_slab",
-    "name": "Tuff Slab",
+    "name": "응회암 반 블록",
     "emoji": "📦",
     "image": "/images/items/tuff_slab.png",
     "category": "재료",
@@ -15467,7 +15467,7 @@
   },
   {
     "id": "tuff_stairs",
-    "name": "Tuff Stairs",
+    "name": "응회암 계단",
     "emoji": "📦",
     "image": "/images/items/tuff_stairs.png",
     "category": "재료",
@@ -15479,7 +15479,7 @@
   },
   {
     "id": "tuff_wall",
-    "name": "Tuff Wall",
+    "name": "응회암 담장",
     "emoji": "📦",
     "image": "/images/items/tuff_wall.png",
     "category": "재료",
@@ -15503,7 +15503,7 @@
   },
   {
     "id": "turtle_helmet",
-    "name": "Turtle Helmet",
+    "name": "거북 helmet",
     "emoji": "🦺",
     "image": "/images/items/turtle_helmet.png",
     "category": "방어구",
@@ -15527,7 +15527,7 @@
   },
   {
     "id": "turtle_spawn_egg",
-    "name": "Turtle Spawn Egg",
+    "name": "거북 생성 알",
     "emoji": "📦",
     "image": "/images/items/turtle_spawn_egg.png",
     "category": "음식",
@@ -15563,7 +15563,7 @@
   },
   {
     "id": "verdant_froglight",
-    "name": "Verdant Froglight",
+    "name": "초록 개구리불",
     "emoji": "📦",
     "image": "/images/items/verdant_froglight.png",
     "category": "재료",
@@ -15575,7 +15575,7 @@
   },
   {
     "id": "vex_armor_trim_smithing_template",
-    "name": "Vex Armor Trim Smithing Template",
+    "name": "벡스 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/vex_armor_trim_smithing_template.png",
     "category": "재료",
@@ -15587,7 +15587,7 @@
   },
   {
     "id": "vex_spawn_egg",
-    "name": "Vex Spawn Egg",
+    "name": "벡스 생성 알",
     "emoji": "📦",
     "image": "/images/items/vex_spawn_egg.png",
     "category": "음식",
@@ -15599,7 +15599,7 @@
   },
   {
     "id": "villager_spawn_egg",
-    "name": "Villager Spawn Egg",
+    "name": "주민 생성 알",
     "emoji": "📦",
     "image": "/images/items/villager_spawn_egg.png",
     "category": "음식",
@@ -15611,7 +15611,7 @@
   },
   {
     "id": "vindicator_spawn_egg",
-    "name": "Vindicator Spawn Egg",
+    "name": "변명자 생성 알",
     "emoji": "📦",
     "image": "/images/items/vindicator_spawn_egg.png",
     "category": "음식",
@@ -15635,7 +15635,7 @@
   },
   {
     "id": "wandering_trader_spawn_egg",
-    "name": "Wandering Trader Spawn Egg",
+    "name": "떠돌이 상인 생성 알",
     "emoji": "📦",
     "image": "/images/items/wandering_trader_spawn_egg.png",
     "category": "음식",
@@ -15647,7 +15647,7 @@
   },
   {
     "id": "ward_armor_trim_smithing_template",
-    "name": "Ward Armor Trim Smithing Template",
+    "name": "ward 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/ward_armor_trim_smithing_template.png",
     "category": "재료",
@@ -15659,7 +15659,7 @@
   },
   {
     "id": "warden_spawn_egg",
-    "name": "Warden Spawn Egg",
+    "name": "워든 생성 알",
     "emoji": "📦",
     "image": "/images/items/warden_spawn_egg.png",
     "category": "음식",
@@ -15901,7 +15901,7 @@
   },
   {
     "id": "waxed_chiseled_copper",
-    "name": "Waxed Chiseled Copper",
+    "name": "왁스칠한 조각된 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_chiseled_copper.png",
     "category": "도구",
@@ -15913,7 +15913,7 @@
   },
   {
     "id": "waxed_copper_block",
-    "name": "Waxed Copper Block",
+    "name": "왁스칠한 구리 블록",
     "emoji": "⚔️",
     "image": "/images/items/waxed_copper_block.png",
     "category": "도구",
@@ -15925,7 +15925,7 @@
   },
   {
     "id": "waxed_copper_bulb",
-    "name": "Waxed Copper Bulb",
+    "name": "왁스칠한 구리 전구",
     "emoji": "⚔️",
     "image": "/images/items/waxed_copper_bulb.png",
     "category": "도구",
@@ -15937,7 +15937,7 @@
   },
   {
     "id": "waxed_copper_door",
-    "name": "Waxed Copper Door",
+    "name": "왁스칠한 구리 문",
     "emoji": "⚔️",
     "image": "/images/items/waxed_copper_door.png",
     "category": "도구",
@@ -15949,7 +15949,7 @@
   },
   {
     "id": "waxed_copper_grate",
-    "name": "Waxed Copper Grate",
+    "name": "왁스칠한 구리 격자",
     "emoji": "⚔️",
     "image": "/images/items/waxed_copper_grate.png",
     "category": "도구",
@@ -15961,7 +15961,7 @@
   },
   {
     "id": "waxed_copper_trapdoor",
-    "name": "Waxed Copper Trapdoor",
+    "name": "왁스칠한 구리 다락문",
     "emoji": "⚔️",
     "image": "/images/items/waxed_copper_trapdoor.png",
     "category": "도구",
@@ -15973,7 +15973,7 @@
   },
   {
     "id": "waxed_cut_copper",
-    "name": "Waxed Cut Copper",
+    "name": "왁스칠한 깎인 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_cut_copper.png",
     "category": "도구",
@@ -15985,7 +15985,7 @@
   },
   {
     "id": "waxed_cut_copper_slab",
-    "name": "Waxed Cut Copper Slab",
+    "name": "왁스칠한 깎인 구리 반 블록",
     "emoji": "⚔️",
     "image": "/images/items/waxed_cut_copper_slab.png",
     "category": "도구",
@@ -15997,7 +15997,7 @@
   },
   {
     "id": "waxed_cut_copper_stairs",
-    "name": "Waxed Cut Copper Stairs",
+    "name": "왁스칠한 깎인 구리 계단",
     "emoji": "⚔️",
     "image": "/images/items/waxed_cut_copper_stairs.png",
     "category": "도구",
@@ -16009,7 +16009,7 @@
   },
   {
     "id": "waxed_exposed_chiseled_copper",
-    "name": "Waxed Exposed Chiseled Copper",
+    "name": "왁스칠한 약간 녹슨 조각된 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_exposed_chiseled_copper.png",
     "category": "도구",
@@ -16021,7 +16021,7 @@
   },
   {
     "id": "waxed_exposed_copper",
-    "name": "Waxed Exposed Copper",
+    "name": "왁스칠한 약간 녹슨 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_exposed_copper.png",
     "category": "도구",
@@ -16033,7 +16033,7 @@
   },
   {
     "id": "waxed_exposed_copper_bulb",
-    "name": "Waxed Exposed Copper Bulb",
+    "name": "왁스칠한 약간 녹슨 구리 전구",
     "emoji": "⚔️",
     "image": "/images/items/waxed_exposed_copper_bulb.png",
     "category": "도구",
@@ -16045,7 +16045,7 @@
   },
   {
     "id": "waxed_exposed_copper_door",
-    "name": "Waxed Exposed Copper Door",
+    "name": "왁스칠한 약간 녹슨 구리 문",
     "emoji": "⚔️",
     "image": "/images/items/waxed_exposed_copper_door.png",
     "category": "도구",
@@ -16057,7 +16057,7 @@
   },
   {
     "id": "waxed_exposed_copper_grate",
-    "name": "Waxed Exposed Copper Grate",
+    "name": "왁스칠한 약간 녹슨 구리 격자",
     "emoji": "⚔️",
     "image": "/images/items/waxed_exposed_copper_grate.png",
     "category": "도구",
@@ -16069,7 +16069,7 @@
   },
   {
     "id": "waxed_exposed_copper_trapdoor",
-    "name": "Waxed Exposed Copper Trapdoor",
+    "name": "왁스칠한 약간 녹슨 구리 다락문",
     "emoji": "⚔️",
     "image": "/images/items/waxed_exposed_copper_trapdoor.png",
     "category": "도구",
@@ -16081,7 +16081,7 @@
   },
   {
     "id": "waxed_exposed_cut_copper",
-    "name": "Waxed Exposed Cut Copper",
+    "name": "왁스칠한 약간 녹슨 깎인 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_exposed_cut_copper.png",
     "category": "도구",
@@ -16093,7 +16093,7 @@
   },
   {
     "id": "waxed_exposed_cut_copper_slab",
-    "name": "Waxed Exposed Cut Copper Slab",
+    "name": "왁스칠한 약간 녹슨 깎인 구리 반 블록",
     "emoji": "⚔️",
     "image": "/images/items/waxed_exposed_cut_copper_slab.png",
     "category": "도구",
@@ -16105,7 +16105,7 @@
   },
   {
     "id": "waxed_exposed_cut_copper_stairs",
-    "name": "Waxed Exposed Cut Copper Stairs",
+    "name": "왁스칠한 약간 녹슨 깎인 구리 계단",
     "emoji": "⚔️",
     "image": "/images/items/waxed_exposed_cut_copper_stairs.png",
     "category": "도구",
@@ -16117,7 +16117,7 @@
   },
   {
     "id": "waxed_oxidized_chiseled_copper",
-    "name": "Waxed Oxidized Chiseled Copper",
+    "name": "왁스칠한 산화된 조각된 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_oxidized_chiseled_copper.png",
     "category": "도구",
@@ -16129,7 +16129,7 @@
   },
   {
     "id": "waxed_oxidized_copper",
-    "name": "Waxed Oxidized Copper",
+    "name": "왁스칠한 산화된 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_oxidized_copper.png",
     "category": "도구",
@@ -16141,7 +16141,7 @@
   },
   {
     "id": "waxed_oxidized_copper_bulb",
-    "name": "Waxed Oxidized Copper Bulb",
+    "name": "왁스칠한 산화된 구리 전구",
     "emoji": "⚔️",
     "image": "/images/items/waxed_oxidized_copper_bulb.png",
     "category": "도구",
@@ -16153,7 +16153,7 @@
   },
   {
     "id": "waxed_oxidized_copper_door",
-    "name": "Waxed Oxidized Copper Door",
+    "name": "왁스칠한 산화된 구리 문",
     "emoji": "⚔️",
     "image": "/images/items/waxed_oxidized_copper_door.png",
     "category": "도구",
@@ -16165,7 +16165,7 @@
   },
   {
     "id": "waxed_oxidized_copper_grate",
-    "name": "Waxed Oxidized Copper Grate",
+    "name": "왁스칠한 산화된 구리 격자",
     "emoji": "⚔️",
     "image": "/images/items/waxed_oxidized_copper_grate.png",
     "category": "도구",
@@ -16177,7 +16177,7 @@
   },
   {
     "id": "waxed_oxidized_copper_trapdoor",
-    "name": "Waxed Oxidized Copper Trapdoor",
+    "name": "왁스칠한 산화된 구리 다락문",
     "emoji": "⚔️",
     "image": "/images/items/waxed_oxidized_copper_trapdoor.png",
     "category": "도구",
@@ -16189,7 +16189,7 @@
   },
   {
     "id": "waxed_oxidized_cut_copper",
-    "name": "Waxed Oxidized Cut Copper",
+    "name": "왁스칠한 산화된 깎인 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_oxidized_cut_copper.png",
     "category": "도구",
@@ -16201,7 +16201,7 @@
   },
   {
     "id": "waxed_oxidized_cut_copper_slab",
-    "name": "Waxed Oxidized Cut Copper Slab",
+    "name": "왁스칠한 산화된 깎인 구리 반 블록",
     "emoji": "⚔️",
     "image": "/images/items/waxed_oxidized_cut_copper_slab.png",
     "category": "도구",
@@ -16213,7 +16213,7 @@
   },
   {
     "id": "waxed_oxidized_cut_copper_stairs",
-    "name": "Waxed Oxidized Cut Copper Stairs",
+    "name": "왁스칠한 산화된 깎인 구리 계단",
     "emoji": "⚔️",
     "image": "/images/items/waxed_oxidized_cut_copper_stairs.png",
     "category": "도구",
@@ -16225,7 +16225,7 @@
   },
   {
     "id": "waxed_weathered_chiseled_copper",
-    "name": "Waxed Weathered Chiseled Copper",
+    "name": "왁스칠한 녹슨 조각된 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_weathered_chiseled_copper.png",
     "category": "도구",
@@ -16237,7 +16237,7 @@
   },
   {
     "id": "waxed_weathered_copper",
-    "name": "Waxed Weathered Copper",
+    "name": "왁스칠한 녹슨 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_weathered_copper.png",
     "category": "도구",
@@ -16249,7 +16249,7 @@
   },
   {
     "id": "waxed_weathered_copper_bulb",
-    "name": "Waxed Weathered Copper Bulb",
+    "name": "왁스칠한 녹슨 구리 전구",
     "emoji": "⚔️",
     "image": "/images/items/waxed_weathered_copper_bulb.png",
     "category": "도구",
@@ -16261,7 +16261,7 @@
   },
   {
     "id": "waxed_weathered_copper_door",
-    "name": "Waxed Weathered Copper Door",
+    "name": "왁스칠한 녹슨 구리 문",
     "emoji": "⚔️",
     "image": "/images/items/waxed_weathered_copper_door.png",
     "category": "도구",
@@ -16273,7 +16273,7 @@
   },
   {
     "id": "waxed_weathered_copper_grate",
-    "name": "Waxed Weathered Copper Grate",
+    "name": "왁스칠한 녹슨 구리 격자",
     "emoji": "⚔️",
     "image": "/images/items/waxed_weathered_copper_grate.png",
     "category": "도구",
@@ -16285,7 +16285,7 @@
   },
   {
     "id": "waxed_weathered_copper_trapdoor",
-    "name": "Waxed Weathered Copper Trapdoor",
+    "name": "왁스칠한 녹슨 구리 다락문",
     "emoji": "⚔️",
     "image": "/images/items/waxed_weathered_copper_trapdoor.png",
     "category": "도구",
@@ -16297,7 +16297,7 @@
   },
   {
     "id": "waxed_weathered_cut_copper",
-    "name": "Waxed Weathered Cut Copper",
+    "name": "왁스칠한 녹슨 깎인 구리",
     "emoji": "⚔️",
     "image": "/images/items/waxed_weathered_cut_copper.png",
     "category": "도구",
@@ -16309,7 +16309,7 @@
   },
   {
     "id": "waxed_weathered_cut_copper_slab",
-    "name": "Waxed Weathered Cut Copper Slab",
+    "name": "왁스칠한 녹슨 깎인 구리 반 블록",
     "emoji": "⚔️",
     "image": "/images/items/waxed_weathered_cut_copper_slab.png",
     "category": "도구",
@@ -16321,7 +16321,7 @@
   },
   {
     "id": "waxed_weathered_cut_copper_stairs",
-    "name": "Waxed Weathered Cut Copper Stairs",
+    "name": "왁스칠한 녹슨 깎인 구리 계단",
     "emoji": "⚔️",
     "image": "/images/items/waxed_weathered_cut_copper_stairs.png",
     "category": "도구",
@@ -16333,7 +16333,7 @@
   },
   {
     "id": "wayfinder_armor_trim_smithing_template",
-    "name": "Wayfinder Armor Trim Smithing Template",
+    "name": "wayfinder 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/wayfinder_armor_trim_smithing_template.png",
     "category": "재료",
@@ -16345,7 +16345,7 @@
   },
   {
     "id": "weathered_chiseled_copper",
-    "name": "Weathered Chiseled Copper",
+    "name": "녹슨 조각된 구리",
     "emoji": "📦",
     "image": "/images/items/weathered_chiseled_copper.png",
     "category": "재료",
@@ -16357,7 +16357,7 @@
   },
   {
     "id": "weathered_copper",
-    "name": "Weathered Copper",
+    "name": "녹슨 구리",
     "emoji": "📦",
     "image": "/images/items/weathered_copper.png",
     "category": "재료",
@@ -16369,7 +16369,7 @@
   },
   {
     "id": "weathered_copper_bulb",
-    "name": "Weathered Copper Bulb",
+    "name": "녹슨 구리 전구",
     "emoji": "📦",
     "image": "/images/items/weathered_copper_bulb.png",
     "category": "재료",
@@ -16381,7 +16381,7 @@
   },
   {
     "id": "weathered_copper_door",
-    "name": "Weathered Copper Door",
+    "name": "녹슨 구리 문",
     "emoji": "📦",
     "image": "/images/items/weathered_copper_door.png",
     "category": "재료",
@@ -16393,7 +16393,7 @@
   },
   {
     "id": "weathered_copper_grate",
-    "name": "Weathered Copper Grate",
+    "name": "녹슨 구리 격자",
     "emoji": "📦",
     "image": "/images/items/weathered_copper_grate.png",
     "category": "재료",
@@ -16405,7 +16405,7 @@
   },
   {
     "id": "weathered_copper_trapdoor",
-    "name": "Weathered Copper Trapdoor",
+    "name": "녹슨 구리 다락문",
     "emoji": "📦",
     "image": "/images/items/weathered_copper_trapdoor.png",
     "category": "재료",
@@ -16417,7 +16417,7 @@
   },
   {
     "id": "weathered_cut_copper",
-    "name": "Weathered Cut Copper",
+    "name": "녹슨 깎인 구리",
     "emoji": "📦",
     "image": "/images/items/weathered_cut_copper.png",
     "category": "재료",
@@ -16429,7 +16429,7 @@
   },
   {
     "id": "weathered_cut_copper_slab",
-    "name": "Weathered Cut Copper Slab",
+    "name": "녹슨 깎인 구리 반 블록",
     "emoji": "📦",
     "image": "/images/items/weathered_cut_copper_slab.png",
     "category": "재료",
@@ -16441,7 +16441,7 @@
   },
   {
     "id": "weathered_cut_copper_stairs",
-    "name": "Weathered Cut Copper Stairs",
+    "name": "녹슨 깎인 구리 계단",
     "emoji": "📦",
     "image": "/images/items/weathered_cut_copper_stairs.png",
     "category": "재료",
@@ -16685,7 +16685,7 @@
   },
   {
     "id": "wild_armor_trim_smithing_template",
-    "name": "Wild Armor Trim Smithing Template",
+    "name": "wild 갑옷 장식 대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/wild_armor_trim_smithing_template.png",
     "category": "재료",
@@ -16709,7 +16709,7 @@
   },
   {
     "id": "witch_spawn_egg",
-    "name": "Witch Spawn Egg",
+    "name": "마녀 생성 알",
     "emoji": "📦",
     "image": "/images/items/witch_spawn_egg.png",
     "category": "음식",
@@ -16733,7 +16733,7 @@
   },
   {
     "id": "wither_skeleton_skull",
-    "name": "Wither Skeleton Skull",
+    "name": "위더 스켈레톤 skull",
     "emoji": "📦",
     "image": "/images/items/wither_skeleton_skull.png",
     "category": "특수",
@@ -16745,7 +16745,7 @@
   },
   {
     "id": "wither_skeleton_spawn_egg",
-    "name": "Wither Skeleton Spawn Egg",
+    "name": "위더 스켈레톤 생성 알",
     "emoji": "📦",
     "image": "/images/items/wither_skeleton_spawn_egg.png",
     "category": "음식",
@@ -16757,7 +16757,7 @@
   },
   {
     "id": "wither_spawn_egg",
-    "name": "Wither Spawn Egg",
+    "name": "위더 생성 알",
     "emoji": "📦",
     "image": "/images/items/wither_spawn_egg.png",
     "category": "음식",
@@ -16781,7 +16781,7 @@
   },
   {
     "id": "wolf_spawn_egg",
-    "name": "Wolf Spawn Egg",
+    "name": "늑대 생성 알",
     "emoji": "📦",
     "image": "/images/items/wolf_spawn_egg.png",
     "category": "음식",
@@ -16793,7 +16793,7 @@
   },
   {
     "id": "wooden_axe",
-    "name": "Wooden Axe",
+    "name": "나무 도끼",
     "emoji": "⚔️",
     "image": "/images/items/wooden_axe.png",
     "category": "도구",
@@ -16805,7 +16805,7 @@
   },
   {
     "id": "wooden_boots",
-    "name": "Wooden Boots",
+    "name": "나무 부츠",
     "emoji": "🦺",
     "image": "/images/items/wooden_boots.png",
     "category": "방어구",
@@ -16817,7 +16817,7 @@
   },
   {
     "id": "wooden_chestplate",
-    "name": "Wooden Chestplate",
+    "name": "나무 흉갑",
     "emoji": "🦺",
     "image": "/images/items/wooden_chestplate.png",
     "category": "방어구",
@@ -16829,7 +16829,7 @@
   },
   {
     "id": "wooden_helmet",
-    "name": "Wooden Helmet",
+    "name": "나무 투구",
     "emoji": "🦺",
     "image": "/images/items/wooden_helmet.png",
     "category": "방어구",
@@ -16841,7 +16841,7 @@
   },
   {
     "id": "wooden_hoe",
-    "name": "Wooden Hoe",
+    "name": "나무 괭이",
     "emoji": "⚔️",
     "image": "/images/items/wooden_hoe.png",
     "category": "도구",
@@ -16853,7 +16853,7 @@
   },
   {
     "id": "wooden_horse_armor",
-    "name": "Wooden Horse Armor",
+    "name": "wooden 말 갑옷",
     "emoji": "📦",
     "image": "/images/items/wooden_horse_armor.png",
     "category": "방어구",
@@ -16865,7 +16865,7 @@
   },
   {
     "id": "wooden_leggings",
-    "name": "Wooden Leggings",
+    "name": "나무 레깅스",
     "emoji": "🦺",
     "image": "/images/items/wooden_leggings.png",
     "category": "방어구",
@@ -16877,7 +16877,7 @@
   },
   {
     "id": "wooden_pickaxe",
-    "name": "Wooden Pickaxe",
+    "name": "나무 곡괭이",
     "emoji": "⚔️",
     "image": "/images/items/wooden_pickaxe.png",
     "category": "도구",
@@ -16889,7 +16889,7 @@
   },
   {
     "id": "wooden_shovel",
-    "name": "Wooden Shovel",
+    "name": "나무 삽",
     "emoji": "⚔️",
     "image": "/images/items/wooden_shovel.png",
     "category": "도구",
@@ -16901,7 +16901,7 @@
   },
   {
     "id": "wooden_sword",
-    "name": "Wooden Sword",
+    "name": "나무 검",
     "emoji": "⚔️",
     "image": "/images/items/wooden_sword.png",
     "category": "무기",
@@ -16927,7 +16927,7 @@
   },
   {
     "id": "written_book",
-    "name": "Written Book",
+    "name": "글이 적힌 책",
     "emoji": "📖",
     "image": "/images/items/written_book.png",
     "category": "재료",
@@ -17107,7 +17107,7 @@
   },
   {
     "id": "zoglin_spawn_egg",
-    "name": "Zoglin Spawn Egg",
+    "name": "조글린 생성 알",
     "emoji": "📦",
     "image": "/images/items/zoglin_spawn_egg.png",
     "category": "음식",
@@ -17119,7 +17119,7 @@
   },
   {
     "id": "zombie_head",
-    "name": "Zombie Head",
+    "name": "좀비 head",
     "emoji": "📦",
     "image": "/images/items/zombie_head.png",
     "category": "특수",
@@ -17131,7 +17131,7 @@
   },
   {
     "id": "zombie_horse_spawn_egg",
-    "name": "Zombie Horse Spawn Egg",
+    "name": "좀비 말 생성 알",
     "emoji": "📦",
     "image": "/images/items/zombie_horse_spawn_egg.png",
     "category": "음식",
@@ -17143,7 +17143,7 @@
   },
   {
     "id": "zombie_spawn_egg",
-    "name": "Zombie Spawn Egg",
+    "name": "좀비 생성 알",
     "emoji": "📦",
     "image": "/images/items/zombie_spawn_egg.png",
     "category": "음식",
@@ -17155,7 +17155,7 @@
   },
   {
     "id": "zombie_villager_spawn_egg",
-    "name": "Zombie Villager Spawn Egg",
+    "name": "좀비 주민 생성 알",
     "emoji": "📦",
     "image": "/images/items/zombie_villager_spawn_egg.png",
     "category": "음식",
@@ -17167,7 +17167,7 @@
   },
   {
     "id": "zombified_piglin_spawn_egg",
-    "name": "Zombified Piglin Spawn Egg",
+    "name": "좀비화 피글린 생성 알",
     "emoji": "📦",
     "image": "/images/items/zombified_piglin_spawn_egg.png",
     "category": "음식",

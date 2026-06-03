@@ -263,7 +263,7 @@
   },
   {
     "id": "activator_rail",
-    "name": "Activator Rail",
+    "name": "활성화 레일",
     "emoji": "🟫",
     "image": "/images/blocks/activator_rail.png",
     "category": "이동",
@@ -276,7 +276,7 @@
   },
   {
     "id": "air",
-    "name": "Air",
+    "name": "공기",
     "emoji": "🟫",
     "image": "/images/blocks/air.png",
     "category": "건축",
@@ -359,7 +359,7 @@
   },
   {
     "id": "andesite_slab",
-    "name": "Andesite Slab",
+    "name": "안산암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/andesite_slab.png",
     "category": "건축",
@@ -372,7 +372,7 @@
   },
   {
     "id": "andesite_stairs",
-    "name": "Andesite Stairs",
+    "name": "안산암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/andesite_stairs.png",
     "category": "건축",
@@ -385,7 +385,7 @@
   },
   {
     "id": "andesite_wall",
-    "name": "Andesite Wall",
+    "name": "안산암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/andesite_wall.png",
     "category": "건축",
@@ -412,7 +412,7 @@
   },
   {
     "id": "attached_melon_stem",
-    "name": "Attached Melon Stem",
+    "name": "attached 수박 줄기",
     "emoji": "🪵",
     "image": "/images/blocks/attached_melon_stem.png",
     "category": "나무",
@@ -425,7 +425,7 @@
   },
   {
     "id": "attached_pumpkin_stem",
-    "name": "Attached Pumpkin Stem",
+    "name": "attached 호박 줄기",
     "emoji": "🪵",
     "image": "/images/blocks/attached_pumpkin_stem.png",
     "category": "나무",
@@ -452,7 +452,7 @@
   },
   {
     "id": "azalea_leaves",
-    "name": "Azalea Leaves",
+    "name": "진달래 잎",
     "emoji": "🌿",
     "image": "/images/blocks/azalea_leaves.png",
     "category": "나무",
@@ -822,7 +822,7 @@
   },
   {
     "id": "barrier",
-    "name": "Barrier",
+    "name": "배리어",
     "emoji": "🟫",
     "image": "/images/blocks/barrier.png",
     "category": "건축",
@@ -917,7 +917,7 @@
   },
   {
     "id": "beetroots",
-    "name": "Beetroots",
+    "name": "비트",
     "emoji": "🟫",
     "image": "/images/blocks/beetroots.png",
     "category": "나무",
@@ -957,7 +957,7 @@
   },
   {
     "id": "big_dripleaf_stem",
-    "name": "Big Dripleaf Stem",
+    "name": "큰 버들잎 줄기",
     "emoji": "🪵",
     "image": "/images/blocks/big_dripleaf_stem.png",
     "category": "나무",
@@ -1431,7 +1431,7 @@
   },
   {
     "id": "blackstone_slab",
-    "name": "Blackstone Slab",
+    "name": "흑암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/blackstone_slab.png",
     "category": "건축",
@@ -1444,7 +1444,7 @@
   },
   {
     "id": "blackstone_stairs",
-    "name": "Blackstone Stairs",
+    "name": "흑암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/blackstone_stairs.png",
     "category": "건축",
@@ -1457,7 +1457,7 @@
   },
   {
     "id": "blackstone_wall",
-    "name": "Blackstone Wall",
+    "name": "흑암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/blackstone_wall.png",
     "category": "건축",
@@ -1739,7 +1739,7 @@
   },
   {
     "id": "brain_coral_block",
-    "name": "Brain Coral Block",
+    "name": "뇌 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/brain_coral_block.png",
     "category": "식물",
@@ -1752,7 +1752,7 @@
   },
   {
     "id": "brain_coral_fan",
-    "name": "Brain Coral Fan",
+    "name": "뇌 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/brain_coral_fan.png",
     "category": "식물",
@@ -1765,7 +1765,7 @@
   },
   {
     "id": "brain_coral_wall_fan",
-    "name": "Brain Coral Wall Fan",
+    "name": "brain 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/brain_coral_wall_fan.png",
     "category": "건축",
@@ -1792,7 +1792,7 @@
   },
   {
     "id": "brick_slab",
-    "name": "Brick Slab",
+    "name": "벽돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/brick_slab.png",
     "category": "건축",
@@ -1805,7 +1805,7 @@
   },
   {
     "id": "brick_stairs",
-    "name": "Brick Stairs",
+    "name": "벽돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/brick_stairs.png",
     "category": "건축",
@@ -1818,7 +1818,7 @@
   },
   {
     "id": "brick_wall",
-    "name": "Brick Wall",
+    "name": "벽돌 담장",
     "emoji": "🟫",
     "image": "/images/blocks/brick_wall.png",
     "category": "건축",
@@ -1831,7 +1831,7 @@
   },
   {
     "id": "bricks",
-    "name": "Bricks",
+    "name": "벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/bricks.png",
     "category": "건축",
@@ -2053,7 +2053,7 @@
   },
   {
     "id": "bubble_column",
-    "name": "Bubble Column",
+    "name": "거품 기둥",
     "emoji": "🟫",
     "image": "/images/blocks/bubble_column.png",
     "category": "건축",
@@ -2079,7 +2079,7 @@
   },
   {
     "id": "bubble_coral_block",
-    "name": "Bubble Coral Block",
+    "name": "거품 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/bubble_coral_block.png",
     "category": "식물",
@@ -2092,7 +2092,7 @@
   },
   {
     "id": "bubble_coral_fan",
-    "name": "Bubble Coral Fan",
+    "name": "거품 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/bubble_coral_fan.png",
     "category": "식물",
@@ -2105,7 +2105,7 @@
   },
   {
     "id": "bubble_coral_wall_fan",
-    "name": "Bubble Coral Wall Fan",
+    "name": "bubble 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/bubble_coral_wall_fan.png",
     "category": "건축",
@@ -2215,7 +2215,7 @@
   },
   {
     "id": "candle_cake",
-    "name": "Candle Cake",
+    "name": "양초 cake",
     "emoji": "🔥",
     "image": "/images/blocks/candle_cake.png",
     "category": "장식",
@@ -2228,7 +2228,7 @@
   },
   {
     "id": "carrots",
-    "name": "Carrots",
+    "name": "당근",
     "emoji": "🟫",
     "image": "/images/blocks/carrots.png",
     "category": "식물",
@@ -2285,7 +2285,7 @@
   },
   {
     "id": "cave_air",
-    "name": "Cave Air",
+    "name": "cave 공기",
     "emoji": "🟫",
     "image": "/images/blocks/cave_air.png",
     "category": "건축",
@@ -2311,7 +2311,7 @@
   },
   {
     "id": "cave_vines_plant",
-    "name": "Cave Vines Plant",
+    "name": "동굴 덩굴 식물",
     "emoji": "🌿",
     "image": "/images/blocks/cave_vines_plant.png",
     "category": "식물",
@@ -2338,7 +2338,7 @@
   },
   {
     "id": "chain_command_block",
-    "name": "Chain Command Block",
+    "name": "사슬 command 블록",
     "emoji": "🟫",
     "image": "/images/blocks/chain_command_block.png",
     "category": "건축",
@@ -2628,7 +2628,7 @@
   },
   {
     "id": "chipped_anvil",
-    "name": "Chipped Anvil",
+    "name": "chipped 모루",
     "emoji": "🟫",
     "image": "/images/blocks/chipped_anvil.png",
     "category": "건축",
@@ -2656,7 +2656,7 @@
   },
   {
     "id": "chiseled_copper",
-    "name": "Chiseled Copper",
+    "name": "조각된 구리",
     "emoji": "💎",
     "image": "/images/blocks/chiseled_copper.png",
     "category": "건축",
@@ -2669,7 +2669,7 @@
   },
   {
     "id": "chiseled_deepslate",
-    "name": "Chiseled Deepslate",
+    "name": "조각된 심층암",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_deepslate.png",
     "category": "자연",
@@ -2682,7 +2682,7 @@
   },
   {
     "id": "chiseled_nether_bricks",
-    "name": "Chiseled Nether Bricks",
+    "name": "조각된 네더 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_nether_bricks.png",
     "category": "네더",
@@ -2695,7 +2695,7 @@
   },
   {
     "id": "chiseled_polished_blackstone",
-    "name": "Chiseled Polished Blackstone",
+    "name": "조각된 매끄러운 흑암",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_polished_blackstone.png",
     "category": "자연",
@@ -2721,7 +2721,7 @@
   },
   {
     "id": "chiseled_red_sandstone",
-    "name": "Chiseled Red Sandstone",
+    "name": "조각된 붉은 사암",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_red_sandstone.png",
     "category": "자연",
@@ -2734,7 +2734,7 @@
   },
   {
     "id": "chiseled_resin_bricks",
-    "name": "Chiseled Resin Bricks",
+    "name": "조각된 수지 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_resin_bricks.png",
     "category": "특수",
@@ -2747,7 +2747,7 @@
   },
   {
     "id": "chiseled_sandstone",
-    "name": "Chiseled Sandstone",
+    "name": "조각된 사암",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_sandstone.png",
     "category": "자연",
@@ -2774,7 +2774,7 @@
   },
   {
     "id": "chiseled_tuff",
-    "name": "Chiseled Tuff",
+    "name": "조각된 응회암",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_tuff.png",
     "category": "자연",
@@ -2787,7 +2787,7 @@
   },
   {
     "id": "chiseled_tuff_bricks",
-    "name": "Chiseled Tuff Bricks",
+    "name": "조각된 응회암 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_tuff_bricks.png",
     "category": "자연",
@@ -2911,7 +2911,7 @@
   },
   {
     "id": "cobbled_deepslate_slab",
-    "name": "Cobbled Deepslate Slab",
+    "name": "깨진 심층암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/cobbled_deepslate_slab.png",
     "category": "건축",
@@ -2924,7 +2924,7 @@
   },
   {
     "id": "cobbled_deepslate_stairs",
-    "name": "Cobbled Deepslate Stairs",
+    "name": "깨진 심층암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/cobbled_deepslate_stairs.png",
     "category": "건축",
@@ -2937,7 +2937,7 @@
   },
   {
     "id": "cobbled_deepslate_wall",
-    "name": "Cobbled Deepslate Wall",
+    "name": "깨진 심층암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/cobbled_deepslate_wall.png",
     "category": "건축",
@@ -2965,7 +2965,7 @@
   },
   {
     "id": "cobblestone_slab",
-    "name": "Cobblestone Slab",
+    "name": "둥근돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/cobblestone_slab.png",
     "category": "건축",
@@ -2978,7 +2978,7 @@
   },
   {
     "id": "cobblestone_stairs",
-    "name": "Cobblestone Stairs",
+    "name": "둥근돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/cobblestone_stairs.png",
     "category": "건축",
@@ -2991,7 +2991,7 @@
   },
   {
     "id": "cobblestone_wall",
-    "name": "Cobblestone Wall",
+    "name": "둥근돌 담장",
     "emoji": "🟫",
     "image": "/images/blocks/cobblestone_wall.png",
     "category": "건축",
@@ -3018,7 +3018,7 @@
   },
   {
     "id": "cocoa",
-    "name": "Cocoa",
+    "name": "코코아",
     "emoji": "🟫",
     "image": "/images/blocks/cocoa.png",
     "category": "건축",
@@ -3031,7 +3031,7 @@
   },
   {
     "id": "command_block",
-    "name": "Command Block",
+    "name": "command 블록",
     "emoji": "🟫",
     "image": "/images/blocks/command_block.png",
     "category": "건축",
@@ -3086,7 +3086,7 @@
   },
   {
     "id": "copper_bars",
-    "name": "Copper Bars",
+    "name": "구리 창",
     "emoji": "💎",
     "image": "/images/blocks/copper_bars.png",
     "category": "건축",
@@ -3126,7 +3126,7 @@
   },
   {
     "id": "copper_chain",
-    "name": "Copper Chain",
+    "name": "구리 사슬",
     "emoji": "💎",
     "image": "/images/blocks/copper_chain.png",
     "category": "건축",
@@ -3139,7 +3139,7 @@
   },
   {
     "id": "copper_door",
-    "name": "Copper Door",
+    "name": "구리 문",
     "emoji": "💎",
     "image": "/images/blocks/copper_door.png",
     "category": "건축",
@@ -3165,7 +3165,7 @@
   },
   {
     "id": "copper_lantern",
-    "name": "Copper Lantern",
+    "name": "구리 랜턴",
     "emoji": "💎",
     "image": "/images/blocks/copper_lantern.png",
     "category": "조명",
@@ -3206,7 +3206,7 @@
   },
   {
     "id": "copper_trapdoor",
-    "name": "Copper Trapdoor",
+    "name": "구리 다락문",
     "emoji": "💎",
     "image": "/images/blocks/copper_trapdoor.png",
     "category": "건축",
@@ -3232,7 +3232,7 @@
   },
   {
     "id": "cracked_deepslate_bricks",
-    "name": "Cracked Deepslate Bricks",
+    "name": "갈라진 심층암 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/cracked_deepslate_bricks.png",
     "category": "자연",
@@ -3245,7 +3245,7 @@
   },
   {
     "id": "cracked_deepslate_tiles",
-    "name": "Cracked Deepslate Tiles",
+    "name": "갈라진 심층암 타일",
     "emoji": "🟫",
     "image": "/images/blocks/cracked_deepslate_tiles.png",
     "category": "자연",
@@ -3258,7 +3258,7 @@
   },
   {
     "id": "cracked_nether_bricks",
-    "name": "Cracked Nether Bricks",
+    "name": "갈라진 네더 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/cracked_nether_bricks.png",
     "category": "네더",
@@ -3271,7 +3271,7 @@
   },
   {
     "id": "cracked_polished_blackstone_bricks",
-    "name": "Cracked Polished Blackstone Bricks",
+    "name": "갈라진 매끄러운 흑암 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/cracked_polished_blackstone_bricks.png",
     "category": "자연",
@@ -3355,7 +3355,7 @@
   },
   {
     "id": "creeper_wall_head",
-    "name": "Creeper Wall Head",
+    "name": "크리퍼 담장 head",
     "emoji": "🟫",
     "image": "/images/blocks/creeper_wall_head.png",
     "category": "건축",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "cut_copper",
-    "name": "Cut Copper",
+    "name": "깎인 구리",
     "emoji": "💎",
     "image": "/images/blocks/cut_copper.png",
     "category": "건축",
@@ -3722,7 +3722,7 @@
   },
   {
     "id": "cut_copper_slab",
-    "name": "Cut Copper Slab",
+    "name": "깎인 구리 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/cut_copper_slab.png",
     "category": "건축",
@@ -3735,7 +3735,7 @@
   },
   {
     "id": "cut_copper_stairs",
-    "name": "Cut Copper Stairs",
+    "name": "깎인 구리 계단",
     "emoji": "💎",
     "image": "/images/blocks/cut_copper_stairs.png",
     "category": "건축",
@@ -3748,7 +3748,7 @@
   },
   {
     "id": "cut_red_sandstone",
-    "name": "Cut Red Sandstone",
+    "name": "깎인 붉은 사암",
     "emoji": "🟫",
     "image": "/images/blocks/cut_red_sandstone.png",
     "category": "자연",
@@ -3761,7 +3761,7 @@
   },
   {
     "id": "cut_red_sandstone_slab",
-    "name": "Cut Red Sandstone Slab",
+    "name": "깎인 붉은 사암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/cut_red_sandstone_slab.png",
     "category": "건축",
@@ -3774,7 +3774,7 @@
   },
   {
     "id": "cut_sandstone",
-    "name": "Cut Sandstone",
+    "name": "깎인 사암",
     "emoji": "🟫",
     "image": "/images/blocks/cut_sandstone.png",
     "category": "자연",
@@ -3787,7 +3787,7 @@
   },
   {
     "id": "cut_sandstone_slab",
-    "name": "Cut Sandstone Slab",
+    "name": "깎인 사암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/cut_sandstone_slab.png",
     "category": "건축",
@@ -3983,7 +3983,7 @@
   },
   {
     "id": "damaged_anvil",
-    "name": "Damaged Anvil",
+    "name": "damaged 모루",
     "emoji": "🟫",
     "image": "/images/blocks/damaged_anvil.png",
     "category": "건축",
@@ -4284,7 +4284,7 @@
   },
   {
     "id": "dark_prismarine_slab",
-    "name": "Dark Prismarine Slab",
+    "name": "어두운 프리즈마린 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/dark_prismarine_slab.png",
     "category": "건축",
@@ -4297,7 +4297,7 @@
   },
   {
     "id": "dark_prismarine_stairs",
-    "name": "Dark Prismarine Stairs",
+    "name": "어두운 프리즈마린 계단",
     "emoji": "🟫",
     "image": "/images/blocks/dark_prismarine_stairs.png",
     "category": "건축",
@@ -4337,7 +4337,7 @@
   },
   {
     "id": "dead_brain_coral_block",
-    "name": "Dead Brain Coral Block",
+    "name": "죽은 뇌 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/dead_brain_coral_block.png",
     "category": "식물",
@@ -4350,7 +4350,7 @@
   },
   {
     "id": "dead_brain_coral_fan",
-    "name": "Dead Brain Coral Fan",
+    "name": "죽은 뇌 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_brain_coral_fan.png",
     "category": "식물",
@@ -4363,7 +4363,7 @@
   },
   {
     "id": "dead_brain_coral_wall_fan",
-    "name": "Dead Brain Coral Wall Fan",
+    "name": "죽은 brain 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_brain_coral_wall_fan.png",
     "category": "건축",
@@ -4389,7 +4389,7 @@
   },
   {
     "id": "dead_bubble_coral_block",
-    "name": "Dead Bubble Coral Block",
+    "name": "죽은 거품 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/dead_bubble_coral_block.png",
     "category": "식물",
@@ -4402,7 +4402,7 @@
   },
   {
     "id": "dead_bubble_coral_fan",
-    "name": "Dead Bubble Coral Fan",
+    "name": "죽은 거품 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_bubble_coral_fan.png",
     "category": "식물",
@@ -4415,7 +4415,7 @@
   },
   {
     "id": "dead_bubble_coral_wall_fan",
-    "name": "Dead Bubble Coral Wall Fan",
+    "name": "죽은 bubble 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_bubble_coral_wall_fan.png",
     "category": "건축",
@@ -4454,7 +4454,7 @@
   },
   {
     "id": "dead_fire_coral_block",
-    "name": "Dead Fire Coral Block",
+    "name": "죽은 불 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/dead_fire_coral_block.png",
     "category": "식물",
@@ -4467,7 +4467,7 @@
   },
   {
     "id": "dead_fire_coral_fan",
-    "name": "Dead Fire Coral Fan",
+    "name": "죽은 불 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_fire_coral_fan.png",
     "category": "식물",
@@ -4480,7 +4480,7 @@
   },
   {
     "id": "dead_fire_coral_wall_fan",
-    "name": "Dead Fire Coral Wall Fan",
+    "name": "죽은 fire 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_fire_coral_wall_fan.png",
     "category": "건축",
@@ -4506,7 +4506,7 @@
   },
   {
     "id": "dead_horn_coral_block",
-    "name": "Dead Horn Coral Block",
+    "name": "죽은 뿔 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/dead_horn_coral_block.png",
     "category": "식물",
@@ -4519,7 +4519,7 @@
   },
   {
     "id": "dead_horn_coral_fan",
-    "name": "Dead Horn Coral Fan",
+    "name": "죽은 뿔 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_horn_coral_fan.png",
     "category": "식물",
@@ -4532,7 +4532,7 @@
   },
   {
     "id": "dead_horn_coral_wall_fan",
-    "name": "Dead Horn Coral Wall Fan",
+    "name": "죽은 horn 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_horn_coral_wall_fan.png",
     "category": "건축",
@@ -4558,7 +4558,7 @@
   },
   {
     "id": "dead_tube_coral_block",
-    "name": "Dead Tube Coral Block",
+    "name": "죽은 관 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/dead_tube_coral_block.png",
     "category": "식물",
@@ -4571,7 +4571,7 @@
   },
   {
     "id": "dead_tube_coral_fan",
-    "name": "Dead Tube Coral Fan",
+    "name": "죽은 관 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_tube_coral_fan.png",
     "category": "식물",
@@ -4584,7 +4584,7 @@
   },
   {
     "id": "dead_tube_coral_wall_fan",
-    "name": "Dead Tube Coral Wall Fan",
+    "name": "죽은 tube 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/dead_tube_coral_wall_fan.png",
     "category": "건축",
@@ -4848,7 +4848,7 @@
   },
   {
     "id": "detector_rail",
-    "name": "Detector Rail",
+    "name": "감지 레일",
     "emoji": "🟫",
     "image": "/images/blocks/detector_rail.png",
     "category": "이동",
@@ -4903,7 +4903,7 @@
   },
   {
     "id": "diorite_slab",
-    "name": "Diorite Slab",
+    "name": "섬록암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/diorite_slab.png",
     "category": "건축",
@@ -4916,7 +4916,7 @@
   },
   {
     "id": "diorite_stairs",
-    "name": "Diorite Stairs",
+    "name": "섬록암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/diorite_stairs.png",
     "category": "건축",
@@ -4929,7 +4929,7 @@
   },
   {
     "id": "diorite_wall",
-    "name": "Diorite Wall",
+    "name": "섬록암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/diorite_wall.png",
     "category": "건축",
@@ -5013,7 +5013,7 @@
   },
   {
     "id": "dragon_wall_head",
-    "name": "Dragon Wall Head",
+    "name": "dragon 담장 head",
     "emoji": "🟫",
     "image": "/images/blocks/dragon_wall_head.png",
     "category": "건축",
@@ -5123,7 +5123,7 @@
   },
   {
     "id": "end_gateway",
-    "name": "End Gateway",
+    "name": "엔드 관문",
     "emoji": "🟪",
     "image": "/images/blocks/end_gateway.png",
     "category": "엔드",
@@ -5136,7 +5136,7 @@
   },
   {
     "id": "end_portal",
-    "name": "End Portal",
+    "name": "엔드 차원문",
     "emoji": "🟪",
     "image": "/images/blocks/end_portal.png",
     "category": "엔드",
@@ -5191,7 +5191,7 @@
   },
   {
     "id": "end_stone_brick_slab",
-    "name": "End Stone Brick Slab",
+    "name": "엔드 석 벽돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/end_stone_brick_slab.png",
     "category": "건축",
@@ -5204,7 +5204,7 @@
   },
   {
     "id": "end_stone_brick_stairs",
-    "name": "End Stone Brick Stairs",
+    "name": "엔드 석 벽돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/end_stone_brick_stairs.png",
     "category": "건축",
@@ -5217,7 +5217,7 @@
   },
   {
     "id": "end_stone_brick_wall",
-    "name": "End Stone Brick Wall",
+    "name": "엔드 석 벽돌 담장",
     "emoji": "🟫",
     "image": "/images/blocks/end_stone_brick_wall.png",
     "category": "건축",
@@ -5259,7 +5259,7 @@
   },
   {
     "id": "exposed_bars",
-    "name": "Exposed Bars",
+    "name": "약간 녹슨 창",
     "emoji": "🟫",
     "image": "/images/blocks/exposed_bars.png",
     "category": "건축",
@@ -5272,7 +5272,7 @@
   },
   {
     "id": "exposed_bulb",
-    "name": "Exposed Bulb",
+    "name": "약간 녹슨 전구",
     "emoji": "🔥",
     "image": "/images/blocks/exposed_bulb.png",
     "category": "건축",
@@ -5285,7 +5285,7 @@
   },
   {
     "id": "exposed_chain",
-    "name": "Exposed Chain",
+    "name": "약간 녹슨 사슬",
     "emoji": "🟫",
     "image": "/images/blocks/exposed_chain.png",
     "category": "건축",
@@ -5298,7 +5298,7 @@
   },
   {
     "id": "exposed_chiseled_copper",
-    "name": "Exposed Chiseled Copper",
+    "name": "약간 녹슨 조각된 구리",
     "emoji": "💎",
     "image": "/images/blocks/exposed_chiseled_copper.png",
     "category": "건축",
@@ -5311,7 +5311,7 @@
   },
   {
     "id": "exposed_copper",
-    "name": "Exposed Copper",
+    "name": "약간 녹슨 구리",
     "emoji": "💎",
     "image": "/images/blocks/exposed_copper.png",
     "category": "건축",
@@ -5324,7 +5324,7 @@
   },
   {
     "id": "exposed_copper_bulb",
-    "name": "Exposed Copper Bulb",
+    "name": "약간 녹슨 구리 전구",
     "emoji": "💎",
     "image": "/images/blocks/exposed_copper_bulb.png",
     "category": "조명",
@@ -5337,7 +5337,7 @@
   },
   {
     "id": "exposed_copper_door",
-    "name": "Exposed Copper Door",
+    "name": "약간 녹슨 구리 문",
     "emoji": "💎",
     "image": "/images/blocks/exposed_copper_door.png",
     "category": "건축",
@@ -5350,7 +5350,7 @@
   },
   {
     "id": "exposed_copper_grate",
-    "name": "Exposed Copper Grate",
+    "name": "약간 녹슨 구리 격자",
     "emoji": "💎",
     "image": "/images/blocks/exposed_copper_grate.png",
     "category": "건축",
@@ -5363,7 +5363,7 @@
   },
   {
     "id": "exposed_copper_trapdoor",
-    "name": "Exposed Copper Trapdoor",
+    "name": "약간 녹슨 구리 다락문",
     "emoji": "💎",
     "image": "/images/blocks/exposed_copper_trapdoor.png",
     "category": "건축",
@@ -5376,7 +5376,7 @@
   },
   {
     "id": "exposed_cut_copper",
-    "name": "Exposed Cut Copper",
+    "name": "약간 녹슨 깎인 구리",
     "emoji": "💎",
     "image": "/images/blocks/exposed_cut_copper.png",
     "category": "건축",
@@ -5389,7 +5389,7 @@
   },
   {
     "id": "exposed_cut_copper_slab",
-    "name": "Exposed Cut Copper Slab",
+    "name": "약간 녹슨 깎인 구리 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/exposed_cut_copper_slab.png",
     "category": "건축",
@@ -5402,7 +5402,7 @@
   },
   {
     "id": "exposed_cut_copper_stairs",
-    "name": "Exposed Cut Copper Stairs",
+    "name": "약간 녹슨 깎인 구리 계단",
     "emoji": "💎",
     "image": "/images/blocks/exposed_cut_copper_stairs.png",
     "category": "건축",
@@ -5415,7 +5415,7 @@
   },
   {
     "id": "exposed_door",
-    "name": "Exposed Door",
+    "name": "약간 녹슨 문",
     "emoji": "🟫",
     "image": "/images/blocks/exposed_door.png",
     "category": "건축",
@@ -5428,7 +5428,7 @@
   },
   {
     "id": "exposed_grate",
-    "name": "Exposed Grate",
+    "name": "약간 녹슨 격자",
     "emoji": "🟫",
     "image": "/images/blocks/exposed_grate.png",
     "category": "건축",
@@ -5441,7 +5441,7 @@
   },
   {
     "id": "exposed_lantern",
-    "name": "Exposed Lantern",
+    "name": "약간 녹슨 랜턴",
     "emoji": "🔥",
     "image": "/images/blocks/exposed_lantern.png",
     "category": "조명",
@@ -5454,7 +5454,7 @@
   },
   {
     "id": "exposed_trapdoor",
-    "name": "Exposed Trapdoor",
+    "name": "약간 녹슨 다락문",
     "emoji": "🟫",
     "image": "/images/blocks/exposed_trapdoor.png",
     "category": "건축",
@@ -5480,7 +5480,7 @@
   },
   {
     "id": "fern",
-    "name": "Fern",
+    "name": "고사리",
     "emoji": "🌿",
     "image": "/images/blocks/fern.png",
     "category": "식물",
@@ -5493,7 +5493,7 @@
   },
   {
     "id": "fire",
-    "name": "Fire",
+    "name": "불",
     "emoji": "🟫",
     "image": "/images/blocks/fire.png",
     "category": "건축",
@@ -5519,7 +5519,7 @@
   },
   {
     "id": "fire_coral_block",
-    "name": "Fire Coral Block",
+    "name": "불 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/fire_coral_block.png",
     "category": "식물",
@@ -5532,7 +5532,7 @@
   },
   {
     "id": "fire_coral_fan",
-    "name": "Fire Coral Fan",
+    "name": "불 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/fire_coral_fan.png",
     "category": "식물",
@@ -5545,7 +5545,7 @@
   },
   {
     "id": "fire_coral_wall_fan",
-    "name": "Fire Coral Wall Fan",
+    "name": "fire 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/fire_coral_wall_fan.png",
     "category": "건축",
@@ -5599,7 +5599,7 @@
   },
   {
     "id": "flowering_azalea",
-    "name": "Flowering Azalea",
+    "name": "꽃 핀 진달래",
     "emoji": "🌿",
     "image": "/images/blocks/flowering_azalea.png",
     "category": "식물",
@@ -5612,7 +5612,7 @@
   },
   {
     "id": "flowering_azalea_leaves",
-    "name": "Flowering Azalea Leaves",
+    "name": "꽃 핀 진달래 잎",
     "emoji": "🌿",
     "image": "/images/blocks/flowering_azalea_leaves.png",
     "category": "나무",
@@ -5625,7 +5625,7 @@
   },
   {
     "id": "froglight_ochre",
-    "name": "Froglight Ochre",
+    "name": "황토색 개구리불",
     "emoji": "🔥",
     "image": "/images/blocks/froglight_ochre.png",
     "category": "조명",
@@ -5638,7 +5638,7 @@
   },
   {
     "id": "froglight_pearlescent",
-    "name": "Froglight Pearlescent",
+    "name": "자줄빛 개구리불",
     "emoji": "🔥",
     "image": "/images/blocks/froglight_pearlescent.png",
     "category": "조명",
@@ -5651,7 +5651,7 @@
   },
   {
     "id": "froglight_verdant",
-    "name": "Froglight Verdant",
+    "name": "초록 개구리불",
     "emoji": "🔥",
     "image": "/images/blocks/froglight_verdant.png",
     "category": "조명",
@@ -5677,7 +5677,7 @@
   },
   {
     "id": "frosted_ice",
-    "name": "Frosted Ice",
+    "name": "서리 얼음",
     "emoji": "🟦",
     "image": "/images/blocks/frosted_ice.png",
     "category": "자연",
@@ -5705,7 +5705,7 @@
   },
   {
     "id": "gilded_blackstone",
-    "name": "Gilded Blackstone",
+    "name": "금박 흑암",
     "emoji": "🟫",
     "image": "/images/blocks/gilded_blackstone.png",
     "category": "자연",
@@ -5817,7 +5817,7 @@
   },
   {
     "id": "granite_slab",
-    "name": "Granite Slab",
+    "name": "화강암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/granite_slab.png",
     "category": "건축",
@@ -5830,7 +5830,7 @@
   },
   {
     "id": "granite_stairs",
-    "name": "Granite Stairs",
+    "name": "화강암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/granite_stairs.png",
     "category": "건축",
@@ -5843,7 +5843,7 @@
   },
   {
     "id": "granite_wall",
-    "name": "Granite Wall",
+    "name": "화강암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/granite_wall.png",
     "category": "건축",
@@ -6268,7 +6268,7 @@
   },
   {
     "id": "hanging_roots",
-    "name": "Hanging Roots",
+    "name": "hanging 뿌리",
     "emoji": "🟫",
     "image": "/images/blocks/hanging_roots.png",
     "category": "나무",
@@ -6322,7 +6322,7 @@
   },
   {
     "id": "heavy_weighted_pressure_plate",
-    "name": "Heavy Weighted Pressure Plate",
+    "name": "heavy weighted 압력판",
     "emoji": "⬛",
     "image": "/images/blocks/heavy_weighted_pressure_plate.png",
     "category": "건축",
@@ -6402,7 +6402,7 @@
   },
   {
     "id": "horn_coral_block",
-    "name": "Horn Coral Block",
+    "name": "뿔 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/horn_coral_block.png",
     "category": "식물",
@@ -6415,7 +6415,7 @@
   },
   {
     "id": "horn_coral_fan",
-    "name": "Horn Coral Fan",
+    "name": "뿔 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/horn_coral_fan.png",
     "category": "식물",
@@ -6428,7 +6428,7 @@
   },
   {
     "id": "horn_coral_wall_fan",
-    "name": "Horn Coral Wall Fan",
+    "name": "horn 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/horn_coral_wall_fan.png",
     "category": "건축",
@@ -6455,7 +6455,7 @@
   },
   {
     "id": "infested_chiseled_stone_bricks",
-    "name": "Infested Chiseled Stone Bricks",
+    "name": "벌레 먹은 조각된 돌 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/infested_chiseled_stone_bricks.png",
     "category": "자연",
@@ -6481,7 +6481,7 @@
   },
   {
     "id": "infested_cracked_stone_bricks",
-    "name": "Infested Cracked Stone Bricks",
+    "name": "벌레 먹은 갈라진 돌 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/infested_cracked_stone_bricks.png",
     "category": "자연",
@@ -6507,7 +6507,7 @@
   },
   {
     "id": "infested_mossy_stone_bricks",
-    "name": "Infested Mossy Stone Bricks",
+    "name": "벌레 먹은 이끼 낀 돌 벽돌",
     "emoji": "🌿",
     "image": "/images/blocks/infested_mossy_stone_bricks.png",
     "category": "식물",
@@ -6533,7 +6533,7 @@
   },
   {
     "id": "infested_stone_bricks",
-    "name": "Infested Stone Bricks",
+    "name": "벌레 먹은 돌 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/infested_stone_bricks.png",
     "category": "자연",
@@ -6628,7 +6628,7 @@
   },
   {
     "id": "jigsaw",
-    "name": "Jigsaw",
+    "name": "직소 블록",
     "emoji": "🟫",
     "image": "/images/blocks/jigsaw.png",
     "category": "건축",
@@ -6932,7 +6932,7 @@
   },
   {
     "id": "kelp_plant",
-    "name": "Kelp Plant",
+    "name": "다시마 plant",
     "emoji": "🟦",
     "image": "/images/blocks/kelp_plant.png",
     "category": "식물",
@@ -7015,7 +7015,7 @@
   },
   {
     "id": "large_fern",
-    "name": "Large Fern",
+    "name": "키 큰 고사리",
     "emoji": "🌿",
     "image": "/images/blocks/large_fern.png",
     "category": "식물",
@@ -7028,7 +7028,7 @@
   },
   {
     "id": "lava",
-    "name": "Lava",
+    "name": "용암",
     "emoji": "🟫",
     "image": "/images/blocks/lava.png",
     "category": "건축",
@@ -7041,7 +7041,7 @@
   },
   {
     "id": "lava_cauldron",
-    "name": "Lava Cauldron",
+    "name": "용암 가마솥",
     "emoji": "🟫",
     "image": "/images/blocks/lava_cauldron.png",
     "category": "기능",
@@ -7096,7 +7096,7 @@
   },
   {
     "id": "light",
-    "name": "Light",
+    "name": "빛",
     "emoji": "🔥",
     "image": "/images/blocks/light.png",
     "category": "건축",
@@ -7476,7 +7476,7 @@
   },
   {
     "id": "light_weighted_pressure_plate",
-    "name": "Light Weighted Pressure Plate",
+    "name": "빛 weighted 압력판",
     "emoji": "🔥",
     "image": "/images/blocks/light_weighted_pressure_plate.png",
     "category": "건축",
@@ -8270,7 +8270,7 @@
   },
   {
     "id": "melon_stem",
-    "name": "Melon Stem",
+    "name": "수박 줄기",
     "emoji": "🪵",
     "image": "/images/blocks/melon_stem.png",
     "category": "나무",
@@ -8298,7 +8298,7 @@
   },
   {
     "id": "moss_carpet",
-    "name": "Moss Carpet",
+    "name": "moss 양탄자",
     "emoji": "🌿",
     "image": "/images/blocks/moss_carpet.png",
     "category": "장식",
@@ -8326,7 +8326,7 @@
   },
   {
     "id": "mossy_cobblestone_slab",
-    "name": "Mossy Cobblestone Slab",
+    "name": "이끼 낀 둥근돌 반 블록",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_cobblestone_slab.png",
     "category": "건축",
@@ -8339,7 +8339,7 @@
   },
   {
     "id": "mossy_cobblestone_stairs",
-    "name": "Mossy Cobblestone Stairs",
+    "name": "이끼 낀 둥근돌 계단",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_cobblestone_stairs.png",
     "category": "건축",
@@ -8352,7 +8352,7 @@
   },
   {
     "id": "mossy_cobblestone_wall",
-    "name": "Mossy Cobblestone Wall",
+    "name": "이끼 낀 둥근돌 담장",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_cobblestone_wall.png",
     "category": "건축",
@@ -8365,7 +8365,7 @@
   },
   {
     "id": "mossy_stone_brick_slab",
-    "name": "Mossy Stone Brick Slab",
+    "name": "이끼 낀 돌 벽돌 반 블록",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_stone_brick_slab.png",
     "category": "건축",
@@ -8378,7 +8378,7 @@
   },
   {
     "id": "mossy_stone_brick_stairs",
-    "name": "Mossy Stone Brick Stairs",
+    "name": "이끼 낀 돌 벽돌 계단",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_stone_brick_stairs.png",
     "category": "건축",
@@ -8391,7 +8391,7 @@
   },
   {
     "id": "mossy_stone_brick_wall",
-    "name": "Mossy Stone Brick Wall",
+    "name": "이끼 낀 돌 벽돌 담장",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_stone_brick_wall.png",
     "category": "건축",
@@ -8419,7 +8419,7 @@
   },
   {
     "id": "moving_piston",
-    "name": "Moving Piston",
+    "name": "moving 피스톤",
     "emoji": "🟫",
     "image": "/images/blocks/moving_piston.png",
     "category": "레드스톤",
@@ -8446,7 +8446,7 @@
   },
   {
     "id": "mud_brick_slab",
-    "name": "Mud Brick Slab",
+    "name": "진흙 벽돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/mud_brick_slab.png",
     "category": "건축",
@@ -8459,7 +8459,7 @@
   },
   {
     "id": "mud_brick_stairs",
-    "name": "Mud Brick Stairs",
+    "name": "진흙 벽돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/mud_brick_stairs.png",
     "category": "건축",
@@ -8472,7 +8472,7 @@
   },
   {
     "id": "mud_brick_wall",
-    "name": "Mud Brick Wall",
+    "name": "진흙 벽돌 담장",
     "emoji": "🟫",
     "image": "/images/blocks/mud_brick_wall.png",
     "category": "건축",
@@ -8539,7 +8539,7 @@
   },
   {
     "id": "nether_brick_fence",
-    "name": "Nether Brick Fence",
+    "name": "네더 벽돌 울타리",
     "emoji": "🟫",
     "image": "/images/blocks/nether_brick_fence.png",
     "category": "건축",
@@ -8552,7 +8552,7 @@
   },
   {
     "id": "nether_brick_slab",
-    "name": "Nether Brick Slab",
+    "name": "네더 벽돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/nether_brick_slab.png",
     "category": "건축",
@@ -8565,7 +8565,7 @@
   },
   {
     "id": "nether_brick_stairs",
-    "name": "Nether Brick Stairs",
+    "name": "네더 벽돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/nether_brick_stairs.png",
     "category": "건축",
@@ -8578,7 +8578,7 @@
   },
   {
     "id": "nether_brick_wall",
-    "name": "Nether Brick Wall",
+    "name": "네더 벽돌 담장",
     "emoji": "🟫",
     "image": "/images/blocks/nether_brick_wall.png",
     "category": "건축",
@@ -8621,7 +8621,7 @@
   },
   {
     "id": "nether_portal",
-    "name": "Nether Portal",
+    "name": "네더 차원문",
     "emoji": "🟥",
     "image": "/images/blocks/nether_portal.png",
     "category": "네더",
@@ -9023,7 +9023,7 @@
   },
   {
     "id": "ochre_froglight",
-    "name": "Ochre Froglight",
+    "name": "황토색 개구리불",
     "emoji": "🔥",
     "image": "/images/blocks/ochre_froglight.png",
     "category": "조명",
@@ -9260,7 +9260,7 @@
   },
   {
     "id": "oxidized_bars",
-    "name": "Oxidized Bars",
+    "name": "산화된 창",
     "emoji": "🟫",
     "image": "/images/blocks/oxidized_bars.png",
     "category": "건축",
@@ -9273,7 +9273,7 @@
   },
   {
     "id": "oxidized_bulb",
-    "name": "Oxidized Bulb",
+    "name": "산화된 전구",
     "emoji": "🔥",
     "image": "/images/blocks/oxidized_bulb.png",
     "category": "건축",
@@ -9286,7 +9286,7 @@
   },
   {
     "id": "oxidized_chain",
-    "name": "Oxidized Chain",
+    "name": "산화된 사슬",
     "emoji": "🟫",
     "image": "/images/blocks/oxidized_chain.png",
     "category": "건축",
@@ -9299,7 +9299,7 @@
   },
   {
     "id": "oxidized_chiseled_copper",
-    "name": "Oxidized Chiseled Copper",
+    "name": "산화된 조각된 구리",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_chiseled_copper.png",
     "category": "건축",
@@ -9312,7 +9312,7 @@
   },
   {
     "id": "oxidized_copper",
-    "name": "Oxidized Copper",
+    "name": "산화된 구리",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_copper.png",
     "category": "건축",
@@ -9325,7 +9325,7 @@
   },
   {
     "id": "oxidized_copper_bulb",
-    "name": "Oxidized Copper Bulb",
+    "name": "산화된 구리 전구",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_copper_bulb.png",
     "category": "조명",
@@ -9338,7 +9338,7 @@
   },
   {
     "id": "oxidized_copper_door",
-    "name": "Oxidized Copper Door",
+    "name": "산화된 구리 문",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_copper_door.png",
     "category": "건축",
@@ -9351,7 +9351,7 @@
   },
   {
     "id": "oxidized_copper_grate",
-    "name": "Oxidized Copper Grate",
+    "name": "산화된 구리 격자",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_copper_grate.png",
     "category": "건축",
@@ -9364,7 +9364,7 @@
   },
   {
     "id": "oxidized_copper_trapdoor",
-    "name": "Oxidized Copper Trapdoor",
+    "name": "산화된 구리 다락문",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_copper_trapdoor.png",
     "category": "건축",
@@ -9377,7 +9377,7 @@
   },
   {
     "id": "oxidized_cut_copper",
-    "name": "Oxidized Cut Copper",
+    "name": "산화된 깎인 구리",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_cut_copper.png",
     "category": "건축",
@@ -9390,7 +9390,7 @@
   },
   {
     "id": "oxidized_cut_copper_slab",
-    "name": "Oxidized Cut Copper Slab",
+    "name": "산화된 깎인 구리 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_cut_copper_slab.png",
     "category": "건축",
@@ -9403,7 +9403,7 @@
   },
   {
     "id": "oxidized_cut_copper_stairs",
-    "name": "Oxidized Cut Copper Stairs",
+    "name": "산화된 깎인 구리 계단",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_cut_copper_stairs.png",
     "category": "건축",
@@ -9416,7 +9416,7 @@
   },
   {
     "id": "oxidized_door",
-    "name": "Oxidized Door",
+    "name": "산화된 문",
     "emoji": "🟫",
     "image": "/images/blocks/oxidized_door.png",
     "category": "건축",
@@ -9429,7 +9429,7 @@
   },
   {
     "id": "oxidized_grate",
-    "name": "Oxidized Grate",
+    "name": "산화된 격자",
     "emoji": "🟫",
     "image": "/images/blocks/oxidized_grate.png",
     "category": "건축",
@@ -9442,7 +9442,7 @@
   },
   {
     "id": "oxidized_lantern",
-    "name": "Oxidized Lantern",
+    "name": "산화된 랜턴",
     "emoji": "🔥",
     "image": "/images/blocks/oxidized_lantern.png",
     "category": "조명",
@@ -9455,7 +9455,7 @@
   },
   {
     "id": "oxidized_trapdoor",
-    "name": "Oxidized Trapdoor",
+    "name": "산화된 다락문",
     "emoji": "🟫",
     "image": "/images/blocks/oxidized_trapdoor.png",
     "category": "건축",
@@ -9795,7 +9795,7 @@
   },
   {
     "id": "pearlescent_froglight",
-    "name": "Pearlescent Froglight",
+    "name": "자줄빛 개구리불",
     "emoji": "🔥",
     "image": "/images/blocks/pearlescent_froglight.png",
     "category": "조명",
@@ -9821,7 +9821,7 @@
   },
   {
     "id": "petrified_oak_slab",
-    "name": "Petrified Oak Slab",
+    "name": "petrified 참나무 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/petrified_oak_slab.png",
     "category": "건축",
@@ -9834,7 +9834,7 @@
   },
   {
     "id": "piglin_head",
-    "name": "Piglin Head",
+    "name": "피글린 head",
     "emoji": "🟫",
     "image": "/images/blocks/piglin_head.png",
     "category": "건축",
@@ -9847,7 +9847,7 @@
   },
   {
     "id": "piglin_wall_head",
-    "name": "Piglin Wall Head",
+    "name": "피글린 담장 head",
     "emoji": "🟫",
     "image": "/images/blocks/piglin_wall_head.png",
     "category": "건축",
@@ -10084,7 +10084,7 @@
   },
   {
     "id": "piston_head",
-    "name": "Piston Head",
+    "name": "피스톤 head",
     "emoji": "🟫",
     "image": "/images/blocks/piston_head.png",
     "category": "레드스톤",
@@ -10123,7 +10123,7 @@
   },
   {
     "id": "player_head",
-    "name": "Player Head",
+    "name": "플레이어 머리",
     "emoji": "🟫",
     "image": "/images/blocks/player_head.png",
     "category": "건축",
@@ -10136,7 +10136,7 @@
   },
   {
     "id": "player_wall_head",
-    "name": "Player Wall Head",
+    "name": "player 담장 head",
     "emoji": "🟫",
     "image": "/images/blocks/player_wall_head.png",
     "category": "건축",
@@ -10192,7 +10192,7 @@
   },
   {
     "id": "polished_andesite_slab",
-    "name": "Polished Andesite Slab",
+    "name": "매끄러운 안산암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/polished_andesite_slab.png",
     "category": "건축",
@@ -10205,7 +10205,7 @@
   },
   {
     "id": "polished_andesite_stairs",
-    "name": "Polished Andesite Stairs",
+    "name": "매끄러운 안산암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/polished_andesite_stairs.png",
     "category": "건축",
@@ -10218,7 +10218,7 @@
   },
   {
     "id": "polished_basalt",
-    "name": "Polished Basalt",
+    "name": "매끄러운 현무암",
     "emoji": "🟫",
     "image": "/images/blocks/polished_basalt.png",
     "category": "건축",
@@ -10245,7 +10245,7 @@
   },
   {
     "id": "polished_blackstone_brick_slab",
-    "name": "Polished Blackstone Brick Slab",
+    "name": "매끄러운 흑암 벽돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone_brick_slab.png",
     "category": "건축",
@@ -10258,7 +10258,7 @@
   },
   {
     "id": "polished_blackstone_brick_stairs",
-    "name": "Polished Blackstone Brick Stairs",
+    "name": "매끄러운 흑암 벽돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone_brick_stairs.png",
     "category": "건축",
@@ -10271,7 +10271,7 @@
   },
   {
     "id": "polished_blackstone_brick_wall",
-    "name": "Polished Blackstone Brick Wall",
+    "name": "매끄러운 흑암 벽돌 담장",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone_brick_wall.png",
     "category": "건축",
@@ -10298,7 +10298,7 @@
   },
   {
     "id": "polished_blackstone_button",
-    "name": "Polished Blackstone Button",
+    "name": "매끄러운 흑암 버튼",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone_button.png",
     "category": "건축",
@@ -10311,7 +10311,7 @@
   },
   {
     "id": "polished_blackstone_pressure_plate",
-    "name": "Polished Blackstone Pressure Plate",
+    "name": "매끄러운 흑암 압력판",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone_pressure_plate.png",
     "category": "건축",
@@ -10324,7 +10324,7 @@
   },
   {
     "id": "polished_blackstone_slab",
-    "name": "Polished Blackstone Slab",
+    "name": "매끄러운 흑암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone_slab.png",
     "category": "건축",
@@ -10337,7 +10337,7 @@
   },
   {
     "id": "polished_blackstone_stairs",
-    "name": "Polished Blackstone Stairs",
+    "name": "매끄러운 흑암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone_stairs.png",
     "category": "건축",
@@ -10350,7 +10350,7 @@
   },
   {
     "id": "polished_blackstone_wall",
-    "name": "Polished Blackstone Wall",
+    "name": "매끄러운 흑암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone_wall.png",
     "category": "건축",
@@ -10377,7 +10377,7 @@
   },
   {
     "id": "polished_deepslate_slab",
-    "name": "Polished Deepslate Slab",
+    "name": "매끄러운 심층암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/polished_deepslate_slab.png",
     "category": "건축",
@@ -10390,7 +10390,7 @@
   },
   {
     "id": "polished_deepslate_stairs",
-    "name": "Polished Deepslate Stairs",
+    "name": "매끄러운 심층암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/polished_deepslate_stairs.png",
     "category": "건축",
@@ -10403,7 +10403,7 @@
   },
   {
     "id": "polished_deepslate_wall",
-    "name": "Polished Deepslate Wall",
+    "name": "매끄러운 심층암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/polished_deepslate_wall.png",
     "category": "건축",
@@ -10430,7 +10430,7 @@
   },
   {
     "id": "polished_diorite_slab",
-    "name": "Polished Diorite Slab",
+    "name": "매끄러운 섬록암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/polished_diorite_slab.png",
     "category": "건축",
@@ -10443,7 +10443,7 @@
   },
   {
     "id": "polished_diorite_stairs",
-    "name": "Polished Diorite Stairs",
+    "name": "매끄러운 섬록암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/polished_diorite_stairs.png",
     "category": "건축",
@@ -10470,7 +10470,7 @@
   },
   {
     "id": "polished_granite_slab",
-    "name": "Polished Granite Slab",
+    "name": "매끄러운 화강암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/polished_granite_slab.png",
     "category": "건축",
@@ -10483,7 +10483,7 @@
   },
   {
     "id": "polished_granite_stairs",
-    "name": "Polished Granite Stairs",
+    "name": "매끄러운 화강암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/polished_granite_stairs.png",
     "category": "건축",
@@ -10496,7 +10496,7 @@
   },
   {
     "id": "polished_tuff",
-    "name": "Polished Tuff",
+    "name": "매끄러운 응회암",
     "emoji": "🟫",
     "image": "/images/blocks/polished_tuff.png",
     "category": "자연",
@@ -10509,7 +10509,7 @@
   },
   {
     "id": "polished_tuff_slab",
-    "name": "Polished Tuff Slab",
+    "name": "매끄러운 응회암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/polished_tuff_slab.png",
     "category": "건축",
@@ -10522,7 +10522,7 @@
   },
   {
     "id": "polished_tuff_stairs",
-    "name": "Polished Tuff Stairs",
+    "name": "매끄러운 응회암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/polished_tuff_stairs.png",
     "category": "건축",
@@ -10535,7 +10535,7 @@
   },
   {
     "id": "polished_tuff_wall",
-    "name": "Polished Tuff Wall",
+    "name": "매끄러운 응회암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/polished_tuff_wall.png",
     "category": "건축",
@@ -10561,7 +10561,7 @@
   },
   {
     "id": "potatoes",
-    "name": "Potatoes",
+    "name": "감자",
     "emoji": "🟫",
     "image": "/images/blocks/potatoes.png",
     "category": "식물",
@@ -10574,7 +10574,7 @@
   },
   {
     "id": "potted_acacia_sapling",
-    "name": "Potted Acacia Sapling",
+    "name": "potted 아카시아 묘목",
     "emoji": "🪵",
     "image": "/images/blocks/potted_acacia_sapling.png",
     "category": "나무",
@@ -10587,7 +10587,7 @@
   },
   {
     "id": "potted_allium",
-    "name": "Potted Allium",
+    "name": "화분에 심은 알리움",
     "emoji": "🟫",
     "image": "/images/blocks/potted_allium.png",
     "category": "식물",
@@ -10600,7 +10600,7 @@
   },
   {
     "id": "potted_azalea_bush",
-    "name": "Potted Azalea Bush",
+    "name": "potted 진달래 bush",
     "emoji": "🌿",
     "image": "/images/blocks/potted_azalea_bush.png",
     "category": "식물",
@@ -10613,7 +10613,7 @@
   },
   {
     "id": "potted_azure_bluet",
-    "name": "Potted Azure Bluet",
+    "name": "화분에 심은 선애기별",
     "emoji": "🟫",
     "image": "/images/blocks/potted_azure_bluet.png",
     "category": "건축",
@@ -10626,7 +10626,7 @@
   },
   {
     "id": "potted_bamboo",
-    "name": "Potted Bamboo",
+    "name": "potted 대나무",
     "emoji": "🪵",
     "image": "/images/blocks/potted_bamboo.png",
     "category": "나무",
@@ -10639,7 +10639,7 @@
   },
   {
     "id": "potted_birch_sapling",
-    "name": "Potted Birch Sapling",
+    "name": "potted 자작나무 묘목",
     "emoji": "🪵",
     "image": "/images/blocks/potted_birch_sapling.png",
     "category": "나무",
@@ -10652,7 +10652,7 @@
   },
   {
     "id": "potted_blue_orchid",
-    "name": "Potted Blue Orchid",
+    "name": "potted 파란 orchid",
     "emoji": "🟫",
     "image": "/images/blocks/potted_blue_orchid.png",
     "category": "건축",
@@ -10665,7 +10665,7 @@
   },
   {
     "id": "potted_brown_mushroom",
-    "name": "Potted Brown Mushroom",
+    "name": "potted 갈색 mushroom",
     "emoji": "🟫",
     "image": "/images/blocks/potted_brown_mushroom.png",
     "category": "식물",
@@ -10678,7 +10678,7 @@
   },
   {
     "id": "potted_cactus",
-    "name": "Potted Cactus",
+    "name": "potted 선인장",
     "emoji": "🟫",
     "image": "/images/blocks/potted_cactus.png",
     "category": "식물",
@@ -10691,7 +10691,7 @@
   },
   {
     "id": "potted_cherry_sapling",
-    "name": "Potted Cherry Sapling",
+    "name": "potted 벚나무 묘목",
     "emoji": "🪵",
     "image": "/images/blocks/potted_cherry_sapling.png",
     "category": "나무",
@@ -10704,7 +10704,7 @@
   },
   {
     "id": "potted_closed_eyeblossom",
-    "name": "Potted Closed Eyeblossom",
+    "name": "화분에 심은 닫힌 눈꽃",
     "emoji": "🟫",
     "image": "/images/blocks/potted_closed_eyeblossom.png",
     "category": "특수",
@@ -10717,7 +10717,7 @@
   },
   {
     "id": "potted_cornflower",
-    "name": "Potted Cornflower",
+    "name": "화분에 심은 수레국화",
     "emoji": "🌿",
     "image": "/images/blocks/potted_cornflower.png",
     "category": "식물",
@@ -10730,7 +10730,7 @@
   },
   {
     "id": "potted_crimson_fungus",
-    "name": "Potted Crimson Fungus",
+    "name": "potted 진홍 균",
     "emoji": "🟥",
     "image": "/images/blocks/potted_crimson_fungus.png",
     "category": "네더",
@@ -10743,7 +10743,7 @@
   },
   {
     "id": "potted_crimson_roots",
-    "name": "Potted Crimson Roots",
+    "name": "potted 진홍 뿌리",
     "emoji": "🟥",
     "image": "/images/blocks/potted_crimson_roots.png",
     "category": "나무",
@@ -10756,7 +10756,7 @@
   },
   {
     "id": "potted_dandelion",
-    "name": "Potted Dandelion",
+    "name": "화분에 심은 민들레",
     "emoji": "🟫",
     "image": "/images/blocks/potted_dandelion.png",
     "category": "식물",
@@ -10769,7 +10769,7 @@
   },
   {
     "id": "potted_dark_oak_sapling",
-    "name": "Potted Dark Oak Sapling",
+    "name": "potted dark 참나무 묘목",
     "emoji": "🪵",
     "image": "/images/blocks/potted_dark_oak_sapling.png",
     "category": "나무",
@@ -10782,7 +10782,7 @@
   },
   {
     "id": "potted_dead_bush",
-    "name": "Potted Dead Bush",
+    "name": "화분에 심은 죽은 덤불",
     "emoji": "🌿",
     "image": "/images/blocks/potted_dead_bush.png",
     "category": "식물",
@@ -10795,7 +10795,7 @@
   },
   {
     "id": "potted_fern",
-    "name": "Potted Fern",
+    "name": "화분에 심은 고사리",
     "emoji": "🌿",
     "image": "/images/blocks/potted_fern.png",
     "category": "식물",
@@ -10808,7 +10808,7 @@
   },
   {
     "id": "potted_flowering_azalea_bush",
-    "name": "Potted Flowering Azalea Bush",
+    "name": "potted flowering 진달래 bush",
     "emoji": "🌿",
     "image": "/images/blocks/potted_flowering_azalea_bush.png",
     "category": "식물",
@@ -10821,7 +10821,7 @@
   },
   {
     "id": "potted_jungle_sapling",
-    "name": "Potted Jungle Sapling",
+    "name": "potted 정글 묘목",
     "emoji": "🪵",
     "image": "/images/blocks/potted_jungle_sapling.png",
     "category": "나무",
@@ -10834,7 +10834,7 @@
   },
   {
     "id": "potted_lily_of_the_valley",
-    "name": "Potted Lily Of The Valley",
+    "name": "화분에 심은 은방울꽃",
     "emoji": "🟫",
     "image": "/images/blocks/potted_lily_of_the_valley.png",
     "category": "식물",
@@ -10847,7 +10847,7 @@
   },
   {
     "id": "potted_mangrove_propagule",
-    "name": "Potted Mangrove Propagule",
+    "name": "potted 맹그로브 propagule",
     "emoji": "🟫",
     "image": "/images/blocks/potted_mangrove_propagule.png",
     "category": "나무",
@@ -10860,7 +10860,7 @@
   },
   {
     "id": "potted_oak_sapling",
-    "name": "Potted Oak Sapling",
+    "name": "potted 참나무 묘목",
     "emoji": "🪵",
     "image": "/images/blocks/potted_oak_sapling.png",
     "category": "나무",
@@ -10873,7 +10873,7 @@
   },
   {
     "id": "potted_open_eyeblossom",
-    "name": "Potted Open Eyeblossom",
+    "name": "화분에 심은 핀 눈꽃",
     "emoji": "🟫",
     "image": "/images/blocks/potted_open_eyeblossom.png",
     "category": "특수",
@@ -10886,7 +10886,7 @@
   },
   {
     "id": "potted_orange_tulip",
-    "name": "Potted Orange Tulip",
+    "name": "potted 주황 tulip",
     "emoji": "🟫",
     "image": "/images/blocks/potted_orange_tulip.png",
     "category": "식물",
@@ -10899,7 +10899,7 @@
   },
   {
     "id": "potted_oxeye_daisy",
-    "name": "Potted Oxeye Daisy",
+    "name": "화분에 심은 데이지",
     "emoji": "🟫",
     "image": "/images/blocks/potted_oxeye_daisy.png",
     "category": "식물",
@@ -10912,7 +10912,7 @@
   },
   {
     "id": "potted_pale_oak_sapling",
-    "name": "Potted Pale Oak Sapling",
+    "name": "potted pale 참나무 묘목",
     "emoji": "🪵",
     "image": "/images/blocks/potted_pale_oak_sapling.png",
     "category": "나무",
@@ -10925,7 +10925,7 @@
   },
   {
     "id": "potted_pink_tulip",
-    "name": "Potted Pink Tulip",
+    "name": "potted 분홍 tulip",
     "emoji": "🟫",
     "image": "/images/blocks/potted_pink_tulip.png",
     "category": "식물",
@@ -10938,7 +10938,7 @@
   },
   {
     "id": "potted_poppy",
-    "name": "Potted Poppy",
+    "name": "화분에 심은 양귀비",
     "emoji": "🟫",
     "image": "/images/blocks/potted_poppy.png",
     "category": "식물",
@@ -10951,7 +10951,7 @@
   },
   {
     "id": "potted_red_mushroom",
-    "name": "Potted Red Mushroom",
+    "name": "potted 빨간 mushroom",
     "emoji": "🟫",
     "image": "/images/blocks/potted_red_mushroom.png",
     "category": "식물",
@@ -10964,7 +10964,7 @@
   },
   {
     "id": "potted_red_tulip",
-    "name": "Potted Red Tulip",
+    "name": "potted 빨간 tulip",
     "emoji": "🟫",
     "image": "/images/blocks/potted_red_tulip.png",
     "category": "식물",
@@ -10977,7 +10977,7 @@
   },
   {
     "id": "potted_spruce_sapling",
-    "name": "Potted Spruce Sapling",
+    "name": "potted 가문비 묘목",
     "emoji": "🪵",
     "image": "/images/blocks/potted_spruce_sapling.png",
     "category": "나무",
@@ -10990,7 +10990,7 @@
   },
   {
     "id": "potted_torchflower",
-    "name": "Potted Torchflower",
+    "name": "potted 횃불꽃",
     "emoji": "🌿",
     "image": "/images/blocks/potted_torchflower.png",
     "category": "조명",
@@ -11003,7 +11003,7 @@
   },
   {
     "id": "potted_warped_fungus",
-    "name": "Potted Warped Fungus",
+    "name": "potted 뒤틀린 균",
     "emoji": "🟥",
     "image": "/images/blocks/potted_warped_fungus.png",
     "category": "네더",
@@ -11016,7 +11016,7 @@
   },
   {
     "id": "potted_warped_roots",
-    "name": "Potted Warped Roots",
+    "name": "potted 뒤틀린 뿌리",
     "emoji": "🟥",
     "image": "/images/blocks/potted_warped_roots.png",
     "category": "나무",
@@ -11029,7 +11029,7 @@
   },
   {
     "id": "potted_white_tulip",
-    "name": "Potted White Tulip",
+    "name": "potted 흰색 tulip",
     "emoji": "🟫",
     "image": "/images/blocks/potted_white_tulip.png",
     "category": "식물",
@@ -11042,7 +11042,7 @@
   },
   {
     "id": "potted_wither_rose",
-    "name": "Potted Wither Rose",
+    "name": "potted 위더 rose",
     "emoji": "🟫",
     "image": "/images/blocks/potted_wither_rose.png",
     "category": "식물",
@@ -11070,7 +11070,7 @@
   },
   {
     "id": "powder_snow_cauldron",
-    "name": "Powder Snow Cauldron",
+    "name": "powder 눈 cauldron",
     "emoji": "🟦",
     "image": "/images/blocks/powder_snow_cauldron.png",
     "category": "기능",
@@ -11083,7 +11083,7 @@
   },
   {
     "id": "powered_rail",
-    "name": "Powered Rail",
+    "name": "파워드 레일",
     "emoji": "🟫",
     "image": "/images/blocks/powered_rail.png",
     "category": "이동",
@@ -11110,7 +11110,7 @@
   },
   {
     "id": "prismarine_brick_slab",
-    "name": "Prismarine Brick Slab",
+    "name": "프리즈마린 벽돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/prismarine_brick_slab.png",
     "category": "건축",
@@ -11123,7 +11123,7 @@
   },
   {
     "id": "prismarine_brick_stairs",
-    "name": "Prismarine Brick Stairs",
+    "name": "프리즈마린 벽돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/prismarine_brick_stairs.png",
     "category": "건축",
@@ -11149,7 +11149,7 @@
   },
   {
     "id": "prismarine_slab",
-    "name": "Prismarine Slab",
+    "name": "프리즈마린 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/prismarine_slab.png",
     "category": "건축",
@@ -11162,7 +11162,7 @@
   },
   {
     "id": "prismarine_stairs",
-    "name": "Prismarine Stairs",
+    "name": "프리즈마린 계단",
     "emoji": "🟫",
     "image": "/images/blocks/prismarine_stairs.png",
     "category": "건축",
@@ -11175,7 +11175,7 @@
   },
   {
     "id": "prismarine_wall",
-    "name": "Prismarine Wall",
+    "name": "프리즈마린 담장",
     "emoji": "🟫",
     "image": "/images/blocks/prismarine_wall.png",
     "category": "건축",
@@ -11202,7 +11202,7 @@
   },
   {
     "id": "pumpkin_stem",
-    "name": "Pumpkin Stem",
+    "name": "호박 줄기",
     "emoji": "🪵",
     "image": "/images/blocks/pumpkin_stem.png",
     "category": "나무",
@@ -11413,7 +11413,7 @@
   },
   {
     "id": "purpur_pillar",
-    "name": "Purpur Pillar",
+    "name": "퍼퍼 기둥",
     "emoji": "🟪",
     "image": "/images/blocks/purpur_pillar.png",
     "category": "엔드",
@@ -11426,7 +11426,7 @@
   },
   {
     "id": "purpur_slab",
-    "name": "Purpur Slab",
+    "name": "퍼퍼 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/purpur_slab.png",
     "category": "건축",
@@ -11439,7 +11439,7 @@
   },
   {
     "id": "purpur_stairs",
-    "name": "Purpur Stairs",
+    "name": "퍼퍼 계단",
     "emoji": "🟫",
     "image": "/images/blocks/purpur_stairs.png",
     "category": "건축",
@@ -11478,7 +11478,7 @@
   },
   {
     "id": "quartz_pillar",
-    "name": "Quartz Pillar",
+    "name": "석영 기둥",
     "emoji": "💎",
     "image": "/images/blocks/quartz_pillar.png",
     "category": "건축",
@@ -11491,7 +11491,7 @@
   },
   {
     "id": "quartz_slab",
-    "name": "Quartz Slab",
+    "name": "석영 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/quartz_slab.png",
     "category": "건축",
@@ -11504,7 +11504,7 @@
   },
   {
     "id": "quartz_stairs",
-    "name": "Quartz Stairs",
+    "name": "석영 계단",
     "emoji": "💎",
     "image": "/images/blocks/quartz_stairs.png",
     "category": "건축",
@@ -11517,7 +11517,7 @@
   },
   {
     "id": "rail",
-    "name": "Rail",
+    "name": "레일",
     "emoji": "🟫",
     "image": "/images/blocks/rail.png",
     "category": "이동",
@@ -11530,7 +11530,7 @@
   },
   {
     "id": "raw_copper_block",
-    "name": "Raw Copper Block",
+    "name": "원석 구리 블록",
     "emoji": "💎",
     "image": "/images/blocks/raw_copper_block.png",
     "category": "광석",
@@ -11543,7 +11543,7 @@
   },
   {
     "id": "raw_gold_block",
-    "name": "Raw Gold Block",
+    "name": "원석 금 블록",
     "emoji": "💎",
     "image": "/images/blocks/raw_gold_block.png",
     "category": "광석",
@@ -11970,7 +11970,7 @@
   },
   {
     "id": "redstone_wall_torch",
-    "name": "Redstone Wall Torch",
+    "name": "redstone 담장 횃불",
     "emoji": "💎",
     "image": "/images/blocks/redstone_wall_torch.png",
     "category": "조명",
@@ -11983,7 +11983,7 @@
   },
   {
     "id": "redstone_wire",
-    "name": "Redstone Wire",
+    "name": "레드스톤 선",
     "emoji": "💎",
     "image": "/images/blocks/redstone_wire.png",
     "category": "자연",
@@ -12025,7 +12025,7 @@
   },
   {
     "id": "repeating_command_block",
-    "name": "Repeating Command Block",
+    "name": "repeating command 블록",
     "emoji": "🟫",
     "image": "/images/blocks/repeating_command_block.png",
     "category": "건축",
@@ -12051,7 +12051,7 @@
   },
   {
     "id": "resin_brick_slab",
-    "name": "Resin Brick Slab",
+    "name": "수지 벽돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/resin_brick_slab.png",
     "category": "건축",
@@ -12064,7 +12064,7 @@
   },
   {
     "id": "resin_brick_stairs",
-    "name": "Resin Brick Stairs",
+    "name": "수지 벽돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/resin_brick_stairs.png",
     "category": "건축",
@@ -12077,7 +12077,7 @@
   },
   {
     "id": "resin_brick_wall",
-    "name": "Resin Brick Wall",
+    "name": "수지 벽돌 담장",
     "emoji": "🟫",
     "image": "/images/blocks/resin_brick_wall.png",
     "category": "건축",
@@ -12186,7 +12186,7 @@
   },
   {
     "id": "sandstone_slab",
-    "name": "Sandstone Slab",
+    "name": "사암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/sandstone_slab.png",
     "category": "건축",
@@ -12199,7 +12199,7 @@
   },
   {
     "id": "sandstone_stairs",
-    "name": "Sandstone Stairs",
+    "name": "사암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/sandstone_stairs.png",
     "category": "건축",
@@ -12212,7 +12212,7 @@
   },
   {
     "id": "sandstone_wall",
-    "name": "Sandstone Wall",
+    "name": "사암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/sandstone_wall.png",
     "category": "건축",
@@ -12435,7 +12435,7 @@
   },
   {
     "id": "skeleton_wall_skull",
-    "name": "Skeleton Wall Skull",
+    "name": "스켈레톤 담장 skull",
     "emoji": "🟫",
     "image": "/images/blocks/skeleton_wall_skull.png",
     "category": "건축",
@@ -12517,7 +12517,7 @@
   },
   {
     "id": "smooth_basalt",
-    "name": "Smooth Basalt",
+    "name": "매끄러운 현무암",
     "emoji": "🟫",
     "image": "/images/blocks/smooth_basalt.png",
     "category": "건축",
@@ -12543,7 +12543,7 @@
   },
   {
     "id": "smooth_quartz_slab",
-    "name": "Smooth Quartz Slab",
+    "name": "매끄러운 석영 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/smooth_quartz_slab.png",
     "category": "건축",
@@ -12556,7 +12556,7 @@
   },
   {
     "id": "smooth_quartz_stairs",
-    "name": "Smooth Quartz Stairs",
+    "name": "매끄러운 석영 계단",
     "emoji": "💎",
     "image": "/images/blocks/smooth_quartz_stairs.png",
     "category": "건축",
@@ -12569,7 +12569,7 @@
   },
   {
     "id": "smooth_red_sandstone",
-    "name": "Smooth Red Sandstone",
+    "name": "매끄러운 붉은 사암",
     "emoji": "🟫",
     "image": "/images/blocks/smooth_red_sandstone.png",
     "category": "자연",
@@ -12582,7 +12582,7 @@
   },
   {
     "id": "smooth_red_sandstone_slab",
-    "name": "Smooth Red Sandstone Slab",
+    "name": "매끄러운 붉은 사암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/smooth_red_sandstone_slab.png",
     "category": "건축",
@@ -12595,7 +12595,7 @@
   },
   {
     "id": "smooth_red_sandstone_stairs",
-    "name": "Smooth Red Sandstone Stairs",
+    "name": "매끄러운 붉은 사암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/smooth_red_sandstone_stairs.png",
     "category": "건축",
@@ -12608,7 +12608,7 @@
   },
   {
     "id": "smooth_sandstone",
-    "name": "Smooth Sandstone",
+    "name": "매끄러운 사암",
     "emoji": "🟫",
     "image": "/images/blocks/smooth_sandstone.png",
     "category": "자연",
@@ -12621,7 +12621,7 @@
   },
   {
     "id": "smooth_sandstone_slab",
-    "name": "Smooth Sandstone Slab",
+    "name": "매끄러운 사암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/smooth_sandstone_slab.png",
     "category": "건축",
@@ -12634,7 +12634,7 @@
   },
   {
     "id": "smooth_sandstone_stairs",
-    "name": "Smooth Sandstone Stairs",
+    "name": "매끄러운 사암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/smooth_sandstone_stairs.png",
     "category": "건축",
@@ -12661,7 +12661,7 @@
   },
   {
     "id": "smooth_stone_slab",
-    "name": "Smooth Stone Slab",
+    "name": "매끄러운 돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/smooth_stone_slab.png",
     "category": "건축",
@@ -12728,7 +12728,7 @@
   },
   {
     "id": "soul_fire",
-    "name": "Soul Fire",
+    "name": "영혼 불",
     "emoji": "🟥",
     "image": "/images/blocks/soul_fire.png",
     "category": "네더",
@@ -12798,7 +12798,7 @@
   },
   {
     "id": "soul_wall_torch",
-    "name": "Soul Wall Torch",
+    "name": "soul 담장 횃불",
     "emoji": "🔥",
     "image": "/images/blocks/soul_wall_torch.png",
     "category": "조명",
@@ -13145,7 +13145,7 @@
   },
   {
     "id": "stone_brick_slab",
-    "name": "Stone Brick Slab",
+    "name": "돌 벽돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/stone_brick_slab.png",
     "category": "건축",
@@ -13158,7 +13158,7 @@
   },
   {
     "id": "stone_brick_stairs",
-    "name": "Stone Brick Stairs",
+    "name": "돌 벽돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/stone_brick_stairs.png",
     "category": "건축",
@@ -13171,7 +13171,7 @@
   },
   {
     "id": "stone_brick_wall",
-    "name": "Stone Brick Wall",
+    "name": "돌 벽돌 담장",
     "emoji": "🟫",
     "image": "/images/blocks/stone_brick_wall.png",
     "category": "건축",
@@ -13198,7 +13198,7 @@
   },
   {
     "id": "stone_button",
-    "name": "Stone Button",
+    "name": "돌 버튼",
     "emoji": "🟫",
     "image": "/images/blocks/stone_button.png",
     "category": "건축",
@@ -13211,7 +13211,7 @@
   },
   {
     "id": "stone_pressure_plate",
-    "name": "Stone Pressure Plate",
+    "name": "돌 압력판",
     "emoji": "🟫",
     "image": "/images/blocks/stone_pressure_plate.png",
     "category": "건축",
@@ -13224,7 +13224,7 @@
   },
   {
     "id": "stone_slab",
-    "name": "Stone Slab",
+    "name": "돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/stone_slab.png",
     "category": "건축",
@@ -13237,7 +13237,7 @@
   },
   {
     "id": "stone_stairs",
-    "name": "Stone Stairs",
+    "name": "돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/stone_stairs.png",
     "category": "건축",
@@ -13643,7 +13643,7 @@
   },
   {
     "id": "structure_block",
-    "name": "Structure Block",
+    "name": "structure 블록",
     "emoji": "🟫",
     "image": "/images/blocks/structure_block.png",
     "category": "건축",
@@ -13656,7 +13656,7 @@
   },
   {
     "id": "structure_void",
-    "name": "Structure Void",
+    "name": "구조물 공허",
     "emoji": "🟫",
     "image": "/images/blocks/structure_void.png",
     "category": "건축",
@@ -13761,7 +13761,7 @@
   },
   {
     "id": "tall_seagrass",
-    "name": "Tall Seagrass",
+    "name": "tall 해초",
     "emoji": "🌿",
     "image": "/images/blocks/tall_seagrass.png",
     "category": "식물",
@@ -13787,7 +13787,7 @@
   },
   {
     "id": "terracotta",
-    "name": "Terracotta",
+    "name": "테라코타",
     "emoji": "🟫",
     "image": "/images/blocks/terracotta.png",
     "category": "장식",
@@ -13813,7 +13813,7 @@
   },
   {
     "id": "tnt",
-    "name": "TNT",
+    "name": "티엔티",
     "emoji": "💥",
     "image": "/images/blocks/tnt.png",
     "category": "특수",
@@ -13854,7 +13854,7 @@
   },
   {
     "id": "torchflower_crop",
-    "name": "Torchflower Crop",
+    "name": "횃불꽃 crop",
     "emoji": "🌿",
     "image": "/images/blocks/torchflower_crop.png",
     "category": "조명",
@@ -13895,7 +13895,7 @@
   },
   {
     "id": "tripwire",
-    "name": "Tripwire",
+    "name": "철사",
     "emoji": "🟫",
     "image": "/images/blocks/tripwire.png",
     "category": "건축",
@@ -13935,7 +13935,7 @@
   },
   {
     "id": "tube_coral_block",
-    "name": "Tube Coral Block",
+    "name": "관 산호 블록",
     "emoji": "🟫",
     "image": "/images/blocks/tube_coral_block.png",
     "category": "식물",
@@ -13948,7 +13948,7 @@
   },
   {
     "id": "tube_coral_fan",
-    "name": "Tube Coral Fan",
+    "name": "관 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/tube_coral_fan.png",
     "category": "식물",
@@ -13961,7 +13961,7 @@
   },
   {
     "id": "tube_coral_wall_fan",
-    "name": "Tube Coral Wall Fan",
+    "name": "tube 산호 담장 부채산호",
     "emoji": "🟫",
     "image": "/images/blocks/tube_coral_wall_fan.png",
     "category": "건축",
@@ -13988,7 +13988,7 @@
   },
   {
     "id": "tuff_brick_slab",
-    "name": "Tuff Brick Slab",
+    "name": "응회암 벽돌 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/tuff_brick_slab.png",
     "category": "건축",
@@ -14001,7 +14001,7 @@
   },
   {
     "id": "tuff_brick_stairs",
-    "name": "Tuff Brick Stairs",
+    "name": "응회암 벽돌 계단",
     "emoji": "🟫",
     "image": "/images/blocks/tuff_brick_stairs.png",
     "category": "건축",
@@ -14014,7 +14014,7 @@
   },
   {
     "id": "tuff_brick_wall",
-    "name": "Tuff Brick Wall",
+    "name": "응회암 벽돌 담장",
     "emoji": "🟫",
     "image": "/images/blocks/tuff_brick_wall.png",
     "category": "건축",
@@ -14027,7 +14027,7 @@
   },
   {
     "id": "tuff_bricks",
-    "name": "Tuff Bricks",
+    "name": "응회암 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/tuff_bricks.png",
     "category": "자연",
@@ -14040,7 +14040,7 @@
   },
   {
     "id": "tuff_slab",
-    "name": "Tuff Slab",
+    "name": "응회암 반 블록",
     "emoji": "🟫",
     "image": "/images/blocks/tuff_slab.png",
     "category": "건축",
@@ -14053,7 +14053,7 @@
   },
   {
     "id": "tuff_stairs",
-    "name": "Tuff Stairs",
+    "name": "응회암 계단",
     "emoji": "🟫",
     "image": "/images/blocks/tuff_stairs.png",
     "category": "건축",
@@ -14066,7 +14066,7 @@
   },
   {
     "id": "tuff_wall",
-    "name": "Tuff Wall",
+    "name": "응회암 담장",
     "emoji": "🟫",
     "image": "/images/blocks/tuff_wall.png",
     "category": "건축",
@@ -14105,7 +14105,7 @@
   },
   {
     "id": "twisting_vines_plant",
-    "name": "Twisting Vines Plant",
+    "name": "뒤틀린 덩굴 식물",
     "emoji": "🌿",
     "image": "/images/blocks/twisting_vines_plant.png",
     "category": "식물",
@@ -14133,7 +14133,7 @@
   },
   {
     "id": "verdant_froglight",
-    "name": "Verdant Froglight",
+    "name": "초록 개구리불",
     "emoji": "🔥",
     "image": "/images/blocks/verdant_froglight.png",
     "category": "조명",
@@ -14160,7 +14160,7 @@
   },
   {
     "id": "void_air",
-    "name": "Void Air",
+    "name": "void 공기",
     "emoji": "🟫",
     "image": "/images/blocks/void_air.png",
     "category": "건축",
@@ -14173,7 +14173,7 @@
   },
   {
     "id": "wall_torch",
-    "name": "Wall Torch",
+    "name": "담장 횃불",
     "emoji": "🔥",
     "image": "/images/blocks/wall_torch.png",
     "category": "조명",
@@ -14525,7 +14525,7 @@
   },
   {
     "id": "water",
-    "name": "Water",
+    "name": "물",
     "emoji": "🟦",
     "image": "/images/blocks/water.png",
     "category": "건축",
@@ -14538,7 +14538,7 @@
   },
   {
     "id": "water_cauldron",
-    "name": "Water Cauldron",
+    "name": "물 가마솥",
     "emoji": "🟦",
     "image": "/images/blocks/water_cauldron.png",
     "category": "기능",
@@ -14551,7 +14551,7 @@
   },
   {
     "id": "waxed_chiseled_copper",
-    "name": "Waxed Chiseled Copper",
+    "name": "왁스칠한 조각된 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_chiseled_copper.png",
     "category": "건축",
@@ -14564,7 +14564,7 @@
   },
   {
     "id": "waxed_copper_block",
-    "name": "Waxed Copper Block",
+    "name": "왁스칠한 구리 블록",
     "emoji": "💎",
     "image": "/images/blocks/waxed_copper_block.png",
     "category": "자원",
@@ -14577,7 +14577,7 @@
   },
   {
     "id": "waxed_copper_bulb",
-    "name": "Waxed Copper Bulb",
+    "name": "왁스칠한 구리 전구",
     "emoji": "💎",
     "image": "/images/blocks/waxed_copper_bulb.png",
     "category": "조명",
@@ -14590,7 +14590,7 @@
   },
   {
     "id": "waxed_copper_door",
-    "name": "Waxed Copper Door",
+    "name": "왁스칠한 구리 문",
     "emoji": "💎",
     "image": "/images/blocks/waxed_copper_door.png",
     "category": "건축",
@@ -14603,7 +14603,7 @@
   },
   {
     "id": "waxed_copper_grate",
-    "name": "Waxed Copper Grate",
+    "name": "왁스칠한 구리 격자",
     "emoji": "💎",
     "image": "/images/blocks/waxed_copper_grate.png",
     "category": "건축",
@@ -14616,7 +14616,7 @@
   },
   {
     "id": "waxed_copper_trapdoor",
-    "name": "Waxed Copper Trapdoor",
+    "name": "왁스칠한 구리 다락문",
     "emoji": "💎",
     "image": "/images/blocks/waxed_copper_trapdoor.png",
     "category": "건축",
@@ -14629,7 +14629,7 @@
   },
   {
     "id": "waxed_cut_copper",
-    "name": "Waxed Cut Copper",
+    "name": "왁스칠한 깎인 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_cut_copper.png",
     "category": "건축",
@@ -14642,7 +14642,7 @@
   },
   {
     "id": "waxed_cut_copper_slab",
-    "name": "Waxed Cut Copper Slab",
+    "name": "왁스칠한 깎인 구리 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/waxed_cut_copper_slab.png",
     "category": "건축",
@@ -14655,7 +14655,7 @@
   },
   {
     "id": "waxed_cut_copper_stairs",
-    "name": "Waxed Cut Copper Stairs",
+    "name": "왁스칠한 깎인 구리 계단",
     "emoji": "💎",
     "image": "/images/blocks/waxed_cut_copper_stairs.png",
     "category": "건축",
@@ -14668,7 +14668,7 @@
   },
   {
     "id": "waxed_exposed_chiseled_copper",
-    "name": "Waxed Exposed Chiseled Copper",
+    "name": "왁스칠한 약간 녹슨 조각된 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_exposed_chiseled_copper.png",
     "category": "건축",
@@ -14681,7 +14681,7 @@
   },
   {
     "id": "waxed_exposed_copper",
-    "name": "Waxed Exposed Copper",
+    "name": "왁스칠한 약간 녹슨 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_exposed_copper.png",
     "category": "건축",
@@ -14694,7 +14694,7 @@
   },
   {
     "id": "waxed_exposed_copper_bulb",
-    "name": "Waxed Exposed Copper Bulb",
+    "name": "왁스칠한 약간 녹슨 구리 전구",
     "emoji": "💎",
     "image": "/images/blocks/waxed_exposed_copper_bulb.png",
     "category": "조명",
@@ -14707,7 +14707,7 @@
   },
   {
     "id": "waxed_exposed_copper_door",
-    "name": "Waxed Exposed Copper Door",
+    "name": "왁스칠한 약간 녹슨 구리 문",
     "emoji": "💎",
     "image": "/images/blocks/waxed_exposed_copper_door.png",
     "category": "건축",
@@ -14720,7 +14720,7 @@
   },
   {
     "id": "waxed_exposed_copper_grate",
-    "name": "Waxed Exposed Copper Grate",
+    "name": "왁스칠한 약간 녹슨 구리 격자",
     "emoji": "💎",
     "image": "/images/blocks/waxed_exposed_copper_grate.png",
     "category": "건축",
@@ -14733,7 +14733,7 @@
   },
   {
     "id": "waxed_exposed_copper_trapdoor",
-    "name": "Waxed Exposed Copper Trapdoor",
+    "name": "왁스칠한 약간 녹슨 구리 다락문",
     "emoji": "💎",
     "image": "/images/blocks/waxed_exposed_copper_trapdoor.png",
     "category": "건축",
@@ -14746,7 +14746,7 @@
   },
   {
     "id": "waxed_exposed_cut_copper",
-    "name": "Waxed Exposed Cut Copper",
+    "name": "왁스칠한 약간 녹슨 깎인 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_exposed_cut_copper.png",
     "category": "건축",
@@ -14759,7 +14759,7 @@
   },
   {
     "id": "waxed_exposed_cut_copper_slab",
-    "name": "Waxed Exposed Cut Copper Slab",
+    "name": "왁스칠한 약간 녹슨 깎인 구리 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/waxed_exposed_cut_copper_slab.png",
     "category": "건축",
@@ -14772,7 +14772,7 @@
   },
   {
     "id": "waxed_exposed_cut_copper_stairs",
-    "name": "Waxed Exposed Cut Copper Stairs",
+    "name": "왁스칠한 약간 녹슨 깎인 구리 계단",
     "emoji": "💎",
     "image": "/images/blocks/waxed_exposed_cut_copper_stairs.png",
     "category": "건축",
@@ -14785,7 +14785,7 @@
   },
   {
     "id": "waxed_oxidized_chiseled_copper",
-    "name": "Waxed Oxidized Chiseled Copper",
+    "name": "왁스칠한 산화된 조각된 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_oxidized_chiseled_copper.png",
     "category": "건축",
@@ -14798,7 +14798,7 @@
   },
   {
     "id": "waxed_oxidized_copper",
-    "name": "Waxed Oxidized Copper",
+    "name": "왁스칠한 산화된 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_oxidized_copper.png",
     "category": "건축",
@@ -14811,7 +14811,7 @@
   },
   {
     "id": "waxed_oxidized_copper_bulb",
-    "name": "Waxed Oxidized Copper Bulb",
+    "name": "왁스칠한 산화된 구리 전구",
     "emoji": "💎",
     "image": "/images/blocks/waxed_oxidized_copper_bulb.png",
     "category": "조명",
@@ -14824,7 +14824,7 @@
   },
   {
     "id": "waxed_oxidized_copper_door",
-    "name": "Waxed Oxidized Copper Door",
+    "name": "왁스칠한 산화된 구리 문",
     "emoji": "💎",
     "image": "/images/blocks/waxed_oxidized_copper_door.png",
     "category": "건축",
@@ -14837,7 +14837,7 @@
   },
   {
     "id": "waxed_oxidized_copper_grate",
-    "name": "Waxed Oxidized Copper Grate",
+    "name": "왁스칠한 산화된 구리 격자",
     "emoji": "💎",
     "image": "/images/blocks/waxed_oxidized_copper_grate.png",
     "category": "건축",
@@ -14850,7 +14850,7 @@
   },
   {
     "id": "waxed_oxidized_copper_trapdoor",
-    "name": "Waxed Oxidized Copper Trapdoor",
+    "name": "왁스칠한 산화된 구리 다락문",
     "emoji": "💎",
     "image": "/images/blocks/waxed_oxidized_copper_trapdoor.png",
     "category": "건축",
@@ -14863,7 +14863,7 @@
   },
   {
     "id": "waxed_oxidized_cut_copper",
-    "name": "Waxed Oxidized Cut Copper",
+    "name": "왁스칠한 산화된 깎인 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_oxidized_cut_copper.png",
     "category": "건축",
@@ -14876,7 +14876,7 @@
   },
   {
     "id": "waxed_oxidized_cut_copper_slab",
-    "name": "Waxed Oxidized Cut Copper Slab",
+    "name": "왁스칠한 산화된 깎인 구리 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/waxed_oxidized_cut_copper_slab.png",
     "category": "건축",
@@ -14889,7 +14889,7 @@
   },
   {
     "id": "waxed_oxidized_cut_copper_stairs",
-    "name": "Waxed Oxidized Cut Copper Stairs",
+    "name": "왁스칠한 산화된 깎인 구리 계단",
     "emoji": "💎",
     "image": "/images/blocks/waxed_oxidized_cut_copper_stairs.png",
     "category": "건축",
@@ -14902,7 +14902,7 @@
   },
   {
     "id": "waxed_weathered_chiseled_copper",
-    "name": "Waxed Weathered Chiseled Copper",
+    "name": "왁스칠한 녹슨 조각된 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_weathered_chiseled_copper.png",
     "category": "건축",
@@ -14915,7 +14915,7 @@
   },
   {
     "id": "waxed_weathered_copper",
-    "name": "Waxed Weathered Copper",
+    "name": "왁스칠한 녹슨 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_weathered_copper.png",
     "category": "건축",
@@ -14928,7 +14928,7 @@
   },
   {
     "id": "waxed_weathered_copper_bulb",
-    "name": "Waxed Weathered Copper Bulb",
+    "name": "왁스칠한 녹슨 구리 전구",
     "emoji": "💎",
     "image": "/images/blocks/waxed_weathered_copper_bulb.png",
     "category": "조명",
@@ -14941,7 +14941,7 @@
   },
   {
     "id": "waxed_weathered_copper_door",
-    "name": "Waxed Weathered Copper Door",
+    "name": "왁스칠한 녹슨 구리 문",
     "emoji": "💎",
     "image": "/images/blocks/waxed_weathered_copper_door.png",
     "category": "건축",
@@ -14954,7 +14954,7 @@
   },
   {
     "id": "waxed_weathered_copper_grate",
-    "name": "Waxed Weathered Copper Grate",
+    "name": "왁스칠한 녹슨 구리 격자",
     "emoji": "💎",
     "image": "/images/blocks/waxed_weathered_copper_grate.png",
     "category": "건축",
@@ -14967,7 +14967,7 @@
   },
   {
     "id": "waxed_weathered_copper_trapdoor",
-    "name": "Waxed Weathered Copper Trapdoor",
+    "name": "왁스칠한 녹슨 구리 다락문",
     "emoji": "💎",
     "image": "/images/blocks/waxed_weathered_copper_trapdoor.png",
     "category": "건축",
@@ -14980,7 +14980,7 @@
   },
   {
     "id": "waxed_weathered_cut_copper",
-    "name": "Waxed Weathered Cut Copper",
+    "name": "왁스칠한 녹슨 깎인 구리",
     "emoji": "💎",
     "image": "/images/blocks/waxed_weathered_cut_copper.png",
     "category": "건축",
@@ -14993,7 +14993,7 @@
   },
   {
     "id": "waxed_weathered_cut_copper_slab",
-    "name": "Waxed Weathered Cut Copper Slab",
+    "name": "왁스칠한 녹슨 깎인 구리 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/waxed_weathered_cut_copper_slab.png",
     "category": "건축",
@@ -15006,7 +15006,7 @@
   },
   {
     "id": "waxed_weathered_cut_copper_stairs",
-    "name": "Waxed Weathered Cut Copper Stairs",
+    "name": "왁스칠한 녹슨 깎인 구리 계단",
     "emoji": "💎",
     "image": "/images/blocks/waxed_weathered_cut_copper_stairs.png",
     "category": "건축",
@@ -15019,7 +15019,7 @@
   },
   {
     "id": "weathered_bars",
-    "name": "Weathered Bars",
+    "name": "녹슨 창",
     "emoji": "🟫",
     "image": "/images/blocks/weathered_bars.png",
     "category": "건축",
@@ -15032,7 +15032,7 @@
   },
   {
     "id": "weathered_bulb",
-    "name": "Weathered Bulb",
+    "name": "녹슨 전구",
     "emoji": "🔥",
     "image": "/images/blocks/weathered_bulb.png",
     "category": "건축",
@@ -15045,7 +15045,7 @@
   },
   {
     "id": "weathered_chain",
-    "name": "Weathered Chain",
+    "name": "녹슨 사슬",
     "emoji": "🟫",
     "image": "/images/blocks/weathered_chain.png",
     "category": "건축",
@@ -15058,7 +15058,7 @@
   },
   {
     "id": "weathered_chiseled_copper",
-    "name": "Weathered Chiseled Copper",
+    "name": "녹슨 조각된 구리",
     "emoji": "💎",
     "image": "/images/blocks/weathered_chiseled_copper.png",
     "category": "건축",
@@ -15071,7 +15071,7 @@
   },
   {
     "id": "weathered_copper",
-    "name": "Weathered Copper",
+    "name": "녹슨 구리",
     "emoji": "💎",
     "image": "/images/blocks/weathered_copper.png",
     "category": "건축",
@@ -15084,7 +15084,7 @@
   },
   {
     "id": "weathered_copper_bulb",
-    "name": "Weathered Copper Bulb",
+    "name": "녹슨 구리 전구",
     "emoji": "💎",
     "image": "/images/blocks/weathered_copper_bulb.png",
     "category": "조명",
@@ -15097,7 +15097,7 @@
   },
   {
     "id": "weathered_copper_door",
-    "name": "Weathered Copper Door",
+    "name": "녹슨 구리 문",
     "emoji": "💎",
     "image": "/images/blocks/weathered_copper_door.png",
     "category": "건축",
@@ -15110,7 +15110,7 @@
   },
   {
     "id": "weathered_copper_grate",
-    "name": "Weathered Copper Grate",
+    "name": "녹슨 구리 격자",
     "emoji": "💎",
     "image": "/images/blocks/weathered_copper_grate.png",
     "category": "건축",
@@ -15123,7 +15123,7 @@
   },
   {
     "id": "weathered_copper_trapdoor",
-    "name": "Weathered Copper Trapdoor",
+    "name": "녹슨 구리 다락문",
     "emoji": "💎",
     "image": "/images/blocks/weathered_copper_trapdoor.png",
     "category": "건축",
@@ -15136,7 +15136,7 @@
   },
   {
     "id": "weathered_cut_copper",
-    "name": "Weathered Cut Copper",
+    "name": "녹슨 깎인 구리",
     "emoji": "💎",
     "image": "/images/blocks/weathered_cut_copper.png",
     "category": "건축",
@@ -15149,7 +15149,7 @@
   },
   {
     "id": "weathered_cut_copper_slab",
-    "name": "Weathered Cut Copper Slab",
+    "name": "녹슨 깎인 구리 반 블록",
     "emoji": "💎",
     "image": "/images/blocks/weathered_cut_copper_slab.png",
     "category": "건축",
@@ -15162,7 +15162,7 @@
   },
   {
     "id": "weathered_cut_copper_stairs",
-    "name": "Weathered Cut Copper Stairs",
+    "name": "녹슨 깎인 구리 계단",
     "emoji": "💎",
     "image": "/images/blocks/weathered_cut_copper_stairs.png",
     "category": "건축",
@@ -15175,7 +15175,7 @@
   },
   {
     "id": "weathered_door",
-    "name": "Weathered Door",
+    "name": "녹슨 문",
     "emoji": "🟫",
     "image": "/images/blocks/weathered_door.png",
     "category": "건축",
@@ -15188,7 +15188,7 @@
   },
   {
     "id": "weathered_grate",
-    "name": "Weathered Grate",
+    "name": "녹슨 격자",
     "emoji": "🟫",
     "image": "/images/blocks/weathered_grate.png",
     "category": "건축",
@@ -15201,7 +15201,7 @@
   },
   {
     "id": "weathered_lantern",
-    "name": "Weathered Lantern",
+    "name": "녹슨 랜턴",
     "emoji": "🔥",
     "image": "/images/blocks/weathered_lantern.png",
     "category": "조명",
@@ -15214,7 +15214,7 @@
   },
   {
     "id": "weathered_trapdoor",
-    "name": "Weathered Trapdoor",
+    "name": "녹슨 다락문",
     "emoji": "🟫",
     "image": "/images/blocks/weathered_trapdoor.png",
     "category": "건축",
@@ -15240,7 +15240,7 @@
   },
   {
     "id": "weeping_vines_plant",
-    "name": "Weeping Vines Plant",
+    "name": "늘어진 덩굴 식물",
     "emoji": "🌿",
     "image": "/images/blocks/weeping_vines_plant.png",
     "category": "식물",
@@ -15523,7 +15523,7 @@
   },
   {
     "id": "wither_skeleton_wall_skull",
-    "name": "Wither Skeleton Wall Skull",
+    "name": "위더 스켈레톤 담장 skull",
     "emoji": "🟫",
     "image": "/images/blocks/wither_skeleton_wall_skull.png",
     "category": "건축",
@@ -15720,7 +15720,7 @@
   },
   {
     "id": "zombie_head",
-    "name": "Zombie Head",
+    "name": "좀비 head",
     "emoji": "🟫",
     "image": "/images/blocks/zombie_head.png",
     "category": "건축",
@@ -15733,7 +15733,7 @@
   },
   {
     "id": "zombie_wall_head",
-    "name": "Zombie Wall Head",
+    "name": "좀비 담장 head",
     "emoji": "🟫",
     "image": "/images/blocks/zombie_wall_head.png",
     "category": "건축",
