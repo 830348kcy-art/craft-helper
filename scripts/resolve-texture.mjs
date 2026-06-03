@@ -4,6 +4,7 @@
 import { readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { findAssetPng, loadAssetIndex } from "./asset-index.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const textureMap = JSON.parse(
@@ -255,12 +256,13 @@ export function cdnBlockPath(id) {
 }
 
 export function getSourcePngForBlock(id) {
-  if (textureMap[id]) return textureMap[id];
+  if (textureMap[id]) return findAssetPng(id, textureMap[id]);
   const cdn = cdnBlockPath(id);
   if (cdn.startsWith("block/")) {
-    return cdn.replace(/^block\//, "");
+    const file = cdn.replace(/^block\//, "");
+    return findAssetPng(id, file);
   }
   return null;
 }
 
-export { textureMap, ITEM_OVERRIDES };
+export { textureMap, ITEM_OVERRIDES, loadAssetIndex };

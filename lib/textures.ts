@@ -4,11 +4,19 @@
  * CDN: jsdelivr (캐시 + 빠른 응답)
  */
 
+import fs from "fs";
+import path from "path";
+import textureMapJson from "../scripts/texture-map.json";
+import blocksCatalog from "../data/blocks.json";
+
 const CDN =
   "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures";
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const USE_CDN = process.env.CI === "true";
+
+const textureMap = textureMapJson as Record<string, string>;
+const blockIdSet = new Set(blocksCatalog.map((b) => b.id));
 
 /** ID가 Mojang의 vanilla 이름과 다를 때 매핑. */
 const ITEM_OVERRIDES: Record<string, string> = {
@@ -274,34 +282,91 @@ export const KOREAN_TO_TEXTURE: Record<string, string> = {
 };
 
 export function getItemTexture(id: string): string {
-  if (id.endsWith("_spawn_egg")) {
-    return `${CDN}/item/spawn_egg.png`;
-  }
-  const path = ITEM_OVERRIDES[id] ?? `item/${id}.png`;
-  return `${CDN}/${path}`;
+  if (blockIdSet.has(id)) return getBlockTexture(id);
+  return `${CDN}/${cdnItemPath(id)}`;
 }
 
 export function getBlockTexture(id: string): string {
-  const path = resolveBlockCdnPath(id);
-  if (USE_CDN) return `${CDN}/${path}`;
-  const local = `${BASE_PATH}/images/blocks/${id}.png`;
-  // 클라이언트에서는 파일 존재 확인 불가 — 아이템형·파생 블록은 CDN 직접 사용
-  if (usesItemLikeTexture(id) || isDerivedBlockId(id)) {
-    return `${CDN}/${path}`;
+  const cdnUrl = `${CDN}/${cdnBlockPath(id)}`;
+  if (USE_CDN) return cdnUrl;
+  const local = localSyncedBlockUrl(id);
+  return local ?? cdnUrl;
+}
+
+function localSyncedBlockUrl(id: string): string | null {
+  try {
+    const file = path.join(process.cwd(), "public/images/blocks", `${id}.png`);
+    if (fs.existsSync(file)) return `${BASE_PATH}/images/blocks/${id}.png`;
+  } catch {
+    /* client bundle */
   }
-  return local;
+  return null;
 }
 
-function usesItemLikeTexture(id: string): boolean {
-  return /_(boat|chest_boat|spawn_egg|bucket|minecart|horse_armor|door|sign|hanging_sign|banner|bed|candle|dye|disc|pottery_sherd|smithing_template|armor_trim|bundle|shelf)$/.test(
-    id
-  );
+const ITEM_TEXTURE_PATTERNS = [
+  /_boat$/,
+  /_chest_boat$/,
+  /_spawn_egg$/,
+  /_bucket$/,
+  /_minecart$/,
+  /_horse_armor$/,
+  /_door$/,
+  /_sign$/,
+  /_hanging_sign$/,
+  /_banner$/,
+  /_bed$/,
+  /_candle$/,
+  /_dye$/,
+  /_disc$/,
+  /_music_disc/,
+  /_pottery_sherd$/,
+  /_smithing_template$/,
+  /_armor_trim$/,
+  /_bundle$/,
+  /_shelf$/,
+];
+
+function usesItemTexture(id: string): boolean {
+  if (ITEM_OVERRIDES[id]?.startsWith("item/")) return true;
+  return ITEM_TEXTURE_PATTERNS.some((re) => re.test(id));
 }
 
-function isDerivedBlockId(id: string): boolean {
-  return /_(slab|stairs|wall|button|pressure_plate|fence|fence_gate|trapdoor|sign|leaves|sapling|planks|log|wood)$/.test(
-    id
-  );
+const STRIP_SUFFIXES = [
+  "_wall_hanging_sign", "_hanging_sign", "_wall_sign", "_pressure_plate",
+  "_fence_gate", "_trapdoor", "_fence", "_button", "_stairs", "_slab", "_wall",
+  "_wood", "_log", "_planks", "_leaves", "_sapling", "_door", "_sign", "_bed",
+  "_banner", "_candle", "_shulker_box", "_concrete_powder", "_concrete",
+  "_terracotta", "_glazed_terracotta", "_stained_glass_pane", "_stained_glass",
+  "_wool", "_carpet",
+];
+
+function baseBlockId(id: string): string {
+  for (const suffix of STRIP_SUFFIXES) {
+    if (id.endsWith(suffix)) return id.slice(0, -suffix.length);
+  }
+  return id;
+}
+
+function cdnItemPath(id: string): string {
+  if (id.endsWith("_spawn_egg")) return "item/spawn_egg.png";
+  if (ITEM_OVERRIDES[id]?.startsWith("item/")) return ITEM_OVERRIDES[id];
+  return `item/${id}.png`;
+}
+
+function cdnBlockPath(id: string): string {
+  if (BLOCK_OVERRIDES[id]) return BLOCK_OVERRIDES[id];
+  if (ITEM_OVERRIDES[id]?.startsWith("block/")) return ITEM_OVERRIDES[id];
+  if (textureMap[id]) return `block/${textureMap[id]}`;
+  if (usesItemTexture(id)) return cdnItemPath(id);
+
+  const base = baseBlockId(id);
+  if (base !== id) {
+    if (BLOCK_OVERRIDES[base]) return BLOCK_OVERRIDES[base];
+    if (ITEM_OVERRIDES[base]?.startsWith("block/")) return ITEM_OVERRIDES[base];
+    if (textureMap[base]) return `block/${textureMap[base]}`;
+    return `block/${blockFileName(base)}`;
+  }
+  return `block/${blockFileName(id)}`;
 }
 
 const WOODS = new Set([
@@ -312,46 +377,6 @@ const WOODS = new Set([
 function blockFileName(id: string): string {
   if (WOODS.has(id)) return `${id}_planks.png`;
   return `${id}.png`;
-}
-
-function resolveBlockCdnPath(id: string): string {
-  if (BLOCK_OVERRIDES[id]) return BLOCK_OVERRIDES[id];
-  if (ITEM_OVERRIDES[id]?.startsWith("block/")) return ITEM_OVERRIDES[id];
-  if (usesItemLikeTexture(id)) {
-    return ITEM_OVERRIDES[id] ?? `item/${id}.png`;
-  }
-  const base = stripBlockSuffix(id);
-  if (base !== id) {
-    if (BLOCK_OVERRIDES[base]) return BLOCK_OVERRIDES[base];
-    return `block/${blockFileName(base)}`;
-  }
-  return `block/${blockFileName(id)}`;
-}
-
-function stripBlockSuffix(id: string): string {
-  const suffixes = [
-    "_wall_hanging_sign",
-    "_hanging_sign",
-    "_wall_sign",
-    "_pressure_plate",
-    "_fence_gate",
-    "_trapdoor",
-    "_fence",
-    "_button",
-    "_stairs",
-    "_slab",
-    "_wall",
-    "_sign",
-    "_leaves",
-    "_sapling",
-    "_planks",
-    "_log",
-    "_wood",
-  ];
-  for (const s of suffixes) {
-    if (id.endsWith(s)) return id.slice(0, -s.length);
-  }
-  return id;
 }
 
 export function getTextureByName(name: string): string | undefined {

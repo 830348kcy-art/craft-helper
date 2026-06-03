@@ -2,7 +2,8 @@
  * blocks.json / items.json 확장 — minecraft-data + 기존 항목 merge
  */
 import { readFileSync, writeFileSync } from "fs";
-import { resolve } from "path";
+import { resolve, dirname } from "path";
+import { fileURLToPath } from "url";
 import mcData from "minecraft-data";
 import { root } from "./textures-config.mjs";
 import {
@@ -16,6 +17,24 @@ import {
   inferHardness,
   koNames,
 } from "./ko-utils.mjs";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+let officialKo = { blocks: {}, items: {} };
+try {
+  officialKo = JSON.parse(
+    readFileSync(resolve(__dirname, "ko-lang-official.json"), "utf-8")
+  );
+} catch {
+  officialKo = { blocks: {}, items: {} };
+}
+
+function resolveKoName(id, type) {
+  if (koNames[id]) return koNames[id];
+  if (type === "block" && officialKo.blocks?.[id]) return officialKo.blocks[id];
+  if (type === "item" && officialKo.items?.[id]) return officialKo.items[id];
+  return idToKoName(id);
+}
 
 const data = mcData("1.21.4");
 
@@ -141,8 +160,8 @@ function hasKorean(text) {
 
 function makeBlock(id) {
   const existing = blockMap.get(id);
-  const name = koNames[id] ?? idToKoName(id);
-  if (existing && hasKorean(existing.name)) return existing;
+  const name = resolveKoName(id, "block");
+  if (existing && hasKorean(existing.name) && !officialKo.blocks?.[id]) return existing;
 
   const base = existing ?? {};
   return {
@@ -160,8 +179,8 @@ function makeBlock(id) {
 
 function makeItem(id) {
   const existing = itemMap.get(id);
-  const name = koNames[id] ?? idToKoName(id);
-  if (existing && hasKorean(existing.name)) return existing;
+  const name = resolveKoName(id, "item");
+  if (existing && hasKorean(existing.name) && !officialKo.items?.[id]) return existing;
 
   const base = existing ?? {};
   return {

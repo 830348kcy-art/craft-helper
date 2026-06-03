@@ -5,18 +5,11 @@
 import { readFileSync, mkdirSync, copyFileSync, existsSync } from "fs";
 import { resolve } from "path";
 import { ASSETS_SOURCE, root, sourceExists, USE_CDN } from "./textures-config-root.mjs";
-import { getSourcePngForBlock, baseBlockId } from "./resolve-texture.mjs";
+import { getSourcePngForBlock } from "./resolve-texture.mjs";
+import { loadAssetIndex } from "./asset-index.mjs";
 
 function resolveSrcName(id) {
-  const mapped = getSourcePngForBlock(id);
-  if (mapped) return mapped;
-  const base = baseBlockId(id);
-  if (base !== id) {
-    const baseMapped = getSourcePngForBlock(base);
-    if (baseMapped) return baseMapped;
-    return `${base}.png`;
-  }
-  return `${id}.png`;
+  return getSourcePngForBlock(id);
 }
 
 if (USE_CDN) {
@@ -32,17 +25,31 @@ if (!sourceExists()) {
   process.exit(0);
 }
 
+loadAssetIndex(ASSETS_SOURCE);
+
 const blocks = JSON.parse(readFileSync(resolve(root, "data/blocks.json"), "utf-8"));
+const items = JSON.parse(readFileSync(resolve(root, "data/items.json"), "utf-8"));
+const blockIds = new Set(blocks.map((b) => b.id));
+
+// 블록 + 아이템 카탈로그에 있는 블록 ID 모두 동기화
+const syncIds = new Set([
+  ...blocks.map((b) => b.id),
+  ...items.filter((it) => blockIds.has(it.id)).map((it) => it.id),
+]);
 const destDir = resolve(root, "public/images/blocks");
 mkdirSync(destDir, { recursive: true });
 
 let copied = 0;
 let skipped = 0;
 
-for (const block of blocks) {
-  const srcName = resolveSrcName(block.id);
+for (const id of syncIds) {
+  const srcName = resolveSrcName(id);
+  if (!srcName) {
+    skipped++;
+    continue;
+  }
   const srcPath = resolve(ASSETS_SOURCE, srcName);
-  const destPath = resolve(destDir, `${block.id}.png`);
+  const destPath = resolve(destDir, `${id}.png`);
 
   if (!existsSync(srcPath)) {
     skipped++;

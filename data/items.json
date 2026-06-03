@@ -1,7 +1,7 @@
 [
   {
     "id": "acacia_boat",
-    "name": "아카시아 보트",
+    "name": "아카시아나무 보트",
     "emoji": "📦",
     "image": "/images/items/acacia_boat.png",
     "category": "이동",
@@ -25,7 +25,7 @@
   },
   {
     "id": "acacia_chest_boat",
-    "name": "아카시아 상자가 실린 보트",
+    "name": "상자가 실린 아카시아나무 보트",
     "emoji": "📦",
     "image": "/images/items/acacia_chest_boat.png",
     "category": "이동",
@@ -351,7 +351,7 @@
   },
   {
     "id": "angler_pottery_sherd",
-    "name": "angler 도자기 조각",
+    "name": "낚시꾼 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/angler_pottery_sherd.png",
     "category": "특수",
@@ -389,7 +389,7 @@
   },
   {
     "id": "archer_pottery_sherd",
-    "name": "archer 도자기 조각",
+    "name": "궁수 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/archer_pottery_sherd.png",
     "category": "특수",
@@ -401,7 +401,7 @@
   },
   {
     "id": "armadillo_scute",
-    "name": "아르마딜로 비늘",
+    "name": "아르마딜로 인갑",
     "emoji": "📦",
     "image": "/images/items/armadillo_scute.png",
     "category": "재료",
@@ -437,7 +437,7 @@
   },
   {
     "id": "arms_up_pottery_sherd",
-    "name": "arms up 도자기 조각",
+    "name": "만세 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/arms_up_pottery_sherd.png",
     "category": "특수",
@@ -477,7 +477,7 @@
   },
   {
     "id": "axolotl_bucket",
-    "name": "아홀로틀 양동이",
+    "name": "아홀로틀이 담긴 양동이",
     "emoji": "📦",
     "image": "/images/items/axolotl_bucket.png",
     "category": "도구",
@@ -597,7 +597,7 @@
   },
   {
     "id": "bamboo_chest_raft",
-    "name": "대나무 chest raft",
+    "name": "상자가 실린 대나무 뗏목",
     "emoji": "📦",
     "image": "/images/items/bamboo_chest_raft.png",
     "category": "재료",
@@ -717,7 +717,7 @@
   },
   {
     "id": "bamboo_raft",
-    "name": "대나무 raft",
+    "name": "대나무 뗏목",
     "emoji": "📦",
     "image": "/images/items/bamboo_raft.png",
     "category": "재료",
@@ -861,7 +861,7 @@
   },
   {
     "id": "bee_spawn_egg",
-    "name": "벌 생성 알",
+    "name": "꿀벌 생성 알",
     "emoji": "📦",
     "image": "/images/items/bee_spawn_egg.png",
     "category": "음식",
@@ -982,7 +982,7 @@
   },
   {
     "id": "birch_chest_boat",
-    "name": "자작나무 상자가 실린 보트",
+    "name": "상자가 실린 자작나무 보트",
     "emoji": "📦",
     "image": "/images/items/birch_chest_boat.png",
     "category": "이동",
@@ -1186,7 +1186,7 @@
   },
   {
     "id": "black_bundle",
-    "name": "검정 bundle",
+    "name": "검은색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/black_bundle.png",
     "category": "재료",
@@ -1246,7 +1246,7 @@
   },
   {
     "id": "black_dye",
-    "name": "검정 dye",
+    "name": "검은색 염료",
     "emoji": "📦",
     "image": "/images/items/black_dye.png",
     "category": "재료",
@@ -1378,7 +1378,7 @@
   },
   {
     "id": "blade_pottery_sherd",
-    "name": "blade 도자기 조각",
+    "name": "칼날 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/blade_pottery_sherd.png",
     "category": "특수",
@@ -1402,7 +1402,7 @@
   },
   {
     "id": "blaze_powder",
-    "name": "불꽃 가루",
+    "name": "블레이즈 가루",
     "emoji": "✨",
     "image": "/images/items/blaze_powder.png",
     "category": "특수",
@@ -1416,7 +1416,7 @@
   },
   {
     "id": "blaze_rod",
-    "name": "블레이즈 막대",
+    "name": "블레이즈 막대기",
     "emoji": "🔥",
     "image": "/images/items/blaze_rod.png",
     "category": "특수",
@@ -1466,7 +1466,7 @@
   },
   {
     "id": "blue_bundle",
-    "name": "파란 bundle",
+    "name": "파란색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/blue_bundle.png",
     "category": "재료",
@@ -1526,7 +1526,7 @@
   },
   {
     "id": "blue_dye",
-    "name": "파란 dye",
+    "name": "파란색 염료",
     "emoji": "📦",
     "image": "/images/items/blue_dye.png",
     "category": "재료",
@@ -1660,7 +1660,7 @@
   },
   {
     "id": "bolt_armor_trim_smithing_template",
-    "name": "bolt 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/bolt_armor_trim_smithing_template.png",
     "category": "재료",
@@ -1672,7 +1672,7 @@
   },
   {
     "id": "bone",
-    "name": "뼈",
+    "name": "뼈다귀",
     "emoji": "🦴",
     "image": "/images/items/bone.png",
     "category": "재료",
@@ -1738,7 +1738,7 @@
   },
   {
     "id": "bordure_indented_banner_pattern",
-    "name": "bordure indented 배너 pattern",
+    "name": "톱니 테두리 현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/bordure_indented_banner_pattern.png",
     "category": "특수",
@@ -1850,7 +1850,7 @@
   },
   {
     "id": "brewer_pottery_sherd",
-    "name": "brewer 도자기 조각",
+    "name": "양조가 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/brewer_pottery_sherd.png",
     "category": "특수",
@@ -1862,7 +1862,7 @@
   },
   {
     "id": "brewing_stand",
-    "name": "양조대",
+    "name": "양조기",
     "emoji": "📦",
     "image": "/images/items/brewing_stand.png",
     "category": "재료",
@@ -1958,7 +1958,7 @@
   },
   {
     "id": "brown_bundle",
-    "name": "갈색 bundle",
+    "name": "갈색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/brown_bundle.png",
     "category": "재료",
@@ -2018,7 +2018,7 @@
   },
   {
     "id": "brown_dye",
-    "name": "갈색 dye",
+    "name": "갈색 염료",
     "emoji": "📦",
     "image": "/images/items/brown_dye.png",
     "category": "재료",
@@ -2212,7 +2212,7 @@
   },
   {
     "id": "burn_pottery_sherd",
-    "name": "burn 도자기 조각",
+    "name": "불탐 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/burn_pottery_sherd.png",
     "category": "특수",
@@ -2323,7 +2323,7 @@
   },
   {
     "id": "carrot_on_a_stick",
-    "name": "당근가 달린 막대",
+    "name": "당근 낚싯대",
     "emoji": "🍖",
     "image": "/images/items/carrot_on_a_stick.png",
     "category": "음식",
@@ -2505,7 +2505,7 @@
   },
   {
     "id": "cherry_chest_boat",
-    "name": "벚나무 상자가 실린 보트",
+    "name": "상자가 실린 벚나무 보트",
     "emoji": "📦",
     "image": "/images/items/cherry_chest_boat.png",
     "category": "이동",
@@ -2697,7 +2697,7 @@
   },
   {
     "id": "chest_minecart",
-    "name": "상자 광산 수레",
+    "name": "상자가 실린 광산 수레",
     "emoji": "🛤️",
     "image": "/images/items/chest_minecart.png",
     "category": "이동",
@@ -2711,7 +2711,7 @@
   },
   {
     "id": "chicken",
-    "name": "닭",
+    "name": "익히지 않은 닭고기",
     "emoji": "📦",
     "image": "/images/items/chicken.png",
     "category": "재료",
@@ -2939,7 +2939,7 @@
   },
   {
     "id": "clay_ball",
-    "name": "점토 ball",
+    "name": "점토 덩이",
     "emoji": "📦",
     "image": "/images/items/clay_ball.png",
     "category": "자원",
@@ -3026,7 +3026,7 @@
   },
   {
     "id": "coast_armor_trim_smithing_template",
-    "name": "coast 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/coast_armor_trim_smithing_template.png",
     "category": "재료",
@@ -3160,7 +3160,7 @@
   },
   {
     "id": "cod",
-    "name": "대구",
+    "name": "익히지 않은 대구",
     "emoji": "📦",
     "image": "/images/items/cod.png",
     "category": "재료",
@@ -3172,7 +3172,7 @@
   },
   {
     "id": "cod_bucket",
-    "name": "대구 양동이",
+    "name": "대구가 담긴 양동이",
     "emoji": "📦",
     "image": "/images/items/cod_bucket.png",
     "category": "도구",
@@ -3208,7 +3208,7 @@
   },
   {
     "id": "command_block_minecart",
-    "name": "command 블록 광산 수레",
+    "name": "명령 블록이 실린 광산 수레",
     "emoji": "📦",
     "image": "/images/items/command_block_minecart.png",
     "category": "이동",
@@ -3284,7 +3284,7 @@
   },
   {
     "id": "cooked_chicken",
-    "name": "구운 닭고기",
+    "name": "익힌 닭고기",
     "emoji": "🍗",
     "image": "/images/items/cooked_chicken.png",
     "category": "음식",
@@ -3298,7 +3298,7 @@
   },
   {
     "id": "cooked_cod",
-    "name": "구운 대구",
+    "name": "익힌 대구",
     "emoji": "🐟",
     "image": "/images/items/cooked_cod.png",
     "category": "음식",
@@ -3311,7 +3311,7 @@
   },
   {
     "id": "cooked_mutton",
-    "name": "구운 양고기",
+    "name": "익힌 양고기",
     "emoji": "🍖",
     "image": "/images/items/cooked_mutton.png",
     "category": "음식",
@@ -3324,7 +3324,7 @@
   },
   {
     "id": "cooked_porkchop",
-    "name": "구운 돼지고기",
+    "name": "익힌 돼지고기",
     "emoji": "🥩",
     "image": "/images/items/cooked_porkchop.png",
     "category": "음식",
@@ -3338,7 +3338,7 @@
   },
   {
     "id": "cooked_rabbit",
-    "name": "구운 토끼고기",
+    "name": "익힌 토끼고기",
     "emoji": "🍗",
     "image": "/images/items/cooked_rabbit.png",
     "category": "음식",
@@ -3351,7 +3351,7 @@
   },
   {
     "id": "cooked_salmon",
-    "name": "구운 연어",
+    "name": "익힌 연어",
     "emoji": "🐟",
     "image": "/images/items/cooked_salmon.png",
     "category": "음식",
@@ -3597,7 +3597,7 @@
   },
   {
     "id": "creeper_banner_pattern",
-    "name": "크리퍼 배너 pattern",
+    "name": "현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/creeper_banner_pattern.png",
     "category": "특수",
@@ -3959,7 +3959,7 @@
   },
   {
     "id": "cyan_bundle",
-    "name": "청록 bundle",
+    "name": "청록색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/cyan_bundle.png",
     "category": "재료",
@@ -4019,7 +4019,7 @@
   },
   {
     "id": "cyan_dye",
-    "name": "청록 dye",
+    "name": "청록색 염료",
     "emoji": "📦",
     "image": "/images/items/cyan_dye.png",
     "category": "재료",
@@ -4127,7 +4127,7 @@
   },
   {
     "id": "danger_pottery_sherd",
-    "name": "danger 도자기 조각",
+    "name": "위험 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/danger_pottery_sherd.png",
     "category": "특수",
@@ -4163,7 +4163,7 @@
   },
   {
     "id": "dark_oak_chest_boat",
-    "name": "짙은 참나무 상자가 실린 보트",
+    "name": "상자가 실린 짙은 참나무 보트",
     "emoji": "📦",
     "image": "/images/items/dark_oak_chest_boat.png",
     "category": "이동",
@@ -4583,7 +4583,7 @@
   },
   {
     "id": "debug_stick",
-    "name": "디버그 막대",
+    "name": "디버그 막대기",
     "emoji": "📦",
     "image": "/images/items/debug_stick.png",
     "category": "재료",
@@ -4910,7 +4910,7 @@
   },
   {
     "id": "diamond_horse_armor",
-    "name": "다이아 말갑옷",
+    "name": "다이아몬드 말 갑옷",
     "emoji": "🐴",
     "image": "/images/items/diamond_horse_armor.png",
     "category": "방어구",
@@ -5056,7 +5056,7 @@
   },
   {
     "id": "disc_fragment_5",
-    "name": "음반 fragment 5",
+    "name": "음반 파편",
     "emoji": "📦",
     "image": "/images/items/disc_fragment_5.png",
     "category": "재료",
@@ -5154,7 +5154,7 @@
   },
   {
     "id": "dried_kelp",
-    "name": "dried 다시마",
+    "name": "말린 켈프",
     "emoji": "📦",
     "image": "/images/items/dried_kelp.png",
     "category": "재료",
@@ -5202,7 +5202,7 @@
   },
   {
     "id": "drowned_spawn_egg",
-    "name": "드rowned 생성 알",
+    "name": "드라운드 생성 알",
     "emoji": "📦",
     "image": "/images/items/drowned_spawn_egg.png",
     "category": "음식",
@@ -5214,7 +5214,7 @@
   },
   {
     "id": "dune_armor_trim_smithing_template",
-    "name": "dune 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/dune_armor_trim_smithing_template.png",
     "category": "재료",
@@ -5240,7 +5240,7 @@
   },
   {
     "id": "egg",
-    "name": "알",
+    "name": "달걀",
     "emoji": "🥚",
     "image": "/images/items/egg.png",
     "category": "기타",
@@ -5316,7 +5316,7 @@
   },
   {
     "id": "enchanted_book",
-    "name": "마법부여 책",
+    "name": "마법이 부여된 책",
     "emoji": "📗",
     "image": "/images/items/enchanted_book.png",
     "category": "마법",
@@ -5330,7 +5330,7 @@
   },
   {
     "id": "enchanted_golden_apple",
-    "name": "마법 황금 사과",
+    "name": "마법이 부여된 황금 사과",
     "emoji": "🍎",
     "image": "/images/items/enchanted_golden_apple.png",
     "category": "음식",
@@ -5514,7 +5514,7 @@
   },
   {
     "id": "endermite_spawn_egg",
-    "name": "엔더mite 생성 알",
+    "name": "엔더마이트 생성 알",
     "emoji": "📦",
     "image": "/images/items/endermite_spawn_egg.png",
     "category": "음식",
@@ -5552,7 +5552,7 @@
   },
   {
     "id": "explorer_pottery_sherd",
-    "name": "explorer 도자기 조각",
+    "name": "탐험가 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/explorer_pottery_sherd.png",
     "category": "특수",
@@ -5672,7 +5672,7 @@
   },
   {
     "id": "eye_armor_trim_smithing_template",
-    "name": "eye 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/eye_armor_trim_smithing_template.png",
     "category": "재료",
@@ -5750,7 +5750,7 @@
   },
   {
     "id": "field_masoned_banner_pattern",
-    "name": "field masoned 배너 pattern",
+    "name": "벽돌 현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/field_masoned_banner_pattern.png",
     "category": "특수",
@@ -5822,7 +5822,7 @@
   },
   {
     "id": "firework_rocket",
-    "name": "폭죽",
+    "name": "폭죽 로켓",
     "emoji": "📦",
     "image": "/images/items/firework_rocket.png",
     "category": "특수",
@@ -5834,7 +5834,7 @@
   },
   {
     "id": "firework_star",
-    "name": "폭죽 별",
+    "name": "폭죽 탄약",
     "emoji": "📦",
     "image": "/images/items/firework_star.png",
     "category": "특수",
@@ -5900,7 +5900,7 @@
   },
   {
     "id": "flow_armor_trim_smithing_template",
-    "name": "flow 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/flow_armor_trim_smithing_template.png",
     "category": "재료",
@@ -5912,7 +5912,7 @@
   },
   {
     "id": "flow_banner_pattern",
-    "name": "flow 배너 pattern",
+    "name": "현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/flow_banner_pattern.png",
     "category": "특수",
@@ -5924,7 +5924,7 @@
   },
   {
     "id": "flow_pottery_sherd",
-    "name": "flow 도자기 조각",
+    "name": "흐름 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/flow_pottery_sherd.png",
     "category": "특수",
@@ -5936,7 +5936,7 @@
   },
   {
     "id": "flower_banner_pattern",
-    "name": "flower 배너 pattern",
+    "name": "현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/flower_banner_pattern.png",
     "category": "특수",
@@ -5996,7 +5996,7 @@
   },
   {
     "id": "friend_pottery_sherd",
-    "name": "friend 도자기 조각",
+    "name": "친구 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/friend_pottery_sherd.png",
     "category": "특수",
@@ -6044,7 +6044,7 @@
   },
   {
     "id": "furnace_minecart",
-    "name": "화로 광산 수레",
+    "name": "화로가 실린 광산 수레",
     "emoji": "📦",
     "image": "/images/items/furnace_minecart.png",
     "category": "이동",
@@ -6068,7 +6068,7 @@
   },
   {
     "id": "ghast_tear",
-    "name": "가스트의 눈물",
+    "name": "가스트 눈물",
     "emoji": "💧",
     "image": "/images/items/ghast_tear.png",
     "category": "특수",
@@ -6106,7 +6106,7 @@
   },
   {
     "id": "glass_bottle",
-    "name": "유리 bottle",
+    "name": "유리병",
     "emoji": "📦",
     "image": "/images/items/glass_bottle.png",
     "category": "재료",
@@ -6130,7 +6130,7 @@
   },
   {
     "id": "glistering_melon_slice",
-    "name": "번쩍이는 수박 조각",
+    "name": "반짝이는 수박 조각",
     "emoji": "💛",
     "image": "/images/items/glistering_melon_slice.png",
     "category": "재료",
@@ -6144,7 +6144,7 @@
   },
   {
     "id": "globe_banner_pattern",
-    "name": "globe 배너 pattern",
+    "name": "현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/globe_banner_pattern.png",
     "category": "특수",
@@ -6170,7 +6170,7 @@
   },
   {
     "id": "glow_ink_sac",
-    "name": "발광 잉크 주머니",
+    "name": "발광 먹물 주머니",
     "emoji": "💚",
     "image": "/images/items/glow_ink_sac.png",
     "category": "재료",
@@ -6244,7 +6244,7 @@
   },
   {
     "id": "goat_horn",
-    "name": "염소 horn",
+    "name": "염소 뿔",
     "emoji": "📦",
     "image": "/images/items/goat_horn.png",
     "category": "재료",
@@ -6409,7 +6409,7 @@
   },
   {
     "id": "golden_horse_armor",
-    "name": "golden 말 갑옷",
+    "name": "금 말 갑옷",
     "emoji": "📦",
     "image": "/images/items/golden_horse_armor.png",
     "category": "방어구",
@@ -6565,7 +6565,7 @@
   },
   {
     "id": "gray_bundle",
-    "name": "회색 bundle",
+    "name": "회색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/gray_bundle.png",
     "category": "재료",
@@ -6625,7 +6625,7 @@
   },
   {
     "id": "gray_dye",
-    "name": "회색 dye",
+    "name": "회색 염료",
     "emoji": "📦",
     "image": "/images/items/gray_dye.png",
     "category": "재료",
@@ -6733,7 +6733,7 @@
   },
   {
     "id": "green_bundle",
-    "name": "초록 bundle",
+    "name": "초록색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/green_bundle.png",
     "category": "재료",
@@ -6793,7 +6793,7 @@
   },
   {
     "id": "green_dye",
-    "name": "초록 dye",
+    "name": "초록색 염료",
     "emoji": "📦",
     "image": "/images/items/green_dye.png",
     "category": "재료",
@@ -6915,7 +6915,7 @@
   },
   {
     "id": "guster_banner_pattern",
-    "name": "guster 배너 pattern",
+    "name": "현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/guster_banner_pattern.png",
     "category": "특수",
@@ -6927,7 +6927,7 @@
   },
   {
     "id": "guster_pottery_sherd",
-    "name": "guster 도자기 조각",
+    "name": "소용돌이 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/guster_pottery_sherd.png",
     "category": "특수",
@@ -6977,7 +6977,7 @@
   },
   {
     "id": "heart_pottery_sherd",
-    "name": "heart 도자기 조각",
+    "name": "심장 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/heart_pottery_sherd.png",
     "category": "특수",
@@ -6989,7 +6989,7 @@
   },
   {
     "id": "heartbreak_pottery_sherd",
-    "name": "heartbreak 도자기 조각",
+    "name": "찢어진 심장 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/heartbreak_pottery_sherd.png",
     "category": "특수",
@@ -7063,7 +7063,7 @@
   },
   {
     "id": "honey_bottle",
-    "name": "꿀 병",
+    "name": "꿀이 든 병",
     "emoji": "🍯",
     "image": "/images/items/honey_bottle.png",
     "category": "음식",
@@ -7115,7 +7115,7 @@
   },
   {
     "id": "hopper_minecart",
-    "name": "호퍼 광산 수레",
+    "name": "호퍼가 실린 광산 수레",
     "emoji": "🛤️",
     "image": "/images/items/hopper_minecart.png",
     "category": "이동",
@@ -7177,7 +7177,7 @@
   },
   {
     "id": "host_armor_trim_smithing_template",
-    "name": "host 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/host_armor_trim_smithing_template.png",
     "category": "재료",
@@ -7189,7 +7189,7 @@
   },
   {
     "id": "howl_pottery_sherd",
-    "name": "howl 도자기 조각",
+    "name": "짖음 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/howl_pottery_sherd.png",
     "category": "특수",
@@ -7309,7 +7309,7 @@
   },
   {
     "id": "ink_sac",
-    "name": "잉크 주머니",
+    "name": "먹물 주머니",
     "emoji": "⚫",
     "image": "/images/items/ink_sac.png",
     "category": "재료",
@@ -7399,7 +7399,7 @@
   },
   {
     "id": "iron_golem_spawn_egg",
-    "name": "철 골lem 생성 알",
+    "name": "철 골렘 생성 알",
     "emoji": "📦",
     "image": "/images/items/iron_golem_spawn_egg.png",
     "category": "음식",
@@ -7411,7 +7411,7 @@
   },
   {
     "id": "iron_helmet",
-    "name": "철 헬멧",
+    "name": "철 투구",
     "emoji": "⛑️",
     "image": "/images/items/iron_helmet.png",
     "category": "방어구",
@@ -7437,7 +7437,7 @@
   },
   {
     "id": "iron_horse_armor",
-    "name": "철 말갑옷",
+    "name": "철 말 갑옷",
     "emoji": "🐴",
     "image": "/images/items/iron_horse_armor.png",
     "category": "방어구",
@@ -7602,7 +7602,7 @@
   },
   {
     "id": "jungle_boat",
-    "name": "정글 보트",
+    "name": "정글나무 보트",
     "emoji": "📦",
     "image": "/images/items/jungle_boat.png",
     "category": "이동",
@@ -7626,7 +7626,7 @@
   },
   {
     "id": "jungle_chest_boat",
-    "name": "정글 상자가 실린 보트",
+    "name": "상자가 실린 정글나무 보트",
     "emoji": "📦",
     "image": "/images/items/jungle_chest_boat.png",
     "category": "이동",
@@ -7955,7 +7955,7 @@
   },
   {
     "id": "leather_boots",
-    "name": "가죽 부츠",
+    "name": "가죽 장화",
     "emoji": "🥾",
     "image": "/images/items/leather_boots.png",
     "category": "방어구",
@@ -7968,7 +7968,7 @@
   },
   {
     "id": "leather_chestplate",
-    "name": "가죽 윗옷",
+    "name": "가죽 조끼",
     "emoji": "👕",
     "image": "/images/items/leather_chestplate.png",
     "category": "방어구",
@@ -8082,7 +8082,7 @@
   },
   {
     "id": "light_blue_bundle",
-    "name": "하늘색 bundle",
+    "name": "하늘색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/light_blue_bundle.png",
     "category": "재료",
@@ -8142,7 +8142,7 @@
   },
   {
     "id": "light_blue_dye",
-    "name": "하늘색 dye",
+    "name": "하늘색 염료",
     "emoji": "📦",
     "image": "/images/items/light_blue_dye.png",
     "category": "재료",
@@ -8250,7 +8250,7 @@
   },
   {
     "id": "light_gray_bundle",
-    "name": "회백색 bundle",
+    "name": "회백색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/light_gray_bundle.png",
     "category": "재료",
@@ -8310,7 +8310,7 @@
   },
   {
     "id": "light_gray_dye",
-    "name": "회백색 dye",
+    "name": "회백색 염료",
     "emoji": "📦",
     "image": "/images/items/light_gray_dye.png",
     "category": "재료",
@@ -8478,7 +8478,7 @@
   },
   {
     "id": "lime_bundle",
-    "name": "연두 bundle",
+    "name": "연두색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/lime_bundle.png",
     "category": "재료",
@@ -8538,7 +8538,7 @@
   },
   {
     "id": "lime_dye",
-    "name": "연두 dye",
+    "name": "연두색 염료",
     "emoji": "📦",
     "image": "/images/items/lime_dye.png",
     "category": "재료",
@@ -8706,7 +8706,7 @@
   },
   {
     "id": "magenta_bundle",
-    "name": "자홍 bundle",
+    "name": "자홍색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/magenta_bundle.png",
     "category": "재료",
@@ -8766,7 +8766,7 @@
   },
   {
     "id": "magenta_dye",
-    "name": "자홍 dye",
+    "name": "자홍색 염료",
     "emoji": "📦",
     "image": "/images/items/magenta_dye.png",
     "category": "재료",
@@ -8888,7 +8888,7 @@
   },
   {
     "id": "mangrove_boat",
-    "name": "맹그로브 보트",
+    "name": "맹그로브나무 보트",
     "emoji": "📦",
     "image": "/images/items/mangrove_boat.png",
     "category": "이동",
@@ -8912,7 +8912,7 @@
   },
   {
     "id": "mangrove_chest_boat",
-    "name": "맹그로브 상자가 실린 보트",
+    "name": "상자가 실린 맹그로브나무 보트",
     "emoji": "📦",
     "image": "/images/items/mangrove_chest_boat.png",
     "category": "이동",
@@ -9104,7 +9104,7 @@
   },
   {
     "id": "map",
-    "name": "지도",
+    "name": "빈 지도",
     "emoji": "🗺️",
     "image": "/images/items/map.png",
     "category": "도구",
@@ -9142,7 +9142,7 @@
   },
   {
     "id": "melon_seeds",
-    "name": "수박 씨앗",
+    "name": "수박씨",
     "emoji": "📦",
     "image": "/images/items/melon_seeds.png",
     "category": "음식",
@@ -9194,7 +9194,7 @@
   },
   {
     "id": "miner_pottery_sherd",
-    "name": "miner 도자기 조각",
+    "name": "광부 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/miner_pottery_sherd.png",
     "category": "특수",
@@ -9206,7 +9206,7 @@
   },
   {
     "id": "mojang_banner_pattern",
-    "name": "mojang 배너 pattern",
+    "name": "현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/mojang_banner_pattern.png",
     "category": "특수",
@@ -9218,7 +9218,7 @@
   },
   {
     "id": "mooshroom_spawn_egg",
-    "name": "무shroom 생성 알",
+    "name": "무시룸 생성 알",
     "emoji": "📦",
     "image": "/images/items/mooshroom_spawn_egg.png",
     "category": "음식",
@@ -9350,7 +9350,7 @@
   },
   {
     "id": "mourner_pottery_sherd",
-    "name": "mourner 도자기 조각",
+    "name": "애도자 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/mourner_pottery_sherd.png",
     "category": "특수",
@@ -9470,7 +9470,7 @@
   },
   {
     "id": "music_disc_11",
-    "name": "음반 (11)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_11.png",
     "category": "음악",
@@ -9482,7 +9482,7 @@
   },
   {
     "id": "music_disc_13",
-    "name": "음악 디스크 '13'",
+    "name": "음반",
     "emoji": "💿",
     "image": "/images/items/music_disc_13.png",
     "category": "음악",
@@ -9495,7 +9495,7 @@
   },
   {
     "id": "music_disc_5",
-    "name": "음반 (5)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_5.png",
     "category": "음악",
@@ -9507,7 +9507,7 @@
   },
   {
     "id": "music_disc_blocks",
-    "name": "음반 (blocks)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_blocks.png",
     "category": "음악",
@@ -9519,7 +9519,7 @@
   },
   {
     "id": "music_disc_cat",
-    "name": "음반 (cat)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_cat.png",
     "category": "음악",
@@ -9531,7 +9531,7 @@
   },
   {
     "id": "music_disc_chirp",
-    "name": "음반 (chirp)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_chirp.png",
     "category": "음악",
@@ -9543,7 +9543,7 @@
   },
   {
     "id": "music_disc_creator",
-    "name": "음반 (creator)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_creator.png",
     "category": "음악",
@@ -9555,7 +9555,7 @@
   },
   {
     "id": "music_disc_creator_music_box",
-    "name": "음반 (creator_music_box)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_creator_music_box.png",
     "category": "음악",
@@ -9567,7 +9567,7 @@
   },
   {
     "id": "music_disc_far",
-    "name": "음반 (far)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_far.png",
     "category": "음악",
@@ -9579,7 +9579,7 @@
   },
   {
     "id": "music_disc_mall",
-    "name": "음반 (mall)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_mall.png",
     "category": "음악",
@@ -9591,7 +9591,7 @@
   },
   {
     "id": "music_disc_mellohi",
-    "name": "음반 (mellohi)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_mellohi.png",
     "category": "음악",
@@ -9603,7 +9603,7 @@
   },
   {
     "id": "music_disc_otherside",
-    "name": "음반 (otherside)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_otherside.png",
     "category": "음악",
@@ -9615,7 +9615,7 @@
   },
   {
     "id": "music_disc_pigstep",
-    "name": "음악 디스크 'Pigstep'",
+    "name": "음반",
     "emoji": "💿",
     "image": "/images/items/music_disc_pigstep.png",
     "category": "음악",
@@ -9630,7 +9630,7 @@
   },
   {
     "id": "music_disc_precipice",
-    "name": "음반 (precipice)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_precipice.png",
     "category": "음악",
@@ -9642,7 +9642,7 @@
   },
   {
     "id": "music_disc_relic",
-    "name": "음반 (relic)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_relic.png",
     "category": "음악",
@@ -9654,7 +9654,7 @@
   },
   {
     "id": "music_disc_stal",
-    "name": "음반 (stal)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_stal.png",
     "category": "음악",
@@ -9666,7 +9666,7 @@
   },
   {
     "id": "music_disc_strad",
-    "name": "음반 (strad)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_strad.png",
     "category": "음악",
@@ -9678,7 +9678,7 @@
   },
   {
     "id": "music_disc_wait",
-    "name": "음반 (wait)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_wait.png",
     "category": "음악",
@@ -9690,7 +9690,7 @@
   },
   {
     "id": "music_disc_ward",
-    "name": "음반 (ward)",
+    "name": "음반",
     "emoji": "📦",
     "image": "/images/items/music_disc_ward.png",
     "category": "음악",
@@ -9740,7 +9740,7 @@
   },
   {
     "id": "nautilus_shell",
-    "name": "노틸러스 껍데기",
+    "name": "앵무조개 껍데기",
     "emoji": "🐚",
     "image": "/images/items/nautilus_shell.png",
     "category": "특수",
@@ -10074,7 +10074,7 @@
   },
   {
     "id": "netherite_upgrade_smithing_template",
-    "name": "netherite upgrade 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/netherite_upgrade_smithing_template.png",
     "category": "재료",
@@ -10134,7 +10134,7 @@
   },
   {
     "id": "oak_chest_boat",
-    "name": "참나무 상자가 실린 보트",
+    "name": "상자가 실린 참나무 보트",
     "emoji": "📦",
     "image": "/images/items/oak_chest_boat.png",
     "category": "이동",
@@ -10338,7 +10338,7 @@
   },
   {
     "id": "ocelot_spawn_egg",
-    "name": "오celot 생성 알",
+    "name": "오실롯 생성 알",
     "emoji": "📦",
     "image": "/images/items/ocelot_spawn_egg.png",
     "category": "음식",
@@ -10422,7 +10422,7 @@
   },
   {
     "id": "orange_bundle",
-    "name": "주황 bundle",
+    "name": "주황색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/orange_bundle.png",
     "category": "재료",
@@ -10482,7 +10482,7 @@
   },
   {
     "id": "orange_dye",
-    "name": "주황 dye",
+    "name": "주황색 염료",
     "emoji": "📦",
     "image": "/images/items/orange_dye.png",
     "category": "재료",
@@ -10794,7 +10794,7 @@
   },
   {
     "id": "pale_oak_chest_boat",
-    "name": "창백한 참나무 상자가 실린 보트",
+    "name": "상자가 실린 창백한 참나무 보트",
     "emoji": "📦",
     "image": "/images/items/pale_oak_chest_boat.png",
     "category": "이동",
@@ -11112,7 +11112,7 @@
   },
   {
     "id": "piglin_banner_pattern",
-    "name": "피글린 배너 pattern",
+    "name": "현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/piglin_banner_pattern.png",
     "category": "특수",
@@ -11124,7 +11124,7 @@
   },
   {
     "id": "piglin_brute_spawn_egg",
-    "name": "피글린 brute 생성 알",
+    "name": "난폭한 피글린 생성 알",
     "emoji": "📦",
     "image": "/images/items/piglin_brute_spawn_egg.png",
     "category": "음식",
@@ -11196,7 +11196,7 @@
   },
   {
     "id": "pink_bundle",
-    "name": "분홍 bundle",
+    "name": "분홍색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/pink_bundle.png",
     "category": "재료",
@@ -11256,7 +11256,7 @@
   },
   {
     "id": "pink_dye",
-    "name": "분홍 dye",
+    "name": "분홍색 염료",
     "emoji": "📦",
     "image": "/images/items/pink_dye.png",
     "category": "재료",
@@ -11388,7 +11388,7 @@
   },
   {
     "id": "pitcher_pod",
-    "name": "벌레잡이풀 콩",
+    "name": "벌레잡이풀 꼬투리",
     "emoji": "📦",
     "image": "/images/items/pitcher_pod.png",
     "category": "농작물",
@@ -11412,7 +11412,7 @@
   },
   {
     "id": "plenty_pottery_sherd",
-    "name": "plenty 도자기 조각",
+    "name": "풍부 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/plenty_pottery_sherd.png",
     "category": "특수",
@@ -11944,7 +11944,7 @@
   },
   {
     "id": "prismarine_crystals",
-    "name": "프리즈마린 crystals",
+    "name": "프리즈머린 수정",
     "emoji": "📦",
     "image": "/images/items/prismarine_crystals.png",
     "category": "재료",
@@ -11956,7 +11956,7 @@
   },
   {
     "id": "prismarine_shard",
-    "name": "프리즈마린 shard",
+    "name": "프리즈머린 조각",
     "emoji": "📦",
     "image": "/images/items/prismarine_shard.png",
     "category": "자원",
@@ -12004,7 +12004,7 @@
   },
   {
     "id": "prize_pottery_sherd",
-    "name": "prize 도자기 조각",
+    "name": "보물 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/prize_pottery_sherd.png",
     "category": "특수",
@@ -12030,7 +12030,7 @@
   },
   {
     "id": "pufferfish_bucket",
-    "name": "복어 양동이",
+    "name": "복어가 담긴 양동이",
     "emoji": "🍖",
     "image": "/images/items/pufferfish_bucket.png",
     "category": "도구",
@@ -12080,7 +12080,7 @@
   },
   {
     "id": "pumpkin_seeds",
-    "name": "호박 씨앗",
+    "name": "호박씨",
     "emoji": "📦",
     "image": "/images/items/pumpkin_seeds.png",
     "category": "농작물",
@@ -12116,7 +12116,7 @@
   },
   {
     "id": "purple_bundle",
-    "name": "보라 bundle",
+    "name": "보라색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/purple_bundle.png",
     "category": "재료",
@@ -12176,7 +12176,7 @@
   },
   {
     "id": "purple_dye",
-    "name": "보라 dye",
+    "name": "보라색 염료",
     "emoji": "📦",
     "image": "/images/items/purple_dye.png",
     "category": "재료",
@@ -12380,7 +12380,7 @@
   },
   {
     "id": "rabbit",
-    "name": "토끼",
+    "name": "익히지 않은 토끼고기",
     "emoji": "📦",
     "image": "/images/items/rabbit.png",
     "category": "재료",
@@ -12392,7 +12392,7 @@
   },
   {
     "id": "rabbit_foot",
-    "name": "토끼 foot",
+    "name": "토끼발",
     "emoji": "📦",
     "image": "/images/items/rabbit_foot.png",
     "category": "재료",
@@ -12428,7 +12428,7 @@
   },
   {
     "id": "rabbit_stew",
-    "name": "토끼 stew",
+    "name": "토끼 스튜",
     "emoji": "🍖",
     "image": "/images/items/rabbit_stew.png",
     "category": "음식",
@@ -12453,7 +12453,7 @@
   },
   {
     "id": "raiser_armor_trim_smithing_template",
-    "name": "raiser 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/raiser_armor_trim_smithing_template.png",
     "category": "재료",
@@ -12587,7 +12587,7 @@
   },
   {
     "id": "red_bundle",
-    "name": "빨간 bundle",
+    "name": "빨간색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/red_bundle.png",
     "category": "재료",
@@ -12647,7 +12647,7 @@
   },
   {
     "id": "red_dye",
-    "name": "빨간 dye",
+    "name": "빨간색 염료",
     "emoji": "📦",
     "image": "/images/items/red_dye.png",
     "category": "재료",
@@ -12875,7 +12875,7 @@
   },
   {
     "id": "redstone",
-    "name": "레드스톤",
+    "name": "레드스톤 가루",
     "emoji": "💎",
     "image": "/images/items/redstone.png",
     "category": "자원",
@@ -13067,7 +13067,7 @@
   },
   {
     "id": "rib_armor_trim_smithing_template",
-    "name": "rib 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/rib_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13131,7 +13131,7 @@
   },
   {
     "id": "salmon",
-    "name": "연어",
+    "name": "익히지 않은 연어",
     "emoji": "📦",
     "image": "/images/items/salmon.png",
     "category": "재료",
@@ -13143,7 +13143,7 @@
   },
   {
     "id": "salmon_bucket",
-    "name": "연어 양동이",
+    "name": "연어가 담긴 양동이",
     "emoji": "📦",
     "image": "/images/items/salmon_bucket.png",
     "category": "도구",
@@ -13239,7 +13239,7 @@
   },
   {
     "id": "scrape_pottery_sherd",
-    "name": "scrape 도자기 조각",
+    "name": "긁개 도자기 조각",
     "emoji": "💎",
     "image": "/images/items/scrape_pottery_sherd.png",
     "category": "자원",
@@ -13347,7 +13347,7 @@
   },
   {
     "id": "sentry_armor_trim_smithing_template",
-    "name": "sentry 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/sentry_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13359,7 +13359,7 @@
   },
   {
     "id": "shaper_armor_trim_smithing_template",
-    "name": "shaper 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/shaper_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13371,7 +13371,7 @@
   },
   {
     "id": "sheaf_pottery_sherd",
-    "name": "sheaf 도자기 조각",
+    "name": "다발 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/sheaf_pottery_sherd.png",
     "category": "특수",
@@ -13409,7 +13409,7 @@
   },
   {
     "id": "shelter_pottery_sherd",
-    "name": "shelter 도자기 조각",
+    "name": "피신처 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/shelter_pottery_sherd.png",
     "category": "특수",
@@ -13513,7 +13513,7 @@
   },
   {
     "id": "silence_armor_trim_smithing_template",
-    "name": "silence 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/silence_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13525,7 +13525,7 @@
   },
   {
     "id": "silverfish_spawn_egg",
-    "name": "좀be 생성 알",
+    "name": "좀벌레 생성 알",
     "emoji": "🍖",
     "image": "/images/items/silverfish_spawn_egg.png",
     "category": "음식",
@@ -13573,7 +13573,7 @@
   },
   {
     "id": "skull_banner_pattern",
-    "name": "skull 배너 pattern",
+    "name": "현수막 무늬",
     "emoji": "📦",
     "image": "/images/items/skull_banner_pattern.png",
     "category": "특수",
@@ -13585,7 +13585,7 @@
   },
   {
     "id": "skull_pottery_sherd",
-    "name": "skull 도자기 조각",
+    "name": "해골 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/skull_pottery_sherd.png",
     "category": "특수",
@@ -13597,7 +13597,7 @@
   },
   {
     "id": "slime_ball",
-    "name": "점액 덩어리",
+    "name": "슬라임볼",
     "emoji": "📦",
     "image": "/images/items/slime_ball.png",
     "category": "자원",
@@ -13849,7 +13849,7 @@
   },
   {
     "id": "snort_pottery_sherd",
-    "name": "snort 도자기 조각",
+    "name": "콧바람 도자기 조각",
     "emoji": "📦",
     "image": "/images/items/snort_pottery_sherd.png",
     "category": "특수",
@@ -13861,7 +13861,7 @@
   },
   {
     "id": "snout_armor_trim_smithing_template",
-    "name": "snout 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/snout_armor_trim_smithing_template.png",
     "category": "재료",
@@ -13897,7 +13897,7 @@
   },
   {
     "id": "snow_golem_spawn_egg",
-    "name": "눈 골lem 생성 알",
+    "name": "눈 골렘 생성 알",
     "emoji": "📦",
     "image": "/images/items/snow_golem_spawn_egg.png",
     "category": "음식",
@@ -14049,7 +14049,7 @@
   },
   {
     "id": "spire_armor_trim_smithing_template",
-    "name": "spire 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/spire_armor_trim_smithing_template.png",
     "category": "재료",
@@ -14061,7 +14061,7 @@
   },
   {
     "id": "splash_potion",
-    "name": "투척형 물약",
+    "name": "투척용 물약",
     "emoji": "🧪",
     "image": "/images/items/splash_potion.png",
     "category": "양조",
@@ -14097,7 +14097,7 @@
   },
   {
     "id": "spruce_boat",
-    "name": "가문비 보트",
+    "name": "가문비나무 보트",
     "emoji": "📦",
     "image": "/images/items/spruce_boat.png",
     "category": "이동",
@@ -14121,7 +14121,7 @@
   },
   {
     "id": "spruce_chest_boat",
-    "name": "가문비 상자가 실린 보트",
+    "name": "상자가 실린 가문비나무 보트",
     "emoji": "📦",
     "image": "/images/items/spruce_chest_boat.png",
     "category": "이동",
@@ -14365,7 +14365,7 @@
   },
   {
     "id": "stone_axe",
-    "name": "돌 axe",
+    "name": "돌 도끼",
     "emoji": "⚔️",
     "image": "/images/items/stone_axe.png",
     "category": "도구",
@@ -14473,7 +14473,7 @@
   },
   {
     "id": "stone_hoe",
-    "name": "돌 hoe",
+    "name": "돌 괭이",
     "emoji": "⚔️",
     "image": "/images/items/stone_hoe.png",
     "category": "도구",
@@ -14509,7 +14509,7 @@
   },
   {
     "id": "stone_pickaxe",
-    "name": "돌 pickaxe",
+    "name": "돌 곡괭이",
     "emoji": "⚔️",
     "image": "/images/items/stone_pickaxe.png",
     "category": "도구",
@@ -14533,7 +14533,7 @@
   },
   {
     "id": "stone_shovel",
-    "name": "돌 shovel",
+    "name": "돌 삽",
     "emoji": "⚔️",
     "image": "/images/items/stone_shovel.png",
     "category": "도구",
@@ -14569,7 +14569,7 @@
   },
   {
     "id": "stone_sword",
-    "name": "돌 sword",
+    "name": "돌 검",
     "emoji": "⚔️",
     "image": "/images/items/stone_sword.png",
     "category": "무기",
@@ -14593,7 +14593,7 @@
   },
   {
     "id": "stray_spawn_egg",
-    "name": "스트ray 생성 알",
+    "name": "스트레이 생성 알",
     "emoji": "📦",
     "image": "/images/items/stray_spawn_egg.png",
     "category": "음식",
@@ -14605,7 +14605,7 @@
   },
   {
     "id": "strider_spawn_egg",
-    "name": "스트라ider 생성 알",
+    "name": "스트라이더 생성 알",
     "emoji": "📦",
     "image": "/images/items/strider_spawn_egg.png",
     "category": "음식",
@@ -15063,7 +15063,7 @@
   },
   {
     "id": "tadpole_bucket",
-    "name": "올챙이 양동이",
+    "name": "올챙이가 담긴 양동이",
     "emoji": "📦",
     "image": "/images/items/tadpole_bucket.png",
     "category": "도구",
@@ -15123,7 +15123,7 @@
   },
   {
     "id": "tide_armor_trim_smithing_template",
-    "name": "tide 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/tide_armor_trim_smithing_template.png",
     "category": "재료",
@@ -15147,7 +15147,7 @@
   },
   {
     "id": "tipped_arrow",
-    "name": "효과가 있는 화살",
+    "name": "물약이 묻은 화살",
     "emoji": "📦",
     "image": "/images/items/tipped_arrow.png",
     "category": "무기",
@@ -15171,7 +15171,7 @@
   },
   {
     "id": "tnt_minecart",
-    "name": "TNT 광산 수레",
+    "name": "TNT가 실린 광산 수레",
     "emoji": "💥",
     "image": "/images/items/tnt_minecart.png",
     "category": "이동",
@@ -15335,7 +15335,7 @@
   },
   {
     "id": "tropical_fish_bucket",
-    "name": "열대어 양동이",
+    "name": "열대어가 담긴 양동이",
     "emoji": "🍖",
     "image": "/images/items/tropical_fish_bucket.png",
     "category": "도구",
@@ -15503,7 +15503,7 @@
   },
   {
     "id": "turtle_helmet",
-    "name": "거북 helmet",
+    "name": "거북 등딱지",
     "emoji": "🦺",
     "image": "/images/items/turtle_helmet.png",
     "category": "방어구",
@@ -15515,7 +15515,7 @@
   },
   {
     "id": "turtle_scute",
-    "name": "거북 등딱지",
+    "name": "거북 인갑",
     "emoji": "📦",
     "image": "/images/items/turtle_scute.png",
     "category": "재료",
@@ -15575,7 +15575,7 @@
   },
   {
     "id": "vex_armor_trim_smithing_template",
-    "name": "벡스 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/vex_armor_trim_smithing_template.png",
     "category": "재료",
@@ -15647,7 +15647,7 @@
   },
   {
     "id": "ward_armor_trim_smithing_template",
-    "name": "ward 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/ward_armor_trim_smithing_template.png",
     "category": "재료",
@@ -15731,7 +15731,7 @@
   },
   {
     "id": "warped_fungus_on_a_stick",
-    "name": "뒤틀린 fungus on a stick",
+    "name": "뒤틀린 균 낚싯대",
     "emoji": "📦",
     "image": "/images/items/warped_fungus_on_a_stick.png",
     "category": "재료",
@@ -16333,7 +16333,7 @@
   },
   {
     "id": "wayfinder_armor_trim_smithing_template",
-    "name": "wayfinder 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/wayfinder_armor_trim_smithing_template.png",
     "category": "재료",
@@ -16529,7 +16529,7 @@
   },
   {
     "id": "white_bundle",
-    "name": "흰색 bundle",
+    "name": "하얀색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/white_bundle.png",
     "category": "재료",
@@ -16589,7 +16589,7 @@
   },
   {
     "id": "white_dye",
-    "name": "흰색 dye",
+    "name": "하얀색 염료",
     "emoji": "📦",
     "image": "/images/items/white_dye.png",
     "category": "재료",
@@ -16685,7 +16685,7 @@
   },
   {
     "id": "wild_armor_trim_smithing_template",
-    "name": "wild 갑옷 장식 대장장이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/wild_armor_trim_smithing_template.png",
     "category": "재료",
@@ -16913,7 +16913,7 @@
   },
   {
     "id": "writable_book",
-    "name": "필기책",
+    "name": "책과 깃펜",
     "emoji": "📓",
     "image": "/images/items/writable_book.png",
     "category": "특수",
@@ -16927,7 +16927,7 @@
   },
   {
     "id": "written_book",
-    "name": "글이 적힌 책",
+    "name": "글이 쓰인 책",
     "emoji": "📖",
     "image": "/images/items/written_book.png",
     "category": "재료",
@@ -16963,7 +16963,7 @@
   },
   {
     "id": "yellow_bundle",
-    "name": "노란 bundle",
+    "name": "노란색 꾸러미",
     "emoji": "📦",
     "image": "/images/items/yellow_bundle.png",
     "category": "재료",
@@ -17023,7 +17023,7 @@
   },
   {
     "id": "yellow_dye",
-    "name": "노란 dye",
+    "name": "노란색 염료",
     "emoji": "📦",
     "image": "/images/items/yellow_dye.png",
     "category": "재료",
