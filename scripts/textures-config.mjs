@@ -46,6 +46,15 @@ function loadBlockIds() {
 
 const blockIdSet = loadBlockIds();
 
+let textureUrlMap = {};
+try {
+  textureUrlMap = JSON.parse(
+    readFileSync(resolve(root, "scripts/texture-url-map.json"), "utf-8")
+  );
+} catch {
+  /* build-texture-map 실행 전 */
+}
+
 function localBlockExists(id) {
   return existsSync(resolve(root, "public/images/blocks", `${id}.png`));
 }
@@ -55,6 +64,7 @@ function localItemExists(id) {
 }
 
 export function getBlockImageUrl(id) {
+  if (textureUrlMap[id]) return textureUrlMap[id];
   const cdnUrl = `${CDN}/${cdnBlockPath(id)}`;
   if (USE_CDN) return cdnUrl;
   if (localBlockExists(id)) return `${BASE_PATH}/images/blocks/${id}.png`;
@@ -62,6 +72,7 @@ export function getBlockImageUrl(id) {
 }
 
 export function getItemImageUrl(id) {
+  if (textureUrlMap[id]) return textureUrlMap[id];
   if (blockIdSet.has(id)) return getBlockImageUrl(id);
   const cdnUrl = `${CDN}/${cdnItemPath(id)}`;
   if (USE_CDN) return cdnUrl;

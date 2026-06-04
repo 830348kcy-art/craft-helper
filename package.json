@@ -6,9 +6,9 @@
     "dev": "next dev",
     "sync": "node scripts/sync-textures.mjs",
     "generate": "node scripts/fetch-ko-lang.mjs && node scripts/generate-catalog.mjs && node scripts/generate-recipes.mjs",
-    "prebuild:index": "node scripts/build-search-index.mjs",
-    "build": "node scripts/sync-textures.mjs && node scripts/build-search-index.mjs && next build",
-    "build:ci": "node scripts/build-search-index.mjs && next build",
+    "prebuild:index": "node scripts/build-texture-map.mjs && node scripts/build-search-index.mjs",
+    "build": "node scripts/sync-textures.mjs && node scripts/build-texture-map.mjs && node scripts/build-search-index.mjs && next build",
+    "build:ci": "node scripts/build-texture-map.mjs && node scripts/build-search-index.mjs && next build",
     "start": "next start",
     "lint": "next lint"
   },

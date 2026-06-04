@@ -131,7 +131,7 @@ function SearchContent() {
             {g.data.map((r) => (
               <li key={`${r.type}-${r.id}`}>
                 <Link href={r.href} className="group flex items-start gap-3 p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:border-brand-400 hover:shadow-md hover:-translate-y-0.5 transition-all">
-                  <SmartIcon image={r.image} emoji={r.emoji} size="lg" framed className="mt-0.5" />
+                  <SmartIcon image={r.image} textureId={r.id} emoji={r.emoji} size="lg" framed className="mt-0.5" />
                   <div className="min-w-0">
                     <p className="font-semibold text-sm text-link dark:text-link-dark truncate">{r.name}</p>
                     <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-0.5">{r.category}</p>

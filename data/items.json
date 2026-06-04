@@ -2735,7 +2735,7 @@
   },
   {
     "id": "chipped_anvil",
-    "name": "chipped 모루",
+    "name": "금이 간 모루",
     "emoji": "📦",
     "image": "/images/items/chipped_anvil.png",
     "category": "재료",

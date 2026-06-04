@@ -100,7 +100,7 @@ export default async function SearchDetailPage({
 
         <div className="relative flex items-center gap-6 p-6 sm:p-8 flex-col sm:flex-row">
           <div className="shrink-0 p-4 rounded-2xl bg-white/80 dark:bg-zinc-950/60 backdrop-blur-sm border border-white/60 dark:border-zinc-800 shadow-lg">
-            <SmartIcon image={entry.image} emoji={entry.emoji} size="hero" alt={entry.name} />
+            <SmartIcon textureId={entry.id} image={entry.image} emoji={entry.emoji} size="hero" alt={entry.name} />
           </div>
           <div className="flex-1 min-w-0 text-center sm:text-left">
             <div className="flex items-center gap-2 mb-2 flex-wrap justify-center sm:justify-start">

@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import { getTextureCandidates } from "@/lib/textures";
 
 type Size = "xs" | "sm" | "md" | "lg" | "xl" | "hero";
 
@@ -21,10 +22,12 @@ const SIZE_TEXT: Record<Size, string> = {
 };
 
 /**
- * 마인크래프트 텍스처를 픽셀아트로 렌더. 404면 이모지로 폴백.
+ * 마인크래ft 텍스처를 픽셀아트로 렌더.
+ * textureId 또는 image URL이 실패하면 CDN 후보를 순차 시도, 모두 실패 시 이모지.
  */
 export function SmartIcon({
   image,
+  textureId,
   emoji,
   alt,
   size = "md",
@@ -32,26 +35,45 @@ export function SmartIcon({
   className = "",
 }: {
   image?: string;
+  /** 카탈로그 ID — 다중 CDN 폴백에 사용 */
+  textureId?: string;
   emoji: string;
   alt?: string;
   size?: Size;
-  /** 회색 인벤토리 슬롯 스타일 배경을 둠 */
   framed?: boolean;
   className?: string;
 }) {
-  const [failed, setFailed] = useState(false);
+  const candidates = useMemo(() => {
+    const list: string[] = [];
+    const seen = new Set<string>();
+    const add = (url?: string) => {
+      if (!url || seen.has(url)) return;
+      seen.add(url);
+      list.push(url);
+    };
+    if (textureId) {
+      for (const u of getTextureCandidates(textureId)) add(u);
+    }
+    add(image);
+    return list;
+  }, [textureId, image]);
+
+  const [idx, setIdx] = useState(0);
   const px = SIZE_PX[size];
-  const showImage = image && !failed;
+  const src = candidates[idx];
+  const showImage = src && idx < candidates.length;
 
   const inner = showImage ? (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={image}
+      src={src}
       alt={alt ?? emoji}
       width={px}
       height={px}
       loading="lazy"
-      onError={() => setFailed(true)}
+      onError={() => {
+        if (idx + 1 < candidates.length) setIdx((i) => i + 1);
+      }}
       style={{ imageRendering: "pixelated" }}
       className="object-contain w-full h-full"
       draggable={false}

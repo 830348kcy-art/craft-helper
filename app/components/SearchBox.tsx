@@ -98,7 +98,7 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
                   onClick={() => { router.push(resultHref(r)); setOpen(false); setQuery(""); }}
                   className="w-full flex items-center gap-3 px-4 py-3 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-left transition"
                 >
-                  <SmartIcon image={r.image} emoji={r.emoji} size="md" />
+                  <SmartIcon image={r.image} textureId={r.id} emoji={r.emoji} size="md" />
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-1.5">
                       <span className="text-sm font-medium truncate">{r.name}</span>

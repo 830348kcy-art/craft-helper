@@ -145,7 +145,7 @@ function EntryGrid({ entries }: { entries: { id: string; name: string; emoji: st
             href={e.href}
             className="flex items-center gap-2 p-2 border border-wiki-borderSoft dark:border-zinc-700 bg-white dark:bg-zinc-900 hover:bg-wiki-panel/60 dark:hover:bg-zinc-800 transition no-underline"
           >
-            <SmartIcon image={e.image} emoji={e.emoji} size="sm" alt={e.name} />
+            <SmartIcon textureId={e.id} image={e.image} emoji={e.emoji} size="sm" alt={e.name} />
             <div className="min-w-0 flex-1">
               <p className="text-[13px] text-link dark:text-link-dark hover:underline truncate font-medium">
                 {e.name}

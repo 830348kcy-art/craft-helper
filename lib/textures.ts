@@ -5,6 +5,7 @@
  */
 
 import textureMapJson from "../scripts/texture-map.json";
+import textureUrlMapJson from "../scripts/texture-url-map.json";
 import blocksCatalog from "../data/blocks.json";
 import itemsCatalog from "../data/items.json";
 
@@ -15,6 +16,7 @@ const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const USE_CDN = process.env.CI === "true";
 
 const textureMap = textureMapJson as Record<string, string>;
+const textureUrlMap = textureUrlMapJson as Record<string, string>;
 const blockIdSet = new Set(blocksCatalog.map((b) => b.id));
 
 type KoNameEntry = { id: string; type: "block" | "item" };
@@ -306,15 +308,45 @@ export const KOREAN_TO_TEXTURE: Record<string, string> = {
 };
 
 export function getItemTexture(id: string): string {
+  if (textureUrlMap[id]) return textureUrlMap[id];
   if (blockIdSet.has(id)) return getBlockTexture(id);
   return `${CDN}/${cdnItemPath(id)}`;
 }
 
 export function getBlockTexture(id: string): string {
+  if (textureUrlMap[id]) return textureUrlMap[id];
   const cdnUrl = `${CDN}/${cdnBlockPath(id)}`;
   if (USE_CDN) return cdnUrl;
   const local = localSyncedBlockUrl(id);
   return local ?? cdnUrl;
+}
+
+/** SmartIcon 폴백용 — 검증된 URL + 동적 후보 */
+export function getTextureCandidates(id: string): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  const add = (url?: string | null) => {
+    if (!url || seen.has(url)) return;
+    seen.add(url);
+    out.push(url);
+  };
+
+  add(textureUrlMap[id]);
+  add(`${CDN}/${cdnBlockPath(id)}`);
+  add(`${CDN}/${cdnItemPath(id)}`);
+  add(`${CDN}/block/${id}.png`);
+  add(`${CDN}/block/${id}_top.png`);
+  add(`${CDN}/block/${id}_side.png`);
+  if (id.endsWith("_spawn_egg")) add(`${CDN}/item/spawn_egg.png`);
+
+  const base = baseBlockId(id);
+  if (base !== id) {
+    add(textureUrlMap[base]);
+    add(`${CDN}/block/${base}_planks.png`);
+    add(`${CDN}/block/${blockFileName(base)}`);
+  }
+
+  return out;
 }
 
 function localSyncedBlockUrl(id: string): string | null {

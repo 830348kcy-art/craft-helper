@@ -49,7 +49,7 @@ export function RelatedItems({
               href={it.href}
               className="group flex items-center gap-2.5 p-2.5 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:border-brand-400 hover:shadow-md hover:-translate-y-0.5 transition-all"
             >
-              <SmartIcon image={it.image} emoji={it.emoji} size="md" framed />
+              <SmartIcon textureId={it.id} image={it.image} emoji={it.emoji} size="md" framed />
               <div className="min-w-0 flex-1">
                 <div className="flex items-center gap-1">
                   <p className="text-sm font-medium truncate">{it.name}</p>
