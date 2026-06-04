@@ -3,11 +3,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { Header } from "./components/Header";
+import { AppChrome } from "./components/AppChrome";
 import { ScrollToTop } from "./components/ScrollToTop";
 
 export const metadata: Metadata = {
-  title: "Craft Helper",
-  description: "Craft Helper — 한국어 마인크래프트 가이드. 블록, 아이템, 몹, 레드스톤, 자동 농장.",
+  title: "Craft Helper with java",
+  description: "Craft Helper with java — 한국어 마인크래프트 Java 에디션 가이드. 블록, 아이템, 레드스톤, 자동 농장.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -22,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col font-sans antialiased">
         <ThemeProvider>
           <Header />
-          <div className="flex-1">{children}</div>
+          <AppChrome>{children}</AppChrome>
 
           <footer className="mt-auto border-t border-brand-900/20 bg-gradient-to-b from-wiki-header to-[#152a20] text-white/75">
             <div className="max-w-[1400px] mx-auto px-4 sm:px-6 py-8 text-[13px]">

@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { docs, categories } from "@/lib/data";
-import { Sidebar } from "@/app/components/Sidebar";
 import { InfoBox } from "@/app/components/InfoBox";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
@@ -17,12 +16,9 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
   const category = categories.find((c) => c.slug === doc.category);
 
   return (
-    <div className="wiki-page-bg min-h-[80vh]">
+    <div className="wiki-page-bg min-h-[80vh] flex-1">
       <div className="wiki-page-mesh" aria-hidden />
-      <div className="max-w-[1400px] mx-auto flex relative z-10">
-        <Sidebar activeSlug={doc.slug} />
-
-        <main className="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-6 sm:py-8 max-w-[1100px]">
           <WikiArticle>
             <div className="wiki-hero-banner !border-0">
               <nav className="relative z-10 text-[12px] text-white/70 mb-3">
@@ -101,7 +97,6 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
           <p className="mt-4 text-[12px] text-wiki-muted dark:text-zinc-500 text-right pr-2">
             마지막 편집: {new Date().toLocaleDateString("ko-KR", { year: "numeric", month: "long", day: "numeric" })}
           </p>
-        </main>
       </div>
     </div>
   );
