@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { categories, featuredGuides, docs } from "@/lib/data";
+import { featuredGuides, docs } from "@/lib/data";
 import { SmartIcon } from "./components/SmartIcon";
 import { PageShell, WikiSection } from "./components/PageShell";
 import { getBlockTexture, getItemTexture, getCategoryTexture } from "@/lib/textures";
@@ -87,28 +87,32 @@ export default async function HomePage() {
         </ul>
       </WikiSection>
 
-      <WikiSection title="분류" subtitle="관심 분야로 탐색">
-        <ul className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          {categories.map((c) => (
-            <li key={c.slug}>
-              <Link
-                href={`/category/${c.slug}`}
-                className={`wiki-card-hover flex flex-col items-center gap-2 p-4 text-center no-underline border-l-4 ${accentBorder(c.slug)}`}
-              >
-                <div className="wiki-icon-frame">
-                  <SmartIcon image={getCategoryTexture(c.slug)} emoji={c.emoji} size="md" alt={c.name} />
-                </div>
-                <span className="text-[14px] font-semibold text-wiki-text dark:text-zinc-100">
-                  {c.name}
-                </span>
-                <span className="text-[11px] text-wiki-muted dark:text-zinc-500 line-clamp-2 leading-snug">
-                  {c.description}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </WikiSection>
+      <WikiSection title="차원별 분류" subtitle="오버월드 · 네더 · 엔드">
+          <ul className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {[
+              { id: "overworld", name: "오버월드", emoji: "🌍", border: "border-l-green-500" },
+              { id: "nether", name: "네더", emoji: "🔥", border: "border-l-orange-500" },
+              { id: "end", name: "엔드", emoji: "🌌", border: "border-l-indigo-500" },
+            ].map((d) => (
+              <li key={d.id}>
+                <Link
+                  href={`/dimension/${d.id}`}
+                  className={`wiki-card-hover flex flex-col items-center gap-2 p-4 text-center no-underline border-l-4 ${d.border}`}
+                >
+                  <div className="wiki-icon-frame">
+                    <SmartIcon image={getCategoryTexture(d.id)} emoji={d.emoji} size="md" alt={d.name} />
+                  </div>
+                  <span className="text-[14px] font-semibold text-wiki-text dark:text-zinc-100">
+                    {d.name}
+                  </span>
+                  <span className="text-[11px] text-wiki-muted dark:text-zinc-500">
+                    블록·아이템 탐색
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </WikiSection>
 
       <WikiSection title="최근 변경" subtitle="이번 업데이트" accent="neutral">
         <ul className="space-y-3 text-[14px]">
@@ -137,20 +141,6 @@ function StatTile({ label, value }: { label: string; value: number }) {
       <span className="wiki-stat-label">{label}</span>
     </div>
   );
-}
-
-function accentBorder(slug: string): string {
-  const map: Record<string, string> = {
-    blocks: "border-l-amber-500",
-    items: "border-l-rose-500",
-    mobs: "border-l-emerald-500",
-    biomes: "border-l-green-600",
-    redstone: "border-l-red-500",
-    enchanting: "border-l-violet-500",
-    nether: "border-l-orange-500",
-    end: "border-l-indigo-500",
-  };
-  return map[slug] ?? "border-l-brand-500";
 }
 
 function ChangelogItem({

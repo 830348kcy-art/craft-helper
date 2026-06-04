@@ -93,38 +93,37 @@ export const docs: Record<string, WikiDoc> = {
     title: "처음 시작하기",
     category: "items",
     heroImage: getItemTexture("oak_planks"),
-    summary: "마인크래프트는 첫 밤을 살아남는 것에서 시작된다. 이 가이드는 갓 스폰한 플레이어가 게임 내 1일 동안 해야 할 일을 순서대로 정리한 초보자용 튜토리얼이다.",
+    summary: "Java Edition 초보자를 위한 첫날 생존 가이드. ko.minecraft.wiki 튜토리얼을 바탕으로 핵심만 정리했으며, 목차를 누르면 해당 절로 이동합니다.",
     infobox: [
-      { label: "난이도", value: "★☆☆☆☆" },
-      { label: "소요 시간", value: "약 20분 (게임 내 1일)" },
-      { label: "필요한 것", value: "맨손" },
-      { label: "목표", value: "첫 밤을 안전하게 넘기기" },
+      { label: "에디션", value: "Java Edition" },
+      { label: "소요 시간", value: "약 10~20분 (게임 내 1일)" },
+      { label: "목표", value: "첫 밤 생존" },
+      { label: "참고", value: "ko.minecraft.wiki 튜토리얼" },
     ],
     sections: [
       {
         id: "intro",
         heading: "시작하기 전에",
-        html: `<p>마인크래프트의 첫 날은 단 <strong>약 10분</strong>이다. 해가 지면 좀비, 스켈레톤, 거미 같은 적대적 몹이 스폰되므로 그 전에 도구와 쉘터를 갖춰야 한다.</p>
-<p>스폰 직후 가장 먼저 해야 할 일은 <strong>주변 지형 파악</strong>이다. 나무가 있는 곳, 평지, 동굴 입구를 확인하고 스폰 지점 좌표(F3)를 기억해두자.</p>`,
+        html: `<p>첫날은 대략 <strong>10분</strong> 안에 도구·쉘터·음식을 갖춰야 한다. 해가 지면 좀비·스켈레톤·거미가 스폰된다.</p><p><strong>기본 조작</strong>: WASD 이동, Space 점프, Shift 웅크리기, 왼쪽 클릭 채굴·공격, 오른쪽 클릭 설치·사용, E 보관함.</p><p>스폰 후 <strong>나무·평지·동굴</strong>을 확인하고 F3 좌표를 기록하자. <a href="https://ko.minecraft.wiki/w/%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC:%EC%B4%88%EB%B3%B4%EC%9E%90%EB%A5%BC_%EC%9C%84%ED%95%9C_%EA%B0%80%EC%9D%B4%EB%93%9C" target="_blank" rel="noreferrer noopener">초보자를 위한 가이드</a> 참고.</p>`,
       },
       {
         id: "wood",
-        heading: "1. 나무 모으기",
+        heading: "나무 모으기",
         html: `<p>주변의 나무로 다가가 <strong>맨손으로 원목을 부순다</strong>. 약 3초간 누르면 원목 1개가 드롭된다. 최소 <strong>원목 5~6개</strong>는 확보하자.</p><p>원목을 인벤토리 제작창(2×2)에 넣으면 <code>판자</code>가 되고, 판자 4개를 2×2로 배치하면 <code>제작대</code>가 만들어진다.</p>`,
       },
       {
         id: "tools",
-        heading: "2. 도구 제작",
+        heading: "도구 제작",
         html: `<p>제작대를 바닥에 놓고 우클릭하면 3×3 제작창이 열린다. 다음 순서로 제작한다:</p><ol><li><strong>막대기</strong>: 판자 2개를 세로로 → 막대기 4개</li><li><strong>나무 곡괭이</strong>: 판자 3개 + 막대기 2개</li><li><strong>나무 검</strong>: 판자 2개 + 막대기 1개</li></ol><p>곡괭이가 생겼으니 바로 돌(회색 블록)을 캐서 <strong>둥근돌 5~10개</strong>를 모으고, 다시 제작대로 와서 <strong>돌 곡괭이·돌 검·화로</strong>로 업그레이드한다.</p>`,
       },
       {
         id: "food",
-        heading: "3. 음식 확보",
+        heading: "음식 확보",
         html: `<p>허기 게이지가 떨어지면 체력이 회복되지 않으니 음식 확보는 필수다. 첫날의 식량은 다음 중 하나를 노리자:</p><ul><li><strong>양·소·돼지</strong> 사냥 → 생고기 드롭 → 화로에서 굽기</li><li>마을 발견 시 <strong>밭에서 밀·당근·감자</strong> 채집</li><li>물에서 <strong>낚시</strong> (낚싯대가 있다면)</li></ul>`,
       },
       {
         id: "shelter",
-        heading: "4. 쉘터 짓기",
+        heading: "쉘터 짓기",
         html: `<p>해가 기울기 시작하면 즉시 쉘터를 만들어야 한다. 가장 빠른 방법:</p><ul><li>언덕 옆면을 곡괭이로 1×2 크기로 파고 들어간다</li><li>입구를 흙이나 둥근돌로 막는다</li><li>안에 제작대, 화로, 상자를 배치</li></ul><p>창문을 한 칸 만들어두면 밖이 밝아진 것을 확인할 수 있다.</p>`,
       },
       {

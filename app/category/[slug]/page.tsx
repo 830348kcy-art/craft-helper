@@ -90,7 +90,7 @@ export default async function CategoryPage({ params }: { params: { slug: string 
               {blocks.length > 0 && (
                 <Group title="🟫 블록" count={blocks.length}>
                   {category.slug === "blocks" ? (
-                    <DimensionBlockGrid entries={blocks as CatalogEntry[]} />
+                    <DimensionBlockGrid entries={blocks as CatalogEntry[]} dimensionId={undefined} />
                   ) : category.slug === "nether" || category.slug === "end" ? (
                     <DimensionOnlyGrid
                       entries={[...blocks, ...items] as CatalogEntry[]}

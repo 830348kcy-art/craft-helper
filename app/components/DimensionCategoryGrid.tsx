@@ -21,9 +21,66 @@ export type CatalogEntry = {
   type: string;
 };
 
-/** 블록: 차원 → 세부 카테고리 */
-export function DimensionBlockGrid({ entries }: { entries: CatalogEntry[] }) {
+function BlockSubGroups({
+  dimMap,
+  dimLabel,
+  dimEmoji,
+  dimColor,
+}: {
+  dimMap: Map<string, CatalogEntry[]>;
+  dimLabel?: string;
+  dimEmoji?: string;
+  dimColor?: string;
+}) {
+  const subs = orderedSubCategories(dimMap, BLOCK_SUB_CATEGORY_ORDER);
+  return (
+    <>
+      {dimLabel && (
+        <h2
+          className={`wiki-dim-badge font-sans text-[1.35rem] font-bold mt-2 mb-5 ${dimColor ?? ""}`}
+        >
+          {dimEmoji && <span>{dimEmoji}</span>}
+          {dimLabel}
+        </h2>
+      )}
+      {subs.map(({ sub, entries: subEntries }) => (
+        <SubCategorySection
+          key={sub}
+          title={sub}
+          count={(subEntries as CatalogEntry[]).length}
+          entries={subEntries as CatalogEntry[]}
+        />
+      ))}
+    </>
+  );
+}
+
+/** 블록: 차원 → 세부 카테고리 (전체 또는 단일 차원 페이지) */
+export function DimensionBlockGrid({
+  entries,
+  dimensionId,
+}: {
+  entries: CatalogEntry[];
+  /** 지정 시 해당 차원만 세부 카테고리로 표시 */
+  dimensionId?: DimensionId;
+}) {
   const grouped = groupByDimensionAndSubCategory(entries, BLOCK_SUB_CATEGORY_ORDER);
+
+  if (dimensionId) {
+    const dimMap = grouped.get(dimensionId);
+    if (!dimMap || ![...dimMap.values()].some((l) => l.length)) return null;
+    const dim = getDimension(dimensionId);
+    return (
+      <div className="space-y-6">
+        <BlockSubGroups
+          dimMap={dimMap as Map<string, CatalogEntry[]>}
+          dimLabel={dim.name}
+          dimEmoji={dim.emoji}
+          dimColor={dim.color}
+        />
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-10">
@@ -31,27 +88,15 @@ export function DimensionBlockGrid({ entries }: { entries: CatalogEntry[] }) {
         const dimMap = grouped.get(dim.id)!;
         const total = [...dimMap.values()].reduce((n, list) => n + list.length, 0);
         if (total === 0) return null;
-        const subs = orderedSubCategories(dimMap, BLOCK_SUB_CATEGORY_ORDER);
 
         return (
           <section key={dim.id} className="scroll-mt-24">
-            <h2
-              className={`wiki-dim-badge font-sans text-[1.35rem] font-bold mt-6 mb-5 ${dim.color}`}
-            >
-              <span>{dim.emoji}</span>
-              {dim.name}
-              <span className="text-[14px] font-normal text-wiki-muted dark:text-zinc-400">
-                ({total}개)
-              </span>
-            </h2>
-            {subs.map(({ sub, entries: subEntries }) => (
-              <SubCategorySection
-                key={`${dim.id}-${sub}`}
-                title={sub}
-                count={(subEntries as CatalogEntry[]).length}
-                entries={subEntries as CatalogEntry[]}
-              />
-            ))}
+            <BlockSubGroups
+              dimMap={dimMap as Map<string, CatalogEntry[]>}
+              dimLabel={dim.name}
+              dimEmoji={dim.emoji}
+              dimColor={dim.color}
+            />
           </section>
         );
       })}

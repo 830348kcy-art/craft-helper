@@ -52,14 +52,14 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
                 <InfoBox title={doc.title} emoji={category?.emoji} image={doc.heroImage} rows={doc.infobox} />
 
                 {/* 자동 목차 박스 (미디어위키 스타일) */}
-                {doc.sections.length > 2 && (
+                {doc.sections.length >= 1 && (
                   <div className="wiki-toc">
                     <p className="toc-title">목차</p>
                     <ol>
                       {doc.sections.map((s, i) => (
                         <li key={s.id}>
                           <a href={`#${s.id}`} className="text-link dark:text-link-dark hover:underline">
-                            <span className="text-wiki-muted dark:text-zinc-400 mr-1">{i + 1}</span>
+                            <span className="toc-num">{i + 1}</span>
                             {s.heading.replace(/^\d+\.\s*/, "")}
                           </a>
                         </li>

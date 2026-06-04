@@ -110,7 +110,12 @@ function RecipeCard({ node }: { node: Node }) {
                   {node.forIngredient} 만들기
                 </span>
               )}
-              <span className="text-2xl">{r.emoji}</span>
+              <SmartIcon
+                image={getTextureByName(r.resultItem)}
+                emoji={r.emoji}
+                size="md"
+                alt={r.resultItem}
+              />
               <p className="font-semibold text-sm">
                 {r.name}
                 <span className="text-zinc-400 text-xs ml-1.5">×{r.resultCount}</span>

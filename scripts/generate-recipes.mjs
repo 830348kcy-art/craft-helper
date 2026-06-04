@@ -48,7 +48,20 @@ function cellToKo(ref) {
 function shapedToGrid(recipe) {
   const grid = [["", "", ""], ["", "", ""], ["", "", ""]];
   const pattern = recipe.inShape;
-  if (!Array.isArray(pattern)) return grid;
+  if (!Array.isArray(pattern)) {
+    const single =
+      recipe.ingredients?.length === 1
+        ? resolveItemId(
+            Array.isArray(recipe.ingredients[0])
+              ? recipe.ingredients[0][0]
+              : recipe.ingredients[0]
+          )
+        : null;
+    if (single) {
+      grid[1][1] = koResultName(single);
+    }
+    return grid;
+  }
 
   for (let r = 0; r < pattern.length && r < 3; r++) {
     const row = pattern[r];

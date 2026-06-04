@@ -247,10 +247,17 @@
            px-4 py-3 text-sm;
   }
   .wiki-toc .toc-title {
-    @apply font-bold text-center mb-2 text-wiki-text dark:text-zinc-100;
+    @apply font-bold text-center mb-3 pb-2 border-b border-wiki-borderSoft dark:border-zinc-700
+           text-[15px] text-wiki-text dark:text-zinc-100;
   }
   .wiki-toc ol {
-    @apply list-decimal pl-6 space-y-1 m-0;
+    @apply list-none pl-0 space-y-1.5 m-0 text-[14px];
+  }
+  .wiki-toc ol li a {
+    @apply text-link dark:text-link-dark hover:underline block py-0.5;
+  }
+  .wiki-toc ol li a span.toc-num {
+    @apply text-wiki-muted dark:text-zinc-500 mr-1.5 tabular-nums;
   }
 }
 

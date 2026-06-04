@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { categories, docs } from "@/lib/data";
+import { DIMENSIONS } from "@/lib/catalog-taxonomy";
 import { SmartIcon } from "./SmartIcon";
 import { getCategoryTexture } from "@/lib/textures";
 
@@ -13,12 +13,6 @@ function isActive(pathname: string, href: string) {
 
 export function SiteSidebar({ className = "" }: { className?: string }) {
   const pathname = usePathname();
-  const wikiSlug = pathname.startsWith("/wiki/")
-    ? pathname.split("/")[2]
-    : undefined;
-  const categorySlug = pathname.startsWith("/category/")
-    ? pathname.split("/")[2]
-    : undefined;
 
   return (
     <aside
@@ -30,7 +24,10 @@ export function SiteSidebar({ className = "" }: { className?: string }) {
           <NavItem href="/" active={pathname === "/"}>
             대문
           </NavItem>
-          <NavItem href="/wiki/getting-started" active={isActive(pathname, "/wiki/getting-started")}>
+          <NavItem
+            href="/wiki/getting-started"
+            active={isActive(pathname, "/wiki/getting-started")}
+          >
             처음 시작하기
           </NavItem>
           <NavItem href="/search" active={pathname.startsWith("/search")}>
@@ -38,35 +35,22 @@ export function SiteSidebar({ className = "" }: { className?: string }) {
           </NavItem>
         </SidebarSection>
 
-        <SidebarSection title="문서">
-          {Object.values(docs).map((d) => (
-            <li key={d.slug}>
-              <NavItem
-                href={`/wiki/${d.slug}`}
-                active={wikiSlug === d.slug}
-              >
-                {d.title}
-              </NavItem>
-            </li>
-          ))}
-        </SidebarSection>
-
         <SidebarSection title="분류">
-          {categories.map((c) => (
-            <li key={c.slug}>
+          {DIMENSIONS.map((d) => (
+            <li key={d.id}>
               <Link
-                href={`/category/${c.slug}`}
+                href={`/dimension/${d.id}`}
                 className={`site-sidebar-cat ${
-                  categorySlug === c.slug ? "site-sidebar-cat-active" : ""
+                  pathname.startsWith(`/dimension/${d.id}`) ? "site-sidebar-cat-active" : ""
                 }`}
               >
                 <SmartIcon
-                  image={getCategoryTexture(c.slug)}
-                  emoji={c.emoji}
+                  image={getCategoryTexture(d.id)}
+                  emoji={d.emoji}
                   size="xs"
-                  alt={c.name}
+                  alt={d.name}
                 />
-                <span>{c.name}</span>
+                <span>{d.name}</span>
               </Link>
             </li>
           ))}

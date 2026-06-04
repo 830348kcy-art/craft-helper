@@ -6,6 +6,7 @@
 
 import textureMapJson from "../scripts/texture-map.json";
 import textureUrlMapJson from "../scripts/texture-url-map.json";
+import officialKoJson from "../scripts/ko-lang-official.json";
 import blocksCatalog from "../data/blocks.json";
 import itemsCatalog from "../data/items.json";
 
@@ -30,18 +31,47 @@ for (const it of itemsCatalog) {
   }
 }
 
-/** 레시피·가이드에 남아 있는 구 명칭 → 카탈로그 공식명 */
+const officialKo = officialKoJson as {
+  blocks?: Record<string, string>;
+  items?: Record<string, string>;
+};
+
+/** 공식 한국어명 → ID (카탈로그에 없는 레시피 표기 보완) */
+const OFFICIAL_KO_INDEX = new Map<string, KoNameEntry>();
+for (const [id, name] of Object.entries(officialKo.blocks ?? {})) {
+  if (name && blockIdSet.has(id)) OFFICIAL_KO_INDEX.set(name, { id, type: "block" });
+}
+for (const [id, name] of Object.entries(officialKo.items ?? {})) {
+  if (!name || OFFICIAL_KO_INDEX.has(name)) continue;
+  OFFICIAL_KO_INDEX.set(name, {
+    id,
+    type: blockIdSet.has(id) ? "block" : "item",
+  });
+}
+
+/** 레시피·가이드에 남아 있는 구/약칭 → 공식명 */
 const KO_NAME_ALIASES: Record<string, string> = {
   작업대: "제작대",
   투척기: "공급기",
+  판자: "참나무 판자",
+  "나무 판자": "참나무 판자",
+  원목: "참나무 원목",
 };
 
 /** 레시피 재료 한국어 이름 → 카탈로그 항목 */
+function normalizeKoIngredient(name: string): string {
+  return name.replace(/\s*×\s*\d+$/i, "").trim();
+}
+
 export function resolveByKoName(name: string): KoNameEntry | undefined {
-  const trimmed = name.trim();
+  const trimmed = normalizeKoIngredient(name);
   if (!trimmed) return undefined;
   const canon = KO_NAME_ALIASES[trimmed] ?? trimmed;
-  return KO_NAME_INDEX.get(canon);
+  return (
+    KO_NAME_INDEX.get(canon) ??
+    OFFICIAL_KO_INDEX.get(canon) ??
+    OFFICIAL_KO_INDEX.get(trimmed)
+  );
 }
 
 /** 레시피 재료 한국어 이름 → 상세 페이지 경로 */
@@ -112,7 +142,7 @@ const BLOCK_OVERRIDES: Record<string, string> = {
   jukebox:            "block/jukebox_top.png",
   note_block:         "block/note_block.png",
   bookshelf:          "block/bookshelf.png",
-  chest:              "block/oak_planks.png", // chest는 entity, planks로 대체
+  chest:              "item/chest.png",
   barrel:             "block/barrel_top.png",
   composter:          "block/composter_side.png",
   lectern:            "block/lectern_front.png",
@@ -456,20 +486,21 @@ function getWikiSpriteUrl(id: string): string {
 }
 
 export function getTextureByName(name: string): string | undefined {
-  if (KOREAN_TO_TEXTURE[name]) {
-    const path = KOREAN_TO_TEXTURE[name];
+  const base = normalizeKoIngredient(name);
+  if (KOREAN_TO_TEXTURE[base]) {
+    const path = KOREAN_TO_TEXTURE[base];
     if (!path) return undefined;
     return `${CDN}/${path}`;
   }
-  const entry = resolveByKoName(name);
+  const entry = resolveByKoName(base);
   if (entry) {
     return entry.type === "block"
       ? getBlockTexture(entry.id)
       : getItemTexture(entry.id);
   }
-  if (/^[a-z_0-9]+$/.test(name)) {
-    if (blockIdSet.has(name)) return getBlockTexture(name);
-    return getItemTexture(name);
+  if (/^[a-z_0-9]+$/.test(base)) {
+    if (blockIdSet.has(base)) return getBlockTexture(base);
+    return getItemTexture(base);
   }
   return undefined;
 }
@@ -493,6 +524,7 @@ export function getCategoryTexture(slug: string): string {
     enchanting: getItemTexture("book"),
     nether:     getBlockTexture("netherrack"),
     end:        getBlockTexture("end_stone"),
+    overworld:  getBlockTexture("grass_block"),
     // 한국어 카테고리도 동일 매핑
     "자연":     getBlockTexture("grass_block"),
     "건축":     getBlockTexture("stone_bricks"),

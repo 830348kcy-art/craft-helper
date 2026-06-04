@@ -145,6 +145,18 @@ const CATEGORY_MATCHERS: Record<
   },
 };
 
+/** 차원(오버월드/네더/엔드)별 블록·아이템 */
+export async function getEntriesByDimension(
+  dimension: import("./catalog-taxonomy").DimensionId
+): Promise<SearchResultItem[]> {
+  const all = await buildIndex();
+  return all.filter(
+    (e) =>
+      (e.type === "block" || e.type === "item") &&
+      inferDimension(e.id) === dimension
+  );
+}
+
 export async function getEntriesByCategory(slug: string): Promise<SearchResultItem[]> {
   const matcher = CATEGORY_MATCHERS[slug];
   if (!matcher) return [];
