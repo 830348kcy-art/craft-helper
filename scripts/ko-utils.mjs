@@ -91,7 +91,7 @@ const BLOCK_PARTS = {
   exposed: "약간 녹슨",
   weathered: "녹슨",
   oxidized: "산화된",
-  waxed: "왁스칠한",
+  waxed: "밀랍칠한",
   bulb: "전구",
   grate: "격자",
   bars: "창",
@@ -775,7 +775,7 @@ export function idToKoName(id) {
   }
 
   if (id.startsWith("waxed_")) {
-    return `왁스칠한 ${idToKoName(id.slice(6))}`;
+    return `밀랍칠한 ${idToKoName(id.slice(6))}`;
   }
 
   const PREFIXES = {
@@ -823,6 +823,7 @@ export function idToKoName(id) {
     chainmail: "사슬",
   };
   for (const [tier, tierKo] of Object.entries(TIERS)) {
+    if (id === `${tier}_horse_armor`) return `${tierKo} 말 갑옷`;
     for (const [tool, toolKo] of Object.entries(TOOL_SUFFIX)) {
       if (id === `${tier}_${tool}`) return `${tierKo} ${toolKo}`;
     }

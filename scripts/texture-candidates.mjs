@@ -142,6 +142,31 @@ function usesItemTexture(id) {
   return ITEM_TEXTURE_PATTERNS.some((re) => re.test(id));
 }
 
+function unwaxCopperId(id) {
+  return id.replace(/^waxed_/, "");
+}
+
+/** 구리 계열: 밀랍은 동일 단계 비밀랍 텍스처 사용 */
+function addCopperTexturePaths(id, add) {
+  if (!/copper|waxed_|exposed_|oxidized_|weathered_/.test(id)) return;
+
+  const base = unwaxCopperId(id);
+
+  if (base.endsWith("_copper_door") || base === "copper_door") {
+    add(`item/${base}.png`);
+    add(`block/${base}_bottom.png`);
+    if (base !== "copper_door") add("item/copper_door.png");
+    return;
+  }
+
+  if (base.endsWith("_copper_trapdoor") || base === "copper_trapdoor") {
+    add(`block/${base}.png`);
+    return;
+  }
+
+  add(`block/${base}.png`);
+}
+
 function add(set, value) {
   if (value && !set.has(value)) set.add(value);
 }
@@ -153,6 +178,12 @@ export function getTextureCandidatePaths(id) {
   if (ID_OVERRIDES[id]) add(paths, ID_OVERRIDES[id]);
   const pattern = getPatternOverride(id);
   if (pattern) add(paths, pattern);
+
+  addCopperTexturePaths(id, (p) => add(paths, p));
+
+  if (id.startsWith("waxed_") && isShapeBlock(id)) {
+    add(paths, `wiki:${unwaxCopperId(id)}`);
+  }
 
   if (BLOCK_OVERRIDES[id]) add(paths, BLOCK_OVERRIDES[id]);
   if (ITEM_OVERRIDES[id]) add(paths, ITEM_OVERRIDES[id]);
@@ -224,12 +255,6 @@ export function getTextureCandidatePaths(id) {
   if (id.startsWith("smooth_")) {
     const rest = id.replace(/^smooth_/, "").replace(/_(slab|stairs)$/, "");
     add(paths, `block/smooth_${rest}.png`);
-  }
-
-  if (/copper|waxed|exposed_|oxidized_|weathered_/.test(id)) {
-    add(paths, "block/copper_block.png");
-    const bare = id.replace(/^waxed_/, "").replace(/^(exposed|oxidized|weathered)_/, "");
-    add(paths, `block/${bare}.png`);
   }
 
   if (id.startsWith("infested_")) {

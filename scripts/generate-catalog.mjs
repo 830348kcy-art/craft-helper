@@ -29,10 +29,10 @@ try {
   officialKo = { blocks: {}, items: {} };
 }
 
-function resolveKoName(id, type) {
+function resolveKoName(id) {
   if (koNames[id]) return koNames[id];
-  if (type === "block" && officialKo.blocks?.[id]) return officialKo.blocks[id];
-  if (type === "item" && officialKo.items?.[id]) return officialKo.items[id];
+  if (officialKo.blocks?.[id]) return officialKo.blocks[id];
+  if (officialKo.items?.[id]) return officialKo.items[id];
   return idToKoName(id);
 }
 
@@ -103,12 +103,11 @@ function collectBlockIds() {
   }
 
   // copper variants
-  const copperStages = ["copper","exposed_copper","weathered_copper","oxidized_copper"];
-  const copperParts = ["block","bulb","grate","door","trapdoor","lantern","bars","chain","cut","chiseled","trapdoor"];
+  const copperStages = ["copper", "exposed_copper", "weathered_copper", "oxidized_copper"];
   for (const s of copperStages) {
     ids.add(s === "copper" ? "copper_block" : s);
-    for (const p of ["bulb","grate","door","trapdoor","lantern","bars","chain"]) {
-      ids.add(`${s}_${p}`.replace("copper_", s === "copper" ? "copper_" : ""));
+    for (const p of ["bulb", "grate", "door", "trapdoor", "lantern", "bars", "chain"]) {
+      ids.add(s === "copper" ? `copper_${p}` : `${s}_${p}`);
     }
   }
 
@@ -160,8 +159,8 @@ function hasKorean(text) {
 
 function makeBlock(id) {
   const existing = blockMap.get(id);
-  const name = resolveKoName(id, "block");
-  if (existing && hasKorean(existing.name) && !officialKo.blocks?.[id]) return existing;
+  const name = resolveKoName(id);
+  if (existing && hasKorean(existing.name) && !officialKo.blocks?.[id] && !officialKo.items?.[id]) return existing;
 
   const base = existing ?? {};
   return {
@@ -179,8 +178,8 @@ function makeBlock(id) {
 
 function makeItem(id) {
   const existing = itemMap.get(id);
-  const name = resolveKoName(id, "item");
-  if (existing && hasKorean(existing.name) && !officialKo.items?.[id]) return existing;
+  const name = resolveKoName(id);
+  if (existing && hasKorean(existing.name) && !officialKo.blocks?.[id] && !officialKo.items?.[id]) return existing;
 
   const base = existing ?? {};
   return {
