@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-wiki-bg text-wiki-text dark:bg-zinc-950 dark:text-zinc-100;
+    @apply font-sans bg-wiki-bg text-wiki-text dark:bg-zinc-950 dark:text-zinc-100;
     font-feature-settings: "ss01", "tnum";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -15,7 +15,7 @@
 
   /* MediaWiki 스타일 본문 (ko.minecraft.wiki 풍) */
   .prose-wiki {
-    @apply font-wiki;
+    @apply font-sans;
     color: theme(colors.wiki.text);
   }
   .dark .prose-wiki {
@@ -35,13 +35,13 @@
     color: theme(colors.link.dark);
   }
   .prose-wiki h1 {
-    @apply font-wiki font-normal text-[2rem] leading-tight mb-2 pb-1.5 border-b border-wiki-border;
+    @apply font-sans font-bold text-[2rem] leading-tight mb-2 pb-1.5 border-b border-wiki-border dark:border-zinc-700;
   }
   .prose-wiki h2 {
-    @apply font-wiki font-normal text-[1.6rem] mt-10 mb-3 pb-1.5 border-b border-wiki-border scroll-mt-24 text-wiki-text dark:text-zinc-100 dark:border-zinc-700;
+    @apply font-sans font-bold text-[1.5rem] mt-10 mb-3 pb-1.5 border-b border-wiki-border scroll-mt-24 text-wiki-text dark:text-zinc-100 dark:border-zinc-700;
   }
   .prose-wiki h3 {
-    @apply font-wiki font-bold text-[1.2rem] mt-7 mb-2 scroll-mt-24 text-wiki-text dark:text-zinc-100;
+    @apply font-sans font-bold text-[1.2rem] mt-7 mb-2 scroll-mt-24 text-wiki-text dark:text-zinc-100;
   }
   .prose-wiki h4 {
     @apply font-bold text-[1.05rem] mt-5 mb-2 text-wiki-text dark:text-zinc-100;
@@ -76,10 +76,119 @@
   .prose-wiki figcaption {
     @apply text-center text-sm text-wiki-muted mt-2;
   }
+  /* ── 페이지 배경 (은은한 메시 그라데이션) ── */
+  .wiki-page-bg {
+    @apply min-h-[80vh] relative overflow-hidden;
+    background: linear-gradient(165deg, #f4f7f5 0%, #f8f9fa 35%, #eef2f6 100%);
+  }
+  .dark .wiki-page-bg {
+    background: linear-gradient(165deg, #0c0f0e 0%, #09090b 40%, #0f1419 100%);
+  }
+  .wiki-page-mesh {
+    @apply pointer-events-none absolute inset-0 opacity-[0.55] dark:opacity-30;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 10% -10%, rgba(47, 161, 94, 0.12), transparent),
+      radial-gradient(ellipse 60% 40% at 90% 0%, rgba(59, 130, 246, 0.08), transparent),
+      radial-gradient(circle at 50% 100%, rgba(29, 56, 41, 0.06), transparent 50%);
+  }
+  .dark .wiki-page-mesh {
+    background-image:
+      radial-gradient(ellipse 80% 50% at 10% -10%, rgba(47, 161, 94, 0.15), transparent),
+      radial-gradient(ellipse 60% 40% at 90% 0%, rgba(99, 102, 241, 0.1), transparent);
+  }
+
+  /* ── 패널·카드 ── */
+  .wiki-hero {
+    @apply wiki-panel overflow-hidden animate-fade-up;
+  }
+  .wiki-hero-banner {
+    @apply relative px-6 sm:px-8 py-8 sm:py-10 border-b border-white/20 dark:border-zinc-700/50;
+    background: linear-gradient(135deg, #1d3829 0%, #2a5240 45%, #218049 100%);
+  }
+  .wiki-hero-banner::after {
+    content: "";
+    @apply absolute inset-0 opacity-20 pointer-events-none;
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 8px,
+      rgba(255, 255, 255, 0.03) 8px,
+      rgba(255, 255, 255, 0.03) 16px
+    );
+  }
+  .wiki-hero-title {
+    @apply relative z-10 text-[1.75rem] sm:text-[2.25rem] font-bold text-white tracking-tight leading-tight;
+  }
+  .wiki-hero-sub {
+    @apply relative z-10 text-[14px] text-white/75 mt-2 max-w-xl;
+  }
+  .wiki-panel {
+    @apply rounded-wiki-lg border border-white/80 dark:border-zinc-700/60
+           bg-white/95 dark:bg-zinc-900/95 backdrop-blur-md shadow-wiki;
+  }
+  .wiki-article {
+    @apply wiki-panel overflow-hidden shadow-wiki-lg;
+  }
+  .wiki-section {
+    @apply wiki-panel overflow-hidden;
+  }
+  .wiki-section-header {
+    @apply px-5 sm:px-6 py-4 border-b border-brand-200/40 dark:border-brand-800/30
+           bg-gradient-to-r from-brand-50/90 via-white to-emerald-50/50
+           dark:from-brand-900/50 dark:via-zinc-900 dark:to-zinc-900;
+  }
+  .wiki-section-header-neutral {
+    @apply px-5 sm:px-6 py-4 border-b border-wiki-borderSoft dark:border-zinc-700
+           bg-gradient-to-r from-wiki-panel/80 to-white dark:from-zinc-800/80 dark:to-zinc-900;
+  }
+  .wiki-section-title {
+    @apply text-[1.2rem] sm:text-[1.35rem] font-bold text-wiki-text dark:text-zinc-100 tracking-tight;
+  }
+  .wiki-section-subtitle {
+    @apply text-[12px] text-wiki-muted dark:text-zinc-400 mt-1;
+  }
+  .wiki-section-body {
+    @apply p-5 sm:p-6;
+  }
+  .wiki-card {
+    @apply rounded-wiki border border-wiki-borderSoft/80 dark:border-zinc-700/80
+           bg-white dark:bg-zinc-900/80 transition-all duration-200 ease-out;
+  }
+  .wiki-card-hover {
+    @apply wiki-card hover:shadow-wiki-lg hover:-translate-y-0.5
+           hover:border-brand-300/60 dark:hover:border-brand-600/40
+           hover:bg-gradient-to-br hover:from-white hover:to-brand-50/30
+           dark:hover:from-zinc-900 dark:hover:to-brand-900/20;
+  }
+  .wiki-stat-tile {
+    @apply flex flex-col items-center justify-center p-4 rounded-wiki
+           bg-gradient-to-b from-white to-brand-50/40 dark:from-zinc-800/80 dark:to-brand-900/30
+           border border-brand-200/50 dark:border-brand-800/30 shadow-sm;
+  }
+  .wiki-stat-value {
+    @apply text-2xl font-bold tabular-nums text-brand-700 dark:text-brand-400;
+  }
+  .wiki-stat-label {
+    @apply text-[12px] font-medium text-wiki-muted dark:text-zinc-400 mt-1;
+  }
+  .wiki-icon-frame {
+    @apply shrink-0 p-2.5 rounded-wiki bg-gradient-to-br from-wiki-panel to-white
+           dark:from-zinc-800 dark:to-zinc-900 border border-wiki-borderSoft/60
+           dark:border-zinc-700 shadow-sm;
+  }
+  .wiki-badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold
+           bg-brand-100/80 text-brand-800 dark:bg-brand-900/50 dark:text-brand-200;
+  }
+  .wiki-dim-badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[13px] font-semibold;
+  }
+
   /* 미디어위키 자동 목차 박스 */
   .wiki-toc {
     @apply float-none lg:float-left lg:mr-6 mb-5 inline-block min-w-[230px] max-w-full
-           border border-wiki-border bg-wiki-panel dark:bg-zinc-900 dark:border-zinc-700
+           rounded-wiki border border-wiki-borderSoft dark:border-zinc-700
+           bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm shadow-wiki
            px-4 py-3 text-sm;
   }
   .wiki-toc .toc-title {

@@ -199,10 +199,10 @@
     "name": "자수정 블록",
     "emoji": "💎",
     "image": "/images/blocks/amethyst_block.png",
-    "category": "광석",
+    "category": "건축",
     "description": "자수정 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "광석"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -264,10 +264,10 @@
     "name": "모루",
     "emoji": "🟫",
     "image": "/images/blocks/anvil.png",
-    "category": "기능",
+    "category": "건축",
     "description": "모루. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "기능"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 5
@@ -355,10 +355,10 @@
     "name": "대나무 모자이크",
     "emoji": "🪵",
     "image": "/images/blocks/bamboo_mosaic.png",
-    "category": "건축",
+    "category": "나무",
     "description": "대나무 모자이크. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "나무"
     ],
     "tool": "도끼",
     "hardness": 2
@@ -485,10 +485,10 @@
     "name": "신호기",
     "emoji": "🟫",
     "image": "/images/blocks/beacon.png",
-    "category": "기능",
+    "category": "건축",
     "description": "신호기. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "기능"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 3
@@ -758,10 +758,10 @@
     "name": "검은색 색유리",
     "emoji": "🟫",
     "image": "/images/blocks/black_stained_glass.png",
-    "category": "건축",
+    "category": "장식",
     "description": "검은색 색유리. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "장식"
     ],
     "tool": "없음",
     "hardness": 0.3
@@ -940,10 +940,10 @@
     "name": "파란색 색유리",
     "emoji": "🟫",
     "image": "/images/blocks/blue_stained_glass.png",
-    "category": "건축",
+    "category": "장식",
     "description": "파란색 색유리. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "장식"
     ],
     "tool": "없음",
     "hardness": 0.3
@@ -1005,10 +1005,10 @@
     "name": "책장",
     "emoji": "🟫",
     "image": "/images/blocks/bookshelf.png",
-    "category": "기능",
+    "category": "건축",
     "description": "책장. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "기능"
+      "건축"
     ],
     "tool": "도끼",
     "hardness": 1.5
@@ -1239,10 +1239,10 @@
     "name": "초",
     "emoji": "🔥",
     "image": "/images/blocks/candle.png",
-    "category": "조명",
+    "category": "장식",
     "description": "초. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "조명"
+      "장식"
     ],
     "tool": "없음",
     "hardness": 0.1
@@ -1486,10 +1486,10 @@
     "name": "조각된 책장",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_bookshelf.png",
-    "category": "기능",
+    "category": "건축",
     "description": "조각된 책장. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "기능"
+      "건축"
     ],
     "tool": "도끼",
     "hardness": 1.5
@@ -1525,10 +1525,10 @@
     "name": "조각된 네더 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_nether_bricks.png",
-    "category": "네더",
+    "category": "자연",
     "description": "조각된 네더 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "네더"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -1590,10 +1590,10 @@
     "name": "조각된 석재 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/chiseled_stone_bricks.png",
-    "category": "건축",
+    "category": "자연",
     "description": "조각된 석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -1772,10 +1772,10 @@
     "name": "전달체",
     "emoji": "🟫",
     "image": "/images/blocks/conduit.png",
-    "category": "기능",
+    "category": "건축",
     "description": "전달체. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "기능"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 3
@@ -1850,10 +1850,10 @@
     "name": "제작기",
     "emoji": "⬛",
     "image": "/images/blocks/crafter.png",
-    "category": "레드스톤",
+    "category": "특수",
     "description": "제작기. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "레드스톤"
+      "특수"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -2526,10 +2526,10 @@
     "name": "심층암 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/deepslate_bricks.png",
-    "category": "건축",
+    "category": "자연",
     "description": "심층암 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 3.5
@@ -2578,10 +2578,10 @@
     "name": "심층암 타일",
     "emoji": "🟫",
     "image": "/images/blocks/deepslate_tiles.png",
-    "category": "건축",
+    "category": "자연",
     "description": "심층암 타일. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 3.5
@@ -2721,10 +2721,10 @@
     "name": "에메랄드 블록",
     "emoji": "💎",
     "image": "/images/blocks/emerald_block.png",
-    "category": "자원",
+    "category": "건축",
     "description": "에메랄드 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "자원"
+      "건축"
     ],
     "tool": "철 곡괭이",
     "hardness": 5
@@ -2747,10 +2747,10 @@
     "name": "엔드 막대기",
     "emoji": "🟪",
     "image": "/images/blocks/end_rod.png",
-    "category": "엔드",
+    "category": "건축",
     "description": "엔드 막대기. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "엔드"
+      "건축"
     ],
     "tool": "도구 없음",
     "hardness": 0
@@ -2799,10 +2799,10 @@
     "name": "엔드 석재 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/end_stone_bricks.png",
-    "category": "엔드",
+    "category": "자연",
     "description": "엔드 석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "엔드"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 3
@@ -2955,10 +2955,10 @@
     "name": "발광석",
     "emoji": "🔥",
     "image": "/images/blocks/glowstone.png",
-    "category": "네더",
+    "category": "자연",
     "description": "발광석. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "네더"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 0.3
@@ -3215,10 +3215,10 @@
     "name": "초록색 색유리",
     "emoji": "🟫",
     "image": "/images/blocks/green_stained_glass.png",
-    "category": "건축",
+    "category": "장식",
     "description": "초록색 색유리. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "장식"
     ],
     "tool": "없음",
     "hardness": 0.3
@@ -3267,10 +3267,10 @@
     "name": "숫돌",
     "emoji": "🟫",
     "image": "/images/blocks/grindstone.png",
-    "category": "기능",
+    "category": "자연",
     "description": "숫돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "기능"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 2
@@ -3306,10 +3306,10 @@
     "name": "꿀 블록",
     "emoji": "🟫",
     "image": "/images/blocks/honey_block.png",
-    "category": "특수",
+    "category": "자원",
     "description": "꿀 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "특수"
+      "자원"
     ],
     "tool": "없음",
     "hardness": 0
@@ -3605,10 +3605,10 @@
     "name": "사다리",
     "emoji": "🟫",
     "image": "/images/blocks/ladder.png",
-    "category": "건축",
+    "category": "이동",
     "description": "사다리. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "이동"
     ],
     "tool": "도끼",
     "hardness": 0.4
@@ -3917,10 +3917,10 @@
     "name": "피뢰침",
     "emoji": "🔥",
     "image": "/images/blocks/lightning_rod.png",
-    "category": "특수",
+    "category": "건축",
     "description": "피뢰침. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "특수"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 3
@@ -4047,10 +4047,10 @@
     "name": "자석석",
     "emoji": "🟫",
     "image": "/images/blocks/lodestone.png",
-    "category": "기능",
+    "category": "자연",
     "description": "자석석. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "기능"
+      "자연"
     ],
     "tool": "나무 곡괭이",
     "hardness": 3.5
@@ -4190,10 +4190,10 @@
     "name": "마그마 블록",
     "emoji": "🟥",
     "image": "/images/blocks/magma_block.png",
-    "category": "네더",
+    "category": "자연",
     "description": "마그마 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "네더"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 0.5
@@ -4411,10 +4411,10 @@
     "name": "이끼 낀 조약돌",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_cobblestone.png",
-    "category": "건축",
+    "category": "식물",
     "description": "이끼 낀 조약돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "식물"
     ],
     "tool": "곡괭이",
     "hardness": 2
@@ -4502,10 +4502,10 @@
     "name": "이끼 낀 석재 벽돌",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_stone_bricks.png",
-    "category": "건축",
+    "category": "식물",
     "description": "이끼 낀 석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "식물"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -4554,10 +4554,10 @@
     "name": "진흙 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/mud_bricks.png",
-    "category": "건축",
+    "category": "자연",
     "description": "진흙 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -4632,10 +4632,10 @@
     "name": "네더 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/nether_bricks.png",
-    "category": "네더",
+    "category": "자연",
     "description": "네더 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "네더"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 2
@@ -4645,10 +4645,10 @@
     "name": "네더 사마귀 블록",
     "emoji": "🟥",
     "image": "/images/blocks/nether_wart_block.png",
-    "category": "네더",
+    "category": "자연",
     "description": "네더 사마귀 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "네더"
+      "자연"
     ],
     "tool": "도끼",
     "hardness": 1
@@ -4671,10 +4671,10 @@
     "name": "소리 블록",
     "emoji": "🟫",
     "image": "/images/blocks/note_block.png",
-    "category": "기능",
+    "category": "레드스톤",
     "description": "소리 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "기능"
+      "레드스톤"
     ],
     "tool": "도끼",
     "hardness": 0.8
@@ -5087,10 +5087,10 @@
     "name": "단단한 진흙",
     "emoji": "🟫",
     "image": "/images/blocks/packed_mud.png",
-    "category": "건축",
+    "category": "자연",
     "description": "단단한 진흙. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1
@@ -5425,10 +5425,10 @@
     "name": "윤나는 안산암",
     "emoji": "🟫",
     "image": "/images/blocks/polished_andesite.png",
-    "category": "건축",
+    "category": "자연",
     "description": "윤나는 안산암. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -5464,10 +5464,10 @@
     "name": "윤나는 현무암",
     "emoji": "🟫",
     "image": "/images/blocks/polished_basalt.png",
-    "category": "건축",
+    "category": "자연",
     "description": "윤나는 현무암. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1
@@ -5477,10 +5477,10 @@
     "name": "윤나는 흑암",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone.png",
-    "category": "건축",
+    "category": "자연",
     "description": "윤나는 흑암. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 2
@@ -5529,10 +5529,10 @@
     "name": "윤나는 흑암 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/polished_blackstone_bricks.png",
-    "category": "건축",
+    "category": "자연",
     "description": "윤나는 흑암 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -5607,10 +5607,10 @@
     "name": "윤나는 심층암",
     "emoji": "🟫",
     "image": "/images/blocks/polished_deepslate.png",
-    "category": "건축",
+    "category": "자연",
     "description": "윤나는 심층암. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 3.5
@@ -5659,10 +5659,10 @@
     "name": "윤나는 섬록암",
     "emoji": "🟫",
     "image": "/images/blocks/polished_diorite.png",
-    "category": "건축",
+    "category": "자연",
     "description": "윤나는 섬록암. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -5698,10 +5698,10 @@
     "name": "윤나는 화강암",
     "emoji": "🟫",
     "image": "/images/blocks/polished_granite.png",
-    "category": "건축",
+    "category": "자연",
     "description": "윤나는 화강암. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -6010,10 +6010,10 @@
     "name": "퍼퍼 블록",
     "emoji": "🟪",
     "image": "/images/blocks/purpur_block.png",
-    "category": "엔드",
+    "category": "건축",
     "description": "퍼퍼 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "엔드"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -6023,10 +6023,10 @@
     "name": "퍼퍼 기둥",
     "emoji": "🟪",
     "image": "/images/blocks/purpur_pillar.png",
-    "category": "엔드",
+    "category": "건축",
     "description": "퍼퍼 기둥. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "엔드"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 1
@@ -6166,10 +6166,10 @@
     "name": "철 원석 블록",
     "emoji": "💎",
     "image": "/images/blocks/raw_iron_block.png",
-    "category": "자원",
+    "category": "광석",
     "description": "철 원석 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "자원"
+      "광석"
     ],
     "tool": "돌 곡괭이",
     "hardness": 5
@@ -6283,10 +6283,10 @@
     "name": "붉은 네더 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/red_nether_bricks.png",
-    "category": "네더",
+    "category": "자연",
     "description": "붉은 네더 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "네더"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 2
@@ -6296,10 +6296,10 @@
     "name": "붉은 사암",
     "emoji": "🟫",
     "image": "/images/blocks/red_sandstone.png",
-    "category": "건축",
+    "category": "자연",
     "description": "붉은 사암. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 0.8
@@ -6348,10 +6348,10 @@
     "name": "빨간색 색유리",
     "emoji": "🟫",
     "image": "/images/blocks/red_stained_glass.png",
-    "category": "건축",
+    "category": "장식",
     "description": "빨간색 색유리. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "장식"
     ],
     "tool": "없음",
     "hardness": 0.3
@@ -6400,10 +6400,10 @@
     "name": "레드스톤 블록",
     "emoji": "💎",
     "image": "/images/blocks/redstone_block.png",
-    "category": "레드스톤",
+    "category": "자연",
     "description": "레드스톤 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "레드스톤"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 5
@@ -6413,10 +6413,10 @@
     "name": "레드스톤 조명",
     "emoji": "💎",
     "image": "/images/blocks/redstone_lamp.png",
-    "category": "레드스톤",
+    "category": "자연",
     "description": "레드스톤 조명. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "레드스톤"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 0.3
@@ -6426,10 +6426,10 @@
     "name": "레드스톤 횃불",
     "emoji": "💎",
     "image": "/images/blocks/redstone_torch.png",
-    "category": "레드스톤",
+    "category": "조명",
     "description": "레드스톤 횃불. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "레드스톤"
+      "조명"
     ],
     "tool": "없음",
     "hardness": 0
@@ -6452,10 +6452,10 @@
     "name": "리스폰 정박기",
     "emoji": "🟫",
     "image": "/images/blocks/respawn_anchor.png",
-    "category": "특수",
+    "category": "건축",
     "description": "리스폰 정박기. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "특수"
+      "건축"
     ],
     "tool": "다이아 곡괭이",
     "hardness": 50
@@ -6465,10 +6465,10 @@
     "name": "사암",
     "emoji": "🟫",
     "image": "/images/blocks/sandstone.png",
-    "category": "건축",
+    "category": "자연",
     "description": "사암. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 0.8
@@ -6517,10 +6517,10 @@
     "name": "비계",
     "emoji": "🟫",
     "image": "/images/blocks/scaffolding.png",
-    "category": "건축",
+    "category": "이동",
     "description": "비계. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "이동"
     ],
     "tool": "도끼",
     "hardness": 0
@@ -6556,10 +6556,10 @@
     "name": "슬라임 블록",
     "emoji": "🟫",
     "image": "/images/blocks/slime_block.png",
-    "category": "특수",
+    "category": "자원",
     "description": "슬라임 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "특수"
+      "자원"
     ],
     "tool": "없음",
     "hardness": 0
@@ -6985,10 +6985,10 @@
     "name": "석재 벽돌",
     "emoji": "🟫",
     "image": "/images/blocks/stone_bricks.png",
-    "category": "건축",
+    "category": "자연",
     "description": "석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -7232,10 +7232,10 @@
     "name": "TNT",
     "emoji": "🟫",
     "image": "/images/blocks/tnt.png",
-    "category": "특수",
+    "category": "건축",
     "description": "TNT. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "특수"
+      "건축"
     ],
     "tool": "없음",
     "hardness": 0
@@ -8142,10 +8142,10 @@
     "name": "하얀색 색유리",
     "emoji": "🟫",
     "image": "/images/blocks/white_stained_glass.png",
-    "category": "건축",
+    "category": "장식",
     "description": "하얀색 색유리. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "장식"
     ],
     "tool": "없음",
     "hardness": 0.3

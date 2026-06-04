@@ -1,5 +1,6 @@
 import { loadAllData } from "./sheets";
 import { getItemTexture, getBlockTexture } from "./textures";
+import { inferDimension } from "./catalog-taxonomy";
 export type SearchResultItem = {
   id: string;
   name: string;
@@ -135,12 +136,10 @@ const CATEGORY_MATCHERS: Record<
     itemIds: ["book", "enchanted_book", "experience_bottle", "lapis_lazuli"],
   },
   nether: {
-    blockCats: ["네더"],
     tags: ["네더", "지옥", "피글린", "블레이즈", "가스트", "위더"],
-    itemIds: ["blaze_rod", "blaze_powder", "ghast_tear", "magma_cream", "netherite_ingot", "netherite_scrap", "nether_quartz"],
+    itemIds: ["blaze_rod", "blaze_powder", "ghast_tear", "magma_cream", "netherite_ingot", "netherite_scrap", "quartz"],
   },
   end: {
-    blockCats: ["엔드"],
     tags: ["엔드", "엔더", "셜커", "용", "고대도시"],
     itemIds: ["ender_pearl", "ender_eye", "elytra", "shulker_shell", "dragon_breath", "echo_shard"],
   },
@@ -157,6 +156,10 @@ export async function getEntriesByCategory(slug: string): Promise<SearchResultIt
     // 명시적 ID 매칭
     if (entry.type === "block" && blockIds.includes(entry.id)) return true;
     if (entry.type === "item"  && itemIds.includes(entry.id))  return true;
+
+    // 차원 분류 (네더/엔드 카테고리 페이지)
+    if (slug === "nether" && inferDimension(entry.id) === "nether") return true;
+    if (slug === "end" && inferDimension(entry.id) === "end") return true;
 
     // 카테고리 매칭
     if (entry.type === "block"  && blockCats.includes(entry.category))  return true;

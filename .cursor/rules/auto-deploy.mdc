@@ -1,0 +1,31 @@
+---
+description: 코드 수정 후 GitHub Pages 자동 배포
+alwaysApply: true
+---
+
+# 자동 배포
+
+이 프로젝트는 `main` push 시 GitHub Actions로 https://830348kcy-art.github.io/craft-helper/ 에 배포됩니다.
+
+## 에이전트가 반드시 할 일
+
+소스·데이터·스타일 등 **저장소 파일을 수정한 작업을 마칠 때**, 사용자가 배포를 거부하지 않았다면 마지막에 반드시 실행합니다:
+
+```bash
+npm run deploy:auto
+```
+
+- 변경이 없으면 스크립트가 스킵합니다.
+- `build:ci` 통과 후 커밋·`origin main` push까지 수행합니다.
+- 배포만 원할 때는 `DEPLOY_COMMIT_MSG="메시지" npm run deploy:auto` 로 커밋 메시지를 지정할 수 있습니다.
+- 이번 턴에서 배포하지 말아야 하면 `DEPLOY_SKIP=1` 을 설정합니다.
+
+## 배포하지 않는 경우
+
+- 질문만 답하고 파일을 수정하지 않은 경우
+- 사용자가 "배포하지 마", "로컬만" 등으로 명시한 경우
+- `google-key.json` 등 비밀 파일만 다루는 경우
+
+## Cursor 훅
+
+`.cursor/hooks.json` 의 `stop` 훅이 에이전트 세션 종료 시에도 같은 스크립트를 실행합니다. 훅이 실패해도 에이전트는 위 `npm run deploy:auto` 를 직접 실행해 배포를 완료합니다.

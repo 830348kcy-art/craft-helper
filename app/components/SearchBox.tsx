@@ -66,8 +66,8 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
   return (
     <div ref={boxRef} className={`relative ${className}`}>
       <form onSubmit={submit}>
-        <div className={`flex items-center h-9 rounded-sm border bg-white px-3 transition-all ${
-          focused ? "border-white ring-2 ring-white/40" : "border-white/30"
+        <div className={`flex items-center h-10 rounded-wiki border bg-white/95 dark:bg-zinc-900/90 backdrop-blur px-3 shadow-sm transition-all ${
+          focused ? "border-white ring-2 ring-brand-400/50 shadow-wiki-glow" : "border-white/40"
         }`}>
           <span className="text-zinc-500 text-sm shrink-0">
             {loading ? <span className="animate-spin inline-block">⏳</span> : "🔎"}

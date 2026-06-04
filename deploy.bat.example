@@ -9,6 +9,7 @@ REM  1. 이 파일을 deploy.bat 으로 복사해서 사용하세요.
 REM  2. deploy.bat 은 .gitignore 에 등록되어 Git/사이트에 올라가지 않습니다.
 REM  3. 저장소: https://github.com/830348kcy-art/craft-helper
 REM  4. 배포 URL: https://830348kcy-art.github.io/craft-helper/
+REM  5. 자동 배포: npm run deploy:auto (Cursor 에이전트·stop 훅도 동일)
 REM ============================================================
 
 set "PATH=C:\Program Files\nodejs;%PATH%"

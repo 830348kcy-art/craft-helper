@@ -5,6 +5,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { Breadcrumb } from "@/app/components/Breadcrumb";
+import { PageShell } from "@/app/components/PageShell";
 
 import { filterSearchIndex, loadSearchIndex, type SearchIndexItem } from "@/lib/search-client";
 
@@ -68,31 +69,32 @@ function SearchContent() {
   ].filter((g) => g.data.length > 0);
 
   return (
-    <main className="max-w-[900px] mx-auto px-4 sm:px-6 py-8 bg-wiki-bg dark:bg-zinc-950 min-h-[80vh]">
-      <Breadcrumb items={[{ label: "홈", href: "/" }, { label: "검색 결과" }]} />
+    <PageShell>
+      <div className="max-w-[900px] mx-auto">
+        <Breadcrumb items={[{ label: "홈", href: "/" }, { label: "검색 결과" }]} />
 
-      <div className="mb-8">
-        <h1 className="text-2xl font-bold mb-1">
-          {query ? (
-            <>&ldquo;<span className="text-brand-600 dark:text-brand-400">{query}</span>&rdquo; 검색 결과</>
-          ) : "검색"}
-        </h1>
-        {query && <p className="text-sm text-zinc-500">합계 <strong>{results.length}</strong>건</p>}
+        <div className="wiki-panel p-6 sm:p-8 mb-8 animate-fade-up">
+          <h1 className="text-2xl font-bold mb-1 text-wiki-text dark:text-zinc-100">
+            {query ? (
+              <>&ldquo;<span className="text-brand-600 dark:text-brand-400">{query}</span>&rdquo; 검색 결과</>
+            ) : "검색"}
+          </h1>
+          {query && <p className="text-sm text-wiki-muted dark:text-zinc-400">합계 <strong>{results.length}</strong>건</p>}
 
-        <div className="mt-4 flex gap-2 max-w-xl">
-          <div className="flex-1 flex items-center h-11 rounded-lg border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-3 focus-within:ring-2 focus-within:ring-brand-500">
-            <span className="text-zinc-400">🔎</span>
-            <input
-              type="search"
-              value={inputValue}
-              onChange={(e) => handleInput(e.target.value)}
-              placeholder="블록·아이템·레시피 검색..."
-              className="flex-1 bg-transparent px-3 text-sm outline-none placeholder:text-zinc-400"
-              autoFocus
-            />
+          <div className="mt-4 flex gap-2 max-w-xl">
+            <div className="flex-1 flex items-center h-12 rounded-wiki border border-wiki-borderSoft dark:border-zinc-600 bg-white dark:bg-zinc-800/80 px-4 focus-within:ring-2 focus-within:ring-brand-500/40 shadow-sm">
+              <span className="text-wiki-muted">🔎</span>
+              <input
+                type="search"
+                value={inputValue}
+                onChange={(e) => handleInput(e.target.value)}
+                placeholder="블록·아이템·레시피 검색..."
+                className="flex-1 bg-transparent px-3 text-sm outline-none placeholder:text-zinc-400"
+                autoFocus
+              />
+            </div>
           </div>
         </div>
-      </div>
 
       {groups.length > 1 && (
         <div className="flex gap-2 mb-6 flex-wrap">
@@ -130,7 +132,7 @@ function SearchContent() {
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {g.data.map((r) => (
               <li key={`${r.type}-${r.id}`}>
-                <Link href={r.href} className="group flex items-start gap-3 p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:border-brand-400 hover:shadow-md hover:-translate-y-0.5 transition-all">
+                <Link href={r.href} className="wiki-card-hover group flex items-start gap-3 p-4 no-underline">
                   <SmartIcon image={r.image} textureId={r.id} emoji={r.emoji} size="lg" framed className="mt-0.5" />
                   <div className="min-w-0">
                     <p className="font-semibold text-sm text-link dark:text-link-dark truncate">{r.name}</p>
@@ -156,7 +158,8 @@ function SearchContent() {
           </ul>
         </section>
       ))}
-    </main>
+      </div>
+    </PageShell>
   );
 }
 

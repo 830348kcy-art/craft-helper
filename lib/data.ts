@@ -26,7 +26,7 @@ export type WikiDoc = {
 };
 
 export const categories: Category[] = [
-  { slug: "blocks",     name: "블록",     emoji: "🟫", description: "건축과 채굴의 기본 단위", color: "bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-200" },
+  { slug: "blocks",     name: "블록",     emoji: "🟫", description: "오버월드·네더·엔드별로 건축, 기능, 식물 등 세부 분류", color: "bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-200" },
   { slug: "items",      name: "아이템",   emoji: "🍎", description: "도구, 음식, 자원",      color: "bg-rose-100 dark:bg-rose-900/30 text-rose-800 dark:text-rose-200" },
   { slug: "mobs",       name: "몹",       emoji: "🐗", description: "몬스터와 동물",        color: "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-800 dark:text-emerald-200" },
   { slug: "biomes",     name: "생물군계", emoji: "🌲", description: "지형과 환경",          color: "bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200" },
@@ -110,12 +110,12 @@ export const docs: Record<string, WikiDoc> = {
       {
         id: "wood",
         heading: "1. 나무 모으기",
-        html: `<p>주변의 나무로 다가가 <strong>맨손으로 원목을 부순다</strong>. 약 3초간 누르면 원목 1개가 드롭된다. 최소 <strong>원목 5~6개</strong>는 확보하자.</p><p>원목을 인벤토리 제작창(2×2)에 넣으면 <code>판자</code>가 되고, 판자 4개를 2×2로 배치하면 <code>작업대</code>가 만들어진다.</p>`,
+        html: `<p>주변의 나무로 다가가 <strong>맨손으로 원목을 부순다</strong>. 약 3초간 누르면 원목 1개가 드롭된다. 최소 <strong>원목 5~6개</strong>는 확보하자.</p><p>원목을 인벤토리 제작창(2×2)에 넣으면 <code>판자</code>가 되고, 판자 4개를 2×2로 배치하면 <code>제작대</code>가 만들어진다.</p>`,
       },
       {
         id: "tools",
         heading: "2. 도구 제작",
-        html: `<p>작업대를 바닥에 놓고 우클릭하면 3×3 제작창이 열린다. 다음 순서로 제작한다:</p><ol><li><strong>막대기</strong>: 판자 2개를 세로로 → 막대기 4개</li><li><strong>나무 곡괭이</strong>: 판자 3개 + 막대기 2개</li><li><strong>나무 검</strong>: 판자 2개 + 막대기 1개</li></ol><p>곡괭이가 생겼으니 바로 돌(회색 블록)을 캐서 <strong>둥근돌 5~10개</strong>를 모으고, 다시 작업대로 와서 <strong>돌 곡괭이·돌 검·화로</strong>로 업그레이드한다.</p>`,
+        html: `<p>제작대를 바닥에 놓고 우클릭하면 3×3 제작창이 열린다. 다음 순서로 제작한다:</p><ol><li><strong>막대기</strong>: 판자 2개를 세로로 → 막대기 4개</li><li><strong>나무 곡괭이</strong>: 판자 3개 + 막대기 2개</li><li><strong>나무 검</strong>: 판자 2개 + 막대기 1개</li></ol><p>곡괭이가 생겼으니 바로 돌(회색 블록)을 캐서 <strong>둥근돌 5~10개</strong>를 모으고, 다시 제작대로 와서 <strong>돌 곡괭이·돌 검·화로</strong>로 업그레이드한다.</p>`,
       },
       {
         id: "food",
@@ -125,7 +125,7 @@ export const docs: Record<string, WikiDoc> = {
       {
         id: "shelter",
         heading: "4. 쉘터 짓기",
-        html: `<p>해가 기울기 시작하면 즉시 쉘터를 만들어야 한다. 가장 빠른 방법:</p><ul><li>언덕 옆면을 곡괭이로 1×2 크기로 파고 들어간다</li><li>입구를 흙이나 둥근돌로 막는다</li><li>안에 작업대, 화로, 상자를 배치</li></ul><p>창문을 한 칸 만들어두면 밖이 밝아진 것을 확인할 수 있다.</p>`,
+        html: `<p>해가 기울기 시작하면 즉시 쉘터를 만들어야 한다. 가장 빠른 방법:</p><ul><li>언덕 옆면을 곡괭이로 1×2 크기로 파고 들어간다</li><li>입구를 흙이나 둥근돌로 막는다</li><li>안에 제작대, 화로, 상자를 배치</li></ul><p>창문을 한 칸 만들어두면 밖이 밝아진 것을 확인할 수 있다.</p>`,
       },
       {
         id: "night",

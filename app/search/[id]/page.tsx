@@ -83,7 +83,9 @@ export default async function SearchDetailPage({
           .slice(0, 6);
 
   return (
-    <main className="max-w-[920px] mx-auto px-4 sm:px-6 py-8 bg-wiki-bg dark:bg-zinc-950 min-h-[80vh]">
+    <main className="wiki-page-bg min-h-[80vh]">
+      <div className="wiki-page-mesh" aria-hidden />
+      <div className="relative z-10 max-w-[920px] mx-auto px-4 sm:px-6 py-8 sm:py-10">
       <Breadcrumb
         items={[
           { label: "홈", href: "/" },
@@ -244,6 +246,7 @@ export default async function SearchDetailPage({
         <Link href={`/search?q=${encodeURIComponent(entry.category)}`} className="text-link dark:text-link-dark hover:underline">
           {entry.category} 더 보기 →
         </Link>
+      </div>
       </div>
     </main>
   );

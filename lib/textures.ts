@@ -30,11 +30,18 @@ for (const it of itemsCatalog) {
   }
 }
 
+/** 레시피·가이드에 남아 있는 구 명칭 → 카탈로그 공식명 */
+const KO_NAME_ALIASES: Record<string, string> = {
+  작업대: "제작대",
+  투척기: "공급기",
+};
+
 /** 레시피 재료 한국어 이름 → 카탈로그 항목 */
 export function resolveByKoName(name: string): KoNameEntry | undefined {
   const trimmed = name.trim();
   if (!trimmed) return undefined;
-  return KO_NAME_INDEX.get(trimmed);
+  const canon = KO_NAME_ALIASES[trimmed] ?? trimmed;
+  return KO_NAME_INDEX.get(canon);
 }
 
 /** 레시피 재료 한국어 이름 → 상세 페이지 경로 */
@@ -274,6 +281,9 @@ export const KOREAN_TO_TEXTURE: Record<string, string> = {
   "디스펜서":              "block/dispenser_front.png",
   "발사기":                "block/dispenser_front.png",
   "투척기":                "block/dropper_front.png",
+  "공급기":                "block/dropper_front.png",
+  "제작대":                "block/crafting_table_front.png",
+  "작업대":                "block/crafting_table_front.png",
   "물":                    "block/water_overlay.png",
   "물 양동이":              "item/water_bucket.png",
   "용암":                  "block/lava_still.png",

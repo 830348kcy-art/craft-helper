@@ -69,9 +69,7 @@ function fixEntry(entry, type, originalIds) {
   const id = entry.id;
   const name = resolveKoName(id);
   const category =
-    type === "block"
-      ? entry.category ?? inferBlockCategory(id)
-      : inferItemCategory(id);
+    type === "block" ? inferBlockCategory(id) : inferItemCategory(id);
 
   const fixed = {
     ...entry,

@@ -44,6 +44,29 @@ const config: Config = {
       fontSize: {
         base: ["16px", "1.7"],
       },
+      boxShadow: {
+        wiki: "0 4px 24px -4px rgba(29, 56, 41, 0.1), 0 1px 3px rgba(0,0,0,0.04)",
+        "wiki-lg": "0 16px 48px -12px rgba(29, 56, 41, 0.14), 0 4px 12px rgba(0,0,0,0.05)",
+        "wiki-glow": "0 0 0 1px rgba(47, 161, 94, 0.15), 0 8px 32px -8px rgba(47, 161, 94, 0.25)",
+      },
+      borderRadius: {
+        wiki: "0.875rem",
+        "wiki-lg": "1.125rem",
+      },
+      animation: {
+        "fade-up": "fade-up 0.5s ease-out forwards",
+        "shimmer": "shimmer 2.5s ease-in-out infinite",
+      },
+      keyframes: {
+        "fade-up": {
+          "0%": { opacity: "0", transform: "translateY(8px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        shimmer: {
+          "0%, 100%": { opacity: "0.4" },
+          "50%": { opacity: "0.7" },
+        },
+      },
     },
   },
   plugins: [],

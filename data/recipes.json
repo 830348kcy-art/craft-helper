@@ -5737,7 +5737,7 @@
     "resultItem": "제작기",
     "resultCount": 1,
     "type": "제작창",
-    "description": "제작기 제작법. 철 주괴 ×5, 작업대, 레드스톤 ×2, 투척기.",
+    "description": "제작기 제작법. 철 주괴 ×5, 제작대, 레드스톤 ×2, 공급기.",
     "tags": [
       "재료"
     ],
@@ -5749,28 +5749,28 @@
       ],
       [
         "철 주괴",
-        "작업대",
+        "제작대",
         "철 주괴"
       ],
       [
         "레드스톤",
-        "투척기",
+        "공급기",
         "레드스톤"
       ]
     ],
     "ingredients": [
       "철 주괴 ×5",
-      "작업대",
+      "제작대",
       "레드스톤 ×2",
-      "투척기"
+      "공급기"
     ]
   },
   {
     "id": "crafting_table",
-    "name": "작업대 제작",
+    "name": "제작대 제작",
     "emoji": "🪵",
     "category": "기본",
-    "resultItem": "작업대",
+    "resultItem": "제작대",
     "resultCount": 1,
     "type": "인벤토리 제작창",
     "description": "나무 판자 4개를 2×2로 배치. 마인크래프트 진행의 첫 번째 관문이다.",
@@ -8430,10 +8430,10 @@
   },
   {
     "id": "dropper",
-    "name": "투척기",
+    "name": "공급기",
     "emoji": "📤",
     "category": "레드스톤",
-    "resultItem": "투척기",
+    "resultItem": "공급기",
     "resultCount": 1,
     "type": "제작창",
     "description": "둥근돌 7 + 레드스톤. 신호 받으면 아이템을 떨어뜨리거나 호퍼로 전송.",
@@ -21650,10 +21650,10 @@
   },
   {
     "id": "smithing_table",
-    "name": "대장간 작업대",
+    "name": "대장간 제작대",
     "emoji": "⚒️",
     "category": "기능",
-    "resultItem": "대장간 작업대",
+    "resultItem": "대장간 제작대",
     "resultCount": 1,
     "type": "제작창",
     "description": "판자 4 + 철 주괴 2. 네더라이트 업그레이드와 갑옷 트림 적용.",

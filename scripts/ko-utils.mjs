@@ -461,7 +461,7 @@ const MATERIALS = {
   ender_chest: "엔더 상자",
   trapped_chest: "덫 상자",
   hopper: "호퍼",
-  dropper: "투척기",
+  dropper: "공급기",
   dispenser: "발사기",
   observer: "관측기",
   piston: "피스톤",
@@ -923,7 +923,7 @@ export function idToKoName(id) {
     trapped_chest: "덫 상자",
     shulker_box: "셜커 상자",
     hopper: "호퍼",
-    dropper: "투척기",
+    dropper: "공급기",
     dispenser: "발사기",
     observer: "관측기",
     piston: "피스톤",
@@ -1109,7 +1109,7 @@ export function idToKoName(id) {
     furnace: "화로",
     blast_furnace: "용광로",
     smoker: "훈연기",
-    crafting_table: "작업대",
+    crafting_table: "제작대",
     fletching_table: "화살 작업대",
     cartography_table: "지도 제작대",
     loom: "베틀",
@@ -1361,9 +1361,10 @@ export function inferBlockCategory(id) {
     return "레드스톤";
   if (/furnace|smoker|blast|brewing|enchanting|crafting|smithing|stonecutter|cartography|fletching|loom|lectern|jukebox|cauldron|composter|barrel|chest|ender_chest|trapped/.test(id))
     return "기능";
-  if (/nether|netherrack|soul|crimson|warped|shroomlight|magma|glowstone|ancient/.test(id))
-    return "네더";
-  if (/end_|purpur|chorus|dragon|elytra/.test(id)) return "엔드";
+  if (/netherrack|soul_sand|soul_soil|basalt|blackstone|magma_block|glowstone|nether_brick|red_nether|blue_nether|nether_wart|nether_sprouts|shroomlight/.test(id))
+    return "자연";
+  if (/end_stone|chorus_plant|chorus_flower/.test(id)) return "자연";
+  if (/purpur|end_rod|end_portal_frame/.test(id)) return "건축";
   if (/sculk|trial|vault|crafter|heavy_core|creaking|decorated_pot|suspicious|sniffer|frogspawn|resin|eyeblossom|torchflower|pale_/.test(id))
     return "특수";
   if (/flower|rose|tulip|daisy|lily|allium|poppy|dandelion|cornflower|azalea|spore|vine|kelp|seagrass|bamboo|cactus|melon|pumpkin|crop|wheat|carrot|potato|beetroot|berry|mushroom|coral|fern|grass|bush|moss|leaf|wildflower|petals|sprouts|fungus|wart|lichen|dripleaf|pitcher|torchflower/.test(id))

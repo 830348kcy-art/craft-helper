@@ -4,6 +4,7 @@ import { docs, categories } from "@/lib/data";
 import { Sidebar } from "@/app/components/Sidebar";
 import { InfoBox } from "@/app/components/InfoBox";
 import { SmartIcon } from "@/app/components/SmartIcon";
+import { WikiArticle } from "@/app/components/PageShell";
 import { getCategoryTexture } from "@/lib/textures";
 
 export function generateStaticParams() {
@@ -16,24 +17,22 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
   const category = categories.find((c) => c.slug === doc.category);
 
   return (
-    <div className="bg-wiki-bg dark:bg-zinc-950 min-h-[80vh]">
-      <div className="max-w-[1400px] mx-auto flex">
+    <div className="wiki-page-bg min-h-[80vh]">
+      <div className="wiki-page-mesh" aria-hidden />
+      <div className="max-w-[1400px] mx-auto flex relative z-10">
         <Sidebar activeSlug={doc.slug} />
 
-        <main className="flex-1 min-w-0 px-4 sm:px-8 py-6">
-          {/* 위키 페이지 컨테이너 */}
-          <article className="bg-white dark:bg-zinc-900 border border-wiki-border dark:border-zinc-700 shadow-sm">
-            {/* 페이지 헤더 — 미디어위키 스타일 (제목 + 밑줄) */}
-            <div className="px-6 sm:px-8 pt-6 pb-3 border-b border-wiki-border dark:border-zinc-700">
-              {/* 빵부스러기 (미니멀 위키 스타일) */}
-              <nav className="text-[12px] text-wiki-muted dark:text-zinc-400 mb-2">
-                <Link href="/" className="text-link dark:text-link-dark hover:underline">대문</Link>
+        <main className="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+          <WikiArticle>
+            <div className="wiki-hero-banner !border-0">
+              <nav className="relative z-10 text-[12px] text-white/70 mb-3">
+                <Link href="/" className="hover:text-white transition-colors">대문</Link>
                 <span className="mx-1.5">›</span>
                 {category && (
                   <>
                     <Link
                       href={`/category/${category.slug}`}
-                      className="text-link dark:text-link-dark hover:underline inline-flex items-center gap-1"
+                      className="hover:text-white transition-colors inline-flex items-center gap-1"
                     >
                       <SmartIcon image={getCategoryTexture(category.slug)} emoji={category.emoji} size="xs" alt={category.name} />
                       {category.name}
@@ -41,17 +40,12 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
                     <span className="mx-1.5">›</span>
                   </>
                 )}
-                <span>{doc.title}</span>
+                <span className="text-white">{doc.title}</span>
               </nav>
-              <h1 className="prose-wiki">
-                <span className="block font-wiki text-[2.1rem] font-normal leading-tight pb-2 border-b border-wiki-border dark:border-zinc-700">
-                  {doc.title}
-                </span>
-              </h1>
+              <h1 className="wiki-hero-title !text-[1.85rem] sm:!text-[2.15rem]">{doc.title}</h1>
             </div>
 
-            {/* 본문 */}
-            <div className="px-6 sm:px-8 py-6">
+            <div className="px-6 sm:px-8 py-6 sm:py-8">
               <div className="prose-wiki">
                 {/* 요약 (위키의 첫 문단 강조) */}
                 <p className="text-[15px] leading-[1.7] text-wiki-text dark:text-zinc-200 mb-5">
@@ -101,7 +95,7 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
                 </div>
               )}
             </div>
-          </article>
+          </WikiArticle>
 
           {/* 마지막 수정 정보 (미디어위키 풍) */}
           <p className="mt-4 text-[12px] text-wiki-muted dark:text-zinc-500 text-right pr-2">
