@@ -332,6 +332,7 @@ export function getTextureCandidates(id: string): string[] {
   };
 
   add(textureUrlMap[id]);
+  add(getWikiSpriteUrl(id));
   add(`${CDN}/${cdnBlockPath(id)}`);
   add(`${CDN}/${cdnItemPath(id)}`);
   add(`${CDN}/block/${id}.png`);
@@ -436,6 +437,12 @@ const WOODS = new Set([
 function blockFileName(id: string): string {
   if (WOODS.has(id)) return `${id}_planks.png`;
   return `${id}.png`;
+}
+
+const WIKI_SPRITE_BASE = "https://minecraft.wiki/images/BlockSprite";
+
+function getWikiSpriteUrl(id: string): string {
+  return `${WIKI_SPRITE_BASE}_${id.replace(/_/g, "-")}.png?format=original`;
 }
 
 export function getTextureByName(name: string): string | undefined {
