@@ -11,8 +11,9 @@ export const ID_OVERRIDES = {
   warped_chest_boat: "block/warped_planks.png",
   crimson_log: "block/crimson_stem.png",
   warped_log: "block/warped_stem.png",
-  crimson_leaves: "block/nether_wart_block.png",
-  warped_leaves: "block/warped_wart_block.png",
+  crimson_leaves: "wiki:crimson_leaves",
+  warped_leaves: "wiki:warped_leaves",
+  bamboo_leaves: "wiki:bamboo_leaves",
   crimson_sapling: "block/nether_sprouts.png",
   warped_sapling: "block/warped_fungus.png",
   wall_torch: "block/torch.png",
@@ -57,10 +58,6 @@ export function getPatternOverride(id) {
   if (id.endsWith("_shelf")) return "block/chiseled_bookshelf_side.png";
 
   if (id.includes("candle_cake")) return "block/cake_side.png";
-
-  if (id.includes("coral") && id.includes("fan")) {
-    return "block/tube_coral_block.png";
-  }
 
   if (id.startsWith("stone_") && /boots|chestplate|helmet|leggings|horse_armor/.test(id)) {
     return "item/iron_chestplate.png";

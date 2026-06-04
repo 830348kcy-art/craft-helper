@@ -154,8 +154,7 @@ function addCopperTexturePaths(id, add) {
 
   if (base.endsWith("_copper_door") || base === "copper_door") {
     add(`item/${base}.png`);
-    add(`block/${base}_bottom.png`);
-    if (base !== "copper_door") add("item/copper_door.png");
+    add(`wiki:${base}`);
     return;
   }
 
@@ -183,6 +182,23 @@ export function getTextureCandidatePaths(id) {
 
   if (id.startsWith("waxed_") && isShapeBlock(id)) {
     add(paths, `wiki:${unwaxCopperId(id)}`);
+  }
+
+  // 문: 인벤 아이템 아이콘 우선 (door_bottom 절반 텍스처 방지)
+  if (id.endsWith("_door")) {
+    add(paths, `item/${id}.png`);
+    add(paths, `wiki:${id}`);
+  }
+
+  // 잎: Wiki 컬러 스프라이트 (CDN 잎은 무채색)
+  if (id.endsWith("_leaves") || id === "bamboo_leaves") {
+    add(paths, `wiki:${id}`);
+  }
+
+  // 산호 fan: ID별 block 텍스처
+  if (id.includes("coral") && id.includes("fan")) {
+    add(paths, `block/${id}.png`);
+    add(paths, `wiki:${id}`);
   }
 
   if (BLOCK_OVERRIDES[id]) add(paths, BLOCK_OVERRIDES[id]);

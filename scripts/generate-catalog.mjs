@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import mcData from "minecraft-data";
-import { root } from "./textures-config.mjs";
+import { root } from "./textures-config-root.mjs";
 import {
   idToKoName,
   inferBlockCategory,
@@ -17,6 +17,7 @@ import {
   inferHardness,
   koNames,
 } from "./ko-utils.mjs";
+import { filterCatalogEntries } from "./catalog-filter.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -146,10 +147,6 @@ function collectItemIds() {
   const colors = ["white","orange","magenta","light_blue","yellow","lime","pink","gray","light_gray","cyan","purple","blue","brown","green","red","black"];
   for (const c of colors) ids.add(`${c}_dye`);
 
-  // spawn eggs (common)
-  const mobs = ["creeper","zombie","skeleton","spider","enderman","pig","cow","sheep","chicken","villager","iron_golem","wolf","cat","bee","axolotl","allay","warden","piglin","blaze","ghast","slime","magma_cube","drowned","husk","stray","phantom","evoker","vindicator","pillager","ravager","witch","guardian","elder_guardian","shulker","endermite","silverfish","bat","squid","glow_squid","dolphin","turtle","fox","panda","polar_bear","llama","trader_llama","mooshroom","horse","donkey","mule","rabbit","parrot","ocelot","goat","frog","tadpole","camel","sniffer","bogged","breeze","creaking"];
-  for (const m of mobs) ids.add(`${m}_spawn_egg`);
-
   return [...ids].sort();
 }
 
@@ -201,12 +198,15 @@ function makeItem(id) {
 const blockIds = collectBlockIds();
 const itemIds = collectItemIds();
 
-const blocks = blockIds.map(makeBlock);
-const items = itemIds.map(makeItem);
+let blocks = blockIds.map(makeBlock);
+let items = itemIds.map(makeItem);
+
+blocks = filterCatalogEntries(blocks);
+items = filterCatalogEntries(items);
 
 writeFileSync(resolve(root, "data/blocks.json"), JSON.stringify(blocks, null, 2), "utf-8");
 writeFileSync(resolve(root, "data/items.json"), JSON.stringify(items, null, 2), "utf-8");
 
 console.log(
-  `generate-catalog: blocks ${existingBlocks.length} -> ${blocks.length}, items ${existingItems.length} -> ${items.length}`
+  `generate-catalog: blocks ${existingBlocks.length} -> ${blocks.length}, items ${existingItems.length} -> ${items.length} (craftable only)`
 );

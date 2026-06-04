@@ -14,6 +14,7 @@ import {
   blockDescription,
   itemDescription,
 } from "./ko-utils.mjs";
+import { filterCatalogEntries } from "./catalog-filter.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -49,6 +50,11 @@ function resolveKoName(id) {
   const lookup = ID_ALIASES[id] ?? id;
   if (officialKo.blocks?.[lookup]) return officialKo.blocks[lookup];
   if (officialKo.items?.[lookup]) return officialKo.items[lookup];
+  if (id.endsWith("_spawn_egg")) {
+    const mob = id.slice(0, -10);
+    const mobKey = `${mob}_spawn_egg`;
+    if (officialKo.items?.[mobKey]) return officialKo.items[mobKey];
+  }
   return idToKoName(id);
 }
 
@@ -97,6 +103,11 @@ blocks = blocks.filter((b) => !PHANTOM_COPPER_IDS.has(b.id));
 blocks = blocks.map((b) => fixEntry(b, "block", vanilla.blocks));
 items = items.map((i) => fixEntry(i, "item", vanilla.items));
 
+const beforeBlocks = blocks.length;
+const beforeItems = items.length;
+blocks = filterCatalogEntries(blocks);
+items = filterCatalogEntries(items);
+
 writeFileSync(resolve(root, "data/blocks.json"), JSON.stringify(blocks, null, 2) + "\n", "utf-8");
 writeFileSync(resolve(root, "data/items.json"), JSON.stringify(items, null, 2) + "\n", "utf-8");
 
@@ -114,7 +125,8 @@ for (const type of ["blocks", "items"]) {
 }
 
 let reportText = `# Craft Helper 카탈로그 분류 리포트\n생성: ${new Date().toISOString()}\n\n`;
-reportText += `팬텀 구리 블록 ID ${removedPhantoms.length}개 제거됨\n\n`;
+reportText += `팬텀 구리 블록 ID ${removedPhantoms.length}개 제거됨\n`;
+reportText += `제작 가능 필터: 블록 ${beforeBlocks} → ${blocks.length}, 아이템 ${beforeItems} → ${items.length}\n\n`;
 
 for (const type of ["blocks", "items"]) {
   const label = type === "blocks" ? "블록" : "아이템";
@@ -139,6 +151,6 @@ for (const type of ["blocks", "items"]) {
 
 writeFileSync(resolve(__dirname, "catalog-category-report-ko.txt"), reportText, "utf-8");
 
-console.log(`[fix-catalog-ko] blocks ${blocks.length}, items ${items.length}`);
+console.log(`[fix-catalog-ko] blocks ${beforeBlocks} -> ${blocks.length}, items ${beforeItems} -> ${items.length}`);
 console.log(`[fix-catalog-ko] removed phantoms: ${removedPhantoms.length}`);
 console.log(`→ catalog-category-report-ko.txt`);

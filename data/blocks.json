@@ -91,32 +91,6 @@
     "hardness": 1
   },
   {
-    "id": "acacia_leaves",
-    "name": "아카시아나무 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/acacia_leaves.png",
-    "category": "나무",
-    "description": "아카시아나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "acacia_log",
-    "name": "아카시아나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/acacia_log.png",
-    "category": "나무",
-    "description": "아카시아나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "acacia_planks",
     "name": "아카시아나무 판자",
     "emoji": "🪵",
@@ -140,32 +114,6 @@
       "건축"
     ],
     "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "acacia_sapling",
-    "name": "아카시아나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/acacia_sapling.png",
-    "category": "나무",
-    "description": "아카시아나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "acacia_shelf",
-    "name": "아카시아 선반",
-    "emoji": "🟫",
-    "image": "/images/blocks/acacia_shelf.png",
-    "category": "건축",
-    "description": "아카시아 선반. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
     "hardness": 1
   },
   {
@@ -221,32 +169,6 @@
     "hardness": 2
   },
   {
-    "id": "acacia_wall_hanging_sign",
-    "name": "아카시아나무 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/acacia_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "아카시아나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "acacia_wall_sign",
-    "name": "아카시아나무 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/acacia_wall_sign.png",
-    "category": "건축",
-    "description": "아카시아나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "acacia_wood",
     "name": "아카시아나무",
     "emoji": "🪵",
@@ -273,32 +195,6 @@
     "hardness": 1
   },
   {
-    "id": "air",
-    "name": "공기",
-    "emoji": "🟫",
-    "image": "/images/blocks/air.png",
-    "category": "건축",
-    "description": "공기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "allium",
-    "name": "알리움",
-    "emoji": "🟫",
-    "image": "/images/blocks/allium.png",
-    "category": "식물",
-    "description": "알리움. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "amethyst_block",
     "name": "자수정 블록",
     "emoji": "💎",
@@ -310,32 +206,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "amethyst_cluster",
-    "name": "자수정 군집",
-    "emoji": "💎",
-    "image": "/images/blocks/amethyst_cluster.png",
-    "category": "광석",
-    "description": "자수정 군집. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "철 곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "ancient_debris",
-    "name": "고대 잔해",
-    "emoji": "🟫",
-    "image": "/images/blocks/ancient_debris.png",
-    "category": "광석",
-    "description": "고대 잔해. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "다이아 곡괭이",
-    "hardness": 30
   },
   {
     "id": "andesite",
@@ -403,84 +273,6 @@
     "hardness": 5
   },
   {
-    "id": "attached_melon_stem",
-    "name": "수박이 달린 줄기",
-    "emoji": "🪵",
-    "image": "/images/blocks/attached_melon_stem.png",
-    "category": "나무",
-    "description": "수박이 달린 줄기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "attached_pumpkin_stem",
-    "name": "호박이 달린 줄기",
-    "emoji": "🪵",
-    "image": "/images/blocks/attached_pumpkin_stem.png",
-    "category": "나무",
-    "description": "호박이 달린 줄기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "azalea",
-    "name": "진달래",
-    "emoji": "🟫",
-    "image": "/images/blocks/azalea.png",
-    "category": "식물",
-    "description": "진달래. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "없음",
-    "hardness": 0
-  },
-  {
-    "id": "azalea_leaves",
-    "name": "진달래 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/azalea_leaves.png",
-    "category": "나무",
-    "description": "진달래 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "azure_bluet",
-    "name": "선애기별꽃",
-    "emoji": "🟫",
-    "image": "/images/blocks/azure_bluet.png",
-    "category": "건축",
-    "description": "선애기별꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "bamboo",
-    "name": "대나무",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo.png",
-    "category": "식물",
-    "description": "대나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
     "id": "bamboo_block",
     "name": "대나무 블록",
     "emoji": "🪵",
@@ -494,38 +286,12 @@
     "hardness": 2
   },
   {
-    "id": "bamboo_boat",
-    "name": "대나무 보트",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo_boat.png",
-    "category": "나무",
-    "description": "대나무 보트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "bamboo_button",
     "name": "대나무 버튼",
     "emoji": "🪵",
     "image": "/images/blocks/bamboo_button.png",
     "category": "나무",
     "description": "대나무 버튼. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "bamboo_chest_boat",
-    "name": "대나무 상자가 실린 보트",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo_chest_boat.png",
-    "category": "나무",
-    "description": "대나무 상자가 실린 보트. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "나무"
     ],
@@ -578,32 +344,6 @@
     "image": "/images/blocks/bamboo_hanging_sign.png",
     "category": "나무",
     "description": "대나무 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "bamboo_leaves",
-    "name": "대나무 잎",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo_leaves.png",
-    "category": "나무",
-    "description": "대나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "bamboo_log",
-    "name": "대나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo_log.png",
-    "category": "나무",
-    "description": "대나무 원목. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "나무"
     ],
@@ -676,32 +416,6 @@
     "hardness": 2
   },
   {
-    "id": "bamboo_sapling",
-    "name": "죽순",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo_sapling.png",
-    "category": "나무",
-    "description": "죽순. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "bamboo_shelf",
-    "name": "대나무 선반",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo_shelf.png",
-    "category": "나무",
-    "description": "대나무 선반. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "bamboo_sign",
     "name": "대나무 표지판",
     "emoji": "🪵",
@@ -754,45 +468,6 @@
     "hardness": 2
   },
   {
-    "id": "bamboo_wall_hanging_sign",
-    "name": "대나무 벽 매다는 표지판",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo_wall_hanging_sign.png",
-    "category": "나무",
-    "description": "대나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "bamboo_wall_sign",
-    "name": "대나무 벽 표지판",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo_wall_sign.png",
-    "category": "나무",
-    "description": "대나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "bamboo_wood",
-    "name": "대나무 나무",
-    "emoji": "🪵",
-    "image": "/images/blocks/bamboo_wood.png",
-    "category": "나무",
-    "description": "대나무 나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "barrel",
     "name": "통",
     "emoji": "🟫",
@@ -804,32 +479,6 @@
     ],
     "tool": "도끼",
     "hardness": 2.5
-  },
-  {
-    "id": "barrier",
-    "name": "방벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/barrier.png",
-    "category": "건축",
-    "description": "방벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
-  },
-  {
-    "id": "basalt",
-    "name": "현무암",
-    "emoji": "🟫",
-    "image": "/images/blocks/basalt.png",
-    "category": "네더",
-    "description": "현무암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.25
   },
   {
     "id": "beacon",
@@ -845,45 +494,6 @@
     "hardness": 3
   },
   {
-    "id": "bed_red",
-    "name": "침대 빨간",
-    "emoji": "🟫",
-    "image": "/images/blocks/bed_red.png",
-    "category": "기능",
-    "description": "침대 빨간. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "기능"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
-    "id": "bedrock",
-    "name": "기반암",
-    "emoji": "🟫",
-    "image": "/images/blocks/bedrock.png",
-    "category": "건축",
-    "description": "기반암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
-  },
-  {
-    "id": "bee_nest",
-    "name": "벌집",
-    "emoji": "🟫",
-    "image": "/images/blocks/bee_nest.png",
-    "category": "건축",
-    "description": "벌집. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "beehive",
     "name": "벌통",
     "emoji": "🟫",
@@ -892,58 +502,6 @@
     "description": "벌통. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "beetroots",
-    "name": "비트",
-    "emoji": "🟫",
-    "image": "/images/blocks/beetroots.png",
-    "category": "나무",
-    "description": "비트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "bell",
-    "name": "종",
-    "emoji": "🟫",
-    "image": "/images/blocks/bell.png",
-    "category": "기능",
-    "description": "종. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "기능"
-    ],
-    "tool": "곡괭이",
-    "hardness": 5
-  },
-  {
-    "id": "big_dripleaf",
-    "name": "큰 흘림잎",
-    "emoji": "🟫",
-    "image": "/images/blocks/big_dripleaf.png",
-    "category": "식물",
-    "description": "큰 흘림잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "big_dripleaf_stem",
-    "name": "큰 흘림잎 줄기",
-    "emoji": "🪵",
-    "image": "/images/blocks/big_dripleaf_stem.png",
-    "category": "나무",
-    "description": "큰 흘림잎 줄기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
     ],
     "tool": "도끼",
     "hardness": 1
@@ -1040,32 +598,6 @@
     "hardness": 1
   },
   {
-    "id": "birch_leaves",
-    "name": "자작나무 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/birch_leaves.png",
-    "category": "나무",
-    "description": "자작나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "birch_log",
-    "name": "자작나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/birch_log.png",
-    "category": "나무",
-    "description": "자작나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "birch_planks",
     "name": "자작나무 판자",
     "emoji": "🪵",
@@ -1089,32 +621,6 @@
       "건축"
     ],
     "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "birch_sapling",
-    "name": "자작나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/birch_sapling.png",
-    "category": "나무",
-    "description": "자작나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "birch_shelf",
-    "name": "자작나무 선반",
-    "emoji": "🟫",
-    "image": "/images/blocks/birch_shelf.png",
-    "category": "건축",
-    "description": "자작나무 선반. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
     "hardness": 1
   },
   {
@@ -1170,32 +676,6 @@
     "hardness": 2
   },
   {
-    "id": "birch_wall_hanging_sign",
-    "name": "자작나무 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/birch_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "자작나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "birch_wall_sign",
-    "name": "자작나무 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/birch_wall_sign.png",
-    "category": "건축",
-    "description": "자작나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "birch_wood",
     "name": "자작나무",
     "emoji": "🪵",
@@ -1248,19 +728,6 @@
     "hardness": 0.2
   },
   {
-    "id": "black_candle_cake",
-    "name": "검은색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/black_candle_cake.png",
-    "category": "장식",
-    "description": "검은색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "black_carpet",
     "name": "검은색 양탄자",
     "emoji": "🟫",
@@ -1274,19 +741,6 @@
     "hardness": 1
   },
   {
-    "id": "black_concrete",
-    "name": "검은색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/black_concrete.png",
-    "category": "장식",
-    "description": "검은색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
-  },
-  {
     "id": "black_concrete_powder",
     "name": "검은색 콘크리트 가루",
     "emoji": "🟫",
@@ -1298,32 +752,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "black_glazed_terracotta",
-    "name": "검은색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/black_glazed_terracotta.png",
-    "category": "장식",
-    "description": "검은색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "black_shulker_box",
-    "name": "검은색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/black_shulker_box.png",
-    "category": "건축",
-    "description": "검은색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "black_stained_glass",
@@ -1365,19 +793,6 @@
     "hardness": 1.5
   },
   {
-    "id": "black_wall_banner",
-    "name": "검정 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/black_wall_banner.png",
-    "category": "장식",
-    "description": "검정 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "black_wool",
     "name": "검은색 양털",
     "emoji": "🟫",
@@ -1389,19 +804,6 @@
     ],
     "tool": "가위",
     "hardness": 0.8
-  },
-  {
-    "id": "blackstone",
-    "name": "흑암",
-    "emoji": "🟫",
-    "image": "/images/blocks/blackstone.png",
-    "category": "네더",
-    "description": "흑암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
   },
   {
     "id": "blackstone_slab",
@@ -1495,19 +897,6 @@
     "hardness": 0.2
   },
   {
-    "id": "blue_candle_cake",
-    "name": "파란색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/blue_candle_cake.png",
-    "category": "장식",
-    "description": "파란색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "blue_carpet",
     "name": "파란색 양탄자",
     "emoji": "🟫",
@@ -1519,19 +908,6 @@
     ],
     "tool": "가위",
     "hardness": 1
-  },
-  {
-    "id": "blue_concrete",
-    "name": "파란색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/blue_concrete.png",
-    "category": "장식",
-    "description": "파란색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
   },
   {
     "id": "blue_concrete_powder",
@@ -1547,19 +923,6 @@
     "hardness": 1.5
   },
   {
-    "id": "blue_glazed_terracotta",
-    "name": "파란색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/blue_glazed_terracotta.png",
-    "category": "장식",
-    "description": "파란색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.4
-  },
-  {
     "id": "blue_ice",
     "name": "푸른얼음",
     "emoji": "🟦",
@@ -1571,32 +934,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 2.8
-  },
-  {
-    "id": "blue_orchid",
-    "name": "파란색 난초",
-    "emoji": "🟫",
-    "image": "/images/blocks/blue_orchid.png",
-    "category": "건축",
-    "description": "파란색 난초. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "blue_shulker_box",
-    "name": "파란색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/blue_shulker_box.png",
-    "category": "건축",
-    "description": "파란색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "blue_stained_glass",
@@ -1638,19 +975,6 @@
     "hardness": 1.5
   },
   {
-    "id": "blue_wall_banner",
-    "name": "파란 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/blue_wall_banner.png",
-    "category": "장식",
-    "description": "파란 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "blue_wool",
     "name": "파란색 양털",
     "emoji": "🟫",
@@ -1688,58 +1012,6 @@
     ],
     "tool": "도끼",
     "hardness": 1.5
-  },
-  {
-    "id": "brain_coral",
-    "name": "뇌 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/brain_coral.png",
-    "category": "식물",
-    "description": "뇌 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "brain_coral_block",
-    "name": "뇌 산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/brain_coral_block.png",
-    "category": "식물",
-    "description": "뇌 산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "brain_coral_fan",
-    "name": "부채형 뇌 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/brain_coral_fan.png",
-    "category": "식물",
-    "description": "부채형 뇌 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "brain_coral_wall_fan",
-    "name": "부채형 뇌 산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/brain_coral_wall_fan.png",
-    "category": "건축",
-    "description": "부채형 뇌 산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "brewing_stand",
@@ -1846,19 +1118,6 @@
     "hardness": 0.2
   },
   {
-    "id": "brown_candle_cake",
-    "name": "갈색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/brown_candle_cake.png",
-    "category": "장식",
-    "description": "갈색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "brown_carpet",
     "name": "갈색 양탄자",
     "emoji": "🟫",
@@ -1872,19 +1131,6 @@
     "hardness": 1
   },
   {
-    "id": "brown_concrete",
-    "name": "갈색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/brown_concrete.png",
-    "category": "장식",
-    "description": "갈색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
     "id": "brown_concrete_powder",
     "name": "갈색 콘크리트 가루",
     "emoji": "🟫",
@@ -1896,58 +1142,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "brown_glazed_terracotta",
-    "name": "갈색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/brown_glazed_terracotta.png",
-    "category": "장식",
-    "description": "갈색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "brown_mushroom",
-    "name": "갈색 버섯",
-    "emoji": "🟫",
-    "image": "/images/blocks/brown_mushroom.png",
-    "category": "식물",
-    "description": "갈색 버섯. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "brown_mushroom_block",
-    "name": "갈색 버섯 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/brown_mushroom_block.png",
-    "category": "식물",
-    "description": "갈색 버섯 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "brown_shulker_box",
-    "name": "갈색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/brown_shulker_box.png",
-    "category": "건축",
-    "description": "갈색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "brown_stained_glass",
@@ -1989,19 +1183,6 @@
     "hardness": 1.5
   },
   {
-    "id": "brown_wall_banner",
-    "name": "갈색 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/brown_wall_banner.png",
-    "category": "장식",
-    "description": "갈색 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "brown_wool",
     "name": "갈색 양털",
     "emoji": "🟫",
@@ -2015,97 +1196,6 @@
     "hardness": 0.8
   },
   {
-    "id": "bubble_column",
-    "name": "거품 기둥",
-    "emoji": "🟫",
-    "image": "/images/blocks/bubble_column.png",
-    "category": "건축",
-    "description": "거품 기둥. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "bubble_coral",
-    "name": "거품 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/bubble_coral.png",
-    "category": "식물",
-    "description": "거품 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "bubble_coral_block",
-    "name": "거품 산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/bubble_coral_block.png",
-    "category": "식물",
-    "description": "거품 산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "bubble_coral_fan",
-    "name": "부채형 거품 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/bubble_coral_fan.png",
-    "category": "식물",
-    "description": "부채형 거품 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "bubble_coral_wall_fan",
-    "name": "부채형 거품 산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/bubble_coral_wall_fan.png",
-    "category": "건축",
-    "description": "부채형 거품 산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "budding_amethyst",
-    "name": "싹 틔우는 자수정",
-    "emoji": "💎",
-    "image": "/images/blocks/budding_amethyst.png",
-    "category": "특수",
-    "description": "싹 틔우는 자수정. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "없음",
-    "hardness": 1.5
-  },
-  {
-    "id": "cactus",
-    "name": "선인장",
-    "emoji": "🟫",
-    "image": "/images/blocks/cactus.png",
-    "category": "식물",
-    "description": "선인장. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "없음",
-    "hardness": 0.4
-  },
-  {
     "id": "cake",
     "name": "케이크",
     "emoji": "🟫",
@@ -2117,19 +1207,6 @@
     ],
     "tool": "없음",
     "hardness": 1
-  },
-  {
-    "id": "calcite",
-    "name": "방해석",
-    "emoji": "🟫",
-    "image": "/images/blocks/calcite.png",
-    "category": "자연",
-    "description": "방해석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.75
   },
   {
     "id": "calibrated_sculk_sensor",
@@ -2171,32 +1248,6 @@
     "hardness": 0.1
   },
   {
-    "id": "candle_cake",
-    "name": "초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/candle_cake.png",
-    "category": "장식",
-    "description": "초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
-    "id": "carrots",
-    "name": "당근",
-    "emoji": "🟫",
-    "image": "/images/blocks/carrots.png",
-    "category": "식물",
-    "description": "당근. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "cartography_table",
     "name": "지도 제작대",
     "emoji": "🟫",
@@ -2208,19 +1259,6 @@
     ],
     "tool": "도끼",
     "hardness": 2.5
-  },
-  {
-    "id": "carved_pumpkin",
-    "name": "조각된 호박",
-    "emoji": "🟫",
-    "image": "/images/blocks/carved_pumpkin.png",
-    "category": "특수",
-    "description": "조각된 호박. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "도끼",
-    "hardness": 1
   },
   {
     "id": "cauldron",
@@ -2236,45 +1274,6 @@
     "hardness": 2
   },
   {
-    "id": "cave_air",
-    "name": "동굴 공기",
-    "emoji": "🟫",
-    "image": "/images/blocks/cave_air.png",
-    "category": "건축",
-    "description": "동굴 공기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "cave_vines",
-    "name": "동굴 덩굴",
-    "emoji": "🌿",
-    "image": "/images/blocks/cave_vines.png",
-    "category": "식물",
-    "description": "동굴 덩굴. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "가위",
-    "hardness": 0.2
-  },
-  {
-    "id": "cave_vines_plant",
-    "name": "동굴 덩굴 식물",
-    "emoji": "🌿",
-    "image": "/images/blocks/cave_vines_plant.png",
-    "category": "식물",
-    "description": "동굴 덩굴 식물. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "가위",
-    "hardness": 0.2
-  },
-  {
     "id": "chain",
     "name": "사슬",
     "emoji": "🟫",
@@ -2286,19 +1285,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 5
-  },
-  {
-    "id": "chain_command_block",
-    "name": "연쇄형 명령 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/chain_command_block.png",
-    "category": "건축",
-    "description": "연쇄형 명령 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
   },
   {
     "id": "cherry_boat",
@@ -2392,32 +1378,6 @@
     "hardness": 1
   },
   {
-    "id": "cherry_leaves",
-    "name": "벚나무 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/cherry_leaves.png",
-    "category": "나무",
-    "description": "벚나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "cherry_log",
-    "name": "벚나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/cherry_log.png",
-    "category": "나무",
-    "description": "벚나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "cherry_planks",
     "name": "벚나무 판자",
     "emoji": "🪵",
@@ -2437,32 +1397,6 @@
     "image": "/images/blocks/cherry_pressure_plate.png",
     "category": "건축",
     "description": "벚나무 압력판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "cherry_sapling",
-    "name": "벚나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/cherry_sapling.png",
-    "category": "나무",
-    "description": "벚나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "cherry_shelf",
-    "name": "벚나무 선반",
-    "emoji": "🟫",
-    "image": "/images/blocks/cherry_shelf.png",
-    "category": "건축",
-    "description": "벚나무 선반. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
     ],
@@ -2522,32 +1456,6 @@
     "hardness": 2
   },
   {
-    "id": "cherry_wall_hanging_sign",
-    "name": "벚나무 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/cherry_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "벚나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "cherry_wall_sign",
-    "name": "벚나무 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/cherry_wall_sign.png",
-    "category": "건축",
-    "description": "벚나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "cherry_wood",
     "name": "벚나무",
     "emoji": "🪵",
@@ -2572,19 +1480,6 @@
     ],
     "tool": "도끼",
     "hardness": 2.5
-  },
-  {
-    "id": "chipped_anvil",
-    "name": "금 간 모루",
-    "emoji": "🟫",
-    "image": "/images/blocks/chipped_anvil.png",
-    "category": "건축",
-    "description": "금 간 모루. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 5
   },
   {
     "id": "chiseled_bookshelf",
@@ -2678,19 +1573,6 @@
     "hardness": 1.5
   },
   {
-    "id": "chiseled_resin_bricks",
-    "name": "조각된 수지 벽돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/chiseled_resin_bricks.png",
-    "category": "특수",
-    "description": "조각된 수지 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
     "id": "chiseled_sandstone",
     "name": "조각된 사암",
     "emoji": "🟫",
@@ -2743,32 +1625,6 @@
     "hardness": 1.5
   },
   {
-    "id": "chorus_flower",
-    "name": "후렴화",
-    "emoji": "🌿",
-    "image": "/images/blocks/chorus_flower.png",
-    "category": "엔드",
-    "description": "후렴화. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "엔드"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "chorus_plant",
-    "name": "후렴초",
-    "emoji": "🟪",
-    "image": "/images/blocks/chorus_plant.png",
-    "category": "엔드",
-    "description": "후렴초. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "엔드"
-    ],
-    "tool": "도끼",
-    "hardness": 0.4
-  },
-  {
     "id": "clay",
     "name": "점토",
     "emoji": "🟫",
@@ -2780,19 +1636,6 @@
     ],
     "tool": "삽",
     "hardness": 0.6
-  },
-  {
-    "id": "closed_eyeblossom",
-    "name": "눈 감은 밤눈꽃",
-    "emoji": "🟫",
-    "image": "/images/blocks/closed_eyeblossom.png",
-    "category": "특수",
-    "description": "눈 감은 밤눈꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "coal_block",
@@ -2808,19 +1651,6 @@
     "hardness": 5
   },
   {
-    "id": "coal_ore",
-    "name": "석탄 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/coal_ore.png",
-    "category": "광석",
-    "description": "석탄 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "곡괭이",
-    "hardness": 3
-  },
-  {
     "id": "coarse_dirt",
     "name": "거친 흙",
     "emoji": "🟫",
@@ -2832,19 +1662,6 @@
     ],
     "tool": "삽",
     "hardness": 0.5
-  },
-  {
-    "id": "cobbled_deepslate",
-    "name": "심층암 조약돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/cobbled_deepslate.png",
-    "category": "자연",
-    "description": "심층암 조약돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 3.5
   },
   {
     "id": "cobbled_deepslate_slab",
@@ -2886,19 +1703,6 @@
     "hardness": 3.5
   },
   {
-    "id": "cobblestone",
-    "name": "조약돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/cobblestone.png",
-    "category": "자연",
-    "description": "조약돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 2
-  },
-  {
     "id": "cobblestone_slab",
     "name": "조약돌 반 블록",
     "emoji": "🟫",
@@ -2936,45 +1740,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "cobweb",
-    "name": "거미줄",
-    "emoji": "🟫",
-    "image": "/images/blocks/cobweb.png",
-    "category": "자연",
-    "description": "거미줄. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "검",
-    "hardness": 4
-  },
-  {
-    "id": "cocoa",
-    "name": "코코아",
-    "emoji": "🟫",
-    "image": "/images/blocks/cocoa.png",
-    "category": "건축",
-    "description": "코코아. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "command_block",
-    "name": "명령 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/command_block.png",
-    "category": "건축",
-    "description": "명령 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
   },
   {
     "id": "comparator",
@@ -3016,19 +1781,6 @@
     "hardness": 3
   },
   {
-    "id": "copper_bars",
-    "name": "구리 창",
-    "emoji": "💎",
-    "image": "/images/blocks/copper_bars.png",
-    "category": "건축",
-    "description": "구리 창. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "copper_block",
     "name": "구리 블록",
     "emoji": "💎",
@@ -3050,19 +1802,6 @@
     "description": "구리 전구. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "조명"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "copper_chain",
-    "name": "구리 사슬",
-    "emoji": "💎",
-    "image": "/images/blocks/copper_chain.png",
-    "category": "건축",
-    "description": "구리 사슬. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 1
@@ -3094,45 +1833,6 @@
     "hardness": 1
   },
   {
-    "id": "copper_lantern",
-    "name": "구리 랜턴",
-    "emoji": "💎",
-    "image": "/images/blocks/copper_lantern.png",
-    "category": "조명",
-    "description": "구리 랜턴. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "copper_ore",
-    "name": "구리 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/copper_ore.png",
-    "category": "광석",
-    "description": "구리 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "돌 곡괭이",
-    "hardness": 3
-  },
-  {
-    "id": "copper_torch",
-    "name": "구리 횃불",
-    "emoji": "💎",
-    "image": "/images/blocks/copper_torch.png",
-    "category": "조명",
-    "description": "구리 횃불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
     "id": "copper_trapdoor",
     "name": "구리 다락문",
     "emoji": "💎",
@@ -3144,84 +1844,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 2
-  },
-  {
-    "id": "cornflower",
-    "name": "수레국화",
-    "emoji": "🌿",
-    "image": "/images/blocks/cornflower.png",
-    "category": "식물",
-    "description": "수레국화. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "cracked_deepslate_bricks",
-    "name": "금 간 심층암 벽돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/cracked_deepslate_bricks.png",
-    "category": "자연",
-    "description": "금 간 심층암 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 3.5
-  },
-  {
-    "id": "cracked_deepslate_tiles",
-    "name": "금 간 심층암 타일",
-    "emoji": "🟫",
-    "image": "/images/blocks/cracked_deepslate_tiles.png",
-    "category": "자연",
-    "description": "금 간 심층암 타일. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 3.5
-  },
-  {
-    "id": "cracked_nether_bricks",
-    "name": "금 간 네더 벽돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/cracked_nether_bricks.png",
-    "category": "네더",
-    "description": "금 간 네더 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "cracked_polished_blackstone_bricks",
-    "name": "금 간 윤나는 흑암 벽돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/cracked_polished_blackstone_bricks.png",
-    "category": "자연",
-    "description": "금 간 윤나는 흑암 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "cracked_stone_bricks",
-    "name": "금 간 석재 벽돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/cracked_stone_bricks.png",
-    "category": "건축",
-    "description": "금 간 석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
   },
   {
     "id": "crafter",
@@ -3250,58 +1872,6 @@
     "hardness": 2.5
   },
   {
-    "id": "creaking_heart",
-    "name": "크리킹 심장",
-    "emoji": "⬛",
-    "image": "/images/blocks/creaking_heart.png",
-    "category": "특수",
-    "description": "크리킹 심장. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "creeper_head",
-    "name": "크리퍼 머리",
-    "emoji": "🟫",
-    "image": "/images/blocks/creeper_head.png",
-    "category": "특수",
-    "description": "크리퍼 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "creeper_wall_head",
-    "name": "크리퍼 벽 머리",
-    "emoji": "🟫",
-    "image": "/images/blocks/creeper_wall_head.png",
-    "category": "건축",
-    "description": "크리퍼 벽 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "crimson_boat",
-    "name": "진홍 보트",
-    "emoji": "🟥",
-    "image": "/images/blocks/crimson_boat.png",
-    "category": "네더",
-    "description": "진홍 보트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "crimson_button",
     "name": "진홍빛 버튼",
     "emoji": "🟥",
@@ -3310,19 +1880,6 @@
     "description": "진홍빛 버튼. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "crimson_chest_boat",
-    "name": "진홍 상자가 실린 보트",
-    "emoji": "🟥",
-    "image": "/images/blocks/crimson_chest_boat.png",
-    "category": "기능",
-    "description": "진홍 상자가 실린 보트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "기능"
     ],
     "tool": "도끼",
     "hardness": 1
@@ -3367,19 +1924,6 @@
     "hardness": 2
   },
   {
-    "id": "crimson_fungus",
-    "name": "진홍빛 균",
-    "emoji": "🟥",
-    "image": "/images/blocks/crimson_fungus.png",
-    "category": "네더",
-    "description": "진홍빛 균. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "crimson_hanging_sign",
     "name": "진홍빛 매다는 표지판",
     "emoji": "🟥",
@@ -3406,45 +1950,6 @@
     "hardness": 1
   },
   {
-    "id": "crimson_leaves",
-    "name": "진홍 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/crimson_leaves.png",
-    "category": "나무",
-    "description": "진홍 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "crimson_log",
-    "name": "진홍 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/crimson_log.png",
-    "category": "나무",
-    "description": "진홍 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "crimson_nylium",
-    "name": "진홍빛 네사체",
-    "emoji": "🟥",
-    "image": "/images/blocks/crimson_nylium.png",
-    "category": "나무",
-    "description": "진홍빛 네사체. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "crimson_planks",
     "name": "진홍빛 판자",
     "emoji": "🪵",
@@ -3464,45 +1969,6 @@
     "image": "/images/blocks/crimson_pressure_plate.png",
     "category": "건축",
     "description": "진홍빛 압력판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "crimson_roots",
-    "name": "진홍빛 뿌리",
-    "emoji": "🟥",
-    "image": "/images/blocks/crimson_roots.png",
-    "category": "나무",
-    "description": "진홍빛 뿌리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "crimson_sapling",
-    "name": "진홍 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/crimson_sapling.png",
-    "category": "나무",
-    "description": "진홍 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "crimson_shelf",
-    "name": "진홍 선반",
-    "emoji": "🟥",
-    "image": "/images/blocks/crimson_shelf.png",
-    "category": "건축",
-    "description": "진홍 선반. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
     ],
@@ -3549,19 +2015,6 @@
     "hardness": 1
   },
   {
-    "id": "crimson_stem",
-    "name": "진홍빛 자루",
-    "emoji": "🪵",
-    "image": "/images/blocks/crimson_stem.png",
-    "category": "나무",
-    "description": "진홍빛 자루. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "crimson_trapdoor",
     "name": "진홍빛 다락문",
     "emoji": "🟫",
@@ -3573,58 +2026,6 @@
     ],
     "tool": "도끼",
     "hardness": 2
-  },
-  {
-    "id": "crimson_wall_hanging_sign",
-    "name": "진홍빛 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/crimson_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "진홍빛 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "crimson_wall_sign",
-    "name": "진홍빛 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/crimson_wall_sign.png",
-    "category": "건축",
-    "description": "진홍빛 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "crimson_wood",
-    "name": "진홍 나무",
-    "emoji": "🪵",
-    "image": "/images/blocks/crimson_wood.png",
-    "category": "나무",
-    "description": "진홍 나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "crying_obsidian",
-    "name": "우는 흑요석",
-    "emoji": "🟥",
-    "image": "/images/blocks/crying_obsidian.png",
-    "category": "특수",
-    "description": "우는 흑요석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "다이아 곡괭이",
-    "hardness": 50
   },
   {
     "id": "cut_copper",
@@ -3757,19 +2158,6 @@
     "hardness": 0.2
   },
   {
-    "id": "cyan_candle_cake",
-    "name": "청록색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/cyan_candle_cake.png",
-    "category": "장식",
-    "description": "청록색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "cyan_carpet",
     "name": "청록색 양탄자",
     "emoji": "🟫",
@@ -3783,19 +2171,6 @@
     "hardness": 1
   },
   {
-    "id": "cyan_concrete",
-    "name": "청록색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/cyan_concrete.png",
-    "category": "장식",
-    "description": "청록색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
     "id": "cyan_concrete_powder",
     "name": "청록색 콘크리트 가루",
     "emoji": "🟫",
@@ -3807,32 +2182,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "cyan_glazed_terracotta",
-    "name": "청록색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/cyan_glazed_terracotta.png",
-    "category": "장식",
-    "description": "청록색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "cyan_shulker_box",
-    "name": "청록색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/cyan_shulker_box.png",
-    "category": "건축",
-    "description": "청록색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "cyan_stained_glass",
@@ -3874,19 +2223,6 @@
     "hardness": 1.5
   },
   {
-    "id": "cyan_wall_banner",
-    "name": "청록 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/cyan_wall_banner.png",
-    "category": "장식",
-    "description": "청록 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "cyan_wool",
     "name": "청록색 양털",
     "emoji": "🟫",
@@ -3898,32 +2234,6 @@
     ],
     "tool": "가위",
     "hardness": 0.8
-  },
-  {
-    "id": "damaged_anvil",
-    "name": "손상된 모루",
-    "emoji": "🟫",
-    "image": "/images/blocks/damaged_anvil.png",
-    "category": "건축",
-    "description": "손상된 모루. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 5
-  },
-  {
-    "id": "dandelion",
-    "name": "민들레",
-    "emoji": "🟫",
-    "image": "/images/blocks/dandelion.png",
-    "category": "식물",
-    "description": "민들레. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "dark_oak_boat",
@@ -4017,32 +2327,6 @@
     "hardness": 1
   },
   {
-    "id": "dark_oak_leaves",
-    "name": "짙은 참나무 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/dark_oak_leaves.png",
-    "category": "나무",
-    "description": "짙은 참나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "dark_oak_log",
-    "name": "짙은 참나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/dark_oak_log.png",
-    "category": "나무",
-    "description": "짙은 참나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "dark_oak_planks",
     "name": "짙은 참나무 판자",
     "emoji": "🪵",
@@ -4066,32 +2350,6 @@
       "건축"
     ],
     "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dark_oak_sapling",
-    "name": "짙은 참나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/dark_oak_sapling.png",
-    "category": "나무",
-    "description": "짙은 참나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "dark_oak_shelf",
-    "name": "짙은 참나무 선반",
-    "emoji": "🟫",
-    "image": "/images/blocks/dark_oak_shelf.png",
-    "category": "건축",
-    "description": "짙은 참나무 선반. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
     "hardness": 1
   },
   {
@@ -4145,32 +2403,6 @@
     ],
     "tool": "도끼",
     "hardness": 2
-  },
-  {
-    "id": "dark_oak_wall_hanging_sign",
-    "name": "짙은 참나무 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/dark_oak_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "짙은 참나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "dark_oak_wall_sign",
-    "name": "짙은 참나무 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/dark_oak_wall_sign.png",
-    "category": "건축",
-    "description": "짙은 참나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
   },
   {
     "id": "dark_oak_wood",
@@ -4238,279 +2470,6 @@
     "hardness": 0.2
   },
   {
-    "id": "dead_brain_coral",
-    "name": "죽은 뇌 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_brain_coral.png",
-    "category": "식물",
-    "description": "죽은 뇌 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_brain_coral_block",
-    "name": "죽은 뇌 산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_brain_coral_block.png",
-    "category": "식물",
-    "description": "죽은 뇌 산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_brain_coral_fan",
-    "name": "죽은 부채형 뇌 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_brain_coral_fan.png",
-    "category": "식물",
-    "description": "죽은 부채형 뇌 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_brain_coral_wall_fan",
-    "name": "죽은 부채형 뇌 산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_brain_coral_wall_fan.png",
-    "category": "건축",
-    "description": "죽은 부채형 뇌 산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_bubble_coral",
-    "name": "죽은 거품 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_bubble_coral.png",
-    "category": "식물",
-    "description": "죽은 거품 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_bubble_coral_block",
-    "name": "죽은 거품 산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_bubble_coral_block.png",
-    "category": "식물",
-    "description": "죽은 거품 산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_bubble_coral_fan",
-    "name": "죽은 부채형 거품 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_bubble_coral_fan.png",
-    "category": "식물",
-    "description": "죽은 부채형 거품 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_bubble_coral_wall_fan",
-    "name": "죽은 부채형 거품 산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_bubble_coral_wall_fan.png",
-    "category": "건축",
-    "description": "죽은 부채형 거품 산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_bush",
-    "name": "마른 덤불",
-    "emoji": "🌿",
-    "image": "/images/blocks/dead_bush.png",
-    "category": "식물",
-    "description": "마른 덤불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_fire_coral",
-    "name": "죽은 불 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_fire_coral.png",
-    "category": "식물",
-    "description": "죽은 불 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_fire_coral_block",
-    "name": "죽은 불 산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_fire_coral_block.png",
-    "category": "식물",
-    "description": "죽은 불 산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_fire_coral_fan",
-    "name": "죽은 부채형 불 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_fire_coral_fan.png",
-    "category": "식물",
-    "description": "죽은 부채형 불 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_fire_coral_wall_fan",
-    "name": "죽은 부채형 불 산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_fire_coral_wall_fan.png",
-    "category": "건축",
-    "description": "죽은 부채형 불 산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_horn_coral",
-    "name": "죽은 사방산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_horn_coral.png",
-    "category": "식물",
-    "description": "죽은 사방산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_horn_coral_block",
-    "name": "죽은 사방산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_horn_coral_block.png",
-    "category": "식물",
-    "description": "죽은 사방산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_horn_coral_fan",
-    "name": "죽은 부채형 사방산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_horn_coral_fan.png",
-    "category": "식물",
-    "description": "죽은 부채형 사방산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_horn_coral_wall_fan",
-    "name": "죽은 부채형 사방산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_horn_coral_wall_fan.png",
-    "category": "건축",
-    "description": "죽은 부채형 사방산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_tube_coral",
-    "name": "죽은 관 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_tube_coral.png",
-    "category": "식물",
-    "description": "죽은 관 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_tube_coral_block",
-    "name": "죽은 관 산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_tube_coral_block.png",
-    "category": "식물",
-    "description": "죽은 관 산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_tube_coral_fan",
-    "name": "죽은 부채형 관 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_tube_coral_fan.png",
-    "category": "식물",
-    "description": "죽은 부채형 관 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dead_tube_coral_wall_fan",
-    "name": "죽은 부채형 관 산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/dead_tube_coral_wall_fan.png",
-    "category": "건축",
-    "description": "죽은 부채형 관 산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "decorated_pot",
     "name": "장식된 도자기",
     "emoji": "🟫",
@@ -4522,19 +2481,6 @@
     ],
     "tool": "없음",
     "hardness": 0
-  },
-  {
-    "id": "deepslate",
-    "name": "심층암",
-    "emoji": "🟫",
-    "image": "/images/blocks/deepslate.png",
-    "category": "자연",
-    "description": "심층암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 3
   },
   {
     "id": "deepslate_brick_slab",
@@ -4587,110 +2533,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 3.5
-  },
-  {
-    "id": "deepslate_coal_ore",
-    "name": "심층암 석탄 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/deepslate_coal_ore.png",
-    "category": "광석",
-    "description": "심층암 석탄 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "곡괭이",
-    "hardness": 4.5
-  },
-  {
-    "id": "deepslate_copper_ore",
-    "name": "심층암 구리 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/deepslate_copper_ore.png",
-    "category": "광석",
-    "description": "심층암 구리 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "돌 곡괭이",
-    "hardness": 4.5
-  },
-  {
-    "id": "deepslate_diamond_ore",
-    "name": "심층암 다이아몬드 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/deepslate_diamond_ore.png",
-    "category": "광석",
-    "description": "심층암 다이아몬드 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "철 곡괭이",
-    "hardness": 4.5
-  },
-  {
-    "id": "deepslate_emerald_ore",
-    "name": "심층암 에메랄드 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/deepslate_emerald_ore.png",
-    "category": "광석",
-    "description": "심층암 에메랄드 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "철 곡괭이",
-    "hardness": 4.5
-  },
-  {
-    "id": "deepslate_gold_ore",
-    "name": "심층암 금 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/deepslate_gold_ore.png",
-    "category": "광석",
-    "description": "심층암 금 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "철 곡괭이",
-    "hardness": 4.5
-  },
-  {
-    "id": "deepslate_iron_ore",
-    "name": "심층암 철 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/deepslate_iron_ore.png",
-    "category": "광석",
-    "description": "심층암 철 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "돌 곡괭이",
-    "hardness": 4.5
-  },
-  {
-    "id": "deepslate_lapis_ore",
-    "name": "심층암 청금석 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/deepslate_lapis_ore.png",
-    "category": "광석",
-    "description": "심층암 청금석 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "돌 곡괭이",
-    "hardness": 4.5
-  },
-  {
-    "id": "deepslate_redstone_ore",
-    "name": "심층암 레드스톤 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/deepslate_redstone_ore.png",
-    "category": "광석",
-    "description": "심층암 레드스톤 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "철 곡괭이",
-    "hardness": 4.5
   },
   {
     "id": "deepslate_tile_slab",
@@ -4771,19 +2613,6 @@
     "hardness": 5
   },
   {
-    "id": "diamond_ore",
-    "name": "다이아몬드 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/diamond_ore.png",
-    "category": "광석",
-    "description": "다이아몬드 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "철 곡괭이",
-    "hardness": 3
-  },
-  {
     "id": "diorite",
     "name": "섬록암",
     "emoji": "🟫",
@@ -4836,32 +2665,6 @@
     "hardness": 1
   },
   {
-    "id": "dirt",
-    "name": "흙",
-    "emoji": "🟫",
-    "image": "/images/blocks/dirt.png",
-    "category": "자연",
-    "description": "흙. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
-    "id": "dirt_path",
-    "name": "흙 길",
-    "emoji": "🟫",
-    "image": "/images/blocks/dirt_path.png",
-    "category": "자연",
-    "description": "흙 길. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
     "id": "dispenser",
     "name": "발사기",
     "emoji": "🟫",
@@ -4873,58 +2676,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 3.5
-  },
-  {
-    "id": "dragon_egg",
-    "name": "드래곤 알",
-    "emoji": "🟪",
-    "image": "/images/blocks/dragon_egg.png",
-    "category": "엔드",
-    "description": "드래곤 알. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "엔드"
-    ],
-    "tool": "다이아 곡괭이",
-    "hardness": 3
-  },
-  {
-    "id": "dragon_head",
-    "name": "드래곤 머리",
-    "emoji": "🟪",
-    "image": "/images/blocks/dragon_head.png",
-    "category": "특수",
-    "description": "드래곤 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "dragon_wall_head",
-    "name": "드래곤 벽 머리",
-    "emoji": "🟫",
-    "image": "/images/blocks/dragon_wall_head.png",
-    "category": "건축",
-    "description": "드래곤 벽 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "dried_ghast",
-    "name": "말린 가스트",
-    "emoji": "🟫",
-    "image": "/images/blocks/dried_ghast.png",
-    "category": "건축",
-    "description": "말린 가스트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "dried_kelp_block",
@@ -4979,19 +2730,6 @@
     "hardness": 5
   },
   {
-    "id": "emerald_ore",
-    "name": "에메랄드 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/emerald_ore.png",
-    "category": "광석",
-    "description": "에메랄드 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "철 곡괭이",
-    "hardness": 3
-  },
-  {
     "id": "enchanting_table",
     "name": "마법 부여대",
     "emoji": "🟫",
@@ -5005,45 +2743,6 @@
     "hardness": 5
   },
   {
-    "id": "end_gateway",
-    "name": "엔드 관문",
-    "emoji": "🟪",
-    "image": "/images/blocks/end_gateway.png",
-    "category": "엔드",
-    "description": "엔드 관문. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "엔드"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "end_portal",
-    "name": "엔드 차원문",
-    "emoji": "🟪",
-    "image": "/images/blocks/end_portal.png",
-    "category": "엔드",
-    "description": "엔드 차원문. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "엔드"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
-  },
-  {
-    "id": "end_portal_frame",
-    "name": "엔드 차원문 틀",
-    "emoji": "🟪",
-    "image": "/images/blocks/end_portal_frame.png",
-    "category": "엔드",
-    "description": "엔드 차원문 틀. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "엔드"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
-  },
-  {
     "id": "end_rod",
     "name": "엔드 막대기",
     "emoji": "🟪",
@@ -5055,19 +2754,6 @@
     ],
     "tool": "도구 없음",
     "hardness": 0
-  },
-  {
-    "id": "end_stone",
-    "name": "엔드 돌",
-    "emoji": "🟪",
-    "image": "/images/blocks/end_stone.png",
-    "category": "엔드",
-    "description": "엔드 돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "엔드"
-    ],
-    "tool": "곡괭이",
-    "hardness": 3
   },
   {
     "id": "end_stone_brick_slab",
@@ -5148,19 +2834,6 @@
     "hardness": 1
   },
   {
-    "id": "exposed_copper",
-    "name": "약간 녹슨 구리",
-    "emoji": "💎",
-    "image": "/images/blocks/exposed_copper.png",
-    "category": "건축",
-    "description": "약간 녹슨 구리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "exposed_copper_bulb",
     "name": "약간 녹슨 구리 전구",
     "emoji": "💎",
@@ -5174,19 +2847,6 @@
     "hardness": 1
   },
   {
-    "id": "exposed_copper_door",
-    "name": "약간 녹슨 구리 문",
-    "emoji": "💎",
-    "image": "/images/blocks/exposed_copper_door.png",
-    "category": "건축",
-    "description": "약간 녹슨 구리 문. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 2
-  },
-  {
     "id": "exposed_copper_grate",
     "name": "약간 녹슨 구리 격자",
     "emoji": "💎",
@@ -5198,19 +2858,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1
-  },
-  {
-    "id": "exposed_copper_trapdoor",
-    "name": "약간 녹슨 구리 다락문",
-    "emoji": "💎",
-    "image": "/images/blocks/exposed_copper_trapdoor.png",
-    "category": "건축",
-    "description": "약간 녹슨 구리 다락문. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 2
   },
   {
     "id": "exposed_cut_copper",
@@ -5252,110 +2899,6 @@
     "hardness": 1
   },
   {
-    "id": "farmland",
-    "name": "경작지",
-    "emoji": "🟫",
-    "image": "/images/blocks/farmland.png",
-    "category": "자연",
-    "description": "경작지. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 1
-  },
-  {
-    "id": "fern",
-    "name": "고사리",
-    "emoji": "🌿",
-    "image": "/images/blocks/fern.png",
-    "category": "식물",
-    "description": "고사리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "fire",
-    "name": "불",
-    "emoji": "🟫",
-    "image": "/images/blocks/fire.png",
-    "category": "건축",
-    "description": "불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "fire_coral",
-    "name": "불 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/fire_coral.png",
-    "category": "식물",
-    "description": "불 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "fire_coral_block",
-    "name": "불 산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/fire_coral_block.png",
-    "category": "식물",
-    "description": "불 산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "fire_coral_fan",
-    "name": "부채형 불 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/fire_coral_fan.png",
-    "category": "식물",
-    "description": "부채형 불 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "fire_coral_wall_fan",
-    "name": "부채형 불 산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/fire_coral_wall_fan.png",
-    "category": "건축",
-    "description": "부채형 불 산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "firefly_bush",
-    "name": "반딧불 덤불",
-    "emoji": "🌿",
-    "image": "/images/blocks/firefly_bush.png",
-    "category": "식물",
-    "description": "반딧불 덤불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "fletching_table",
     "name": "화살 작업대",
     "emoji": "🟫",
@@ -5382,97 +2925,6 @@
     "hardness": 0.2
   },
   {
-    "id": "flowering_azalea",
-    "name": "꽃 핀 진달래",
-    "emoji": "🌿",
-    "image": "/images/blocks/flowering_azalea.png",
-    "category": "식물",
-    "description": "꽃 핀 진달래. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "flowering_azalea_leaves",
-    "name": "꽃 핀 진달래 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/flowering_azalea_leaves.png",
-    "category": "나무",
-    "description": "꽃 핀 진달래 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "froglight_ochre",
-    "name": "황토색 개구리불",
-    "emoji": "🔥",
-    "image": "/images/blocks/froglight_ochre.png",
-    "category": "조명",
-    "description": "황토색 개구리불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "froglight_pearlescent",
-    "name": "자줄빛 개구리불",
-    "emoji": "🔥",
-    "image": "/images/blocks/froglight_pearlescent.png",
-    "category": "조명",
-    "description": "자줄빛 개구리불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "froglight_verdant",
-    "name": "초록 개구리불",
-    "emoji": "🔥",
-    "image": "/images/blocks/froglight_verdant.png",
-    "category": "조명",
-    "description": "초록 개구리불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "frogspawn",
-    "name": "개구리알",
-    "emoji": "🟫",
-    "image": "/images/blocks/frogspawn.png",
-    "category": "특수",
-    "description": "개구리알. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "삽",
-    "hardness": 1
-  },
-  {
-    "id": "frosted_ice",
-    "name": "살얼음",
-    "emoji": "🟦",
-    "image": "/images/blocks/frosted_ice.png",
-    "category": "자연",
-    "description": "살얼음. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
     "id": "furnace",
     "name": "화로",
     "emoji": "🟫",
@@ -5486,32 +2938,6 @@
     "hardness": 3.5
   },
   {
-    "id": "gilded_blackstone",
-    "name": "황금이 박힌 흑암",
-    "emoji": "🟫",
-    "image": "/images/blocks/gilded_blackstone.png",
-    "category": "자연",
-    "description": "황금이 박힌 흑암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "glass",
-    "name": "유리",
-    "emoji": "🟫",
-    "image": "/images/blocks/glass.png",
-    "category": "건축",
-    "description": "유리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "없음",
-    "hardness": 0.3
-  },
-  {
     "id": "glass_pane",
     "name": "유리판",
     "emoji": "🟫",
@@ -5523,19 +2949,6 @@
     ],
     "tool": "없음",
     "hardness": 0.3
-  },
-  {
-    "id": "glow_lichen",
-    "name": "발광 이끼",
-    "emoji": "🔥",
-    "image": "/images/blocks/glow_lichen.png",
-    "category": "식물",
-    "description": "발광 이끼. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "가위",
-    "hardness": 1
   },
   {
     "id": "glowstone",
@@ -5559,19 +2972,6 @@
     "description": "금 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "자원"
-    ],
-    "tool": "철 곡괭이",
-    "hardness": 3
-  },
-  {
-    "id": "gold_ore",
-    "name": "금 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/gold_ore.png",
-    "category": "광석",
-    "description": "금 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
     ],
     "tool": "철 곡괭이",
     "hardness": 3
@@ -5629,32 +3029,6 @@
     "hardness": 1
   },
   {
-    "id": "grass_block",
-    "name": "잔디 블록",
-    "emoji": "🌿",
-    "image": "/images/blocks/grass_block.png",
-    "category": "자연",
-    "description": "잔디 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.6
-  },
-  {
-    "id": "gravel",
-    "name": "자갈",
-    "emoji": "🟫",
-    "image": "/images/blocks/gravel.png",
-    "category": "자연",
-    "description": "자갈. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.6
-  },
-  {
     "id": "gray_banner",
     "name": "회색 현수막",
     "emoji": "🟫",
@@ -5694,19 +3068,6 @@
     "hardness": 0.2
   },
   {
-    "id": "gray_candle_cake",
-    "name": "회색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/gray_candle_cake.png",
-    "category": "장식",
-    "description": "회색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "gray_carpet",
     "name": "회색 양탄자",
     "emoji": "🟫",
@@ -5720,19 +3081,6 @@
     "hardness": 1
   },
   {
-    "id": "gray_concrete",
-    "name": "회색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/gray_concrete.png",
-    "category": "장식",
-    "description": "회색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
     "id": "gray_concrete_powder",
     "name": "회색 콘크리트 가루",
     "emoji": "🟫",
@@ -5744,32 +3092,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "gray_glazed_terracotta",
-    "name": "회색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/gray_glazed_terracotta.png",
-    "category": "장식",
-    "description": "회색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "gray_shulker_box",
-    "name": "회색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/gray_shulker_box.png",
-    "category": "건축",
-    "description": "회색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "gray_stained_glass",
@@ -5809,19 +3131,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "gray_wall_banner",
-    "name": "회색 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/gray_wall_banner.png",
-    "category": "장식",
-    "description": "회색 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "gray_wool",
@@ -5876,19 +3185,6 @@
     "hardness": 0.2
   },
   {
-    "id": "green_candle_cake",
-    "name": "초록색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/green_candle_cake.png",
-    "category": "장식",
-    "description": "초록색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "green_carpet",
     "name": "초록색 양탄자",
     "emoji": "🟫",
@@ -5902,19 +3198,6 @@
     "hardness": 1
   },
   {
-    "id": "green_concrete",
-    "name": "초록색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/green_concrete.png",
-    "category": "장식",
-    "description": "초록색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
-  },
-  {
     "id": "green_concrete_powder",
     "name": "초록색 콘크리트 가루",
     "emoji": "🟫",
@@ -5926,32 +3209,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "green_glazed_terracotta",
-    "name": "초록색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/green_glazed_terracotta.png",
-    "category": "장식",
-    "description": "초록색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "green_shulker_box",
-    "name": "초록색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/green_shulker_box.png",
-    "category": "건축",
-    "description": "초록색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "green_stained_glass",
@@ -5993,19 +3250,6 @@
     "hardness": 1.5
   },
   {
-    "id": "green_wall_banner",
-    "name": "초록 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/green_wall_banner.png",
-    "category": "장식",
-    "description": "초록 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "green_wool",
     "name": "초록색 양털",
     "emoji": "🟫",
@@ -6032,32 +3276,6 @@
     "hardness": 2
   },
   {
-    "id": "hanging_roots",
-    "name": "매달린 뿌리",
-    "emoji": "🟫",
-    "image": "/images/blocks/hanging_roots.png",
-    "category": "나무",
-    "description": "매달린 뿌리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "hay_bale",
-    "name": "건초더미",
-    "emoji": "🟫",
-    "image": "/images/blocks/hay_bale.png",
-    "category": "자원",
-    "description": "건초더미. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자원"
-    ],
-    "tool": "괭이",
-    "hardness": 0.5
-  },
-  {
     "id": "hay_block",
     "name": "건초 더미",
     "emoji": "🟫",
@@ -6069,19 +3287,6 @@
     ],
     "tool": "삽",
     "hardness": 1
-  },
-  {
-    "id": "heavy_core",
-    "name": "무거운 코어",
-    "emoji": "💎",
-    "image": "/images/blocks/heavy_core.png",
-    "category": "광석",
-    "description": "무거운 코어. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
   },
   {
     "id": "heavy_weighted_pressure_plate",
@@ -6136,175 +3341,6 @@
     "hardness": 1
   },
   {
-    "id": "hopper_block",
-    "name": "호퍼 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/hopper_block.png",
-    "category": "기능",
-    "description": "호퍼 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "기능"
-    ],
-    "tool": "곡괭이",
-    "hardness": 3
-  },
-  {
-    "id": "horn_coral",
-    "name": "사방산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/horn_coral.png",
-    "category": "식물",
-    "description": "사방산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "horn_coral_block",
-    "name": "사방산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/horn_coral_block.png",
-    "category": "식물",
-    "description": "사방산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "horn_coral_fan",
-    "name": "부채형 사방산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/horn_coral_fan.png",
-    "category": "식물",
-    "description": "부채형 사방산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "horn_coral_wall_fan",
-    "name": "부채형 사방산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/horn_coral_wall_fan.png",
-    "category": "건축",
-    "description": "부채형 사방산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "ice",
-    "name": "얼음",
-    "emoji": "🟦",
-    "image": "/images/blocks/ice.png",
-    "category": "자연",
-    "description": "얼음. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.5
-  },
-  {
-    "id": "infested_chiseled_stone_bricks",
-    "name": "벌레 먹은 조각된 석재 벽돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/infested_chiseled_stone_bricks.png",
-    "category": "자연",
-    "description": "벌레 먹은 조각된 석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "infested_cobblestone",
-    "name": "벌레 먹은 조약돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/infested_cobblestone.png",
-    "category": "자연",
-    "description": "벌레 먹은 조약돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "infested_cracked_stone_bricks",
-    "name": "벌레 먹은 금 간 석재 벽돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/infested_cracked_stone_bricks.png",
-    "category": "자연",
-    "description": "벌레 먹은 금 간 석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "infested_deepslate",
-    "name": "벌레 먹은 심층암",
-    "emoji": "🟫",
-    "image": "/images/blocks/infested_deepslate.png",
-    "category": "자연",
-    "description": "벌레 먹은 심층암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 3.5
-  },
-  {
-    "id": "infested_mossy_stone_bricks",
-    "name": "벌레 먹은 이끼 낀 석재 벽돌",
-    "emoji": "🌿",
-    "image": "/images/blocks/infested_mossy_stone_bricks.png",
-    "category": "식물",
-    "description": "벌레 먹은 이끼 낀 석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "infested_stone",
-    "name": "벌레 먹은 돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/infested_stone.png",
-    "category": "자연",
-    "description": "벌레 먹은 돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "infested_stone_bricks",
-    "name": "벌레 먹은 석재 벽돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/infested_stone_bricks.png",
-    "category": "자연",
-    "description": "벌레 먹은 석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
     "id": "iron_bars",
     "name": "철창",
     "emoji": "💎",
@@ -6344,19 +3380,6 @@
     "hardness": 2
   },
   {
-    "id": "iron_ore",
-    "name": "철 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/iron_ore.png",
-    "category": "광석",
-    "description": "철 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "돌 곡괭이",
-    "hardness": 3
-  },
-  {
     "id": "iron_trapdoor",
     "name": "철 다락문",
     "emoji": "💎",
@@ -6380,19 +3403,6 @@
       "조명"
     ],
     "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "jigsaw",
-    "name": "직소 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/jigsaw.png",
-    "category": "건축",
-    "description": "직소 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
     "hardness": 1
   },
   {
@@ -6500,32 +3510,6 @@
     "hardness": 1
   },
   {
-    "id": "jungle_leaves",
-    "name": "정글나무 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/jungle_leaves.png",
-    "category": "나무",
-    "description": "정글나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "jungle_log",
-    "name": "정글나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/jungle_log.png",
-    "category": "나무",
-    "description": "정글나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "jungle_planks",
     "name": "정글나무 판자",
     "emoji": "🪵",
@@ -6549,32 +3533,6 @@
       "건축"
     ],
     "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "jungle_sapling",
-    "name": "정글나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/jungle_sapling.png",
-    "category": "나무",
-    "description": "정글나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "jungle_shelf",
-    "name": "정글 선반",
-    "emoji": "🟫",
-    "image": "/images/blocks/jungle_shelf.png",
-    "category": "건축",
-    "description": "정글 선반. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
     "hardness": 1
   },
   {
@@ -6630,32 +3588,6 @@
     "hardness": 2
   },
   {
-    "id": "jungle_wall_hanging_sign",
-    "name": "정글나무 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/jungle_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "정글나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "jungle_wall_sign",
-    "name": "정글나무 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/jungle_wall_sign.png",
-    "category": "건축",
-    "description": "정글나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "jungle_wood",
     "name": "정글나무",
     "emoji": "🪵",
@@ -6667,32 +3599,6 @@
     ],
     "tool": "도끼",
     "hardness": 2
-  },
-  {
-    "id": "kelp",
-    "name": "켈프",
-    "emoji": "🟦",
-    "image": "/images/blocks/kelp.png",
-    "category": "식물",
-    "description": "켈프. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "없음",
-    "hardness": 0
-  },
-  {
-    "id": "kelp_plant",
-    "name": "켈프 식물",
-    "emoji": "🟦",
-    "image": "/images/blocks/kelp_plant.png",
-    "category": "식물",
-    "description": "켈프 식물. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "ladder",
@@ -6734,84 +3640,6 @@
     "hardness": 3
   },
   {
-    "id": "lapis_ore",
-    "name": "청금석 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/lapis_ore.png",
-    "category": "광석",
-    "description": "청금석 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "돌 곡괭이",
-    "hardness": 3
-  },
-  {
-    "id": "large_amethyst_bud",
-    "name": "큰 자수정 봉오리",
-    "emoji": "💎",
-    "image": "/images/blocks/large_amethyst_bud.png",
-    "category": "건축",
-    "description": "큰 자수정 봉오리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "large_fern",
-    "name": "큰 고사리",
-    "emoji": "🌿",
-    "image": "/images/blocks/large_fern.png",
-    "category": "식물",
-    "description": "큰 고사리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "lava",
-    "name": "용암",
-    "emoji": "🟫",
-    "image": "/images/blocks/lava.png",
-    "category": "건축",
-    "description": "용암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "lava_cauldron",
-    "name": "용암 가마솥",
-    "emoji": "🟫",
-    "image": "/images/blocks/lava_cauldron.png",
-    "category": "기능",
-    "description": "용암 가마솥. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "기능"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "leaf_litter",
-    "name": "낙엽",
-    "emoji": "🟫",
-    "image": "/images/blocks/leaf_litter.png",
-    "category": "식물",
-    "description": "낙엽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "삽",
-    "hardness": 1
-  },
-  {
     "id": "lectern",
     "name": "독서대",
     "emoji": "🟫",
@@ -6836,19 +3664,6 @@
     ],
     "tool": "없음",
     "hardness": 0.5
-  },
-  {
-    "id": "light",
-    "name": "빛",
-    "emoji": "🔥",
-    "image": "/images/blocks/light.png",
-    "category": "건축",
-    "description": "빛. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "light_blue_banner",
@@ -6890,19 +3705,6 @@
     "hardness": 0.2
   },
   {
-    "id": "light_blue_candle_cake",
-    "name": "하늘색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_blue_candle_cake.png",
-    "category": "장식",
-    "description": "하늘색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "light_blue_carpet",
     "name": "하늘색 양탄자",
     "emoji": "🔥",
@@ -6916,19 +3718,6 @@
     "hardness": 1
   },
   {
-    "id": "light_blue_concrete",
-    "name": "하늘색 콘크리트",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_blue_concrete.png",
-    "category": "장식",
-    "description": "하늘색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
-  },
-  {
     "id": "light_blue_concrete_powder",
     "name": "하늘색 콘크리트 가루",
     "emoji": "🔥",
@@ -6940,32 +3729,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "light_blue_glazed_terracotta",
-    "name": "하늘색 유광 테라코타",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_blue_glazed_terracotta.png",
-    "category": "장식",
-    "description": "하늘색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "light_blue_shulker_box",
-    "name": "하늘색 셜커 상자",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_blue_shulker_box.png",
-    "category": "건축",
-    "description": "하늘색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "light_blue_stained_glass",
@@ -7005,19 +3768,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "light_blue_wall_banner",
-    "name": "하늘색 벽 배너",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_blue_wall_banner.png",
-    "category": "장식",
-    "description": "하늘색 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "light_blue_wool",
@@ -7072,19 +3822,6 @@
     "hardness": 0.2
   },
   {
-    "id": "light_gray_candle_cake",
-    "name": "회백색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_gray_candle_cake.png",
-    "category": "장식",
-    "description": "회백색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "light_gray_carpet",
     "name": "회백색 양탄자",
     "emoji": "🔥",
@@ -7098,19 +3835,6 @@
     "hardness": 1
   },
   {
-    "id": "light_gray_concrete",
-    "name": "회백색 콘크리트",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_gray_concrete.png",
-    "category": "장식",
-    "description": "회백색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
     "id": "light_gray_concrete_powder",
     "name": "회백색 콘크리트 가루",
     "emoji": "🔥",
@@ -7122,32 +3846,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "light_gray_glazed_terracotta",
-    "name": "회백색 유광 테라코타",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_gray_glazed_terracotta.png",
-    "category": "장식",
-    "description": "회백색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "light_gray_shulker_box",
-    "name": "회백색 셜커 상자",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_gray_shulker_box.png",
-    "category": "건축",
-    "description": "회백색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "light_gray_stained_glass",
@@ -7189,19 +3887,6 @@
     "hardness": 1.5
   },
   {
-    "id": "light_gray_wall_banner",
-    "name": "회백색 벽 배너",
-    "emoji": "🔥",
-    "image": "/images/blocks/light_gray_wall_banner.png",
-    "category": "장식",
-    "description": "회백색 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "light_gray_wool",
     "name": "회백색 양털",
     "emoji": "🔥",
@@ -7239,45 +3924,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 3
-  },
-  {
-    "id": "lilac",
-    "name": "라일락",
-    "emoji": "🟫",
-    "image": "/images/blocks/lilac.png",
-    "category": "건축",
-    "description": "라일락. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "lily_of_the_valley",
-    "name": "은방울꽃",
-    "emoji": "🟫",
-    "image": "/images/blocks/lily_of_the_valley.png",
-    "category": "식물",
-    "description": "은방울꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "lily_pad",
-    "name": "수련잎",
-    "emoji": "🟫",
-    "image": "/images/blocks/lily_pad.png",
-    "category": "식물",
-    "description": "수련잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "lime_banner",
@@ -7319,19 +3965,6 @@
     "hardness": 0.2
   },
   {
-    "id": "lime_candle_cake",
-    "name": "연두색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/lime_candle_cake.png",
-    "category": "장식",
-    "description": "연두색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "lime_carpet",
     "name": "연두색 양탄자",
     "emoji": "🟫",
@@ -7345,19 +3978,6 @@
     "hardness": 1
   },
   {
-    "id": "lime_concrete",
-    "name": "연두색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/lime_concrete.png",
-    "category": "장식",
-    "description": "연두색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
     "id": "lime_concrete_powder",
     "name": "연두색 콘크리트 가루",
     "emoji": "🟫",
@@ -7369,32 +3989,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "lime_glazed_terracotta",
-    "name": "연두색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/lime_glazed_terracotta.png",
-    "category": "장식",
-    "description": "연두색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "lime_shulker_box",
-    "name": "연두색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/lime_shulker_box.png",
-    "category": "건축",
-    "description": "연두색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "lime_stained_glass",
@@ -7434,19 +4028,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "lime_wall_banner",
-    "name": "연두 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/lime_wall_banner.png",
-    "category": "장식",
-    "description": "연두 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "lime_wool",
@@ -7527,19 +4108,6 @@
     "hardness": 0.2
   },
   {
-    "id": "magenta_candle_cake",
-    "name": "자홍색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/magenta_candle_cake.png",
-    "category": "장식",
-    "description": "자홍색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "magenta_carpet",
     "name": "자홍색 양탄자",
     "emoji": "🟫",
@@ -7553,19 +4121,6 @@
     "hardness": 1
   },
   {
-    "id": "magenta_concrete",
-    "name": "자홍색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/magenta_concrete.png",
-    "category": "장식",
-    "description": "자홍색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
     "id": "magenta_concrete_powder",
     "name": "자홍색 콘크리트 가루",
     "emoji": "🟫",
@@ -7577,32 +4132,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "magenta_glazed_terracotta",
-    "name": "자홍색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/magenta_glazed_terracotta.png",
-    "category": "장식",
-    "description": "자홍색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "magenta_shulker_box",
-    "name": "자홍색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/magenta_shulker_box.png",
-    "category": "건축",
-    "description": "자홍색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "magenta_stained_glass",
@@ -7642,19 +4171,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "magenta_wall_banner",
-    "name": "자홍 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/magenta_wall_banner.png",
-    "category": "장식",
-    "description": "자홍 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "magenta_wool",
@@ -7774,32 +4290,6 @@
     "hardness": 1
   },
   {
-    "id": "mangrove_leaves",
-    "name": "맹그로브나무 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/mangrove_leaves.png",
-    "category": "나무",
-    "description": "맹그로브나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "mangrove_log",
-    "name": "맹그로브나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/mangrove_log.png",
-    "category": "나무",
-    "description": "맹그로브나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "mangrove_planks",
     "name": "맹그로브나무 판자",
     "emoji": "🪵",
@@ -7819,58 +4309,6 @@
     "image": "/images/blocks/mangrove_pressure_plate.png",
     "category": "건축",
     "description": "맹그로브나무 압력판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "mangrove_propagule",
-    "name": "맹그로브나무 주아",
-    "emoji": "🟫",
-    "image": "/images/blocks/mangrove_propagule.png",
-    "category": "나무",
-    "description": "맹그로브나무 주아. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "mangrove_roots",
-    "name": "맹그로브나무 뿌리",
-    "emoji": "🟫",
-    "image": "/images/blocks/mangrove_roots.png",
-    "category": "나무",
-    "description": "맹그로브나무 뿌리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.7
-  },
-  {
-    "id": "mangrove_sapling",
-    "name": "맹그로브 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/mangrove_sapling.png",
-    "category": "나무",
-    "description": "맹그로브 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "mangrove_shelf",
-    "name": "맹그로브 선반",
-    "emoji": "🟫",
-    "image": "/images/blocks/mangrove_shelf.png",
-    "category": "건축",
-    "description": "맹그로브 선반. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
     ],
@@ -7930,32 +4368,6 @@
     "hardness": 2
   },
   {
-    "id": "mangrove_wall_hanging_sign",
-    "name": "맹그로브나무 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/mangrove_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "맹그로브나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "mangrove_wall_sign",
-    "name": "맹그로브나무 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/mangrove_wall_sign.png",
-    "category": "건축",
-    "description": "맹그로브나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "mangrove_wood",
     "name": "맹그로브나무",
     "emoji": "🪵",
@@ -7969,19 +4381,6 @@
     "hardness": 2
   },
   {
-    "id": "medium_amethyst_bud",
-    "name": "중간 자수정 봉오리",
-    "emoji": "💎",
-    "image": "/images/blocks/medium_amethyst_bud.png",
-    "category": "건축",
-    "description": "중간 자수정 봉오리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "melon",
     "name": "수박",
     "emoji": "🟫",
@@ -7993,32 +4392,6 @@
     ],
     "tool": "도끼",
     "hardness": 1
-  },
-  {
-    "id": "melon_stem",
-    "name": "수박 줄기",
-    "emoji": "🪵",
-    "image": "/images/blocks/melon_stem.png",
-    "category": "나무",
-    "description": "수박 줄기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "moss_block",
-    "name": "이끼 블록",
-    "emoji": "🌿",
-    "image": "/images/blocks/moss_block.png",
-    "category": "자연",
-    "description": "이끼 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "괭이",
-    "hardness": 0.1
   },
   {
     "id": "moss_carpet",
@@ -8138,32 +4511,6 @@
     "hardness": 1.5
   },
   {
-    "id": "moving_piston",
-    "name": "움직이는 피스톤",
-    "emoji": "🟫",
-    "image": "/images/blocks/moving_piston.png",
-    "category": "레드스톤",
-    "description": "움직이는 피스톤. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "레드스톤"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "mud",
-    "name": "진흙",
-    "emoji": "🟫",
-    "image": "/images/blocks/mud.png",
-    "category": "자연",
-    "description": "진흙. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
     "id": "mud_brick_slab",
     "name": "진흙 벽돌 반 블록",
     "emoji": "🟫",
@@ -8227,32 +4574,6 @@
     ],
     "tool": "도끼",
     "hardness": 0.5
-  },
-  {
-    "id": "mushroom_stem",
-    "name": "버섯 자루",
-    "emoji": "🪵",
-    "image": "/images/blocks/mushroom_stem.png",
-    "category": "나무",
-    "description": "버섯 자루. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "mycelium",
-    "name": "균사체",
-    "emoji": "🟫",
-    "image": "/images/blocks/mycelium.png",
-    "category": "자연",
-    "description": "균사체. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.6
   },
   {
     "id": "nether_brick_fence",
@@ -8320,71 +4641,6 @@
     "hardness": 2
   },
   {
-    "id": "nether_gold_ore",
-    "name": "네더 금 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/nether_gold_ore.png",
-    "category": "광석",
-    "description": "네더 금 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "나무 곡괭이",
-    "hardness": 3
-  },
-  {
-    "id": "nether_portal",
-    "name": "네더 차원문",
-    "emoji": "🟥",
-    "image": "/images/blocks/nether_portal.png",
-    "category": "네더",
-    "description": "네더 차원문. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "nether_quartz_ore",
-    "name": "네더 석영 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/nether_quartz_ore.png",
-    "category": "광석",
-    "description": "네더 석영 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "나무 곡괭이",
-    "hardness": 3
-  },
-  {
-    "id": "nether_sprouts",
-    "name": "네더 싹",
-    "emoji": "🟥",
-    "image": "/images/blocks/nether_sprouts.png",
-    "category": "네더",
-    "description": "네더 싹. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "nether_wart",
-    "name": "네더 사마귀",
-    "emoji": "🟥",
-    "image": "/images/blocks/nether_wart.png",
-    "category": "네더",
-    "description": "네더 사마귀. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "nether_wart_block",
     "name": "네더 사마귀 블록",
     "emoji": "🟥",
@@ -8409,19 +4665,6 @@
     ],
     "tool": "다이아 곡괭이",
     "hardness": 50
-  },
-  {
-    "id": "netherrack",
-    "name": "네더랙",
-    "emoji": "🟥",
-    "image": "/images/blocks/netherrack.png",
-    "category": "네더",
-    "description": "네더랙. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.4
   },
   {
     "id": "note_block",
@@ -8528,32 +4771,6 @@
     "hardness": 1
   },
   {
-    "id": "oak_leaves",
-    "name": "참나무 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/oak_leaves.png",
-    "category": "나무",
-    "description": "참나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "oak_log",
-    "name": "참나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/oak_log.png",
-    "category": "나무",
-    "description": "참나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "oak_planks",
     "name": "참나무 판자",
     "emoji": "🪵",
@@ -8577,32 +4794,6 @@
       "건축"
     ],
     "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "oak_sapling",
-    "name": "참나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/oak_sapling.png",
-    "category": "나무",
-    "description": "참나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "oak_shelf",
-    "name": "참나무 선반",
-    "emoji": "🟫",
-    "image": "/images/blocks/oak_shelf.png",
-    "category": "건축",
-    "description": "참나무 선반. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
     "hardness": 1
   },
   {
@@ -8658,32 +4849,6 @@
     "hardness": 2
   },
   {
-    "id": "oak_wall_hanging_sign",
-    "name": "참나무 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/oak_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "참나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "oak_wall_sign",
-    "name": "참나무 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/oak_wall_sign.png",
-    "category": "건축",
-    "description": "참나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "oak_wood",
     "name": "참나무",
     "emoji": "🪵",
@@ -8708,45 +4873,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 3
-  },
-  {
-    "id": "obsidian",
-    "name": "흑요석",
-    "emoji": "🟥",
-    "image": "/images/blocks/obsidian.png",
-    "category": "특수",
-    "description": "흑요석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "다이아 곡괭이",
-    "hardness": 50
-  },
-  {
-    "id": "ochre_froglight",
-    "name": "황톳빛 개구리불",
-    "emoji": "🔥",
-    "image": "/images/blocks/ochre_froglight.png",
-    "category": "조명",
-    "description": "황톳빛 개구리불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "open_eyeblossom",
-    "name": "눈 뜬 밤눈꽃",
-    "emoji": "🟫",
-    "image": "/images/blocks/open_eyeblossom.png",
-    "category": "특수",
-    "description": "눈 뜬 밤눈꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "orange_banner",
@@ -8788,19 +4914,6 @@
     "hardness": 0.2
   },
   {
-    "id": "orange_candle_cake",
-    "name": "주황색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/orange_candle_cake.png",
-    "category": "장식",
-    "description": "주황색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "orange_carpet",
     "name": "주황색 양탄자",
     "emoji": "🟫",
@@ -8814,19 +4927,6 @@
     "hardness": 1
   },
   {
-    "id": "orange_concrete",
-    "name": "주황색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/orange_concrete.png",
-    "category": "장식",
-    "description": "주황색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
-  },
-  {
     "id": "orange_concrete_powder",
     "name": "주황색 콘크리트 가루",
     "emoji": "🟫",
@@ -8838,32 +4938,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "orange_glazed_terracotta",
-    "name": "주황색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/orange_glazed_terracotta.png",
-    "category": "장식",
-    "description": "주황색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "orange_shulker_box",
-    "name": "주황색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/orange_shulker_box.png",
-    "category": "건축",
-    "description": "주황색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "orange_stained_glass",
@@ -8905,32 +4979,6 @@
     "hardness": 1.25
   },
   {
-    "id": "orange_tulip",
-    "name": "주황색 튤립",
-    "emoji": "🟫",
-    "image": "/images/blocks/orange_tulip.png",
-    "category": "식물",
-    "description": "주황색 튤립. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "orange_wall_banner",
-    "name": "주황 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/orange_wall_banner.png",
-    "category": "장식",
-    "description": "주황 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "orange_wool",
     "name": "주황색 양털",
     "emoji": "🟫",
@@ -8944,38 +4992,12 @@
     "hardness": 0.8
   },
   {
-    "id": "oxeye_daisy",
-    "name": "데이지",
-    "emoji": "🟫",
-    "image": "/images/blocks/oxeye_daisy.png",
-    "category": "식물",
-    "description": "데이지. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "oxidized_chiseled_copper",
     "name": "산화된 조각된 구리",
     "emoji": "💎",
     "image": "/images/blocks/oxidized_chiseled_copper.png",
     "category": "건축",
     "description": "산화된 조각된 구리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "oxidized_copper",
-    "name": "산화된 구리",
-    "emoji": "💎",
-    "image": "/images/blocks/oxidized_copper.png",
-    "category": "건축",
-    "description": "산화된 구리. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
     ],
@@ -8996,19 +5018,6 @@
     "hardness": 1
   },
   {
-    "id": "oxidized_copper_door",
-    "name": "산화된 구리 문",
-    "emoji": "💎",
-    "image": "/images/blocks/oxidized_copper_door.png",
-    "category": "건축",
-    "description": "산화된 구리 문. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 2
-  },
-  {
     "id": "oxidized_copper_grate",
     "name": "산화된 구리 격자",
     "emoji": "💎",
@@ -9020,19 +5029,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1
-  },
-  {
-    "id": "oxidized_copper_trapdoor",
-    "name": "산화된 구리 다락문",
-    "emoji": "💎",
-    "image": "/images/blocks/oxidized_copper_trapdoor.png",
-    "category": "건축",
-    "description": "산화된 구리 다락문. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 2
   },
   {
     "id": "oxidized_cut_copper",
@@ -9098,32 +5094,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1
-  },
-  {
-    "id": "pale_hanging_moss",
-    "name": "창백한 매달린 이끼",
-    "emoji": "🌿",
-    "image": "/images/blocks/pale_hanging_moss.png",
-    "category": "특수",
-    "description": "창백한 매달린 이끼. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "삽",
-    "hardness": 0.2
-  },
-  {
-    "id": "pale_moss_block",
-    "name": "창백한 이끼 블록",
-    "emoji": "🌿",
-    "image": "/images/blocks/pale_moss_block.png",
-    "category": "특수",
-    "description": "창백한 이끼 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "삽",
-    "hardness": 0.2
   },
   {
     "id": "pale_moss_carpet",
@@ -9230,32 +5200,6 @@
     "hardness": 1
   },
   {
-    "id": "pale_oak_leaves",
-    "name": "창백한 참나무 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/pale_oak_leaves.png",
-    "category": "나무",
-    "description": "창백한 참나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "pale_oak_log",
-    "name": "창백한 참나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/pale_oak_log.png",
-    "category": "나무",
-    "description": "창백한 참나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "pale_oak_planks",
     "name": "창백한 참나무 판자",
     "emoji": "🪵",
@@ -9275,32 +5219,6 @@
     "image": "/images/blocks/pale_oak_pressure_plate.png",
     "category": "건축",
     "description": "창백한 참나무 압력판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "pale_oak_sapling",
-    "name": "창백한 참나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/pale_oak_sapling.png",
-    "category": "나무",
-    "description": "창백한 참나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "pale_oak_shelf",
-    "name": "창백한 참나무 선반",
-    "emoji": "🟫",
-    "image": "/images/blocks/pale_oak_shelf.png",
-    "category": "건축",
-    "description": "창백한 참나무 선반. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
     ],
@@ -9360,32 +5278,6 @@
     "hardness": 2
   },
   {
-    "id": "pale_oak_wall_hanging_sign",
-    "name": "창백한 참나무 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/pale_oak_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "창백한 참나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "pale_oak_wall_sign",
-    "name": "창백한 참나무 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/pale_oak_wall_sign.png",
-    "category": "건축",
-    "description": "창백한 참나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "pale_oak_wood",
     "name": "창백한 참나무",
     "emoji": "🪵",
@@ -9397,71 +5289,6 @@
     ],
     "tool": "도끼",
     "hardness": 2
-  },
-  {
-    "id": "pearlescent_froglight",
-    "name": "진줏빛 개구리불",
-    "emoji": "🔥",
-    "image": "/images/blocks/pearlescent_froglight.png",
-    "category": "조명",
-    "description": "진줏빛 개구리불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "peony",
-    "name": "모란",
-    "emoji": "🟫",
-    "image": "/images/blocks/peony.png",
-    "category": "건축",
-    "description": "모란. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "petrified_oak_slab",
-    "name": "규화한 참나무 반 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/petrified_oak_slab.png",
-    "category": "건축",
-    "description": "규화한 참나무 반 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "piglin_head",
-    "name": "피글린 머리",
-    "emoji": "🟫",
-    "image": "/images/blocks/piglin_head.png",
-    "category": "건축",
-    "description": "피글린 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "piglin_wall_head",
-    "name": "피글린 벽 머리",
-    "emoji": "🟫",
-    "image": "/images/blocks/piglin_wall_head.png",
-    "category": "건축",
-    "description": "피글린 벽 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "pink_banner",
@@ -9503,19 +5330,6 @@
     "hardness": 0.2
   },
   {
-    "id": "pink_candle_cake",
-    "name": "분홍색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/pink_candle_cake.png",
-    "category": "장식",
-    "description": "분홍색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "pink_carpet",
     "name": "분홍색 양탄자",
     "emoji": "🟫",
@@ -9529,19 +5343,6 @@
     "hardness": 1
   },
   {
-    "id": "pink_concrete",
-    "name": "분홍색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/pink_concrete.png",
-    "category": "장식",
-    "description": "분홍색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
-  },
-  {
     "id": "pink_concrete_powder",
     "name": "분홍색 콘크리트 가루",
     "emoji": "🟫",
@@ -9553,45 +5354,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "pink_glazed_terracotta",
-    "name": "분홍색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/pink_glazed_terracotta.png",
-    "category": "장식",
-    "description": "분홍색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "pink_petals",
-    "name": "분홍 꽃잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/pink_petals.png",
-    "category": "식물",
-    "description": "분홍 꽃잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "pink_shulker_box",
-    "name": "분홍색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/pink_shulker_box.png",
-    "category": "건축",
-    "description": "분홍색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "pink_stained_glass",
@@ -9633,32 +5395,6 @@
     "hardness": 1.5
   },
   {
-    "id": "pink_tulip",
-    "name": "분홍색 튤립",
-    "emoji": "🟫",
-    "image": "/images/blocks/pink_tulip.png",
-    "category": "식물",
-    "description": "분홍색 튤립. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "pink_wall_banner",
-    "name": "분홍 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/pink_wall_banner.png",
-    "category": "장식",
-    "description": "분홍 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "pink_wool",
     "name": "분홍색 양털",
     "emoji": "🟫",
@@ -9680,97 +5416,6 @@
     "description": "피스톤. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "레드스톤"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "piston_head",
-    "name": "피스톤 헤드",
-    "emoji": "🟫",
-    "image": "/images/blocks/piston_head.png",
-    "category": "레드스톤",
-    "description": "피스톤 헤드. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "레드스톤"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "pitcher_crop",
-    "name": "벌레잡이풀 작물",
-    "emoji": "🟫",
-    "image": "/images/blocks/pitcher_crop.png",
-    "category": "식물",
-    "description": "벌레잡이풀 작물. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "pitcher_plant",
-    "name": "벌레잡이풀",
-    "emoji": "🟫",
-    "image": "/images/blocks/pitcher_plant.png",
-    "category": "식물",
-    "description": "벌레잡이풀. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "player_head",
-    "name": "플레이어 머리",
-    "emoji": "🟫",
-    "image": "/images/blocks/player_head.png",
-    "category": "건축",
-    "description": "플레이어 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "player_wall_head",
-    "name": "플레이어 벽 머리",
-    "emoji": "🟫",
-    "image": "/images/blocks/player_wall_head.png",
-    "category": "건축",
-    "description": "플레이어 벽 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "podzol",
-    "name": "회백토",
-    "emoji": "🟫",
-    "image": "/images/blocks/podzol.png",
-    "category": "자연",
-    "description": "회백토. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
-    "id": "pointed_dripstone",
-    "name": "뾰족한 점적석",
-    "emoji": "🟫",
-    "image": "/images/blocks/pointed_dripstone.png",
-    "category": "자연",
-    "description": "뾰족한 점적석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -10140,539 +5785,6 @@
     "hardness": 1
   },
   {
-    "id": "poppy",
-    "name": "양귀비",
-    "emoji": "🟫",
-    "image": "/images/blocks/poppy.png",
-    "category": "식물",
-    "description": "양귀비. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potatoes",
-    "name": "감자",
-    "emoji": "🟫",
-    "image": "/images/blocks/potatoes.png",
-    "category": "식물",
-    "description": "감자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_acacia_sapling",
-    "name": "화분에 심은 아카시아나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/potted_acacia_sapling.png",
-    "category": "나무",
-    "description": "화분에 심은 아카시아나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "potted_allium",
-    "name": "화분에 심은 알리움",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_allium.png",
-    "category": "식물",
-    "description": "화분에 심은 알리움. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_azalea_bush",
-    "name": "화분에 심은 진달래",
-    "emoji": "🌿",
-    "image": "/images/blocks/potted_azalea_bush.png",
-    "category": "식물",
-    "description": "화분에 심은 진달래. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_azure_bluet",
-    "name": "화분에 심은 선애기별꽃",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_azure_bluet.png",
-    "category": "건축",
-    "description": "화분에 심은 선애기별꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_bamboo",
-    "name": "화분에 심은 대나무",
-    "emoji": "🪵",
-    "image": "/images/blocks/potted_bamboo.png",
-    "category": "나무",
-    "description": "화분에 심은 대나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "potted_birch_sapling",
-    "name": "화분에 심은 자작나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/potted_birch_sapling.png",
-    "category": "나무",
-    "description": "화분에 심은 자작나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "potted_blue_orchid",
-    "name": "화분에 심은 파란색 난초",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_blue_orchid.png",
-    "category": "건축",
-    "description": "화분에 심은 파란색 난초. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_brown_mushroom",
-    "name": "화분에 심은 갈색 버섯",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_brown_mushroom.png",
-    "category": "식물",
-    "description": "화분에 심은 갈색 버섯. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_cactus",
-    "name": "화분에 심은 선인장",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_cactus.png",
-    "category": "식물",
-    "description": "화분에 심은 선인장. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_cherry_sapling",
-    "name": "화분에 심은 벚나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/potted_cherry_sapling.png",
-    "category": "나무",
-    "description": "화분에 심은 벚나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "potted_closed_eyeblossom",
-    "name": "화분에 심은 눈 감은 밤눈꽃",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_closed_eyeblossom.png",
-    "category": "특수",
-    "description": "화분에 심은 눈 감은 밤눈꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_cornflower",
-    "name": "화분에 심은 수레국화",
-    "emoji": "🌿",
-    "image": "/images/blocks/potted_cornflower.png",
-    "category": "식물",
-    "description": "화분에 심은 수레국화. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "potted_crimson_fungus",
-    "name": "화분에 심은 진홍빛 균",
-    "emoji": "🟥",
-    "image": "/images/blocks/potted_crimson_fungus.png",
-    "category": "네더",
-    "description": "화분에 심은 진홍빛 균. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "potted_crimson_roots",
-    "name": "화분에 심은 진홍빛 뿌리",
-    "emoji": "🟥",
-    "image": "/images/blocks/potted_crimson_roots.png",
-    "category": "나무",
-    "description": "화분에 심은 진홍빛 뿌리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "potted_dandelion",
-    "name": "화분에 심은 민들레",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_dandelion.png",
-    "category": "식물",
-    "description": "화분에 심은 민들레. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_dark_oak_sapling",
-    "name": "화분에 심은 짙은 참나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/potted_dark_oak_sapling.png",
-    "category": "나무",
-    "description": "화분에 심은 짙은 참나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "potted_dead_bush",
-    "name": "화분에 심은 마른 덤불",
-    "emoji": "🌿",
-    "image": "/images/blocks/potted_dead_bush.png",
-    "category": "식물",
-    "description": "화분에 심은 마른 덤불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_fern",
-    "name": "화분에 심은 고사리",
-    "emoji": "🌿",
-    "image": "/images/blocks/potted_fern.png",
-    "category": "식물",
-    "description": "화분에 심은 고사리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "potted_flowering_azalea_bush",
-    "name": "화분에 심은 꽃 핀 진달래",
-    "emoji": "🌿",
-    "image": "/images/blocks/potted_flowering_azalea_bush.png",
-    "category": "식물",
-    "description": "화분에 심은 꽃 핀 진달래. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "potted_jungle_sapling",
-    "name": "화분에 심은 정글나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/potted_jungle_sapling.png",
-    "category": "나무",
-    "description": "화분에 심은 정글나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "potted_lily_of_the_valley",
-    "name": "화분에 심은 은방울꽃",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_lily_of_the_valley.png",
-    "category": "식물",
-    "description": "화분에 심은 은방울꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_mangrove_propagule",
-    "name": "화분에 심은 맹그로브나무 주아",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_mangrove_propagule.png",
-    "category": "나무",
-    "description": "화분에 심은 맹그로브나무 주아. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "potted_oak_sapling",
-    "name": "화분에 심은 참나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/potted_oak_sapling.png",
-    "category": "나무",
-    "description": "화분에 심은 참나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "potted_open_eyeblossom",
-    "name": "화분에 심은 눈 뜬 밤눈꽃",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_open_eyeblossom.png",
-    "category": "특수",
-    "description": "화분에 심은 눈 뜬 밤눈꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_orange_tulip",
-    "name": "화분에 심은 주황색 튤립",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_orange_tulip.png",
-    "category": "식물",
-    "description": "화분에 심은 주황색 튤립. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_oxeye_daisy",
-    "name": "화분에 심은 데이지",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_oxeye_daisy.png",
-    "category": "식물",
-    "description": "화분에 심은 데이지. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_pale_oak_sapling",
-    "name": "화분에 심은 창백한 참나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/potted_pale_oak_sapling.png",
-    "category": "나무",
-    "description": "화분에 심은 창백한 참나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "potted_pink_tulip",
-    "name": "화분에 심은 분홍색 튤립",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_pink_tulip.png",
-    "category": "식물",
-    "description": "화분에 심은 분홍색 튤립. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_poppy",
-    "name": "화분에 심은 양귀비",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_poppy.png",
-    "category": "식물",
-    "description": "화분에 심은 양귀비. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_red_mushroom",
-    "name": "화분에 심은 빨간색 버섯",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_red_mushroom.png",
-    "category": "식물",
-    "description": "화분에 심은 빨간색 버섯. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_red_tulip",
-    "name": "화분에 심은 빨간색 튤립",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_red_tulip.png",
-    "category": "식물",
-    "description": "화분에 심은 빨간색 튤립. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_spruce_sapling",
-    "name": "화분에 심은 가문비나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/potted_spruce_sapling.png",
-    "category": "나무",
-    "description": "화분에 심은 가문비나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "potted_torchflower",
-    "name": "화분에 심은 횃불꽃",
-    "emoji": "🌿",
-    "image": "/images/blocks/potted_torchflower.png",
-    "category": "조명",
-    "description": "화분에 심은 횃불꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
-    "id": "potted_warped_fungus",
-    "name": "화분에 심은 뒤틀린 균",
-    "emoji": "🟥",
-    "image": "/images/blocks/potted_warped_fungus.png",
-    "category": "네더",
-    "description": "화분에 심은 뒤틀린 균. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "potted_warped_roots",
-    "name": "화분에 심은 뒤틀린 뿌리",
-    "emoji": "🟥",
-    "image": "/images/blocks/potted_warped_roots.png",
-    "category": "나무",
-    "description": "화분에 심은 뒤틀린 뿌리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "potted_white_tulip",
-    "name": "화분에 심은 하얀색 튤립",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_white_tulip.png",
-    "category": "식물",
-    "description": "화분에 심은 하얀색 튤립. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "potted_wither_rose",
-    "name": "화분에 심은 위더 장미",
-    "emoji": "🟫",
-    "image": "/images/blocks/potted_wither_rose.png",
-    "category": "식물",
-    "description": "화분에 심은 위더 장미. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "powder_snow",
-    "name": "가루눈",
-    "emoji": "🟦",
-    "image": "/images/blocks/powder_snow.png",
-    "category": "자연",
-    "description": "가루눈. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "양동이",
-    "hardness": 0.25
-  },
-  {
-    "id": "powder_snow_cauldron",
-    "name": "가루눈 가마솥",
-    "emoji": "🟦",
-    "image": "/images/blocks/powder_snow_cauldron.png",
-    "category": "기능",
-    "description": "가루눈 가마솥. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "기능"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
     "id": "powered_rail",
     "name": "동력 레일",
     "emoji": "🟫",
@@ -10777,32 +5889,6 @@
     "hardness": 1
   },
   {
-    "id": "pumpkin",
-    "name": "호박",
-    "emoji": "🟫",
-    "image": "/images/blocks/pumpkin.png",
-    "category": "식물",
-    "description": "호박. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "pumpkin_stem",
-    "name": "호박 줄기",
-    "emoji": "🪵",
-    "image": "/images/blocks/pumpkin_stem.png",
-    "category": "나무",
-    "description": "호박 줄기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "purple_banner",
     "name": "보라색 현수막",
     "emoji": "🟫",
@@ -10842,19 +5928,6 @@
     "hardness": 0.2
   },
   {
-    "id": "purple_candle_cake",
-    "name": "보라색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/purple_candle_cake.png",
-    "category": "장식",
-    "description": "보라색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "purple_carpet",
     "name": "보라색 양탄자",
     "emoji": "🟫",
@@ -10868,19 +5941,6 @@
     "hardness": 1
   },
   {
-    "id": "purple_concrete",
-    "name": "보라색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/purple_concrete.png",
-    "category": "장식",
-    "description": "보라색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
-  },
-  {
     "id": "purple_concrete_powder",
     "name": "보라색 콘크리트 가루",
     "emoji": "🟫",
@@ -10892,32 +5952,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "purple_glazed_terracotta",
-    "name": "보라색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/purple_glazed_terracotta.png",
-    "category": "장식",
-    "description": "보라색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "purple_shulker_box",
-    "name": "보라색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/purple_shulker_box.png",
-    "category": "건축",
-    "description": "보라색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "purple_stained_glass",
@@ -10957,19 +5991,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "purple_wall_banner",
-    "name": "보라 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/purple_wall_banner.png",
-    "category": "장식",
-    "description": "보라 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "purple_wool",
@@ -11193,19 +6214,6 @@
     "hardness": 0.2
   },
   {
-    "id": "red_candle_cake",
-    "name": "빨간색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/red_candle_cake.png",
-    "category": "장식",
-    "description": "빨간색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "red_carpet",
     "name": "빨간색 양탄자",
     "emoji": "🟫",
@@ -11219,19 +6227,6 @@
     "hardness": 1
   },
   {
-    "id": "red_concrete",
-    "name": "빨간색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/red_concrete.png",
-    "category": "장식",
-    "description": "빨간색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
-  },
-  {
     "id": "red_concrete_powder",
     "name": "빨간색 콘크리트 가루",
     "emoji": "🟫",
@@ -11243,45 +6238,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "red_glazed_terracotta",
-    "name": "빨간색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/red_glazed_terracotta.png",
-    "category": "장식",
-    "description": "빨간색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "red_mushroom",
-    "name": "빨간색 버섯",
-    "emoji": "🟫",
-    "image": "/images/blocks/red_mushroom.png",
-    "category": "식물",
-    "description": "빨간색 버섯. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "red_mushroom_block",
-    "name": "빨간색 버섯 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/red_mushroom_block.png",
-    "category": "식물",
-    "description": "빨간색 버섯 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "red_nether_brick_slab",
@@ -11336,19 +6292,6 @@
     "hardness": 2
   },
   {
-    "id": "red_sand",
-    "name": "붉은 모래",
-    "emoji": "🟫",
-    "image": "/images/blocks/red_sand.png",
-    "category": "자연",
-    "description": "붉은 모래. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
     "id": "red_sandstone",
     "name": "붉은 사암",
     "emoji": "🟫",
@@ -11401,19 +6344,6 @@
     "hardness": 1.5
   },
   {
-    "id": "red_shulker_box",
-    "name": "빨간색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/red_shulker_box.png",
-    "category": "건축",
-    "description": "빨간색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "red_stained_glass",
     "name": "빨간색 색유리",
     "emoji": "🟫",
@@ -11451,32 +6381,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "red_tulip",
-    "name": "빨간색 튤립",
-    "emoji": "🟫",
-    "image": "/images/blocks/red_tulip.png",
-    "category": "식물",
-    "description": "빨간색 튤립. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "red_wall_banner",
-    "name": "빨간 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/red_wall_banner.png",
-    "category": "장식",
-    "description": "빨간 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "red_wool",
@@ -11518,19 +6422,6 @@
     "hardness": 0.3
   },
   {
-    "id": "redstone_ore",
-    "name": "레드스톤 광석",
-    "emoji": "💎",
-    "image": "/images/blocks/redstone_ore.png",
-    "category": "광석",
-    "description": "레드스톤 광석. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "광석"
-    ],
-    "tool": "철 곡괭이",
-    "hardness": 3
-  },
-  {
     "id": "redstone_torch",
     "name": "레드스톤 횃불",
     "emoji": "💎",
@@ -11542,45 +6433,6 @@
     ],
     "tool": "없음",
     "hardness": 0
-  },
-  {
-    "id": "redstone_wall_torch",
-    "name": "레드스톤 벽 횃불",
-    "emoji": "💎",
-    "image": "/images/blocks/redstone_wall_torch.png",
-    "category": "조명",
-    "description": "레드스톤 벽 횃불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "redstone_wire",
-    "name": "레드스톤 선",
-    "emoji": "💎",
-    "image": "/images/blocks/redstone_wire.png",
-    "category": "자연",
-    "description": "레드스톤 선. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "reinforced_deepslate",
-    "name": "보강된 심층암",
-    "emoji": "🟫",
-    "image": "/images/blocks/reinforced_deepslate.png",
-    "category": "특수",
-    "description": "보강된 심층암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "없음",
-    "hardness": 55
   },
   {
     "id": "repeater",
@@ -11596,97 +6448,6 @@
     "hardness": 0
   },
   {
-    "id": "repeating_command_block",
-    "name": "반복형 명령 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/repeating_command_block.png",
-    "category": "건축",
-    "description": "반복형 명령 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
-  },
-  {
-    "id": "resin_block",
-    "name": "수지 블록",
-    "emoji": "⬛",
-    "image": "/images/blocks/resin_block.png",
-    "category": "특수",
-    "description": "수지 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "resin_brick_slab",
-    "name": "수지 벽돌 반 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/resin_brick_slab.png",
-    "category": "건축",
-    "description": "수지 벽돌 반 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "resin_brick_stairs",
-    "name": "수지 벽돌 계단",
-    "emoji": "🟫",
-    "image": "/images/blocks/resin_brick_stairs.png",
-    "category": "건축",
-    "description": "수지 벽돌 계단. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "resin_brick_wall",
-    "name": "수지 벽돌 담장",
-    "emoji": "🟫",
-    "image": "/images/blocks/resin_brick_wall.png",
-    "category": "건축",
-    "description": "수지 벽돌 담장. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "resin_bricks",
-    "name": "수지 벽돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/resin_bricks.png",
-    "category": "특수",
-    "description": "수지 벽돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "resin_clump",
-    "name": "수지 덩어리",
-    "emoji": "⬛",
-    "image": "/images/blocks/resin_clump.png",
-    "category": "특수",
-    "description": "수지 덩어리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "respawn_anchor",
     "name": "리스폰 정박기",
     "emoji": "🟫",
@@ -11698,45 +6459,6 @@
     ],
     "tool": "다이아 곡괭이",
     "hardness": 50
-  },
-  {
-    "id": "rooted_dirt",
-    "name": "뿌리내린 흙",
-    "emoji": "🟫",
-    "image": "/images/blocks/rooted_dirt.png",
-    "category": "자연",
-    "description": "뿌리내린 흙. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
-    "id": "rose_bush",
-    "name": "장미 덤불",
-    "emoji": "🌿",
-    "image": "/images/blocks/rose_bush.png",
-    "category": "식물",
-    "description": "장미 덤불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "sand",
-    "name": "모래",
-    "emoji": "🟫",
-    "image": "/images/blocks/sand.png",
-    "category": "자연",
-    "description": "모래. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
   },
   {
     "id": "sandstone",
@@ -11791,19 +6513,6 @@
     "hardness": 1.5
   },
   {
-    "id": "sapling_oak",
-    "name": "묘목 참나무",
-    "emoji": "🪵",
-    "image": "/images/blocks/sapling_oak.png",
-    "category": "식물",
-    "description": "묘목 참나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "없음",
-    "hardness": 0
-  },
-  {
     "id": "scaffolding",
     "name": "비계",
     "emoji": "🟫",
@@ -11815,71 +6524,6 @@
     ],
     "tool": "도끼",
     "hardness": 0
-  },
-  {
-    "id": "sculk",
-    "name": "스컬크",
-    "emoji": "⬛",
-    "image": "/images/blocks/sculk.png",
-    "category": "특수",
-    "description": "스컬크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "괭이",
-    "hardness": 0.6
-  },
-  {
-    "id": "sculk_catalyst",
-    "name": "스컬크 촉매",
-    "emoji": "⬛",
-    "image": "/images/blocks/sculk_catalyst.png",
-    "category": "특수",
-    "description": "스컬크 촉매. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "괭이",
-    "hardness": 3
-  },
-  {
-    "id": "sculk_sensor",
-    "name": "스컬크 감지체",
-    "emoji": "⬛",
-    "image": "/images/blocks/sculk_sensor.png",
-    "category": "레드스톤",
-    "description": "스컬크 감지체. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "레드스톤"
-    ],
-    "tool": "괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "sculk_shrieker",
-    "name": "스컬크 비명체",
-    "emoji": "⬛",
-    "image": "/images/blocks/sculk_shrieker.png",
-    "category": "특수",
-    "description": "스컬크 비명체. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "괭이",
-    "hardness": 3
-  },
-  {
-    "id": "sculk_vein",
-    "name": "스컬크 정맥",
-    "emoji": "⬛",
-    "image": "/images/blocks/sculk_vein.png",
-    "category": "특수",
-    "description": "스컬크 정맥. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "삽",
-    "hardness": 0.2
   },
   {
     "id": "sea_lantern",
@@ -11895,103 +6539,12 @@
     "hardness": 0.3
   },
   {
-    "id": "sea_pickle",
-    "name": "불우렁쉥이",
-    "emoji": "🟦",
-    "image": "/images/blocks/sea_pickle.png",
-    "category": "식물",
-    "description": "불우렁쉥이. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "없음",
-    "hardness": 0
-  },
-  {
-    "id": "seagrass",
-    "name": "해초",
-    "emoji": "🌿",
-    "image": "/images/blocks/seagrass.png",
-    "category": "식물",
-    "description": "해초. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "삽",
-    "hardness": 0.2
-  },
-  {
-    "id": "short_dry_grass",
-    "name": "짧은 마른 잔디",
-    "emoji": "🌿",
-    "image": "/images/blocks/short_dry_grass.png",
-    "category": "식물",
-    "description": "짧은 마른 잔디. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "삽",
-    "hardness": 0.2
-  },
-  {
-    "id": "short_grass",
-    "name": "키 작은 잔디",
-    "emoji": "🌿",
-    "image": "/images/blocks/short_grass.png",
-    "category": "식물",
-    "description": "키 작은 잔디. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "삽",
-    "hardness": 0.2
-  },
-  {
-    "id": "shroomlight",
-    "name": "버섯불",
-    "emoji": "🔥",
-    "image": "/images/blocks/shroomlight.png",
-    "category": "네더",
-    "description": "버섯불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "도구 없음",
-    "hardness": 1
-  },
-  {
     "id": "shulker_box",
     "name": "셜커 상자",
     "emoji": "🟫",
     "image": "/images/blocks/shulker_box.png",
     "category": "건축",
     "description": "셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "skeleton_skull",
-    "name": "스켈레톤 해골",
-    "emoji": "🟫",
-    "image": "/images/blocks/skeleton_skull.png",
-    "category": "특수",
-    "description": "스켈레톤 해골. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "skeleton_wall_skull",
-    "name": "스켈레톤 벽 해골",
-    "emoji": "🟫",
-    "image": "/images/blocks/skeleton_wall_skull.png",
-    "category": "건축",
-    "description": "스켈레톤 벽 해골. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
     ],
@@ -12010,32 +6563,6 @@
     ],
     "tool": "없음",
     "hardness": 0
-  },
-  {
-    "id": "small_amethyst_bud",
-    "name": "작은 자수정 봉오리",
-    "emoji": "💎",
-    "image": "/images/blocks/small_amethyst_bud.png",
-    "category": "건축",
-    "description": "작은 자수정 봉오리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "small_dripleaf",
-    "name": "작은 흘림잎",
-    "emoji": "🟫",
-    "image": "/images/blocks/small_dripleaf.png",
-    "category": "식물",
-    "description": "작은 흘림잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "smithing_table",
@@ -12064,32 +6591,6 @@
     "hardness": 3.5
   },
   {
-    "id": "smooth_basalt",
-    "name": "매끄러운 현무암",
-    "emoji": "🟫",
-    "image": "/images/blocks/smooth_basalt.png",
-    "category": "건축",
-    "description": "매끄러운 현무암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "smooth_quartz",
-    "name": "매끄러운 석영 블록",
-    "emoji": "💎",
-    "image": "/images/blocks/smooth_quartz.png",
-    "category": "건축",
-    "description": "매끄러운 석영 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "smooth_quartz_slab",
     "name": "매끄러운 석영 반 블록",
     "emoji": "💎",
@@ -12116,19 +6617,6 @@
     "hardness": 1
   },
   {
-    "id": "smooth_red_sandstone",
-    "name": "매끄러운 붉은 사암",
-    "emoji": "🟫",
-    "image": "/images/blocks/smooth_red_sandstone.png",
-    "category": "자연",
-    "description": "매끄러운 붉은 사암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
     "id": "smooth_red_sandstone_slab",
     "name": "매끄러운 붉은 사암 반 블록",
     "emoji": "🟫",
@@ -12150,19 +6638,6 @@
     "description": "매끄러운 붉은 사암 계단. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "smooth_sandstone",
-    "name": "매끄러운 사암",
-    "emoji": "🟫",
-    "image": "/images/blocks/smooth_sandstone.png",
-    "category": "자연",
-    "description": "매끄러운 사암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -12194,19 +6669,6 @@
     "hardness": 1.5
   },
   {
-    "id": "smooth_stone",
-    "name": "매끄러운 돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/smooth_stone.png",
-    "category": "건축",
-    "description": "매끄러운 돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 2
-  },
-  {
     "id": "smooth_stone_slab",
     "name": "매끄러운 돌 반 블록",
     "emoji": "🟫",
@@ -12218,19 +6680,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "sniffer_egg",
-    "name": "스니퍼 알",
-    "emoji": "🟫",
-    "image": "/images/blocks/sniffer_egg.png",
-    "category": "특수",
-    "description": "스니퍼 알. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "삽",
-    "hardness": 1
   },
   {
     "id": "snow",
@@ -12272,19 +6721,6 @@
     "hardness": 2
   },
   {
-    "id": "soul_fire",
-    "name": "영혼 불",
-    "emoji": "🟥",
-    "image": "/images/blocks/soul_fire.png",
-    "category": "네더",
-    "description": "영혼 불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "soul_lantern",
     "name": "영혼 랜턴",
     "emoji": "🔥",
@@ -12298,32 +6734,6 @@
     "hardness": 3.5
   },
   {
-    "id": "soul_sand",
-    "name": "영혼 모래",
-    "emoji": "🟥",
-    "image": "/images/blocks/soul_sand.png",
-    "category": "네더",
-    "description": "영혼 모래. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
-    "id": "soul_soil",
-    "name": "영혼 흙",
-    "emoji": "🟥",
-    "image": "/images/blocks/soul_soil.png",
-    "category": "네더",
-    "description": "영혼 흙. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
     "id": "soul_torch",
     "name": "영혼 횃불",
     "emoji": "🔥",
@@ -12332,58 +6742,6 @@
     "description": "영혼 횃불. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "조명"
-    ],
-    "tool": "없음",
-    "hardness": 0
-  },
-  {
-    "id": "soul_wall_torch",
-    "name": "영혼 벽 횃불",
-    "emoji": "🔥",
-    "image": "/images/blocks/soul_wall_torch.png",
-    "category": "조명",
-    "description": "영혼 벽 횃불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
-    "id": "spawner",
-    "name": "몬스터 생성기",
-    "emoji": "🟫",
-    "image": "/images/blocks/spawner.png",
-    "category": "특수",
-    "description": "몬스터 생성기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 5
-  },
-  {
-    "id": "sponge",
-    "name": "스펀지",
-    "emoji": "🟦",
-    "image": "/images/blocks/sponge.png",
-    "category": "특수",
-    "description": "스펀지. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "괭이",
-    "hardness": 0.6
-  },
-  {
-    "id": "spore_blossom",
-    "name": "포자 꽃",
-    "emoji": "💎",
-    "image": "/images/blocks/spore_blossom.png",
-    "category": "식물",
-    "description": "포자 꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
     ],
     "tool": "없음",
     "hardness": 0
@@ -12480,32 +6838,6 @@
     "hardness": 1
   },
   {
-    "id": "spruce_leaves",
-    "name": "가문비나무 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/spruce_leaves.png",
-    "category": "나무",
-    "description": "가문비나무 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "spruce_log",
-    "name": "가문비나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/spruce_log.png",
-    "category": "나무",
-    "description": "가문비나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "spruce_planks",
     "name": "가문비나무 판자",
     "emoji": "🪵",
@@ -12529,32 +6861,6 @@
       "건축"
     ],
     "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "spruce_sapling",
-    "name": "가문비나무 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/spruce_sapling.png",
-    "category": "나무",
-    "description": "가문비나무 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "spruce_shelf",
-    "name": "가문비 선반",
-    "emoji": "🟫",
-    "image": "/images/blocks/spruce_shelf.png",
-    "category": "건축",
-    "description": "가문비 선반. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
     "hardness": 1
   },
   {
@@ -12610,32 +6916,6 @@
     "hardness": 2
   },
   {
-    "id": "spruce_wall_hanging_sign",
-    "name": "가문비나무 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/spruce_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "가문비나무 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "spruce_wall_sign",
-    "name": "가문비나무 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/spruce_wall_sign.png",
-    "category": "건축",
-    "description": "가문비나무 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "spruce_wood",
     "name": "가문비나무",
     "emoji": "🪵",
@@ -12657,19 +6937,6 @@
     "description": "끈끈이 피스톤. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "레드스톤"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "stone",
-    "name": "돌",
-    "emoji": "🟫",
-    "image": "/images/blocks/stone.png",
-    "category": "자연",
-    "description": "돌. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -12792,19 +7059,6 @@
     "hardness": 3.5
   },
   {
-    "id": "stripped_acacia_log",
-    "name": "껍질 벗긴 아카시아나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_acacia_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 아카시아나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "stripped_acacia_wood",
     "name": "껍질 벗긴 아카시아나무",
     "emoji": "🪵",
@@ -12818,77 +7072,12 @@
     "hardness": 2
   },
   {
-    "id": "stripped_bamboo_block",
-    "name": "껍질 벗긴 대나무 블록",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_bamboo_block.png",
-    "category": "나무",
-    "description": "껍질 벗긴 대나무 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_bamboo_log",
-    "name": "껍질 벗긴 대나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_bamboo_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 대나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_bamboo_wood",
-    "name": "껍질 벗긴 대나무 나무",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_bamboo_wood.png",
-    "category": "나무",
-    "description": "껍질 벗긴 대나무 나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_birch_log",
-    "name": "껍질 벗긴 자작나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_birch_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 자작나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "stripped_birch_wood",
     "name": "껍질 벗긴 자작나무",
     "emoji": "🪵",
     "image": "/images/blocks/stripped_birch_wood.png",
     "category": "나무",
     "description": "껍질 벗긴 자작나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_cherry_log",
-    "name": "껍질 벗긴 벚나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_cherry_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 벚나무 원목. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "나무"
     ],
@@ -12922,77 +7111,12 @@
     "hardness": 1
   },
   {
-    "id": "stripped_crimson_log",
-    "name": "껍질 벗긴 진홍 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_crimson_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 진홍 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_crimson_stem",
-    "name": "껍질 벗긴 진홍빛 자루",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_crimson_stem.png",
-    "category": "나무",
-    "description": "껍질 벗긴 진홍빛 자루. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "stripped_crimson_wood",
-    "name": "껍질 벗긴 진홍 나무",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_crimson_wood.png",
-    "category": "나무",
-    "description": "껍질 벗긴 진홍 나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_dark_oak_log",
-    "name": "껍질 벗긴 짙은 참나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_dark_oak_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 짙은 참나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "stripped_dark_oak_wood",
     "name": "껍질 벗긴 짙은 참나무",
     "emoji": "🪵",
     "image": "/images/blocks/stripped_dark_oak_wood.png",
     "category": "나무",
     "description": "껍질 벗긴 짙은 참나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_jungle_log",
-    "name": "껍질 벗긴 정글나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_jungle_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 정글나무 원목. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "나무"
     ],
@@ -13013,38 +7137,12 @@
     "hardness": 2
   },
   {
-    "id": "stripped_mangrove_log",
-    "name": "껍질 벗긴 맹그로브나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_mangrove_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 맹그로브나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "stripped_mangrove_wood",
     "name": "껍질 벗긴 맹그로브나무",
     "emoji": "🪵",
     "image": "/images/blocks/stripped_mangrove_wood.png",
     "category": "나무",
     "description": "껍질 벗긴 맹그로브나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_oak_log",
-    "name": "껍질 벗긴 참나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_oak_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 참나무 원목. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "나무"
     ],
@@ -13065,38 +7163,12 @@
     "hardness": 2
   },
   {
-    "id": "stripped_pale_oak_log",
-    "name": "껍질 벗긴 창백한 참나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_pale_oak_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 창백한 참나무 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "stripped_pale_oak_wood",
     "name": "껍질 벗긴 창백한 참나무",
     "emoji": "🪵",
     "image": "/images/blocks/stripped_pale_oak_wood.png",
     "category": "나무",
     "description": "껍질 벗긴 창백한 참나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_spruce_log",
-    "name": "껍질 벗긴 가문비나무 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_spruce_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 가문비나무 원목. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "나무"
     ],
@@ -13130,175 +7202,6 @@
     "hardness": 1
   },
   {
-    "id": "stripped_warped_log",
-    "name": "껍질 벗긴 뒤틀린 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_warped_log.png",
-    "category": "나무",
-    "description": "껍질 벗긴 뒤틀린 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "stripped_warped_stem",
-    "name": "껍질 벗긴 뒤틀린 자루",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_warped_stem.png",
-    "category": "나무",
-    "description": "껍질 벗긴 뒤틀린 자루. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "stripped_warped_wood",
-    "name": "껍질 벗긴 뒤틀린 나무",
-    "emoji": "🪵",
-    "image": "/images/blocks/stripped_warped_wood.png",
-    "category": "나무",
-    "description": "껍질 벗긴 뒤틀린 나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "structure_block",
-    "name": "구조물 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/structure_block.png",
-    "category": "건축",
-    "description": "구조물 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "structure_void",
-    "name": "구조물 공허 공간",
-    "emoji": "🟫",
-    "image": "/images/blocks/structure_void.png",
-    "category": "건축",
-    "description": "구조물 공허 공간. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "sugar_cane",
-    "name": "사탕수수",
-    "emoji": "🟫",
-    "image": "/images/blocks/sugar_cane.png",
-    "category": "건축",
-    "description": "사탕수수. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "sunflower",
-    "name": "해바라기",
-    "emoji": "🌿",
-    "image": "/images/blocks/sunflower.png",
-    "category": "식물",
-    "description": "해바라기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "suspicious_gravel",
-    "name": "수상한 자갈",
-    "emoji": "🟫",
-    "image": "/images/blocks/suspicious_gravel.png",
-    "category": "특수",
-    "description": "수상한 자갈. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "삽",
-    "hardness": 0.5
-  },
-  {
-    "id": "suspicious_sand",
-    "name": "수상한 모래",
-    "emoji": "🟫",
-    "image": "/images/blocks/suspicious_sand.png",
-    "category": "특수",
-    "description": "수상한 모래. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "솔",
-    "hardness": 0.25
-  },
-  {
-    "id": "sweet_berry_bush",
-    "name": "달콤한 열매 덤불",
-    "emoji": "🌿",
-    "image": "/images/blocks/sweet_berry_bush.png",
-    "category": "식물",
-    "description": "달콤한 열매 덤불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "가위",
-    "hardness": 1
-  },
-  {
-    "id": "tall_dry_grass",
-    "name": "키 큰 마른 잔디",
-    "emoji": "🌿",
-    "image": "/images/blocks/tall_dry_grass.png",
-    "category": "식물",
-    "description": "키 큰 마른 잔디. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "삽",
-    "hardness": 0.2
-  },
-  {
-    "id": "tall_grass",
-    "name": "키 큰 잔디",
-    "emoji": "🌿",
-    "image": "/images/blocks/tall_grass.png",
-    "category": "식물",
-    "description": "키 큰 잔디. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "삽",
-    "hardness": 0.2
-  },
-  {
-    "id": "tall_seagrass",
-    "name": "키 큰 해초",
-    "emoji": "🌿",
-    "image": "/images/blocks/tall_seagrass.png",
-    "category": "식물",
-    "description": "키 큰 해초. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "삽",
-    "hardness": 0.2
-  },
-  {
     "id": "target",
     "name": "과녁",
     "emoji": "🟫",
@@ -13310,19 +7213,6 @@
     ],
     "tool": "삽",
     "hardness": 1
-  },
-  {
-    "id": "terracotta",
-    "name": "테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/terracotta.png",
-    "category": "장식",
-    "description": "테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
   },
   {
     "id": "tinted_glass",
@@ -13364,32 +7254,6 @@
     "hardness": 0
   },
   {
-    "id": "torchflower",
-    "name": "횃불꽃",
-    "emoji": "🌿",
-    "image": "/images/blocks/torchflower.png",
-    "category": "조명",
-    "description": "횃불꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
-    "id": "torchflower_crop",
-    "name": "횃불꽃 작물",
-    "emoji": "🌿",
-    "image": "/images/blocks/torchflower_crop.png",
-    "category": "조명",
-    "description": "횃불꽃 작물. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "trapped_chest",
     "name": "덫 상자",
     "emoji": "🟫",
@@ -13401,110 +7265,6 @@
     ],
     "tool": "도끼",
     "hardness": 1
-  },
-  {
-    "id": "trial_spawner",
-    "name": "시련 생성기",
-    "emoji": "⬛",
-    "image": "/images/blocks/trial_spawner.png",
-    "category": "특수",
-    "description": "시련 생성기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
-  },
-  {
-    "id": "tripwire",
-    "name": "철사 덫",
-    "emoji": "🟫",
-    "image": "/images/blocks/tripwire.png",
-    "category": "건축",
-    "description": "철사 덫. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "tripwire_hook",
-    "name": "철사 덫 갈고리",
-    "emoji": "🟫",
-    "image": "/images/blocks/tripwire_hook.png",
-    "category": "레드스톤",
-    "description": "철사 덫 갈고리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "레드스톤"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0
-  },
-  {
-    "id": "tube_coral",
-    "name": "관 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/tube_coral.png",
-    "category": "식물",
-    "description": "관 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "tube_coral_block",
-    "name": "관 산호 블록",
-    "emoji": "🟫",
-    "image": "/images/blocks/tube_coral_block.png",
-    "category": "식물",
-    "description": "관 산호 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "tube_coral_fan",
-    "name": "부채형 관 산호",
-    "emoji": "🟫",
-    "image": "/images/blocks/tube_coral_fan.png",
-    "category": "식물",
-    "description": "부채형 관 산호. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "tube_coral_wall_fan",
-    "name": "부채형 관 산호 벽",
-    "emoji": "🟫",
-    "image": "/images/blocks/tube_coral_wall_fan.png",
-    "category": "건축",
-    "description": "부채형 관 산호 벽. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "tuff",
-    "name": "응회암",
-    "emoji": "🟫",
-    "image": "/images/blocks/tuff.png",
-    "category": "자연",
-    "description": "응회암. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "자연"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
   },
   {
     "id": "tuff_brick_slab",
@@ -13598,123 +7358,6 @@
     "hardness": 1
   },
   {
-    "id": "turtle_egg",
-    "name": "거북알",
-    "emoji": "🟫",
-    "image": "/images/blocks/turtle_egg.png",
-    "category": "건축",
-    "description": "거북알. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "삽",
-    "hardness": 1
-  },
-  {
-    "id": "twisting_vines",
-    "name": "휘어진 덩굴",
-    "emoji": "🌿",
-    "image": "/images/blocks/twisting_vines.png",
-    "category": "식물",
-    "description": "휘어진 덩굴. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "가위",
-    "hardness": 0.2
-  },
-  {
-    "id": "twisting_vines_plant",
-    "name": "휘어진 덩굴 식물",
-    "emoji": "🌿",
-    "image": "/images/blocks/twisting_vines_plant.png",
-    "category": "식물",
-    "description": "휘어진 덩굴 식물. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "가위",
-    "hardness": 0.2
-  },
-  {
-    "id": "vault",
-    "name": "금고",
-    "emoji": "⬛",
-    "image": "/images/blocks/vault.png",
-    "category": "특수",
-    "description": "금고. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "곡괭이",
-    "hardness": 50
-  },
-  {
-    "id": "verdant_froglight",
-    "name": "잔딧빛 개구리불",
-    "emoji": "🔥",
-    "image": "/images/blocks/verdant_froglight.png",
-    "category": "조명",
-    "description": "잔딧빛 개구리불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "vine",
-    "name": "덩굴",
-    "emoji": "🌿",
-    "image": "/images/blocks/vine.png",
-    "category": "식물",
-    "description": "덩굴. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "가위",
-    "hardness": 0.2
-  },
-  {
-    "id": "void_air",
-    "name": "공허 공기",
-    "emoji": "🟫",
-    "image": "/images/blocks/void_air.png",
-    "category": "건축",
-    "description": "공허 공기. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "wall_torch",
-    "name": "벽 횃불",
-    "emoji": "🔥",
-    "image": "/images/blocks/wall_torch.png",
-    "category": "조명",
-    "description": "벽 횃불. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "조명"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
-    "id": "warped_boat",
-    "name": "뒤틀린 보트",
-    "emoji": "🟥",
-    "image": "/images/blocks/warped_boat.png",
-    "category": "네더",
-    "description": "뒤틀린 보트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "warped_button",
     "name": "뒤틀린 버튼",
     "emoji": "🟥",
@@ -13723,19 +7366,6 @@
     "description": "뒤틀린 버튼. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "warped_chest_boat",
-    "name": "뒤틀린 상자가 실린 보트",
-    "emoji": "🟥",
-    "image": "/images/blocks/warped_chest_boat.png",
-    "category": "기능",
-    "description": "뒤틀린 상자가 실린 보트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "기능"
     ],
     "tool": "도끼",
     "hardness": 1
@@ -13780,19 +7410,6 @@
     "hardness": 2
   },
   {
-    "id": "warped_fungus",
-    "name": "뒤틀린 균",
-    "emoji": "🟥",
-    "image": "/images/blocks/warped_fungus.png",
-    "category": "네더",
-    "description": "뒤틀린 균. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "warped_hanging_sign",
     "name": "뒤틀린 매다는 표지판",
     "emoji": "🟥",
@@ -13819,45 +7436,6 @@
     "hardness": 1
   },
   {
-    "id": "warped_leaves",
-    "name": "뒤틀린 잎",
-    "emoji": "🌿",
-    "image": "/images/blocks/warped_leaves.png",
-    "category": "나무",
-    "description": "뒤틀린 잎. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 0.2
-  },
-  {
-    "id": "warped_log",
-    "name": "뒤틀린 원목",
-    "emoji": "🪵",
-    "image": "/images/blocks/warped_log.png",
-    "category": "나무",
-    "description": "뒤틀린 원목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "warped_nylium",
-    "name": "뒤틀린 네사체",
-    "emoji": "🟥",
-    "image": "/images/blocks/warped_nylium.png",
-    "category": "나무",
-    "description": "뒤틀린 네사체. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
     "id": "warped_planks",
     "name": "뒤틀린 판자",
     "emoji": "🪵",
@@ -13877,45 +7455,6 @@
     "image": "/images/blocks/warped_pressure_plate.png",
     "category": "건축",
     "description": "뒤틀린 압력판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "warped_roots",
-    "name": "뒤틀린 뿌리",
-    "emoji": "🟥",
-    "image": "/images/blocks/warped_roots.png",
-    "category": "나무",
-    "description": "뒤틀린 뿌리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "warped_sapling",
-    "name": "뒤틀린 묘목",
-    "emoji": "🪵",
-    "image": "/images/blocks/warped_sapling.png",
-    "category": "나무",
-    "description": "뒤틀린 묘목. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "warped_shelf",
-    "name": "뒤틀린 선반",
-    "emoji": "🟥",
-    "image": "/images/blocks/warped_shelf.png",
-    "category": "건축",
-    "description": "뒤틀린 선반. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
     ],
@@ -13962,19 +7501,6 @@
     "hardness": 1
   },
   {
-    "id": "warped_stem",
-    "name": "뒤틀린 자루",
-    "emoji": "🪵",
-    "image": "/images/blocks/warped_stem.png",
-    "category": "나무",
-    "description": "뒤틀린 자루. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
     "id": "warped_trapdoor",
     "name": "뒤틀린 다락문",
     "emoji": "🟫",
@@ -13986,84 +7512,6 @@
     ],
     "tool": "도끼",
     "hardness": 2
-  },
-  {
-    "id": "warped_wall_hanging_sign",
-    "name": "뒤틀린 벽 매다는 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/warped_wall_hanging_sign.png",
-    "category": "건축",
-    "description": "뒤틀린 벽 매다는 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "warped_wall_sign",
-    "name": "뒤틀린 벽 표지판",
-    "emoji": "🟫",
-    "image": "/images/blocks/warped_wall_sign.png",
-    "category": "건축",
-    "description": "뒤틀린 벽 표지판. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "warped_wart_block",
-    "name": "뒤틀린 사마귀 블록",
-    "emoji": "🟥",
-    "image": "/images/blocks/warped_wart_block.png",
-    "category": "네더",
-    "description": "뒤틀린 사마귀 블록. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "네더"
-    ],
-    "tool": "도끼",
-    "hardness": 1
-  },
-  {
-    "id": "warped_wood",
-    "name": "뒤틀린 나무",
-    "emoji": "🪵",
-    "image": "/images/blocks/warped_wood.png",
-    "category": "나무",
-    "description": "뒤틀린 나무. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "나무"
-    ],
-    "tool": "도끼",
-    "hardness": 2
-  },
-  {
-    "id": "water",
-    "name": "물",
-    "emoji": "🟦",
-    "image": "/images/blocks/water.png",
-    "category": "건축",
-    "description": "물. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "water_cauldron",
-    "name": "물 가마솥",
-    "emoji": "🟦",
-    "image": "/images/blocks/water_cauldron.png",
-    "category": "기능",
-    "description": "물 가마솥. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "기능"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "waxed_chiseled_copper",
@@ -14547,19 +7995,6 @@
     "hardness": 1
   },
   {
-    "id": "weathered_copper",
-    "name": "녹슨 구리",
-    "emoji": "💎",
-    "image": "/images/blocks/weathered_copper.png",
-    "category": "건축",
-    "description": "녹슨 구리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "weathered_copper_bulb",
     "name": "녹슨 구리 전구",
     "emoji": "💎",
@@ -14573,19 +8008,6 @@
     "hardness": 1
   },
   {
-    "id": "weathered_copper_door",
-    "name": "녹슨 구리 문",
-    "emoji": "💎",
-    "image": "/images/blocks/weathered_copper_door.png",
-    "category": "건축",
-    "description": "녹슨 구리 문. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 2
-  },
-  {
     "id": "weathered_copper_grate",
     "name": "녹슨 구리 격자",
     "emoji": "💎",
@@ -14597,19 +8019,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1
-  },
-  {
-    "id": "weathered_copper_trapdoor",
-    "name": "녹슨 구리 다락문",
-    "emoji": "💎",
-    "image": "/images/blocks/weathered_copper_trapdoor.png",
-    "category": "건축",
-    "description": "녹슨 구리 다락문. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 2
   },
   {
     "id": "weathered_cut_copper",
@@ -14648,45 +8057,6 @@
       "건축"
     ],
     "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "weeping_vines",
-    "name": "늘어진 덩굴",
-    "emoji": "🌿",
-    "image": "/images/blocks/weeping_vines.png",
-    "category": "식물",
-    "description": "늘어진 덩굴. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "가위",
-    "hardness": 0.2
-  },
-  {
-    "id": "weeping_vines_plant",
-    "name": "늘어진 덩굴 식물",
-    "emoji": "🌿",
-    "image": "/images/blocks/weeping_vines_plant.png",
-    "category": "식물",
-    "description": "늘어진 덩굴 식물. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "가위",
-    "hardness": 0.2
-  },
-  {
-    "id": "wet_sponge",
-    "name": "젖은 스펀지",
-    "emoji": "🟦",
-    "image": "/images/blocks/wet_sponge.png",
-    "category": "건축",
-    "description": "젖은 스펀지. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "삽",
     "hardness": 1
   },
   {
@@ -14742,19 +8112,6 @@
     "hardness": 0.2
   },
   {
-    "id": "white_candle_cake",
-    "name": "하얀색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/white_candle_cake.png",
-    "category": "장식",
-    "description": "하얀색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "white_carpet",
     "name": "하얀색 양탄자",
     "emoji": "🟫",
@@ -14768,19 +8125,6 @@
     "hardness": 1
   },
   {
-    "id": "white_concrete",
-    "name": "하얀색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/white_concrete.png",
-    "category": "장식",
-    "description": "하얀색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
-  },
-  {
     "id": "white_concrete_powder",
     "name": "하얀색 콘크리트 가루",
     "emoji": "🟫",
@@ -14792,32 +8136,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "white_glazed_terracotta",
-    "name": "하얀색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/white_glazed_terracotta.png",
-    "category": "장식",
-    "description": "하얀색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.4
-  },
-  {
-    "id": "white_shulker_box",
-    "name": "하얀색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/white_shulker_box.png",
-    "category": "건축",
-    "description": "하얀색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "white_stained_glass",
@@ -14859,32 +8177,6 @@
     "hardness": 1.25
   },
   {
-    "id": "white_tulip",
-    "name": "하얀색 튤립",
-    "emoji": "🟫",
-    "image": "/images/blocks/white_tulip.png",
-    "category": "식물",
-    "description": "하얀색 튤립. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "white_wall_banner",
-    "name": "흰색 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/white_wall_banner.png",
-    "category": "장식",
-    "description": "흰색 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "white_wool",
     "name": "하얀색 양털",
     "emoji": "🟫",
@@ -14896,58 +8188,6 @@
     ],
     "tool": "가위",
     "hardness": 0.8
-  },
-  {
-    "id": "wildflowers",
-    "name": "들꽃",
-    "emoji": "🌿",
-    "image": "/images/blocks/wildflowers.png",
-    "category": "식물",
-    "description": "들꽃. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 0.2
-  },
-  {
-    "id": "wither_rose",
-    "name": "위더 장미",
-    "emoji": "🟫",
-    "image": "/images/blocks/wither_rose.png",
-    "category": "식물",
-    "description": "위더 장미. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "식물"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "wither_skeleton_skull",
-    "name": "위더 스켈레톤 해골",
-    "emoji": "🟫",
-    "image": "/images/blocks/wither_skeleton_skull.png",
-    "category": "특수",
-    "description": "위더 스켈레톤 해골. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "특수"
-    ],
-    "tool": "없음",
-    "hardness": 1
-  },
-  {
-    "id": "wither_skeleton_wall_skull",
-    "name": "위더 스켈레톤 벽 해골",
-    "emoji": "🟫",
-    "image": "/images/blocks/wither_skeleton_wall_skull.png",
-    "category": "건축",
-    "description": "위더 스켈레톤 벽 해골. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "yellow_banner",
@@ -14989,19 +8229,6 @@
     "hardness": 0.2
   },
   {
-    "id": "yellow_candle_cake",
-    "name": "노란색 초를 꽂은 케이크",
-    "emoji": "🔥",
-    "image": "/images/blocks/yellow_candle_cake.png",
-    "category": "장식",
-    "description": "노란색 초를 꽂은 케이크. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "없음",
-    "hardness": 0.2
-  },
-  {
     "id": "yellow_carpet",
     "name": "노란색 양탄자",
     "emoji": "🟫",
@@ -15015,19 +8242,6 @@
     "hardness": 1
   },
   {
-    "id": "yellow_concrete",
-    "name": "노란색 콘크리트",
-    "emoji": "🟫",
-    "image": "/images/blocks/yellow_concrete.png",
-    "category": "장식",
-    "description": "노란색 콘크리트. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.8
-  },
-  {
     "id": "yellow_concrete_powder",
     "name": "노란색 콘크리트 가루",
     "emoji": "🟫",
@@ -15039,32 +8253,6 @@
     ],
     "tool": "곡괭이",
     "hardness": 1.5
-  },
-  {
-    "id": "yellow_glazed_terracotta",
-    "name": "노란색 유광 테라코타",
-    "emoji": "🟫",
-    "image": "/images/blocks/yellow_glazed_terracotta.png",
-    "category": "장식",
-    "description": "노란색 유광 테라코타. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1.5
-  },
-  {
-    "id": "yellow_shulker_box",
-    "name": "노란색 셜커 상자",
-    "emoji": "🟫",
-    "image": "/images/blocks/yellow_shulker_box.png",
-    "category": "건축",
-    "description": "노란색 셜커 상자. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   },
   {
     "id": "yellow_stained_glass",
@@ -15106,19 +8294,6 @@
     "hardness": 1.5
   },
   {
-    "id": "yellow_wall_banner",
-    "name": "노란 벽 배너",
-    "emoji": "🟫",
-    "image": "/images/blocks/yellow_wall_banner.png",
-    "category": "장식",
-    "description": "노란 벽 배너. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "장식"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
     "id": "yellow_wool",
     "name": "노란색 양털",
     "emoji": "🟫",
@@ -15130,31 +8305,5 @@
     ],
     "tool": "가위",
     "hardness": 0.8
-  },
-  {
-    "id": "zombie_head",
-    "name": "좀비 머리",
-    "emoji": "🟫",
-    "image": "/images/blocks/zombie_head.png",
-    "category": "건축",
-    "description": "좀비 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
-  },
-  {
-    "id": "zombie_wall_head",
-    "name": "좀비 벽 머리",
-    "emoji": "🟫",
-    "image": "/images/blocks/zombie_wall_head.png",
-    "category": "건축",
-    "description": "좀비 벽 머리. 마인크래프트에서 사용하는 블록입니다.",
-    "tags": [
-      "건축"
-    ],
-    "tool": "곡괭이",
-    "hardness": 1
   }
 ]
