@@ -65,6 +65,8 @@ function SearchContent() {
   const groups = [
     { key: "block",  label: "블록",   data: results.filter((r) => r.type === "block")  },
     { key: "item",   label: "아이템", data: results.filter((r) => r.type === "item")   },
+    { key: "mob",    label: "몹",     data: results.filter((r) => r.type === "mob")    },
+    { key: "biome",  label: "바이옴", data: results.filter((r) => r.type === "biome")  },
     { key: "recipe", label: "레시피", data: results.filter((r) => r.type === "recipe") },
   ].filter((g) => g.data.length > 0);
 

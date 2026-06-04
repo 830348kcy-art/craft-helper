@@ -33,7 +33,7 @@ export default async function CategoryPage({ params }: { params: { slug: string 
   return (
     <div className="wiki-page-bg min-h-[80vh] flex-1">
       <div className="wiki-page-mesh" aria-hidden />
-      <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-6 sm:py-8 max-w-[1100px]">
+      <div className="relative z-10 w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
           <WikiArticle>
             <div className="wiki-hero-banner !border-0">
               <nav className="relative z-10 text-[12px] text-white/70 mb-3">

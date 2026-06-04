@@ -24,7 +24,8 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
         }`}
       />
 
-      <div className="flex-1 flex flex-col min-w-0">
+      <div className="flex-1 flex flex-col min-w-0 items-center">
+        <div className="w-full max-w-[1400px] flex flex-col min-w-0 flex-1">
         <button
           type="button"
           className="md:hidden sticky top-[var(--site-header-h)] z-30 mx-4 mt-3 mb-0 px-4 py-2.5 rounded-wiki text-sm font-semibold bg-white/95 dark:bg-zinc-900/95 border border-wiki-borderSoft dark:border-zinc-700 shadow-wiki"
@@ -33,6 +34,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
           ☰ 메뉴
         </button>
         {children}
+        </div>
       </div>
     </div>
   );

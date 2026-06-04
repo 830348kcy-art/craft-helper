@@ -38,9 +38,8 @@ export const categories: Category[] = [
 
 export const featuredGuides: { slug: string; title: string; description: string; emoji: string; href: string }[] = [
   { slug: "getting-started", title: "처음 시작하는 모험가를 위해", description: "첫날 밤을 안전하게 넘기는 방법부터, 기본 도구 제작까지.", emoji: "🌅", href: "/wiki/getting-started" },
-  { slug: "diamond-guide",   title: "다이아몬드 효율적으로 찾기",  description: "Y레벨, 분기 채굴, 화산 동굴 탐색 팁 총정리.",         emoji: "💎", href: "/wiki/diamond" },
-  { slug: "nether-portal",   title: "네더 차원문 만들기",          description: "흑요석 10개로 차원문을 여는 가장 빠른 방법.",         emoji: "🔥", href: "/wiki/nether-portal" },
-  { slug: "farm-auto",       title: "자동 농장 설계 입문",          description: "물줄기와 호퍼만으로 만드는 무한 식량 시스템.",         emoji: "🌾", href: "/wiki/auto-farm" },
+  { slug: "ore-distribution", title: "광물별 분포 정보", description: "석탄·철·구리·금·레드스톤·라피스·다이아·에메랄드·네더라이트 Y레벨 요약.", emoji: "⛏️", href: "/wiki/ore-distribution" },
+  { slug: "farm-auto", title: "자동 농장 설계 입문", description: "물줄기와 호퍼만으로 만드는 무한 식량 시스템.", emoji: "🌾", href: "/wiki/auto-farm" },
 ];
 
 export const docs: Record<string, WikiDoc> = {
@@ -150,6 +149,70 @@ export const docs: Record<string, WikiDoc> = {
         id: "tips",
         heading: "유용한 팁",
         html: `<p><a href="https://ko.minecraft.wiki/w/%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC:%EA%B0%84%EB%8B%A8%ED%95%9C_%ED%8C%81%EA%B3%BC_%ED%8A%B8%EB%A6%AD" target="_blank" rel="noreferrer noopener">간단한 팁과 트릭</a> 요약.</p><ul><li><strong>모래·자갈</strong>: 아래 횃불로 연쇄 채굴.</li><li><strong>방향</strong>: 블록 옆면 균열로 북쪽(곡괭이 금지).</li><li><strong>나무</strong>: 위부터 캐고 맨 아래는 마지막.</li><li><strong>침대</strong>: 새 침대에 잔 뒤 옛 침대 제거.</li><li><strong>비상 쉘터</strong>: 3칸 아래+머리 막기·횃불.</li><li><strong>울타리 문</strong>: 좀비가 문으로 인식하지 않음.</li></ul>`,
+      },
+    ],
+  },
+  "ore-distribution": {
+    slug: "ore-distribution",
+    title: "광물별 분포 정보",
+    category: "blocks",
+    heroImage: getItemTexture("diamond"),
+    summary: "Java Edition 1.21 기준 주요 광물의 생성 높이(Y레벨)와 채굴 팁을 한눈에 정리한 문서입니다.",
+    infobox: [
+      { label: "에디션", value: "Java Edition 1.21.x" },
+      { label: "최적 채굴", value: "Y=-58 ~ -59 (1.18+)" },
+      { label: "네더라이트", value: "네더 고고학 Y=8~22" },
+    ],
+    sections: [
+      {
+        id: "intro",
+        heading: "개요",
+        html: `<p>1.18 이후 지형 생성이 바뀌어 <strong>Y=-64 ~ 320</strong> 전 구간에서 광석이 분포합니다. 대부분의 광물은 <strong>Y=-58 ~ -59</strong> 근처에서 가장 많이 나옵니다.</p>`,
+      },
+      {
+        id: "coal",
+        heading: "석탄",
+        html: `<p><strong>Y=0 ~ 320</strong> 및 <strong>심층암(Y=-64~-8)</strong>. 표면~동굴에서도 자주 보입니다. 목탄 대체 연료.</p>`,
+      },
+      {
+        id: "iron",
+        heading: "철",
+        html: `<p><strong>Y=-64 ~ 72</strong>, 최다 <strong>Y=16</strong> 부근. 초반 동굴·심층암 채굴로 확보.</p>`,
+      },
+      {
+        id: "copper",
+        heading: "구리",
+        html: `<p><strong>Y=-16 ~ 112</strong>, 최다 <strong>Y=48</strong> 부근. 번개로 산화 구리 블록 생성 가능.</p>`,
+      },
+      {
+        id: "gold",
+        heading: "금",
+        html: `<p>오버월드 <strong>Y=-64 ~ 32</strong>(최다 Y=-16). 네더 <strong>Y=0 ~ 127</strong> 전역(바드락 제외).</p>`,
+      },
+      {
+        id: "redstone",
+        heading: "레드스톤",
+        html: `<p><strong>Y=-64 ~ 15</strong>, 최다 <strong>Y=-58</strong> 부근. 레드스톤 회로·마법부여 재료.</p>`,
+      },
+      {
+        id: "lapis",
+        heading: "라피스",
+        html: `<p><strong>Y=-64 ~ 64</strong>, 최다 <strong>Y=0</strong> 부근. 마법부여·경험치 구슬 재료.</p>`,
+      },
+      {
+        id: "diamond",
+        heading: "다이아몬드",
+        html: `<p><strong>Y=-64 ~ 16</strong>, 최다 <strong>Y=-58 ~ -59</strong>. <code>철 곡괭이 이상</code> 필수. <a href="/wiki/diamond">다이아몬드</a> 문서 참고.</p>`,
+      },
+      {
+        id: "emerald",
+        heading: "에메랄드",
+        html: `<p>산악·윈드스윕 바이옴에서만 광석 생성. 주민 거래가 더 흔한 획득 경로.</p>`,
+      },
+      {
+        id: "netherite",
+        heading: "네더라이트",
+        html: `<p><strong>고대 잔해</strong>가 네더 <strong>Y=8 ~ 22</strong>에 매우 희귀 생성. 폭발·용암 주의, <code>다이아몬드/네더라이트 곡괭이</code>로 채굴.</p>`,
       },
     ],
   },

@@ -12,8 +12,8 @@ export function PageShell({
     <div className={`wiki-page-bg ${className}`}>
       <div className="wiki-page-mesh" aria-hidden />
       <div
-        className={`relative z-10 w-full mx-auto px-4 sm:px-6 py-6 sm:py-8 ${
-          wide ? "max-w-[1100px]" : "max-w-[1000px]"
+        className={`relative z-10 w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 ${
+          wide ? "max-w-[1320px]" : "max-w-[1280px]"
         }`}
       >
         {children}

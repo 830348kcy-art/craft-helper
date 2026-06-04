@@ -1,0 +1,132 @@
+[
+  {
+    "id": "plains",
+    "name": "평원",
+    "dimension": "overworld",
+    "emoji": "🌾",
+    "blocks": ["grass_block", "oak_log", "dandelion"],
+    "mobs": ["cow", "pig", "sheep", "villager", "horse"],
+    "traits": "가장 흔한 바이옴. 마을 생성 가능.",
+    "description": "초반 거점으로 적합한 넓은 초원."
+  },
+  {
+    "id": "forest",
+    "name": "숲",
+    "dimension": "overworld",
+    "emoji": "🌲",
+    "blocks": ["oak_log", "birch_log", "grass_block"],
+    "mobs": ["cow", "wolf", "sheep"],
+    "traits": "나무가 풍부. 어두운 숲은 적 스폰 주의.",
+    "description": "원목·식량 확보에 유리."
+  },
+  {
+    "id": "desert",
+    "name": "사막",
+    "dimension": "overworld",
+    "emoji": "🏜️",
+    "blocks": ["sand", "cactus", "dead_bush"],
+    "mobs": ["rabbit", "villager"],
+    "traits": "나무 부족. 사막 사원·우물 구조물.",
+    "description": "초반 나무 확보가 어려울 수 있음."
+  },
+  {
+    "id": "taiga",
+    "name": "타이가",
+    "dimension": "overworld",
+    "emoji": "🌲",
+    "blocks": ["spruce_log", "podzol", "sweet_berry_bush"],
+    "mobs": ["wolf", "fox", "rabbit"],
+    "traits": "가문비나무·늑대. 눈 타이가 변종 존재.",
+    "description": "늑대 길들이기·베리 채집."
+  },
+  {
+    "id": "ocean",
+    "name": "바다",
+    "dimension": "overworld",
+    "emoji": "🌊",
+    "blocks": ["water", "kelp", "seagrass"],
+    "mobs": ["squid", "dolphin", "cod"],
+    "traits": "수중 호흡·배 필요. 해저 유적·몬ument.",
+    "description": "해저 탐험·가디언 전투."
+  },
+  {
+    "id": "nether_wastes",
+    "name": "네더 황무지",
+    "dimension": "nether",
+    "emoji": "🔥",
+    "blocks": ["netherrack", "lava", "nether_quartz_ore"],
+    "mobs": ["zombified_piglin", "ghast", "magma_cube"],
+    "traits": "가장 흔한 네더 바이옴. 석영 광석.",
+    "description": "네더 입문 지역."
+  },
+  {
+    "id": "crimson_forest",
+    "name": "진홍빛 숲",
+    "dimension": "nether",
+    "emoji": "🍄",
+    "blocks": ["crimson_stem", "crimson_nylium", "shroomlight"],
+    "mobs": ["hoglin", "piglin", "zombified_piglin"],
+    "traits": "호글린·피글린. 진홍빛 자루·균사.",
+    "description": "목재·거래·고기 확보."
+  },
+  {
+    "id": "warped_forest",
+    "name": "뒤틀린 숲",
+    "dimension": "nether",
+    "emoji": "🌀",
+    "blocks": ["warped_stem", "warped_nylium", "shroomlight"],
+    "mobs": ["enderman", "strider"],
+    "traits": "엔더맨 다수. 비교적 안전한 채굴.",
+    "description": "엔더 진주·뒤틀린 목재."
+  },
+  {
+    "id": "soul_sand_valley",
+    "name": "영혼 모래 골짜기",
+    "dimension": "nether",
+    "emoji": "💀",
+    "blocks": ["soul_sand", "soul_soil", "basalt"],
+    "mobs": ["skeleton", "ghast", "enderman"],
+    "traits": "영혼 모래·영혼 토양. 스켈레톤 다수.",
+    "description": "영혼 모닥불·영혼 횃불 재료."
+  },
+  {
+    "id": "basalt_deltas",
+    "name": "현무암 삼각주",
+    "dimension": "nether",
+    "emoji": "🌋",
+    "blocks": ["basalt", "blackstone", "magma_block"],
+    "mobs": ["magma_cube", "ghast"],
+    "traits": "험한 지형. 흑요석·현무암.",
+    "description": "블랙스톤 채굴에 적합."
+  },
+  {
+    "id": "the_end",
+    "name": "엔드",
+    "dimension": "end",
+    "emoji": "🌌",
+    "blocks": ["end_stone", "chorus_plant", "obsidian"],
+    "mobs": ["enderman", "ender_dragon", "endermite"],
+    "traits": "메인 섬·외곽 섬. 드래곤 보스.",
+    "description": "게임 최종 지역."
+  },
+  {
+    "id": "end_highlands",
+    "name": "엔드 고지",
+    "dimension": "end",
+    "emoji": "🏔️",
+    "blocks": ["end_stone", "chorus_flower"],
+    "mobs": ["enderman", "shulker"],
+    "traits": "후렴과·엔드 도시 위치.",
+    "description": "셜커·엘리트라 획득."
+  },
+  {
+    "id": "end_midlands",
+    "name": "엔드 중간 지대",
+    "dimension": "end",
+    "emoji": "🪨",
+    "blocks": ["end_stone"],
+    "mobs": ["enderman"],
+    "traits": "메인 섬과 외곽 사이.",
+    "description": "엔더맨 농장에 사용."
+  }
+]

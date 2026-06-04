@@ -8,6 +8,7 @@ import { PrerequisiteRecipes } from "@/app/components/PrerequisiteRecipes";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { RelatedItems } from "@/app/components/RelatedItems";
 import { RecipeGrid } from "@/app/components/RecipeGrid";
+import { getTagsForItemId } from "@/lib/mc-tags";
 
 const TYPE_LABEL: Record<string, string> = { block: "블록", item: "아이템", recipe: "레시피" };
 const TYPE_COLOR: Record<string, string> = {
@@ -85,7 +86,7 @@ export default async function SearchDetailPage({
   return (
     <main className="wiki-page-bg min-h-[80vh]">
       <div className="wiki-page-mesh" aria-hidden />
-      <div className="relative z-10 max-w-[920px] mx-auto px-4 sm:px-6 py-8 sm:py-10">
+      <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
       <Breadcrumb
         items={[
           { label: "홈", href: "/" },
@@ -149,6 +150,23 @@ export default async function SearchDetailPage({
         ]} />
       )}
 
+      {(type === "block" || type === "item") && getTagsForItemId(params.id).length > 0 && (
+        <section className="mb-8 p-5 rounded-xl border border-violet-200/60 dark:border-violet-800/40 bg-violet-50/30 dark:bg-violet-950/20">
+          <h2 className="text-sm font-bold text-violet-900 dark:text-violet-200 mb-2">소속 태그 (마인크래프트)</h2>
+          <div className="flex flex-wrap gap-2">
+            {getTagsForItemId(params.id).map((tagKey) => (
+              <Link
+                key={tagKey}
+                href={`/tag/${tagKey}`}
+                className="px-2.5 py-1 rounded-full text-xs font-medium bg-violet-100 text-violet-800 dark:bg-violet-900/50 dark:text-violet-200 hover:underline"
+              >
+                #{tagKey}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* 레시피 전용 정보 */}
       {type === "recipe" && raw && (
         <section className="mb-8">
@@ -195,8 +213,10 @@ export default async function SearchDetailPage({
                     const parsed = ing.match(/^(.+?)\s*×\s*(\d+)$/);
                     const name = parsed ? parsed[1].trim() : ing;
                     const count = parsed ? parsed[2] : "";
-                    const tex = getTextureByName(name);
-                    const href = getHrefByKoName(name);
+                    const tagMatch = name.match(/\(#([a-z_]+)\)/i);
+                    const tagHref = tagMatch ? `/tag/${tagMatch[1]}` : undefined;
+                    const tex = getTextureByName(name.replace(/\s*\(#[^)]+\)/, "").trim());
+                    const href = tagHref ?? getHrefByKoName(name.replace(/\s*\(#[^)]+\)/, "").trim());
                     const inner = (
                       <>
                         <SmartIcon image={tex} emoji="🟫" size="sm" alt={name} />

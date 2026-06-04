@@ -11,9 +11,23 @@ import { SmartIcon } from "./SmartIcon";
 const TYPE_COLOR: Record<string, string> = {
   block:  "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300",
   item:   "bg-blue-100  text-blue-700  dark:bg-blue-900/40  dark:text-blue-300",
+  mob:    "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300",
+  biome:  "bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300",
   recipe: "bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-300",
 };
-const TYPE_LABEL: Record<string, string> = { block: "블록", item: "아이템", recipe: "레시피" };
+const TYPE_LABEL: Record<string, string> = {
+  block: "블록",
+  item: "아이템",
+  recipe: "레시피",
+  mob: "몹",
+  biome: "바이옴",
+};
+
+function shortSummary(name: string, desc: string): string {
+  if (desc.startsWith(name + ".")) return desc.slice(name.length + 1).trim();
+  if (desc.startsWith(name)) return desc.slice(name.length).replace(/^[.\s]+/, "").trim();
+  return desc;
+}
 
 export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색…", className = "" }: { placeholder?: string; className?: string }) {
   const [query, setQuery] = useState("");
@@ -96,17 +110,22 @@ export function SearchBox({ placeholder = "블록, 아이템, 레시피 검색�
                 <button
                   type="button"
                   onClick={() => { router.push(resultHref(r)); setOpen(false); setQuery(""); }}
-                  className="w-full flex items-center gap-3 px-4 py-3 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-left transition"
+                  className="w-full grid grid-cols-[auto_1fr] gap-3 px-4 py-3 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-left transition"
                 >
                   <SmartIcon image={r.image} textureId={r.id} emoji={r.emoji} size="md" />
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-sm font-medium truncate">{r.name}</span>
-                      <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-medium shrink-0 ${TYPE_COLOR[r.type]}`}>
-                        {TYPE_LABEL[r.type]}
+                  <div className="min-w-0 text-left">
+                    <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
+                      <span className="text-sm font-semibold text-wiki-text dark:text-zinc-100">{r.name}</span>
+                      <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-medium ${TYPE_COLOR[r.type] ?? ""}`}>
+                        {TYPE_LABEL[r.type] ?? r.type}
                       </span>
+                      {r.category ? (
+                        <span className="text-[10px] text-zinc-500">{r.category}</span>
+                      ) : null}
                     </div>
-                    <p className="text-xs text-zinc-500 dark:text-zinc-400 truncate mt-0.5">{r.description}</p>
+                    <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-0.5 line-clamp-2">
+                      {shortSummary(r.name, r.description)}
+                    </p>
                   </div>
                 </button>
               </li>

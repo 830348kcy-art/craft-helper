@@ -7,8 +7,7 @@ import { loadAllData } from "@/lib/sheets";
 
 const GUIDE_TEXTURE: Record<string, string> = {
   "getting-started": getBlockTexture("crafting_table"),
-  diamond: getItemTexture("diamond"),
-  "nether-portal": getBlockTexture("obsidian"),
+  "ore-distribution": getItemTexture("iron_ore"),
   "auto-farm": getItemTexture("wheat"),
 };
 
@@ -22,7 +21,7 @@ export default async function HomePage() {
   };
 
   return (
-    <PageShell>
+    <PageShell wide>
       {/* 히어로 */}
       <div className="wiki-hero mb-6 sm:mb-8">
         <div className="wiki-hero-banner">
@@ -50,10 +49,11 @@ export default async function HomePage() {
               <em>마인크래프트</em>를 더 쉽고 재밌게 즐기기 위한 한국어 가이드
               사이트입니다. 처음이시라면{" "}
               <Link href="/wiki/getting-started">처음 시작하기</Link>부터,
-              광물은 <Link href="/wiki/diamond">다이아몬드</Link>,
-              차원 탐험은 <Link href="/wiki/nether-portal">네더 차원문</Link>,
-              자동화는 <Link href="/wiki/auto-farm">자동 농장</Link>을
-              참고하세요.
+              광물은 <Link href="/wiki/ore-distribution">광물별 분포</Link>,
+              차원별 정보는 <Link href="/dimension/overworld">오버월드</Link>·
+              <Link href="/dimension/nether">네더</Link>·
+              <Link href="/dimension/end">엔드</Link> 분류를,
+              자동화는 <Link href="/wiki/auto-farm">자동 농장</Link>을 참고하세요.
             </p>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default async function HomePage() {
                     {d.name}
                   </span>
                   <span className="text-[11px] text-wiki-muted dark:text-zinc-500">
-                    블록·아이템 탐색
+                    블록·아이템·몹·바이옴
                   </span>
                 </Link>
               </li>

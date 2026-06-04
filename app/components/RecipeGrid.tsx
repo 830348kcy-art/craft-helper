@@ -1,7 +1,9 @@
 "use client";
 import Link from "next/link";
 import { getTextureByName, getHrefByKoName, resolveByKoName } from "@/lib/textures";
+import { parseTagCell } from "@/lib/mc-tags";
 import { SmartIcon } from "./SmartIcon";
+import { TagCyclingCell } from "./TagCyclingCell";
 
 const CELL_CLASS =
   "group relative w-14 h-14 rounded-md flex items-center justify-center " +
@@ -10,6 +12,15 @@ const CELL_CLASS =
   "transition hover:from-white hover:to-zinc-100 dark:hover:from-zinc-700 dark:hover:to-zinc-800";
 
 function RecipeCell({ cell }: { cell: string }) {
+  const tagKey = parseTagCell(cell);
+  if (tagKey) {
+    return (
+      <div className={`${CELL_CLASS} ring-1 ring-violet-300/60 dark:ring-violet-600/50`}>
+        <TagCyclingCell tagKey={tagKey} />
+      </div>
+    );
+  }
+
   const entry = resolveByKoName(cell);
   const texture = getTextureByName(cell);
   const href = getHrefByKoName(cell);

@@ -1,6 +1,6 @@
 export type SearchIndexItem = {
   id: string;
-  type: "block" | "item" | "recipe";
+  type: "block" | "item" | "recipe" | "mob" | "biome";
   name: string;
   description: string;
   emoji: string;
@@ -8,6 +8,7 @@ export type SearchIndexItem = {
   category: string;
   tags: string[];
   href: string;
+  dimension?: "overworld" | "nether" | "end";
 };
 
 /** search-index.json 항목을 쿼리로 필터·점수 정렬 */

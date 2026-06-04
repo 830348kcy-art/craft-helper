@@ -16,43 +16,90 @@ function readJSON(rel) {
   return JSON.parse(readFileSync(resolve(root, rel), "utf-8"));
 }
 
+function inferDimension(id) {
+  if (/^(end_|purpur|chorus|dragon|elytra|shulker|end_stone|end_rod|end_portal)/.test(id))
+    return "end";
+  if (
+    /^(nether|netherrack|soul_|crimson|warped|magma|basalt|blackstone|gilded|ancient|blaze|ghast|hoglin|piglin|quartz|strider|respawn_anchor|lodestone|shroom)/.test(
+      id
+    )
+  )
+    return "nether";
+  return "overworld";
+}
+
+function shortDesc(name, desc) {
+  if (desc.startsWith(name + ".")) return desc.slice(name.length + 1).trim();
+  if (desc.startsWith(name)) return desc.slice(name.length).replace(/^[.\s]+/, "").trim();
+  return desc;
+}
+
 const blocks = readJSON("data/blocks.json");
 const items = readJSON("data/items.json");
 const recipes = readJSON("data/recipes.json");
+const mobs = readJSON("data/mobs.json");
+const biomes = readJSON("data/biomes.json");
 
 const index = [
   ...blocks.map((b) => ({
     id: b.id,
     type: "block",
     name: b.name,
-    description: b.description,
+    description: shortDesc(b.name, b.description),
     emoji: b.emoji || "🟫",
     image: getBlockImageUrl(b.id),
     category: b.category,
     tags: b.tags || [],
     href: `/search/${b.id}?type=block`,
+    dimension: inferDimension(b.id),
   })),
   ...items.map((it) => ({
     id: it.id,
     type: "item",
     name: it.name,
-    description: it.description,
+    description: shortDesc(it.name, it.description),
     emoji: it.emoji || "📦",
     image: getItemImageUrl(it.id),
     category: it.category,
     tags: it.tags || [],
     href: `/search/${it.id}?type=item`,
+    dimension: inferDimension(it.id),
   })),
   ...recipes.map((r) => ({
     id: r.id,
     type: "recipe",
     name: r.name,
-    description: r.description,
+    description: shortDesc(r.name, r.description),
     emoji: r.emoji || "📜",
     image: getItemImageUrl(r.id),
     category: r.category,
     tags: r.tags || [],
     href: `/search/${r.id}?type=recipe`,
+    dimension: inferDimension(r.id),
+  })),
+  ...mobs.map((m) => ({
+    id: m.id,
+    type: "mob",
+    name: m.name,
+    description: m.description,
+    emoji: m.emoji || "🐾",
+    image: m.drops?.[0] ? getItemImageUrl(m.drops[0]) : undefined,
+    category: m.category,
+    tags: ["몹", m.category],
+    href: `/mob/${m.id}`,
+    dimension: m.dimension,
+  })),
+  ...biomes.map((b) => ({
+    id: b.id,
+    type: "biome",
+    name: b.name,
+    description: b.description,
+    emoji: b.emoji || "🌿",
+    image: b.blocks?.[0] ? getBlockImageUrl(b.blocks[0]) : undefined,
+    category: "바이옴",
+    tags: ["바이옴"],
+    href: `/biome/${b.id}`,
+    dimension: b.dimension,
   })),
 ];
 
