@@ -1,6 +1,11 @@
 import { farmDiagram } from "./diagrams";
 import { getItemTexture, getBlockTexture } from "./textures";
 
+// GitHub Pages 서브경로(/craft-helper) 대응.
+// raw HTML(dangerouslySetInnerHTML) 안의 정적 자원은 Next.js가 자동으로
+// basePath를 붙여주지 않으므로 직접 접두어를 추가한다.
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export type Category = {
   slug: string;
   name: string;
@@ -200,7 +205,7 @@ export const docs: Record<string, WikiDoc> = {
 
 <figure class="my-5">
   <video controls preload="metadata" playsinline class="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 shadow-md bg-black">
-    <source src="/videos/sugar-cane.mp4" type="video/mp4" />
+    <source src="${BASE}/videos/sugar-cane.mp4" type="video/mp4" />
     브라우저가 비디오를 지원하지 않습니다.
   </video>
   <figcaption class="text-xs text-zinc-500 mt-2 text-center">▶ 실제 사탕수수 자동 농장 작동 영상</figcaption>
@@ -251,7 +256,7 @@ ${farmDiagram([
 
 <figure class="my-5">
   <video controls preload="metadata" playsinline class="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 shadow-md bg-black">
-    <source src="/videos/bamboo.mp4" type="video/mp4" />
+    <source src="${BASE}/videos/bamboo.mp4" type="video/mp4" />
     브라우저가 비디오를 지원하지 않습니다.
   </video>
   <figcaption class="text-xs text-zinc-500 mt-2 text-center">▶ 실제 대나무 자동 농장 작동 영상</figcaption>
@@ -298,7 +303,7 @@ ${farmDiagram([
 
 <figure class="my-5">
   <video controls preload="metadata" playsinline class="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 shadow-md bg-black">
-    <source src="/videos/cactus.mp4" type="video/mp4" />
+    <source src="${BASE}/videos/cactus.mp4" type="video/mp4" />
     브라우저가 비디오를 지원하지 않습니다.
   </video>
   <figcaption class="text-xs text-zinc-500 mt-2 text-center">▶ 실제 선인장 자동 농장 작동 영상</figcaption>
@@ -343,7 +348,7 @@ ${farmDiagram([
 
 <figure class="my-5">
   <video controls preload="metadata" playsinline class="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 shadow-md bg-black">
-    <source src="/videos/wheat.mp4" type="video/mp4" />
+    <source src="${BASE}/videos/wheat.mp4" type="video/mp4" />
     브라우저가 비디오를 지원하지 않습니다.
   </video>
   <figcaption class="text-xs text-zinc-500 mt-2 text-center">▶ 실제 밀 자동 농장 작동 영상</figcaption>
