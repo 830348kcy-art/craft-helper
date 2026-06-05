@@ -1,8 +1,11 @@
 import mobsJson from "../data/mobs.json";
 import biomesJson from "../data/biomes.json";
 import type { DimensionId } from "./catalog-taxonomy";
-import { getBlockTexture, getItemTexture } from "./textures";
-import { mobSpriteUrl, biomeSpriteUrl } from "./wiki-images";
+import { getBlockTexture } from "./textures";
+import { biomeSpriteUrl } from "./wiki-images";
+import { getMobImage, getMobImageCandidates } from "./mob-images";
+
+export { getMobImage, getMobImageCandidates };
 
 export type MobEntry = {
   id: string;
@@ -57,13 +60,15 @@ export function getBiomesByDimension(dimension: DimensionId): BiomeEntry[] {
   return BIOMES.filter((b) => b.dimension === dimension);
 }
 
-/** 몹 대표 이미지 (위키 스프라이트 우선) */
-export function getMobImage(mob: MobEntry): string {
-  return mobSpriteUrl(mob.id);
+export function getBiomeImageCandidates(biome: BiomeEntry): string[] {
+  const block = biome.blocks[0];
+  const blockTex = block ? getBlockTexture(block) : undefined;
+  const wiki = biomeSpriteUrl(biome.id);
+  return blockTex ? [blockTex, wiki] : [wiki];
 }
 
 export function getBiomeImage(biome: BiomeEntry): string {
-  return biomeSpriteUrl(biome.id);
+  return getBiomeImageCandidates(biome)[0];
 }
 
 export function getBiomesByGroup(dimension: DimensionId): Map<string, BiomeEntry[]> {

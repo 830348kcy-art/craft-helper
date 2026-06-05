@@ -28,6 +28,27 @@ function inferDimension(id) {
   return "overworld";
 }
 
+const ENTITY_CDN = {
+  blaze: "blaze.png",
+  snow_golem: "snow_golem.png",
+  endermite: "endermite.png",
+  phantom: "phantom.png",
+  wither_skeleton: "skeleton/wither_skeleton.png",
+  zombified_piglin: "piglin/piglin.png",
+  cave_spider: "spider/cave_spider.png",
+  ender_dragon: "enderdragon/dragon.png",
+  glow_squid: "squid/glow_squid.png",
+  iron_golem: "iron_golem/iron_golem.png",
+};
+
+function mobEntityUrl(id) {
+  const base =
+    "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/entity";
+  const custom = ENTITY_CDN[id];
+  if (custom) return `${base}/${custom}`;
+  return `${base}/${id}/${id}.png`;
+}
+
 function shortDesc(name, desc) {
   if (desc.startsWith(name + ".")) return desc.slice(name.length + 1).trim();
   if (desc.startsWith(name)) return desc.slice(name.length).replace(/^[.\s]+/, "").trim();
@@ -83,7 +104,7 @@ const index = [
     name: m.name,
     description: m.description,
     emoji: m.emoji || "🐾",
-    image: `https://minecraft.wiki/images/MobSprite_${m.id.replace(/_/g, "-")}.png?format=original`,
+    image: `https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/entity/${m.id}/${m.id}.png`,
     category: m.category,
     tags: ["몹", m.category],
     href: `/mob/${m.id}`,
@@ -95,7 +116,7 @@ const index = [
     name: b.name,
     description: b.description,
     emoji: b.emoji || "🌿",
-    image: `https://minecraft.wiki/images/BiomeSprite_${b.id.replace(/_/g, "-")}.png?format=original`,
+    image: b.blocks?.[0] ? getBlockImageUrl(b.blocks[0]) : undefined,
     category: b.group ? `바이옴 · ${b.group}` : "바이옴",
     tags: ["바이옴", b.group].filter(Boolean),
     href: `/biome/${b.id}`,

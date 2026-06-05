@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllBiomes, getBiomeById, getBiomeImage, getMobById, getMobImage } from "@/lib/encyclopedia";
+import { getAllBiomes, getBiomeById, getBiomeImageCandidates, getMobById, getMobImageCandidates } from "@/lib/encyclopedia";
 import { DIMENSIONS } from "@/lib/catalog-taxonomy";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
@@ -32,7 +32,7 @@ export default function BiomePage({ params }: { params: { id: string } }) {
               <span className="text-white">바이옴</span>
             </nav>
             <h1 className="wiki-hero-title flex items-center gap-3">
-              <SmartIcon image={getBiomeImage(biome)} emoji={biome.emoji} size="xl" alt={biome.name} />
+              <SmartIcon images={getBiomeImageCandidates(biome)} emoji={biome.emoji} size="xl" alt={biome.name} />
               {biome.name}
             </h1>
             <p className="wiki-hero-sub">{biome.description}</p>
@@ -40,7 +40,7 @@ export default function BiomePage({ params }: { params: { id: string } }) {
 
           <div className="px-6 sm:px-8 py-6 flex flex-wrap gap-6 items-start">
             <div className="wiki-icon-frame p-4">
-              <SmartIcon image={getBiomeImage(biome)} emoji={biome.emoji} size="hero" alt={biome.name} />
+              <SmartIcon images={getBiomeImageCandidates(biome)} emoji={biome.emoji} size="hero" alt={biome.name} />
             </div>
             <div className="flex-1 min-w-[240px]">
               {biome.group && (
@@ -85,7 +85,7 @@ export default function BiomePage({ params }: { params: { id: string } }) {
                   <li key={mobId}>
                     <Link href={`/mob/${mobId}`} className="wiki-card-hover inline-flex items-center gap-2 px-3 py-2 text-sm font-medium no-underline">
                       {mob && (
-                        <SmartIcon image={getMobImage(mob)} emoji={mob.emoji} size="xs" alt={mob.name} />
+                        <SmartIcon images={getMobImageCandidates(mob)} emoji={mob.emoji} size="xs" alt={mob.name} />
                       )}
                       {mob?.name ?? mobId.replace(/_/g, " ")}
                     </Link>

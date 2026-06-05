@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllMobs, getMobById, getMobImage } from "@/lib/encyclopedia";
+import { getAllMobs, getMobById, getMobImageCandidates } from "@/lib/encyclopedia";
 import { DIMENSIONS } from "@/lib/catalog-taxonomy";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
@@ -32,7 +32,7 @@ export default function MobPage({ params }: { params: { id: string } }) {
               <span className="text-white">몹</span>
             </nav>
             <h1 className="wiki-hero-title flex items-center gap-3">
-              <SmartIcon image={getMobImage(mob)} emoji={mob.emoji} size="xl" alt={mob.name} />
+              <SmartIcon images={getMobImageCandidates(mob)} emoji={mob.emoji} size="xl" alt={mob.name} />
               {mob.name}
             </h1>
             <p className="wiki-hero-sub">{mob.description}</p>
@@ -40,7 +40,7 @@ export default function MobPage({ params }: { params: { id: string } }) {
 
           <div className="px-6 sm:px-8 py-6 flex flex-wrap gap-6 items-start">
             <div className="wiki-icon-frame p-4">
-              <SmartIcon image={getMobImage(mob)} emoji={mob.emoji} size="hero" alt={mob.name} />
+              <SmartIcon images={getMobImageCandidates(mob)} emoji={mob.emoji} size="hero" alt={mob.name} />
             </div>
             <div className="flex-1 min-w-[240px] grid sm:grid-cols-2 gap-4">
               <InfoRow label="체력" value={`${mob.health} HP`} />

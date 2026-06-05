@@ -27,6 +27,7 @@ const SIZE_TEXT: Record<Size, string> = {
  */
 export function SmartIcon({
   image,
+  images,
   textureId,
   emoji,
   alt,
@@ -35,6 +36,8 @@ export function SmartIcon({
   className = "",
 }: {
   image?: string;
+  /** 여러 URL 순차 폴백 */
+  images?: string[];
   /** 카탈로그 ID — 다중 CDN 폴백에 사용 */
   textureId?: string;
   emoji: string;
@@ -54,9 +57,10 @@ export function SmartIcon({
     if (textureId) {
       for (const u of getTextureCandidates(textureId)) add(u);
     }
+    if (images) for (const u of images) add(u);
     add(image);
     return list;
-  }, [textureId, image]);
+  }, [textureId, image, images]);
 
   const [idx, setIdx] = useState(0);
   const px = SIZE_PX[size];

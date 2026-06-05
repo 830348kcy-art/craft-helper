@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SmartIcon } from "./SmartIcon";
 import type { MobEntry, BiomeEntry } from "@/lib/encyclopedia";
-import { getMobImage, getBiomeImage } from "@/lib/encyclopedia";
+import { getMobImageCandidates, getBiomeImageCandidates } from "@/lib/encyclopedia";
 
 const MOB_GROUP_ORDER = ["수동적", "중립", "적대적", "보스"];
 
@@ -30,7 +30,7 @@ export function MobGrid({ mobs }: { mobs: MobEntry[] }) {
                   href={`/mob/${m.id}`}
                   className="wiki-card-hover flex items-start gap-3 p-4 no-underline h-full"
                 >
-                  <SmartIcon image={getMobImage(m)} emoji={m.emoji} size="lg" alt={m.name} />
+                  <SmartIcon images={getMobImageCandidates(m)} emoji={m.emoji} size="lg" alt={m.name} />
                   <div className="min-w-0 flex-1">
                     <p className="font-semibold text-[14px] text-wiki-text dark:text-zinc-100">{m.name}</p>
                     <p className="text-[11px] text-wiki-muted mt-0.5">HP {m.health}</p>
@@ -70,7 +70,7 @@ export function BiomeGrid({ biomes }: { biomes: BiomeEntry[] }) {
                   href={`/biome/${b.id}`}
                   className="wiki-card-hover flex items-start gap-3 p-4 no-underline h-full"
                 >
-                  <SmartIcon image={getBiomeImage(b)} emoji={b.emoji} size="lg" alt={b.name} />
+                  <SmartIcon images={getBiomeImageCandidates(b)} emoji={b.emoji} size="lg" alt={b.name} />
                   <div className="min-w-0 flex-1">
                     <p className="font-semibold text-[14px] text-wiki-text dark:text-zinc-100">{b.name}</p>
                     {b.temperature !== undefined && (
