@@ -12,6 +12,7 @@ import {
 import { MobGrid } from "@/app/components/MobBiomeGrid";
 import { getAllMobs } from "@/lib/encyclopedia";
 import { WikiArticle } from "@/app/components/PageShell";
+import { DetailBackBar } from "@/app/components/DetailBackBar";
 import { getCategoryTexture } from "@/lib/textures";
 
 const TYPE_LABEL: Record<string, string> = { block: "블록", item: "아이템", recipe: "레시피" };
@@ -42,6 +43,7 @@ export default async function CategoryPage({ params }: { params: { slug: string 
       <div className="relative z-10 w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
           <WikiArticle>
             <div className="wiki-hero-banner !border-0">
+              <DetailBackBar href="/" label="대문" variant="hero" />
               <nav className="relative z-10 text-[12px] text-white/70 mb-3">
                 <Link href="/" className="hover:text-white transition-colors">대문</Link>
                 <span className="mx-1.5">›</span>

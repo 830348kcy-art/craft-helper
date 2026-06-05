@@ -4,6 +4,7 @@ import { getAllBiomes, getBiomeById, getBiomeImageCandidates, getMobById, getMob
 import { DIMENSIONS } from "@/lib/catalog-taxonomy";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
+import { DetailBackBar } from "@/app/components/DetailBackBar";
 import { getBlockTexture, getHrefByKoName } from "@/lib/textures";
 import officialKo from "@/scripts/ko-lang-official.json";
 
@@ -17,6 +18,8 @@ export default function BiomePage({ params }: { params: { id: string } }) {
   const biome = getBiomeById(params.id);
   if (!biome) return notFound();
   const dim = DIMENSIONS.find((d) => d.id === biome.dimension);
+  const backHref = `/dimension/${biome.dimension}?section=biomes`;
+  const backLabel = `${dim?.name ?? biome.dimension} · 바이옴 목록`;
 
   return (
     <div className="wiki-page-bg min-h-[80vh] flex-1 w-full">
@@ -24,7 +27,8 @@ export default function BiomePage({ params }: { params: { id: string } }) {
       <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <WikiArticle>
           <div className="wiki-hero-banner !border-0">
-            <nav className="text-[12px] text-white/70 mb-3">
+            <DetailBackBar href={backHref} label={backLabel} variant="hero" />
+            <nav className="relative z-10 text-[12px] text-white/70 mb-3">
               <Link href="/">대문</Link>
               <span className="mx-1.5">›</span>
               <Link href={`/dimension/${biome.dimension}`}>{dim?.name}</Link>

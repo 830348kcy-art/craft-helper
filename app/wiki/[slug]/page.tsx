@@ -4,6 +4,7 @@ import { docs, categories } from "@/lib/data";
 import { InfoBox } from "@/app/components/InfoBox";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
+import { DetailBackBar } from "@/app/components/DetailBackBar";
 import { getCategoryTexture } from "@/lib/textures";
 
 export function generateStaticParams() {
@@ -14,6 +15,8 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
   const doc = docs[params.slug];
   if (!doc) return notFound();
   const category = categories.find((c) => c.slug === doc.category);
+  const backHref = category ? `/category/${category.slug}` : "/";
+  const backLabel = category ? `${category.name} 분류` : "대문";
 
   return (
     <div className="wiki-page-bg min-h-[80vh] flex-1">
@@ -21,6 +24,7 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
       <div className="relative z-10 w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
           <WikiArticle>
             <div className="wiki-hero-banner !border-0">
+              <DetailBackBar href={backHref} label={backLabel} variant="hero" />
               <nav className="relative z-10 text-[12px] text-white/70 mb-3">
                 <Link href="/" className="hover:text-white transition-colors">대문</Link>
                 <span className="mx-1.5">›</span>

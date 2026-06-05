@@ -4,6 +4,7 @@ import { getAllItems } from "@/lib/search";
 import { loadAllData } from "@/lib/sheets";
 import { getItemTexture, getBlockTexture, getTextureByName, getHrefByKoName, getCategoryTexture } from "@/lib/textures";
 import { Breadcrumb } from "@/app/components/Breadcrumb";
+import { DetailBackBar } from "@/app/components/DetailBackBar";
 import { PrerequisiteRecipes } from "@/app/components/PrerequisiteRecipes";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { RelatedItems } from "@/app/components/RelatedItems";
@@ -87,6 +88,7 @@ export default async function SearchDetailPage({
     <main className="wiki-page-bg min-h-[80vh]">
       <div className="wiki-page-mesh" aria-hidden />
       <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
+      <DetailBackBar href="/search" label="검색" />
       <Breadcrumb
         items={[
           { label: "홈", href: "/" },

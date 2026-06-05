@@ -7,6 +7,7 @@ import {
   getTagLabelKo,
 } from "@/lib/mc-tags";
 import { WikiArticle } from "@/app/components/PageShell";
+import { DetailBackBar } from "@/app/components/DetailBackBar";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { resolveByKoName, getTextureByName } from "@/lib/textures";
 import recipes from "@/data/recipes.json";
@@ -38,7 +39,8 @@ export default function TagPage({ params }: { params: { id: string } }) {
       <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <WikiArticle>
           <div className="wiki-hero-banner !border-0">
-            <nav className="text-[12px] text-white/70 mb-3">
+            <DetailBackBar href="/search" label="검색" variant="hero" />
+            <nav className="relative z-10 text-[12px] text-white/70 mb-3">
               <Link href="/">대문</Link>
               <span className="mx-1.5">›</span>
               <span className="text-white">태그</span>

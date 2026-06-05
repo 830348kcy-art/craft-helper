@@ -255,19 +255,20 @@ export const KOREAN_TO_TEXTURE: Record<string, string> = {
   "석탄":                  "item/coal.png",
   "숯":                    "item/charcoal.png",
   "껍질 벗긴 뒤틀린 균사":   "block/stripped_warped_hyphae.png",
-  "참나무 원목":           "block/oak_log.png",
-  "가문비나무 원목":       "block/spruce_log.png",
-  "자작나무 원목":         "block/birch_log.png",
-  "정글나무 원목":         "block/jungle_log.png",
-  "아카시아 원목":         "block/acacia_log.png",
-  "짙은 참나무 원목":      "block/dark_oak_log.png",
-  "맹그로브 원목":         "block/mangrove_log.png",
-  "벚나무 원목":           "block/cherry_log.png",
-  "창백한 참나무 원목":    "block/pale_oak_log.png",
-  "진홍빛 자루":           "block/crimson_stem.png",
-  "껍질 벗긴 진홍빛 자루":  "block/stripped_crimson_stem.png",
+  "참나무 원목":           "block/oak_log_top.png",
+  "가문비나무 원목":       "block/spruce_log_top.png",
+  "자작나무 원목":         "block/birch_log_top.png",
+  "정글나무 원목":         "block/jungle_log_top.png",
+  "아카시아 원목":         "block/acacia_log_top.png",
+  "짙은 참나무 원목":      "block/dark_oak_log_top.png",
+  "맹그로브 원목":         "block/mangrove_log_top.png",
+  "벚나무 원목":           "block/cherry_log_top.png",
+  "창백한 참나무 원목":    "block/pale_oak_log_top.png",
+  "진홍빛 자루":           "block/crimson_stem_top.png",
+  "껍질 벗긴 진홍빛 자루":  "block/stripped_crimson_stem_top.png",
   "진홍빛 판자":           "block/crimson_planks.png",
-  "뒤틀린 자루":           "block/warped_stem.png",
+  "뒤틀린 자루":           "block/warped_stem_top.png",
+  "껍질 벗긴 뒤틀린 자루":  "block/stripped_warped_stem_top.png",
   "영혼 모래":             "block/soul_sand.png",
   "자수정 조각":            "item/amethyst_shard.png",
   "네더 석영":              "item/quartz.png",
@@ -479,7 +480,15 @@ function cdnItemPath(id: string): string {
   return `item/${id}.png`;
 }
 
+function logStemTopPath(id: string): string | null {
+  if (/(^|_)stem$|_log$/.test(id)) return `block/${id}_top.png`;
+  return null;
+}
+
 function cdnBlockPath(id: string): string {
+  const top = logStemTopPath(id);
+  if (top) return top;
+
   if (BLOCK_OVERRIDES[id]) return BLOCK_OVERRIDES[id];
   if (ITEM_OVERRIDES[id]?.startsWith("block/")) return ITEM_OVERRIDES[id];
   if (textureMap[id]) return `block/${textureMap[id]}`;
@@ -490,6 +499,8 @@ function cdnBlockPath(id: string): string {
     if (BLOCK_OVERRIDES[base]) return BLOCK_OVERRIDES[base];
     if (ITEM_OVERRIDES[base]?.startsWith("block/")) return ITEM_OVERRIDES[base];
     if (textureMap[base]) return `block/${textureMap[base]}`;
+    const baseTop = logStemTopPath(base);
+    if (baseTop) return baseTop;
     return `block/${blockFileName(base)}`;
   }
   return `block/${blockFileName(id)}`;
