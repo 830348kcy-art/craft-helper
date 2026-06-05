@@ -12,42 +12,42 @@ function clamp(v: number): number {
   return Math.max(0, Math.min(255, Math.round(v)));
 }
 
-/** 위키 풀샷에서 회색(장식) 픽셀인지 판별 */
-export function isTrimGrayPixel(r: number, g: number, b: number, a: number): boolean {
-  if (a < 24) return false;
-  const max = Math.max(r, g, b);
-  const min = Math.min(r, g, b);
-  const chroma = max - min;
-  const lightness = (max + min) / (2 * 255);
-  // 장식 무늬: 채도 낮고 중간 밝기의 회색·은색
-  if (chroma > 42) return false;
-  if (lightness < 0.18 || lightness > 0.82) return false;
-  return chroma <= 38 && lightness >= 0.22 && lightness <= 0.72;
+/** sRGB 휘도 (0–255) */
+export function pixelLuminance(r: number, g: number, b: number): number {
+  return 0.299 * r + 0.587 * g + 0.114 * b;
 }
 
-/** 원본 밝기를 유지하며 대상 색으로 치환 */
-export function recolorGrayPixel(
+/** 완전 검정(배경·투명) — 형판 색을 입히지 않음 */
+export function isMaskBlack(r: number, g: number, b: number, a: number): boolean {
+  if (a < 12) return true;
+  return pixelLuminance(r, g, b) <= 16;
+}
+
+/**
+ * 흑백 마스크 + 재료색 합성.
+ * 위키 풀샷은 형판 미적용 상태에서 흑백처럼 보이며,
+ * 검정이 아닌 모든 픽셀에 재료 색 × 밝기를 곱한다.
+ */
+export function colorizeMaskPixel(
   r: number,
   g: number,
   b: number,
   targetHex: string
 ): [number, number, number] {
   const [tr, tg, tb] = hexToRgb(targetHex);
-  const srcLum = 0.299 * r + 0.587 * g + 0.114 * b;
-  const tgtLum = 0.299 * tr + 0.587 * tg + 0.114 * tb || 1;
-  const scale = srcLum / tgtLum;
-  return [clamp(tr * scale), clamp(tg * scale), clamp(tb * scale)];
+  const lum = pixelLuminance(r, g, b) / 255;
+  return [clamp(tr * lum), clamp(tg * lum), clamp(tb * lum)];
 }
 
-/** ImageData 내 회색 장식 영역만 재료 색으로 변경 */
+/** ImageData: 검정 제외 전체에 재료 색 적용 */
 export function applyTrimMaterialColor(data: Uint8ClampedArray, targetHex: string): void {
   for (let i = 0; i < data.length; i += 4) {
     const r = data[i];
     const g = data[i + 1];
     const b = data[i + 2];
     const a = data[i + 3];
-    if (!isTrimGrayPixel(r, g, b, a)) continue;
-    const [nr, ng, nb] = recolorGrayPixel(r, g, b, targetHex);
+    if (isMaskBlack(r, g, b, a)) continue;
+    const [nr, ng, nb] = colorizeMaskPixel(r, g, b, targetHex);
     data[i] = nr;
     data[i + 1] = ng;
     data[i + 2] = nb;

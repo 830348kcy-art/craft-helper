@@ -145,7 +145,9 @@ export function SmithingTrimGallery({
             <span>② 장식 재료 선택</span>
             <span className="text-[12px] font-normal text-wiki-muted">{materials.length}종</span>
           </h2>
-          <p className="text-[12px] text-wiki-muted mb-3">장식에 입혀질 색상을 결정합니다.</p>
+          <p className="text-[12px] text-wiki-muted mb-3">
+            풀샷은 흑백 마스크처럼 처리됩니다. 검은 배경을 제외한 갑옷 전체에 선택한 재료 색이 입혀집니다.
+          </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 list-none pl-0">
             {materials.map((mat) => (
               <li key={mat.id} className="list-none">
