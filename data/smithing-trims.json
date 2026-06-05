@@ -1,0 +1,35 @@
+{
+  "materials": [
+    { "id": "amethyst", "name": "자수정", "itemId": "amethyst_shard", "color": "#9A5CC6", "previewArmor": "Netherite_Helmet" },
+    { "id": "copper", "name": "구리", "itemId": "copper_ingot", "color": "#B4684D", "previewArmor": "Iron_Chestplate" },
+    { "id": "diamond", "name": "다이아몬드", "itemId": "diamond", "color": "#6EECD2", "previewArmor": "Diamond_Boots" },
+    { "id": "emerald", "name": "에메랄드", "itemId": "emerald", "color": "#11A036", "previewArmor": "Diamond_Boots" },
+    { "id": "gold", "name": "금", "itemId": "gold_ingot", "color": "#DEB12D", "previewArmor": "Chainmail_Chestplate" },
+    { "id": "iron", "name": "철", "itemId": "iron_ingot", "color": "#ECECEC", "previewArmor": "Leather_Pants" },
+    { "id": "lapis", "name": "청금석", "itemId": "lapis_lazuli", "color": "#416E97", "previewArmor": "Turtle_Shell" },
+    { "id": "quartz", "name": "네더 석영", "itemId": "quartz", "color": "#E3D4C4", "previewArmor": "Netherite_Helmet" },
+    { "id": "netherite", "name": "네더라이트", "itemId": "netherite_ingot", "color": "#625859", "previewArmor": "Iron_Chestplate" },
+    { "id": "redstone", "name": "레드스톤", "itemId": "redstone", "color": "#971607", "previewArmor": "Golden_Leggings" },
+    { "id": "resin", "name": "수지", "itemId": "resin_brick", "color": "#F69F3B", "previewArmor": "Netherite_Helmet" }
+  ],
+  "trims": [
+    { "id": "bolt", "name": "나사", "templateId": "bolt_armor_trim_smithing_template", "source": "시험 회전실 보물 상자", "description": "나사 모양의 장식 무늬. 시험 회전실에서 획득한다." },
+    { "id": "coast", "name": "해안", "templateId": "coast_armor_trim_smithing_template", "source": "해저 유적 상자", "description": "파도와 해안을 연상시키는 무늬." },
+    { "id": "dune", "name": "사구", "templateId": "dune_armor_trim_smithing_template", "source": "사막 사원 상자", "description": "사막 사원에서 발견되는 사구 무늬." },
+    { "id": "eye", "name": "눈", "templateId": "eye_armor_trim_smithing_template", "source": "요새 상자", "description": "눈 모양의 장식. 요새에서 흔히 발견." },
+    { "id": "flow", "name": "흐름", "templateId": "flow_armor_trim_smithing_template", "source": "고대 도시(심층암)", "description": "흐르는 듯한 곡선 무늬. 고대 도시 전용." },
+    { "id": "host", "name": "주인", "templateId": "host_armor_trim_smithing_template", "source": "약탈자 전초기지", "description": "약탈자 전초기지에서 획득." },
+    { "id": "raiser", "name": "사육사", "templateId": "raiser_armor_trim_smithing_template", "source": "사막 우물 상자", "description": "사육사를 상징하는 무늬." },
+    { "id": "rib", "name": "갈비뼈", "templateId": "rib_armor_trim_smithing_template", "source": "네더 요새 상자", "description": "갈비뼈 형태의 네더 무늬." },
+    { "id": "sentry", "name": "보초", "templateId": "sentry_armor_trim_smithing_template", "source": "요새 폐허 상자", "description": "피글린 요새 폐허에서 발견." },
+    { "id": "shaper", "name": "조형가", "templateId": "shaper_armor_trim_smithing_template", "source": "트레일 유적 상자", "description": "트레일 유적의 조형가 무늬." },
+    { "id": "silence", "name": "고요", "templateId": "silence_armor_trim_smithing_template", "source": "고대 도시(심층암)", "description": "고요함을 표현한 희귀 무늬." },
+    { "id": "snout", "name": "돼지 코", "templateId": "snout_armor_trim_smithing_template", "source": "요새 폐허 상자", "description": "피글린을 연상시키는 코 모양." },
+    { "id": "spire", "name": "첨탑", "templateId": "spire_armor_trim_smithing_template", "source": "엔드 도시 상자", "description": "엔드 도시 첨탑을 닮은 무늬." },
+    { "id": "tide", "name": "물결", "templateId": "tide_armor_trim_smithing_template", "source": "해저 유적 상자", "description": "밀물과 썰물을 연상시키는 무늬." },
+    { "id": "vex", "name": "벡스", "templateId": "vex_armor_trim_smithing_template", "source": "우민 저택 상자", "description": "벡스 날개를 닮은 무늬." },
+    { "id": "ward", "name": "파수", "templateId": "ward_armor_trim_smithing_template", "source": "고대 도시(심층암)", "description": "고대 도시의 파수 무늬." },
+    { "id": "wayfinder", "name": "길잡이", "templateId": "wayfinder_armor_trim_smithing_template", "source": "트레일 유적 상자", "description": "길을 안내하는 듯한 무늬." },
+    { "id": "wild", "name": "야생", "templateId": "wild_armor_trim_smithing_template", "source": "정글 사원 상자", "description": "정글 사원의 야생 무늬." }
+  ]
+}

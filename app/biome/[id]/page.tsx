@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllBiomes, getBiomeById, getBiomeImage, getMobById } from "@/lib/encyclopedia";
+import { getAllBiomes, getBiomeById, getBiomeImage, getMobById, getMobImage } from "@/lib/encyclopedia";
 import { DIMENSIONS } from "@/lib/catalog-taxonomy";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
@@ -32,14 +32,30 @@ export default function BiomePage({ params }: { params: { id: string } }) {
               <span className="text-white">바이옴</span>
             </nav>
             <h1 className="wiki-hero-title flex items-center gap-3">
-              <SmartIcon image={getBiomeImage(biome)} emoji={biome.emoji} size="lg" alt={biome.name} />
+              <SmartIcon image={getBiomeImage(biome)} emoji={biome.emoji} size="xl" alt={biome.name} />
               {biome.name}
             </h1>
             <p className="wiki-hero-sub">{biome.description}</p>
           </div>
 
-          <div className="px-6 sm:px-8 py-6">
-            <p className="text-[14px] leading-relaxed">{biome.traits}</p>
+          <div className="px-6 sm:px-8 py-6 flex flex-wrap gap-6 items-start">
+            <div className="wiki-icon-frame p-4">
+              <SmartIcon image={getBiomeImage(biome)} emoji={biome.emoji} size="hero" alt={biome.name} />
+            </div>
+            <div className="flex-1 min-w-[240px]">
+              {biome.group && (
+                <p className="wiki-badge inline-flex mb-3">{biome.group}</p>
+              )}
+              {biome.temperature !== undefined && (
+                <p className="text-[13px] text-wiki-muted mb-3">
+                  온도: <strong>{biome.temperature}</strong>
+                  {biome.temperature <= 0.15 && " · 눈이 내림"}
+                  {biome.temperature > 0.15 && biome.temperature < 0.95 && " · 비가 내림"}
+                  {biome.temperature >= 0.95 && " · 강수 없음"}
+                </p>
+              )}
+              <p className="text-[14px] leading-relaxed">{biome.traits}</p>
+            </div>
           </div>
 
           <div className="px-6 sm:px-8 pb-4">
@@ -67,7 +83,10 @@ export default function BiomePage({ params }: { params: { id: string } }) {
                 const mob = getMobById(mobId);
                 return (
                   <li key={mobId}>
-                    <Link href={`/mob/${mobId}`} className="wiki-card-hover inline-flex px-3 py-2 text-sm font-medium no-underline">
+                    <Link href={`/mob/${mobId}`} className="wiki-card-hover inline-flex items-center gap-2 px-3 py-2 text-sm font-medium no-underline">
+                      {mob && (
+                        <SmartIcon image={getMobImage(mob)} emoji={mob.emoji} size="xs" alt={mob.name} />
+                      )}
                       {mob?.name ?? mobId.replace(/_/g, " ")}
                     </Link>
                   </li>

@@ -39,6 +39,7 @@ export const categories: Category[] = [
 export const featuredGuides: { slug: string; title: string; description: string; emoji: string; href: string }[] = [
   { slug: "getting-started", title: "처음 시작하는 모험가를 위해", description: "첫날 밤을 안전하게 넘기는 방법부터, 기본 도구 제작까지.", emoji: "🌅", href: "/wiki/getting-started" },
   { slug: "ore-distribution", title: "광물별 분포 정보", description: "석탄·철·구리·금·레드스톤·라피스·다이아·에메랄드·네더라이트 Y레벨 요약.", emoji: "⛏️", href: "/wiki/ore-distribution" },
+  { slug: "smithing", title: "대장장이 작업 · 갑옷 장식", description: "18종 형판과 11종 재료별 색상·무늬 미리보기.", emoji: "⚒️", href: "/smithing" },
   { slug: "farm-auto", title: "자동 농장 설계 입문", description: "물줄기와 호퍼만으로 만드는 무한 식량 시스템.", emoji: "🌾", href: "/wiki/auto-farm" },
 ];
 

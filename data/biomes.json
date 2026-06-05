@@ -1,61 +1,698 @@
 [
   {
-    "id": "plains",
-    "name": "평원",
+    "id": "snowy_plains",
+    "name": "눈 덮인 평원",
     "dimension": "overworld",
-    "emoji": "🌾",
-    "blocks": ["grass_block", "oak_log", "dandelion"],
-    "mobs": ["cow", "pig", "sheep", "villager", "horse"],
-    "traits": "가장 흔한 바이옴. 마을 생성 가능.",
-    "description": "초반 거점으로 적합한 넓은 초원."
+    "group": "눈 덮인",
+    "emoji": "❄️",
+    "temperature": 0,
+    "blocks": [
+      "snow_block",
+      "snow",
+      "ice"
+    ],
+    "mobs": [
+      "stray",
+      "rabbit",
+      "polar_bear",
+      "villager"
+    ],
+    "traits": "높이와 관계없이 눈이 내리고 물이 얼음. 이글루·마을 생성.",
+    "description": "옛 '설원' 바이옴. 스트레이와 북극곰, 흰·검은 토끼가 등장한다."
   },
   {
-    "id": "forest",
-    "name": "숲",
+    "id": "ice_spikes",
+    "name": "역 고드름",
     "dimension": "overworld",
+    "group": "눈 덮인",
+    "emoji": "🧊",
+    "temperature": 0,
+    "blocks": [
+      "packed_ice",
+      "ice",
+      "snow_block"
+    ],
+    "mobs": [
+      "stray",
+      "rabbit",
+      "polar_bear"
+    ],
+    "traits": "뾰족한 역 고드름 기둥. 꽁꽁 언 얼음 지형.",
+    "description": "눈 덮인 평원의 희귀 변종. 장관 있지만 이동이 어렵다."
+  },
+  {
+    "id": "snowy_taiga",
+    "name": "눈 덮인 타이가",
+    "dimension": "overworld",
+    "group": "눈 덮인",
     "emoji": "🌲",
-    "blocks": ["oak_log", "birch_log", "grass_block"],
-    "mobs": ["cow", "wolf", "sheep"],
-    "traits": "나무가 풍부. 어두운 숲은 적 스폰 주의.",
-    "description": "원목·식량 확보에 유리."
+    "temperature": -0.5,
+    "blocks": [
+      "snow",
+      "spruce_log",
+      "sweet_berry_bush"
+    ],
+    "mobs": [
+      "wolf",
+      "fox",
+      "rabbit",
+      "villager"
+    ],
+    "traits": "가문비나무 숲에 눈 덮임. 이글루 생성 가능.",
+    "description": "늑대·달콤한 열매·설원 마을."
   },
   {
-    "id": "desert",
-    "name": "사막",
+    "id": "snowy_slopes",
+    "name": "눈 덮인 비탈",
     "dimension": "overworld",
-    "emoji": "🏜️",
-    "blocks": ["sand", "cactus", "dead_bush"],
-    "mobs": ["rabbit", "villager"],
-    "traits": "나무 부족. 사막 사원·우물 구조물.",
-    "description": "초반 나무 확보가 어려울 수 있음."
+    "group": "눈 덮인",
+    "emoji": "⛷️",
+    "temperature": -0.3,
+    "blocks": [
+      "snow_block",
+      "stone",
+      "powder_snow"
+    ],
+    "mobs": [
+      "goat",
+      "rabbit"
+    ],
+    "traits": "산악 눈 비탈. 가루눈 구덩이 주의.",
+    "description": "1.18 산맥 업데이트의 고산 지형."
+  },
+  {
+    "id": "jagged_peaks",
+    "name": "뾰족한 봉우리",
+    "dimension": "overworld",
+    "group": "눈 덮인",
+    "emoji": "🏔️",
+    "temperature": -0.7,
+    "blocks": [
+      "stone",
+      "snow_block",
+      "ice"
+    ],
+    "mobs": [
+      "goat"
+    ],
+    "traits": "날카로운 봉우리. 에메랄드 광석.",
+    "description": "가장 극한의 산악 바이옴."
+  },
+  {
+    "id": "frozen_peaks",
+    "name": "얼어붙은 봉우리",
+    "dimension": "overworld",
+    "group": "눈 덮인",
+    "emoji": "🗻",
+    "temperature": -0.7,
+    "blocks": [
+      "snow_block",
+      "packed_ice",
+      "stone"
+    ],
+    "mobs": [
+      "goat"
+    ],
+    "traits": "얼음과 눈으로 덮인 봉우리.",
+    "description": "뾰족한 봉우리보다 완만한 고산 지형."
   },
   {
     "id": "taiga",
     "name": "타이가",
     "dimension": "overworld",
+    "group": "차가운",
     "emoji": "🌲",
-    "blocks": ["spruce_log", "podzol", "sweet_berry_bush"],
-    "mobs": ["wolf", "fox", "rabbit"],
+    "temperature": 0.25,
+    "blocks": [
+      "spruce_log",
+      "podzol",
+      "sweet_berry_bush"
+    ],
+    "mobs": [
+      "wolf",
+      "fox",
+      "rabbit"
+    ],
     "traits": "가문비나무·늑대. 눈 타이가 변종 존재.",
-    "description": "늑대 길들이기·베리 채집."
+    "description": "늑대 길들이기·베리 채집에 유리."
+  },
+  {
+    "id": "old_growth_pine_taiga",
+    "name": "거대 가문비나무 타이가",
+    "dimension": "overworld",
+    "group": "차가운",
+    "emoji": "🌲",
+    "temperature": 0.25,
+    "blocks": [
+      "spruce_log",
+      "podzol",
+      "moss_carpet"
+    ],
+    "mobs": [
+      "wolf",
+      "fox"
+    ],
+    "traits": "매우 큰 가문비나무. 이끼 덮인 바닥.",
+    "description": "목재 수확에 최적."
+  },
+  {
+    "id": "windswept_hills",
+    "name": "바람에 휩쓸린 언덕",
+    "dimension": "overworld",
+    "group": "차가운",
+    "emoji": "⛰️",
+    "temperature": 0.2,
+    "blocks": [
+      "stone",
+      "emerald_ore",
+      "spruce_log"
+    ],
+    "mobs": [
+      "goat",
+      "llama"
+    ],
+    "traits": "험준한 산비탈. 에메랄드 광석.",
+    "description": "옛 '산악' 바이옴. 염소·라마 서식."
+  },
+  {
+    "id": "meadow",
+    "name": "초원",
+    "dimension": "overworld",
+    "group": "차가운",
+    "emoji": "🌼",
+    "temperature": 0.5,
+    "blocks": [
+      "grass_block",
+      "tall_grass",
+      "allium"
+    ],
+    "mobs": [
+      "rabbit",
+      "donkey",
+      "bee"
+    ],
+    "traits": "산 중턱의 꽃 초원. 벌·당나귀.",
+    "description": "평화로운 고산 초원."
+  },
+  {
+    "id": "plains",
+    "name": "평원",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🌾",
+    "temperature": 0.8,
+    "blocks": [
+      "grass_block",
+      "oak_log",
+      "dandelion"
+    ],
+    "mobs": [
+      "cow",
+      "pig",
+      "sheep",
+      "villager",
+      "horse"
+    ],
+    "traits": "가장 흔한 바이옴. 마을 생성 가능.",
+    "description": "초반 거점으로 적합한 넓은 초원."
+  },
+  {
+    "id": "sunflower_plains",
+    "name": "해바라기 평원",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🌻",
+    "temperature": 0.8,
+    "blocks": [
+      "grass_block",
+      "sunflower",
+      "oak_log"
+    ],
+    "mobs": [
+      "cow",
+      "sheep",
+      "horse"
+    ],
+    "traits": "해바라기가 많이 핀 평원 변종.",
+    "description": "평원의 희귀 변종."
+  },
+  {
+    "id": "forest",
+    "name": "숲",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🌳",
+    "temperature": 0.7,
+    "blocks": [
+      "oak_log",
+      "birch_log",
+      "grass_block"
+    ],
+    "mobs": [
+      "cow",
+      "wolf",
+      "sheep"
+    ],
+    "traits": "참나무·자작나무 혼합. 어두운 숲은 적 스폰 주의.",
+    "description": "원목·식량 확보에 유리."
+  },
+  {
+    "id": "flower_forest",
+    "name": "꽃 숲",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🌸",
+    "temperature": 0.7,
+    "blocks": [
+      "oak_log",
+      "grass_block",
+      "poppy"
+    ],
+    "mobs": [
+      "rabbit",
+      "bee"
+    ],
+    "traits": "거의 모든 종류의 꽃 생성.",
+    "description": "염료·장식용 꽃 채집."
+  },
+  {
+    "id": "birch_forest",
+    "name": "자작나무 숲",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🌳",
+    "temperature": 0.6,
+    "blocks": [
+      "birch_log",
+      "grass_block"
+    ],
+    "mobs": [
+      "bee",
+      "wolf"
+    ],
+    "traits": "자작나무가 주를 이룸.",
+    "description": "밝은 목재 확보."
+  },
+  {
+    "id": "dark_forest",
+    "name": "어두운 숲",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🌑",
+    "temperature": 0.7,
+    "blocks": [
+      "dark_oak_log",
+      "mushroom"
+    ],
+    "mobs": [
+      "sheep",
+      "villager"
+    ],
+    "traits": "짙은 나뭇잎으로 어두움. 적 스폰 많음.",
+    "description": "짙은 참나무·버섯."
+  },
+  {
+    "id": "swamp",
+    "name": "늪",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🐸",
+    "temperature": 0.8,
+    "blocks": [
+      "water",
+      "lily_pad",
+      "oak_log"
+    ],
+    "mobs": [
+      "frog",
+      "slime",
+      "witch",
+      "villager"
+    ],
+    "traits": "얕은 물·당근·갈색 버섯. 마녀 오두막.",
+    "description": "슬라임·개구리·마녀 서식."
+  },
+  {
+    "id": "jungle",
+    "name": "정글",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🌴",
+    "temperature": 0.95,
+    "blocks": [
+      "jungle_log",
+      "vine",
+      "cocoa"
+    ],
+    "mobs": [
+      "parrot",
+      "ocelot",
+      "panda"
+    ],
+    "traits": "높은 나무·덩굴. 정글 사원.",
+    "description": "코코아·오celot·앵무새."
+  },
+  {
+    "id": "sparse_jungle",
+    "name": "성긴 정글",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🌿",
+    "temperature": 0.95,
+    "blocks": [
+      "jungle_log",
+      "grass_block"
+    ],
+    "mobs": [
+      "parrot",
+      "ocelot"
+    ],
+    "traits": "정글보다 나무가 적음.",
+    "description": "정글과 사바나 사이."
+  },
+  {
+    "id": "bamboo_jungle",
+    "name": "대나무 정글",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🎋",
+    "temperature": 0.95,
+    "blocks": [
+      "bamboo",
+      "jungle_log"
+    ],
+    "mobs": [
+      "panda",
+      "parrot"
+    ],
+    "traits": "대나무 밀림. 판다 서식.",
+    "description": "대나무·판다 획득."
+  },
+  {
+    "id": "cherry_grove",
+    "name": "벚꽃 숲",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🌸",
+    "temperature": 0.5,
+    "blocks": [
+      "cherry_log",
+      "cherry_leaves",
+      "grass_block"
+    ],
+    "mobs": [
+      "rabbit",
+      "bee",
+      "pig"
+    ],
+    "traits": "분홍 벚꽃 나무. 1.20 추가.",
+    "description": "장관 있는 산악 벚꽃 지대."
+  },
+  {
+    "id": "mushroom_fields",
+    "name": "버섯 들판",
+    "dimension": "overworld",
+    "group": "중간",
+    "emoji": "🍄",
+    "temperature": 0.9,
+    "blocks": [
+      "mycelium",
+      "red_mushroom",
+      "brown_mushroom"
+    ],
+    "mobs": [
+      "mooshroom"
+    ],
+    "traits": "적대적 몹 스폰 없음(우민 제외). 무시룸만.",
+    "description": "희귀하고 안전한 섬."
+  },
+  {
+    "id": "desert",
+    "name": "사막",
+    "dimension": "overworld",
+    "group": "건조",
+    "emoji": "🏜️",
+    "temperature": 2,
+    "blocks": [
+      "sand",
+      "cactus",
+      "dead_bush"
+    ],
+    "mobs": [
+      "rabbit",
+      "villager",
+      "husk"
+    ],
+    "traits": "나무 부족. 사막 사원·우물·낙타.",
+    "description": "초반 나무 확보가 어려울 수 있음."
+  },
+  {
+    "id": "savanna",
+    "name": "사바나",
+    "dimension": "overworld",
+    "group": "건조",
+    "emoji": "🦁",
+    "temperature": 2,
+    "blocks": [
+      "acacia_log",
+      "grass_block",
+      "tall_grass"
+    ],
+    "mobs": [
+      "horse",
+      "llama",
+      "villager",
+      "husk"
+    ],
+    "traits": "아카시아나무·평탄. 마을 생성.",
+    "description": "목재·마을·말 확보."
+  },
+  {
+    "id": "badlands",
+    "name": "악지",
+    "dimension": "overworld",
+    "group": "건조",
+    "emoji": "🏜️",
+    "temperature": 2,
+    "blocks": [
+      "terracotta",
+      "red_sand",
+      "gold_ore"
+    ],
+    "mobs": [
+      "rabbit"
+    ],
+    "traits": "채색 테라코타·금 광석. 폐광 생성.",
+    "description": "건축용 테라코타·금 채굴."
+  },
+  {
+    "id": "wooded_badlands",
+    "name": "나무가 우거진 악지",
+    "dimension": "overworld",
+    "group": "건조",
+    "emoji": "🌵",
+    "temperature": 2,
+    "blocks": [
+      "terracotta",
+      "oak_log",
+      "coarse_dirt"
+    ],
+    "mobs": [
+      "rabbit"
+    ],
+    "traits": "악지에 나무가 있는 희귀 변종.",
+    "description": "악지 중 유일하게 목재 확보 가능."
+  },
+  {
+    "id": "river",
+    "name": "강",
+    "dimension": "overworld",
+    "group": "물",
+    "emoji": "🏞️",
+    "temperature": 0.5,
+    "blocks": [
+      "water",
+      "sand",
+      "clay"
+    ],
+    "mobs": [
+      "salmon",
+      "squid",
+      "drowned"
+    ],
+    "traits": "육지를 가로지르는 수로.",
+    "description": "낚시·점토·이동 경로."
+  },
+  {
+    "id": "beach",
+    "name": "해변",
+    "dimension": "overworld",
+    "group": "물",
+    "emoji": "🏖️",
+    "temperature": 0.8,
+    "blocks": [
+      "sand",
+      "water",
+      "sugar_cane"
+    ],
+    "mobs": [
+      "turtle"
+    ],
+    "traits": "바다와 육지 경계. 난파선.",
+    "description": "모래·유리·거북 알."
   },
   {
     "id": "ocean",
     "name": "바다",
     "dimension": "overworld",
+    "group": "물",
     "emoji": "🌊",
-    "blocks": ["water", "kelp", "seagrass"],
-    "mobs": ["squid", "dolphin", "cod"],
-    "traits": "수중 호흡·배 필요. 해저 유적·몬ument.",
+    "temperature": 0.5,
+    "blocks": [
+      "water",
+      "kelp",
+      "seagrass"
+    ],
+    "mobs": [
+      "squid",
+      "dolphin",
+      "cod"
+    ],
+    "traits": "넓은 수역. 해저 유적·몬ument.",
     "description": "해저 탐험·가디언 전투."
+  },
+  {
+    "id": "deep_ocean",
+    "name": "깊은 바다",
+    "dimension": "overworld",
+    "group": "물",
+    "emoji": "🌊",
+    "temperature": 0.5,
+    "blocks": [
+      "water",
+      "prismarine"
+    ],
+    "mobs": [
+      "guardian",
+      "elder_guardian",
+      "squid"
+    ],
+    "traits": "해저 유적·가디언. 매우 깊음.",
+    "description": "스폰지·프리즈머린 획득."
+  },
+  {
+    "id": "warm_ocean",
+    "name": "따뜻한 바다",
+    "dimension": "overworld",
+    "group": "물",
+    "emoji": "🐠",
+    "temperature": 0.5,
+    "blocks": [
+      "water",
+      "coral_block",
+      "seagrass"
+    ],
+    "mobs": [
+      "tropical_fish",
+      "dolphin",
+      "squid"
+    ],
+    "traits": "산호초·열대어.",
+    "description": "산호 채집·수족관."
+  },
+  {
+    "id": "frozen_ocean",
+    "name": "얼어붙은 바다",
+    "dimension": "overworld",
+    "group": "물",
+    "emoji": "🧊",
+    "temperature": 0,
+    "blocks": [
+      "ice",
+      "water",
+      "snow"
+    ],
+    "mobs": [
+      "squid",
+      "stray",
+      "polar_bear"
+    ],
+    "traits": "얼음 표면. 눈 덮인 변종.",
+    "description": "북극 해양 탐험."
+  },
+  {
+    "id": "lush_caves",
+    "name": "무성한 동굴",
+    "dimension": "overworld",
+    "group": "동굴",
+    "emoji": "💧",
+    "temperature": 0.5,
+    "blocks": [
+      "moss_block",
+      "azalea",
+      "clay"
+    ],
+    "mobs": [
+      "axolotl",
+      "glow_squid",
+      "bat"
+    ],
+    "traits": "이끼·덩굴·아잘리아. 아홀로틀.",
+    "description": "1.17 동굴의 푸른 지하."
+  },
+  {
+    "id": "dripstone_caves",
+    "name": "점적석 동굴",
+    "dimension": "overworld",
+    "group": "동굴",
+    "emoji": "🪨",
+    "temperature": 0.8,
+    "blocks": [
+      "dripstone_block",
+      "pointed_dripstone",
+      "water"
+    ],
+    "mobs": [
+      "bat",
+      "zombie"
+    ],
+    "traits": "종유석·석순. 물이 떨어짐.",
+    "description": "동굴 탐험·석회암 채굴."
+  },
+  {
+    "id": "deep_dark",
+    "name": "심층암",
+    "dimension": "overworld",
+    "group": "동굴",
+    "emoji": "🌑",
+    "temperature": 0.8,
+    "blocks": [
+      "sculk",
+      "deepslate"
+    ],
+    "mobs": [
+      "warden"
+    ],
+    "traits": "스컬크 블록. 워든 서식. 고대 도시.",
+    "description": "가장 위험한 지하 바이옴."
   },
   {
     "id": "nether_wastes",
     "name": "네더 황무지",
     "dimension": "nether",
+    "group": "네더",
     "emoji": "🔥",
-    "blocks": ["netherrack", "lava", "nether_quartz_ore"],
-    "mobs": ["zombified_piglin", "ghast", "magma_cube"],
+    "temperature": 2,
+    "blocks": [
+      "netherrack",
+      "lava",
+      "nether_quartz_ore"
+    ],
+    "mobs": [
+      "zombified_piglin",
+      "ghast",
+      "magma_cube"
+    ],
     "traits": "가장 흔한 네더 바이옴. 석영 광석.",
     "description": "네더 입문 지역."
   },
@@ -63,39 +700,77 @@
     "id": "crimson_forest",
     "name": "진홍빛 숲",
     "dimension": "nether",
+    "group": "네더",
     "emoji": "🍄",
-    "blocks": ["crimson_stem", "crimson_nylium", "shroomlight"],
-    "mobs": ["hoglin", "piglin", "zombified_piglin"],
-    "traits": "호글린·피글린. 진홍빛 자루·균사.",
+    "temperature": 2,
+    "blocks": [
+      "crimson_stem",
+      "crimson_nylium",
+      "shroomlight"
+    ],
+    "mobs": [
+      "hoglin",
+      "piglin",
+      "zombified_piglin"
+    ],
+    "traits": "호글린·피글린. 진홍빛 자루.",
     "description": "목재·거래·고기 확보."
   },
   {
     "id": "warped_forest",
     "name": "뒤틀린 숲",
     "dimension": "nether",
+    "group": "네더",
     "emoji": "🌀",
-    "blocks": ["warped_stem", "warped_nylium", "shroomlight"],
-    "mobs": ["enderman", "strider"],
-    "traits": "엔더맨 다수. 비교적 안전한 채굴.",
+    "temperature": 2,
+    "blocks": [
+      "warped_stem",
+      "warped_nylium",
+      "shroomlight"
+    ],
+    "mobs": [
+      "enderman",
+      "strider"
+    ],
+    "traits": "엔더맨 다수. 비교적 안전.",
     "description": "엔더 진주·뒤틀린 목재."
   },
   {
     "id": "soul_sand_valley",
     "name": "영혼 모래 골짜기",
     "dimension": "nether",
+    "group": "네더",
     "emoji": "💀",
-    "blocks": ["soul_sand", "soul_soil", "basalt"],
-    "mobs": ["skeleton", "ghast", "enderman"],
-    "traits": "영혼 모래·영혼 토양. 스켈레톤 다수.",
+    "temperature": 2,
+    "blocks": [
+      "soul_sand",
+      "soul_soil",
+      "basalt"
+    ],
+    "mobs": [
+      "skeleton",
+      "ghast",
+      "enderman"
+    ],
+    "traits": "영혼 모래·영혼 토양.",
     "description": "영혼 모닥불·영혼 횃불 재료."
   },
   {
     "id": "basalt_deltas",
     "name": "현무암 삼각주",
     "dimension": "nether",
+    "group": "네더",
     "emoji": "🌋",
-    "blocks": ["basalt", "blackstone", "magma_block"],
-    "mobs": ["magma_cube", "ghast"],
+    "temperature": 2,
+    "blocks": [
+      "basalt",
+      "blackstone",
+      "magma_block"
+    ],
+    "mobs": [
+      "magma_cube",
+      "ghast"
+    ],
     "traits": "험한 지형. 흑요석·현무암.",
     "description": "블랙스톤 채굴에 적합."
   },
@@ -103,30 +778,87 @@
     "id": "the_end",
     "name": "엔드",
     "dimension": "end",
+    "group": "엔드",
     "emoji": "🌌",
-    "blocks": ["end_stone", "chorus_plant", "obsidian"],
-    "mobs": ["enderman", "ender_dragon", "endermite"],
-    "traits": "메인 섬·외곽 섬. 드래곤 보스.",
+    "temperature": 0.5,
+    "blocks": [
+      "end_stone",
+      "chorus_plant",
+      "obsidian"
+    ],
+    "mobs": [
+      "enderman",
+      "ender_dragon",
+      "endermite"
+    ],
+    "traits": "메인 섬·드래곤 보스.",
     "description": "게임 최종 지역."
   },
   {
     "id": "end_highlands",
     "name": "엔드 고지",
     "dimension": "end",
+    "group": "엔드",
     "emoji": "🏔️",
-    "blocks": ["end_stone", "chorus_flower"],
-    "mobs": ["enderman", "shulker"],
-    "traits": "후렴과·엔드 도시 위치.",
+    "temperature": 0.5,
+    "blocks": [
+      "end_stone",
+      "chorus_flower"
+    ],
+    "mobs": [
+      "enderman",
+      "shulker"
+    ],
+    "traits": "후렴과·엔드 도시.",
     "description": "셜커·엘리트라 획득."
   },
   {
     "id": "end_midlands",
     "name": "엔드 중간 지대",
     "dimension": "end",
+    "group": "엔드",
     "emoji": "🪨",
-    "blocks": ["end_stone"],
-    "mobs": ["enderman"],
+    "temperature": 0.5,
+    "blocks": [
+      "end_stone"
+    ],
+    "mobs": [
+      "enderman"
+    ],
     "traits": "메인 섬과 외곽 사이.",
     "description": "엔더맨 농장에 사용."
+  },
+  {
+    "id": "end_barrens",
+    "name": "엔드 불모지",
+    "dimension": "end",
+    "group": "엔드",
+    "emoji": "🌑",
+    "temperature": 0.5,
+    "blocks": [
+      "end_stone"
+    ],
+    "mobs": [
+      "enderman"
+    ],
+    "traits": "후렴과 없는 황량한 지대.",
+    "description": "외곽 섬의 빈 공간."
+  },
+  {
+    "id": "small_end_islands",
+    "name": "작은 엔드 섬",
+    "dimension": "end",
+    "group": "엔드",
+    "emoji": "🏝️",
+    "temperature": 0.5,
+    "blocks": [
+      "end_stone",
+      "chorus_plant"
+    ],
+    "mobs": [
+      "enderman"
+    ],
+    "traits": "메인 섬 주변 작은 섬.",
+    "description": "엔드 게이트웨이 탐험."
   }
 ]

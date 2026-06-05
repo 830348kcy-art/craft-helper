@@ -215,6 +215,21 @@
            hover:bg-gradient-to-br hover:from-white hover:to-brand-50/30
            dark:hover:from-zinc-900 dark:hover:to-brand-900/20;
   }
+  .wiki-portal-card {
+    @apply flex flex-col rounded-wiki border border-wiki-borderSoft/80 dark:border-zinc-700/80
+           bg-white dark:bg-zinc-900/90 overflow-hidden transition-all duration-200
+           hover:shadow-wiki-lg hover:-translate-y-0.5 hover:border-brand-300/50
+           dark:hover:border-brand-600/40 cursor-pointer;
+  }
+  .wiki-portal-card-icon {
+    @apply flex items-center justify-center min-h-[88px] p-4
+           bg-gradient-to-b from-wiki-panel/80 to-white/60
+           dark:from-zinc-800/80 dark:to-zinc-900/60
+           border-b border-wiki-borderSoft/50 dark:border-zinc-700/50;
+  }
+  .wiki-portal-card-label {
+    @apply text-center px-3 py-2.5 bg-white dark:bg-zinc-900/90;
+  }
   .wiki-stat-tile {
     @apply flex flex-col items-center justify-center p-4 rounded-wiki
            bg-gradient-to-b from-white to-brand-50/40 dark:from-zinc-800/80 dark:to-brand-900/30

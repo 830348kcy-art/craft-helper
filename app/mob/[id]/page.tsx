@@ -32,37 +32,44 @@ export default function MobPage({ params }: { params: { id: string } }) {
               <span className="text-white">몹</span>
             </nav>
             <h1 className="wiki-hero-title flex items-center gap-3">
-              <SmartIcon image={getMobImage(mob)} emoji={mob.emoji} size="lg" alt={mob.name} />
+              <SmartIcon image={getMobImage(mob)} emoji={mob.emoji} size="xl" alt={mob.name} />
               {mob.name}
             </h1>
             <p className="wiki-hero-sub">{mob.description}</p>
           </div>
 
-          <div className="px-6 sm:px-8 py-6 grid sm:grid-cols-2 gap-6">
-            <InfoRow label="체력" value={`${mob.health} HP`} />
-            <InfoRow label="분류" value={mob.category} />
-            <InfoRow label="차원" value={dim?.name ?? mob.dimension} />
-            <InfoRow label="생성 조건" value={mob.spawn} className="sm:col-span-2" />
-            <InfoRow label="특징" value={mob.traits} className="sm:col-span-2" />
+          <div className="px-6 sm:px-8 py-6 flex flex-wrap gap-6 items-start">
+            <div className="wiki-icon-frame p-4">
+              <SmartIcon image={getMobImage(mob)} emoji={mob.emoji} size="hero" alt={mob.name} />
+            </div>
+            <div className="flex-1 min-w-[240px] grid sm:grid-cols-2 gap-4">
+              <InfoRow label="체력" value={`${mob.health} HP`} />
+              <InfoRow label="분류" value={mob.category} />
+              <InfoRow label="차원" value={dim?.name ?? mob.dimension} />
+              <InfoRow label="생성 조건" value={mob.spawn} className="sm:col-span-2" />
+              <InfoRow label="특징" value={mob.traits} className="sm:col-span-2" />
+            </div>
           </div>
 
-          <div className="px-6 sm:px-8 pb-8">
-            <h2 className="text-lg font-bold mb-3">드롭 아이템</h2>
-            <ul className="flex flex-wrap gap-2 list-none pl-0">
-              {mob.drops.map((dropId) => {
-                const name = itemNames[dropId] ?? dropId;
-                const href = getHrefByKoName(name) ?? `/search/${dropId}?type=item`;
-                return (
-                  <li key={dropId}>
-                    <Link href={href} className="wiki-card-hover inline-flex items-center gap-2 px-3 py-2 no-underline">
-                      <SmartIcon image={getItemTexture(dropId)} emoji="📦" size="sm" alt={name} />
-                      <span className="text-sm font-medium">{name}</span>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
+          {mob.drops.length > 0 && (
+            <div className="px-6 sm:px-8 pb-8">
+              <h2 className="text-lg font-bold mb-3">드롭 아이템</h2>
+              <ul className="flex flex-wrap gap-2 list-none pl-0">
+                {mob.drops.map((dropId) => {
+                  const name = itemNames[dropId] ?? dropId;
+                  const href = getHrefByKoName(name) ?? `/search/${dropId}?type=item`;
+                  return (
+                    <li key={dropId}>
+                      <Link href={href} className="wiki-card-hover inline-flex items-center gap-2 px-3 py-2 no-underline">
+                        <SmartIcon image={getItemTexture(dropId)} emoji="📦" size="sm" alt={name} />
+                        <span className="text-sm font-medium">{name}</span>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          )}
         </WikiArticle>
       </div>
     </div>
