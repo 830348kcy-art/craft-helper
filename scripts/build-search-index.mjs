@@ -105,7 +105,9 @@ const index = [
     name: m.name,
     description: m.description,
     emoji: m.emoji || "🐾",
-    image: mobRenders[m.id] ?? mobEntityUrl(m.id),
+    image: mobRenders[m.id]
+      ? `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${mobRenders[m.id]}`
+      : undefined,
     category: m.category,
     tags: ["몹", m.category],
     href: `/mob/${m.id}`,

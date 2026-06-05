@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import type { DimensionId } from "@/lib/catalog-taxonomy";
 import type { MobEntry, BiomeEntry } from "@/lib/encyclopedia";
@@ -13,6 +14,7 @@ import {
   type CatalogEntry,
 } from "./DimensionCategoryGrid";
 import { getBlockTexture, getItemTexture } from "@/lib/textures";
+import { WikiBackBar } from "./WikiBackBar";
 
 type Category = "blocks" | "items" | "mobs" | "biomes";
 
@@ -27,6 +29,8 @@ const CATEGORIES: {
   { id: "mobs", label: "몹", emoji: "🐾", texture: () => undefined },
   { id: "biomes", label: "바이옴", emoji: "🌿", texture: () => getBlockTexture("grass_block") },
 ];
+
+const VALID_SECTIONS = new Set<Category>(["blocks", "items", "mobs", "biomes"]);
 
 export function DimensionExplorer({
   dimensionId,
@@ -43,7 +47,17 @@ export function DimensionExplorer({
   mobs: MobEntry[];
   biomes: BiomeEntry[];
 }) {
+  const searchParams = useSearchParams();
+  const sectionParam = searchParams.get("section");
   const [active, setActive] = useState<Category | null>(null);
+
+  useEffect(() => {
+    if (sectionParam && VALID_SECTIONS.has(sectionParam as Category)) {
+      setActive(sectionParam as Category);
+    }
+  }, [sectionParam]);
+
+  const mobBackFrom = `/dimension/${dimensionId}?section=mobs`;
 
   const counts: Record<Category, number> = {
     blocks: blocks.length,
@@ -65,10 +79,9 @@ export function DimensionExplorer({
             if (n === 0) return null;
             return (
               <li key={cat.id} className="list-none">
-                <button
-                  type="button"
-                  onClick={() => setActive(cat.id)}
-                  className="wiki-portal-card w-full text-left group"
+                <Link
+                  href={`/dimension/${dimensionId}?section=${cat.id}`}
+                  className="wiki-portal-card w-full text-left group block no-underline"
                 >
                   <div className="wiki-portal-card-icon">
                     <SmartIcon
@@ -82,7 +95,7 @@ export function DimensionExplorer({
                     <span className="font-semibold text-[14px]">{cat.label}</span>
                     <span className="block text-[11px] text-wiki-muted mt-0.5">{n}개</span>
                   </div>
-                </button>
+                </Link>
               </li>
             );
           })}
@@ -96,13 +109,11 @@ export function DimensionExplorer({
   return (
     <div>
       <div className="flex flex-wrap items-center gap-3 mb-4">
-        <button
-          type="button"
-          onClick={() => setActive(null)}
-          className="text-sm font-medium text-link dark:text-link-dark hover:underline"
-        >
-          ← 분류 선택
-        </button>
+        <WikiBackBar
+          href={`/dimension/${dimensionId}`}
+          label={`${dimName} 분류 선택`}
+          className="!mb-0"
+        />
         <span className="wiki-badge">
           {catMeta.emoji} {catMeta.label} · {counts[active]}개
         </span>
@@ -117,7 +128,7 @@ export function DimensionExplorer({
         <DimensionBlockGrid entries={blocks} dimensionId={dimensionId} />
       )}
       {active === "items" && <ItemSubCategoryGrid entries={items} />}
-      {active === "mobs" && <MobGrid mobs={mobs} />}
+      {active === "mobs" && <MobGrid mobs={mobs} backFrom={mobBackFrom} />}
       {active === "biomes" && <BiomeGrid biomes={biomes} />}
     </div>
   );

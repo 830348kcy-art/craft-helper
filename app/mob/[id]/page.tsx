@@ -1,11 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { Suspense } from "react";
 import { getAllMobs, getMobById, getMobImageCandidates } from "@/lib/encyclopedia";
 import { DIMENSIONS } from "@/lib/catalog-taxonomy";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
 import { getItemTexture, getHrefByKoName } from "@/lib/textures";
 import { getMobCategoryLabel } from "@/lib/mob-taxonomy";
+import { MobBackBar } from "@/app/components/MobBackBar";
 import officialKo from "@/scripts/ko-lang-official.json";
 
 export function generateStaticParams() {
@@ -24,6 +26,9 @@ export default function MobPage({ params }: { params: { id: string } }) {
       <div className="wiki-page-mesh" aria-hidden />
       <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <WikiArticle>
+          <Suspense fallback={null}>
+            <MobBackBar />
+          </Suspense>
           <div className="wiki-hero-banner !border-0">
             <nav className="text-[12px] text-white/70 mb-3">
               <Link href="/">대문</Link>

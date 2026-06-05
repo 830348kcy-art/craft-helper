@@ -4,7 +4,7 @@
     "name": "박쥐",
     "dimension": "overworld",
     "emoji": "🦇",
-    "category": "수동적",
+    "category": "친화적",
     "health": 6,
     "drops": [],
     "spawn": "동굴·폐광(밝기 3 이하)",
@@ -16,7 +16,7 @@
     "name": "닭",
     "dimension": "overworld",
     "emoji": "🐔",
-    "category": "수동적",
+    "category": "친화적",
     "health": 4,
     "drops": [
       "feather",
@@ -32,7 +32,7 @@
     "name": "소",
     "dimension": "overworld",
     "emoji": "🐄",
-    "category": "수동적",
+    "category": "친화적",
     "health": 10,
     "drops": [
       "leather",
@@ -47,7 +47,7 @@
     "name": "돼지",
     "dimension": "overworld",
     "emoji": "🐷",
-    "category": "수동적",
+    "category": "친화적",
     "health": 10,
     "drops": [
       "porkchop"
@@ -61,7 +61,7 @@
     "name": "양",
     "dimension": "overworld",
     "emoji": "🐑",
-    "category": "수동적",
+    "category": "친화적",
     "health": 8,
     "drops": [
       "wool",
@@ -76,7 +76,7 @@
     "name": "말",
     "dimension": "overworld",
     "emoji": "🐴",
-    "category": "수동적",
+    "category": "친화적",
     "health": 30,
     "drops": [
       "leather"
@@ -90,7 +90,7 @@
     "name": "당나귀",
     "dimension": "overworld",
     "emoji": "🫏",
-    "category": "수동적",
+    "category": "친화적",
     "health": 30,
     "drops": [
       "leather"
@@ -104,7 +104,7 @@
     "name": "토끼",
     "dimension": "overworld",
     "emoji": "🐇",
-    "category": "수동적",
+    "category": "친화적",
     "health": 3,
     "drops": [
       "rabbit",
@@ -120,7 +120,7 @@
     "name": "오징어",
     "dimension": "overworld",
     "emoji": "🦑",
-    "category": "수동적",
+    "category": "친화적",
     "health": 10,
     "drops": [
       "ink_sac"
@@ -134,7 +134,7 @@
     "name": "발광 오징어",
     "dimension": "overworld",
     "emoji": "✨",
-    "category": "수동적",
+    "category": "친화적",
     "health": 10,
     "drops": [
       "glow_ink_sac"
@@ -148,7 +148,7 @@
     "name": "대구",
     "dimension": "overworld",
     "emoji": "🐟",
-    "category": "수동적",
+    "category": "친화적",
     "health": 3,
     "drops": [
       "cod"
@@ -162,7 +162,7 @@
     "name": "연어",
     "dimension": "overworld",
     "emoji": "🐟",
-    "category": "수동적",
+    "category": "친화적",
     "health": 3,
     "drops": [
       "salmon"
@@ -176,7 +176,7 @@
     "name": "열대어",
     "dimension": "overworld",
     "emoji": "🐠",
-    "category": "수동적",
+    "category": "친화적",
     "health": 3,
     "drops": [
       "tropical_fish"
@@ -190,7 +190,7 @@
     "name": "거북",
     "dimension": "overworld",
     "emoji": "🐢",
-    "category": "수동적",
+    "category": "친화적",
     "health": 30,
     "drops": [
       "seagrass"
@@ -204,7 +204,7 @@
     "name": "고양이",
     "dimension": "overworld",
     "emoji": "🐱",
-    "category": "수동적",
+    "category": "친화적",
     "health": 10,
     "drops": [],
     "spawn": "마을·늪 오두막",
@@ -216,7 +216,7 @@
     "name": "오실롯",
     "dimension": "overworld",
     "emoji": "🐆",
-    "category": "수동적",
+    "category": "친화적",
     "health": 10,
     "drops": [],
     "spawn": "정글",
@@ -228,7 +228,7 @@
     "name": "앵무새",
     "dimension": "overworld",
     "emoji": "🦜",
-    "category": "수동적",
+    "category": "친화적",
     "health": 6,
     "drops": [
       "feather"
@@ -242,7 +242,7 @@
     "name": "판다",
     "dimension": "overworld",
     "emoji": "🐼",
-    "category": "수동적",
+    "category": "친화적",
     "health": 20,
     "drops": [
       "bamboo"
@@ -256,7 +256,7 @@
     "name": "여우",
     "dimension": "overworld",
     "emoji": "🦊",
-    "category": "수동적",
+    "category": "친화적",
     "health": 10,
     "drops": [
       "sweet_berries"
@@ -270,7 +270,7 @@
     "name": "아홀로틀",
     "dimension": "overworld",
     "emoji": "🦎",
-    "category": "수동적",
+    "category": "친화적",
     "health": 14,
     "drops": [],
     "spawn": "늪 지하 동굴 수중",
@@ -282,7 +282,7 @@
     "name": "개구리",
     "dimension": "overworld",
     "emoji": "🐸",
-    "category": "수동적",
+    "category": "친화적",
     "health": 10,
     "drops": [],
     "spawn": "늪",
@@ -294,7 +294,7 @@
     "name": "알레이",
     "dimension": "overworld",
     "emoji": "🧚",
-    "category": "수동적",
+    "category": "친화적",
     "health": 20,
     "drops": [],
     "spawn": "약탈자 전초기지 감옥",
@@ -306,7 +306,7 @@
     "name": "스니퍼",
     "dimension": "overworld",
     "emoji": "🦕",
-    "category": "수동적",
+    "category": "친화적",
     "health": 14,
     "drops": [
       "torchflower_seeds"
@@ -320,7 +320,7 @@
     "name": "낙타",
     "dimension": "overworld",
     "emoji": "🐫",
-    "category": "수동적",
+    "category": "친화적",
     "health": 32,
     "drops": [],
     "spawn": "사막 마을",
@@ -332,7 +332,7 @@
     "name": "주민",
     "dimension": "overworld",
     "emoji": "🧑‍🌾",
-    "category": "수동적",
+    "category": "친화적",
     "health": 20,
     "drops": [],
     "spawn": "마을·인공 주민 생성기",
@@ -344,7 +344,7 @@
     "name": "떠돌이 상인",
     "dimension": "overworld",
     "emoji": "🧳",
-    "category": "수동적",
+    "category": "친화적",
     "health": 20,
     "drops": [],
     "spawn": "플레이어 근처(랜덤)",
@@ -356,7 +356,7 @@
     "name": "철 골렘",
     "dimension": "overworld",
     "emoji": "🤖",
-    "category": "수동적",
+    "category": "친화적",
     "health": 100,
     "drops": [
       "iron_ingot",
@@ -371,7 +371,7 @@
     "name": "눈 골렘",
     "dimension": "overworld",
     "emoji": "⛄",
-    "category": "수동적",
+    "category": "친화적",
     "health": 4,
     "drops": [
       "snowball"
@@ -409,7 +409,7 @@
     "name": "돌고래",
     "dimension": "overworld",
     "emoji": "🐬",
-    "category": "중립",
+    "category": "친화적",
     "health": 10,
     "drops": [
       "cod"
@@ -850,7 +850,7 @@
     "name": "스트라이더",
     "dimension": "nether",
     "emoji": "🦵",
-    "category": "수동적",
+    "category": "친화적",
     "health": 20,
     "drops": [
       "string"

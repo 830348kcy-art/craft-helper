@@ -8,6 +8,7 @@ import { getEntriesByDimension } from "@/lib/search";
 import { getMobsByDimension, getBiomesByDimension } from "@/lib/encyclopedia";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
+import { Suspense } from "react";
 import { DimensionExplorer } from "@/app/components/DimensionExplorer";
 import { type CatalogEntry } from "@/app/components/DimensionCategoryGrid";
 import { getCategoryTexture } from "@/lib/textures";
@@ -68,14 +69,16 @@ export default async function DimensionPage({ params }: { params: { id: string }
               <span>바이옴 <strong>{counts[3]}</strong></span>
             </p>
 
-            <DimensionExplorer
-              dimensionId={dimensionId}
-              dimName={dim.name}
-              blocks={blocks}
-              items={items}
-              mobs={mobs}
-              biomes={biomes}
-            />
+            <Suspense fallback={<p className="text-wiki-muted text-sm">불러오는 중…</p>}>
+              <DimensionExplorer
+                dimensionId={dimensionId}
+                dimName={dim.name}
+                blocks={blocks}
+                items={items}
+                mobs={mobs}
+                biomes={biomes}
+              />
+            </Suspense>
 
             <h2 className="!mt-12">다른 차원</h2>
             <ul className="grid grid-cols-1 sm:grid-cols-3 gap-3 list-none pl-0">

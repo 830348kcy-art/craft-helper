@@ -102,7 +102,7 @@ export default async function CategoryPage({ params }: { params: { slug: string 
               {/* 몹 — 친화적 / 중립적 / 적대적 / 보스 */}
               {allMobs.length > 0 && (
                 <Group title="🐾 몹" count={allMobs.length}>
-                  <MobGrid mobs={allMobs} />
+                  <MobGrid mobs={allMobs} backFrom="/category/mobs" />
                 </Group>
               )}
 

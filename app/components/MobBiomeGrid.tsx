@@ -6,14 +6,23 @@ import {
   MOB_GROUP_ORDER,
   getMobCategoryLabel,
   getMobCategoryDesc,
+  normalizeMobCategory,
   type MobCategoryId,
 } from "@/lib/mob-taxonomy";
 
-export function MobGrid({ mobs }: { mobs: MobEntry[] }) {
+export function MobGrid({
+  mobs,
+  backFrom,
+}: {
+  mobs: MobEntry[];
+  /** 돌아가기 경로 (예: /dimension/overworld?section=mobs) */
+  backFrom?: string;
+}) {
   const groups = new Map<string, MobEntry[]>();
   for (const m of mobs) {
-    if (!groups.has(m.category)) groups.set(m.category, []);
-    groups.get(m.category)!.push(m);
+    const cat = normalizeMobCategory(m.category);
+    if (!groups.has(cat)) groups.set(cat, []);
+    groups.get(cat)!.push(m);
   }
   const sortedGroups = [...groups.entries()].sort(
     (a, b) =>
@@ -36,7 +45,11 @@ export function MobGrid({ mobs }: { mobs: MobEntry[] }) {
             {list.map((m) => (
               <li key={m.id} className="list-none">
                 <Link
-                  href={`/mob/${m.id}`}
+                  href={
+                    backFrom
+                      ? `/mob/${m.id}?from=${encodeURIComponent(backFrom)}`
+                      : `/mob/${m.id}?from=${encodeURIComponent("/category/mobs")}`
+                  }
                   className="wiki-card-hover flex items-start gap-3 p-4 no-underline h-full"
                 >
                   <SmartIcon
