@@ -7,7 +7,8 @@ import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
 import { getItemTexture, getHrefByKoName } from "@/lib/textures";
 import { getMobCategoryLabel } from "@/lib/mob-taxonomy";
-import { MobBackBar } from "@/app/components/MobBackBar";
+import { MobDetailBack } from "@/app/components/MobDetailBack";
+import { WikiBackBar } from "@/app/components/WikiBackBar";
 import officialKo from "@/scripts/ko-lang-official.json";
 
 export function generateStaticParams() {
@@ -20,17 +21,23 @@ export default function MobPage({ params }: { params: { id: string } }) {
   const mob = getMobById(params.id);
   if (!mob) return notFound();
   const dim = DIMENSIONS.find((d) => d.id === mob.dimension);
+  const defaultBackHref = `/dimension/${mob.dimension}?section=mobs`;
+  const defaultBackLabel = `${dim?.name ?? mob.dimension} · 몹 목록`;
 
   return (
     <div className="wiki-page-bg min-h-[80vh] flex-1 w-full">
       <div className="wiki-page-mesh" aria-hidden />
       <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <WikiArticle>
-          <Suspense fallback={null}>
-            <MobBackBar />
-          </Suspense>
           <div className="wiki-hero-banner !border-0">
-            <nav className="text-[12px] text-white/70 mb-3">
+            <Suspense
+              fallback={
+                <WikiBackBar href={defaultBackHref} label={defaultBackLabel} variant="hero" />
+              }
+            >
+              <MobDetailBack dimension={mob.dimension} dimName={dim?.name ?? mob.dimension} />
+            </Suspense>
+            <nav className="relative z-10 text-[12px] text-white/70 mb-3">
               <Link href="/">대문</Link>
               <span className="mx-1.5">›</span>
               <Link href={`/dimension/${mob.dimension}`}>{dim?.name}</Link>

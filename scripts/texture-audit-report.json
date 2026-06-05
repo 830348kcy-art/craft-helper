@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T12:48:59.405Z",
+  "generatedAt": "2026-06-05T13:39:23.273Z",
   "summary": {
     "ok": 518,
     "ok_wiki_shape": 209,
@@ -47,21 +47,15 @@
       "quality": "substitute"
     },
     {
+      "id": "black_stained_glass_pane",
+      "name": "검은색 색유리 판",
+      "url": "https://minecraft.wiki/images/BlockSprite_black-stained-glass-pane.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
       "id": "black_bed",
       "name": "검은색 침대",
       "url": "https://minecraft.wiki/images/BlockSprite_black-bed.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "black_carpet",
-      "name": "검은색 양탄자",
-      "url": "https://minecraft.wiki/images/BlockSprite_black-carpet.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "blue_bed",
-      "name": "파란색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_blue-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -77,27 +71,21 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "black_stained_glass_pane",
-      "name": "검은색 색유리 판",
-      "url": "https://minecraft.wiki/images/BlockSprite_black-stained-glass-pane.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "brown_stained_glass_pane",
-      "name": "갈색 색유리 판",
-      "url": "https://minecraft.wiki/images/BlockSprite_brown-stained-glass-pane.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
       "id": "brown_banner",
       "name": "갈색 현수막",
       "url": "https://minecraft.wiki/images/BlockSprite_brown-banner.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "blue_carpet",
-      "name": "파란색 양탄자",
-      "url": "https://minecraft.wiki/images/BlockSprite_blue-carpet.png?format=original",
+      "id": "blue_banner",
+      "name": "파란색 현수막",
+      "url": "https://minecraft.wiki/images/BlockSprite_blue-banner.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
+      "id": "blue_bed",
+      "name": "파란색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_blue-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -113,27 +101,21 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "blue_banner",
-      "name": "파란색 현수막",
-      "url": "https://minecraft.wiki/images/BlockSprite_blue-banner.png?format=original",
+      "id": "black_carpet",
+      "name": "검은색 양탄자",
+      "url": "https://minecraft.wiki/images/BlockSprite_black-carpet.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "cyan_stained_glass_pane",
-      "name": "청록색 색유리 판",
-      "url": "https://minecraft.wiki/images/BlockSprite_cyan-stained-glass-pane.png?format=original",
+      "id": "blue_carpet",
+      "name": "파란색 양탄자",
+      "url": "https://minecraft.wiki/images/BlockSprite_blue-carpet.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "cyan_bed",
-      "name": "청록색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_cyan-bed.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "cyan_banner",
-      "name": "청록색 현수막",
-      "url": "https://minecraft.wiki/images/BlockSprite_cyan-banner.png?format=original",
+      "id": "brown_stained_glass_pane",
+      "name": "갈색 색유리 판",
+      "url": "https://minecraft.wiki/images/BlockSprite_brown-stained-glass-pane.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -143,21 +125,21 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "gray_banner",
-      "name": "회색 현수막",
-      "url": "https://minecraft.wiki/images/BlockSprite_gray-banner.png?format=original",
+      "id": "cyan_banner",
+      "name": "청록색 현수막",
+      "url": "https://minecraft.wiki/images/BlockSprite_cyan-banner.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "gray_carpet",
-      "name": "회색 양탄자",
-      "url": "https://minecraft.wiki/images/BlockSprite_gray-carpet.png?format=original",
+      "id": "cyan_bed",
+      "name": "청록색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_cyan-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "gray_bed",
-      "name": "회색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_gray-bed.png?format=original",
+      "id": "cyan_stained_glass_pane",
+      "name": "청록색 색유리 판",
+      "url": "https://minecraft.wiki/images/BlockSprite_cyan-stained-glass-pane.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -167,9 +149,27 @@
       "quality": "wiki_fallback"
     },
     {
+      "id": "gray_carpet",
+      "name": "회색 양탄자",
+      "url": "https://minecraft.wiki/images/BlockSprite_gray-carpet.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
+      "id": "gray_banner",
+      "name": "회색 현수막",
+      "url": "https://minecraft.wiki/images/BlockSprite_gray-banner.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
       "id": "green_banner",
       "name": "초록색 현수막",
       "url": "https://minecraft.wiki/images/BlockSprite_green-banner.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
+      "id": "gray_bed",
+      "name": "회색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_gray-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -203,6 +203,12 @@
       "quality": "wiki_fallback"
     },
     {
+      "id": "ender_chest",
+      "name": "엔더 상자",
+      "url": "https://minecraft.wiki/images/BlockSprite_ender-chest.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
       "id": "light_blue_carpet",
       "name": "하늘색 양탄자",
       "url": "https://minecraft.wiki/images/BlockSprite_light-blue-carpet.png?format=original",
@@ -215,21 +221,9 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "ender_chest",
-      "name": "엔더 상자",
-      "url": "https://minecraft.wiki/images/BlockSprite_ender-chest.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "light_gray_bed",
-      "name": "회백색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_light-gray-bed.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "lime_banner",
-      "name": "연두색 현수막",
-      "url": "https://minecraft.wiki/images/BlockSprite_lime-banner.png?format=original",
+      "id": "light_gray_stained_glass_pane",
+      "name": "회백색 색유리 판",
+      "url": "https://minecraft.wiki/images/BlockSprite_light-gray-stained-glass-pane.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -239,15 +233,21 @@
       "quality": "wiki_fallback"
     },
     {
+      "id": "light_gray_bed",
+      "name": "회백색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_light-gray-bed.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
       "id": "light_blue_banner",
       "name": "하늘색 현수막",
       "url": "https://minecraft.wiki/images/BlockSprite_light-blue-banner.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "light_gray_stained_glass_pane",
-      "name": "회백색 색유리 판",
-      "url": "https://minecraft.wiki/images/BlockSprite_light-gray-stained-glass-pane.png?format=original",
+      "id": "lime_bed",
+      "name": "연두색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_lime-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -263,21 +263,15 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "lime_stained_glass_pane",
-      "name": "연두색 색유리 판",
-      "url": "https://minecraft.wiki/images/BlockSprite_lime-stained-glass-pane.png?format=original",
+      "id": "magenta_bed",
+      "name": "자홍색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_magenta-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "magenta_banner",
-      "name": "자홍색 현수막",
-      "url": "https://minecraft.wiki/images/BlockSprite_magenta-banner.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "lime_bed",
-      "name": "연두색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_lime-bed.png?format=original",
+      "id": "lime_banner",
+      "name": "연두색 현수막",
+      "url": "https://minecraft.wiki/images/BlockSprite_lime-banner.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -287,21 +281,33 @@
       "quality": "wiki_fallback"
     },
     {
+      "id": "lime_stained_glass_pane",
+      "name": "연두색 색유리 판",
+      "url": "https://minecraft.wiki/images/BlockSprite_lime-stained-glass-pane.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
       "id": "magenta_stained_glass_pane",
       "name": "자홍색 색유리 판",
       "url": "https://minecraft.wiki/images/BlockSprite_magenta-stained-glass-pane.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "magenta_bed",
-      "name": "자홍색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_magenta-bed.png?format=original",
+      "id": "magenta_banner",
+      "name": "자홍색 현수막",
+      "url": "https://minecraft.wiki/images/BlockSprite_magenta-banner.png?format=original",
       "quality": "wiki_fallback"
     },
     {
       "id": "orange_bed",
       "name": "주황색 침대",
       "url": "https://minecraft.wiki/images/BlockSprite_orange-bed.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
+      "id": "orange_stained_glass_pane",
+      "name": "주황색 색유리 판",
+      "url": "https://minecraft.wiki/images/BlockSprite_orange-stained-glass-pane.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -317,9 +323,9 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "pink_bed",
-      "name": "분홍색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_pink-bed.png?format=original",
+      "id": "pink_carpet",
+      "name": "분홍색 양탄자",
+      "url": "https://minecraft.wiki/images/BlockSprite_pink-carpet.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -329,27 +335,15 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "orange_stained_glass_pane",
-      "name": "주황색 색유리 판",
-      "url": "https://minecraft.wiki/images/BlockSprite_orange-stained-glass-pane.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "pink_carpet",
-      "name": "분홍색 양탄자",
-      "url": "https://minecraft.wiki/images/BlockSprite_pink-carpet.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
       "id": "pink_stained_glass_pane",
       "name": "분홍색 색유리 판",
       "url": "https://minecraft.wiki/images/BlockSprite_pink-stained-glass-pane.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "purple_stained_glass_pane",
-      "name": "보라색 색유리 판",
-      "url": "https://minecraft.wiki/images/BlockSprite_purple-stained-glass-pane.png?format=original",
+      "id": "purple_bed",
+      "name": "보라색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_purple-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -359,15 +353,15 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "red_bed",
-      "name": "빨간색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_red-bed.png?format=original",
+      "id": "red_carpet",
+      "name": "빨간색 양탄자",
+      "url": "https://minecraft.wiki/images/BlockSprite_red-carpet.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "purple_banner",
-      "name": "보라색 현수막",
-      "url": "https://minecraft.wiki/images/BlockSprite_purple-banner.png?format=original",
+      "id": "red_bed",
+      "name": "빨간색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_red-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -383,27 +377,21 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "purple_bed",
-      "name": "보라색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_purple-bed.png?format=original",
+      "id": "purple_stained_glass_pane",
+      "name": "보라색 색유리 판",
+      "url": "https://minecraft.wiki/images/BlockSprite_purple-stained-glass-pane.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "red_carpet",
-      "name": "빨간색 양탄자",
-      "url": "https://minecraft.wiki/images/BlockSprite_red-carpet.png?format=original",
+      "id": "pink_bed",
+      "name": "분홍색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_pink-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "white_bed",
-      "name": "하얀색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_white-bed.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "white_carpet",
-      "name": "하얀색 양탄자",
-      "url": "https://minecraft.wiki/images/BlockSprite_white-carpet.png?format=original",
+      "id": "purple_banner",
+      "name": "보라색 현수막",
+      "url": "https://minecraft.wiki/images/BlockSprite_purple-banner.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -413,15 +401,21 @@
       "quality": "wiki_fallback"
     },
     {
-      "id": "white_stained_glass_pane",
-      "name": "하얀색 색유리 판",
-      "url": "https://minecraft.wiki/images/BlockSprite_white-stained-glass-pane.png?format=original",
+      "id": "white_carpet",
+      "name": "하얀색 양탄자",
+      "url": "https://minecraft.wiki/images/BlockSprite_white-carpet.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "yellow_bed",
-      "name": "노란색 침대",
-      "url": "https://minecraft.wiki/images/BlockSprite_yellow-bed.png?format=original",
+      "id": "white_bed",
+      "name": "하얀색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_white-bed.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
+      "id": "white_stained_glass_pane",
+      "name": "하얀색 색유리 판",
+      "url": "https://minecraft.wiki/images/BlockSprite_white-stained-glass-pane.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -437,21 +431,21 @@
       "quality": "wiki_fallback"
     },
     {
+      "id": "stripped_warped_hyphae",
+      "name": "껍질 벗긴 뒤틀린 균사",
+      "url": "https://minecraft.wiki/images/BlockSprite_stripped-warped-hyphae.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
       "id": "yellow_stained_glass_pane",
       "name": "노란색 색유리 판",
       "url": "https://minecraft.wiki/images/BlockSprite_yellow-stained-glass-pane.png?format=original",
       "quality": "wiki_fallback"
     },
     {
-      "id": "warped_hyphae",
-      "name": "뒤틀린 균사",
-      "url": "https://minecraft.wiki/images/BlockSprite_warped-hyphae.png?format=original",
-      "quality": "wiki_fallback"
-    },
-    {
-      "id": "stripped_warped_hyphae",
-      "name": "껍질 벗긴 뒤틀린 균사",
-      "url": "https://minecraft.wiki/images/BlockSprite_stripped-warped-hyphae.png?format=original",
+      "id": "yellow_bed",
+      "name": "노란색 침대",
+      "url": "https://minecraft.wiki/images/BlockSprite_yellow-bed.png?format=original",
       "quality": "wiki_fallback"
     },
     {
@@ -464,6 +458,12 @@
       "id": "trapped_chest",
       "name": "덫 상자",
       "url": "https://minecraft.wiki/images/BlockSprite_trapped-chest.png?format=original",
+      "quality": "wiki_fallback"
+    },
+    {
+      "id": "warped_hyphae",
+      "name": "뒤틀린 균사",
+      "url": "https://minecraft.wiki/images/BlockSprite_warped-hyphae.png?format=original",
       "quality": "wiki_fallback"
     }
   ],
@@ -554,15 +554,33 @@
         "quality": "ok"
       },
       {
+        "id": "birch_planks",
+        "name": "자작나무 판자",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/birch_planks.png",
+        "quality": "ok"
+      },
+      {
+        "id": "acacia_hanging_sign",
+        "name": "아카시아나무 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/acacia_hanging_sign.png",
+        "quality": "ok"
+      },
+      {
+        "id": "acacia_chest_boat",
+        "name": "상자가 실린 아카시아나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/acacia_chest_boat.png",
+        "quality": "ok"
+      },
+      {
         "id": "acacia_sign",
         "name": "아카시아나무 표지판",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/acacia_sign.png",
         "quality": "ok"
       },
       {
-        "id": "birch_planks",
-        "name": "자작나무 판자",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/birch_planks.png",
+        "id": "acacia_boat",
+        "name": "아카시아나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/acacia_boat.png",
         "quality": "ok"
       },
       {
@@ -572,21 +590,15 @@
         "quality": "ok"
       },
       {
-        "id": "bamboo_hanging_sign",
-        "name": "대나무 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bamboo_hanging_sign.png",
+        "id": "bamboo_sign",
+        "name": "대나무 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bamboo_sign.png",
         "quality": "ok"
       },
       {
         "id": "black_candle",
         "name": "검은색 초",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/black_candle.png",
-        "quality": "ok"
-      },
-      {
-        "id": "birch_chest_boat",
-        "name": "상자가 실린 자작나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/birch_chest_boat.png",
         "quality": "ok"
       },
       {
@@ -602,15 +614,15 @@
         "quality": "ok"
       },
       {
-        "id": "birch_boat",
-        "name": "자작나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/birch_boat.png",
-        "quality": "ok"
-      },
-      {
         "id": "black_terracotta",
         "name": "검은색 테라코타",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/black_terracotta.png",
+        "quality": "ok"
+      },
+      {
+        "id": "bamboo_hanging_sign",
+        "name": "대나무 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bamboo_hanging_sign.png",
         "quality": "ok"
       },
       {
@@ -620,21 +632,15 @@
         "quality": "ok"
       },
       {
-        "id": "acacia_boat",
-        "name": "아카시아나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/acacia_boat.png",
+        "id": "birch_chest_boat",
+        "name": "상자가 실린 자작나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/birch_chest_boat.png",
         "quality": "ok"
       },
       {
         "id": "blast_furnace",
         "name": "용광로",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/blast_furnace_front.png",
-        "quality": "ok"
-      },
-      {
-        "id": "beehive",
-        "name": "벌통",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/beehive_side.png",
         "quality": "ok"
       },
       {
@@ -656,9 +662,9 @@
         "quality": "ok"
       },
       {
-        "id": "acacia_hanging_sign",
-        "name": "아카시아나무 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/acacia_hanging_sign.png",
+        "id": "birch_hanging_sign",
+        "name": "자작나무 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/birch_hanging_sign.png",
         "quality": "ok"
       },
       {
@@ -674,9 +680,21 @@
         "quality": "ok"
       },
       {
+        "id": "beehive",
+        "name": "벌통",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/beehive_side.png",
+        "quality": "ok"
+      },
+      {
         "id": "blue_wool",
         "name": "파란색 양털",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/blue_wool.png",
+        "quality": "ok"
+      },
+      {
+        "id": "birch_boat",
+        "name": "자작나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/birch_boat.png",
         "quality": "ok"
       },
       {
@@ -692,15 +710,15 @@
         "quality": "ok"
       },
       {
-        "id": "bricks",
-        "name": "벽돌",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/bricks.png",
+        "id": "birch_sign",
+        "name": "자작나무 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/birch_sign.png",
         "quality": "ok"
       },
       {
-        "id": "birch_hanging_sign",
-        "name": "자작나무 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/birch_hanging_sign.png",
+        "id": "bricks",
+        "name": "벽돌",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/bricks.png",
         "quality": "ok"
       },
       {
@@ -740,12 +758,6 @@
         "quality": "ok"
       },
       {
-        "id": "calibrated_sculk_sensor",
-        "name": "조율한 스컬크 감지체",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/calibrated_sculk_sensor_top.png",
-        "quality": "ok"
-      },
-      {
         "id": "candle",
         "name": "초",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/candle.png",
@@ -758,9 +770,9 @@
         "quality": "ok"
       },
       {
-        "id": "cherry_boat",
-        "name": "벚나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/cherry_boat.png",
+        "id": "cake",
+        "name": "케이크",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cake_side.png",
         "quality": "ok"
       },
       {
@@ -770,27 +782,27 @@
         "quality": "ok"
       },
       {
-        "id": "cake",
-        "name": "케이크",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cake_side.png",
-        "quality": "ok"
-      },
-      {
         "id": "cherry_planks",
         "name": "벚나무 판자",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cherry_planks.png",
         "quality": "ok"
       },
       {
-        "id": "cherry_trapdoor",
-        "name": "벚나무 다락문",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cherry_trapdoor.png",
+        "id": "calibrated_sculk_sensor",
+        "name": "조율한 스컬크 감지체",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/calibrated_sculk_sensor_top.png",
         "quality": "ok"
       },
       {
-        "id": "cherry_chest_boat",
-        "name": "상자가 실린 벚나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/cherry_chest_boat.png",
+        "id": "cherry_boat",
+        "name": "벚나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/cherry_boat.png",
+        "quality": "ok"
+      },
+      {
+        "id": "cherry_trapdoor",
+        "name": "벚나무 다락문",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cherry_trapdoor.png",
         "quality": "ok"
       },
       {
@@ -830,18 +842,6 @@
         "quality": "ok"
       },
       {
-        "id": "cherry_hanging_sign",
-        "name": "벚나무 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/cherry_hanging_sign.png",
-        "quality": "ok"
-      },
-      {
-        "id": "acacia_chest_boat",
-        "name": "상자가 실린 아카시아나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/acacia_chest_boat.png",
-        "quality": "ok"
-      },
-      {
         "id": "chiseled_quartz_block",
         "name": "조각된 석영 블록",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/chiseled_quartz_block.png",
@@ -854,15 +854,15 @@
         "quality": "ok"
       },
       {
-        "id": "chiseled_sandstone",
-        "name": "조각된 사암",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/chiseled_sandstone.png",
-        "quality": "ok"
-      },
-      {
         "id": "chiseled_stone_bricks",
         "name": "조각된 석재 벽돌",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/chiseled_stone_bricks.png",
+        "quality": "ok"
+      },
+      {
+        "id": "chiseled_sandstone",
+        "name": "조각된 사암",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/chiseled_sandstone.png",
         "quality": "ok"
       },
       {
@@ -893,6 +893,24 @@
         "id": "coarse_dirt",
         "name": "거친 흙",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/coarse_dirt.png",
+        "quality": "ok"
+      },
+      {
+        "id": "cherry_hanging_sign",
+        "name": "벚나무 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/cherry_hanging_sign.png",
+        "quality": "ok"
+      },
+      {
+        "id": "cherry_chest_boat",
+        "name": "상자가 실린 벚나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/cherry_chest_boat.png",
+        "quality": "ok"
+      },
+      {
+        "id": "cauldron",
+        "name": "가마솥",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cauldron_side.png",
         "quality": "ok"
       },
       {
@@ -938,21 +956,15 @@
         "quality": "ok"
       },
       {
+        "id": "chiseled_bookshelf",
+        "name": "조각된 책장",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/chiseled_bookshelf_side.png",
+        "quality": "ok"
+      },
+      {
         "id": "crafting_table",
         "name": "제작대",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/crafting_table_front.png",
-        "quality": "ok"
-      },
-      {
-        "id": "cartography_table",
-        "name": "지도 제작대",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cartography_table_top.png",
-        "quality": "ok"
-      },
-      {
-        "id": "crimson_door",
-        "name": "진홍빛 문",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/crimson_door.png",
         "quality": "ok"
       },
       {
@@ -962,9 +974,9 @@
         "quality": "ok"
       },
       {
-        "id": "bamboo_sign",
-        "name": "대나무 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bamboo_sign.png",
+        "id": "crimson_door",
+        "name": "진홍빛 문",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/crimson_door.png",
         "quality": "ok"
       },
       {
@@ -974,9 +986,9 @@
         "quality": "ok"
       },
       {
-        "id": "chiseled_bookshelf",
-        "name": "조각된 책장",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/chiseled_bookshelf_side.png",
+        "id": "cartography_table",
+        "name": "지도 제작대",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cartography_table_top.png",
         "quality": "ok"
       },
       {
@@ -998,18 +1010,6 @@
         "quality": "ok"
       },
       {
-        "id": "composter",
-        "name": "퇴비통",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/composter_side.png",
-        "quality": "ok"
-      },
-      {
-        "id": "cauldron",
-        "name": "가마솥",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cauldron_side.png",
-        "quality": "ok"
-      },
-      {
         "id": "cyan_candle",
         "name": "청록색 초",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/cyan_candle.png",
@@ -1028,9 +1028,9 @@
         "quality": "ok"
       },
       {
-        "id": "crimson_sign",
-        "name": "진홍빛 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/crimson_sign.png",
+        "id": "composter",
+        "name": "퇴비통",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/composter_side.png",
         "quality": "ok"
       },
       {
@@ -1046,15 +1046,21 @@
         "quality": "ok"
       },
       {
+        "id": "crimson_hanging_sign",
+        "name": "진홍빛 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/crimson_hanging_sign.png",
+        "quality": "ok"
+      },
+      {
         "id": "crafter",
         "name": "제작기",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/crafter_north.png",
         "quality": "ok"
       },
       {
-        "id": "crimson_hanging_sign",
-        "name": "진홍빛 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/crimson_hanging_sign.png",
+        "id": "crimson_sign",
+        "name": "진홍빛 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/crimson_sign.png",
         "quality": "ok"
       },
       {
@@ -1076,15 +1082,15 @@
         "quality": "ok"
       },
       {
-        "id": "dark_prismarine",
-        "name": "짙은 프리즈머린",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/dark_prismarine.png",
+        "id": "dark_oak_boat",
+        "name": "짙은 참나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/dark_oak_boat.png",
         "quality": "ok"
       },
       {
-        "id": "deepslate_bricks",
-        "name": "심층암 벽돌",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/deepslate_bricks.png",
+        "id": "dark_prismarine",
+        "name": "짙은 프리즈머린",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/dark_prismarine.png",
         "quality": "ok"
       },
       {
@@ -1094,9 +1100,9 @@
         "quality": "ok"
       },
       {
-        "id": "dark_oak_hanging_sign",
-        "name": "짙은 참나무 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/dark_oak_hanging_sign.png",
+        "id": "deepslate_bricks",
+        "name": "심층암 벽돌",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/deepslate_bricks.png",
         "quality": "ok"
       },
       {
@@ -1106,21 +1112,15 @@
         "quality": "ok"
       },
       {
-        "id": "dark_oak_boat",
-        "name": "짙은 참나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/dark_oak_boat.png",
+        "id": "detector_rail",
+        "name": "감지 레일",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/detector_rail.png",
         "quality": "ok"
       },
       {
         "id": "diamond_block",
         "name": "다이아몬드 블록",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/diamond_block.png",
-        "quality": "ok"
-      },
-      {
-        "id": "detector_rail",
-        "name": "감지 레일",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/detector_rail.png",
         "quality": "ok"
       },
       {
@@ -1136,9 +1136,9 @@
         "quality": "ok"
       },
       {
-        "id": "dark_oak_sign",
-        "name": "짙은 참나무 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/dark_oak_sign.png",
+        "id": "dark_oak_hanging_sign",
+        "name": "짙은 참나무 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/dark_oak_hanging_sign.png",
         "quality": "ok"
       },
       {
@@ -1160,9 +1160,21 @@
         "quality": "ok"
       },
       {
+        "id": "campfire",
+        "name": "모닥불",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/campfire.png",
+        "quality": "ok"
+      },
+      {
         "id": "end_stone_bricks",
         "name": "엔드 석재 벽돌",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/end_stone_bricks.png",
+        "quality": "ok"
+      },
+      {
+        "id": "dark_oak_sign",
+        "name": "짙은 참나무 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/dark_oak_sign.png",
         "quality": "ok"
       },
       {
@@ -1196,21 +1208,27 @@
         "quality": "ok"
       },
       {
+        "id": "daylight_detector",
+        "name": "햇빛 감지기",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/daylight_detector_side.png",
+        "quality": "ok"
+      },
+      {
         "id": "flower_pot",
         "name": "화분",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/flower_pot.png",
         "quality": "ok"
       },
       {
-        "id": "dropper",
-        "name": "공급기",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/dropper_front.png",
-        "quality": "ok"
-      },
-      {
         "id": "furnace",
         "name": "화로",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/furnace_front.png",
+        "quality": "ok"
+      },
+      {
+        "id": "dropper",
+        "name": "공급기",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/dropper_front.png",
         "quality": "ok"
       },
       {
@@ -1229,18 +1247,6 @@
         "id": "granite",
         "name": "화강암",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/granite.png",
-        "quality": "ok"
-      },
-      {
-        "id": "fletching_table",
-        "name": "화살 작업대",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/fletching_table_side.png",
-        "quality": "ok"
-      },
-      {
-        "id": "daylight_detector",
-        "name": "햇빛 감지기",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/daylight_detector_side.png",
         "quality": "ok"
       },
       {
@@ -1268,15 +1274,15 @@
         "quality": "ok"
       },
       {
-        "id": "glass_pane",
-        "name": "유리판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/glass_pane_top.png",
-        "quality": "ok"
-      },
-      {
         "id": "gray_wool",
         "name": "회색 양털",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/gray_wool.png",
+        "quality": "ok"
+      },
+      {
+        "id": "fletching_table",
+        "name": "화살 작업대",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/fletching_table_side.png",
         "quality": "ok"
       },
       {
@@ -1310,6 +1316,12 @@
         "quality": "ok"
       },
       {
+        "id": "glass_pane",
+        "name": "유리판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/glass_pane_top.png",
+        "quality": "ok"
+      },
+      {
         "id": "honeycomb_block",
         "name": "벌집 조각 블록",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/honeycomb_block.png",
@@ -1340,21 +1352,15 @@
         "quality": "ok"
       },
       {
-        "id": "hay_block",
-        "name": "건초 더미",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/hay_block_side.png",
-        "quality": "ok"
-      },
-      {
         "id": "jack_o_lantern",
         "name": "잭오랜턴",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/jack_o_lantern.png",
         "quality": "ok"
       },
       {
-        "id": "honey_block",
-        "name": "꿀 블록",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/honey_block_side.png",
+        "id": "hay_block",
+        "name": "건초 더미",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/hay_block_side.png",
         "quality": "ok"
       },
       {
@@ -1370,27 +1376,21 @@
         "quality": "ok"
       },
       {
-        "id": "jungle_hanging_sign",
-        "name": "정글나무 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/jungle_hanging_sign.png",
-        "quality": "ok"
-      },
-      {
-        "id": "jungle_chest_boat",
-        "name": "상자가 실린 정글나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/jungle_chest_boat.png",
-        "quality": "ok"
-      },
-      {
-        "id": "jungle_boat",
-        "name": "정글나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/jungle_boat.png",
+        "id": "jukebox",
+        "name": "주크박스",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/jukebox_top.png",
         "quality": "ok"
       },
       {
         "id": "jungle_wood",
         "name": "정글나무",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/stripped_jungle_log.png",
+        "quality": "ok"
+      },
+      {
+        "id": "jungle_boat",
+        "name": "정글나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/jungle_boat.png",
         "quality": "ok"
       },
       {
@@ -1406,12 +1406,6 @@
         "quality": "ok"
       },
       {
-        "id": "hopper",
-        "name": "호퍼",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/hopper_top.png",
-        "quality": "ok"
-      },
-      {
         "id": "lapis_block",
         "name": "청금석 블록",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/lapis_block.png",
@@ -1424,15 +1418,15 @@
         "quality": "ok"
       },
       {
-        "id": "light_blue_candle",
-        "name": "하늘색 초",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/light_blue_candle.png",
+        "id": "hopper",
+        "name": "호퍼",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/hopper_top.png",
         "quality": "ok"
       },
       {
-        "id": "jungle_sign",
-        "name": "정글나무 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/jungle_sign.png",
+        "id": "light_blue_candle",
+        "name": "하늘색 초",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/light_blue_candle.png",
         "quality": "ok"
       },
       {
@@ -1448,9 +1442,9 @@
         "quality": "ok"
       },
       {
-        "id": "campfire",
-        "name": "모닥불",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/campfire.png",
+        "id": "jungle_chest_boat",
+        "name": "상자가 실린 정글나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/jungle_chest_boat.png",
         "quality": "ok"
       },
       {
@@ -1466,15 +1460,27 @@
         "quality": "ok"
       },
       {
-        "id": "jukebox",
-        "name": "주크박스",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/jukebox_top.png",
+        "id": "honey_block",
+        "name": "꿀 블록",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/honey_block_side.png",
+        "quality": "ok"
+      },
+      {
+        "id": "jungle_hanging_sign",
+        "name": "정글나무 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/jungle_hanging_sign.png",
         "quality": "ok"
       },
       {
         "id": "light_gray_candle",
         "name": "회백색 초",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/light_gray_candle.png",
+        "quality": "ok"
+      },
+      {
+        "id": "lectern",
+        "name": "독서대",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/lectern_front.png",
         "quality": "ok"
       },
       {
@@ -1502,6 +1508,12 @@
         "quality": "ok"
       },
       {
+        "id": "jungle_sign",
+        "name": "정글나무 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/jungle_sign.png",
+        "quality": "ok"
+      },
+      {
         "id": "lightning_rod",
         "name": "피뢰침",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/lightning_rod.png",
@@ -1511,12 +1523,6 @@
         "id": "lime_candle",
         "name": "연두색 초",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/lime_candle.png",
-        "quality": "ok"
-      },
-      {
-        "id": "lectern",
-        "name": "독서대",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/lectern_front.png",
         "quality": "ok"
       },
       {
@@ -1574,9 +1580,9 @@
         "quality": "ok"
       },
       {
-        "id": "loom",
-        "name": "베틀",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/loom_side.png",
+        "id": "lodestone",
+        "name": "자석석",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/lodestone_side.png",
         "quality": "ok"
       },
       {
@@ -1592,15 +1598,15 @@
         "quality": "ok"
       },
       {
-        "id": "mangrove_wood",
-        "name": "맹그로브나무",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/stripped_mangrove_log.png",
+        "id": "magma_block",
+        "name": "마그마 블록",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/magma.png",
         "quality": "ok"
       },
       {
-        "id": "mangrove_chest_boat",
-        "name": "상자가 실린 맹그로브나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/mangrove_chest_boat.png",
+        "id": "mangrove_wood",
+        "name": "맹그로브나무",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/stripped_mangrove_log.png",
         "quality": "ok"
       },
       {
@@ -1610,9 +1616,21 @@
         "quality": "ok"
       },
       {
+        "id": "mangrove_boat",
+        "name": "맹그로브나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/mangrove_boat.png",
+        "quality": "ok"
+      },
+      {
         "id": "mossy_stone_bricks",
         "name": "이끼 낀 석재 벽돌",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/mossy_stone_bricks.png",
+        "quality": "ok"
+      },
+      {
+        "id": "loom",
+        "name": "베틀",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/loom_side.png",
         "quality": "ok"
       },
       {
@@ -1628,21 +1646,21 @@
         "quality": "ok"
       },
       {
-        "id": "mangrove_boat",
-        "name": "맹그로브나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/mangrove_boat.png",
-        "quality": "ok"
-      },
-      {
-        "id": "mangrove_sign",
-        "name": "맹그로브나무 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/mangrove_sign.png",
+        "id": "mangrove_chest_boat",
+        "name": "상자가 실린 맹그로브나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/mangrove_chest_boat.png",
         "quality": "ok"
       },
       {
         "id": "nether_bricks",
         "name": "네더 벽돌",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/nether_bricks.png",
+        "quality": "ok"
+      },
+      {
+        "id": "mangrove_sign",
+        "name": "맹그로브나무 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/mangrove_sign.png",
         "quality": "ok"
       },
       {
@@ -1664,27 +1682,15 @@
         "quality": "ok"
       },
       {
-        "id": "oak_door",
-        "name": "참나무 문",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_door.png",
-        "quality": "ok"
-      },
-      {
-        "id": "melon",
-        "name": "수박",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/melon_side.png",
-        "quality": "ok"
-      },
-      {
         "id": "oak_planks",
         "name": "참나무 판자",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/oak_planks.png",
         "quality": "ok"
       },
       {
-        "id": "magma_block",
-        "name": "마그마 블록",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/magma.png",
+        "id": "oak_door",
+        "name": "참나무 문",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_door.png",
         "quality": "ok"
       },
       {
@@ -1694,27 +1700,9 @@
         "quality": "ok"
       },
       {
-        "id": "lodestone",
-        "name": "자석석",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/lodestone_side.png",
-        "quality": "ok"
-      },
-      {
-        "id": "oak_chest_boat",
-        "name": "상자가 실린 참나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_chest_boat.png",
-        "quality": "ok"
-      },
-      {
         "id": "orange_candle",
         "name": "주황색 초",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/orange_candle.png",
-        "quality": "ok"
-      },
-      {
-        "id": "muddy_mangrove_roots",
-        "name": "진흙에 묻힌 맹그로브나무 뿌리",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/muddy_mangrove_roots_side.png",
         "quality": "ok"
       },
       {
@@ -1727,6 +1715,12 @@
         "id": "orange_stained_glass",
         "name": "주황색 색유리",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/orange_stained_glass.png",
+        "quality": "ok"
+      },
+      {
+        "id": "melon",
+        "name": "수박",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/melon_side.png",
         "quality": "ok"
       },
       {
@@ -1766,15 +1760,33 @@
         "quality": "ok"
       },
       {
-        "id": "oak_boat",
-        "name": "참나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_boat.png",
+        "id": "oak_chest_boat",
+        "name": "상자가 실린 참나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_chest_boat.png",
+        "quality": "ok"
+      },
+      {
+        "id": "observer",
+        "name": "관측기",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/observer_front.png",
+        "quality": "ok"
+      },
+      {
+        "id": "oak_hanging_sign",
+        "name": "참나무 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_hanging_sign.png",
         "quality": "ok"
       },
       {
         "id": "packed_ice",
         "name": "꽁꽁 언 얼음",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/packed_ice.png",
+        "quality": "ok"
+      },
+      {
+        "id": "muddy_mangrove_roots",
+        "name": "진흙에 묻힌 맹그로브나무 뿌리",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/muddy_mangrove_roots_side.png",
         "quality": "ok"
       },
       {
@@ -1790,18 +1802,6 @@
         "quality": "ok"
       },
       {
-        "id": "oak_sign",
-        "name": "참나무 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_sign.png",
-        "quality": "ok"
-      },
-      {
-        "id": "oak_hanging_sign",
-        "name": "참나무 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_hanging_sign.png",
-        "quality": "ok"
-      },
-      {
         "id": "pale_oak_door",
         "name": "창백한 참나무 문",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pale_oak_door.png",
@@ -1814,9 +1814,9 @@
         "quality": "ok"
       },
       {
-        "id": "pale_oak_chest_boat",
-        "name": "상자가 실린 창백한 참나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pale_oak_chest_boat.png",
+        "id": "oak_sign",
+        "name": "참나무 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_sign.png",
         "quality": "ok"
       },
       {
@@ -1832,6 +1832,12 @@
         "quality": "ok"
       },
       {
+        "id": "pale_oak_chest_boat",
+        "name": "상자가 실린 창백한 참나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pale_oak_chest_boat.png",
+        "quality": "ok"
+      },
+      {
         "id": "pink_concrete_powder",
         "name": "분홍색 콘크리트 가루",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/pink_concrete_powder.png",
@@ -1841,18 +1847,6 @@
         "id": "pink_stained_glass",
         "name": "분홍색 색유리",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/pink_stained_glass.png",
-        "quality": "ok"
-      },
-      {
-        "id": "observer",
-        "name": "관측기",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/observer_front.png",
-        "quality": "ok"
-      },
-      {
-        "id": "pale_oak_sign",
-        "name": "창백한 참나무 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pale_oak_sign.png",
         "quality": "ok"
       },
       {
@@ -1874,15 +1868,27 @@
         "quality": "ok"
       },
       {
-        "id": "polished_blackstone",
-        "name": "윤나는 흑암",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/polished_blackstone.png",
-        "quality": "ok"
-      },
-      {
         "id": "pale_oak_hanging_sign",
         "name": "창백한 참나무 매다는 표지판",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pale_oak_hanging_sign.png",
+        "quality": "ok"
+      },
+      {
+        "id": "oak_boat",
+        "name": "참나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oak_boat.png",
+        "quality": "ok"
+      },
+      {
+        "id": "pale_oak_boat",
+        "name": "창백한 참나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pale_oak_boat.png",
+        "quality": "ok"
+      },
+      {
+        "id": "polished_blackstone",
+        "name": "윤나는 흑암",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/polished_blackstone.png",
         "quality": "ok"
       },
       {
@@ -1901,12 +1907,6 @@
         "id": "piston",
         "name": "피스톤",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/piston_top.png",
-        "quality": "ok"
-      },
-      {
-        "id": "pale_oak_boat",
-        "name": "창백한 참나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pale_oak_boat.png",
         "quality": "ok"
       },
       {
@@ -1961,12 +1961,6 @@
         "id": "purple_stained_glass",
         "name": "보라색 색유리",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/purple_stained_glass.png",
-        "quality": "ok"
-      },
-      {
-        "id": "polished_basalt",
-        "name": "윤나는 현무암",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/polished_basalt_side.png",
         "quality": "ok"
       },
       {
@@ -2036,9 +2030,21 @@
         "quality": "ok"
       },
       {
+        "id": "pale_oak_sign",
+        "name": "창백한 참나무 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pale_oak_sign.png",
+        "quality": "ok"
+      },
+      {
         "id": "red_concrete_powder",
         "name": "빨간색 콘크리트 가루",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/red_concrete_powder.png",
+        "quality": "ok"
+      },
+      {
+        "id": "quartz_block",
+        "name": "석영 블록",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/quartz_block_side.png",
         "quality": "ok"
       },
       {
@@ -2108,15 +2114,15 @@
         "quality": "ok"
       },
       {
-        "id": "slime_block",
-        "name": "슬라임 블록",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/slime_block.png",
-        "quality": "ok"
-      },
-      {
         "id": "shulker_box",
         "name": "셜커 상자",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/shulker_box.png",
+        "quality": "ok"
+      },
+      {
+        "id": "slime_block",
+        "name": "슬라임 블록",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/slime_block.png",
         "quality": "ok"
       },
       {
@@ -2126,9 +2132,9 @@
         "quality": "ok"
       },
       {
-        "id": "quartz_block",
-        "name": "석영 블록",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/quartz_block_side.png",
+        "id": "respawn_anchor",
+        "name": "리스폰 정박기",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/respawn_anchor_top.png",
         "quality": "ok"
       },
       {
@@ -2144,33 +2150,15 @@
         "quality": "ok"
       },
       {
-        "id": "soul_torch",
-        "name": "영혼 횃불",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/soul_torch.png",
-        "quality": "ok"
-      },
-      {
-        "id": "respawn_anchor",
-        "name": "리스폰 정박기",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/respawn_anchor_top.png",
-        "quality": "ok"
-      },
-      {
-        "id": "spruce_door",
-        "name": "가문비나무 문",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_door.png",
-        "quality": "ok"
-      },
-      {
         "id": "scaffolding",
         "name": "비계",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/scaffolding_side.png",
         "quality": "ok"
       },
       {
-        "id": "spruce_planks",
-        "name": "가문비나무 판자",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/spruce_planks.png",
+        "id": "soul_torch",
+        "name": "영혼 횃불",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/soul_torch.png",
         "quality": "ok"
       },
       {
@@ -2180,15 +2168,27 @@
         "quality": "ok"
       },
       {
-        "id": "spruce_wood",
-        "name": "가문비나무",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/stripped_spruce_log.png",
+        "id": "spruce_door",
+        "name": "가문비나무 문",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_door.png",
         "quality": "ok"
       },
       {
-        "id": "spruce_chest_boat",
-        "name": "상자가 실린 가문비나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_chest_boat.png",
+        "id": "spruce_planks",
+        "name": "가문비나무 판자",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/spruce_planks.png",
+        "quality": "ok"
+      },
+      {
+        "id": "polished_basalt",
+        "name": "윤나는 현무암",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/polished_basalt_side.png",
+        "quality": "ok"
+      },
+      {
+        "id": "spruce_wood",
+        "name": "가문비나무",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/stripped_spruce_log.png",
         "quality": "ok"
       },
       {
@@ -2198,9 +2198,9 @@
         "quality": "ok"
       },
       {
-        "id": "spruce_boat",
-        "name": "가문비나무 보트",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_boat.png",
+        "id": "spruce_hanging_sign",
+        "name": "가문비나무 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_hanging_sign.png",
         "quality": "ok"
       },
       {
@@ -2258,9 +2258,15 @@
         "quality": "ok"
       },
       {
-        "id": "spruce_hanging_sign",
-        "name": "가문비나무 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_hanging_sign.png",
+        "id": "spruce_sign",
+        "name": "가문비나무 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_sign.png",
+        "quality": "ok"
+      },
+      {
+        "id": "spruce_boat",
+        "name": "가문비나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_boat.png",
         "quality": "ok"
       },
       {
@@ -2270,15 +2276,21 @@
         "quality": "ok"
       },
       {
+        "id": "sticky_piston",
+        "name": "끈끈이 피스톤",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/piston_top_sticky.png",
+        "quality": "ok"
+      },
+      {
         "id": "torch",
         "name": "횃불",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/torch.png",
         "quality": "ok"
       },
       {
-        "id": "spruce_sign",
-        "name": "가문비나무 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_sign.png",
+        "id": "spruce_chest_boat",
+        "name": "상자가 실린 가문비나무 보트",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spruce_chest_boat.png",
         "quality": "ok"
       },
       {
@@ -2288,21 +2300,15 @@
         "quality": "ok"
       },
       {
-        "id": "warped_door",
-        "name": "뒤틀린 문",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/warped_door.png",
-        "quality": "ok"
-      },
-      {
         "id": "stonecutter",
         "name": "석재 절단기",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/stonecutter_side.png",
         "quality": "ok"
       },
       {
-        "id": "target",
-        "name": "과녁",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/target_side.png",
+        "id": "warped_door",
+        "name": "뒤틀린 문",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/warped_door.png",
         "quality": "ok"
       },
       {
@@ -2312,9 +2318,9 @@
         "quality": "ok"
       },
       {
-        "id": "birch_sign",
-        "name": "자작나무 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/birch_sign.png",
+        "id": "tnt",
+        "name": "TNT",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/tnt_side.png",
         "quality": "ok"
       },
       {
@@ -2390,6 +2396,12 @@
         "quality": "ok"
       },
       {
+        "id": "waxed_exposed_copper_trapdoor",
+        "name": "밀랍칠한 약간 녹슨 구리 다락문",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+        "quality": "ok"
+      },
+      {
         "id": "waxed_exposed_cut_copper",
         "name": "밀랍칠한 약간 녹슨 깎인 구리",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/exposed_cut_copper.png",
@@ -2402,9 +2414,9 @@
         "quality": "ok"
       },
       {
-        "id": "waxed_exposed_copper_trapdoor",
-        "name": "밀랍칠한 약간 녹슨 구리 다락문",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+        "id": "waxed_oxidized_copper",
+        "name": "밀랍칠한 산화된 구리",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/oxidized_copper.png",
         "quality": "ok"
       },
       {
@@ -2414,27 +2426,27 @@
         "quality": "ok"
       },
       {
-        "id": "waxed_oxidized_copper",
-        "name": "밀랍칠한 산화된 구리",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/oxidized_copper.png",
-        "quality": "ok"
-      },
-      {
         "id": "waxed_oxidized_copper_grate",
         "name": "밀랍칠한 산화된 구리 격자",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/oxidized_copper_grate.png",
         "quality": "ok"
       },
       {
-        "id": "waxed_oxidized_copper_door",
-        "name": "밀랍칠한 산화된 구리 문",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oxidized_copper_door.png",
+        "id": "warped_hanging_sign",
+        "name": "뒤틀린 매다는 표지판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/warped_hanging_sign.png",
         "quality": "ok"
       },
       {
         "id": "waxed_oxidized_cut_copper",
         "name": "밀랍칠한 산화된 깎인 구리",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/oxidized_cut_copper.png",
+        "quality": "ok"
+      },
+      {
+        "id": "waxed_oxidized_copper_door",
+        "name": "밀랍칠한 산화된 구리 문",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/oxidized_copper_door.png",
         "quality": "ok"
       },
       {
@@ -2462,33 +2474,21 @@
         "quality": "ok"
       },
       {
-        "id": "waxed_weathered_copper_door",
-        "name": "밀랍칠한 녹슨 구리 문",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/weathered_copper_door.png",
-        "quality": "ok"
-      },
-      {
         "id": "waxed_weathered_copper_grate",
         "name": "밀랍칠한 녹슨 구리 격자",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/weathered_copper_grate.png",
         "quality": "ok"
       },
       {
+        "id": "waxed_weathered_copper_door",
+        "name": "밀랍칠한 녹슨 구리 문",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/weathered_copper_door.png",
+        "quality": "ok"
+      },
+      {
         "id": "waxed_weathered_copper_trapdoor",
         "name": "밀랍칠한 녹슨 구리 다락문",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/weathered_copper_trapdoor.png",
-        "quality": "ok"
-      },
-      {
-        "id": "waxed_weathered_cut_copper",
-        "name": "밀랍칠한 녹슨 깎인 구리",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/weathered_cut_copper.png",
-        "quality": "ok"
-      },
-      {
-        "id": "sticky_piston",
-        "name": "끈끈이 피스톤",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/piston_top_sticky.png",
         "quality": "ok"
       },
       {
@@ -2510,21 +2510,15 @@
         "quality": "ok"
       },
       {
-        "id": "weathered_cut_copper",
-        "name": "녹슨 깎인 구리",
+        "id": "waxed_weathered_cut_copper",
+        "name": "밀랍칠한 녹슨 깎인 구리",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/weathered_cut_copper.png",
         "quality": "ok"
       },
       {
-        "id": "warped_hanging_sign",
-        "name": "뒤틀린 매다는 표지판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/warped_hanging_sign.png",
-        "quality": "ok"
-      },
-      {
-        "id": "tnt",
-        "name": "TNT",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/tnt_side.png",
+        "id": "weathered_cut_copper",
+        "name": "녹슨 깎인 구리",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/weathered_cut_copper.png",
         "quality": "ok"
       },
       {
@@ -2594,6 +2588,12 @@
         "quality": "ok"
       },
       {
+        "id": "target",
+        "name": "과녁",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/target_side.png",
+        "quality": "ok"
+      },
+      {
         "id": "soul_campfire",
         "name": "영혼 모닥불",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/soul_campfire.png",
@@ -2612,21 +2612,39 @@
         "quality": "ok"
       },
       {
-        "id": "blue_dye",
-        "name": "파란색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/blue_dye.png",
-        "quality": "ok"
-      },
-      {
         "id": "bolt_armor_trim_smithing_template",
         "name": "나사 형판",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bolt_armor_trim_smithing_template.png",
         "quality": "ok"
       },
       {
+        "id": "blue_dye",
+        "name": "파란색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/blue_dye.png",
+        "quality": "ok"
+      },
+      {
         "id": "black_dye",
         "name": "검은색 염료",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/black_dye.png",
+        "quality": "ok"
+      },
+      {
+        "id": "arrow",
+        "name": "화살",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/arrow.png",
+        "quality": "ok"
+      },
+      {
+        "id": "bamboo_raft",
+        "name": "대나무 뗏목",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bamboo_raft.png",
+        "quality": "ok"
+      },
+      {
+        "id": "brown_dye",
+        "name": "갈색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/brown_dye.png",
         "quality": "ok"
       },
       {
@@ -2642,15 +2660,9 @@
         "quality": "ok"
       },
       {
-        "id": "bamboo_raft",
-        "name": "대나무 뗏목",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bamboo_raft.png",
-        "quality": "ok"
-      },
-      {
-        "id": "arrow",
-        "name": "화살",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/arrow.png",
+        "id": "bamboo_chest_raft",
+        "name": "상자가 실린 대나무 뗏목",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bamboo_chest_raft.png",
         "quality": "ok"
       },
       {
@@ -2660,15 +2672,9 @@
         "quality": "ok"
       },
       {
-        "id": "brown_dye",
-        "name": "갈색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/brown_dye.png",
-        "quality": "ok"
-      },
-      {
-        "id": "bone_meal",
-        "name": "뼛가루",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bone_meal.png",
+        "id": "chest_minecart",
+        "name": "상자가 실린 광산 수레",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/chest_minecart.png",
         "quality": "ok"
       },
       {
@@ -2678,15 +2684,9 @@
         "quality": "ok"
       },
       {
-        "id": "chest_minecart",
-        "name": "상자가 실린 광산 수레",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/chest_minecart.png",
-        "quality": "ok"
-      },
-      {
-        "id": "coast_armor_trim_smithing_template",
-        "name": "해안 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/coast_armor_trim_smithing_template.png",
+        "id": "bow",
+        "name": "활",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bow.png",
         "quality": "ok"
       },
       {
@@ -2696,21 +2696,27 @@
         "quality": "ok"
       },
       {
-        "id": "bamboo_chest_raft",
-        "name": "상자가 실린 대나무 뗏목",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bamboo_chest_raft.png",
-        "quality": "ok"
-      },
-      {
         "id": "book",
         "name": "책",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/book.png",
         "quality": "ok"
       },
       {
+        "id": "bone_meal",
+        "name": "뼛가루",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bone_meal.png",
+        "quality": "ok"
+      },
+      {
         "id": "bowl",
         "name": "그릇",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bowl.png",
+        "quality": "ok"
+      },
+      {
+        "id": "coast_armor_trim_smithing_template",
+        "name": "해안 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/coast_armor_trim_smithing_template.png",
         "quality": "ok"
       },
       {
@@ -2726,9 +2732,9 @@
         "quality": "ok"
       },
       {
-        "id": "bow",
-        "name": "활",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bow.png",
+        "id": "brush",
+        "name": "솔",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/brush.png",
         "quality": "ok"
       },
       {
@@ -2738,33 +2744,21 @@
         "quality": "ok"
       },
       {
-        "id": "brush",
-        "name": "솔",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/brush.png",
-        "quality": "ok"
-      },
-      {
-        "id": "coal",
-        "name": "석탄",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/coal.png",
-        "quality": "ok"
-      },
-      {
-        "id": "creeper_banner_pattern",
-        "name": "현수막 무늬",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/creeper_banner_pattern.png",
-        "quality": "ok"
-      },
-      {
-        "id": "copper_ingot",
-        "name": "구리 주괴",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/copper_ingot.png",
-        "quality": "ok"
-      },
-      {
         "id": "carrot_on_a_stick",
         "name": "당근 낚싯대",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/carrot_on_a_stick.png",
+        "quality": "ok"
+      },
+      {
+        "id": "bundle",
+        "name": "꾸러미",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bundle.png",
+        "quality": "ok"
+      },
+      {
+        "id": "diamond_axe",
+        "name": "다이아몬드 도끼",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_axe.png",
         "quality": "ok"
       },
       {
@@ -2780,15 +2774,15 @@
         "quality": "ok"
       },
       {
-        "id": "diamond_chestplate",
-        "name": "다이아몬드 흉갑",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_chestplate.png",
+        "id": "coal",
+        "name": "석탄",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/coal.png",
         "quality": "ok"
       },
       {
-        "id": "diamond_axe",
-        "name": "다이아몬드 도끼",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_axe.png",
+        "id": "copper_ingot",
+        "name": "구리 주괴",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/copper_ingot.png",
         "quality": "ok"
       },
       {
@@ -2804,39 +2798,9 @@
         "quality": "ok"
       },
       {
-        "id": "dried_kelp",
-        "name": "말린 켈프",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/dried_kelp_side.png",
-        "quality": "ok"
-      },
-      {
-        "id": "diamond_sword",
-        "name": "다이아몬드 검",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_sword.png",
-        "quality": "ok"
-      },
-      {
-        "id": "eye_of_ender",
-        "name": "엔더의 눈",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/ender_eye.png",
-        "quality": "ok"
-      },
-      {
-        "id": "diamond_hoe",
-        "name": "다이아몬드 괭이",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_hoe.png",
-        "quality": "ok"
-      },
-      {
-        "id": "diamond_helmet",
-        "name": "다이아몬드 투구",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_helmet.png",
-        "quality": "ok"
-      },
-      {
-        "id": "bundle",
-        "name": "꾸러미",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/bundle.png",
+        "id": "creeper_banner_pattern",
+        "name": "현수막 무늬",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/creeper_banner_pattern.png",
         "quality": "ok"
       },
       {
@@ -2846,15 +2810,15 @@
         "quality": "ok"
       },
       {
-        "id": "eye_armor_trim_smithing_template",
-        "name": "눈 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/eye_armor_trim_smithing_template.png",
+        "id": "dried_kelp",
+        "name": "말린 켈프",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/dried_kelp_side.png",
         "quality": "ok"
       },
       {
-        "id": "diamond_shovel",
-        "name": "다이아몬드 삽",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_shovel.png",
+        "id": "eye_of_ender",
+        "name": "엔더의 눈",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/ender_eye.png",
         "quality": "ok"
       },
       {
@@ -2864,33 +2828,27 @@
         "quality": "ok"
       },
       {
-        "id": "flow_armor_trim_smithing_template",
-        "name": "흐름 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/flow_armor_trim_smithing_template.png",
+        "id": "diamond_helmet",
+        "name": "다이아몬드 투구",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_helmet.png",
         "quality": "ok"
       },
       {
-        "id": "emerald",
-        "name": "에메랄드",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/emerald.png",
+        "id": "eye_armor_trim_smithing_template",
+        "name": "눈 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/eye_armor_trim_smithing_template.png",
         "quality": "ok"
       },
       {
-        "id": "furnace_minecart",
-        "name": "화로가 실린 광산 수레",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/furnace_minecart.png",
+        "id": "diamond_hoe",
+        "name": "다이아몬드 괭이",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_hoe.png",
         "quality": "ok"
       },
       {
-        "id": "ender_eye",
-        "name": "엔더의 눈",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/ender_eye.png",
-        "quality": "ok"
-      },
-      {
-        "id": "glow_item_frame",
-        "name": "발광 아이템 액자",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/glow_item_frame.png",
+        "id": "diamond_chestplate",
+        "name": "다이아몬드 흉갑",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_chestplate.png",
         "quality": "ok"
       },
       {
@@ -2900,21 +2858,27 @@
         "quality": "ok"
       },
       {
-        "id": "end_crystal",
-        "name": "엔드 수정",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/end_crystal.png",
+        "id": "diamond_shovel",
+        "name": "다이아몬드 삽",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_shovel.png",
         "quality": "ok"
       },
       {
-        "id": "fire_charge",
-        "name": "화염구",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/fire_charge.png",
+        "id": "flow_armor_trim_smithing_template",
+        "name": "흐름 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/flow_armor_trim_smithing_template.png",
         "quality": "ok"
       },
       {
-        "id": "field_masoned_banner_pattern",
-        "name": "벽돌 현수막 무늬",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/field_masoned_banner_pattern.png",
+        "id": "diamond_sword",
+        "name": "다이아몬드 검",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/diamond_sword.png",
+        "quality": "ok"
+      },
+      {
+        "id": "furnace_minecart",
+        "name": "화로가 실린 광산 수레",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/furnace_minecart.png",
         "quality": "ok"
       },
       {
@@ -2924,9 +2888,15 @@
         "quality": "ok"
       },
       {
-        "id": "flower_banner_pattern",
-        "name": "현수막 무늬",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/flower_banner_pattern.png",
+        "id": "glow_item_frame",
+        "name": "발광 아이템 액자",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/glow_item_frame.png",
+        "quality": "ok"
+      },
+      {
+        "id": "field_masoned_banner_pattern",
+        "name": "벽돌 현수막 무늬",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/field_masoned_banner_pattern.png",
         "quality": "ok"
       },
       {
@@ -2936,33 +2906,57 @@
         "quality": "ok"
       },
       {
-        "id": "firework_rocket",
-        "name": "폭죽 로켓",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/firework_rocket.png",
-        "quality": "ok"
-      },
-      {
         "id": "flint_and_steel",
         "name": "부싯돌과 부시",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/flint_and_steel.png",
         "quality": "ok"
       },
       {
-        "id": "glistering_melon_slice",
-        "name": "반짝이는 수박 조각",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/glistering_melon_slice.png",
+        "id": "emerald",
+        "name": "에메랄드",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/emerald.png",
         "quality": "ok"
       },
       {
-        "id": "glass_bottle",
-        "name": "유리병",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/glass_bottle.png",
+        "id": "ender_eye",
+        "name": "엔더의 눈",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/ender_eye.png",
+        "quality": "ok"
+      },
+      {
+        "id": "end_crystal",
+        "name": "엔드 수정",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/end_crystal.png",
+        "quality": "ok"
+      },
+      {
+        "id": "firework_rocket",
+        "name": "폭죽 로켓",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/firework_rocket.png",
+        "quality": "ok"
+      },
+      {
+        "id": "fire_charge",
+        "name": "화염구",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/fire_charge.png",
+        "quality": "ok"
+      },
+      {
+        "id": "flower_banner_pattern",
+        "name": "현수막 무늬",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/flower_banner_pattern.png",
         "quality": "ok"
       },
       {
         "id": "gold_ingot",
         "name": "금 주괴",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/gold_ingot.png",
+        "quality": "ok"
+      },
+      {
+        "id": "glistering_melon_slice",
+        "name": "반짝이는 수박 조각",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/glistering_melon_slice.png",
         "quality": "ok"
       },
       {
@@ -2975,18 +2969,6 @@
         "id": "golden_chestplate",
         "name": "금 흉갑",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_chestplate.png",
-        "quality": "ok"
-      },
-      {
-        "id": "golden_carrot",
-        "name": "황금 당근",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_carrot.png",
-        "quality": "ok"
-      },
-      {
-        "id": "gray_dye",
-        "name": "회색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/gray_dye.png",
         "quality": "ok"
       },
       {
@@ -3008,15 +2990,15 @@
         "quality": "ok"
       },
       {
-        "id": "hopper_minecart",
-        "name": "호퍼가 실린 광산 수레",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/hopper_minecart.png",
+        "id": "golden_carrot",
+        "name": "황금 당근",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_carrot.png",
         "quality": "ok"
       },
       {
-        "id": "golden_leggings",
-        "name": "금 레깅스",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_leggings.png",
+        "id": "hopper_minecart",
+        "name": "호퍼가 실린 광산 수레",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/hopper_minecart.png",
         "quality": "ok"
       },
       {
@@ -3026,15 +3008,21 @@
         "quality": "ok"
       },
       {
-        "id": "golden_helmet",
-        "name": "금 투구",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_helmet.png",
+        "id": "gray_dye",
+        "name": "회색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/gray_dye.png",
         "quality": "ok"
       },
       {
-        "id": "golden_pickaxe",
-        "name": "금 곡괭이",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_pickaxe.png",
+        "id": "glass_bottle",
+        "name": "유리병",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/glass_bottle.png",
+        "quality": "ok"
+      },
+      {
+        "id": "golden_helmet",
+        "name": "금 투구",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_helmet.png",
         "quality": "ok"
       },
       {
@@ -3044,63 +3032,15 @@
         "quality": "ok"
       },
       {
+        "id": "golden_leggings",
+        "name": "금 레깅스",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_leggings.png",
+        "quality": "ok"
+      },
+      {
         "id": "honey_bottle",
         "name": "꿀이 든 병",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/honey_bottle.png",
-        "quality": "ok"
-      },
-      {
-        "id": "iron_boots",
-        "name": "철 부츠",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_boots.png",
-        "quality": "ok"
-      },
-      {
-        "id": "iron_helmet",
-        "name": "철 투구",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_helmet.png",
-        "quality": "ok"
-      },
-      {
-        "id": "item_frame",
-        "name": "아이템 액자",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/item_frame.png",
-        "quality": "ok"
-      },
-      {
-        "id": "golden_shovel",
-        "name": "금 삽",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_shovel.png",
-        "quality": "ok"
-      },
-      {
-        "id": "iron_axe",
-        "name": "철 도끼",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_axe.png",
-        "quality": "ok"
-      },
-      {
-        "id": "iron_leggings",
-        "name": "철 레깅스",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_leggings.png",
-        "quality": "ok"
-      },
-      {
-        "id": "iron_chestplate",
-        "name": "철 흉갑",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_chestplate.png",
-        "quality": "ok"
-      },
-      {
-        "id": "iron_ingot",
-        "name": "철 주괴",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_ingot.png",
-        "quality": "ok"
-      },
-      {
-        "id": "iron_nugget",
-        "name": "철 조각",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_nugget.png",
         "quality": "ok"
       },
       {
@@ -3110,9 +3050,39 @@
         "quality": "ok"
       },
       {
-        "id": "leather_horse_armor",
-        "name": "가죽 말 갑옷",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_horse_armor.png",
+        "id": "iron_helmet",
+        "name": "철 투구",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_helmet.png",
+        "quality": "ok"
+      },
+      {
+        "id": "iron_boots",
+        "name": "철 부츠",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_boots.png",
+        "quality": "ok"
+      },
+      {
+        "id": "item_frame",
+        "name": "아이템 액자",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/block/item_frame.png",
+        "quality": "ok"
+      },
+      {
+        "id": "iron_chestplate",
+        "name": "철 흉갑",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_chestplate.png",
+        "quality": "ok"
+      },
+      {
+        "id": "golden_shovel",
+        "name": "금 삽",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_shovel.png",
+        "quality": "ok"
+      },
+      {
+        "id": "golden_pickaxe",
+        "name": "금 곡괭이",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/golden_pickaxe.png",
         "quality": "ok"
       },
       {
@@ -3122,51 +3092,15 @@
         "quality": "ok"
       },
       {
-        "id": "iron_shovel",
-        "name": "철 삽",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_shovel.png",
+        "id": "iron_leggings",
+        "name": "철 레깅스",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_leggings.png",
         "quality": "ok"
       },
       {
-        "id": "light_blue_dye",
-        "name": "하늘색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/light_blue_dye.png",
-        "quality": "ok"
-      },
-      {
-        "id": "lime_dye",
-        "name": "연두색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/lime_dye.png",
-        "quality": "ok"
-      },
-      {
-        "id": "iron_sword",
-        "name": "철 검",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_sword.png",
-        "quality": "ok"
-      },
-      {
-        "id": "light_gray_dye",
-        "name": "회백색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/light_gray_dye.png",
-        "quality": "ok"
-      },
-      {
-        "id": "map",
-        "name": "빈 지도",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/map.png",
-        "quality": "ok"
-      },
-      {
-        "id": "lead",
-        "name": "끈",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/lead.png",
-        "quality": "ok"
-      },
-      {
-        "id": "magenta_dye",
-        "name": "자홍색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/magenta_dye.png",
+        "id": "iron_axe",
+        "name": "철 도끼",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_axe.png",
         "quality": "ok"
       },
       {
@@ -3176,21 +3110,21 @@
         "quality": "ok"
       },
       {
-        "id": "leather_helmet",
-        "name": "가죽 모자",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_helmet.png",
+        "id": "leather_horse_armor",
+        "name": "가죽 말 갑옷",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_horse_armor.png",
         "quality": "ok"
       },
       {
-        "id": "leather_chestplate",
-        "name": "가죽 조끼",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_chestplate.png",
+        "id": "iron_ingot",
+        "name": "철 주괴",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_ingot.png",
         "quality": "ok"
       },
       {
-        "id": "leather_boots",
-        "name": "가죽 장화",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_boots.png",
+        "id": "light_blue_dye",
+        "name": "하늘색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/light_blue_dye.png",
         "quality": "ok"
       },
       {
@@ -3200,21 +3134,75 @@
         "quality": "ok"
       },
       {
+        "id": "iron_sword",
+        "name": "철 검",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_sword.png",
+        "quality": "ok"
+      },
+      {
+        "id": "iron_nugget",
+        "name": "철 조각",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_nugget.png",
+        "quality": "ok"
+      },
+      {
+        "id": "lead",
+        "name": "끈",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/lead.png",
+        "quality": "ok"
+      },
+      {
+        "id": "map",
+        "name": "빈 지도",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/map.png",
+        "quality": "ok"
+      },
+      {
+        "id": "lime_dye",
+        "name": "연두색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/lime_dye.png",
+        "quality": "ok"
+      },
+      {
+        "id": "magenta_dye",
+        "name": "자홍색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/magenta_dye.png",
+        "quality": "ok"
+      },
+      {
+        "id": "light_gray_dye",
+        "name": "회백색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/light_gray_dye.png",
+        "quality": "ok"
+      },
+      {
+        "id": "leather_chestplate",
+        "name": "가죽 조끼",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_chestplate.png",
+        "quality": "ok"
+      },
+      {
+        "id": "iron_shovel",
+        "name": "철 삽",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/iron_shovel.png",
+        "quality": "ok"
+      },
+      {
+        "id": "leather_boots",
+        "name": "가죽 장화",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_boots.png",
+        "quality": "ok"
+      },
+      {
         "id": "leather",
         "name": "가죽",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather.png",
         "quality": "ok"
       },
       {
-        "id": "netherite_upgrade_smithing_template",
-        "name": "네더라이트 강화 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/netherite_upgrade_smithing_template.png",
-        "quality": "ok"
-      },
-      {
-        "id": "magma_cream",
-        "name": "마그마 크림",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/magma_cream.png",
+        "id": "leather_helmet",
+        "name": "가죽 모자",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_helmet.png",
         "quality": "ok"
       },
       {
@@ -3224,15 +3212,9 @@
         "quality": "ok"
       },
       {
-        "id": "leather_leggings",
-        "name": "가죽 바지",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_leggings.png",
-        "quality": "ok"
-      },
-      {
-        "id": "melon_seeds",
-        "name": "수박씨",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/melon_seeds.png",
+        "id": "netherite_upgrade_smithing_template",
+        "name": "네더라이트 강화 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/netherite_upgrade_smithing_template.png",
         "quality": "ok"
       },
       {
@@ -3242,45 +3224,21 @@
         "quality": "ok"
       },
       {
+        "id": "melon_seeds",
+        "name": "수박씨",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/melon_seeds.png",
+        "quality": "ok"
+      },
+      {
         "id": "mojang_banner_pattern",
         "name": "현수막 무늬",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/mojang_banner_pattern.png",
         "quality": "ok"
       },
       {
-        "id": "mace",
-        "name": "철퇴",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/mace.png",
-        "quality": "ok"
-      },
-      {
-        "id": "netherite_ingot",
-        "name": "네더라이트 주괴",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/netherite_ingot.png",
-        "quality": "ok"
-      },
-      {
-        "id": "purple_dye",
-        "name": "보라색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/purple_dye.png",
-        "quality": "ok"
-      },
-      {
-        "id": "music_disc_5",
-        "name": "음반",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/music_disc_5.png",
-        "quality": "ok"
-      },
-      {
-        "id": "recovery_compass",
-        "name": "만회 나침반",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/recovery_compass_00.png",
-        "quality": "ok"
-      },
-      {
-        "id": "raiser_armor_trim_smithing_template",
-        "name": "사육사 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/raiser_armor_trim_smithing_template.png",
+        "id": "leather_leggings",
+        "name": "가죽 바지",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/leather_leggings.png",
         "quality": "ok"
       },
       {
@@ -3290,15 +3248,15 @@
         "quality": "ok"
       },
       {
-        "id": "red_dye",
-        "name": "빨간색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/red_dye.png",
+        "id": "purple_dye",
+        "name": "보라색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/purple_dye.png",
         "quality": "ok"
       },
       {
-        "id": "sentry_armor_trim_smithing_template",
-        "name": "보초 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/sentry_armor_trim_smithing_template.png",
+        "id": "netherite_ingot",
+        "name": "네더라이트 주괴",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/netherite_ingot.png",
         "quality": "ok"
       },
       {
@@ -3308,15 +3266,45 @@
         "quality": "ok"
       },
       {
-        "id": "rib_armor_trim_smithing_template",
-        "name": "갈비뼈 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/rib_armor_trim_smithing_template.png",
+        "id": "raiser_armor_trim_smithing_template",
+        "name": "사육사 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/raiser_armor_trim_smithing_template.png",
         "quality": "ok"
       },
       {
-        "id": "pumpkin_seeds",
-        "name": "호박씨",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pumpkin_seeds.png",
+        "id": "recovery_compass",
+        "name": "만회 나침반",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/recovery_compass_00.png",
+        "quality": "ok"
+      },
+      {
+        "id": "mace",
+        "name": "철퇴",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/mace.png",
+        "quality": "ok"
+      },
+      {
+        "id": "music_disc_5",
+        "name": "음반",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/music_disc_5.png",
+        "quality": "ok"
+      },
+      {
+        "id": "magma_cream",
+        "name": "마그마 크림",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/magma_cream.png",
+        "quality": "ok"
+      },
+      {
+        "id": "red_dye",
+        "name": "빨간색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/red_dye.png",
+        "quality": "ok"
+      },
+      {
+        "id": "rib_armor_trim_smithing_template",
+        "name": "갈비뼈 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/rib_armor_trim_smithing_template.png",
         "quality": "ok"
       },
       {
@@ -3326,45 +3314,9 @@
         "quality": "ok"
       },
       {
-        "id": "pumpkin_pie",
-        "name": "호박 파이",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pumpkin_pie.png",
-        "quality": "ok"
-      },
-      {
-        "id": "rabbit_stew",
-        "name": "토끼 스튜",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/rabbit_stew.png",
-        "quality": "ok"
-      },
-      {
         "id": "silence_armor_trim_smithing_template",
         "name": "고요 형판",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/silence_armor_trim_smithing_template.png",
-        "quality": "ok"
-      },
-      {
-        "id": "spire_armor_trim_smithing_template",
-        "name": "첨탑 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spire_armor_trim_smithing_template.png",
-        "quality": "ok"
-      },
-      {
-        "id": "paper",
-        "name": "종이",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/paper.png",
-        "quality": "ok"
-      },
-      {
-        "id": "snout_armor_trim_smithing_template",
-        "name": "돼지 코 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/snout_armor_trim_smithing_template.png",
-        "quality": "ok"
-      },
-      {
-        "id": "raw_gold",
-        "name": "금 원석",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/raw_gold.png",
         "quality": "ok"
       },
       {
@@ -3374,27 +3326,57 @@
         "quality": "ok"
       },
       {
+        "id": "sentry_armor_trim_smithing_template",
+        "name": "보초 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/sentry_armor_trim_smithing_template.png",
+        "quality": "ok"
+      },
+      {
+        "id": "pumpkin_seeds",
+        "name": "호박씨",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pumpkin_seeds.png",
+        "quality": "ok"
+      },
+      {
+        "id": "paper",
+        "name": "종이",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/paper.png",
+        "quality": "ok"
+      },
+      {
+        "id": "rabbit_stew",
+        "name": "토끼 스튜",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/rabbit_stew.png",
+        "quality": "ok"
+      },
+      {
+        "id": "spire_armor_trim_smithing_template",
+        "name": "첨탑 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spire_armor_trim_smithing_template.png",
+        "quality": "ok"
+      },
+      {
+        "id": "snout_armor_trim_smithing_template",
+        "name": "돼지 코 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/snout_armor_trim_smithing_template.png",
+        "quality": "ok"
+      },
+      {
+        "id": "pumpkin_pie",
+        "name": "호박 파이",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/pumpkin_pie.png",
+        "quality": "ok"
+      },
+      {
         "id": "raw_iron",
         "name": "철 원석",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/raw_iron.png",
         "quality": "ok"
       },
       {
-        "id": "skull_banner_pattern",
-        "name": "현수막 무늬",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/skull_banner_pattern.png",
-        "quality": "ok"
-      },
-      {
-        "id": "raw_copper",
-        "name": "구리 원석",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/raw_copper.png",
-        "quality": "ok"
-      },
-      {
-        "id": "spectral_arrow",
-        "name": "분광 화살",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spectral_arrow.png",
+        "id": "raw_gold",
+        "name": "금 원석",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/raw_gold.png",
         "quality": "ok"
       },
       {
@@ -3404,57 +3386,21 @@
         "quality": "ok"
       },
       {
-        "id": "stick",
-        "name": "막대기",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/stick.png",
+        "id": "raw_copper",
+        "name": "구리 원석",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/raw_copper.png",
         "quality": "ok"
       },
       {
-        "id": "stone_axe",
-        "name": "돌 도끼",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/stone_axe.png",
+        "id": "skull_banner_pattern",
+        "name": "현수막 무늬",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/skull_banner_pattern.png",
         "quality": "ok"
       },
       {
-        "id": "spyglass",
-        "name": "망원경",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spyglass.png",
-        "quality": "ok"
-      },
-      {
-        "id": "tide_armor_trim_smithing_template",
-        "name": "물결 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/tide_armor_trim_smithing_template.png",
-        "quality": "ok"
-      },
-      {
-        "id": "shears",
-        "name": "가위",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/shears.png",
-        "quality": "ok"
-      },
-      {
-        "id": "stone_pickaxe",
-        "name": "돌 곡괭이",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/stone_pickaxe.png",
-        "quality": "ok"
-      },
-      {
-        "id": "vex_armor_trim_smithing_template",
-        "name": "벡스 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/vex_armor_trim_smithing_template.png",
-        "quality": "ok"
-      },
-      {
-        "id": "stone_shovel",
-        "name": "돌 삽",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/stone_shovel.png",
-        "quality": "ok"
-      },
-      {
-        "id": "ward_armor_trim_smithing_template",
-        "name": "파수 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/ward_armor_trim_smithing_template.png",
+        "id": "spectral_arrow",
+        "name": "분광 화살",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spectral_arrow.png",
         "quality": "ok"
       },
       {
@@ -3464,9 +3410,33 @@
         "quality": "ok"
       },
       {
-        "id": "tnt_minecart",
-        "name": "TNT가 실린 광산 수레",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/tnt_minecart.png",
+        "id": "spyglass",
+        "name": "망원경",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/spyglass.png",
+        "quality": "ok"
+      },
+      {
+        "id": "shears",
+        "name": "가위",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/shears.png",
+        "quality": "ok"
+      },
+      {
+        "id": "stone_axe",
+        "name": "돌 도끼",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/stone_axe.png",
+        "quality": "ok"
+      },
+      {
+        "id": "vex_armor_trim_smithing_template",
+        "name": "벡스 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/vex_armor_trim_smithing_template.png",
+        "quality": "ok"
+      },
+      {
+        "id": "tide_armor_trim_smithing_template",
+        "name": "물결 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/tide_armor_trim_smithing_template.png",
         "quality": "ok"
       },
       {
@@ -3476,9 +3446,33 @@
         "quality": "ok"
       },
       {
+        "id": "stone_shovel",
+        "name": "돌 삽",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/stone_shovel.png",
+        "quality": "ok"
+      },
+      {
+        "id": "tnt_minecart",
+        "name": "TNT가 실린 광산 수레",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/tnt_minecart.png",
+        "quality": "ok"
+      },
+      {
+        "id": "wayfinder_armor_trim_smithing_template",
+        "name": "길잡이 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/wayfinder_armor_trim_smithing_template.png",
+        "quality": "ok"
+      },
+      {
         "id": "white_dye",
         "name": "하얀색 염료",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/white_dye.png",
+        "quality": "ok"
+      },
+      {
+        "id": "ward_armor_trim_smithing_template",
+        "name": "파수 형판",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/ward_armor_trim_smithing_template.png",
         "quality": "ok"
       },
       {
@@ -3488,15 +3482,21 @@
         "quality": "ok"
       },
       {
+        "id": "stick",
+        "name": "막대기",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/stick.png",
+        "quality": "ok"
+      },
+      {
         "id": "sugar",
         "name": "설탕",
         "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/sugar.png",
         "quality": "ok"
       },
       {
-        "id": "wayfinder_armor_trim_smithing_template",
-        "name": "길잡이 형판",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/wayfinder_armor_trim_smithing_template.png",
+        "id": "stone_pickaxe",
+        "name": "돌 곡괭이",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/stone_pickaxe.png",
         "quality": "ok"
       },
       {
@@ -3512,21 +3512,9 @@
         "quality": "ok"
       },
       {
-        "id": "yellow_dye",
-        "name": "노란색 염료",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/yellow_dye.png",
-        "quality": "ok"
-      },
-      {
-        "id": "turtle_helmet",
-        "name": "거북 등딱지",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/turtle_helmet.png",
-        "quality": "ok"
-      },
-      {
-        "id": "wooden_sword",
-        "name": "나무 검",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/wooden_sword.png",
+        "id": "warped_fungus_on_a_stick",
+        "name": "뒤틀린 균 낚싯대",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/warped_fungus_on_a_stick.png",
         "quality": "ok"
       },
       {
@@ -3536,9 +3524,21 @@
         "quality": "ok"
       },
       {
-        "id": "wolf_armor",
-        "name": "늑대 갑옷",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/wolf_armor.png",
+        "id": "turtle_helmet",
+        "name": "거북 등딱지",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/turtle_helmet.png",
+        "quality": "ok"
+      },
+      {
+        "id": "yellow_dye",
+        "name": "노란색 염료",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/yellow_dye.png",
+        "quality": "ok"
+      },
+      {
+        "id": "wooden_axe",
+        "name": "나무 도끼",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/wooden_axe.png",
         "quality": "ok"
       },
       {
@@ -3548,9 +3548,9 @@
         "quality": "ok"
       },
       {
-        "id": "wooden_axe",
-        "name": "나무 도끼",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/wooden_axe.png",
+        "id": "wolf_armor",
+        "name": "늑대 갑옷",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/wolf_armor.png",
         "quality": "ok"
       },
       {
@@ -3572,19 +3572,13 @@
         "quality": "ok"
       },
       {
-        "id": "warped_fungus_on_a_stick",
-        "name": "뒤틀린 균 낚싯대",
-        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/warped_fungus_on_a_stick.png",
+        "id": "wooden_sword",
+        "name": "나무 검",
+        "url": "https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/item/wooden_sword.png",
         "quality": "ok"
       }
     ],
     "ok_wiki_shape": [
-      {
-        "id": "acacia_fence_gate",
-        "name": "아카시아나무 울타리 문",
-        "url": "https://minecraft.wiki/images/BlockSprite_acacia-fence-gate.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
       {
         "id": "acacia_fence",
         "name": "아카시아나무 울타리",
@@ -3598,6 +3592,18 @@
         "quality": "ok_wiki_shape"
       },
       {
+        "id": "acacia_fence_gate",
+        "name": "아카시아나무 울타리 문",
+        "url": "https://minecraft.wiki/images/BlockSprite_acacia-fence-gate.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "acacia_slab",
+        "name": "아카시아나무 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_acacia-slab.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
         "id": "acacia_button",
         "name": "아카시아나무 버튼",
         "url": "https://minecraft.wiki/images/BlockSprite_acacia-button.png?format=original",
@@ -3607,12 +3613,6 @@
         "id": "acacia_stairs",
         "name": "아카시아나무 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_acacia-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
-        "id": "acacia_slab",
-        "name": "아카시아나무 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_acacia-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -3664,21 +3664,27 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "bamboo_pressure_plate",
-        "name": "대나무 압력판",
-        "url": "https://minecraft.wiki/images/BlockSprite_bamboo-pressure-plate.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "bamboo_mosaic_stairs",
         "name": "대나무 모자이크 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_bamboo-mosaic-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
+        "id": "bamboo_pressure_plate",
+        "name": "대나무 압력판",
+        "url": "https://minecraft.wiki/images/BlockSprite_bamboo-pressure-plate.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
         "id": "bamboo_slab",
         "name": "대나무 반 블록",
         "url": "https://minecraft.wiki/images/BlockSprite_bamboo-slab.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "bamboo_stairs",
+        "name": "대나무 계단",
+        "url": "https://minecraft.wiki/images/BlockSprite_bamboo-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -3706,12 +3712,6 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "bamboo_stairs",
-        "name": "대나무 계단",
-        "url": "https://minecraft.wiki/images/BlockSprite_bamboo-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "birch_pressure_plate",
         "name": "자작나무 압력판",
         "url": "https://minecraft.wiki/images/BlockSprite_birch-pressure-plate.png?format=original",
@@ -3736,12 +3736,6 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "blackstone_stairs",
-        "name": "흑암 계단",
-        "url": "https://minecraft.wiki/images/BlockSprite_blackstone-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "blackstone_slab",
         "name": "흑암 반 블록",
         "url": "https://minecraft.wiki/images/BlockSprite_blackstone-slab.png?format=original",
@@ -3754,15 +3748,21 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "brick_slab",
-        "name": "벽돌 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_brick-slab.png?format=original",
+        "id": "blackstone_stairs",
+        "name": "흑암 계단",
+        "url": "https://minecraft.wiki/images/BlockSprite_blackstone-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
         "id": "brick_stairs",
         "name": "벽돌 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_brick-stairs.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "brick_slab",
+        "name": "벽돌 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_brick-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -3814,6 +3814,12 @@
         "quality": "ok_wiki_shape"
       },
       {
+        "id": "cobblestone_slab",
+        "name": "조약돌 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_cobblestone-slab.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
         "id": "cobbled_deepslate_wall",
         "name": "심층암 조약돌 담장",
         "url": "https://minecraft.wiki/images/BlockSprite_cobbled-deepslate-wall.png?format=original",
@@ -3823,12 +3829,6 @@
         "id": "cobbled_deepslate_stairs",
         "name": "심층암 조약돌 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_cobbled-deepslate-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
-        "id": "cobblestone_slab",
-        "name": "조약돌 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_cobblestone-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -3874,15 +3874,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "crimson_trapdoor",
-        "name": "진홍빛 다락문",
-        "url": "https://minecraft.wiki/images/BlockSprite_crimson-trapdoor.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "crimson_stairs",
         "name": "진홍빛 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_crimson-stairs.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "crimson_trapdoor",
+        "name": "진홍빛 다락문",
+        "url": "https://minecraft.wiki/images/BlockSprite_crimson-trapdoor.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -3898,15 +3898,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "dark_oak_button",
-        "name": "짙은 참나무 버튼",
-        "url": "https://minecraft.wiki/images/BlockSprite_dark-oak-button.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "cut_copper_slab",
         "name": "깎인 구리 반 블록",
         "url": "https://minecraft.wiki/images/BlockSprite_cut-copper-slab.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "dark_oak_button",
+        "name": "짙은 참나무 버튼",
+        "url": "https://minecraft.wiki/images/BlockSprite_dark-oak-button.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -3922,6 +3922,12 @@
         "quality": "ok_wiki_shape"
       },
       {
+        "id": "cut_copper_stairs",
+        "name": "깎인 구리 계단",
+        "url": "https://minecraft.wiki/images/BlockSprite_cut-copper-stairs.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
         "id": "dark_oak_pressure_plate",
         "name": "짙은 참나무 압력판",
         "url": "https://minecraft.wiki/images/BlockSprite_dark-oak-pressure-plate.png?format=original",
@@ -3931,12 +3937,6 @@
         "id": "dark_oak_slab",
         "name": "짙은 참나무 반 블록",
         "url": "https://minecraft.wiki/images/BlockSprite_dark-oak-slab.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
-        "id": "cut_copper_stairs",
-        "name": "깎인 구리 계단",
-        "url": "https://minecraft.wiki/images/BlockSprite_cut-copper-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -3964,12 +3964,6 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "deepslate_brick_slab",
-        "name": "심층암 벽돌 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_deepslate-brick-slab.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "deepslate_brick_stairs",
         "name": "심층암 벽돌 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_deepslate-brick-stairs.png?format=original",
@@ -3979,6 +3973,12 @@
         "id": "deepslate_brick_wall",
         "name": "심층암 벽돌 담장",
         "url": "https://minecraft.wiki/images/BlockSprite_deepslate-brick-wall.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "deepslate_brick_slab",
+        "name": "심층암 벽돌 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_deepslate-brick-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4018,9 +4018,9 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "end_stone_brick_wall",
-        "name": "엔드 석재 벽돌 담장",
-        "url": "https://minecraft.wiki/images/BlockSprite_end-stone-brick-wall.png?format=original",
+        "id": "end_stone_brick_slab",
+        "name": "엔드 석재 벽돌 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_end-stone-brick-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4030,9 +4030,9 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "end_stone_brick_slab",
-        "name": "엔드 석재 벽돌 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_end-stone-brick-slab.png?format=original",
+        "id": "end_stone_brick_wall",
+        "name": "엔드 석재 벽돌 담장",
+        "url": "https://minecraft.wiki/images/BlockSprite_end-stone-brick-wall.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4042,15 +4042,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "granite_stairs",
-        "name": "화강암 계단",
-        "url": "https://minecraft.wiki/images/BlockSprite_granite-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "granite_wall",
         "name": "화강암 담장",
         "url": "https://minecraft.wiki/images/BlockSprite_granite-wall.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "granite_stairs",
+        "name": "화강암 계단",
+        "url": "https://minecraft.wiki/images/BlockSprite_granite-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4168,15 +4168,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "mossy_cobblestone_slab",
-        "name": "이끼 낀 조약돌 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_mossy-cobblestone-slab.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "mossy_cobblestone_stairs",
         "name": "이끼 낀 조약돌 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_mossy-cobblestone-stairs.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "mossy_cobblestone_slab",
+        "name": "이끼 낀 조약돌 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_mossy-cobblestone-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4252,12 +4252,6 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "oak_fence",
-        "name": "참나무 울타리",
-        "url": "https://minecraft.wiki/images/BlockSprite_oak-fence.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "oak_fence_gate",
         "name": "참나무 울타리 문",
         "url": "https://minecraft.wiki/images/BlockSprite_oak-fence-gate.png?format=original",
@@ -4267,6 +4261,12 @@
         "id": "oak_pressure_plate",
         "name": "참나무 압력판",
         "url": "https://minecraft.wiki/images/BlockSprite_oak-pressure-plate.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "oak_fence",
+        "name": "참나무 울타리",
+        "url": "https://minecraft.wiki/images/BlockSprite_oak-fence.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4300,21 +4300,9 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "oxidized_cut_copper_stairs",
-        "name": "산화된 깎인 구리 계단",
-        "url": "https://minecraft.wiki/images/BlockSprite_oxidized-cut-copper-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "pale_oak_fence_gate",
         "name": "창백한 참나무 울타리 문",
         "url": "https://minecraft.wiki/images/BlockSprite_pale-oak-fence-gate.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
-        "id": "oxidized_cut_copper_slab",
-        "name": "산화된 깎인 구리 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_oxidized-cut-copper-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4324,9 +4312,9 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "pale_oak_slab",
-        "name": "창백한 참나무 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_pale-oak-slab.png?format=original",
+        "id": "oxidized_cut_copper_slab",
+        "name": "산화된 깎인 구리 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_oxidized-cut-copper-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4342,15 +4330,27 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "polished_andesite_slab",
-        "name": "윤나는 안산암 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_polished-andesite-slab.png?format=original",
+        "id": "pale_oak_slab",
+        "name": "창백한 참나무 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_pale-oak-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
         "id": "polished_andesite_stairs",
         "name": "윤나는 안산암 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_polished-andesite-stairs.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "polished_andesite_slab",
+        "name": "윤나는 안산암 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_polished-andesite-slab.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "oxidized_cut_copper_stairs",
+        "name": "산화된 깎인 구리 계단",
+        "url": "https://minecraft.wiki/images/BlockSprite_oxidized-cut-copper-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4378,15 +4378,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "polished_blackstone_slab",
-        "name": "윤나는 흑암 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_polished-blackstone-slab.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "polished_blackstone_pressure_plate",
         "name": "윤나는 흑암 압력판",
         "url": "https://minecraft.wiki/images/BlockSprite_polished-blackstone-pressure-plate.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "polished_blackstone_slab",
+        "name": "윤나는 흑암 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_polished-blackstone-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4444,12 +4444,6 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "polished_tuff_stairs",
-        "name": "윤나는 응회암 계단",
-        "url": "https://minecraft.wiki/images/BlockSprite_polished-tuff-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "polished_tuff_slab",
         "name": "윤나는 응회암 반 블록",
         "url": "https://minecraft.wiki/images/BlockSprite_polished-tuff-slab.png?format=original",
@@ -4459,6 +4453,12 @@
         "id": "polished_tuff_wall",
         "name": "윤나는 응회암 담장",
         "url": "https://minecraft.wiki/images/BlockSprite_polished-tuff-wall.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "polished_tuff_stairs",
+        "name": "윤나는 응회암 계단",
+        "url": "https://minecraft.wiki/images/BlockSprite_polished-tuff-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4474,15 +4474,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "prismarine_stairs",
-        "name": "프리즈머린 계단",
-        "url": "https://minecraft.wiki/images/BlockSprite_prismarine-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "prismarine_slab",
         "name": "프리즈머린 반 블록",
         "url": "https://minecraft.wiki/images/BlockSprite_prismarine-slab.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "prismarine_stairs",
+        "name": "프리즈머린 계단",
+        "url": "https://minecraft.wiki/images/BlockSprite_prismarine-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4576,15 +4576,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "smooth_red_sandstone_slab",
-        "name": "매끄러운 붉은 사암 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_smooth-red-sandstone-slab.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "smooth_quartz_stairs",
         "name": "매끄러운 석영 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_smooth-quartz-stairs.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "smooth_red_sandstone_slab",
+        "name": "매끄러운 붉은 사암 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_smooth-red-sandstone-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4618,15 +4618,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "spruce_fence",
-        "name": "가문비나무 울타리",
-        "url": "https://minecraft.wiki/images/BlockSprite_spruce-fence.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "spruce_fence_gate",
         "name": "가문비나무 울타리 문",
         "url": "https://minecraft.wiki/images/BlockSprite_spruce-fence-gate.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "spruce_fence",
+        "name": "가문비나무 울타리",
+        "url": "https://minecraft.wiki/images/BlockSprite_spruce-fence.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4654,15 +4654,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "stone_brick_stairs",
-        "name": "석재 벽돌 계단",
-        "url": "https://minecraft.wiki/images/BlockSprite_stone-brick-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "stone_brick_slab",
         "name": "석재 벽돌 반 블록",
         "url": "https://minecraft.wiki/images/BlockSprite_stone-brick-slab.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "stone_brick_stairs",
+        "name": "석재 벽돌 계단",
+        "url": "https://minecraft.wiki/images/BlockSprite_stone-brick-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4684,15 +4684,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "stone_stairs",
-        "name": "돌 계단",
-        "url": "https://minecraft.wiki/images/BlockSprite_stone-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "stone_slab",
         "name": "돌 반 블록",
         "url": "https://minecraft.wiki/images/BlockSprite_stone-slab.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "stone_stairs",
+        "name": "돌 계단",
+        "url": "https://minecraft.wiki/images/BlockSprite_stone-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4714,15 +4714,15 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "tuff_slab",
-        "name": "응회암 반 블록",
-        "url": "https://minecraft.wiki/images/BlockSprite_tuff-slab.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
         "id": "tuff_stairs",
         "name": "응회암 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_tuff-stairs.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
+        "id": "tuff_slab",
+        "name": "응회암 반 블록",
+        "url": "https://minecraft.wiki/images/BlockSprite_tuff-slab.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4768,6 +4768,12 @@
         "quality": "ok_wiki_shape"
       },
       {
+        "id": "warped_trapdoor",
+        "name": "뒤틀린 다락문",
+        "url": "https://minecraft.wiki/images/BlockSprite_warped-trapdoor.png?format=original",
+        "quality": "ok_wiki_shape"
+      },
+      {
         "id": "waxed_cut_copper_slab",
         "name": "밀랍칠한 깎인 구리 반 블록",
         "url": "https://minecraft.wiki/images/BlockSprite_cut-copper-slab.png?format=original",
@@ -4777,12 +4783,6 @@
         "id": "waxed_cut_copper_stairs",
         "name": "밀랍칠한 깎인 구리 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_cut-copper-stairs.png?format=original",
-        "quality": "ok_wiki_shape"
-      },
-      {
-        "id": "warped_trapdoor",
-        "name": "뒤틀린 다락문",
-        "url": "https://minecraft.wiki/images/BlockSprite_warped-trapdoor.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
@@ -4810,14 +4810,14 @@
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "waxed_weathered_cut_copper_stairs",
-        "name": "밀랍칠한 녹슨 깎인 구리 계단",
+        "id": "weathered_cut_copper_stairs",
+        "name": "녹슨 깎인 구리 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_weathered-cut-copper-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
       {
-        "id": "weathered_cut_copper_stairs",
-        "name": "녹슨 깎인 구리 계단",
+        "id": "waxed_weathered_cut_copper_stairs",
+        "name": "밀랍칠한 녹슨 깎인 구리 계단",
         "url": "https://minecraft.wiki/images/BlockSprite_weathered-cut-copper-stairs.png?format=original",
         "quality": "ok_wiki_shape"
       },
@@ -4836,21 +4836,15 @@
     ],
     "wiki_fallback": [
       {
+        "id": "black_stained_glass_pane",
+        "name": "검은색 색유리 판",
+        "url": "https://minecraft.wiki/images/BlockSprite_black-stained-glass-pane.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
         "id": "black_bed",
         "name": "검은색 침대",
         "url": "https://minecraft.wiki/images/BlockSprite_black-bed.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "black_carpet",
-        "name": "검은색 양탄자",
-        "url": "https://minecraft.wiki/images/BlockSprite_black-carpet.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "blue_bed",
-        "name": "파란색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_blue-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -4866,27 +4860,21 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "black_stained_glass_pane",
-        "name": "검은색 색유리 판",
-        "url": "https://minecraft.wiki/images/BlockSprite_black-stained-glass-pane.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "brown_stained_glass_pane",
-        "name": "갈색 색유리 판",
-        "url": "https://minecraft.wiki/images/BlockSprite_brown-stained-glass-pane.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
         "id": "brown_banner",
         "name": "갈색 현수막",
         "url": "https://minecraft.wiki/images/BlockSprite_brown-banner.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "blue_carpet",
-        "name": "파란색 양탄자",
-        "url": "https://minecraft.wiki/images/BlockSprite_blue-carpet.png?format=original",
+        "id": "blue_banner",
+        "name": "파란색 현수막",
+        "url": "https://minecraft.wiki/images/BlockSprite_blue-banner.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
+        "id": "blue_bed",
+        "name": "파란색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_blue-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -4902,27 +4890,21 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "blue_banner",
-        "name": "파란색 현수막",
-        "url": "https://minecraft.wiki/images/BlockSprite_blue-banner.png?format=original",
+        "id": "black_carpet",
+        "name": "검은색 양탄자",
+        "url": "https://minecraft.wiki/images/BlockSprite_black-carpet.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "cyan_stained_glass_pane",
-        "name": "청록색 색유리 판",
-        "url": "https://minecraft.wiki/images/BlockSprite_cyan-stained-glass-pane.png?format=original",
+        "id": "blue_carpet",
+        "name": "파란색 양탄자",
+        "url": "https://minecraft.wiki/images/BlockSprite_blue-carpet.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "cyan_bed",
-        "name": "청록색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_cyan-bed.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "cyan_banner",
-        "name": "청록색 현수막",
-        "url": "https://minecraft.wiki/images/BlockSprite_cyan-banner.png?format=original",
+        "id": "brown_stained_glass_pane",
+        "name": "갈색 색유리 판",
+        "url": "https://minecraft.wiki/images/BlockSprite_brown-stained-glass-pane.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -4932,21 +4914,21 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "gray_banner",
-        "name": "회색 현수막",
-        "url": "https://minecraft.wiki/images/BlockSprite_gray-banner.png?format=original",
+        "id": "cyan_banner",
+        "name": "청록색 현수막",
+        "url": "https://minecraft.wiki/images/BlockSprite_cyan-banner.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "gray_carpet",
-        "name": "회색 양탄자",
-        "url": "https://minecraft.wiki/images/BlockSprite_gray-carpet.png?format=original",
+        "id": "cyan_bed",
+        "name": "청록색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_cyan-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "gray_bed",
-        "name": "회색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_gray-bed.png?format=original",
+        "id": "cyan_stained_glass_pane",
+        "name": "청록색 색유리 판",
+        "url": "https://minecraft.wiki/images/BlockSprite_cyan-stained-glass-pane.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -4956,9 +4938,27 @@
         "quality": "wiki_fallback"
       },
       {
+        "id": "gray_carpet",
+        "name": "회색 양탄자",
+        "url": "https://minecraft.wiki/images/BlockSprite_gray-carpet.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
+        "id": "gray_banner",
+        "name": "회색 현수막",
+        "url": "https://minecraft.wiki/images/BlockSprite_gray-banner.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
         "id": "green_banner",
         "name": "초록색 현수막",
         "url": "https://minecraft.wiki/images/BlockSprite_green-banner.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
+        "id": "gray_bed",
+        "name": "회색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_gray-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -4992,6 +4992,12 @@
         "quality": "wiki_fallback"
       },
       {
+        "id": "ender_chest",
+        "name": "엔더 상자",
+        "url": "https://minecraft.wiki/images/BlockSprite_ender-chest.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
         "id": "light_blue_carpet",
         "name": "하늘색 양탄자",
         "url": "https://minecraft.wiki/images/BlockSprite_light-blue-carpet.png?format=original",
@@ -5004,21 +5010,9 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "ender_chest",
-        "name": "엔더 상자",
-        "url": "https://minecraft.wiki/images/BlockSprite_ender-chest.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "light_gray_bed",
-        "name": "회백색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_light-gray-bed.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "lime_banner",
-        "name": "연두색 현수막",
-        "url": "https://minecraft.wiki/images/BlockSprite_lime-banner.png?format=original",
+        "id": "light_gray_stained_glass_pane",
+        "name": "회백색 색유리 판",
+        "url": "https://minecraft.wiki/images/BlockSprite_light-gray-stained-glass-pane.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5028,15 +5022,21 @@
         "quality": "wiki_fallback"
       },
       {
+        "id": "light_gray_bed",
+        "name": "회백색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_light-gray-bed.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
         "id": "light_blue_banner",
         "name": "하늘색 현수막",
         "url": "https://minecraft.wiki/images/BlockSprite_light-blue-banner.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "light_gray_stained_glass_pane",
-        "name": "회백색 색유리 판",
-        "url": "https://minecraft.wiki/images/BlockSprite_light-gray-stained-glass-pane.png?format=original",
+        "id": "lime_bed",
+        "name": "연두색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_lime-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5052,21 +5052,15 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "lime_stained_glass_pane",
-        "name": "연두색 색유리 판",
-        "url": "https://minecraft.wiki/images/BlockSprite_lime-stained-glass-pane.png?format=original",
+        "id": "magenta_bed",
+        "name": "자홍색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_magenta-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "magenta_banner",
-        "name": "자홍색 현수막",
-        "url": "https://minecraft.wiki/images/BlockSprite_magenta-banner.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "lime_bed",
-        "name": "연두색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_lime-bed.png?format=original",
+        "id": "lime_banner",
+        "name": "연두색 현수막",
+        "url": "https://minecraft.wiki/images/BlockSprite_lime-banner.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5076,21 +5070,33 @@
         "quality": "wiki_fallback"
       },
       {
+        "id": "lime_stained_glass_pane",
+        "name": "연두색 색유리 판",
+        "url": "https://minecraft.wiki/images/BlockSprite_lime-stained-glass-pane.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
         "id": "magenta_stained_glass_pane",
         "name": "자홍색 색유리 판",
         "url": "https://minecraft.wiki/images/BlockSprite_magenta-stained-glass-pane.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "magenta_bed",
-        "name": "자홍색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_magenta-bed.png?format=original",
+        "id": "magenta_banner",
+        "name": "자홍색 현수막",
+        "url": "https://minecraft.wiki/images/BlockSprite_magenta-banner.png?format=original",
         "quality": "wiki_fallback"
       },
       {
         "id": "orange_bed",
         "name": "주황색 침대",
         "url": "https://minecraft.wiki/images/BlockSprite_orange-bed.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
+        "id": "orange_stained_glass_pane",
+        "name": "주황색 색유리 판",
+        "url": "https://minecraft.wiki/images/BlockSprite_orange-stained-glass-pane.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5106,9 +5112,9 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "pink_bed",
-        "name": "분홍색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_pink-bed.png?format=original",
+        "id": "pink_carpet",
+        "name": "분홍색 양탄자",
+        "url": "https://minecraft.wiki/images/BlockSprite_pink-carpet.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5118,27 +5124,15 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "orange_stained_glass_pane",
-        "name": "주황색 색유리 판",
-        "url": "https://minecraft.wiki/images/BlockSprite_orange-stained-glass-pane.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "pink_carpet",
-        "name": "분홍색 양탄자",
-        "url": "https://minecraft.wiki/images/BlockSprite_pink-carpet.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
         "id": "pink_stained_glass_pane",
         "name": "분홍색 색유리 판",
         "url": "https://minecraft.wiki/images/BlockSprite_pink-stained-glass-pane.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "purple_stained_glass_pane",
-        "name": "보라색 색유리 판",
-        "url": "https://minecraft.wiki/images/BlockSprite_purple-stained-glass-pane.png?format=original",
+        "id": "purple_bed",
+        "name": "보라색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_purple-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5148,15 +5142,15 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "red_bed",
-        "name": "빨간색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_red-bed.png?format=original",
+        "id": "red_carpet",
+        "name": "빨간색 양탄자",
+        "url": "https://minecraft.wiki/images/BlockSprite_red-carpet.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "purple_banner",
-        "name": "보라색 현수막",
-        "url": "https://minecraft.wiki/images/BlockSprite_purple-banner.png?format=original",
+        "id": "red_bed",
+        "name": "빨간색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_red-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5172,27 +5166,21 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "purple_bed",
-        "name": "보라색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_purple-bed.png?format=original",
+        "id": "purple_stained_glass_pane",
+        "name": "보라색 색유리 판",
+        "url": "https://minecraft.wiki/images/BlockSprite_purple-stained-glass-pane.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "red_carpet",
-        "name": "빨간색 양탄자",
-        "url": "https://minecraft.wiki/images/BlockSprite_red-carpet.png?format=original",
+        "id": "pink_bed",
+        "name": "분홍색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_pink-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "white_bed",
-        "name": "하얀색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_white-bed.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "white_carpet",
-        "name": "하얀색 양탄자",
-        "url": "https://minecraft.wiki/images/BlockSprite_white-carpet.png?format=original",
+        "id": "purple_banner",
+        "name": "보라색 현수막",
+        "url": "https://minecraft.wiki/images/BlockSprite_purple-banner.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5202,15 +5190,21 @@
         "quality": "wiki_fallback"
       },
       {
-        "id": "white_stained_glass_pane",
-        "name": "하얀색 색유리 판",
-        "url": "https://minecraft.wiki/images/BlockSprite_white-stained-glass-pane.png?format=original",
+        "id": "white_carpet",
+        "name": "하얀색 양탄자",
+        "url": "https://minecraft.wiki/images/BlockSprite_white-carpet.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "yellow_bed",
-        "name": "노란색 침대",
-        "url": "https://minecraft.wiki/images/BlockSprite_yellow-bed.png?format=original",
+        "id": "white_bed",
+        "name": "하얀색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_white-bed.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
+        "id": "white_stained_glass_pane",
+        "name": "하얀색 색유리 판",
+        "url": "https://minecraft.wiki/images/BlockSprite_white-stained-glass-pane.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5226,21 +5220,21 @@
         "quality": "wiki_fallback"
       },
       {
+        "id": "stripped_warped_hyphae",
+        "name": "껍질 벗긴 뒤틀린 균사",
+        "url": "https://minecraft.wiki/images/BlockSprite_stripped-warped-hyphae.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
         "id": "yellow_stained_glass_pane",
         "name": "노란색 색유리 판",
         "url": "https://minecraft.wiki/images/BlockSprite_yellow-stained-glass-pane.png?format=original",
         "quality": "wiki_fallback"
       },
       {
-        "id": "warped_hyphae",
-        "name": "뒤틀린 균사",
-        "url": "https://minecraft.wiki/images/BlockSprite_warped-hyphae.png?format=original",
-        "quality": "wiki_fallback"
-      },
-      {
-        "id": "stripped_warped_hyphae",
-        "name": "껍질 벗긴 뒤틀린 균사",
-        "url": "https://minecraft.wiki/images/BlockSprite_stripped-warped-hyphae.png?format=original",
+        "id": "yellow_bed",
+        "name": "노란색 침대",
+        "url": "https://minecraft.wiki/images/BlockSprite_yellow-bed.png?format=original",
         "quality": "wiki_fallback"
       },
       {
@@ -5253,6 +5247,12 @@
         "id": "trapped_chest",
         "name": "덫 상자",
         "url": "https://minecraft.wiki/images/BlockSprite_trapped-chest.png?format=original",
+        "quality": "wiki_fallback"
+      },
+      {
+        "id": "warped_hyphae",
+        "name": "뒤틀린 균사",
+        "url": "https://minecraft.wiki/images/BlockSprite_warped-hyphae.png?format=original",
         "quality": "wiki_fallback"
       }
     ],
