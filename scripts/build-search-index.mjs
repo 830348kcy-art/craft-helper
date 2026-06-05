@@ -59,6 +59,7 @@ const blocks = readJSON("data/blocks.json");
 const items = readJSON("data/items.json");
 const recipes = readJSON("data/recipes.json");
 const mobs = readJSON("data/mobs.json");
+const mobRenders = readJSON("data/mob-renders.json");
 const biomes = readJSON("data/biomes.json");
 
 const index = [
@@ -104,7 +105,7 @@ const index = [
     name: m.name,
     description: m.description,
     emoji: m.emoji || "🐾",
-    image: `https://cdn.jsdelivr.net/gh/InventivetalentDev/minecraft-assets@1.21.4/assets/minecraft/textures/entity/${m.id}/${m.id}.png`,
+    image: mobRenders[m.id] ?? mobEntityUrl(m.id),
     category: m.category,
     tags: ["몹", m.category],
     href: `/mob/${m.id}`,

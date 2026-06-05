@@ -5,6 +5,7 @@ import { DIMENSIONS } from "@/lib/catalog-taxonomy";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
 import { getItemTexture, getHrefByKoName } from "@/lib/textures";
+import { getMobCategoryLabel } from "@/lib/mob-taxonomy";
 import officialKo from "@/scripts/ko-lang-official.json";
 
 export function generateStaticParams() {
@@ -44,7 +45,7 @@ export default function MobPage({ params }: { params: { id: string } }) {
             </div>
             <div className="flex-1 min-w-[240px] grid sm:grid-cols-2 gap-4">
               <InfoRow label="체력" value={`${mob.health} HP`} />
-              <InfoRow label="분류" value={mob.category} />
+              <InfoRow label="분류" value={getMobCategoryLabel(mob.category)} />
               <InfoRow label="차원" value={dim?.name ?? mob.dimension} />
               <InfoRow label="생성 조건" value={mob.spawn} className="sm:col-span-2" />
               <InfoRow label="특징" value={mob.traits} className="sm:col-span-2" />

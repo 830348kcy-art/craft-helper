@@ -9,6 +9,8 @@ import {
   ItemSubCategoryGrid,
   type CatalogEntry,
 } from "@/app/components/DimensionCategoryGrid";
+import { MobGrid } from "@/app/components/MobBiomeGrid";
+import { getAllMobs } from "@/lib/encyclopedia";
 import { WikiArticle } from "@/app/components/PageShell";
 import { getCategoryTexture } from "@/lib/textures";
 
@@ -28,7 +30,11 @@ export default async function CategoryPage({ params }: { params: { slug: string 
   const blocks  = entries.filter((e) => e.type === "block");
   const items   = entries.filter((e) => e.type === "item");
   const recipes = entries.filter((e) => e.type === "recipe");
-  const totalCount = docs.length + entries.length;
+  const allMobs = category.slug === "mobs" ? getAllMobs() : [];
+  const totalCount =
+    category.slug === "mobs"
+      ? docs.length + allMobs.length
+      : docs.length + entries.length;
 
   return (
     <div className="wiki-page-bg min-h-[80vh] flex-1">
@@ -58,9 +64,16 @@ export default async function CategoryPage({ params }: { params: { slug: string 
               </p>
               <p className="text-[13px] text-wiki-muted dark:text-zinc-400 -mt-2 mb-6">
                 {docs.length > 0 && <>가이드 <strong>{docs.length}</strong> · </>}
-                {blocks.length > 0 && <>블록 <strong>{blocks.length}</strong> · </>}
-                {items.length > 0 && <>아이템 <strong>{items.length}</strong> · </>}
-                {recipes.length > 0 && <>레시피 <strong>{recipes.length}</strong></>}
+                {category.slug === "mobs" && allMobs.length > 0 && (
+                  <>몹 <strong>{allMobs.length}</strong></>
+                )}
+                {category.slug !== "mobs" && (
+                  <>
+                    {blocks.length > 0 && <>블록 <strong>{blocks.length}</strong> · </>}
+                    {items.length > 0 && <>아이템 <strong>{items.length}</strong> · </>}
+                    {recipes.length > 0 && <>레시피 <strong>{recipes.length}</strong></>}
+                  </>
+                )}
               </p>
 
               {totalCount === 0 && (
@@ -86,8 +99,15 @@ export default async function CategoryPage({ params }: { params: { slug: string 
                 </Group>
               )}
 
+              {/* 몹 — 친화적 / 중립적 / 적대적 / 보스 */}
+              {allMobs.length > 0 && (
+                <Group title="🐾 몹" count={allMobs.length}>
+                  <MobGrid mobs={allMobs} />
+                </Group>
+              )}
+
               {/* 블록 — 차원별·세부 카테고리 */}
-              {blocks.length > 0 && (
+              {blocks.length > 0 && category.slug !== "mobs" && (
                 <Group title="🟫 블록" count={blocks.length}>
                   {category.slug === "blocks" ? (
                     <DimensionBlockGrid entries={blocks as CatalogEntry[]} dimensionId={undefined} />
@@ -103,7 +123,7 @@ export default async function CategoryPage({ params }: { params: { slug: string 
               )}
 
               {/* 아이템 */}
-              {items.length > 0 && category.slug !== "nether" && category.slug !== "end" && (
+              {items.length > 0 && category.slug !== "mobs" && category.slug !== "nether" && category.slug !== "end" && (
                 <Group title="📦 아이템" count={items.length}>
                   {category.slug === "items" ? (
                     <ItemSubCategoryGrid entries={items as CatalogEntry[]} />
@@ -114,7 +134,7 @@ export default async function CategoryPage({ params }: { params: { slug: string 
               )}
 
               {/* 레시피 */}
-              {recipes.length > 0 && (
+              {recipes.length > 0 && category.slug !== "mobs" && (
                 <Group title="📜 레시피" count={recipes.length}>
                   <EntryGrid entries={recipes} />
                 </Group>

@@ -2,8 +2,12 @@ import Link from "next/link";
 import { SmartIcon } from "./SmartIcon";
 import type { MobEntry, BiomeEntry } from "@/lib/encyclopedia";
 import { getMobImageCandidates, getBiomeImageCandidates } from "@/lib/encyclopedia";
-
-const MOB_GROUP_ORDER = ["수동적", "중립", "적대적", "보스"];
+import {
+  MOB_GROUP_ORDER,
+  getMobCategoryLabel,
+  getMobCategoryDesc,
+  type MobCategoryId,
+} from "@/lib/mob-taxonomy";
 
 export function MobGrid({ mobs }: { mobs: MobEntry[] }) {
   const groups = new Map<string, MobEntry[]>();
@@ -12,17 +16,22 @@ export function MobGrid({ mobs }: { mobs: MobEntry[] }) {
     groups.get(m.category)!.push(m);
   }
   const sortedGroups = [...groups.entries()].sort(
-    (a, b) => MOB_GROUP_ORDER.indexOf(a[0]) - MOB_GROUP_ORDER.indexOf(b[0])
+    (a, b) =>
+      MOB_GROUP_ORDER.indexOf(a[0] as MobCategoryId) -
+      MOB_GROUP_ORDER.indexOf(b[0] as MobCategoryId)
   );
 
   return (
     <div className="space-y-8">
       {sortedGroups.map(([category, list]) => (
         <section key={category}>
-          <h3 className="text-[15px] font-bold mb-3 flex items-center gap-2">
-            <span className="wiki-badge">{category}</span>
+          <h3 className="text-[15px] font-bold mb-1 flex items-center gap-2 flex-wrap">
+            <span className="wiki-badge">{getMobCategoryLabel(category)}</span>
             <span className="text-wiki-muted font-normal text-[12px]">{list.length}개</span>
           </h3>
+          {getMobCategoryDesc(category) && (
+            <p className="text-[12px] text-wiki-muted mb-3">{getMobCategoryDesc(category)}</p>
+          )}
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 list-none pl-0">
             {list.map((m) => (
               <li key={m.id} className="list-none">
@@ -30,11 +39,21 @@ export function MobGrid({ mobs }: { mobs: MobEntry[] }) {
                   href={`/mob/${m.id}`}
                   className="wiki-card-hover flex items-start gap-3 p-4 no-underline h-full"
                 >
-                  <SmartIcon images={getMobImageCandidates(m)} emoji={m.emoji} size="lg" alt={m.name} />
+                  <SmartIcon
+                    images={getMobImageCandidates(m)}
+                    emoji={m.emoji}
+                    size="lg"
+                    alt={m.name}
+                    framed
+                  />
                   <div className="min-w-0 flex-1">
-                    <p className="font-semibold text-[14px] text-wiki-text dark:text-zinc-100">{m.name}</p>
+                    <p className="font-semibold text-[14px] text-wiki-text dark:text-zinc-100">
+                      {m.name}
+                    </p>
                     <p className="text-[11px] text-wiki-muted mt-0.5">HP {m.health}</p>
-                    <p className="text-[12px] text-wiki-muted dark:text-zinc-400 mt-1 line-clamp-2">{m.description}</p>
+                    <p className="text-[12px] text-wiki-muted dark:text-zinc-400 mt-1 line-clamp-2">
+                      {m.description}
+                    </p>
                   </div>
                 </Link>
               </li>
