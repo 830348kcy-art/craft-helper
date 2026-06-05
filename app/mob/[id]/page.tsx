@@ -1,14 +1,12 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Suspense } from "react";
 import { getAllMobs, getMobById, getMobImageCandidates } from "@/lib/encyclopedia";
 import { DIMENSIONS } from "@/lib/catalog-taxonomy";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
 import { getItemTexture, getHrefByKoName } from "@/lib/textures";
 import { getMobCategoryLabel } from "@/lib/mob-taxonomy";
-import { MobDetailBack } from "@/app/components/MobDetailBack";
-import { WikiBackBar } from "@/app/components/WikiBackBar";
+import { MobBackFromSync } from "@/app/components/MobBackFromSync";
 import officialKo from "@/scripts/ko-lang-official.json";
 
 export function generateStaticParams() {
@@ -30,13 +28,20 @@ export default function MobPage({ params }: { params: { id: string } }) {
       <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <WikiArticle>
           <div className="wiki-hero-banner !border-0">
-            <Suspense
-              fallback={
-                <WikiBackBar href={defaultBackHref} label={defaultBackLabel} variant="hero" />
-              }
+            <Link
+              href={defaultBackHref}
+              data-mob-back
+              className="relative z-10 inline-flex items-center gap-2 text-[13px] font-medium text-white/90 hover:text-white mb-3 no-underline hover:underline"
             >
-              <MobDetailBack dimension={mob.dimension} dimName={dim?.name ?? mob.dimension} />
-            </Suspense>
+              <span
+                className="inline-flex items-center justify-center w-8 h-8 rounded-lg border border-white/25 bg-white/10 shrink-0"
+                aria-hidden
+              >
+                ←
+              </span>
+              <span data-mob-back-label>{defaultBackLabel}</span>
+            </Link>
+            <MobBackFromSync defaultHref={defaultBackHref} defaultLabel={defaultBackLabel} />
             <nav className="relative z-10 text-[12px] text-white/70 mb-3">
               <Link href="/">대문</Link>
               <span className="mx-1.5">›</span>
