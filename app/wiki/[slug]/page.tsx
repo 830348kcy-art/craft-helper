@@ -4,6 +4,7 @@ import { docs, categories } from "@/lib/data";
 import { InfoBox } from "@/app/components/InfoBox";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
+import { WikiSectionContent } from "@/app/components/WikiSectionContent";
 import { DetailBackBar } from "@/app/components/DetailBackBar";
 import { getCategoryTexture } from "@/lib/textures";
 
@@ -75,7 +76,7 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
                 {doc.sections.map((s) => (
                   <section key={s.id}>
                     <h2 id={s.id}>{s.heading}</h2>
-                    <div dangerouslySetInnerHTML={{ __html: s.html }} />
+                    <WikiSectionContent section={s} />
                   </section>
                 ))}
 

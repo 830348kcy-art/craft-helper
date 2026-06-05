@@ -1,4 +1,3 @@
-import { farmDiagram } from "./diagrams";
 import { getItemTexture, getBlockTexture } from "./textures";
 
 // GitHub Pages 서브경로(/craft-helper) 대응.
@@ -22,7 +21,7 @@ export type WikiDoc = {
   heroImage?: string;
   infobox: { label: string; value: string }[];
   // 본문: 섹션 단위 (TOC 자동생성용)
-  sections: { id: string; heading: string; html: string }[];
+  sections: { id: string; heading: string; html: string; farmId?: string }[];
 };
 
 export const categories: Category[] = [
@@ -284,6 +283,7 @@ export const docs: Record<string, WikiDoc> = {
       {
         id: "farm-sugar",
         heading: "1. 사탕수수 자동 농장 ★☆☆☆☆",
+        farmId: "sugar",
         html: `<p>가장 쉬운 자동 농장. <strong>한 줄짜리 사탕수수 1칸당 옵저버+피스톤 1쌍</strong>이면 끝난다.</p>
 
 <figure class="my-5">
@@ -307,13 +307,7 @@ export const docs: Record<string, WikiDoc> = {
 
 <h3>🏗 만드는 법</h3>
 <p>옆에서 본 단면도 (가장 단순한 1칸짜리):</p>
-${farmDiagram([
-  [null, null, "옵저버", "피스톤", null],
-  [null, "사탕수수", null, null, null],
-  [null, "사탕수수", null, null, null],
-  ["둥근돌", "흙", "물", "둥근돌", null],
-  ["호퍼", "호퍼", null, null, "상자"],
-], "사탕수수 자동 농장 — 옆에서 본 단면도")}
+<!-- FARM_3D -->
 <ol>
   <li>바닥에 <strong>흙 1칸, 물 1칸</strong> 도랑을 판다 (사탕수수는 물 옆에서만 자람).</li>
   <li>흙 위에 사탕수수를 심는다.</li>
@@ -335,6 +329,7 @@ ${farmDiagram([
       {
         id: "farm-bamboo",
         heading: "2. 대나무 자동 농장 ★☆☆☆☆",
+        farmId: "bamboo",
         html: `<p>사탕수수 농장과 거의 동일한 구조. 차이점은 <strong>대나무는 물이 필요 없고 흙·이끼·모래 어디서나 자란다</strong>는 점.</p>
 
 <figure class="my-5">
@@ -355,14 +350,7 @@ ${farmDiagram([
 </ul>
 
 <h3>🏗 만드는 법</h3>
-${farmDiagram([
-  [null, "대나무", null, null, null],
-  [null, "대나무", null, null, null],
-  [null, "대나무", "옵저버", "피스톤", null],
-  [null, "대나무", null, null, null],
-  ["둥근돌", "흙", "물", null, null],
-  ["호퍼", "호퍼", null, null, "상자"],
-], "대나무 자동 농장 — 3블록 높이에서 감지")}
+<!-- FARM_3D -->
 <ol>
   <li>흙 위에 대나무 1개를 심는다.</li>
   <li>대나무 <strong>3블록 높이</strong> 옆에 옵저버를 대나무 쪽으로 설치.</li>
@@ -382,6 +370,7 @@ ${farmDiagram([
       {
         id: "farm-cactus",
         heading: "3. 선인장 자동 농장 ★☆☆☆☆",
+        farmId: "cactus",
         html: `<p>레드스톤 부품이 <strong>0개</strong> 필요한 가장 저렴한 농장. 선인장은 옆에 다른 블록이 닿으면 스스로 부서지는 특성을 활용.</p>
 
 <figure class="my-5">
@@ -401,13 +390,7 @@ ${farmDiagram([
 </ul>
 
 <h3>🏗 만드는 법</h3>
-${farmDiagram([
-  [null, "유리", null],
-  ["선인장", null, null],
-  ["선인장", null, null],
-  ["모래", null, null],
-  ["호퍼", null, "상자"],
-], "선인장 자동 농장 — 자라서 옆 블록에 닿으면 자동 파괴")}
+<!-- FARM_3D -->
 <ol>
   <li>호퍼 위에 모래를 놓고 그 위에 선인장 심기.</li>
   <li>선인장이 <strong>2번째 칸까지 자랄 위치 옆</strong>에 아무 블록 하나를 붙여 둔다 (유리가 보기 좋음).</li>
@@ -427,6 +410,7 @@ ${farmDiagram([
       {
         id: "farm-wheat",
         heading: "4. 밀·당근·감자 반자동 농장 ★★☆☆☆",
+        farmId: "wheat",
         html: `<p>레버 한 번으로 모든 작물을 일괄 수확. 9×9 표준 농장에 디스펜서 물탱크를 결합한 구조다.</p>
 
 <figure class="my-5">
@@ -449,13 +433,7 @@ ${farmDiagram([
 
 <h3>🏗 만드는 법</h3>
 <p>위에서 본 9×9 평면도 (간략 버전):</p>
-${farmDiagram([
-  ["디스펜서", "디스펜서", "디스펜서", "디스펜서", "디스펜서", "디스펜서", "디스펜서", "디스펜서", "디스펜서"],
-  ["흙", "흙", "흙", "흙", "흙", "흙", "흙", "흙", "흙"],
-  ["흙", "흙", "흙", "흙", "물", "흙", "흙", "흙", "흙"],
-  ["흙", "흙", "흙", "흙", "흙", "흙", "흙", "흙", "흙"],
-  ["호퍼", "호퍼", "호퍼", "호퍼", "호퍼", "호퍼", "호퍼", "호퍼", "호퍼"],
-], "밀·당근·감자 반자동 농장 — 위에서 본 평면도")}
+<!-- FARM_3D -->
 <ol>
   <li>9×9 사각형을 흙으로 깐다. 중앙에 물 한 칸을 부어 모든 경작지를 축축하게.</li>
   <li>괭이로 모든 흙을 경작지로 변환 후 씨앗/당근/감자 심기.</li>
@@ -477,6 +455,7 @@ ${farmDiagram([
       {
         id: "farm-melon",
         heading: "5. 수박·호박 자동 농장 ★★☆☆☆",
+        farmId: "melon",
         html: `<p>줄기가 옆 칸에 열매를 만드는 특성을 이용한 완전 자동 농장. 한 번 설치하면 평생 수확.</p>
 
 <figure class="my-5">
@@ -497,11 +476,7 @@ ${farmDiagram([
 </ul>
 
 <h3>🏗 만드는 법</h3>
-${farmDiagram([
-  ["흙", "수박 줄기", "수박 블록", "옵저버", "피스톤"],
-  ["둥근돌", null, "물", "호퍼", "호퍼"],
-  [null, null, null, null, "상자"],
-], "수박 자동 농장 — 위에서 본 평면도 (줄기 → 열매 → 피스톤)")}
+<!-- FARM_3D -->
 <ol>
   <li>경작지 1칸 + 옆에 흙 1칸(열매 생성용)을 배치, 옆에 물 1칸으로 경작지 축축하게.</li>
   <li>경작지에 수박/호박 씨앗 심기.</li>
@@ -523,6 +498,7 @@ ${farmDiagram([
       {
         id: "farm-chicken",
         heading: "6. 닭 자동 농장 ★★☆☆☆",
+        farmId: "chicken",
         html: `<p>달걀이 자동으로 모이고 던져서 부화 → 자란 닭은 용암으로 자동 도살 → 구운 닭이 모이는 구조. 식량+깃털 동시 확보.</p>
 
 <figure class="my-5">
@@ -544,15 +520,7 @@ ${farmDiagram([
 </ul>
 
 <h3>🏗 만드는 법</h3>
-${farmDiagram([
-  [null, "디스펜서", null, null],
-  [null, "유리", null, null],
-  ["유리", "닭", "유리", null],
-  ["유리", "트랩도어", "유리", null],
-  ["유리", "닭", "유리", null],
-  [null, "용암", null, null],
-  ["호퍼", "호퍼", "호퍼", "상자"],
-], "닭 자동 농장 — 옆에서 본 단면도 (알 발사 → 부화 → 용암 도살)")}
+<!-- FARM_3D -->
 <ol>
   <li>2×2 공간을 만들고 위쪽엔 닭 성체용, 아래쪽엔 새끼 닭용 칸.</li>
   <li>두 공간 사이는 <strong>트랩도어</strong> 또는 빈 공간 1칸 — 새끼만 떨어지고 성체는 떨어지지 않도록.</li>
@@ -575,6 +543,7 @@ ${farmDiagram([
       {
         id: "farm-smelter",
         heading: "7. 자동 화로 (제련소) ★★☆☆☆",
+        farmId: "smelter",
         html: `<p>광물을 넣으면 자동으로 연료를 공급해 제련하고, 결과물이 상자에 모이는 시스템. 광부의 필수품.</p>
 
 <figure class="my-5">
@@ -592,13 +561,7 @@ ${farmDiagram([
 </ul>
 
 <h3>🏗 만드는 법</h3>
-${farmDiagram([
-  [null, "상자", null, null, null],
-  [null, "호퍼", null, null, null],
-  ["상자", "호퍼", "화로", null, null],
-  [null, "호퍼", null, null, null],
-  [null, "상자", null, null, null],
-], "자동 제련소 — 옆에서 본 구조 (원료↓ · 연료→ · 결과물↓)")}
+<!-- FARM_3D -->
 <ol>
   <li>먼저 가장 아래에 <strong>결과물 상자</strong>를 두고 위에 호퍼를 화로 방향으로 설치 (Shift + 우클릭으로 호퍼를 위 블록에 향하게).</li>
   <li>그 위에 <strong>화로</strong>.</li>
@@ -619,6 +582,7 @@ ${farmDiagram([
       {
         id: "farm-fishing",
         heading: "8. AFK 낚시기 ★★☆☆☆",
+        farmId: "fishing",
         html: `<p>마우스 우클릭만 자동화하면 잠자는 동안 활·마법 책·이름표·안장 같은 보물이 모인다.</p>
 
 <figure class="my-5">
@@ -637,12 +601,7 @@ ${farmDiagram([
 </ul>
 
 <h3>🏗 만드는 법</h3>
-${farmDiagram([
-  [null, "둥근돌", null],
-  ["둥근돌", "물", "둥근돌"],
-  [null, "호퍼", null],
-  [null, "상자", null],
-], "AFK 낚시기 — 위에서 본 평면도 (호퍼가 물 옆에서 아이템 회수)")}
+<!-- FARM_3D -->
 <ol>
   <li>1×1 물 웅덩이를 만든다.</li>
   <li>물 칸 옆에 호퍼를 물 쪽으로 향하게 설치 (Shift + 우클릭).</li>
