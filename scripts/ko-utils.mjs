@@ -36,7 +36,7 @@ const WOODS = {
   mangrove: "맹그로브",
   cherry: "벚나무",
   bamboo: "대나무",
-  crimson: "진홍",
+  crimson: "진홍빛",
   warped: "뒤틀린",
   pale_oak: "창백한 참나무",
 };
@@ -731,12 +731,18 @@ export function idToKoName(id) {
     if (id === wood) return ko;
     if (id.startsWith(`${wood}_`)) {
       const rest = id.slice(wood.length + 1);
-      const part = BLOCK_PARTS[rest] ?? rest.replace(/_/g, " ");
+      const part =
+        rest === "stem" && (wood === "crimson" || wood === "warped")
+          ? "자루"
+          : (BLOCK_PARTS[rest] ?? rest.replace(/_/g, " "));
       return `${ko} ${part}`;
     }
     if (id.startsWith(`stripped_${wood}_`)) {
       const rest = id.slice(`stripped_${wood}_`.length);
-      const part = BLOCK_PARTS[rest] ?? rest.replace(/_/g, " ");
+      const part =
+        rest === "stem" && (wood === "crimson" || wood === "warped")
+          ? "자루"
+          : (BLOCK_PARTS[rest] ?? rest.replace(/_/g, " "));
       return `껍질 벗긴 ${ko} ${part}`;
     }
     if (id === `stripped_${wood}_log` || id === `stripped_${wood}`) {

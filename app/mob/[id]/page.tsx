@@ -7,6 +7,7 @@ import { WikiArticle } from "@/app/components/PageShell";
 import { getItemTexture, getHrefByKoName } from "@/lib/textures";
 import { getMobCategoryLabel } from "@/lib/mob-taxonomy";
 import { MobBackFromSync } from "@/app/components/MobBackFromSync";
+import { formatMobDropRange } from "@/lib/mob-drops";
 import officialKo from "@/scripts/ko-lang-official.json";
 
 export function generateStaticParams() {
@@ -73,14 +74,21 @@ export default function MobPage({ params }: { params: { id: string } }) {
             <div className="px-6 sm:px-8 pb-8">
               <h2 className="text-lg font-bold mb-3">드롭 아이템</h2>
               <ul className="flex flex-wrap gap-2 list-none pl-0">
-                {mob.drops.map((dropId) => {
-                  const name = itemNames[dropId] ?? dropId;
-                  const href = getHrefByKoName(name) ?? `/search/${dropId}?type=item`;
+                {mob.drops.map((drop) => {
+                  const name = itemNames[drop.id] ?? drop.id;
+                  const href = getHrefByKoName(name) ?? `/search/${drop.id}?type=item`;
+                  const range = formatMobDropRange(drop);
                   return (
-                    <li key={dropId}>
+                    <li key={drop.id}>
                       <Link href={href} className="wiki-card-hover inline-flex items-center gap-2 px-3 py-2 no-underline">
-                        <SmartIcon image={getItemTexture(dropId)} emoji="📦" size="sm" alt={name} />
-                        <span className="text-sm font-medium">{name}</span>
+                        <SmartIcon image={getItemTexture(drop.id)} emoji="📦" size="sm" alt={name} />
+                        <span className="text-sm font-medium">
+                          {name}
+                          <span className="text-wiki-muted font-normal ml-1">{range}</span>
+                          {drop.rare && (
+                            <span className="text-[10px] text-amber-600 dark:text-amber-400 ml-1">희귀</span>
+                          )}
+                        </span>
                       </Link>
                     </li>
                   );

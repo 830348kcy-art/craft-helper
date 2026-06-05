@@ -1,6 +1,6 @@
 import mobRendersJson from "../data/mob-renders.json";
 
-type MobLike = { id: string; drops: string[] };
+type MobLike = { id: string };
 
 const mobRenders = mobRendersJson as Record<string, string>;
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";

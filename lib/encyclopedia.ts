@@ -4,8 +4,10 @@ import type { DimensionId } from "./catalog-taxonomy";
 import { getBlockTexture } from "./textures";
 import { biomeSpriteUrl } from "./wiki-images";
 import { getMobImage, getMobImageCandidates } from "./mob-images";
+import type { MobDrop } from "./mob-drops";
 
 export { getMobImage, getMobImageCandidates };
+export type { MobDrop };
 
 export type MobEntry = {
   id: string;
@@ -14,7 +16,7 @@ export type MobEntry = {
   emoji: string;
   category: string;
   health: number;
-  drops: string[];
+  drops: MobDrop[];
   spawn: string;
   traits: string;
   description: string;

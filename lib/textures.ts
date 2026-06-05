@@ -37,10 +37,12 @@ const officialKo = officialKoJson as {
   items?: Record<string, string>;
 };
 
-/** 공식 한국어명 → ID (카탈로그에 없는 레시피 표기 보완) */
+/** 공식 한국어명 → ID (카탈로그에 없어도 레시피·텍스처 매칭) */
 const OFFICIAL_KO_INDEX = new Map<string, KoNameEntry>();
 for (const [id, name] of Object.entries(officialKo.blocks ?? {})) {
-  if (name && blockIdSet.has(id)) OFFICIAL_KO_INDEX.set(name, { id, type: "block" });
+  if (name && !OFFICIAL_KO_INDEX.has(name)) {
+    OFFICIAL_KO_INDEX.set(name, { id, type: "block" });
+  }
 }
 for (const [id, name] of Object.entries(officialKo.items ?? {})) {
   if (!name || OFFICIAL_KO_INDEX.has(name)) continue;
@@ -57,6 +59,13 @@ const KO_NAME_ALIASES: Record<string, string> = {
   판자: "참나무 판자",
   "나무 판자": "참나무 판자",
   원목: "참나무 원목",
+  // 구 레시피명 → 공식명 (네더 목재)
+  "뒤틀린 줄기": "뒤틀린 자루",
+  "껍질 벗긴 뒤틀린 줄기": "껍질 벗긴 뒤틀린 자루",
+  "진홍 줄기": "진홍빛 자루",
+  "껍질 벗긴 진홍 줄기": "껍질 벗긴 진홍빛 자루",
+  "진홍 판자": "진홍빛 판자",
+  "진홍빛 줄기": "진홍빛 자루",
 };
 
 /** 레시피 재료 한국어 이름 → 카탈로그 항목 */
@@ -256,6 +265,8 @@ export const KOREAN_TO_TEXTURE: Record<string, string> = {
   "벚나무 원목":           "block/cherry_log.png",
   "창백한 참나무 원목":    "block/pale_oak_log.png",
   "진홍빛 자루":           "block/crimson_stem.png",
+  "껍질 벗긴 진홍빛 자루":  "block/stripped_crimson_stem.png",
+  "진홍빛 판자":           "block/crimson_planks.png",
   "뒤틀린 자루":           "block/warped_stem.png",
   "영혼 모래":             "block/soul_sand.png",
   "자수정 조각":            "item/amethyst_shard.png",

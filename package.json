@@ -9,7 +9,7 @@
     "patch:smithing": "node scripts/patch-smithing-ko-names.mjs",
     "prebuild:index": "node scripts/build-texture-map.mjs && node scripts/build-search-index.mjs",
     "build": "node scripts/sync-textures.mjs && node scripts/build-texture-map.mjs && node scripts/build-search-index.mjs && next build",
-    "build:ci": "node scripts/sync-trim-renders.mjs && node scripts/sync-mob-renders.mjs && node scripts/build-texture-map.mjs && node scripts/build-search-index.mjs && next build",
+    "build:ci": "node scripts/sync-trim-renders.mjs && node scripts/sync-mob-renders.mjs && node scripts/sync-mob-drops.mjs && node scripts/build-texture-map.mjs && node scripts/build-search-index.mjs && next build",
     "deploy:auto": "node scripts/auto-deploy.mjs",
     "start": "next start",
     "lint": "next lint"

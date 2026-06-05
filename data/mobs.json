@@ -19,9 +19,16 @@
     "category": "친화적",
     "health": 4,
     "drops": [
-      "feather",
-      "chicken",
-      "egg"
+      {
+        "id": "feather",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "chicken",
+        "min": 1,
+        "max": 1
+      }
     ],
     "spawn": "잔디 블록, 밝기 9 이상",
     "traits": "알을 낳음. 낙하 시 날개 펄럭여 피해 감소.",
@@ -35,8 +42,16 @@
     "category": "친화적",
     "health": 10,
     "drops": [
-      "leather",
-      "beef"
+      {
+        "id": "leather",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "beef",
+        "min": 1,
+        "max": 3
+      }
     ],
     "spawn": "잔디 블록, 밝기 9 이상",
     "traits": "번식: 밀 2개. 우유 양동이로 채집.",
@@ -50,7 +65,11 @@
     "category": "친화적",
     "health": 10,
     "drops": [
-      "porkchop"
+      {
+        "id": "porkchop",
+        "min": 1,
+        "max": 3
+      }
     ],
     "spawn": "잔디 블록",
     "traits": "당근으로 유인·번식. 안장+지팡이로 탑승.",
@@ -64,8 +83,11 @@
     "category": "친화적",
     "health": 8,
     "drops": [
-      "wool",
-      "mutton"
+      {
+        "id": "mutton",
+        "min": 1,
+        "max": 2
+      }
     ],
     "spawn": "잔디 블록",
     "traits": "가위로 양털 채취(양 생존). 밀로 번식.",
@@ -79,7 +101,11 @@
     "category": "친화적",
     "health": 30,
     "drops": [
-      "leather"
+      {
+        "id": "leather",
+        "min": 1,
+        "max": 1
+      }
     ],
     "spawn": "평원·사바나",
     "traits": "길들이기·안장·갑옷 착용. 점프력·속도 능력치 다양.",
@@ -93,7 +119,11 @@
     "category": "친화적",
     "health": 30,
     "drops": [
-      "leather"
+      {
+        "id": "leather",
+        "min": 1,
+        "max": 1
+      }
     ],
     "spawn": "평원(말과 함께)",
     "traits": "상자 부착 가능. 말보다 느리지만 짐 운반.",
@@ -107,9 +137,23 @@
     "category": "친화적",
     "health": 3,
     "drops": [
-      "rabbit",
-      "rabbit_hide",
-      "rabbit_foot"
+      {
+        "id": "rabbit_hide",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "rabbit",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "rabbit_foot",
+        "min": 0,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      }
     ],
     "spawn": "사막·타이가·설원",
     "traits": "당근·황금 당근으로 번식. 희귀 발 발톱 드롭.",
@@ -123,7 +167,11 @@
     "category": "친화적",
     "health": 10,
     "drops": [
-      "ink_sac"
+      {
+        "id": "ink_sac",
+        "min": 1,
+        "max": 1
+      }
     ],
     "spawn": "바다·강",
     "traits": "피해 시 먹물 방출. 수중 호흡.",
@@ -137,7 +185,11 @@
     "category": "친화적",
     "health": 10,
     "drops": [
-      "glow_ink_sac"
+      {
+        "id": "glow_ink_sac",
+        "min": 1,
+        "max": 1
+      }
     ],
     "spawn": "깊은 바다·동굴 수중",
     "traits": "발광 먹물 방출. 어둠 속 시야 확보.",
@@ -151,7 +203,17 @@
     "category": "친화적",
     "health": 3,
     "drops": [
-      "cod"
+      {
+        "id": "cod",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "bone_meal",
+        "min": 1,
+        "max": 1,
+        "rare": true
+      }
     ],
     "spawn": "일반·차가운 바다",
     "traits": "물 속에서만 생존. 물고기 양동이에 담을 수 있음.",
@@ -165,7 +227,17 @@
     "category": "친화적",
     "health": 3,
     "drops": [
-      "salmon"
+      {
+        "id": "salmon",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "bone_meal",
+        "min": 1,
+        "max": 1,
+        "rare": true
+      }
     ],
     "spawn": "강·한대·냉대 바다",
     "traits": "위로 헤엄치는 특유의 움직임.",
@@ -179,7 +251,17 @@
     "category": "친화적",
     "health": 3,
     "drops": [
-      "tropical_fish"
+      {
+        "id": "tropical_fish",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "bone_meal",
+        "min": 1,
+        "max": 1,
+        "rare": true
+      }
     ],
     "spawn": "따뜻한·온대 바다",
     "traits": "다양한 색 패턴. 물고기 양동이에 담아 수족관.",
@@ -193,7 +275,11 @@
     "category": "친화적",
     "health": 30,
     "drops": [
-      "seagrass"
+      {
+        "id": "seagrass",
+        "min": 0,
+        "max": 2
+      }
     ],
     "spawn": "해변(모래 위)",
     "traits": "알 부화. 성체는 가죽·등딱지 드롭.",
@@ -206,7 +292,13 @@
     "emoji": "🐱",
     "category": "친화적",
     "health": 10,
-    "drops": [],
+    "drops": [
+      {
+        "id": "string",
+        "min": 1,
+        "max": 1
+      }
+    ],
     "spawn": "마을·늪 오두막",
     "traits": "생선·생연어로 길들임. 크리퍼·팬텀 겁줌.",
     "description": "마을 방어·애완용."
@@ -231,7 +323,11 @@
     "category": "친화적",
     "health": 6,
     "drops": [
-      "feather"
+      {
+        "id": "feather",
+        "min": 1,
+        "max": 1
+      }
     ],
     "spawn": "정글",
     "traits": "씨앗·쿠키로 긴들임. 플레이어 어깨에 앉음. 소리 모방.",
@@ -244,9 +340,7 @@
     "emoji": "🐼",
     "category": "친화적",
     "health": 20,
-    "drops": [
-      "bamboo"
-    ],
+    "drops": [],
     "spawn": "대나무 정글",
     "traits": "대나무·케이크 번식. 성격(보통·게으름·걱정)에 따라 행동 다름.",
     "description": "대나무 정글 전용."
@@ -258,9 +352,7 @@
     "emoji": "🦊",
     "category": "친화적",
     "health": 10,
-    "drops": [
-      "sweet_berries"
-    ],
+    "drops": [],
     "spawn": "타이가·눈 타이가",
     "traits": "달콤한 열매로 번식. 밤에 닭·토끼 사냥.",
     "description": "타이가 생태계의 포식자."
@@ -308,9 +400,7 @@
     "emoji": "🦕",
     "category": "친화적",
     "health": 14,
-    "drops": [
-      "torchflower_seeds"
-    ],
+    "drops": [],
     "spawn": "스니퍼 알 부화",
     "traits": "땅을 파서 고대 씨앗 발굴.",
     "description": "1.20 고대 식물 복원."
@@ -359,8 +449,11 @@
     "category": "친화적",
     "health": 100,
     "drops": [
-      "iron_ingot",
-      "poppy"
+      {
+        "id": "iron_ingot",
+        "min": 3,
+        "max": 5
+      }
     ],
     "spawn": "마을(주민 수 충족)·플레이어 제작",
     "traits": "주민 보호. 플레이어가 만든 골렘은 중립.",
@@ -374,7 +467,11 @@
     "category": "친화적",
     "health": 4,
     "drops": [
-      "snowball"
+      {
+        "id": "snowball",
+        "min": 0,
+        "max": 15
+      }
     ],
     "spawn": "플레이어 제작(눈+호박)",
     "traits": "눈덩이 투척. 더운 바이옴에서 녹음.",
@@ -411,9 +508,7 @@
     "emoji": "🐬",
     "category": "친화적",
     "health": 10,
-    "drops": [
-      "cod"
-    ],
+    "drops": [],
     "spawn": "따뜻한·온대 바다",
     "traits": "플레이어 수영 가속. 생선 먹이.",
     "description": "해상 이동 보조."
@@ -425,9 +520,7 @@
     "emoji": "🐐",
     "category": "중립",
     "health": 10,
-    "drops": [
-      "goat_horn"
-    ],
+    "drops": [],
     "spawn": "눈 덮인 비탈·봉우리",
     "traits": "높은 점프·밀치기. 뿔 드롭.",
     "description": "산악 지형 이동."
@@ -439,10 +532,7 @@
     "emoji": "🐻‍❄️",
     "category": "중립",
     "health": 30,
-    "drops": [
-      "cod",
-      "salmon"
-    ],
+    "drops": [],
     "spawn": "얼어붙은·눈 덮인 바이옴",
     "traits": "새끼 근처 접근 시 공격.",
     "description": "눈 바이옴의 위협."
@@ -455,7 +545,11 @@
     "category": "중립",
     "health": 30,
     "drops": [
-      "leather"
+      {
+        "id": "leather",
+        "min": 1,
+        "max": 1
+      }
     ],
     "spawn": "산악·사바나 고원",
     "traits": "상자 부착. 침 뱉기(공격 시).",
@@ -469,8 +563,17 @@
     "category": "중립",
     "health": 16,
     "drops": [
-      "string",
-      "spider_eye"
+      {
+        "id": "string",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "spider_eye",
+        "min": 1,
+        "max": 1,
+        "playerKill": true
+      }
     ],
     "spawn": "어두운 곳(밝기 7 이하)",
     "traits": "벽·천장 이동. 낮에는 중립.",
@@ -484,8 +587,17 @@
     "category": "중립",
     "health": 12,
     "drops": [
-      "string",
-      "spider_eye"
+      {
+        "id": "string",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "spider_eye",
+        "min": 1,
+        "max": 1,
+        "playerKill": true
+      }
     ],
     "spawn": "폐광·동굴",
     "traits": "독 공격. 작고 빠름.",
@@ -499,9 +611,18 @@
     "category": "중립",
     "health": 20,
     "drops": [
-      "rotten_flesh",
-      "copper_ingot",
-      "trident"
+      {
+        "id": "rotten_flesh",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "copper_ingot",
+        "min": 0,
+        "max": 2,
+        "rare": true,
+        "playerKill": true
+      }
     ],
     "spawn": "어두운 물·좀비 익사",
     "traits": "삼지창 투척. 물·육지 모두 이동.",
@@ -515,10 +636,32 @@
     "category": "적대적",
     "health": 20,
     "drops": [
-      "rotten_flesh",
-      "iron_ingot",
-      "carrot",
-      "potato"
+      {
+        "id": "rotten_flesh",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "iron_ingot",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      },
+      {
+        "id": "carrot",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      },
+      {
+        "id": "potato",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      }
     ],
     "spawn": "어두운 곳(밝기 7 이하)",
     "traits": "플레이어 추적. 물에서 떠오르지 못함. 아기 좀비는 더 빠름.",
@@ -532,7 +675,32 @@
     "category": "적대적",
     "health": 20,
     "drops": [
-      "rotten_flesh"
+      {
+        "id": "rotten_flesh",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "iron_ingot",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      },
+      {
+        "id": "carrot",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      },
+      {
+        "id": "potato",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      }
     ],
     "spawn": "사막·사바나(밤)",
     "traits": "공격 시 배고픔 효과 부여.",
@@ -546,9 +714,16 @@
     "category": "적대적",
     "health": 20,
     "drops": [
-      "bone",
-      "arrow",
-      "bow"
+      {
+        "id": "arrow",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "bone",
+        "min": 0,
+        "max": 2
+      }
     ],
     "spawn": "어두운 곳",
     "traits": "활 원거리 공격. 햇빛에 불타 죽음.",
@@ -562,9 +737,22 @@
     "category": "적대적",
     "health": 20,
     "drops": [
-      "bone",
-      "arrow",
-      "bow"
+      {
+        "id": "arrow",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "bone",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "tipped_arrow",
+        "min": 1,
+        "max": 1,
+        "playerKill": true
+      }
     ],
     "spawn": "눈 덮인 바이옴",
     "traits": "서리 화살(이동 속도 감소).",
@@ -578,8 +766,11 @@
     "category": "적대적",
     "health": 20,
     "drops": [
-      "gunpowder",
-      "music_disc"
+      {
+        "id": "gunpowder",
+        "min": 0,
+        "max": 2
+      }
     ],
     "spawn": "어두운 곳",
     "traits": "접근 시 폭발. 번개 맞으면 충전 크리퍼.",
@@ -593,7 +784,12 @@
     "category": "적대적",
     "health": 20,
     "drops": [
-      "phantom_membrane"
+      {
+        "id": "phantom_membrane",
+        "min": 0,
+        "max": 1,
+        "playerKill": true
+      }
     ],
     "spawn": "3일 이상 잠 안 잔 플레이어 위",
     "traits": "공중 급강하 공격. 고양이·오celot 회피.",
@@ -607,10 +803,48 @@
     "category": "적대적",
     "health": 26,
     "drops": [
-      "glass_bottle",
-      "glowstone_dust",
-      "gunpowder",
-      "redstone"
+      {
+        "id": "glowstone_dust",
+        "min": 0,
+        "max": 2,
+        "rare": true
+      },
+      {
+        "id": "sugar",
+        "min": 1,
+        "max": 1,
+        "rare": true
+      },
+      {
+        "id": "redstone",
+        "min": 0,
+        "max": 2,
+        "rare": true
+      },
+      {
+        "id": "spider_eye",
+        "min": 1,
+        "max": 1,
+        "rare": true
+      },
+      {
+        "id": "glass_bottle",
+        "min": 0,
+        "max": 2,
+        "rare": true
+      },
+      {
+        "id": "gunpowder",
+        "min": 0,
+        "max": 2,
+        "rare": true
+      },
+      {
+        "id": "stick",
+        "min": 1,
+        "max": 1,
+        "rare": true
+      }
     ],
     "spawn": "늪 오두막·어두운 곳(희귀)",
     "traits": "포션 투척(피해·독·속도).",
@@ -624,7 +858,12 @@
     "category": "적대적",
     "health": 16,
     "drops": [
-      "slime_ball"
+      {
+        "id": "slime_ball",
+        "min": 0,
+        "max": 2,
+        "rare": true
+      }
     ],
     "spawn": "슬라임 청크(지하)",
     "traits": "죽으면 작은 슬라임으로 분열.",
@@ -649,10 +888,7 @@
     "emoji": "🏹",
     "category": "적대적",
     "health": 24,
-    "drops": [
-      "crossbow",
-      "emerald"
-    ],
+    "drops": [],
     "spawn": "약탈자 전초기지·습격",
     "traits": "석궁 공격. 불악의 효과 시 습격대.",
     "description": "불악의 효과·습격 이벤트."
@@ -665,7 +901,12 @@
     "category": "적대적",
     "health": 24,
     "drops": [
-      "emerald"
+      {
+        "id": "emerald",
+        "min": 0,
+        "max": 1,
+        "playerKill": true
+      }
     ],
     "spawn": "우민 저택·습격",
     "traits": "도끼 근접 공격. 매우 빠름.",
@@ -679,8 +920,17 @@
     "category": "적대적",
     "health": 24,
     "drops": [
-      "totem_of_undying",
-      "emerald"
+      {
+        "id": "totem_of_undying",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "emerald",
+        "min": 1,
+        "max": 1,
+        "playerKill": true
+      }
     ],
     "spawn": "우민 저택",
     "traits": "벡스 소환·아규 지팡이(이빨).",
@@ -694,7 +944,11 @@
     "category": "적대적",
     "health": 100,
     "drops": [
-      "saddle"
+      {
+        "id": "saddle",
+        "min": 0,
+        "max": 1
+      }
     ],
     "spawn": "습격(5파)",
     "traits": "높은 체력·넉백. 블록 파괴.",
@@ -708,7 +962,11 @@
     "category": "적대적",
     "health": 500,
     "drops": [
-      "sculk_catalyst"
+      {
+        "id": "sculk_catalyst",
+        "min": 0,
+        "max": 1
+      }
     ],
     "spawn": "심층암(스컬크 센서 경보)",
     "traits": "청각 기반 추적. 시야 없음. 원거리 음파.",
@@ -722,9 +980,22 @@
     "category": "적대적",
     "health": 16,
     "drops": [
-      "bone",
-      "arrow",
-      "bow"
+      {
+        "id": "bone",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "arrow",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "tipped_arrow",
+        "min": 0,
+        "max": 1,
+        "rare": true
+      }
     ],
     "spawn": "늪·시험 동굴",
     "traits": "독 화살. 뼈로 구성.",
@@ -738,7 +1009,11 @@
     "category": "적대적",
     "health": 30,
     "drops": [
-      "breeze_rod"
+      {
+        "id": "breeze_rod",
+        "min": 0,
+        "max": 1
+      }
     ],
     "spawn": "시험 회전실",
     "traits": "바람 투사체·넉백.",
@@ -752,7 +1027,32 @@
     "category": "적대적",
     "health": 20,
     "drops": [
-      "rotten_flesh"
+      {
+        "id": "rotten_flesh",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "iron_ingot",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      },
+      {
+        "id": "carrot",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      },
+      {
+        "id": "potato",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      }
     ],
     "spawn": "좀비화된 주민",
     "traits": "황금 사과+포션으로 치료 가능.",
@@ -765,9 +1065,7 @@
     "emoji": "💀",
     "category": "보스",
     "health": 300,
-    "drops": [
-      "nether_star"
-    ],
+    "drops": [],
     "spawn": "플레이어 소환(위더 해골+영혼 모래)",
     "traits": "폭발·위더 효과. 보스 생명력 바.",
     "description": "네더 스타·신호기 재료."
@@ -779,10 +1077,7 @@
     "emoji": "🐽",
     "category": "중립",
     "health": 16,
-    "drops": [
-      "gold_nugget",
-      "gold_ingot"
-    ],
+    "drops": [],
     "spawn": "네더, 진홍빛 숲·요새",
     "traits": "금 갑옷 착용 시 중립. 금 던지면 거래.",
     "description": "금을 소지하지 않으면 공격."
@@ -794,9 +1089,7 @@
     "emoji": "👊",
     "category": "적대적",
     "health": 50,
-    "drops": [
-      "golden_axe"
-    ],
+    "drops": [],
     "spawn": "요새 폐허",
     "traits": "항상 적대. 금으로 유혹 불가.",
     "description": "요새 폐허 수호."
@@ -809,8 +1102,23 @@
     "category": "중립",
     "health": 20,
     "drops": [
-      "rotten_flesh",
-      "gold_nugget"
+      {
+        "id": "rotten_flesh",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "gold_nugget",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "gold_ingot",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      }
     ],
     "spawn": "네더 전역",
     "traits": "선공 시 주변 전원 적대화.",
@@ -824,8 +1132,16 @@
     "category": "적대적",
     "health": 40,
     "drops": [
-      "porkchop",
-      "leather"
+      {
+        "id": "porkchop",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "leather",
+        "min": 0,
+        "max": 1
+      }
     ],
     "spawn": "진홍빛 숲",
     "traits": "높은 체력·넉백. 오버월드에서 조글린화.",
@@ -839,7 +1155,11 @@
     "category": "적대적",
     "health": 40,
     "drops": [
-      "rotten_flesh"
+      {
+        "id": "rotten_flesh",
+        "min": 0,
+        "max": 1
+      }
     ],
     "spawn": "오버월드로 나온 호글린",
     "traits": "항상 적대. 번식 불가.",
@@ -853,7 +1173,11 @@
     "category": "친화적",
     "health": 20,
     "drops": [
-      "string"
+      {
+        "id": "string",
+        "min": 1,
+        "max": 1
+      }
     ],
     "spawn": "용암 위",
     "traits": "뒤틀린 버섯 낚싯대로 탑승·유인.",
@@ -867,8 +1191,16 @@
     "category": "적대적",
     "health": 10,
     "drops": [
-      "ghast_tear",
-      "gunpowder"
+      {
+        "id": "ghast_tear",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "gunpowder",
+        "min": 1,
+        "max": 1
+      }
     ],
     "spawn": "네더 넓은 공간",
     "traits": "화염구. 반사 가능.",
@@ -882,7 +1214,12 @@
     "category": "적대적",
     "health": 20,
     "drops": [
-      "blaze_rod"
+      {
+        "id": "blaze_rod",
+        "min": 0,
+        "max": 1,
+        "playerKill": true
+      }
     ],
     "spawn": "네더 요새",
     "traits": "공중 부유, 화염구.",
@@ -896,7 +1233,30 @@
     "category": "적대적",
     "health": 16,
     "drops": [
-      "magma_cream"
+      {
+        "id": "magma_cream",
+        "min": 0,
+        "max": 2,
+        "rare": true
+      },
+      {
+        "id": "pearlescent_froglight",
+        "min": 1,
+        "max": 1,
+        "rare": true
+      },
+      {
+        "id": "verdant_froglight",
+        "min": 1,
+        "max": 1,
+        "rare": true
+      },
+      {
+        "id": "ochre_froglight",
+        "min": 1,
+        "max": 1,
+        "rare": true
+      }
     ],
     "spawn": "네더 요새·현무암 삼각주",
     "traits": "슬라임과 유사, 분열.",
@@ -910,9 +1270,23 @@
     "category": "적대적",
     "health": 20,
     "drops": [
-      "bone",
-      "coal",
-      "wither_skeleton_skull"
+      {
+        "id": "coal",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "bone",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "id": "wither_skeleton_skull",
+        "min": 1,
+        "max": 1,
+        "rare": true,
+        "playerKill": true
+      }
     ],
     "spawn": "네더 요새",
     "traits": "위더 효과. 검 드롭.",
@@ -926,7 +1300,11 @@
     "category": "중립",
     "health": 40,
     "drops": [
-      "ender_pearl"
+      {
+        "id": "ender_pearl",
+        "min": 0,
+        "max": 1
+      }
     ],
     "spawn": "엔드·오버월드(밤)·뒤틀린 숲",
     "traits": "시선 맞추면 공격. 물·비 약점.",
@@ -952,7 +1330,12 @@
     "category": "적대적",
     "health": 30,
     "drops": [
-      "shulker_shell"
+      {
+        "id": "shulker_shell",
+        "min": 0,
+        "max": 1,
+        "rare": true
+      }
     ],
     "spawn": "엔드 도시",
     "traits": "유도 탄환. 쉘 효과 부여.",
@@ -965,10 +1348,7 @@
     "emoji": "🐉",
     "category": "보스",
     "health": 200,
-    "drops": [
-      "dragon_egg",
-      "experience"
-    ],
+    "drops": [],
     "spawn": "엔드 메인 섬",
     "traits": "엔드 수정탑 파괴 후 공략. 최종 보스.",
     "description": "게임 클리어 보스."
