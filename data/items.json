@@ -1021,11 +1021,11 @@
   },
   {
     "id": "bolt_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "나사 형판",
     "emoji": "📦",
     "image": "/images/items/bolt_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "나사 형판. 나사 모양의 장식 무늬. 시험 회전실에서 획득한다.",
     "tags": [
       "재료"
     ],
@@ -1825,11 +1825,11 @@
   },
   {
     "id": "coast_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "해안 형판",
     "emoji": "📦",
     "image": "/images/items/coast_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "해안 형판. 파도와 해안을 연상시키는 무늬.",
     "tags": [
       "재료"
     ],
@@ -3013,11 +3013,11 @@
   },
   {
     "id": "dune_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "사구 형판",
     "emoji": "📦",
     "image": "/images/items/dune_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "사구 형판. 사막 사원에서 발견되는 사구 무늬.",
     "tags": [
       "재료"
     ],
@@ -3229,11 +3229,11 @@
   },
   {
     "id": "eye_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "눈 형판",
     "emoji": "📦",
     "image": "/images/items/eye_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "눈 형판. 눈 모양의 장식. 요새에서 흔히 발견.",
     "tags": [
       "재료"
     ],
@@ -3337,11 +3337,11 @@
   },
   {
     "id": "flow_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "흐름 형판",
     "emoji": "📦",
     "image": "/images/items/flow_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "흐름 형판. 흐르는 듯한 곡선 무늬. 고대 도시 전용.",
     "tags": [
       "재료"
     ],
@@ -3997,11 +3997,11 @@
   },
   {
     "id": "host_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "주인 형판",
     "emoji": "📦",
     "image": "/images/items/host_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "주인 형판. 약탈자 전초기지에서 획득.",
     "tags": [
       "재료"
     ],
@@ -5629,11 +5629,11 @@
   },
   {
     "id": "netherite_upgrade_smithing_template",
-    "name": "대장장이 형판",
+    "name": "네더라이트 강화 형판",
     "emoji": "📦",
     "image": "/images/items/netherite_upgrade_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "네더라이트 강화 형판. 대장장이 테이블에서 네더라이트 강화에 사용하는 형판입니다.",
     "tags": [
       "재료"
     ],
@@ -7093,11 +7093,11 @@
   },
   {
     "id": "raiser_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "사육사 형판",
     "emoji": "📦",
     "image": "/images/items/raiser_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "사육사 형판. 사육사를 상징하는 무늬.",
     "tags": [
       "재료"
     ],
@@ -7477,11 +7477,11 @@
   },
   {
     "id": "rib_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "갈비뼈 형판",
     "emoji": "📦",
     "image": "/images/items/rib_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "갈비뼈 형판. 갈비뼈 형태의 네더 무늬.",
     "tags": [
       "재료"
     ],
@@ -7561,11 +7561,11 @@
   },
   {
     "id": "sentry_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "보초 형판",
     "emoji": "📦",
     "image": "/images/items/sentry_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "보초 형판. 피글린 요새 폐허에서 발견.",
     "tags": [
       "재료"
     ],
@@ -7573,11 +7573,11 @@
   },
   {
     "id": "shaper_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "조형가 형판",
     "emoji": "📦",
     "image": "/images/items/shaper_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "조형가 형판. 트레일 유적의 조형가 무늬.",
     "tags": [
       "재료"
     ],
@@ -7621,11 +7621,11 @@
   },
   {
     "id": "silence_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "고요 형판",
     "emoji": "📦",
     "image": "/images/items/silence_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "고요 형판. 고요함을 표현한 희귀 무늬.",
     "tags": [
       "재료"
     ],
@@ -7777,11 +7777,11 @@
   },
   {
     "id": "snout_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "돼지 코 형판",
     "emoji": "📦",
     "image": "/images/items/snout_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "돼지 코 형판. 피글린을 연상시키는 코 모양.",
     "tags": [
       "재료"
     ],
@@ -7861,11 +7861,11 @@
   },
   {
     "id": "spire_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "첨탑 형판",
     "emoji": "📦",
     "image": "/images/items/spire_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "첨탑 형판. 엔드 도시 첨탑을 닮은 무늬.",
     "tags": [
       "재료"
     ],
@@ -8413,11 +8413,11 @@
   },
   {
     "id": "tide_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "물결 형판",
     "emoji": "📦",
     "image": "/images/items/tide_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "물결 형판. 밀물과 썰물을 연상시키는 무늬.",
     "tags": [
       "재료"
     ],
@@ -8581,11 +8581,11 @@
   },
   {
     "id": "vex_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "벡스 형판",
     "emoji": "📦",
     "image": "/images/items/vex_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "벡스 형판. 벡스 날개를 닮은 무늬.",
     "tags": [
       "재료"
     ],
@@ -8593,11 +8593,11 @@
   },
   {
     "id": "ward_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "파수 형판",
     "emoji": "📦",
     "image": "/images/items/ward_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "파수 형판. 고대 도시의 파수 무늬.",
     "tags": [
       "재료"
     ],
@@ -9193,11 +9193,11 @@
   },
   {
     "id": "wayfinder_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "길잡이 형판",
     "emoji": "📦",
     "image": "/images/items/wayfinder_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "길잡이 형판. 길을 안내하는 듯한 무늬.",
     "tags": [
       "재료"
     ],
@@ -9409,11 +9409,11 @@
   },
   {
     "id": "wild_armor_trim_smithing_template",
-    "name": "대장장이 형판",
+    "name": "야생 형판",
     "emoji": "📦",
     "image": "/images/items/wild_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "description": "야생 형판. 정글 사원의 야생 무늬.",
     "tags": [
       "재료"
     ],

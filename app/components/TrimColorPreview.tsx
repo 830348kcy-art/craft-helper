@@ -1,8 +1,34 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { trimSampleCandidates } from "@/lib/wiki-images";
-import { applyTrimMaterialColor } from "@/lib/trim-recolor";
+import { trimSampleCandidates, trimBaseArmorUrl } from "@/lib/wiki-images";
+import {
+  applyTrimCompositePreview,
+  applyTrimMaterialColor,
+  detectTrimRenderMode,
+} from "@/lib/trim-recolor";
+
+function loadImage(url: string): Promise<HTMLImageElement> {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.crossOrigin = "anonymous";
+    img.onload = () => resolve(img);
+    img.onerror = () => reject(new Error(url));
+    img.src = url;
+  });
+}
+
+async function loadFirst(urls: string[]): Promise<HTMLImageElement> {
+  let lastErr: Error | undefined;
+  for (const url of urls) {
+    try {
+      return await loadImage(url);
+    } catch (e) {
+      lastErr = e instanceof Error ? e : new Error(String(e));
+    }
+  }
+  throw lastErr ?? new Error("load failed");
+}
 
 export function TrimColorPreview({
   trimId,
@@ -29,50 +55,73 @@ export function TrimColorPreview({
     setLoading(true);
     setError(false);
 
-    const urls = trimSampleCandidates(trimId);
-    const img = new Image();
-    img.crossOrigin = "anonymous";
+    (async () => {
+      try {
+        const [trimImg, baseImg] = await Promise.all([
+          loadFirst(trimSampleCandidates(trimId)),
+          loadImage(trimBaseArmorUrl()),
+        ]);
+        if (cancelled) return;
 
-    let urlIdx = 0;
-    const tryLoad = () => {
-      if (urlIdx >= urls.length) {
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return;
+
+        const w = trimImg.naturalWidth;
+        const h = trimImg.naturalHeight;
+        canvas.width = w;
+        canvas.height = h;
+
+        ctx.drawImage(trimImg, 0, 0);
+        const trimData = ctx.getImageData(0, 0, w, h);
+
+        const baseCanvas = document.createElement("canvas");
+        baseCanvas.width = baseImg.naturalWidth;
+        baseCanvas.height = baseImg.naturalHeight;
+        const baseCtx = baseCanvas.getContext("2d");
+        if (!baseCtx) return;
+        baseCtx.drawImage(baseImg, 0, 0);
+        const baseData = baseCtx.getImageData(
+          0,
+          0,
+          baseImg.naturalWidth,
+          baseImg.naturalHeight
+        );
+
+        const mode = detectTrimRenderMode(
+          trimData.data,
+          w,
+          h,
+          baseData.data,
+          baseImg.naturalWidth,
+          baseImg.naturalHeight
+        );
+
+        if (mode === "composite") {
+          const out = new ImageData(w, h);
+          applyTrimCompositePreview(
+            out.data,
+            trimData.data,
+            w,
+            h,
+            baseData.data,
+            baseImg.naturalWidth,
+            baseImg.naturalHeight,
+            materialColor
+          );
+          ctx.putImageData(out, 0, 0);
+        } else {
+          applyTrimMaterialColor(trimData.data, materialColor);
+          ctx.putImageData(trimData, 0, 0);
+        }
+
+        if (!cancelled) setLoading(false);
+      } catch {
         if (!cancelled) {
           setError(true);
           setLoading(false);
         }
-        return;
       }
-      img.src = urls[urlIdx];
-    };
-
-    img.onload = () => {
-      if (cancelled) return;
-      const ctx = canvas.getContext("2d");
-      if (!ctx) return;
-
-      const w = img.naturalWidth;
-      const h = img.naturalHeight;
-      canvas.width = w;
-      canvas.height = h;
-      ctx.drawImage(img, 0, 0);
-
-      try {
-        const imageData = ctx.getImageData(0, 0, w, h);
-        applyTrimMaterialColor(imageData.data, materialColor);
-        ctx.putImageData(imageData, 0, 0);
-        setLoading(false);
-      } catch {
-        setError(true);
-        setLoading(false);
-      }
-    };
-
-    img.onerror = () => {
-      urlIdx += 1;
-      tryLoad();
-    };
-
-    tryLoad();
+    })();
 
     return () => {
       cancelled = true;

@@ -146,7 +146,7 @@ export function SmithingTrimGallery({
             <span className="text-[12px] font-normal text-wiki-muted">{materials.length}종</span>
           </h2>
           <p className="text-[12px] text-wiki-muted mb-3">
-            풀샷은 흑백 마스크처럼 처리됩니다. 검은 배경을 제외한 갑옷 전체에 선택한 재료 색이 입혀집니다.
+            갑옷 본체는 네더라이트 색, 장식 무늬는 선택한 재료 색으로 미리보기됩니다.
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 list-none pl-0">
             {materials.map((mat) => (

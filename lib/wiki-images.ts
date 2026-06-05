@@ -18,6 +18,11 @@ export function trimSampleLocalUrl(trimId: string): string {
   return `${BASE}/images/trims/${trimId}.png`;
 }
 
+/** 갑옷 본체 실루엣 (bolt 풀샷 — trim-only 에셋 합성용) */
+export function trimBaseArmorUrl(): string {
+  return `${BASE}/images/trims/bolt.png`;
+}
+
 /** 위키 갑옷 장식 풀샷 — 파일명은 trim별로 다름 */
 const TRIM_SAMPLE_WIKI: Record<string, string> = {
   bolt: "Armor_Trim_Bolt_(sample_model).png",

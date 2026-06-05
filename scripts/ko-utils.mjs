@@ -688,6 +688,31 @@ try {
   koIngredients = {};
 }
 
+let smithingTemplateKo = null;
+function loadSmithingTemplateKo() {
+  if (smithingTemplateKo) return smithingTemplateKo;
+  smithingTemplateKo = new Map();
+  try {
+    const raw = JSON.parse(
+      readFileSync(resolve(__dirname, "../data/smithing-trims.json"), "utf-8")
+    );
+    for (const t of raw.trims ?? []) {
+      smithingTemplateKo.set(t.templateId, `${t.name} 형판`);
+    }
+    smithingTemplateKo.set(
+      "netherite_upgrade_smithing_template",
+      "네더라이트 강화 형판"
+    );
+  } catch {
+    smithingTemplateKo = new Map();
+  }
+  return smithingTemplateKo;
+}
+
+export function smithingTemplateKoName(id) {
+  return loadSmithingTemplateKo().get(id);
+}
+
 /** snake_case ID → 한국어 표시명 */
 export function idToKoName(id) {
   if (koNames[id]) return koNames[id];
@@ -757,9 +782,11 @@ export function idToKoName(id) {
   }
 
   if (id.endsWith("_smithing_template")) {
+    const custom = smithingTemplateKoName(id);
+    if (custom) return custom;
     const prefix = id.slice(0, -18);
     const prefixKo = BLOCK_PARTS[prefix] ?? MATERIALS[prefix] ?? idToKoName(prefix);
-    return `${prefixKo} 대장장이 형판`;
+    return `${prefixKo} 형판`;
   }
 
   if (id.endsWith("_armor_trim")) {
@@ -1415,7 +1442,8 @@ export function pickEmoji(type, id) {
     if (/sculk|trial|vault|crafter|heavy|resin|creaking/.test(id)) return "⬛";
     return "🟫";
   }
-  if (/sword|axe|pickaxe|shovel|hoe|bow|crossbow|trident|mace|shield/.test(id)) return "⚔️";
+  if (/(^|_)(sword|axe|pickaxe|shovel|hoe|bow|crossbow|trident|mace|shield)($|_)/.test(id))
+    return "⚔️";
   if (/helmet|chestplate|leggings|boots|wolf_armor/.test(id)) return "🦺";
   if (/apple|bread|meat|fish|stew|pie|cookie|berries|carrot|potato/.test(id)) return "🍖";
   if (/ingot|diamond|emerald|coal|quartz|lapis|redstone|amethyst|scrap|nugget/.test(id))
