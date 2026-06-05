@@ -37,8 +37,8 @@ export default function SmithingPage() {
           <div className="px-6 sm:px-8 py-6 sm:py-8 prose-wiki">
             <p className="text-[14px] leading-relaxed mb-6">
               <strong>대장장이 작업</strong>은 대장장이 작업대에서 장비를 네더라이트로 강화하거나
-              갑옷에 장식을 입히는 기능입니다. 형판은 <em>무늬 형태</em>를, 자수정·구리·다이아몬드 등
-              11종 재료는 <em>장식 색상</em>을 결정합니다.
+              갑옷에 장식을 입히는 기능입니다. 아래에서 <em>형판</em>과 <em>장식 재료</em>를 선택하면
+              갑옷 풀샷 미리보기에 재료 색이 바로 반영됩니다.
             </p>
 
             <SmithingTrimGallery trims={trims} materials={materials} />
