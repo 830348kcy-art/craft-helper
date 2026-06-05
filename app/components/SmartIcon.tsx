@@ -1,5 +1,5 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { getTextureCandidates } from "@/lib/textures";
 
 type Size = "xs" | "sm" | "md" | "lg" | "xl" | "hero";
@@ -54,30 +54,35 @@ export function SmartIcon({
       seen.add(url);
       list.push(url);
     };
+    if (images) for (const u of images) add(u);
     if (textureId) {
       for (const u of getTextureCandidates(textureId)) add(u);
     }
-    if (images) for (const u of images) add(u);
     add(image);
     return list;
   }, [textureId, image, images]);
 
+  const candidatesKey = candidates.join("\0");
   const [idx, setIdx] = useState(0);
+
+  useEffect(() => {
+    setIdx(0);
+  }, [candidatesKey]);
+
   const px = SIZE_PX[size];
-  const src = candidates[idx];
-  const showImage = src && idx < candidates.length;
+  const showImage = idx < candidates.length;
+  const src = showImage ? candidates[idx] : undefined;
 
   const inner = showImage ? (
     // eslint-disable-next-line @next/next/no-img-element
     <img
+      key={src}
       src={src}
       alt={alt ?? emoji}
       width={px}
       height={px}
       loading="lazy"
-      onError={() => {
-        if (idx + 1 < candidates.length) setIdx((i) => i + 1);
-      }}
+      onError={() => setIdx((i) => i + 1)}
       style={{ imageRendering: "pixelated" }}
       className="object-contain w-full h-full"
       draggable={false}

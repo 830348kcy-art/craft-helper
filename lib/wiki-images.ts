@@ -60,3 +60,33 @@ export function trimSampleCandidates(trimId: string): string[] {
 export function trimTemplateUrl(trimId: string): string {
   return `${WIKI}/Invicon_${toPascal(trimId)}_Armor_Trim.png?format=original`;
 }
+
+/** 장식 재료 Invicon (위키 — CDN 차단 환경에서도 안정적) */
+const MATERIAL_INVICON: Record<string, string> = {
+  amethyst_shard: "Invicon_Amethyst_Shard.png",
+  copper_ingot: "Invicon_Copper_Ingot.png",
+  diamond: "Invicon_Diamond.png",
+  emerald: "Invicon_Emerald.png",
+  gold_ingot: "Invicon_Gold_Ingot.png",
+  iron_ingot: "Invicon_Iron_Ingot.png",
+  lapis_lazuli: "Invicon_Lapis_Lazuli.png",
+  quartz: "Invicon_Nether_Quartz.png",
+  netherite_ingot: "Invicon_Netherite_Ingot.png",
+  redstone: "Invicon_Redstone.png",
+  resin_brick: "Invicon_Resin_Brick.png",
+};
+
+export function trimMaterialInviconUrl(itemId: string): string | undefined {
+  const file = MATERIAL_INVICON[itemId];
+  if (!file) return undefined;
+  return `${WIKI}/${file}?format=original`;
+}
+
+/** 형판·재료 아이콘 후보 (위키 Invicon 우선) */
+export function trimMaterialIconCandidates(itemId: string, cdnUrl?: string): string[] {
+  const out: string[] = [];
+  const inv = trimMaterialInviconUrl(itemId);
+  if (inv) out.push(inv);
+  if (cdnUrl) out.push(cdnUrl);
+  return out;
+}

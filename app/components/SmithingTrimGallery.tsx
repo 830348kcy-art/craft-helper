@@ -4,7 +4,7 @@ import { useState } from "react";
 import { SmartIcon } from "./SmartIcon";
 import { TrimColorPreview } from "./TrimColorPreview";
 import type { ArmorTrim, TrimMaterial } from "@/lib/smithing";
-import { trimSampleCandidates, trimTemplateUrl } from "@/lib/wiki-images";
+import { trimSampleCandidates, trimTemplateUrl, trimMaterialIconCandidates } from "@/lib/wiki-images";
 import { getItemTexture } from "@/lib/textures";
 
 function TrimThumb({ trimId, alt }: { trimId: string; alt: string }) {
@@ -85,7 +85,10 @@ export function SmithingTrimGallery({
               </div>
               <div className="flex items-center gap-2">
                 <SmartIcon
-                  image={getItemTexture(material.itemId)}
+                  images={trimMaterialIconCandidates(
+                    material.itemId,
+                    getItemTexture(material.itemId)
+                  )}
                   textureId={material.itemId}
                   emoji="💎"
                   size="md"
@@ -168,7 +171,10 @@ export function SmithingTrimGallery({
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-1.5">
                       <SmartIcon
-                        image={getItemTexture(mat.itemId)}
+                        images={trimMaterialIconCandidates(
+                          mat.itemId,
+                          getItemTexture(mat.itemId)
+                        )}
                         textureId={mat.itemId}
                         emoji="💎"
                         size="xs"

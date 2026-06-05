@@ -19,6 +19,7 @@ const USE_CDN = process.env.CI === "true";
 const textureMap = textureMapJson as Record<string, string>;
 const textureUrlMap = textureUrlMapJson as Record<string, string>;
 const blockIdSet = new Set(blocksCatalog.map((b) => b.id));
+const itemIdSet = new Set(itemsCatalog.map((i) => i.id));
 
 type KoNameEntry = { id: string; type: "block" | "item" };
 const KO_NAME_INDEX = new Map<string, KoNameEntry>();
@@ -496,7 +497,11 @@ function blockFileName(id: string): string {
 const WIKI_SPRITE_BASE = "https://minecraft.wiki/images/BlockSprite";
 
 function getWikiSpriteUrl(id: string): string {
-  return `${WIKI_SPRITE_BASE}_${id.replace(/_/g, "-")}.png?format=original`;
+  const slug = id.replace(/_/g, "-");
+  if (itemIdSet.has(id) && !blockIdSet.has(id)) {
+    return `https://minecraft.wiki/images/ItemSprite_${slug}.png?format=original`;
+  }
+  return `${WIKI_SPRITE_BASE}_${slug}.png?format=original`;
 }
 
 export function getTextureByName(name: string): string | undefined {
