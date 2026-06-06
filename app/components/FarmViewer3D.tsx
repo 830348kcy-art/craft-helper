@@ -5,20 +5,45 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { getFarmSchematic } from "@/lib/farm-schematics";
 import {
-  farmBlockTextureUrl,
-  farmBlockFallbackColor,
-  isTransparentFarmBlock,
-} from "@/lib/farm-textures";
+  CHEST_FRONT_MARKER,
+  getBlockFaceUrls,
+  isTransparentBlock,
+} from "@/lib/farm-block-faces";
 
 type Props = { farmId: string };
 
+function createChestFrontTexture(): THREE.CanvasTexture {
+  const canvas = document.createElement("canvas");
+  canvas.width = 16;
+  canvas.height = 16;
+  const ctx = canvas.getContext("2d")!;
+  ctx.fillStyle = "#8b6914";
+  ctx.fillRect(0, 0, 16, 16);
+  ctx.fillStyle = "#6b4f10";
+  ctx.fillRect(0, 0, 16, 1);
+  ctx.fillRect(0, 15, 16, 1);
+  ctx.fillRect(0, 0, 1, 16);
+  ctx.fillRect(15, 0, 1, 16);
+  ctx.fillStyle = "#c6c6c6";
+  ctx.fillRect(7, 6, 2, 4);
+  ctx.fillStyle = "#4a4a4a";
+  ctx.fillRect(7, 7, 2, 2);
+  const tex = new THREE.CanvasTexture(canvas);
+  tex.colorSpace = THREE.SRGBColorSpace;
+  tex.magFilter = THREE.NearestFilter;
+  tex.minFilter = THREE.NearestFilter;
+  tex.needsUpdate = true;
+  return tex;
+}
+
 function loadTexture(
   loader: THREE.TextureLoader,
-  blockName: string
+  url: string,
+  fallbackColor: number
 ): Promise<THREE.Texture> {
   return new Promise((resolve) => {
     loader.load(
-      farmBlockTextureUrl(blockName),
+      url,
       (tex) => {
         tex.colorSpace = THREE.SRGBColorSpace;
         tex.magFilter = THREE.NearestFilter;
@@ -27,7 +52,7 @@ function loadTexture(
       },
       undefined,
       () => {
-        const c = farmBlockFallbackColor(blockName);
+        const c = fallbackColor;
         const data = new Uint8Array([
           (c >> 16) & 255,
           (c >> 8) & 255,
@@ -42,6 +67,20 @@ function loadTexture(
         resolve(tex);
       }
     );
+  });
+}
+
+function makeMaterial(
+  tex: THREE.Texture,
+  blockName: string
+): THREE.MeshLambertMaterial {
+  const transparent = isTransparentBlock(blockName);
+  return new THREE.MeshLambertMaterial({
+    map: tex,
+    transparent,
+    opacity: transparent ? (blockName === "유리" ? 0.42 : 0.75) : 1,
+    depthWrite: !transparent,
+    side: transparent ? THREE.DoubleSide : THREE.FrontSide,
   });
 }
 
@@ -62,11 +101,7 @@ export function FarmViewer3D({ farmId }: Props) {
     scene.background = new THREE.Color(0x87ceeb);
 
     const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 200);
-    const renderer = new THREE.WebGLRenderer({
-      antialias: true,
-      alpha: false,
-      powerPreference: "high-performance",
-    });
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(width, height);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.sortObjects = true;
@@ -77,13 +112,10 @@ export function FarmViewer3D({ farmId }: Props) {
     controls.dampingFactor = 0.08;
     controls.maxPolarAngle = Math.PI / 2.02;
 
-    scene.add(new THREE.AmbientLight(0xffffff, 0.65));
-    const sun = new THREE.DirectionalLight(0xffffff, 0.9);
+    scene.add(new THREE.AmbientLight(0xffffff, 0.68));
+    const sun = new THREE.DirectionalLight(0xffffff, 0.92);
     sun.position.set(10, 16, 8);
     scene.add(sun);
-    const fill = new THREE.DirectionalLight(0xdbeafe, 0.35);
-    fill.position.set(-8, 6, -10);
-    scene.add(fill);
 
     const loader = new THREE.TextureLoader();
     loader.setCrossOrigin("anonymous");
@@ -92,33 +124,36 @@ export function FarmViewer3D({ farmId }: Props) {
     const group = new THREE.Group();
     scene.add(group);
 
-    const uniqueBlocks = [...new Set(schematic.blocks.map((b) => b.block))];
+    const urlSet = new Set<string>();
+    for (const voxel of schematic.blocks) {
+      for (const u of getBlockFaceUrls(voxel.block, voxel.facing)) {
+        urlSet.add(u);
+      }
+    }
 
     Promise.all(
-      uniqueBlocks.map(async (name) => [name, await loadTexture(loader, name)] as const)
+      [...urlSet].map(async (u) => {
+        if (u === CHEST_FRONT_MARKER) {
+          return [u, createChestFrontTexture()] as const;
+        }
+        return [u, await loadTexture(loader, u, 0x888888)] as const;
+      })
     ).then((entries) => {
       if (disposed) {
         entries.forEach(([, t]) => t.dispose());
         return;
       }
 
-      const texMap = new Map(entries);
+      const texCache = new Map(entries);
 
       for (const voxel of schematic.blocks) {
-        const tex = texMap.get(voxel.block)!;
-        const transparent = isTransparentFarmBlock(voxel.block);
-
-        const mat = new THREE.MeshLambertMaterial({
-          map: tex,
-          transparent,
-          opacity: transparent ? (voxel.block === "유리" ? 0.38 : 0.72) : 1,
-          depthWrite: !transparent,
-          side: transparent ? THREE.DoubleSide : THREE.FrontSide,
-        });
-
-        const mesh = new THREE.Mesh(geo, mat);
+        const faceUrls = getBlockFaceUrls(voxel.block, voxel.facing);
+        const materials = faceUrls.map((u) =>
+          makeMaterial(texCache.get(u)!, voxel.block)
+        );
+        const mesh = new THREE.Mesh(geo, materials);
         mesh.position.set(voxel.x, voxel.y, voxel.z);
-        if (transparent) mesh.renderOrder = 2;
+        if (isTransparentBlock(voxel.block)) mesh.renderOrder = 2;
         group.add(mesh);
       }
 
@@ -127,8 +162,8 @@ export function FarmViewer3D({ farmId }: Props) {
       group.position.sub(center);
 
       const dist = schematic.cameraDistance ?? 14;
-      camera.position.set(dist * 0.7, dist * 0.52, dist * 0.78);
-      controls.target.set(0, 0.5, 0);
+      camera.position.set(dist * 0.72, dist * 0.5, dist * 0.8);
+      controls.target.set(0, 0.4, 0);
       controls.update();
 
       const grid = new THREE.GridHelper(24, 24, 0x6b7280, 0x4b5563);
