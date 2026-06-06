@@ -325,7 +325,7 @@ export const KOREAN_TO_TEXTURE: Record<string, string> = {
   "화로":                  "block/furnace_front.png",
   "호퍼":                  "block/hopper_outside.png",
   "경작지":                "block/farmland.png",
-  "상자":                  "item/chest.png",
+  "상자":                  "entity/chest/normal.png",
   "활":                    "item/bow.png",
   "피스톤":                "block/piston_top.png",
   "책장":                  "block/bookshelf.png",
