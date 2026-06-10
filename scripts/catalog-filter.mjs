@@ -114,12 +114,14 @@ export const SUPPLEMENTAL_BLOCK_IDS = new Set([
   "cactus",
   "sugar_cane",
   "bamboo",
-  "bee_nest",
-  "beehive",
   "composter",
-  "moss_block",
   "moss_carpet",
   "farmland",
+  "carrots",
+  "potatoes",
+  "beetroots",
+  "melon_stem",
+  "pumpkin_stem",
 ]);
 
 export function isCatalogAllowed(id) {

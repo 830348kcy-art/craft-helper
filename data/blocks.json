@@ -507,27 +507,27 @@
     "hardness": 3
   },
   {
-    "id": "bee_nest",
-    "name": "벌집",
+    "id": "beehive",
+    "name": "벌통",
     "emoji": "🟫",
-    "image": "/images/blocks/bee_nest.png",
-    "category": "식물",
-    "description": "벌집. 마인크래프트에서 사용하는 블록입니다.",
+    "image": "/images/blocks/beehive.png",
+    "category": "기능",
+    "description": "벌통. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "식물"
+      "기능"
     ],
     "tool": "도끼",
     "hardness": 1
   },
   {
-    "id": "beehive",
-    "name": "벌통",
+    "id": "beetroots",
+    "name": "비트",
     "emoji": "🟫",
-    "image": "/images/blocks/beehive.png",
-    "category": "식물",
-    "description": "벌통. 마인크래프트에서 사용하는 블록입니다.",
+    "image": "/images/blocks/beetroots.png",
+    "category": "나무",
+    "description": "비트. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "식물"
+      "나무"
     ],
     "tool": "도끼",
     "hardness": 1
@@ -1285,6 +1285,19 @@
     ],
     "tool": "없음",
     "hardness": 0.1
+  },
+  {
+    "id": "carrots",
+    "name": "당근",
+    "emoji": "🟫",
+    "image": "/images/blocks/carrots.png",
+    "category": "식물",
+    "description": "당근. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "식물"
+    ],
+    "tool": "곡괭이",
+    "hardness": 1
   },
   {
     "id": "cartography_table",
@@ -2721,10 +2734,10 @@
     "name": "말린 켈프 블록",
     "emoji": "🟦",
     "image": "/images/blocks/dried_kelp_block.png",
-    "category": "식물",
+    "category": "건축",
     "description": "말린 켈프 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "식물"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 1
@@ -3332,10 +3345,10 @@
     "name": "건초 더미",
     "emoji": "🟫",
     "image": "/images/blocks/hay_block.png",
-    "category": "식물",
+    "category": "자원",
     "description": "건초 더미. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "식물"
+      "자원"
     ],
     "tool": "삽",
     "hardness": 1
@@ -3657,10 +3670,10 @@
     "name": "켈프",
     "emoji": "🟦",
     "image": "/images/blocks/kelp.png",
-    "category": "식물",
+    "category": "건축",
     "description": "켈프. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "식물"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 1
@@ -4459,17 +4472,17 @@
     "hardness": 1
   },
   {
-    "id": "moss_block",
-    "name": "이끼 블록",
-    "emoji": "🌿",
-    "image": "/images/blocks/moss_block.png",
-    "category": "식물",
-    "description": "이끼 블록. 마인크래프트에서 사용하는 블록입니다.",
+    "id": "melon_stem",
+    "name": "수박 줄기",
+    "emoji": "🪵",
+    "image": "/images/blocks/melon_stem.png",
+    "category": "나무",
+    "description": "수박 줄기. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "식물"
+      "나무"
     ],
-    "tool": "삽",
-    "hardness": 0.2
+    "tool": "도끼",
+    "hardness": 1
   },
   {
     "id": "moss_carpet",
@@ -4723,10 +4736,10 @@
     "name": "네더 사마귀",
     "emoji": "🟥",
     "image": "/images/blocks/nether_wart.png",
-    "category": "자연",
+    "category": "식물",
     "description": "네더 사마귀. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "자연"
+      "식물"
     ],
     "tool": "곡괭이",
     "hardness": 1
@@ -4736,10 +4749,10 @@
     "name": "네더 사마귀 블록",
     "emoji": "🟥",
     "image": "/images/blocks/nether_wart_block.png",
-    "category": "자연",
+    "category": "건축",
     "description": "네더 사마귀 블록. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "자연"
+      "건축"
     ],
     "tool": "도끼",
     "hardness": 1
@@ -5876,6 +5889,19 @@
     "hardness": 1
   },
   {
+    "id": "potatoes",
+    "name": "감자",
+    "emoji": "🟫",
+    "image": "/images/blocks/potatoes.png",
+    "category": "식물",
+    "description": "감자. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "식물"
+    ],
+    "tool": "곡괭이",
+    "hardness": 1
+  },
+  {
     "id": "powered_rail",
     "name": "동력 레일",
     "emoji": "🟫",
@@ -5990,6 +6016,19 @@
       "식물"
     ],
     "tool": "곡괭이",
+    "hardness": 1
+  },
+  {
+    "id": "pumpkin_stem",
+    "name": "호박 줄기",
+    "emoji": "🪵",
+    "image": "/images/blocks/pumpkin_stem.png",
+    "category": "나무",
+    "description": "호박 줄기. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "나무"
+    ],
+    "tool": "도끼",
     "hardness": 1
   },
   {

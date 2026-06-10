@@ -11,6 +11,8 @@ import {
   inferDimension,
   type DimensionId,
 } from "@/lib/catalog-taxonomy";
+import { resolveWikiCropEntries, type CropCatalogEntry } from "@/lib/crop-catalog";
+import type { SearchResultItem } from "@/lib/search";
 
 export type CatalogEntry = {
   id: string;
@@ -27,13 +29,20 @@ function BlockSubGroups({
   dimLabel,
   dimEmoji,
   dimColor,
+  fullCatalog,
 }: {
   dimMap: Map<string, CatalogEntry[]>;
   dimLabel?: string;
   dimEmoji?: string;
   dimColor?: string;
+  fullCatalog?: SearchResultItem[];
 }) {
   const subs = orderedSubCategories(dimMap, BLOCK_SUB_CATEGORY_ORDER);
+  const cropEntries =
+    fullCatalog && dimLabel !== "네더" && dimLabel !== "엔드"
+      ? resolveWikiCropEntries(fullCatalog)
+      : null;
+
   return (
     <>
       {dimLabel && (
@@ -44,14 +53,31 @@ function BlockSubGroups({
           {dimLabel}
         </h2>
       )}
-      {subs.map(({ sub, entries: subEntries }) => (
-        <SubCategorySection
-          key={sub}
-          title={sub}
-          count={(subEntries as CatalogEntry[]).length}
-          entries={subEntries as CatalogEntry[]}
-        />
-      ))}
+      {subs.map(({ sub, entries: subEntries }) => {
+        if (sub === "식물" && cropEntries && cropEntries.length > 0) {
+          return (
+            <SubCategorySection
+              key={sub}
+              title={sub}
+              count={cropEntries.length}
+              entries={cropEntries as CatalogEntry[]}
+              note={
+                <Link href="/wiki/crops" className="text-link dark:text-link-dark hover:underline text-[12px]">
+                  작물 가이드 보기 →
+                </Link>
+              }
+            />
+          );
+        }
+        return (
+          <SubCategorySection
+            key={sub}
+            title={sub}
+            count={(subEntries as CatalogEntry[]).length}
+            entries={subEntries as CatalogEntry[]}
+          />
+        );
+      })}
     </>
   );
 }
@@ -60,10 +86,13 @@ function BlockSubGroups({
 export function DimensionBlockGrid({
   entries,
   dimensionId,
+  fullCatalog,
 }: {
   entries: CatalogEntry[];
   /** 지정 시 해당 차원만 세부 카테고리로 표시 */
   dimensionId?: DimensionId;
+  /** 식물(작물) 통합 목록용 — 블록+아이템 전체 카탈로그 */
+  fullCatalog?: SearchResultItem[];
 }) {
   const grouped = groupByDimensionAndSubCategory(entries, BLOCK_SUB_CATEGORY_ORDER);
 
@@ -78,6 +107,7 @@ export function DimensionBlockGrid({
           dimLabel={dim.name}
           dimEmoji={dim.emoji}
           dimColor={dim.color}
+          fullCatalog={fullCatalog}
         />
       </div>
     );
@@ -97,6 +127,7 @@ export function DimensionBlockGrid({
               dimLabel={dim.name}
               dimEmoji={dim.emoji}
               dimColor={dim.color}
+              fullCatalog={fullCatalog}
             />
           </section>
         );
@@ -136,17 +167,22 @@ function SubCategorySection({
   title,
   count,
   entries,
+  note,
 }: {
   title: string;
   count: number;
   entries: CatalogEntry[];
+  note?: React.ReactNode;
 }) {
   return (
     <section className="mt-5">
-      <h3 className="font-sans text-[1.05rem] font-bold mb-3 text-wiki-text dark:text-zinc-100 flex items-center gap-2">
-        {title}
-        <span className="wiki-badge !text-[10px]">{count}</span>
-      </h3>
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-3">
+        <h3 className="font-sans text-[1.05rem] font-bold text-wiki-text dark:text-zinc-100 flex items-center gap-2">
+          {title}
+          <span className="wiki-badge !text-[10px]">{count}</span>
+        </h3>
+        {note}
+      </div>
       <EntryGrid entries={entries} />
     </section>
   );
@@ -163,7 +199,7 @@ function EntryGrid({ entries }: { entries: CatalogEntry[] }) {
             </span>
             <span className="catalog-entry-text">
               <span className="catalog-entry-name">{e.name}</span>
-              <span className="catalog-entry-cat">{e.category}</span>
+              <span className="catalog-entry-cat">{(e as CropCatalogEntry).displayCategory ?? e.category}</span>
             </span>
           </CatalogLink>
         </li>

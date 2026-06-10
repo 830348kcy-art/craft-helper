@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { categories, getDocsByCategory } from "@/lib/data";
-import { getEntriesByCategory } from "@/lib/search";
+import { getAllItems, getEntriesByCategory } from "@/lib/search";
 import { CatalogLink } from "@/app/components/CatalogLink";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import {
@@ -27,6 +27,7 @@ export default async function CategoryPage({ params }: { params: { slug: string 
   if (!category) return notFound();
   const docs = getDocsByCategory(category.slug);
   const entries = await getEntriesByCategory(category.slug);
+  const fullCatalog = category.slug === "blocks" ? await getAllItems() : undefined;
   const texture = getCategoryTexture(category.slug);
 
   const blocks  = entries.filter((e) => e.type === "block");
@@ -113,7 +114,11 @@ export default async function CategoryPage({ params }: { params: { slug: string 
               {blocks.length > 0 && category.slug !== "mobs" && (
                 <Group title="🟫 블록" count={blocks.length}>
                   {category.slug === "blocks" ? (
-                    <DimensionBlockGrid entries={blocks as CatalogEntry[]} dimensionId={undefined} />
+                    <DimensionBlockGrid
+                      entries={blocks as CatalogEntry[]}
+                      dimensionId={undefined}
+                      fullCatalog={fullCatalog}
+                    />
                   ) : category.slug === "nether" || category.slug === "end" ? (
                     <DimensionOnlyGrid
                       entries={[...blocks, ...items] as CatalogEntry[]}

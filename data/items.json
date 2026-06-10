@@ -528,18 +528,6 @@
     "stackSize": 64
   },
   {
-    "id": "bee_nest",
-    "name": "벌집",
-    "emoji": "📦",
-    "image": "/images/items/bee_nest.png",
-    "category": "재료",
-    "description": "벌집. 마인크래프트에서 획득·사용하는 아이템입니다.",
-    "tags": [
-      "재료"
-    ],
-    "stackSize": 64
-  },
-  {
     "id": "beehive",
     "name": "벌통",
     "emoji": "📦",
@@ -2008,10 +1996,10 @@
     "name": "코코아 콩",
     "emoji": "📦",
     "image": "/images/items/cocoa_beans.png",
-    "category": "음식",
+    "category": "농작물",
     "description": "코코아 콩. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "음식"
+      "농작물"
     ],
     "stackSize": 64
   },
@@ -3544,10 +3532,10 @@
     "name": "반짝이는 수박 조각",
     "emoji": "📦",
     "image": "/images/items/glistering_melon_slice.png",
-    "category": "음식",
+    "category": "농작물",
     "description": "반짝이는 수박 조각. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "음식"
+      "농작물"
     ],
     "stackSize": 64
   },
@@ -5464,10 +5452,10 @@
     "name": "수박 조각",
     "emoji": "📦",
     "image": "/images/items/melon_slice.png",
-    "category": "음식",
+    "category": "농작물",
     "description": "수박 조각. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "음식"
+      "농작물"
     ],
     "stackSize": 64
   },
@@ -5492,18 +5480,6 @@
     "description": "현수막 무늬. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "특수"
-    ],
-    "stackSize": 64
-  },
-  {
-    "id": "moss_block",
-    "name": "이끼 블록",
-    "emoji": "📦",
-    "image": "/images/items/moss_block.png",
-    "category": "재료",
-    "description": "이끼 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
-    "tags": [
-      "재료"
     ],
     "stackSize": 64
   },
@@ -5764,10 +5740,10 @@
     "name": "네더 사마귀",
     "emoji": "📦",
     "image": "/images/items/nether_wart.png",
-    "category": "음식",
+    "category": "농작물",
     "description": "네더 사마귀. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "음식"
+      "농작물"
     ],
     "stackSize": 64
   },
@@ -5776,10 +5752,10 @@
     "name": "네더 사마귀 블록",
     "emoji": "📦",
     "image": "/images/items/nether_wart_block.png",
-    "category": "음식",
+    "category": "농작물",
     "description": "네더 사마귀 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "음식"
+      "농작물"
     ],
     "stackSize": 64
   },
