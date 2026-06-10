@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CatalogLink } from "./CatalogLink";
 import { SmartIcon } from "./SmartIcon";
 import type { SearchResultItem } from "@/lib/search";
 
@@ -45,9 +46,9 @@ export function RelatedItems({
       <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2">
         {items.map((it) => (
           <li key={`${it.type}-${it.id}`}>
-            <Link
+            <CatalogLink
               href={it.href}
-              className="group flex items-center gap-2.5 p-2.5 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:border-brand-400 hover:shadow-md hover:-translate-y-0.5 transition-all"
+              className="group flex items-center gap-2.5 p-2.5 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:border-brand-400 hover:shadow-md hover:-translate-y-0.5 transition-all no-underline"
             >
               <SmartIcon textureId={it.id} image={it.image} emoji={it.emoji} size="md" framed />
               <div className="min-w-0 flex-1">
@@ -59,7 +60,7 @@ export function RelatedItems({
                 </div>
                 <p className="text-[11px] text-zinc-500 truncate mt-0.5">{it.category}</p>
               </div>
-            </Link>
+            </CatalogLink>
           </li>
         ))}
       </ul>

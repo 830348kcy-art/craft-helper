@@ -1,10 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { Header } from "./components/Header";
 import { AppChrome } from "./components/AppChrome";
 import { ScrollToTop } from "./components/ScrollToTop";
+import { ScrollRestoration } from "./components/ScrollRestoration";
 
 export const metadata: Metadata = {
   title: "Craft Helper with java",
@@ -43,6 +45,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </footer>
 
+          <Suspense fallback={null}>
+            <ScrollRestoration />
+          </Suspense>
           <ScrollToTop />
         </ThemeProvider>
       </body>

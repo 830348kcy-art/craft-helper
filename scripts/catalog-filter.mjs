@@ -86,12 +86,44 @@ export function getCraftableIds() {
   return craftableIdsCache;
 }
 
+/** 제작 불가지만 카탈로그에 포함할 기본 작물·식물 (참고용) */
+export const SUPPLEMENTAL_ITEM_IDS = new Set([
+  "carrot",
+  "potato",
+  "beetroot",
+  "beetroot_seeds",
+  "sweet_berries",
+  "glow_berries",
+  "cocoa_beans",
+  "nether_wart",
+  "apple",
+  "chorus_fruit",
+  "sugar_cane",
+  "bamboo",
+  "kelp",
+  "pitcher_pod",
+  "torchflower_seeds",
+  "melon_slice",
+]);
+
+export const SUPPLEMENTAL_BLOCK_IDS = new Set([
+  "pumpkin",
+  "cactus",
+  "sugar_cane",
+  "bamboo",
+  "bee_nest",
+  "beehive",
+  "composter",
+  "moss_block",
+  "moss_carpet",
+]);
+
 export function isCatalogAllowed(id) {
   if (isExcludedId(id)) return false;
+  if (SUPPLEMENTAL_ITEM_IDS.has(id) || SUPPLEMENTAL_BLOCK_IDS.has(id)) return true;
   return getCraftableIds().has(id);
 }
 
 export function filterCatalogEntries(entries) {
-  const craftable = getCraftableIds();
-  return entries.filter((e) => craftable.has(e.id) && !isExcludedId(e.id));
+  return entries.filter((e) => isCatalogAllowed(e.id));
 }

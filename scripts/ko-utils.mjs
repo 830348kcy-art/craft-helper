@@ -1400,7 +1400,9 @@ export function inferBlockCategory(id) {
   if (/purpur|end_rod|end_portal_frame/.test(id)) return "건축";
   if (/sculk|trial|vault|crafter|heavy_core|creaking|decorated_pot|suspicious|sniffer|frogspawn|resin|eyeblossom|torchflower|pale_/.test(id))
     return "특수";
-  if (/flower|rose|tulip|daisy|lily|allium|poppy|dandelion|cornflower|azalea|spore|vine|kelp|seagrass|bamboo|cactus|melon|pumpkin|crop|wheat|carrot|potato|beetroot|berry|mushroom|coral|fern|grass|bush|moss|leaf|wildflower|petals|sprouts|fungus|wart|lichen|dripleaf|pitcher|torchflower/.test(id))
+  if (/^mossy_/.test(id)) return "건축";
+  if (id === "flower_pot") return "장식";
+  if (/flower|rose|tulip|daisy|lily|allium|poppy|dandelion|cornflower|azalea|spore|vine|kelp|seagrass|bamboo|cactus|melon|pumpkin|crop|wheat|carrot|potato|beetroot|berry|mushroom|coral|fern|grass|bush|moss_block|moss_carpet|wildflower|petals|sprouts|fungus|wart|lichen|dripleaf|pitcher|torchflower|hay_block|bee_nest|beehive|composter|sugar_cane|bamboo_block|bamboo_mosaic|bamboo_planks/.test(id))
     return "식물";
   if (/dirt|grass|stone|cobble|sand|gravel|clay|mud|deepslate|andesite|diorite|granite|tuff|calcite|dripstone|ice|snow|podzol|mycelium|farmland|path|infested/.test(id))
     return "자연";
@@ -1415,10 +1417,10 @@ export function inferItemCategory(id) {
     return "도구";
   if (/sword|bow|crossbow|trident|mace|arrow|shield/.test(id)) return "무기";
   if (/helmet|chestplate|leggings|boots|horse_armor|wolf_armor/.test(id)) return "방어구";
-  if (/apple|bread|meat|fish|stew|soup|pie|cookie|cake|berries|carrot|potato|beetroot|melon|chorus|honey|milk|egg/.test(id))
-    return "음식";
-  if (/seeds|wheat|beetroot_seeds|melon_seeds|pumpkin_seeds|pitcher_pod|torchflower_seeds/.test(id))
+  if (/seeds|wheat|beetroot_seeds|melon_seeds|pumpkin_seeds|pitcher_pod|torchflower_seeds|carrot|potato|beetroot/.test(id))
     return "농작물";
+  if (/apple|bread|meat|fish|stew|soup|pie|cookie|cake|berries|melon_slice|chorus|honey|milk|egg|sweet_berries|glow_berries|cocoa_beans|nether_wart|sugar_cane|bamboo|kelp|sea_pickle/.test(id))
+    return "음식";
   if (/ingot|nugget|diamond|emerald|coal|charcoal|quartz|lapis|redstone|amethyst|scrap|raw_|shard|pearl|rod|powder|tear|cream|ball|gunpowder|slime|honeycomb|echo|debris|wind_charge|breeze|resin_clump/.test(id))
     return "자원";
   if (/stick|string|feather|flint|leather|paper|book|sugar|bone|ink|dye|nautilus|heart_of_the_sea|shulker|phantom|scute|dragon_breath|nether_star|blaze|ender|gunpowder|experience/.test(id))

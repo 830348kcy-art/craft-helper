@@ -273,6 +273,19 @@
     "hardness": 5
   },
   {
+    "id": "bamboo",
+    "name": "대나무",
+    "emoji": "🪵",
+    "image": "/images/blocks/bamboo.png",
+    "category": "나무",
+    "description": "대나무. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "나무"
+    ],
+    "tool": "도끼",
+    "hardness": 2
+  },
+  {
     "id": "bamboo_block",
     "name": "대나무 블록",
     "emoji": "🪵",
@@ -494,14 +507,27 @@
     "hardness": 3
   },
   {
+    "id": "bee_nest",
+    "name": "벌집",
+    "emoji": "🟫",
+    "image": "/images/blocks/bee_nest.png",
+    "category": "식물",
+    "description": "벌집. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "식물"
+    ],
+    "tool": "도끼",
+    "hardness": 1
+  },
+  {
     "id": "beehive",
     "name": "벌통",
     "emoji": "🟫",
     "image": "/images/blocks/beehive.png",
-    "category": "건축",
+    "category": "식물",
     "description": "벌통. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "건축"
+      "식물"
     ],
     "tool": "도끼",
     "hardness": 1
@@ -1194,6 +1220,19 @@
     ],
     "tool": "가위",
     "hardness": 0.8
+  },
+  {
+    "id": "cactus",
+    "name": "선인장",
+    "emoji": "🟫",
+    "image": "/images/blocks/cactus.png",
+    "category": "식물",
+    "description": "선인장. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "식물"
+    ],
+    "tool": "곡괭이",
+    "hardness": 1
   },
   {
     "id": "cake",
@@ -2916,10 +2955,10 @@
     "name": "화분",
     "emoji": "🌿",
     "image": "/images/blocks/flower_pot.png",
-    "category": "식물",
+    "category": "장식",
     "description": "화분. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "식물"
+      "장식"
     ],
     "tool": "없음",
     "hardness": 0.2
@@ -3280,10 +3319,10 @@
     "name": "건초 더미",
     "emoji": "🟫",
     "image": "/images/blocks/hay_block.png",
-    "category": "자원",
+    "category": "식물",
     "description": "건초 더미. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "자원"
+      "식물"
     ],
     "tool": "삽",
     "hardness": 1
@@ -3599,6 +3638,19 @@
     ],
     "tool": "도끼",
     "hardness": 2
+  },
+  {
+    "id": "kelp",
+    "name": "켈프",
+    "emoji": "🟦",
+    "image": "/images/blocks/kelp.png",
+    "category": "식물",
+    "description": "켈프. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "식물"
+    ],
+    "tool": "곡괭이",
+    "hardness": 1
   },
   {
     "id": "ladder",
@@ -4394,6 +4446,19 @@
     "hardness": 1
   },
   {
+    "id": "moss_block",
+    "name": "이끼 블록",
+    "emoji": "🌿",
+    "image": "/images/blocks/moss_block.png",
+    "category": "식물",
+    "description": "이끼 블록. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "식물"
+    ],
+    "tool": "삽",
+    "hardness": 0.2
+  },
+  {
     "id": "moss_carpet",
     "name": "이끼 바닥",
     "emoji": "🌿",
@@ -4411,10 +4476,10 @@
     "name": "이끼 낀 조약돌",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_cobblestone.png",
-    "category": "식물",
+    "category": "건축",
     "description": "이끼 낀 조약돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "식물"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 2
@@ -4502,10 +4567,10 @@
     "name": "이끼 낀 석재 벽돌",
     "emoji": "🌿",
     "image": "/images/blocks/mossy_stone_bricks.png",
-    "category": "식물",
+    "category": "건축",
     "description": "이끼 낀 석재 벽돌. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
-      "식물"
+      "건축"
     ],
     "tool": "곡괭이",
     "hardness": 1.5
@@ -4639,6 +4704,19 @@
     ],
     "tool": "곡괭이",
     "hardness": 2
+  },
+  {
+    "id": "nether_wart",
+    "name": "네더 사마귀",
+    "emoji": "🟥",
+    "image": "/images/blocks/nether_wart.png",
+    "category": "자연",
+    "description": "네더 사마귀. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "자연"
+    ],
+    "tool": "곡괭이",
+    "hardness": 1
   },
   {
     "id": "nether_wart_block",
@@ -5884,6 +5962,19 @@
     "description": "프리즈머린 담장. 마인크래프트에서 사용하는 블록입니다.",
     "tags": [
       "건축"
+    ],
+    "tool": "곡괭이",
+    "hardness": 1
+  },
+  {
+    "id": "pumpkin",
+    "name": "호박",
+    "emoji": "🟫",
+    "image": "/images/blocks/pumpkin.png",
+    "category": "식물",
+    "description": "호박. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "식물"
     ],
     "tool": "곡괭이",
     "hardness": 1
@@ -7199,6 +7290,19 @@
       "나무"
     ],
     "tool": "도끼",
+    "hardness": 1
+  },
+  {
+    "id": "sugar_cane",
+    "name": "사탕수수",
+    "emoji": "🟫",
+    "image": "/images/blocks/sugar_cane.png",
+    "category": "식물",
+    "description": "사탕수수. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "식물"
+    ],
+    "tool": "곡괭이",
     "hardness": 1
   },
   {

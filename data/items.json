@@ -252,6 +252,18 @@
     "stackSize": 64
   },
   {
+    "id": "apple",
+    "name": "사과",
+    "emoji": "🍖",
+    "image": "/images/items/apple.png",
+    "category": "음식",
+    "description": "사과. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "음식"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "armor_stand",
     "name": "갑옷 거치대",
     "emoji": "📦",
@@ -276,14 +288,26 @@
     "stackSize": 64
   },
   {
+    "id": "bamboo",
+    "name": "대나무",
+    "emoji": "📦",
+    "image": "/images/items/bamboo.png",
+    "category": "음식",
+    "description": "대나무. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "음식"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "bamboo_block",
     "name": "대나무 블록",
     "emoji": "📦",
     "image": "/images/items/bamboo_block.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -292,10 +316,10 @@
     "name": "대나무 버튼",
     "emoji": "📦",
     "image": "/images/items/bamboo_button.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 버튼. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -304,10 +328,10 @@
     "name": "상자가 실린 대나무 뗏목",
     "emoji": "📦",
     "image": "/images/items/bamboo_chest_raft.png",
-    "category": "재료",
+    "category": "음식",
     "description": "상자가 실린 대나무 뗏목. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -316,10 +340,10 @@
     "name": "대나무 문",
     "emoji": "📦",
     "image": "/images/items/bamboo_door.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 문. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -328,10 +352,10 @@
     "name": "대나무 울타리",
     "emoji": "📦",
     "image": "/images/items/bamboo_fence.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 울타리. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -340,10 +364,10 @@
     "name": "대나무 울타리 문",
     "emoji": "📦",
     "image": "/images/items/bamboo_fence_gate.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 울타리 문. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -352,10 +376,10 @@
     "name": "대나무 매다는 표지판",
     "emoji": "📦",
     "image": "/images/items/bamboo_hanging_sign.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 매다는 표지판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -364,10 +388,10 @@
     "name": "대나무 모자이크",
     "emoji": "📦",
     "image": "/images/items/bamboo_mosaic.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 모자이크. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -376,10 +400,10 @@
     "name": "대나무 모자이크 반 블록",
     "emoji": "📦",
     "image": "/images/items/bamboo_mosaic_slab.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 모자이크 반 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -388,10 +412,10 @@
     "name": "대나무 모자이크 계단",
     "emoji": "📦",
     "image": "/images/items/bamboo_mosaic_stairs.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 모자이크 계단. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -400,10 +424,10 @@
     "name": "대나무 판자",
     "emoji": "📦",
     "image": "/images/items/bamboo_planks.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 판자. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -412,10 +436,10 @@
     "name": "대나무 압력판",
     "emoji": "📦",
     "image": "/images/items/bamboo_pressure_plate.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 압력판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -424,10 +448,10 @@
     "name": "대나무 뗏목",
     "emoji": "📦",
     "image": "/images/items/bamboo_raft.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 뗏목. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -436,10 +460,10 @@
     "name": "대나무 표지판",
     "emoji": "📦",
     "image": "/images/items/bamboo_sign.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 표지판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -448,10 +472,10 @@
     "name": "대나무 반 블록",
     "emoji": "📦",
     "image": "/images/items/bamboo_slab.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 반 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -460,10 +484,10 @@
     "name": "대나무 계단",
     "emoji": "📦",
     "image": "/images/items/bamboo_stairs.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 계단. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -472,10 +496,10 @@
     "name": "대나무 다락문",
     "emoji": "📦",
     "image": "/images/items/bamboo_trapdoor.png",
-    "category": "재료",
+    "category": "음식",
     "description": "대나무 다락문. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -504,6 +528,18 @@
     "stackSize": 64
   },
   {
+    "id": "bee_nest",
+    "name": "벌집",
+    "emoji": "📦",
+    "image": "/images/items/bee_nest.png",
+    "category": "재료",
+    "description": "벌집. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "재료"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "beehive",
     "name": "벌통",
     "emoji": "📦",
@@ -516,14 +552,38 @@
     "stackSize": 64
   },
   {
+    "id": "beetroot",
+    "name": "비트",
+    "emoji": "📦",
+    "image": "/images/items/beetroot.png",
+    "category": "농작물",
+    "description": "비트. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "농작물"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "beetroot_seeds",
+    "name": "비트 씨앗",
+    "emoji": "📦",
+    "image": "/images/items/beetroot_seeds.png",
+    "category": "농작물",
+    "description": "비트 씨앗. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "농작물"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "beetroot_soup",
     "name": "비트 수프",
     "emoji": "📦",
     "image": "/images/items/beetroot_soup.png",
-    "category": "음식",
+    "category": "농작물",
     "description": "비트 수프. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "음식"
+      "농작물"
     ],
     "stackSize": 64
   },
@@ -1021,11 +1081,11 @@
   },
   {
     "id": "bolt_armor_trim_smithing_template",
-    "name": "나사 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/bolt_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "나사 형판. 나사 모양의 장식 무늬. 시험 회전실에서 획득한다.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -1106,7 +1166,7 @@
   {
     "id": "bowl",
     "name": "그릇",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/bowl.png",
     "category": "무기",
     "description": "그릇. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -1344,6 +1404,18 @@
     "stackSize": 64
   },
   {
+    "id": "cactus",
+    "name": "선인장",
+    "emoji": "📦",
+    "image": "/images/items/cactus.png",
+    "category": "재료",
+    "description": "선인장. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "재료"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "cake",
     "name": "케이크",
     "emoji": "📦",
@@ -1392,14 +1464,26 @@
     "stackSize": 64
   },
   {
+    "id": "carrot",
+    "name": "당근",
+    "emoji": "🍖",
+    "image": "/images/items/carrot.png",
+    "category": "농작물",
+    "description": "당근. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "농작물"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "carrot_on_a_stick",
     "name": "당근 낚싯대",
     "emoji": "🍖",
     "image": "/images/items/carrot_on_a_stick.png",
-    "category": "음식",
+    "category": "농작물",
     "description": "당근 낚싯대. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "음식"
+      "농작물"
     ],
     "stackSize": 64
   },
@@ -1764,6 +1848,18 @@
     "stackSize": 64
   },
   {
+    "id": "chorus_fruit",
+    "name": "후렴과",
+    "emoji": "📦",
+    "image": "/images/items/chorus_fruit.png",
+    "category": "음식",
+    "description": "후렴과. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "음식"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "clay",
     "name": "점토",
     "emoji": "📦",
@@ -1825,11 +1921,11 @@
   },
   {
     "id": "coast_armor_trim_smithing_template",
-    "name": "해안 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/coast_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "해안 형판. 파도와 해안을 연상시키는 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -1904,6 +2000,18 @@
     "description": "조약돌 담장. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "cocoa_beans",
+    "name": "코코아 콩",
+    "emoji": "📦",
+    "image": "/images/items/cocoa_beans.png",
+    "category": "음식",
+    "description": "코코아 콩. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "음식"
     ],
     "stackSize": 64
   },
@@ -2968,10 +3076,10 @@
     "name": "말린 켈프",
     "emoji": "📦",
     "image": "/images/items/dried_kelp.png",
-    "category": "재료",
+    "category": "음식",
     "description": "말린 켈프. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -2980,10 +3088,10 @@
     "name": "말린 켈프 블록",
     "emoji": "📦",
     "image": "/images/items/dried_kelp_block.png",
-    "category": "재료",
+    "category": "음식",
     "description": "말린 켈프 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -3013,11 +3121,11 @@
   },
   {
     "id": "dune_armor_trim_smithing_template",
-    "name": "사구 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/dune_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "사구 형판. 사막 사원에서 발견되는 사구 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -3229,11 +3337,11 @@
   },
   {
     "id": "eye_armor_trim_smithing_template",
-    "name": "눈 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/eye_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "눈 형판. 눈 모양의 장식. 요새에서 흔히 발견.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -3337,11 +3445,11 @@
   },
   {
     "id": "flow_armor_trim_smithing_template",
-    "name": "흐름 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/flow_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "흐름 형판. 흐르는 듯한 곡선 무늬. 고대 도시 전용.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -3426,6 +3534,18 @@
     "image": "/images/items/glistering_melon_slice.png",
     "category": "음식",
     "description": "반짝이는 수박 조각. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "음식"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "glow_berries",
+    "name": "발광 열매",
+    "emoji": "🍖",
+    "image": "/images/items/glow_berries.png",
+    "category": "음식",
+    "description": "발광 열매. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "음식"
     ],
@@ -3532,10 +3652,10 @@
     "name": "황금 당근",
     "emoji": "🍖",
     "image": "/images/items/golden_carrot.png",
-    "category": "음식",
+    "category": "농작물",
     "description": "황금 당근. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "음식"
+      "농작물"
     ],
     "stackSize": 64
   },
@@ -3997,11 +4117,11 @@
   },
   {
     "id": "host_armor_trim_smithing_template",
-    "name": "주인 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/host_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "주인 형판. 약탈자 전초기지에서 획득.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -4388,6 +4508,18 @@
     "description": "정글나무. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "kelp",
+    "name": "켈프",
+    "emoji": "📦",
+    "image": "/images/items/kelp.png",
+    "category": "음식",
+    "description": "켈프. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "음식"
     ],
     "stackSize": 64
   },
@@ -5296,10 +5428,10 @@
     "name": "수박",
     "emoji": "📦",
     "image": "/images/items/melon.png",
-    "category": "음식",
+    "category": "재료",
     "description": "수박. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "음식"
+      "재료"
     ],
     "stackSize": 64
   },
@@ -5308,8 +5440,20 @@
     "name": "수박씨",
     "emoji": "📦",
     "image": "/images/items/melon_seeds.png",
-    "category": "음식",
+    "category": "농작물",
     "description": "수박씨. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "농작물"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "melon_slice",
+    "name": "수박 조각",
+    "emoji": "📦",
+    "image": "/images/items/melon_slice.png",
+    "category": "음식",
+    "description": "수박 조각. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "음식"
     ],
@@ -5336,6 +5480,18 @@
     "description": "현수막 무늬. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "특수"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "moss_block",
+    "name": "이끼 블록",
+    "emoji": "📦",
+    "image": "/images/items/moss_block.png",
+    "category": "재료",
+    "description": "이끼 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "재료"
     ],
     "stackSize": 64
   },
@@ -5592,14 +5748,26 @@
     "stackSize": 64
   },
   {
+    "id": "nether_wart",
+    "name": "네더 사마귀",
+    "emoji": "📦",
+    "image": "/images/items/nether_wart.png",
+    "category": "음식",
+    "description": "네더 사마귀. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "음식"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "nether_wart_block",
     "name": "네더 사마귀 블록",
     "emoji": "📦",
     "image": "/images/items/nether_wart_block.png",
-    "category": "재료",
+    "category": "음식",
     "description": "네더 사마귀 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
-      "재료"
+      "음식"
     ],
     "stackSize": 64
   },
@@ -5629,11 +5797,11 @@
   },
   {
     "id": "netherite_upgrade_smithing_template",
-    "name": "네더라이트 강화 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/netherite_upgrade_smithing_template.png",
     "category": "재료",
-    "description": "네더라이트 강화 형판. 대장장이 테이블에서 네더라이트 강화에 사용하는 형판입니다.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -6384,6 +6552,18 @@
     "stackSize": 64
   },
   {
+    "id": "pitcher_pod",
+    "name": "벌레잡이풀 꼬투리",
+    "emoji": "📦",
+    "image": "/images/items/pitcher_pod.png",
+    "category": "농작물",
+    "description": "벌레잡이풀 꼬투리. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "농작물"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "polished_andesite",
     "name": "윤나는 안산암",
     "emoji": "📦",
@@ -6720,6 +6900,18 @@
     "stackSize": 64
   },
   {
+    "id": "potato",
+    "name": "감자",
+    "emoji": "🍖",
+    "image": "/images/items/potato.png",
+    "category": "농작물",
+    "description": "감자. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "농작물"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "powered_rail",
     "name": "동력 레일",
     "emoji": "📦",
@@ -6810,6 +7002,18 @@
     "image": "/images/items/prismarine_wall.png",
     "category": "재료",
     "description": "프리즈머린 담장. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "재료"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "pumpkin",
+    "name": "호박",
+    "emoji": "📦",
+    "image": "/images/items/pumpkin.png",
+    "category": "재료",
+    "description": "호박. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -7093,11 +7297,11 @@
   },
   {
     "id": "raiser_armor_trim_smithing_template",
-    "name": "사육사 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/raiser_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "사육사 형판. 사육사를 상징하는 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -7477,11 +7681,11 @@
   },
   {
     "id": "rib_armor_trim_smithing_template",
-    "name": "갈비뼈 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/rib_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "갈비뼈 형판. 갈비뼈 형태의 네더 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -7561,11 +7765,11 @@
   },
   {
     "id": "sentry_armor_trim_smithing_template",
-    "name": "보초 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/sentry_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "보초 형판. 피글린 요새 폐허에서 발견.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -7573,11 +7777,11 @@
   },
   {
     "id": "shaper_armor_trim_smithing_template",
-    "name": "조형가 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/shaper_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "조형가 형판. 트레일 유적의 조형가 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -7621,11 +7825,11 @@
   },
   {
     "id": "silence_armor_trim_smithing_template",
-    "name": "고요 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/silence_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "고요 형판. 고요함을 표현한 희귀 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -7777,11 +7981,11 @@
   },
   {
     "id": "snout_armor_trim_smithing_template",
-    "name": "돼지 코 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/snout_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "돼지 코 형판. 피글린을 연상시키는 코 모양.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -7861,11 +8065,11 @@
   },
   {
     "id": "spire_armor_trim_smithing_template",
-    "name": "첨탑 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/spire_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "첨탑 형판. 엔드 도시 첨탑을 닮은 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -8388,12 +8592,36 @@
     "stackSize": 64
   },
   {
+    "id": "sugar_cane",
+    "name": "사탕수수",
+    "emoji": "📦",
+    "image": "/images/items/sugar_cane.png",
+    "category": "음식",
+    "description": "사탕수수. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "음식"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "suspicious_stew",
     "name": "수상한 스튜",
     "emoji": "🍖",
     "image": "/images/items/suspicious_stew.png",
     "category": "음식",
     "description": "수상한 스튜. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "음식"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "sweet_berries",
+    "name": "달콤한 열매",
+    "emoji": "🍖",
+    "image": "/images/items/sweet_berries.png",
+    "category": "음식",
+    "description": "달콤한 열매. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "음식"
     ],
@@ -8413,11 +8641,11 @@
   },
   {
     "id": "tide_armor_trim_smithing_template",
-    "name": "물결 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/tide_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "물결 형판. 밀물과 썰물을 연상시키는 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -8468,6 +8696,18 @@
     "description": "횃불. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "torchflower_seeds",
+    "name": "횃불꽃 씨앗",
+    "emoji": "📦",
+    "image": "/images/items/torchflower_seeds.png",
+    "category": "농작물",
+    "description": "횃불꽃 씨앗. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "농작물"
     ],
     "stackSize": 64
   },
@@ -8581,11 +8821,11 @@
   },
   {
     "id": "vex_armor_trim_smithing_template",
-    "name": "벡스 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/vex_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "벡스 형판. 벡스 날개를 닮은 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -8593,11 +8833,11 @@
   },
   {
     "id": "ward_armor_trim_smithing_template",
-    "name": "파수 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/ward_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "파수 형판. 고대 도시의 파수 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -8762,7 +9002,7 @@
   {
     "id": "waxed_chiseled_copper",
     "name": "밀랍칠한 조각된 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_chiseled_copper.png",
     "category": "재료",
     "description": "밀랍칠한 조각된 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8774,7 +9014,7 @@
   {
     "id": "waxed_copper_block",
     "name": "밀랍칠한 구리 블록",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_copper_block.png",
     "category": "재료",
     "description": "밀랍칠한 구리 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8786,7 +9026,7 @@
   {
     "id": "waxed_copper_bulb",
     "name": "밀랍칠한 구리 전구",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_copper_bulb.png",
     "category": "재료",
     "description": "밀랍칠한 구리 전구. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8798,7 +9038,7 @@
   {
     "id": "waxed_copper_door",
     "name": "밀랍칠한 구리 문",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_copper_door.png",
     "category": "재료",
     "description": "밀랍칠한 구리 문. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8810,7 +9050,7 @@
   {
     "id": "waxed_copper_grate",
     "name": "밀랍칠한 구리 격자",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_copper_grate.png",
     "category": "재료",
     "description": "밀랍칠한 구리 격자. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8822,7 +9062,7 @@
   {
     "id": "waxed_copper_trapdoor",
     "name": "밀랍칠한 구리 다락문",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_copper_trapdoor.png",
     "category": "재료",
     "description": "밀랍칠한 구리 다락문. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8834,7 +9074,7 @@
   {
     "id": "waxed_cut_copper",
     "name": "밀랍칠한 깎인 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_cut_copper.png",
     "category": "재료",
     "description": "밀랍칠한 깎인 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8846,7 +9086,7 @@
   {
     "id": "waxed_cut_copper_slab",
     "name": "밀랍칠한 깎인 구리 반 블록",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_cut_copper_slab.png",
     "category": "재료",
     "description": "밀랍칠한 깎인 구리 반 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8858,7 +9098,7 @@
   {
     "id": "waxed_cut_copper_stairs",
     "name": "밀랍칠한 깎인 구리 계단",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_cut_copper_stairs.png",
     "category": "재료",
     "description": "밀랍칠한 깎인 구리 계단. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8870,7 +9110,7 @@
   {
     "id": "waxed_exposed_chiseled_copper",
     "name": "밀랍칠한 약간 녹슨 조각된 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_exposed_chiseled_copper.png",
     "category": "재료",
     "description": "밀랍칠한 약간 녹슨 조각된 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8882,7 +9122,7 @@
   {
     "id": "waxed_exposed_copper",
     "name": "밀랍칠한 약간 녹슨 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_exposed_copper.png",
     "category": "재료",
     "description": "밀랍칠한 약간 녹슨 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8894,7 +9134,7 @@
   {
     "id": "waxed_exposed_copper_bulb",
     "name": "밀랍칠한 약간 녹슨 구리 전구",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_exposed_copper_bulb.png",
     "category": "재료",
     "description": "밀랍칠한 약간 녹슨 구리 전구. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8906,7 +9146,7 @@
   {
     "id": "waxed_exposed_copper_door",
     "name": "밀랍칠한 약간 녹슨 구리 문",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_exposed_copper_door.png",
     "category": "재료",
     "description": "밀랍칠한 약간 녹슨 구리 문. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8918,7 +9158,7 @@
   {
     "id": "waxed_exposed_copper_grate",
     "name": "밀랍칠한 약간 녹슨 구리 격자",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_exposed_copper_grate.png",
     "category": "재료",
     "description": "밀랍칠한 약간 녹슨 구리 격자. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8930,7 +9170,7 @@
   {
     "id": "waxed_exposed_copper_trapdoor",
     "name": "밀랍칠한 약간 녹슨 구리 다락문",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_exposed_copper_trapdoor.png",
     "category": "재료",
     "description": "밀랍칠한 약간 녹슨 구리 다락문. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8942,7 +9182,7 @@
   {
     "id": "waxed_exposed_cut_copper",
     "name": "밀랍칠한 약간 녹슨 깎인 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_exposed_cut_copper.png",
     "category": "재료",
     "description": "밀랍칠한 약간 녹슨 깎인 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8954,7 +9194,7 @@
   {
     "id": "waxed_exposed_cut_copper_slab",
     "name": "밀랍칠한 약간 녹슨 깎인 구리 반 블록",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_exposed_cut_copper_slab.png",
     "category": "재료",
     "description": "밀랍칠한 약간 녹슨 깎인 구리 반 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8966,7 +9206,7 @@
   {
     "id": "waxed_exposed_cut_copper_stairs",
     "name": "밀랍칠한 약간 녹슨 깎인 구리 계단",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_exposed_cut_copper_stairs.png",
     "category": "재료",
     "description": "밀랍칠한 약간 녹슨 깎인 구리 계단. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8978,7 +9218,7 @@
   {
     "id": "waxed_oxidized_chiseled_copper",
     "name": "밀랍칠한 산화된 조각된 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_oxidized_chiseled_copper.png",
     "category": "재료",
     "description": "밀랍칠한 산화된 조각된 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -8990,7 +9230,7 @@
   {
     "id": "waxed_oxidized_copper",
     "name": "밀랍칠한 산화된 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_oxidized_copper.png",
     "category": "재료",
     "description": "밀랍칠한 산화된 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9002,7 +9242,7 @@
   {
     "id": "waxed_oxidized_copper_bulb",
     "name": "밀랍칠한 산화된 구리 전구",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_oxidized_copper_bulb.png",
     "category": "재료",
     "description": "밀랍칠한 산화된 구리 전구. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9014,7 +9254,7 @@
   {
     "id": "waxed_oxidized_copper_door",
     "name": "밀랍칠한 산화된 구리 문",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_oxidized_copper_door.png",
     "category": "재료",
     "description": "밀랍칠한 산화된 구리 문. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9026,7 +9266,7 @@
   {
     "id": "waxed_oxidized_copper_grate",
     "name": "밀랍칠한 산화된 구리 격자",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_oxidized_copper_grate.png",
     "category": "재료",
     "description": "밀랍칠한 산화된 구리 격자. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9038,7 +9278,7 @@
   {
     "id": "waxed_oxidized_copper_trapdoor",
     "name": "밀랍칠한 산화된 구리 다락문",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_oxidized_copper_trapdoor.png",
     "category": "재료",
     "description": "밀랍칠한 산화된 구리 다락문. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9050,7 +9290,7 @@
   {
     "id": "waxed_oxidized_cut_copper",
     "name": "밀랍칠한 산화된 깎인 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_oxidized_cut_copper.png",
     "category": "재료",
     "description": "밀랍칠한 산화된 깎인 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9062,7 +9302,7 @@
   {
     "id": "waxed_oxidized_cut_copper_slab",
     "name": "밀랍칠한 산화된 깎인 구리 반 블록",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_oxidized_cut_copper_slab.png",
     "category": "재료",
     "description": "밀랍칠한 산화된 깎인 구리 반 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9074,7 +9314,7 @@
   {
     "id": "waxed_oxidized_cut_copper_stairs",
     "name": "밀랍칠한 산화된 깎인 구리 계단",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_oxidized_cut_copper_stairs.png",
     "category": "재료",
     "description": "밀랍칠한 산화된 깎인 구리 계단. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9086,7 +9326,7 @@
   {
     "id": "waxed_weathered_chiseled_copper",
     "name": "밀랍칠한 녹슨 조각된 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_weathered_chiseled_copper.png",
     "category": "재료",
     "description": "밀랍칠한 녹슨 조각된 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9098,7 +9338,7 @@
   {
     "id": "waxed_weathered_copper",
     "name": "밀랍칠한 녹슨 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_weathered_copper.png",
     "category": "재료",
     "description": "밀랍칠한 녹슨 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9110,7 +9350,7 @@
   {
     "id": "waxed_weathered_copper_bulb",
     "name": "밀랍칠한 녹슨 구리 전구",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_weathered_copper_bulb.png",
     "category": "재료",
     "description": "밀랍칠한 녹슨 구리 전구. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9122,7 +9362,7 @@
   {
     "id": "waxed_weathered_copper_door",
     "name": "밀랍칠한 녹슨 구리 문",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_weathered_copper_door.png",
     "category": "재료",
     "description": "밀랍칠한 녹슨 구리 문. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9134,7 +9374,7 @@
   {
     "id": "waxed_weathered_copper_grate",
     "name": "밀랍칠한 녹슨 구리 격자",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_weathered_copper_grate.png",
     "category": "재료",
     "description": "밀랍칠한 녹슨 구리 격자. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9146,7 +9386,7 @@
   {
     "id": "waxed_weathered_copper_trapdoor",
     "name": "밀랍칠한 녹슨 구리 다락문",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_weathered_copper_trapdoor.png",
     "category": "재료",
     "description": "밀랍칠한 녹슨 구리 다락문. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9158,7 +9398,7 @@
   {
     "id": "waxed_weathered_cut_copper",
     "name": "밀랍칠한 녹슨 깎인 구리",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_weathered_cut_copper.png",
     "category": "재료",
     "description": "밀랍칠한 녹슨 깎인 구리. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9170,7 +9410,7 @@
   {
     "id": "waxed_weathered_cut_copper_slab",
     "name": "밀랍칠한 녹슨 깎인 구리 반 블록",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_weathered_cut_copper_slab.png",
     "category": "재료",
     "description": "밀랍칠한 녹슨 깎인 구리 반 블록. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9182,7 +9422,7 @@
   {
     "id": "waxed_weathered_cut_copper_stairs",
     "name": "밀랍칠한 녹슨 깎인 구리 계단",
-    "emoji": "⚔️",
+    "emoji": "📦",
     "image": "/images/items/waxed_weathered_cut_copper_stairs.png",
     "category": "재료",
     "description": "밀랍칠한 녹슨 깎인 구리 계단. 마인크래프트에서 획득·사용하는 아이템입니다.",
@@ -9193,11 +9433,11 @@
   },
   {
     "id": "wayfinder_armor_trim_smithing_template",
-    "name": "길잡이 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/wayfinder_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "길잡이 형판. 길을 안내하는 듯한 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],
@@ -9409,11 +9649,11 @@
   },
   {
     "id": "wild_armor_trim_smithing_template",
-    "name": "야생 형판",
+    "name": "대장장이 형판",
     "emoji": "📦",
     "image": "/images/items/wild_armor_trim_smithing_template.png",
     "category": "재료",
-    "description": "야생 형판. 정글 사원의 야생 무늬.",
+    "description": "대장장이 형판. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "재료"
     ],

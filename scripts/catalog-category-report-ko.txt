@@ -1,12 +1,12 @@
 # Craft Helper 카탈로그 분류 리포트
-생성: 2026-06-04T10:48:09.839Z
+생성: 2026-06-10T15:42:21.607Z
 
 팬텀 구리 블록 ID 0개 제거됨
-제작 가능 필터: 블록 639 → 639, 아이템 803 → 803
+제작 가능 필터: 블록 647 → 647, 아이템 823 → 823
 
 ## 블록
 
-### 건축 (바닐라 316 / 추가 8)
+### 건축 (바닐라 317 / 추가 8)
 
 **바닐라(기존)**
 - TNT (tnt)
@@ -105,7 +105,6 @@
 - 밀랍칠한 약간 녹슨 깎인 구리 반 블록 (waxed_exposed_cut_copper_slab)
 - 밀랍칠한 약간 녹슨 조각된 구리 (waxed_exposed_chiseled_copper)
 - 밀랍칠한 조각된 구리 (waxed_chiseled_copper)
-- 벌통 (beehive)
 - 벚나무 계단 (cherry_stairs)
 - 벚나무 다락문 (cherry_trapdoor)
 - 벚나무 매다는 표지판 (cherry_hanging_sign)
@@ -211,9 +210,11 @@
 - 응회암 벽돌 계단 (tuff_brick_stairs)
 - 응회암 벽돌 담장 (tuff_brick_wall)
 - 응회암 벽돌 반 블록 (tuff_brick_slab)
+- 이끼 낀 석재 벽돌 (mossy_stone_bricks)
 - 이끼 낀 석재 벽돌 계단 (mossy_stone_brick_stairs)
 - 이끼 낀 석재 벽돌 담장 (mossy_stone_brick_wall)
 - 이끼 낀 석재 벽돌 반 블록 (mossy_stone_brick_slab)
+- 이끼 낀 조약돌 (mossy_cobblestone)
 - 이끼 낀 조약돌 계단 (mossy_cobblestone_stairs)
 - 이끼 낀 조약돌 담장 (mossy_cobblestone_wall)
 - 이끼 낀 조약돌 반 블록 (mossy_cobblestone_slab)
@@ -377,7 +378,7 @@
 - 상자가 실린 참나무 보트 (oak_chest_boat)
 - 상자가 실린 창백한 참나무 보트 (pale_oak_chest_boat)
 
-### 나무 (바닐라 49 / 추가 0)
+### 나무 (바닐라 50 / 추가 0)
 
 **바닐라(기존)**
 - 가문비나무 (spruce_wood)
@@ -393,6 +394,7 @@
 - 껍질 벗긴 짙은 참나무 (stripped_dark_oak_wood)
 - 껍질 벗긴 참나무 (stripped_oak_wood)
 - 껍질 벗긴 창백한 참나무 (stripped_pale_oak_wood)
+- 대나무 (bamboo)
 - 대나무 계단 (bamboo_stairs)
 - 대나무 다락문 (bamboo_trapdoor)
 - 대나무 매다는 표지판 (bamboo_hanging_sign)
@@ -447,15 +449,20 @@
 - 햇빛 감지기 (daylight_detector)
 - 호퍼 (hopper)
 
-### 식물 (바닐라 6 / 추가 0)
+### 식물 (바닐라 11 / 추가 0)
 
 **바닐라(기존)**
+- 건초 더미 (hay_block)
 - 말린 켈프 블록 (dried_kelp_block)
 - 밀 작물 (wheat)
+- 벌집 (bee_nest)
+- 벌통 (beehive)
+- 사탕수수 (sugar_cane)
+- 선인장 (cactus)
 - 수박 (melon)
-- 이끼 낀 석재 벽돌 (mossy_stone_bricks)
-- 이끼 낀 조약돌 (mossy_cobblestone)
-- 화분 (flower_pot)
+- 이끼 블록 (moss_block)
+- 켈프 (kelp)
+- 호박 (pumpkin)
 
 ### 이동 (바닐라 6 / 추가 0)
 
@@ -467,7 +474,7 @@
 - 사다리 (ladder)
 - 활성화 레일 (activator_rail)
 
-### 자연 (바닐라 46 / 추가 0)
+### 자연 (바닐라 47 / 추가 0)
 
 **바닐라(기존)**
 - 거친 흙 (coarse_dirt)
@@ -475,6 +482,7 @@
 - 깎인 사암 (cut_sandstone)
 - 꽁꽁 언 얼음 (packed_ice)
 - 네더 벽돌 (nether_bricks)
+- 네더 사마귀 (nether_wart)
 - 네더 사마귀 블록 (nether_wart_block)
 - 눈 (snow)
 - 눈 블록 (snow_block)
@@ -517,10 +525,9 @@
 - 푸른얼음 (blue_ice)
 - 화강암 (granite)
 
-### 자원 (바닐라 13 / 추가 0)
+### 자원 (바닐라 12 / 추가 0)
 
 **바닐라(기존)**
-- 건초 더미 (hay_block)
 - 구리 블록 (copper_block)
 - 금 블록 (gold_block)
 - 꿀 블록 (honey_block)
@@ -534,7 +541,7 @@
 - 철 블록 (iron_block)
 - 청금석 블록 (lapis_block)
 
-### 장식 (바닐라 131 / 추가 0)
+### 장식 (바닐라 132 / 추가 0)
 
 **바닐라(기존)**
 - 갈색 색유리 (brown_stained_glass)
@@ -652,6 +659,7 @@
 - 하얀색 콘크리트 가루 (white_concrete_powder)
 - 하얀색 테라코타 (white_terracotta)
 - 하얀색 현수막 (white_banner)
+- 화분 (flower_pot)
 - 회백색 색유리 (light_gray_stained_glass)
 - 회백색 색유리 판 (light_gray_stained_glass_pane)
 - 회백색 양탄자 (light_gray_carpet)
@@ -701,11 +709,21 @@
 
 ## 아이템
 
-### 농작물 (바닐라 2 / 추가 0)
+### 농작물 (바닐라 12 / 추가 0)
 
 **바닐라(기존)**
+- 감자 (potato)
+- 당근 (carrot)
+- 당근 낚싯대 (carrot_on_a_stick)
 - 밀 작물 (wheat)
+- 벌레잡이풀 꼬투리 (pitcher_pod)
+- 비트 (beetroot)
+- 비트 수프 (beetroot_soup)
+- 비트 씨앗 (beetroot_seeds)
+- 수박씨 (melon_seeds)
 - 호박씨 (pumpkin_seeds)
+- 황금 당근 (golden_carrot)
+- 횃불꽃 씨앗 (torchflower_seeds)
 
 ### 도구 (바닐라 30 / 추가 0)
 
@@ -780,26 +798,51 @@
 - 철 투구 (iron_helmet)
 - 철 흉갑 (iron_chestplate)
 
-### 음식 (바닐라 17 / 추가 0)
+### 음식 (바닐라 42 / 추가 0)
 
 **바닐라(기존)**
 - 꿀 블록 (honey_block)
 - 꿀이 든 병 (honey_bottle)
-- 당근 낚싯대 (carrot_on_a_stick)
+- 네더 사마귀 (nether_wart)
+- 네더 사마귀 블록 (nether_wart_block)
+- 달콤한 열매 (sweet_berries)
+- 대나무 (bamboo)
+- 대나무 계단 (bamboo_stairs)
+- 대나무 다락문 (bamboo_trapdoor)
+- 대나무 뗏목 (bamboo_raft)
+- 대나무 매다는 표지판 (bamboo_hanging_sign)
+- 대나무 모자이크 (bamboo_mosaic)
+- 대나무 모자이크 계단 (bamboo_mosaic_stairs)
+- 대나무 모자이크 반 블록 (bamboo_mosaic_slab)
+- 대나무 문 (bamboo_door)
+- 대나무 반 블록 (bamboo_slab)
+- 대나무 버튼 (bamboo_button)
+- 대나무 블록 (bamboo_block)
+- 대나무 압력판 (bamboo_pressure_plate)
+- 대나무 울타리 (bamboo_fence)
+- 대나무 울타리 문 (bamboo_fence_gate)
+- 대나무 판자 (bamboo_planks)
+- 대나무 표지판 (bamboo_sign)
+- 말린 켈프 (dried_kelp)
+- 말린 켈프 블록 (dried_kelp_block)
 - 반짝이는 수박 조각 (glistering_melon_slice)
+- 발광 열매 (glow_berries)
 - 버섯 스튜 (mushroom_stew)
 - 벌집 조각 블록 (honeycomb_block)
-- 비트 수프 (beetroot_soup)
 - 빵 (bread)
-- 수박 (melon)
-- 수박씨 (melon_seeds)
+- 사과 (apple)
+- 사탕수수 (sugar_cane)
+- 상자가 실린 대나무 뗏목 (bamboo_chest_raft)
+- 수박 조각 (melon_slice)
 - 수상한 스튜 (suspicious_stew)
 - 케이크 (cake)
+- 켈프 (kelp)
+- 코코아 콩 (cocoa_beans)
 - 쿠키 (cookie)
 - 토끼 스튜 (rabbit_stew)
 - 호박 파이 (pumpkin_pie)
-- 황금 당근 (golden_carrot)
 - 황금 사과 (golden_apple)
+- 후렴과 (chorus_fruit)
 
 ### 음악 (바닐라 1 / 추가 0)
 
@@ -900,7 +943,7 @@
 - 회백색 콘크리트 가루 (light_gray_concrete_powder)
 - 회색 콘크리트 가루 (gray_concrete_powder)
 
-### 재료 (바닐라 598 / 추가 1)
+### 재료 (바닐라 583 / 추가 1)
 
 **바닐라(기존)**
 - TNT (tnt)
@@ -972,7 +1015,6 @@
 - 네더 벽돌 담장 (nether_brick_wall)
 - 네더 벽돌 반 블록 (nether_brick_slab)
 - 네더 벽돌 울타리 (nether_brick_fence)
-- 네더 사마귀 블록 (nether_wart_block)
 - 네더라이트 블록 (netherite_block)
 - 노란색 색유리 (yellow_stained_glass)
 - 노란색 색유리 판 (yellow_stained_glass_pane)
@@ -990,22 +1032,6 @@
 - 눈 (snow)
 - 눈 블록 (snow_block)
 - 단단한 진흙 (packed_mud)
-- 대나무 계단 (bamboo_stairs)
-- 대나무 다락문 (bamboo_trapdoor)
-- 대나무 뗏목 (bamboo_raft)
-- 대나무 매다는 표지판 (bamboo_hanging_sign)
-- 대나무 모자이크 (bamboo_mosaic)
-- 대나무 모자이크 계단 (bamboo_mosaic_stairs)
-- 대나무 모자이크 반 블록 (bamboo_mosaic_slab)
-- 대나무 문 (bamboo_door)
-- 대나무 반 블록 (bamboo_slab)
-- 대나무 버튼 (bamboo_button)
-- 대나무 블록 (bamboo_block)
-- 대나무 압력판 (bamboo_pressure_plate)
-- 대나무 울타리 (bamboo_fence)
-- 대나무 울타리 문 (bamboo_fence_gate)
-- 대나무 판자 (bamboo_planks)
-- 대나무 표지판 (bamboo_sign)
 - 대장장이 작업대 (smithing_table)
 - 대장장이 형판 (bolt_armor_trim_smithing_template)
 - 대장장이 형판 (coast_armor_trim_smithing_template)
@@ -1053,8 +1079,6 @@
 - 마그마 블록 (magma_block)
 - 마법 부여대 (enchanting_table)
 - 막대기 (stick)
-- 말린 켈프 (dried_kelp)
-- 말린 켈프 블록 (dried_kelp_block)
 - 매끄러운 돌 반 블록 (smooth_stone_slab)
 - 매끄러운 붉은 사암 계단 (smooth_red_sandstone_stairs)
 - 매끄러운 붉은 사암 반 블록 (smooth_red_sandstone_slab)
@@ -1115,6 +1139,7 @@
 - 발광석 (glowstone)
 - 발사기 (dispenser)
 - 발효된 거미 눈 (fermented_spider_eye)
+- 벌집 (bee_nest)
 - 벌통 (beehive)
 - 벚나무 (cherry_wood)
 - 벚나무 계단 (cherry_stairs)
@@ -1180,12 +1205,12 @@
 - 산화된 깎인 구리 반 블록 (oxidized_cut_copper_slab)
 - 산화된 조각된 구리 (oxidized_chiseled_copper)
 - 상자 (chest)
-- 상자가 실린 대나무 뗏목 (bamboo_chest_raft)
 - 석재 벽돌 (stone_bricks)
 - 석재 벽돌 계단 (stone_brick_stairs)
 - 석재 벽돌 담장 (stone_brick_wall)
 - 석재 벽돌 반 블록 (stone_brick_slab)
 - 석재 절단기 (stonecutter)
+- 선인장 (cactus)
 - 설탕 (sugar)
 - 섬록암 (diorite)
 - 섬록암 계단 (diorite_stairs)
@@ -1193,6 +1218,7 @@
 - 섬록암 반 블록 (diorite_slab)
 - 셜커 상자 (shulker_box)
 - 소리 블록 (note_block)
+- 수박 (melon)
 - 숫돌 (grindstone)
 - 신호기 (beacon)
 - 심층암 벽돌 (deepslate_bricks)
@@ -1294,6 +1320,7 @@
 - 이끼 낀 조약돌 담장 (mossy_cobblestone_wall)
 - 이끼 낀 조약돌 반 블록 (mossy_cobblestone_slab)
 - 이끼 바닥 (moss_carpet)
+- 이끼 블록 (moss_block)
 - 자석석 (lodestone)
 - 자작나무 (birch_wood)
 - 자작나무 계단 (birch_stairs)
@@ -1473,6 +1500,7 @@
 - 하얀색 초 (white_candle)
 - 하얀색 테라코타 (white_terracotta)
 - 햇빛 감지기 (daylight_detector)
+- 호박 (pumpkin)
 - 호퍼 (hopper)
 - 화강암 (granite)
 - 화강암 계단 (granite_stairs)

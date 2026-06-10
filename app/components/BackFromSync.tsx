@@ -1,18 +1,16 @@
 "use client";
 
 import { useEffect } from "react";
-import { mobListBackPath, mobListBackLabel } from "@/lib/mob-taxonomy";
+import { listBackPath, listBackLabel } from "@/lib/back-navigation";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 function resolveBack(from: string | null, defaultHref: string, defaultLabel: string) {
   if (!from) return { href: defaultHref, label: defaultLabel };
-  try {
-    const path = mobListBackPath(from);
-    return { href: path, label: mobListBackLabel(from) };
-  } catch {
-    return { href: defaultHref, label: defaultLabel };
-  }
+  return {
+    href: listBackPath(from, defaultHref),
+    label: listBackLabel(from, defaultLabel),
+  };
 }
 
 /** 정적 HTML 뒤로가기 링크를 ?from= 쿼리에 맞게 갱신 */

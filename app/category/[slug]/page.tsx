@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { categories, getDocsByCategory } from "@/lib/data";
 import { getEntriesByCategory } from "@/lib/search";
+import { CatalogLink } from "@/app/components/CatalogLink";
 import { SmartIcon } from "@/app/components/SmartIcon";
 import {
   DimensionBlockGrid,
@@ -179,21 +180,18 @@ function Group({ title, count, children }: { title: string; count: number; child
 
 function EntryGrid({ entries }: { entries: { id: string; name: string; emoji: string; image?: string; href: string; category: string; type: string }[] }) {
   return (
-    <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 list-none pl-0">
+    <ul className="catalog-entry-grid list-none pl-0">
       {entries.map((e) => (
         <li key={`${e.type}-${e.id}`} className="list-none">
-          <Link
-            href={e.href}
-            className="wiki-card-hover flex items-center gap-2.5 p-3 no-underline"
-          >
-            <SmartIcon textureId={e.id} image={e.image} emoji={e.emoji} size="sm" alt={e.name} />
-            <div className="min-w-0 flex-1">
-              <p className="text-[13px] text-link dark:text-link-dark hover:underline truncate font-medium">
-                {e.name}
-              </p>
-              <p className="text-[11px] text-wiki-muted dark:text-zinc-500 truncate">{e.category}</p>
-            </div>
-          </Link>
+          <CatalogLink href={e.href} className="catalog-entry-card wiki-card-hover no-underline">
+            <span className="catalog-entry-icon">
+              <SmartIcon textureId={e.id} image={e.image} emoji={e.emoji} size="md" alt={e.name} framed />
+            </span>
+            <span className="catalog-entry-text">
+              <span className="catalog-entry-name">{e.name}</span>
+              <span className="catalog-entry-cat">{e.category}</span>
+            </span>
+          </CatalogLink>
         </li>
       ))}
     </ul>

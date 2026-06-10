@@ -274,6 +274,57 @@
   .wiki-toc ol li a span.toc-num {
     @apply text-wiki-muted dark:text-zinc-500 mr-1.5 tabular-nums;
   }
+
+  /* 카탈로그 항목 그리드 — 아이콘 위 · 이름 아래 */
+  .catalog-entry-grid {
+    @apply grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3;
+  }
+  .catalog-entry-card {
+    @apply flex flex-col items-center gap-2 p-3.5 text-center min-h-[118px];
+  }
+  .catalog-entry-icon {
+    @apply flex items-center justify-center;
+  }
+  .catalog-entry-text {
+    @apply min-w-0 w-full;
+  }
+  .catalog-entry-name {
+    @apply block text-[13px] text-link dark:text-link-dark font-medium truncate;
+  }
+  .catalog-entry-card:hover .catalog-entry-name {
+    @apply underline;
+  }
+  .catalog-entry-cat {
+    @apply block text-[11px] text-wiki-muted dark:text-zinc-500 truncate mt-0.5;
+  }
+
+  /* 광물 분포 카드 */
+  .ore-distribution {
+    @apply clear-both;
+  }
+  .ore-intro {
+    @apply mb-6 p-4 rounded-wiki-lg border border-wiki-borderSoft/70 dark:border-zinc-700
+           bg-wiki-panel/30 dark:bg-zinc-800/30;
+  }
+  .ore-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+  }
+  .ore-card {
+    @apply flex gap-4 p-4 rounded-wiki-lg border border-wiki-borderSoft/70 dark:border-zinc-700
+           bg-white/80 dark:bg-zinc-900/80 hover:shadow-wiki transition-shadow;
+  }
+  .ore-card-icon {
+    @apply shrink-0 pt-0.5;
+  }
+  .ore-card-body {
+    @apply min-w-0 flex-1;
+  }
+  .ore-card-body p {
+    @apply my-1.5 text-[14px];
+  }
+  .ore-card-title {
+    @apply font-sans font-bold text-[1.05rem] mb-1.5 text-wiki-text dark:text-zinc-100 !mt-0 !border-0 !pb-0;
+  }
 }
 
 /* 스크롤바 미세 다듬기 */
