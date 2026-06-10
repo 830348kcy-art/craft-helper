@@ -1,8 +1,8 @@
 # Craft Helper 카탈로그 분류 리포트
-생성: 2026-06-10T15:42:21.607Z
+생성: 2026-06-10T16:11:54.375Z
 
 팬텀 구리 블록 ID 0개 제거됨
-제작 가능 필터: 블록 647 → 647, 아이템 823 → 823
+제작 가능 필터: 블록 648 → 648, 아이템 826 → 826
 
 ## 블록
 
@@ -449,10 +449,11 @@
 - 햇빛 감지기 (daylight_detector)
 - 호퍼 (hopper)
 
-### 식물 (바닐라 11 / 추가 0)
+### 식물 (바닐라 12 / 추가 0)
 
 **바닐라(기존)**
 - 건초 더미 (hay_block)
+- 경작지 (farmland)
 - 말린 켈프 블록 (dried_kelp_block)
 - 밀 작물 (wheat)
 - 벌집 (bee_nest)
@@ -709,12 +710,14 @@
 
 ## 아이템
 
-### 농작물 (바닐라 12 / 추가 0)
+### 농작물 (바닐라 14 / 추가 0)
 
 **바닐라(기존)**
 - 감자 (potato)
 - 당근 (carrot)
 - 당근 낚싯대 (carrot_on_a_stick)
+- 독이 있는 감자 (poisonous_potato)
+- 밀 씨앗 (wheat_seeds)
 - 밀 작물 (wheat)
 - 벌레잡이풀 꼬투리 (pitcher_pod)
 - 비트 (beetroot)
@@ -943,7 +946,7 @@
 - 회백색 콘크리트 가루 (light_gray_concrete_powder)
 - 회색 콘크리트 가루 (gray_concrete_powder)
 
-### 재료 (바닐라 583 / 추가 1)
+### 재료 (바닐라 584 / 추가 1)
 
 **바닐라(기존)**
 - TNT (tnt)
@@ -978,6 +981,7 @@
 - 검은색 염료 (black_dye)
 - 검은색 초 (black_candle)
 - 검은색 테라코타 (black_terracotta)
+- 경작지 (farmland)
 - 경형 무게 압력판 (light_weighted_pressure_plate)
 - 공급기 (dropper)
 - 과녁 (target)

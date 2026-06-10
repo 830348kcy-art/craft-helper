@@ -2938,6 +2938,19 @@
     "hardness": 1
   },
   {
+    "id": "farmland",
+    "name": "경작지",
+    "emoji": "🟫",
+    "image": "/images/blocks/farmland.png",
+    "category": "식물",
+    "description": "경작지. 마인크래프트에서 사용하는 블록입니다.",
+    "tags": [
+      "식물"
+    ],
+    "tool": "삽",
+    "hardness": 1
+  },
+  {
     "id": "fletching_table",
     "name": "화살 작업대",
     "emoji": "🟫",

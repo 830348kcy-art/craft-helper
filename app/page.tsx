@@ -9,6 +9,7 @@ const GUIDE_TEXTURE: Record<string, string> = {
   "getting-started": getBlockTexture("crafting_table"),
   "ore-distribution": getItemTexture("iron_ore"),
   "auto-farm": getItemTexture("wheat"),
+  crops: getItemTexture("carrot"),
 };
 
 export default async function HomePage() {
@@ -53,6 +54,7 @@ export default async function HomePage() {
               차원별 정보는 <Link href="/dimension/overworld">오버월드</Link>·
               <Link href="/dimension/nether">네더</Link>·
               <Link href="/dimension/end">엔드</Link> 분류를,
+              작물은 <Link href="/wiki/crops">작물</Link>,
               자동화는 <Link href="/wiki/auto-farm">자동 농장</Link>을 참고하세요.
             </p>
           </div>

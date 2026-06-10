@@ -3360,6 +3360,18 @@
     "stackSize": 64
   },
   {
+    "id": "farmland",
+    "name": "경작지",
+    "emoji": "📦",
+    "image": "/images/items/farmland.png",
+    "category": "재료",
+    "description": "경작지. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "재료"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "fermented_spider_eye",
     "name": "발효된 거미 눈",
     "emoji": "📦",
@@ -6564,6 +6576,18 @@
     "stackSize": 64
   },
   {
+    "id": "poisonous_potato",
+    "name": "독이 있는 감자",
+    "emoji": "🍖",
+    "image": "/images/items/poisonous_potato.png",
+    "category": "농작물",
+    "description": "독이 있는 감자. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "농작물"
+    ],
+    "stackSize": 64
+  },
+  {
     "id": "polished_andesite",
     "name": "윤나는 안산암",
     "emoji": "📦",
@@ -9522,6 +9546,18 @@
     "image": "/images/items/wheat.png",
     "category": "농작물",
     "description": "밀 작물. 마인크래프트에서 획득·사용하는 아이템입니다.",
+    "tags": [
+      "농작물"
+    ],
+    "stackSize": 64
+  },
+  {
+    "id": "wheat_seeds",
+    "name": "밀 씨앗",
+    "emoji": "📦",
+    "image": "/images/items/wheat_seeds.png",
+    "category": "농작물",
+    "description": "밀 씨앗. 마인크래프트에서 획득·사용하는 아이템입니다.",
     "tags": [
       "농작물"
     ],

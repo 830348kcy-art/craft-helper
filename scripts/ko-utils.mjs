@@ -1402,6 +1402,7 @@ export function inferBlockCategory(id) {
     return "특수";
   if (/^mossy_/.test(id)) return "건축";
   if (id === "flower_pot") return "장식";
+  if (id === "farmland") return "식물";
   if (/flower|rose|tulip|daisy|lily|allium|poppy|dandelion|cornflower|azalea|spore|vine|kelp|seagrass|bamboo|cactus|melon|pumpkin|crop|wheat|carrot|potato|beetroot|berry|mushroom|coral|fern|grass|bush|moss_block|moss_carpet|wildflower|petals|sprouts|fungus|wart|lichen|dripleaf|pitcher|torchflower|hay_block|bee_nest|beehive|composter|sugar_cane|bamboo_block|bamboo_mosaic|bamboo_planks/.test(id))
     return "식물";
   if (/dirt|grass|stone|cobble|sand|gravel|clay|mud|deepslate|andesite|diorite|granite|tuff|calcite|dripstone|ice|snow|podzol|mycelium|farmland|path|infested/.test(id))
@@ -1417,7 +1418,7 @@ export function inferItemCategory(id) {
     return "도구";
   if (/sword|bow|crossbow|trident|mace|arrow|shield/.test(id)) return "무기";
   if (/helmet|chestplate|leggings|boots|horse_armor|wolf_armor/.test(id)) return "방어구";
-  if (/seeds|wheat|beetroot_seeds|melon_seeds|pumpkin_seeds|pitcher_pod|torchflower_seeds|carrot|potato|beetroot/.test(id))
+  if (/seeds|wheat|beetroot_seeds|melon_seeds|pumpkin_seeds|pitcher_pod|torchflower_seeds|carrot|potato|poisonous_potato|beetroot/.test(id))
     return "농작물";
   if (/apple|bread|meat|fish|stew|soup|pie|cookie|cake|berries|melon_slice|chorus|honey|milk|egg|sweet_berries|glow_berries|cocoa_beans|nether_wart|sugar_cane|bamboo|kelp|sea_pickle/.test(id))
     return "음식";

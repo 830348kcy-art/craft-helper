@@ -87,9 +87,12 @@ export function getCraftableIds() {
 }
 
 /** 제작 불가지만 카탈로그에 포함할 기본 작물·식물 (참고용) */
+/** ko.minecraft.wiki/w/작물 기준 참고용 항목 */
 export const SUPPLEMENTAL_ITEM_IDS = new Set([
+  "wheat_seeds",
   "carrot",
   "potato",
+  "poisonous_potato",
   "beetroot",
   "beetroot_seeds",
   "sweet_berries",
@@ -116,11 +119,12 @@ export const SUPPLEMENTAL_BLOCK_IDS = new Set([
   "composter",
   "moss_block",
   "moss_carpet",
+  "farmland",
 ]);
 
 export function isCatalogAllowed(id) {
-  if (isExcludedId(id)) return false;
   if (SUPPLEMENTAL_ITEM_IDS.has(id) || SUPPLEMENTAL_BLOCK_IDS.has(id)) return true;
+  if (isExcludedId(id)) return false;
   return getCraftableIds().has(id);
 }
 

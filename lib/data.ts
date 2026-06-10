@@ -40,6 +40,7 @@ export const featuredGuides: { slug: string; title: string; description: string;
   { slug: "ore-distribution", title: "광물별 분포 정보", description: "석탄·철·구리·금·레드스톤·라피스·다이아·에메랄드·네더라이트 Y레벨 요약.", emoji: "⛏️", href: "/wiki/ore-distribution" },
   { slug: "smithing", title: "대장장이 작업 · 갑옷 장식", description: "18종 형판과 11종 재료별 색상·무늬 미리보기.", emoji: "⚒️", href: "/smithing" },
   { slug: "farm-auto", title: "자동 농장 설계 입문", description: "물줄기와 호퍼만으로 만드는 무한 식량 시스템.", emoji: "🌾", href: "/wiki/auto-farm" },
+  { slug: "crops", title: "작물", description: "밀·당근·감자·수박·호박·사탕수수·네더 사마귀 등 기본 작물 안내.", emoji: "🌱", href: "/wiki/crops" },
 ];
 
 export const docs: Record<string, WikiDoc> = {
@@ -149,6 +150,26 @@ export const docs: Record<string, WikiDoc> = {
         id: "tips",
         heading: "유용한 팁",
         html: `<p><a href="https://ko.minecraft.wiki/w/%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC:%EA%B0%84%EB%8B%A8%ED%95%9C_%ED%8C%81%EA%B3%BC_%ED%8A%B8%EB%A6%AD" target="_blank" rel="noreferrer noopener">간단한 팁과 트릭</a> 요약.</p><ul><li><strong>모래·자갈</strong>: 아래 횃불로 연쇄 채굴.</li><li><strong>방향</strong>: 블록 옆면 균열로 북쪽(곡괭이 금지).</li><li><strong>나무</strong>: 위부터 캐고 맨 아래는 마지막.</li><li><strong>침대</strong>: 새 침대에 잔 뒤 옛 침대 제거.</li><li><strong>비상 쉘터</strong>: 3칸 아래+머리 막기·횃불.</li><li><strong>울타리 문</strong>: 좀비가 문으로 인식하지 않음.</li></ul>`,
+      },
+    ],
+  },
+  "crops": {
+    slug: "crops",
+    title: "작물",
+    category: "items",
+    heroImage: getItemTexture("wheat"),
+    summary: "재배용 식물·곡물·채소·과일 등 농업 산출물 그룹. ko.minecraft.wiki 작물 문서를 기준으로 정리했습니다.",
+    infobox: [
+      { label: "분류", value: "농업 / 식료품" },
+      { label: "재배 기반", value: "경작지 (괭이로 흙 갈기)" },
+      { label: "네더 작물", value: "네더 사마귀 (영혼 모래)" },
+      { label: "참고", value: "ko.minecraft.wiki/w/작물" },
+    ],
+    sections: [
+      {
+        id: "list",
+        heading: "작물 목록",
+        html: `<!-- CROP_GUIDE -->`,
       },
     ],
   },

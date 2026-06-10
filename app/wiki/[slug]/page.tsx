@@ -6,6 +6,7 @@ import { SmartIcon } from "@/app/components/SmartIcon";
 import { WikiArticle } from "@/app/components/PageShell";
 import { WikiSectionContent } from "@/app/components/WikiSectionContent";
 import { OreDistributionContent } from "@/app/components/OreDistributionContent";
+import { CropGuideContent } from "@/app/components/CropGuideContent";
 import { DetailBackBar } from "@/app/components/DetailBackBar";
 import { getCategoryTexture } from "@/lib/textures";
 
@@ -76,6 +77,8 @@ export default function WikiDocPage({ params }: { params: { slug: string } }) {
 
                 {params.slug === "ore-distribution" ? (
                   <OreDistributionContent sections={doc.sections} />
+                ) : params.slug === "crops" ? (
+                  <CropGuideContent />
                 ) : (
                   doc.sections.map((s) => (
                     <section key={s.id}>
